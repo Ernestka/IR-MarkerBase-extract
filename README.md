@@ -30,7 +30,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | journal.pone.0332497 | master | AWAIT_SUPPLEMENT | True | high | low | True | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 7781 | 3736 |  |  |  |  | 0.0000 |
 | s12936-021-03606-4 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 9101 | 4765 | gemini:gemini-3.7-flash | 22346 | 13335 | 1 survey(s), 2 genotype, 1 bioassay, 0 geno-pheno rows; 2 warning(s) | 0.0000 |
 | s12936-025-05696-w | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 7481 | 2103 |  |  |  |  | 0.0000 |
-| s13071-021-04706-5 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6941 | 1706 | gemini:gemini-3.1-flash-lite | 27054 | 4930 | re-extract after validator fix | 0.0000 |
+| s13071-021-04706-5 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6941 | 1706 | gemini:gemini-3.5-flash | 8214 | 21826 | 9 survey(s), 2 genotype, 5 bioassay, 0 geno-pheno rows | 0.0000 |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

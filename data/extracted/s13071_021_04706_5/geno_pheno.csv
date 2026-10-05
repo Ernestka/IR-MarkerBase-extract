@@ -1,3 +1,1 @@
 bioassay_id,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,source_text,page,table,figure,supplement
-s13071_021_04706_5_pyrethroid_bioassay,Vgsc,L995S,Vgsc,L995S,SNP,alive,0,1,14,15,"Table 3 Knockdown resistance allelic frequency in An. gambiae (s.s.) populations from Kilifi county, coastal Kenya. Resistant refers to mosquitoes alive after 24 h of exposure to pyrethroid pesticide.",6,3,,
-s13071_021_04706_5_pyrethroid_bioassay,Vgsc,L995S,Vgsc,L995S,SNP,dead,2,1,31,34,"Table 3 Knockdown resistance allelic frequency in An. gambiae (s.s.) populations from Kilifi county, coastal Kenya. Susceptible indicates dead mosquitoes after 24 h of exposure to pyrethroid pesticide.",6,3,,
