@@ -1,0 +1,2 @@
+bioassay_id,survey_id,insecticide,insecticide_class,concentration,exposure_duration_min,assay_method,assay_type,synergist,n_exposed,n_dead,n_alive,reported_mortality_pct,mortality_time_h,source_text,page,table,figure,supplement
+s13071_021_04706_5_pyrethroid_bioassay,s13071_021_04706_5_kilifi_2013_2014,pyrethroids,pyrethroid,,60.0,WHO tube bioassay,standard,,49,34,15,,24.0,"Upon exposure to pyrethroids for 24 h, a total of 15 An. gambiae, An. arabiensis and An. gambiae (s.s.) were identified with the resistant phenotype, while 34 had the susceptible phenotype.",6,3,,

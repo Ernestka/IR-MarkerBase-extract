@@ -1,0 +1,20 @@
+study_id: isabelleborloz__5362_NTONGA_AKONO
+title: Habitats larvaires d’Anopheles gambiae s.l. et mécanismes de résistance à Kribi
+  (Cameroun)
+first_author: Patrick NTONGA AKONO
+doi: 10.48327/mtsi.v2i4.2022.284
+pmid: null
+publication_year: 2022
+countries:
+- Cameroon
+data_source: journal
+provenance:
+  source_text: Habitats larvaires d’Anopheles gambiae s.l. et mécanismes de résistance
+    à Kribi (Cameroun)
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-05'

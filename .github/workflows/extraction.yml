@@ -1,7 +1,8 @@
 name: Extraction
 
 # Stage 2. Manual dispatch for now (it bills the API and is the heavier stage).
-# Extracts ELIGIBLE papers into STAVE format, validated by the real STAVE package.
+# Extracts ELIGIBLE papers into surveys/genotypes/bioassays/geno_pheno tables,
+# validated in Python (src/validate.py), and rebuilds data/final/ir_extraction.{csv,xlsx}.
 on:
   workflow_dispatch:
     inputs:
@@ -9,8 +10,8 @@ on:
         description: "Max papers to extract this run"
         default: "10"
       model:
-        description: "Model (haiku/sonnet/opus)"
-        default: "opus"
+        description: "Model spec (flash-extract / pro / sonnet / opus / provider:model — see src/llm.py)"
+        default: "flash-extract"
 
 permissions:
   contents: write
@@ -37,21 +38,6 @@ jobs:
       - name: Install LibreOffice
         run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libreoffice-writer libreoffice-calc
 
-      # R + the STAVE guardrail. use-public-rspm pulls CRAN deps as fast binaries.
-      - uses: r-lib/actions/setup-r@v2
-        with:
-          use-public-rspm: true
-
-      - name: Install STAVE + variantstring
-        # GITHUB_PAT lets remotes authenticate to the GitHub API (otherwise the
-        # unauthenticated rate limit blocks install_github with "cannot open URL").
-        env:
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          Rscript -e 'install.packages(c("remotes","yaml","dplyr","lubridate","R6","stringr","tidyr"))'
-          Rscript -e 'remotes::install_github("mrc-ide/variantstring@v1.8.7", upgrade="never")'
-          Rscript -e 'remotes::install_github("mrc-ide/STAVE@v2.0.4", upgrade="never")'
-
       - name: Write service-account key
         run: printf '%s' "$DRIVE_SA_KEY" > "$RUNNER_TEMP/key.json"
         env:
@@ -63,6 +49,7 @@ jobs:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/key.json
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
           DRIVE_SUPPLEMENT_FOLDER_ID: ${{ secrets.DRIVE_SUPPLEMENT_FOLDER_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           EXTRACT_MODEL: ${{ inputs.model }}
           EXTRACT_MAX_PER_RUN: ${{ inputs.max_per_run }}
@@ -71,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/roster.csv data/extracted docs/stats.svg README.md
+          git add data/roster.csv data/extracted data/final docs/stats.svg README.md
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Extract studies"
           git pull --rebase --autostash

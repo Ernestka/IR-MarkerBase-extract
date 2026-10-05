@@ -1,0 +1,19 @@
+study_id: s13071_021_04706_5
+title: Insecticide resistance status in Anopheles gambiae (s.l.) in coastal Kenya
+first_author: Daniel N. Munywoki
+doi: 10.1186/s13071-021-04706-5
+pmid: '33883000'
+publication_year: 2021
+countries:
+- Kenya
+data_source: primary
+provenance:
+  source_text: The study investigates the insecticide resistance status of Anopheles
+    gambiae (s.l.) mosquitoes from coastal Kenya.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.1-flash-lite
+extracted: '2026-10-05'

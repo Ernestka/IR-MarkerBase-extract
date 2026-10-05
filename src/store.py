@@ -8,7 +8,9 @@ Three files, split by who edits them (see NOTES.md):
   eligibility/<id>.json — BOT-OWNED. The full eligibility decision for one paper:
                         every criterion with its evidence, exclusion reasons, the
                         duplicate-risk and supplement findings. The "why".
-  extracted/<id>/     — BOT-OWNED. Stage-2 STAVE output for one study.
+  extracted/<id>/     — BOT-OWNED. Stage-2 output for one study (surveys, genotypes,
+                        bioassays, geno_pheno + README).
+  final/              — BOT-OWNED. The combined table (export.py).
   exclude.txt         — YOU edit (in the GitHub web UI). One filename per line,
                         '#' for comments. Papers here are skipped, never assessed.
   duplicate_decisions.yaml — YOU edit. A flat mapping `id: verdict` where verdict
@@ -32,7 +34,7 @@ AWAIT_SUPPLEMENT = "AWAIT_SUPPLEMENT"  # parked: needs supplementary files not y
 SUPPLEMENT_INSUFFICIENT = "SUPPLEMENT_INSUFFICIENT"  # supplement WAS examined but still lacked the needed data
 NAME_COLLISION = "NAME_COLLISION"      # two Drive files share this name — rename one
 # Stage 2 — extraction
-EXTRACTED = "EXTRACTED"               # extracted + passed STAVE validation — terminal
+EXTRACTED = "EXTRACTED"               # extracted + passed validate.py — terminal
 EXTRACTION_FAILED = "EXTRACTION_FAILED"  # hit the validation retry limit — needs your attention
 
 # Statuses that need your attention — surfaced in the weekly digest.

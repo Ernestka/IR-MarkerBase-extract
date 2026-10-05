@@ -4,9 +4,9 @@ content blocks the model can actually read.
 
 The MAIN paper is always a PDF and is handled directly by the agents. This module
 is ONLY for SUPPLEMENTARY files, which arrive in many scientific formats. Each
-file is converted to an Anthropic content block:
+file is converted to an llm part:
 
-  PDF                         -> document block (passed through natively)
+  PDF                         -> llm.Pdf (passed through natively)
   XLSX / XLS (spreadsheets)   -> text, one tab-separated table per sheet
   CSV / TSV / TXT / tab-delim -> text (passed through as-is)
   DOCX / DOC (Word)           -> extracted text
@@ -21,12 +21,13 @@ than aborting the run. Spreadsheet/Word support needs the libraries in
 requirements.txt (openpyxl, xlrd, python-docx); legacy .doc additionally needs
 LibreOffice (`soffice`, present on the CI runner) or antiword/catdoc.
 """
-import base64
 import io
 import os
 import shutil
 import subprocess
 import tempfile
+
+import llm
 
 MAX_CHARS_PER_FILE = 60_000     # keep token cost bounded; note when we truncate
 MAX_ROWS_PER_SHEET = 1000       # per spreadsheet sheet
@@ -38,8 +39,7 @@ PLAINTEXT_EXTS = {"csv", "tsv", "tab", "txt", "text", ""}
 def load(files):
     """files: [{'name': str, 'bytes': bytes}, ...]. Returns (blocks, summary).
 
-    `blocks` is a list of Anthropic content blocks (document/text) ready to drop
-    into a message; `summary` is a short human-readable line of what was loaded
+    `blocks` is a list of llm.Pdf / llm.Text parts ready to pass to llm.call(); `summary` is a short human-readable line of what was loaded
     or skipped (for logging).
     """
     blocks, notes = [], []
@@ -49,7 +49,7 @@ def load(files):
         ext = name.rsplit(".", 1)[-1].lower() if "." in name else ""
         try:
             if ext == "pdf":
-                blocks.append(_pdf_block(data))
+                blocks.append(llm.Pdf(data, name))
                 notes.append(f"{name} (pdf)")
                 continue
             if ext == "xlsx":
@@ -73,16 +73,10 @@ def load(files):
     return blocks, ("; ".join(notes) if notes else "no files")
 
 
-# --- Content blocks --------------------------------------------------------
-
-def _pdf_block(data):
-    b64 = base64.standard_b64encode(data).decode("utf-8")
-    return {"type": "document",
-            "source": {"type": "base64", "media_type": "application/pdf", "data": b64}}
-
+# --- Parts -----------------------------------------------------------------
 
 def _text_block(name, text):
-    return {"type": "text", "text": f"----- Supplementary file: {name} -----\n{text}"}
+    return llm.Text(f"----- Supplementary file: {name} -----\n{text}")
 
 
 # --- Format converters -----------------------------------------------------

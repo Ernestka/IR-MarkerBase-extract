@@ -1,0 +1,19 @@
+study_id: s12936_021_03606_4
+title: Western Kenyan Anopheles gambiae showing intense permethrin resistance harbour
+  distinct microbiota
+first_author: Diana Omoke
+doi: 10.1186/s12936-021-03606-4
+pmid: null
+publication_year: 2021
+countries:
+- Kenya
+data_source: literature
+provenance:
+  source_text: Omoke et al. Malar J (2021) 20:77 https://doi.org/10.1186/s12936-021-03606-4
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-05'

@@ -1,0 +1,69 @@
+{
+  "id": "s13071-021-04706-5",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae (s.l.) in coastal Kenya (Title, Abstract, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the L1014S and L1014F knockdown resistance (kdr) mutations (Abstract, Methods, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 6 reports the L1014S genotype counts (RR, RS, SS) for pyrethroid-resistant and pyrethroid-susceptible Anopheles gambiae (s.s.) populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larval mosquito collections were carried out in eight study sites in Kilifi and Malindi subcounties, Kilifi County, coastal Kenya (Methods, Study area)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies eight specific villages in Kilifi County: Ngombeni, Mbogolo, Jaribuni, Kidutani, Shibe, Mapawa, Mangororo, and Burangi, including their geographic coordinates (Methods, Study area)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were conducted in June, August, and November 2013, and in July 2014 (Methods, Larval mosquito collection, transportation and rearing)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The collections represent routine primary research conducted by the authors with no indication of overlap with larger databases or previously published datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay results are fully reported in the main text and tables (Table 1, Table 2, Table 3)."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 192,
+    "summary": "This study reports on the insecticide resistance status and kdr (L1014S and L1014F) mutation frequencies in Anopheles gambiae (s.l.) from eight sites in Kilifi County, coastal Kenya. Larvae were collected between June 2013 and July 2014, reared to adulthood, and tested using WHO tube bioassays. A total of 192 mosquitoes (including An. gambiae s.s. and An. arabiensis) were genotyped for kdr mutations. The L1014S mutation was detected at a low frequency (3.33% in resistant individuals) only in An. gambiae (s.s.), while L1014F was not detected.",
+    "exclusion_reasons": []
+  }
+}

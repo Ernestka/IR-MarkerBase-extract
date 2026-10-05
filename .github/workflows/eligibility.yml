@@ -2,14 +2,16 @@ name: Eligibility
 
 # Stage 1. Runs every 4 hours, and can be triggered by hand from the Actions tab.
 # Silent — it never notifies you; the weekly digest does that.
+# The schedule is OFF until the Drive inbox holds IR papers and the gold-set
+# evaluation is done — uncomment the two lines below to switch it on.
 on:
-  schedule:
-    - cron: "0 */4 * * *"
+  # schedule:
+  #   - cron: "0 */4 * * *"
   workflow_dispatch:
     inputs:
       model:
-        description: "Model (haiku/sonnet/opus)"
-        default: "opus"
+        description: "Model spec (flash / pro / sonnet / opus / provider:model — see src/llm.py)"
+        default: "flash"
 
 # Needed so the job can commit the updated roster back to the repo.
 permissions:
@@ -51,9 +53,10 @@ jobs:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/key.json
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
           DRIVE_SUPPLEMENT_FOLDER_ID: ${{ secrets.DRIVE_SUPPLEMENT_FOLDER_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MARKERBASE_MODEL: ${{ inputs.model || 'opus' }}
-          MARKERBASE_MAX_PER_RUN: "100"
+          MARKERBASE_MODEL: ${{ inputs.model || 'flash' }}
+          MARKERBASE_MAX_PER_RUN: "100"   # Gemini free tier allows a few hundred requests/day
 
       # Commit only if something actually changed (no noisy empty commits).
       - name: Commit the updated roster + eligibility records

@@ -1,0 +1,67 @@
+{
+  "id": "s12936-021-03606-4",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu stricto (s.s.) (Page 1, Abstract; Page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study screened mosquitoes for kdr East (Vgsc_1014S / L995S) and West (Vgsc_1014F / L995F) mutations (Page 1, Abstract; Page 6, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports that out of 100 samples, 99% had the kdr east mutation and 1% had the kdr west mutation (Page 6), with an overall kdr east allele frequency of 99.14% (Page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as wild blood-fed/gravid females from Tulukuyi village, Bungoma County, Kenya, and their F1 progeny were tested (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study characterizing the microbiota and kdr genotypes of field-collected mosquitoes (Page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were conducted in Tulukuyi village, Bungoma County, Kenya, at coordinates 0.56°N 34.56°E (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted in April and May 2018 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The samples were collected specifically for this primary microbiota study and there is no indication of overlap with larger genomic databases."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The genotype frequencies and sample sizes are sufficiently described in the main text (Page 6 and Page 8)."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 100,
+    "summary": "This study characterized the microbiota of permethrin-resistant and susceptible Anopheles gambiae s.s. from Tulukuyi village, Bungoma County, Kenya, collected in 2018. It also genotyped 100 of these mosquitoes for Vgsc L995S (kdr-east) and L995F (kdr-west) mutations, finding near-fixation of the L995S mutation (99.14% allele frequency).",
+    "exclusion_reasons": []
+  }
+}

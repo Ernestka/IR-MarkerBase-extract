@@ -1,4 +1,4 @@
-# MarkerBase pipeline — notes
+# IR MarkerBase pipeline — notes
 
 ## How the Google Drive access works
 
@@ -79,7 +79,7 @@ The full pipeline talks to two external services, each with its own credential:
 | Credential | Env var | Used for | Billed to |
 |---|---|---|---|
 | Google service-account key | `GOOGLE_APPLICATION_CREDENTIALS` | *Fetching* papers from Drive | Free (Drive API) |
-| Anthropic API key | `ANTHROPIC_API_KEY` | *Assessing* papers | API credit |
+| LLM API key | `GEMINI_API_KEY` (default) or `ANTHROPIC_API_KEY` / `OPENAI_API_KEY` | *Assessing + extracting* papers | Gemini free tier (rate-limited); others per token |
 
 A terminal running the whole flow needs **both** set. They're independent
 accounts, credentials, and bills.
@@ -141,18 +141,12 @@ eligibility spec changes; rows then show which spec judged them. (Re-assessing
 old papers under a new spec is a deliberate manual action — not automatic, so a
 spec tweak can't silently re-bill the whole back-catalogue.)
 
-### What's NOT built yet
-
-`ELIGIBLE` is the current finish line — the **extraction stage (stage 2)** that
-pulls the actual marker frequencies is the next thing to design. The roster
-already has a slot for it.
-
 ## A note on committed paper text
 
 The repo is **public** on purpose, for transparency of the code. `roster.csv` is
 lightweight — status + a few booleans, no paper text at all. The reasoning
 (per-criterion evidence quotes, exclusion reasons, the model's summary) lives in
-`data/assessments/<id>.json`. Those are short snippets, which is fine — a journal
+`data/eligibility/<id>.json`. Those are short snippets, which is fine — a journal
 owns the typesetting, not the underlying facts or a sentence of text. The firm
 rule is simply: **never store a whole paper's text** (and the PDFs themselves are
 never committed — they're fetched in memory, and `papers/` is gitignored).
@@ -169,77 +163,91 @@ The README is deliberately high-level; the detail lives here.
 
 ### Two stages
 
-- **Stage 1 — eligibility** (`run_eligibility.py`, `eligibility.yml`, every 4h):
-  triage PDFs against the eligibility spec; ELIGIBLE papers wait for stage 2.
-- **Stage 2 — extraction** (`run_extraction.py`, `extraction.yml`, manual): pull
-  STAVE-shaped data from ELIGIBLE papers and validate it with the real STAVE R
-  package, repairing up to 5× before giving up (EXTRACTION_FAILED). Output lands
-  in `data/extracted/<id>/`. Pushing to the separate data repo is a later step.
+- **Stage 1 — eligibility** (`run_eligibility.py`, `eligibility.yml`): triage PDFs
+  against the eligibility spec; ELIGIBLE papers wait for stage 2. The 4-hourly
+  schedule is **commented out** until the Drive inbox holds IR papers.
+- **Stage 2 — extraction** (`run_extraction.py`, `extraction.yml`, manual): extract
+  the five tables, validate in Python, repair up to `EXTRACT_MAX_REPAIRS` (3) times
+  before giving up (EXTRACTION_FAILED), then rebuild `data/final/`.
+- **Local** (`run_local.py`): both stages on a local folder of PDFs. Writes to
+  `local_output/` (git-ignored). Use it for the gold set and prompt iteration.
 
 ### Layout
 
 ```
-config/  target_loci.csv — the curated target codon positions (you maintain)
-src/     all the code (+ stave_validate.R, the R guardrail)
-data/    state — roster.csv, eligibility/<id>.json, extracted/<id>/ (bot);
+config/  target_loci.csv — target IR markers + aliases (you maintain)
+src/     all the code
+data/    roster.csv, eligibility/<id>.json, extracted/<id>/, final/ (bot);
          exclude.txt, duplicate_decisions.yaml (you)
 docs/    NOTES.md + the generated stats.svg
 .github/ eligibility.yml, extraction.yml, digest.yml
-requirements.txt   Python deps (top level, by convention)
 ```
 
 ### Code
 
 | File | Role |
 |---|---|
-| `src/run_eligibility.py` | Stage-1 driver (run by `eligibility.yml`). |
-| `src/eligibility.py` | Eligibility spec + the structured assessment call. |
-| `src/run_extraction.py` | Stage-2 driver + STAVE validate/repair loop (`extraction.yml`). |
-| `src/extraction.py` | Extractor schema/rules + writes the four output files. |
-| `src/stave_validate.R` | Validates a study's files against the STAVE R package. |
-| `src/targets.py` | Loads `config/target_loci.csv`. |
-| `src/digest.py` | The weekly digest (run by `digest.yml`). |
-| `src/stats.py` | Regenerates `docs/stats.svg` from the roster. |
-| `src/drive.py` | Google Drive access (walk / fetch / supplements). |
-| `src/store.py` | Roster, exclude list, decisions, per-paper eligibility files. |
+| `src/llm.py` | The only LLM interface: Gemini / Anthropic / OpenAI-compatible, PDF input, Pydantic structured output, throttle + retry. |
+| `src/eligibility.py` | Eligibility spec + schema + the assessment call. `REQUIRED_CHECKS` sets the rule. |
+| `src/extraction.py` | Extraction schema (5 tables + provenance), prompt, per-study writers. |
+| `src/validate.py` | Deterministic checks → errors (repair loop) / warnings (README). |
+| `src/export.py` | Builds `data/final/ir_extraction.{csv,xlsx}`; computes all derived values. |
+| `src/targets.py` | Loads `config/target_loci.csv`; `normalise()` maps aliases / Musca numbering. |
+| `src/run_eligibility.py`, `src/run_extraction.py` | Drive-based drivers (GitHub Actions). |
+| `src/run_local.py` | Local-folder driver. |
+| `src/supplements.py` | Converts supplementary files (xlsx/xls/csv/docx/doc/pdf) to LLM parts. |
+| `src/pricing.py` | Cost estimates (Gemini free tier = $0). |
+| `src/digest.py`, `src/stats.py`, `src/drive.py`, `src/store.py` | Weekly issue, status SVG, Drive access, state files. |
+
+### Data model
+
+| table | one row = |
+|---|---|
+| `study.yaml` | one paper |
+| `surveys.csv` | site × time window × species × collection method |
+| `genotypes.csv` | survey × marker (RR/RS/SS or allele counts; `pooled` flag) |
+| `bioassays.csv` | survey × insecticide × concentration × synergist |
+| `geno_pheno.csv` | bioassay × marker × alive/dead → RR/RS/SS |
+
+The final table is long format: one row per genotype, bioassay or geno-pheno
+record (`Record type`), with paper and survey fields repeated, and `NA` for
+missing values. Where your column list had duplicate names, they are
+disambiguated as `Country` / `Country (site)` and `Evidence location (data
+source)` / `Evidence location (coordinates)`.
+
+Rules: the LLM gives raw counts only, and frequencies are computed in code
+(allele freq = (2RR+RS)/2N). A frequency the paper prints without counts is used
+only as a fallback, flagged `Raw counts available = no (reported frequency only)`.
+Vgsc codon 995 (1014) is multi-allelic (L/F/S): L995F and L995S are separate
+rows, and for each, SS = mosquitoes with no copy of *that* allele (so it
+includes carriers of the other mutation); the true L/L count goes in the study
+README. Coordinates are only those the paper states. Geocoding place names
+(GeoNames/OSM) is **not built yet**, so `Coordinates reported or inferred` is
+`reported` or `NA`. The WHO phenotype uses raw mortality (no Abbott correction),
+only for diagnostic-dose assays without synergist.
 
 ### State / config files
 
 | File | Owner | Purpose |
 |---|---|---|
-| `config/target_loci.csv` | you | The 51 target codon positions (WHO compendium v1.0). |
-| `data/roster.csv` | bot | Lightweight: one row per paper — status + at-a-glance flags. |
-| `data/eligibility/<id>.json` | bot | The full eligibility decision per paper (the "why"). |
-| `data/extracted/<id>/` | bot | STAVE output: study.yaml, surveys.csv, counts.csv, README.md. |
-| `data/exclude.txt` | you | Papers to skip entirely. One filename per line. |
-| `data/duplicate_decisions.yaml` | you | `duplicate` / `unique` rulings on flagged papers. |
+| `config/target_loci.csv` | you | Target markers, aliases, variant type, tier (draft — verify). |
+| `data/roster.csv` | bot | One row per paper — status + flags + model/tokens. |
+| `data/eligibility/<id>.json` | bot | Full eligibility decision per paper. |
+| `data/extracted/<id>/` | bot | The five tables + README (decisions, validator warnings). |
+| `data/final/` | bot | Combined CSV + Excel. |
+| `data/exclude.txt` | you | Papers to skip entirely. |
+| `data/duplicate_decisions.yaml` | you | `duplicate` / `unique` rulings. |
 
 ### Secrets (repo settings → Secrets and variables → Actions)
 
-| Secret | Used for |
+| Secret / variable | Used for |
 |---|---|
+| `GEMINI_API_KEY` | Default model provider. |
+| `ANTHROPIC_API_KEY` | Only if you run with a Claude model spec (optional). |
 | `DRIVE_SA_KEY` | Drive service-account JSON key (full file contents). |
-| `DRIVE_FOLDER_ID` | Top `papers` folder (walked recursively). |
-| `DRIVE_SUPPLEMENT_FOLDER_ID` | Top supplements folder, same tree shape (optional). |
-| `ANTHROPIC_API_KEY` | The eligibility and extraction model calls (billed per paper). |
-
-`GITHUB_TOKEN` is provided automatically — no setup needed for the digest.
-
-### STAVE extraction notes
-
-- Targets are the codon positions in `config/target_loci.csv` (genes mapped to
-  variantstring tokens via the `vs_gene` column). Encoding follows the
-  `variantstring` grammar (`gene:pos:aa`; underscores for within-gene haplotypes;
-  `;` across genes; reference AA for wild type; `/` for mixed calls).
-- Resolution preference: prefer multi-locus haplotype encoding unless its N is
-  <80% of the per-locus N. Wild-type imputed only where the sequenced range is
-  known. Every non-trivial call is written into the study's `README.md`.
-- The R validator is the guardrail: extraction is only accepted once STAVE's
-  `append_data()` accepts it. The output format (14-col surveys with
-  `sample_source`, short gene tokens `crt`/`k13`/`dhfr`/`dhps`/`mdr1`/`cytb`,
-  reference-AA wild-type rows, the `pmid_` study_id prefix STAVE needs since it
-  rejects digit-leading IDs) was validated against a local STAVE 2.0.3 install.
-  The repair loop still guards against per-paper surprises.
+| `DRIVE_FOLDER_ID` | Top `papers` folder — **point this at the IR papers folder**. |
+| `DRIVE_SUPPLEMENT_FOLDER_ID` | Top supplements folder (optional). |
+| `DIGEST_ASSIGNEES` (variable) | GitHub username(s) to assign the weekly issue to. |
 
 ### Drive layout & contributor access
 
@@ -261,10 +269,11 @@ their subfolder; no secret or code change needed.
 
 ### Running locally
 
+Without Drive: see the README quick start (`src/run_local.py`). With Drive:
+
 ```bash
-pip install -r requirements.txt
-export GOOGLE_APPLICATION_CREDENTIALS=~/.secrets/pfdr-markerbase-key.json
+export GOOGLE_APPLICATION_CREDENTIALS=~/.secrets/<key>.json
 export DRIVE_FOLDER_ID=...            # and DRIVE_SUPPLEMENT_FOLDER_ID if used
-export ANTHROPIC_API_KEY=sk-ant-...
-python src/pipeline.py
+export GEMINI_API_KEY=...
+python src/run_eligibility.py && python src/run_extraction.py
 ```

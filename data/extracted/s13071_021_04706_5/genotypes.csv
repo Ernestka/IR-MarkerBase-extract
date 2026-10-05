@@ -1,0 +1,2 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,resistant_allele_count,reported_allele_freq,source_text,page,table,figure,supplement
+s13071_021_04706_5_kilifi_2013_2014,Vgsc,L995S,Vgsc,L995S,SNP,1,L1014S,,S,real-time PCR,False,49,2,2,45,6,,"Table 3 Knockdown resistance allelic frequency in An. gambiae (s.s.) populations from Kilifi county, coastal Kenya.",6,3,,

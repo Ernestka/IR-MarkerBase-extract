@@ -28,11 +28,12 @@ ASSESS = DATA / "eligibility"
 MARKER = "<!-- markerbase-attention -->"   # hidden tag to re-find our issue
 TITLE = "📋 MarkerBase: papers needing attention"
 
-# Assign the attention issue to these GitHub users so they get emailed: an
+# Assign the attention issue to these GitHub users so they get emailed (set the
+# DIGEST_ASSIGNEES repo variable, e.g. your GitHub username): an
 # assignment (and a comment on each update) notifies you even on the low-noise
 # "Participating and @mentions" watch setting — a silent body edit never does.
 # Override with the DIGEST_ASSIGNEES env var (comma-separated usernames).
-ASSIGNEES = [u.strip() for u in os.environ.get("DIGEST_ASSIGNEES", "bobverity").split(",") if u.strip()]
+ASSIGNEES = [u.strip() for u in os.environ.get("DIGEST_ASSIGNEES", "").split(",") if u.strip()]
 
 SECTIONS = [
     (store.REVIEW_DUPLICATE, "🔁 Possible duplicates — rule on each in `duplicate_decisions.yaml`",
@@ -46,7 +47,7 @@ SECTIONS = [
     (store.NAME_COLLISION, "⚠️ Duplicate filenames in Drive",
      "Two files share this name — rename so each PDF is unique."),
     (store.EXTRACTION_FAILED, "🔧 Extraction failed (hit the retry limit)",
-     "STAVE rejected the extraction 5×; see data/extracted/<id>/EXTRACTION_FAILED.md."),
+     "Validation kept failing after the repair attempts; see data/extracted/<id>/EXTRACTION_FAILED.md."),
 ]
 
 

@@ -19,8 +19,9 @@ Env:
   GOOGLE_APPLICATION_CREDENTIALS  path to the Drive service-account key
   DRIVE_FOLDER_ID                 the inbox folder of PDFs
   DRIVE_SUPPLEMENT_FOLDER_ID      (optional) parent of the supplement/<id>/ folders
-  ANTHROPIC_API_KEY               for the assessment call
-  MARKERBASE_MODEL                haiku | sonnet | opus   (default: opus)
+  GEMINI_API_KEY                  for the assessment call (or the key for the
+                                  provider MARKERBASE_MODEL points at)
+  MARKERBASE_MODEL                model spec, see llm.py  (default: flash)
   MARKERBASE_MAX_PER_RUN          cost cap per run         (default: 100)
 """
 import os
@@ -31,6 +32,7 @@ from pathlib import Path
 
 import drive
 import eligibility as agent
+import llm
 import store
 import supplements
 
@@ -40,8 +42,8 @@ EXCLUDE = DATA / "exclude.txt"
 DECISIONS = DATA / "duplicate_decisions.yaml"
 ASSESS = DATA / "eligibility"   # per-paper <id>.json eligibility decisions
 
-MODEL = os.environ.get("MARKERBASE_MODEL", "opus")
-MAX_PER_RUN = int(os.environ.get("MARKERBASE_MAX_PER_RUN", "100"))
+MODEL = os.environ.get("MARKERBASE_MODEL") or "flash"
+MAX_PER_RUN = int(os.environ.get("MARKERBASE_MAX_PER_RUN") or "100")
 
 TRUE_STRINGS = {"true", "1", "yes"}
 
@@ -102,7 +104,7 @@ def collision_row(existing, s, files):
     return row
 
 
-def route(existing, s, assessment, mode, source):
+def route(existing, s, assessment, mode, source, used_model=None):
     """Decide the new status, write the full per-paper decision, and return the
     lightweight roster row."""
     row = _base_row(existing, s, source)
@@ -110,10 +112,10 @@ def route(existing, s, assessment, mode, source):
     if mode == "resume":
         attempts += 1
     row.update(last_assessed=today(), spec_version=agent.SPEC_VERSION,
-               elig_model=agent.MODELS[MODEL][0], supp_attempts=attempts)
+               elig_model=used_model or llm.model_id(MODEL), supp_attempts=attempts)
 
     if assessment is None:
-        row.update(status=store.INELIGIBLE, notes="model returned no structured result")
+        row.update(status=store.INELIGIBLE, notes="model returned no structured result — re-run or check by hand")
         return row
 
     a = assessment
@@ -129,7 +131,7 @@ def route(existing, s, assessment, mode, source):
     store.save_assessment(ASSESS, s, {
         "id": s,
         "source": source,
-        "model": MODEL,
+        "model": used_model or llm.model_id(MODEL),
         "spec_version": agent.SPEC_VERSION,
         "assessed": today(),
         "assessment": a.model_dump(mode="json"),
@@ -228,13 +230,17 @@ def main():
             deferred += 1
             continue
         try:
-            supp_blocks = None
+            supp_parts = None
             if mode == "resume":
                 files = drive.fetch_supplement_files(svc, supp_folder_id, s)
-                supp_blocks, summary = supplements.load(files)
+                supp_parts, summary = supplements.load(files)
                 print(f"    supplement for {s}: {summary}")
             pdf_bytes = drive.fetch_bytes(svc, fid)
-            resp = agent.assess_pdf_bytes(pdf_bytes, model_key=MODEL, supplement_blocks=supp_blocks)
+            resp = agent.assess_pdf_bytes(pdf_bytes, model=MODEL, supplement_parts=supp_parts)
+        except llm.AllModelsFailed as e:   # out of quota: stop, leave the rest for next run
+            print(f"  ! stopping: {e}")
+            deferred += 1
+            break
         except Exception as e:  # don't let one bad paper abort the whole run
             print(f"  ! {s}: {e}")
             failed += 1
@@ -242,10 +248,10 @@ def main():
         assessed += 1
         prev_in = int((roster.get(s) or {}).get("elig_tok_in") or 0)
         prev_out = int((roster.get(s) or {}).get("elig_tok_out") or 0)
-        row = route(roster.get(s), s, resp.parsed_output, mode, source)
+        row = route(roster.get(s), s, resp.parsed, mode, source, resp.model_id)
         # Accumulate eligibility tokens across the initial assessment + any resumes.
-        row["elig_tok_in"] = prev_in + getattr(resp.usage, "input_tokens", 0)
-        row["elig_tok_out"] = prev_out + getattr(resp.usage, "output_tokens", 0)
+        row["elig_tok_in"] = prev_in + resp.tok_in
+        row["elig_tok_out"] = prev_out + resp.tok_out
         # Record the fingerprint of the supplement we EXAMINED — empty on a first
         # ('new') assessment, which doesn't load one — so we re-check only when the
         # folder contents change (and a folder already present at first assessment

@@ -1,0 +1,68 @@
+{
+  "id": "journal.pone.0332497",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on 'Anopheles gambiae s.l. in Côte d’Ivoire' (Page 1, Title)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes 'Kdr L1014F and Ace-1R G119S' (Page 1, Abstract; Page 5, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 on page 8 reports the allelic frequencies and sample sizes (N) of Kdr L1014F and Ace-1R G119S mutations for larval and adult collections of An. gambiae and An. coluzzii."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from six sentinel sites in Côte d'Ivoire: Korhogo, Man, Bouake, Sakassou, Aboisso, and Bassam (Page 3, Study sites and design)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing field collections, bioassays, and molecular genotyping performed by the authors."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies six sentinel sites: 'Korhogo in the savannah (wooded savannah) zone; Man, Bouake and Sakassou in the pre-forest (transition) zone; Aboisso and Bassam in the forest (rainforest) zone' (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected 'From July to October 2020' (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors state that 'The underlying datasets generated during the study have been deposited in Zenodo and are publicly accessible at: https://doi.org/10.5281/zenodo.16953434' (Page 2), indicating this is the primary publication of this dataset."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "S1 Table is needed to obtain the marker frequencies resolved by individual sentinel sites rather than pooled by ecological zone: 'S1 Table. Variation in allelic frequencies of Kdr L1014F and Ace-1R G119S mutations within members of An. gambiae s.l. by study area. (DOCX)' (Page 9)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 504,
+    "summary": "This study reports on species composition and insecticide resistance profiles (specifically Vgsc L995F and Ace-1 G280S mutations) in Anopheles gambiae s.l. populations across three ecological zones (six sentinel sites) in Côte d'Ivoire. Mosquitoes were collected between July and October 2020 as larvae and adults. The paper provides allele frequencies and sample sizes for both markers in An. gambiae and An. coluzzii.",
+    "exclusion_reasons": []
+  }
+}

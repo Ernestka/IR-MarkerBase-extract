@@ -65,12 +65,19 @@ def list_pdfs(svc, root_id):
 
     `source` is the name of the folder a PDF sits in ('' for the root itself) —
     i.e. which contributor (or `master`) it came from.
+
+    The supplements folder is skipped if it sits inside the papers tree (matched
+    by DRIVE_SUPPLEMENT_FOLDER_ID, or by a name containing 'supplement'), so
+    supplementary PDFs are never mistaken for papers.
     """
     out = []
+    supp_id = os.environ.get("DRIVE_SUPPLEMENT_FOLDER_ID", "").strip()
 
     def walk(folder_id, source, depth):
         for f in _list_folder(svc, folder_id):
             if f["mimeType"] == FOLDER_MIME:
+                if f["id"] == supp_id or "supplement" in f["name"].lower():
+                    continue
                 if depth < MAX_DEPTH:
                     walk(f["id"], f["name"], depth + 1)
             elif _is_pdf(f):
