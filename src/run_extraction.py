@@ -1,6 +1,6 @@
 """
 Stage 2 — the extraction driver. Run on demand by
-.github/workflows/extraction.yml (manual dispatch).
+.github/workflows/pipeline.yml (after eligibility, every 4 h or on demand).
 
 For each ELIGIBLE paper in the roster (capped per run):
   1. Fetch the PDF (+ supplements) from Drive.

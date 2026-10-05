@@ -1,0 +1,102 @@
+name: Pipeline
+
+# The whole pipeline in one job: eligibility on new Drive papers, then extraction
+# of every ELIGIBLE paper, then one commit of the results (roster, per-paper
+# records, data/final/ir_extraction.{csv,xlsx}).
+#
+# Runs by itself every 4 hours; a run with nothing new makes no model calls.
+# To process papers right away: Actions → Pipeline → Run workflow.
+#
+# When the Gemini free quota runs out mid-run, the run stops cleanly and the
+# next run carries on where it stopped — nothing is marked as failed.
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "What to run"
+        type: choice
+        options: [both, eligibility, extraction]
+        default: both
+      max_papers:
+        description: "Max papers per stage this run"
+        default: "15"
+      model:
+        description: "Model for extraction (flash-extract / pro / sonnet / opus / provider:model)"
+        default: "flash-extract"
+
+permissions:
+  contents: write
+
+# Never let two runs overlap and race on the commit.
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/../key.json
+      DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+      DRIVE_SUPPLEMENT_FOLDER_ID: ${{ secrets.DRIVE_SUPPLEMENT_FOLDER_ID }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # LibreOffice converts legacy .doc/.xls supplements.
+      - name: Install LibreOffice
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libreoffice-writer libreoffice-calc
+
+      # The service-account key is written OUTSIDE the repo so it can never be committed.
+      - name: Write service-account key
+        run: printf '%s' "$DRIVE_SA_KEY" > "$GOOGLE_APPLICATION_CREDENTIALS"
+        env:
+          DRIVE_SA_KEY: ${{ secrets.DRIVE_SA_KEY }}
+
+      - name: Stage 1 — eligibility
+        if: ${{ inputs.stage != 'extraction' }}
+        run: python src/run_eligibility.py
+        env:
+          MARKERBASE_MAX_PER_RUN: ${{ inputs.max_papers || '15' }}
+
+      - name: Stage 2 — extraction
+        if: ${{ inputs.stage != 'eligibility' }}
+        run: python src/run_extraction.py
+        env:
+          EXTRACT_MODEL: ${{ inputs.model || 'flash-extract' }}
+          EXTRACT_MAX_PER_RUN: ${{ inputs.max_papers || '15' }}
+
+      # Commit even if a stage failed, so finished work is never lost.
+      - name: Commit results
+        if: ${{ always() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data docs/stats.svg README.md
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Pipeline run: update roster and extractions"
+          git pull --rebase --autostash
+          git push
+
+      - name: Summary
+        if: ${{ always() }}
+        run: |
+          {
+            echo "### Roster"
+            python -c "import csv,collections; c=collections.Counter(r['status'] for r in csv.DictReader(open('data/roster.csv'))); print('\n'.join(f'- **{k}**: {v}' for k,v in sorted(c.items())))"
+            echo
+            echo "Final table: \`data/final/ir_extraction.xlsx\`"
+          } >> "$GITHUB_STEP_SUMMARY"

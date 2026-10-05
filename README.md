@@ -62,18 +62,45 @@ on every record. Then code:
 Gemini (free tier, throttled and retried). Claude and OpenAI-compatible models
 work by changing the model spec, e.g. `--model sonnet`.
 
-## Quick start (local, no Drive)
+## How to use it
+
+**1. Add papers.** Upload PDFs to Google Drive → `IR_papers/master/` (or a
+contributor's subfolder). Name each one uniquely, ideally `PMID_<number>.pdf` —
+the name becomes the paper's ID everywhere.
+
+**2. Wait, or start it now.** The pipeline runs by itself every 4 hours. To run
+it immediately: **Actions → Pipeline → Run workflow**. Each run checks
+eligibility of new papers, then extracts every eligible one. On the Gemini free
+tier expect ~15–25 papers a day; when the daily quota runs out the run stops
+cleanly and the next run continues.
+
+**3. Get the results.** Download **`data/final/ir_extraction.xlsx`** from the repo
+(or `git pull`). One row per data point (`Record type` = genotype / bioassay /
+geno_pheno), with page/table provenance for every number. Per-paper details and
+the model's decisions are in `data/extracted/<id>/README.md`.
+
+**4. Handle what needs you.** Every Friday a GitHub issue lists papers waiting on
+you:
+- **AWAIT_SUPPLEMENT** — upload the supplementary files to Drive →
+  `IR_supplements/master/<paper id>/`; the next run picks them up.
+- **REVIEW_DUPLICATE** — add `id: duplicate` or `id: unique` to
+  `data/duplicate_decisions.yaml`.
+- **EXTRACTION_FAILED** — see `data/extracted/<id>/EXTRACTION_FAILED.md`.
+
+To skip a paper entirely, add its ID to `data/exclude.txt`. To re-extract a paper,
+change its status in `data/roster.csv` back to `ELIGIBLE`.
+
+**Status of every paper:** `data/roster.csv` (GitHub shows it as a searchable table).
+
+## Running on your own computer (optional)
+
+Edit on GitHub or `git pull` before working locally — the bot commits to `data/`
+after every run. Local runs need a `.env` file with `GEMINI_API_KEY` (and the Drive
+settings to use Drive); check it with `python src/check_setup.py`.
 
 ```bash
-python -m venv .venv && .venv/bin/pip install -r requirements.txt
-# put GEMINI_API_KEY=... in the project's .env file (git-ignored, read automatically)
-.venv/bin/python src/run_local.py papers/   # a folder of PDFs (git-ignored)
-# → local_output/final/ir_extraction.xlsx
+.venv/bin/python src/run_local.py papers/   # a local folder of PDFs → local_output/
 ```
-
-Options: `--only eligibility`, `--skip-eligibility` (e.g. for a hand-picked gold
-set), `--model pro`, `--redo`. Supplementary files go in
-`papers/supplements/<pdf name>/`.
 
 ## What humans edit
 

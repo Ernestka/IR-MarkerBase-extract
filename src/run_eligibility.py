@@ -1,6 +1,6 @@
 """
 Stage 1 — the eligibility driver. Run on a schedule by
-.github/workflows/eligibility.yml.
+.github/workflows/pipeline.yml (every 4 h or on demand).
 
 Each run:
   1. Lists the PDFs currently in the Drive inbox folder.

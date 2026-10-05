@@ -163,12 +163,15 @@ The README is deliberately high-level; the detail lives here.
 
 ### Two stages
 
-- **Stage 1 — eligibility** (`run_eligibility.py`, `eligibility.yml`): triage PDFs
-  against the eligibility spec; ELIGIBLE papers wait for stage 2. The 4-hourly
-  schedule is **commented out** until the Drive inbox holds IR papers.
-- **Stage 2 — extraction** (`run_extraction.py`, `extraction.yml`, manual): extract
+Both stages run in ONE workflow, `.github/workflows/pipeline.yml` — every 4 hours,
+or on demand (Actions → Pipeline → Run workflow, with a choice of stage).
+
+- **Stage 1 — eligibility** (`run_eligibility.py`): triage new Drive PDFs against
+  the eligibility spec, and re-check papers whose supplement folder changed.
+- **Stage 2 — extraction** (`run_extraction.py`): extract every ELIGIBLE paper into
   the five tables, validate in Python, repair up to `EXTRACT_MAX_REPAIRS` (3) times
   before giving up (EXTRACTION_FAILED), then rebuild `data/final/`.
+- Gemini quota exhausted mid-run → the run stops cleanly; the next run continues.
 - **Local** (`run_local.py`): both stages on a local folder of PDFs. Writes to
   `local_output/` (git-ignored). Use it for the gold set and prompt iteration.
 
@@ -180,7 +183,7 @@ src/     all the code
 data/    roster.csv, eligibility/<id>.json, extracted/<id>/, final/ (bot);
          exclude.txt, duplicate_decisions.yaml (you)
 docs/    NOTES.md + the generated stats.svg
-.github/ eligibility.yml, extraction.yml, digest.yml
+.github/ pipeline.yml (both stages), digest.yml (weekly attention issue)
 ```
 
 ### Code
