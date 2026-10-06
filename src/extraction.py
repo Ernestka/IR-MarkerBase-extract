@@ -6,13 +6,15 @@ into the relational data model (see CLAUDE.md):
     surveys     site x time window x species x collection method
     genotypes   survey x marker            (RR/RS/SS or allele counts; pooled flag)
     bioassays   survey x insecticide x concentration x synergist
-    geno_pheno  bioassay x marker x outcome (alive/dead) -> RR/RS/SS
+    geno_pheno  survey x bioassay (or insecticide, if pooled) x marker x outcome (alive/dead)
+                -> RR/RS/SS
 
 Every record carries provenance (source sentence/table, page, figure, supplement).
 
 Division of labour:
-  - the LLM extracts RAW COUNTS + text exactly as reported (markers as written,
-    place names, any coordinates the paper STATES);
+  - the LLM extracts RAW COUNTS + text exactly as printed (markers as written,
+    place names, any coordinates the paper STATES) — it never corrects a value;
+    mismatches go in `inconsistency_note` for a human;
   - code (targets.normalise, validate.py, export.py) normalises marker names,
     checks consistency, and computes every derived value (frequencies,
     mortality %, WHO phenotype, pyrethroid subtype...).
@@ -121,8 +123,10 @@ class Genotype(BaseModel):
     rr: int | None                       # homozygous resistant
     rs: int | None                       # heterozygous
     ss: int | None                       # homozygous susceptible
-    resistant_allele_count: int | None   # only if reported as allele counts (CNV: carriers)
+    n_carriers: int | None               # individuals with >=1 resistant copy, when RR/RS not split
+    resistant_allele_count: int | None   # only if reported as allele counts
     reported_allele_freq: float | None   # 0-1, only as printed in the paper
+    inconsistency_note: str | None       # the paper's own numbers don't reconcile (values kept as printed)
     provenance: Provenance
 
 
@@ -136,21 +140,25 @@ class Bioassay(BaseModel):
     assay_method: str | None             # "WHO tube", "CDC bottle", "cone", ...
     assay_type: str | None               # "diagnostic dose", "intensity 5x", "intensity 10x", "synergist"
     synergist: str | None                # e.g. "PBO"; null if none
+    dead_alive_printed: bool             # the paper itself prints the number dead or alive
     n_exposed: int | None
     n_dead: int | None
     n_alive: int | None
     reported_mortality_pct: float | None # only as printed
     mortality_time_h: float | None       # e.g. 24
+    inconsistency_note: str | None
     provenance: Provenance
 
 
 class Outcome(str, Enum):
-    alive = "alive"
-    dead = "dead"
+    alive = "alive"                      # bioassay survivors (papers often say "resistant")
+    dead = "dead"                        # killed by the bioassay ("susceptible")
 
 
 class GenoPheno(BaseModel):
-    bioassay_id: str
+    survey_id: str
+    bioassay_id: str | None              # the ONE bioassay these mosquitoes come from; null if pooled
+    insecticide: str | None              # as reported, e.g. "deltamethrin" or "deltamethrin + permethrin"
     gene: str
     marker: str
     phenotype_group: Outcome
@@ -158,6 +166,9 @@ class GenoPheno(BaseModel):
     rs: int | None
     ss: int | None
     n: int | None
+    n_carriers: int | None               # individuals with >=1 resistant copy, when RR/RS not split
+    reported_allele_freq: float | None   # 0-1, only if printed and counts are not given
+    inconsistency_note: str | None
     provenance: Provenance
 
 
@@ -182,10 +193,18 @@ RULES = (
     "RS (heterozygous), SS (homozygous susceptible) and n_genotyped. Never compute frequencies or "
     "percentages yourself. If the paper gives ONLY a frequency/percentage, put it in "
     "`reported_allele_freq` (as a 0-1 proportion) or `reported_mortality_pct`, and leave the count "
-    "fields null — never back-calculate counts from percentages.\n"
+    "fields null — never back-calculate counts from percentages. E.g. a bioassay reported as "
+    "'80 tested, 36.25% mortality' -> n_exposed = 80, reported_mortality_pct = 36.25, "
+    "dead_alive_printed = false, n_dead = n_alive = null (code derives the counts and flags "
+    "them as derived). Set dead_alive_printed = true ONLY if the number dead or alive for that "
+    "test is literally printed in the paper or supplement.\n"
+    "2b. Carriers: if the paper gives only how many mosquitoes CARRY the mutation without "
+    "splitting homozygotes and heterozygotes (e.g. '1 of 100 was positive for kdr-west'), put that "
+    "number in `n_carriers` and the number tested in n_genotyped (or n). Do not turn it into a "
+    "frequency.\n"
     "3. Pooled samples: set `pooled` true and give what is reported (e.g. reported_allele_freq).\n"
     "4. CNVs / duplications (Ace-1, Cyp6aa1) and the 6.5 kb SV: put the number of mosquitoes "
-    "carrying the variant in `resistant_allele_count` and the number tested in `n_genotyped`; use "
+    "carrying the variant in `n_carriers` and the number tested in `n_genotyped`; use "
     "rr/rs/ss only if the paper reports genotype classes.\n"
     "4b. Multi-allelic codon (Vgsc 995/1014 carries L, F and S): record L995F and L995S as two "
     "separate genotype rows. For each, RR = individuals with two copies of THAT allele, RS = one "
@@ -195,17 +214,28 @@ RULES = (
     "5. Bioassays: extract them ONLY for surveys in this paper (one record per survey x insecticide "
     "x concentration x synergist x time point). Give n_exposed, n_dead, n_alive as reported. Skip "
     "laboratory reference strains (e.g. Kisumu) — they are controls, not data.\n"
-    "6. Genotype-phenotype: when genotypes are reported separately for bioassay SURVIVORS and DEAD "
-    "mosquitoes, record one geno_pheno row per (bioassay, marker, alive/dead) with RR/RS/SS and n, "
-    "linked by bioassay_id. Do NOT also add those same mosquitoes to `genotypes` unless the paper "
-    "reports a separate population-level genotype count.\n"
+    "6. Genotype-phenotype: WHENEVER genotypes are reported separately for bioassay SURVIVORS "
+    "(alive, often called 'resistant') and DEAD ('susceptible') mosquitoes, record them in "
+    "geno_pheno: one row per (survey, test, marker, alive/dead) with RR/RS/SS and n (or "
+    "reported_allele_freq if only a frequency is printed). Set bioassay_id when the genotyped "
+    "mosquitoes come from exactly ONE extracted bioassay. Otherwise — e.g. survivors pooled across "
+    "several insecticides or doses, or the bioassay itself is not extractable — leave bioassay_id "
+    "null and give `insecticide` as reported (e.g. 'deltamethrin + permethrin'). Never drop "
+    "phenotype-split genotypes just because they cannot be linked to a single bioassay. Do NOT "
+    "also add the same mosquitoes to `genotypes` (no double counting); `genotypes` is for "
+    "population samples not split by bioassay outcome.\n"
     "7. Resolution & no double counting: extract at the FINEST spatial, temporal and species "
     "breakdown the paper reports (per site, per time window, per molecular species). If the paper "
     "ALSO gives pooled totals (all sites, all years, all species), do NOT additionally extract them.\n"
-    "8. Inconsistent data: if counts don't reconcile, do NOT fabricate — extract only what is "
-    "uniquely determined and explain what was dropped in the README. If you correct an obvious "
-    "typo in the paper (e.g. a cell that contradicts the paper's own N and frequency), say exactly "
-    "which value you changed, from what to what, and why, in the README.\n"
+    "8. Values exactly as printed: NEVER change a number the paper prints, even an obvious typo. "
+    "If a record's own numbers don't reconcile (RR+RS+SS != N, dead + alive != exposed, counts that "
+    "contradict the paper's frequency...), keep every value as printed and describe the mismatch in "
+    "that record's `inconsistency_note` (e.g. 'RR+RS+SS = 36 but N = 34; printed freq 0.0735 fits "
+    "N = 34, so SS = 33 may be a typo for 31'). A human decides. `inconsistency_note` is ONLY for "
+    "printed numbers that contradict each other — leave it null otherwise. Never use it for "
+    "comments, methods, pooling, missing counts or how you read a value: those go in the README. "
+    "If data are missing or not uniquely determined, extract only what is printed and explain "
+    "what was dropped in the README.\n"
     "8b. Bioassays are actual tests reported by the paper: one specific insecticide each (never a "
     "class like 'pyrethroids'), with the counts the paper gives for that test. Never build a "
     "bioassay record from genotyped subsets or from pooled results across insecticides. If the "
@@ -238,8 +268,8 @@ SPECIES = (
 IDENTIFIERS = (
     "IDENTIFIERS: survey_id = study_id + short suffix (e.g. '<study_id>_kisumu_2019_col'); "
     "bioassay_id = survey_id + short suffix (e.g. '_delta_005'). Use letters, digits and underscores. "
-    "Every genotype/bioassay must point to an existing survey_id; every geno_pheno to an existing "
-    "bioassay_id.\n"
+    "Every genotype/bioassay/geno_pheno must point to an existing survey_id; a geno_pheno "
+    "bioassay_id, when given, must be an existing bioassay of that same survey.\n"
 )
 
 PROVENANCE = (
@@ -291,9 +321,20 @@ def extract(pdf_bytes, sid, model="flash", supplement_parts=None,
                      + repair["error"]
                      + "\n\nYour previous output was:\n" + str(repair["previous"])
                      + "\n\nFix the specific problems (re-check the paper) and return the "
-                       "corrected, complete extraction.")
+                       "corrected, complete extraction. If a flagged value really is printed that "
+                       "way in the paper, keep it and explain in that record's inconsistency_note "
+                       "instead of changing it.")
     parts.append(llm.Text("\n\n".join(instr)))
     return llm.call(model, system_prompt(), parts, Extraction, max_tokens=max_tokens)
+
+
+def keep_printed_only(ex: Extraction):
+    """Drop bioassay dead/alive counts the model computed instead of read (it says so in
+    dead_alive_printed). export.py re-derives them from the printed % and flags them."""
+    for b in ex.bioassays:
+        if not b.dead_alive_printed:
+            b.n_dead = b.n_alive = None
+    return ex
 
 
 # --- Writing the per-study output files ------------------------------------
@@ -309,14 +350,15 @@ SURVEY_COLS = ["survey_id", "country", "site_name", "admin1", "admin2",
     + [f"coord_{c}" for c in PROV_COLS] + PROV_COLS
 GENOTYPE_COLS = ["survey_id", "gene", "marker", "gene_std", "variant_std", "variant_type", "tier",
                  "amino_acid_change", "nucleotide_change", "resistant_allele", "genotyping_method",
-                 "pooled", "n_genotyped", "rr", "rs", "ss", "resistant_allele_count",
-                 "reported_allele_freq"] + PROV_COLS
+                 "pooled", "n_genotyped", "rr", "rs", "ss", "n_carriers", "resistant_allele_count",
+                 "reported_allele_freq", "inconsistency_note"] + PROV_COLS
 BIOASSAY_COLS = ["bioassay_id", "survey_id", "insecticide", "insecticide_class", "concentration",
                  "exposure_duration_min", "assay_method", "assay_type", "synergist",
-                 "n_exposed", "n_dead", "n_alive", "reported_mortality_pct",
-                 "mortality_time_h"] + PROV_COLS
-GENO_PHENO_COLS = ["bioassay_id", "gene", "marker", "gene_std", "variant_std", "variant_type",
-                   "phenotype_group", "rr", "rs", "ss", "n"] + PROV_COLS
+                 "dead_alive_printed", "n_exposed", "n_dead", "n_alive", "reported_mortality_pct",
+                 "mortality_time_h", "inconsistency_note"] + PROV_COLS
+GENO_PHENO_COLS = ["survey_id", "bioassay_id", "insecticide", "gene", "marker", "gene_std",
+                   "variant_std", "variant_type", "phenotype_group", "rr", "rs", "ss", "n",
+                   "n_carriers", "reported_allele_freq", "inconsistency_note"] + PROV_COLS
 
 OUTPUT_FILES = ("study.yaml", "surveys.csv", "genotypes.csv", "bioassays.csv",
                 "geno_pheno.csv", "README.md")

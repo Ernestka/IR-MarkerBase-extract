@@ -15,6 +15,8 @@ repeated on each row. `Record type` says which kind of row it is:
 Empty values are written as NA. Every DERIVED value (allele and genotype
 frequencies, mortality/survival, WHO phenotype, pyrethroid subtype, collection
 year, temporal precision) is computed here from raw counts — never by the LLM.
+Bioassay dead/alive counts are derived from a reported % x n only when that
+gives a unique whole number, and the row says so in `Data quality flag`.
 
 Run standalone:  python src/export.py
 """
@@ -51,6 +53,9 @@ COLUMNS = [
     "Coordinates verified", "Species identification method", "Sample size reported",
     "Raw counts available", "AI extraction confidence", "Human verified",
     "Source sentence/table", "Page number", "Figure number", "Supplementary material",
+    # Not in the original column list: anything a human should check before trusting the row
+    # (numbers inconsistent in the paper, counts derived in code, pooled tests).
+    "Data quality flag",
 ]
 
 PYRETHROIDS = {
@@ -165,7 +170,7 @@ def _prov_cols(r):
 def _study_cols(rid, study):
     prov = study.get("provenance") or {}
     return {
-        "Paper/Study ID": rid, "DOI": study.get("doi"), "PMID": study.get("pmid"),
+        "Paper/Study ID": rid, "DOI": study.get("doi"), "PMID": study.get("pmid"),   # PMID: enrich.py
         "Publication year": study.get("publication_year"),
         "Country": "; ".join(study.get("countries") or []) or None,
         "Data source": study.get("data_source"),
@@ -180,6 +185,14 @@ def _survey_cols(s):
         return {}
     lat, lon = _num(s.get("latitude_reported")), _num(s.get("longitude_reported"))
     coord_prov = {k: s.get(f"coord_{k}") for k in ("page", "table", "figure", "supplement")}
+    coord_how = "reported" if lat is not None else None
+    coord_where = _loc(coord_prov) or s.get("coord_source_text")
+    precision = s.get("spatial_precision")
+    if lat is None and _num(s.get("latitude_geocoded")) is not None:   # enrich.py, never the LLM
+        lat, lon = _num(s.get("latitude_geocoded")), _num(s.get("longitude_geocoded"))
+        coord_how = "inferred (geocoded)"
+        coord_where = f"geocoded from '{s.get('geocode_query')}' — {s.get('geocode_source')}"
+        precision = f"{precision}; geocoded at {s.get('geocode_level')} level"
     start, end = s.get("collection_start") or None, s.get("collection_end") or None
     return {
         "Survey ID": s.get("survey_id"),
@@ -189,10 +202,9 @@ def _survey_cols(s):
         "Country (site)": s.get("country"), "Sampling site": s.get("site_name"),
         "Admin level 1": s.get("admin1"), "Admin level 2": s.get("admin2"),
         "Latitude": lat, "Longitude": lon,
-        # Geocoding (inferred coordinates) is a later code step; for now only reported ones.
-        "Coordinates reported or inferred": "reported" if lat is not None else None,
-        "Evidence location (coordinates)": _loc(coord_prov) or s.get("coord_source_text"),
-        "Spatial precision / uncertainty": s.get("spatial_precision"),
+        "Coordinates reported or inferred": coord_how,
+        "Evidence location (coordinates)": coord_where,
+        "Spatial precision / uncertainty": precision,
         "Collection start date": start, "Collection end date": end,
         "Collection year": collection_year(start, end),
         "Temporal precision": temporal_precision(start, end),
@@ -206,10 +218,33 @@ def _survey_cols(s):
     }
 
 
+def _flag(*notes):
+    return "; ".join(n for n in notes if n) or None
+
+
+def dead_from_pct(pct, n):
+    """n_dead from a printed mortality % and n tested — only if exactly one whole
+    number fits the % as printed (e.g. 36.25% of 80 = 29). None otherwise."""
+    pct, n = _num(pct), _num(n)
+    if pct is None or not n:
+        return None
+    decimals = len(repr(float(pct)).split(".")[1].rstrip("0"))
+    slack = 0.5 * 10 ** -decimals * n / 100     # rounding of the printed % in mosquitoes
+    if slack >= 0.5:
+        return None                             # several counts fit: not uniquely determined
+    d = pct * n / 100
+    return round(d) if abs(d - round(d)) <= slack + 1e-9 else None
+
+
 def _bioassay_cols(b):
     if not b:
         return {}
     exposed, dead, alive = _num(b.get("n_exposed")), _num(b.get("n_dead")), _num(b.get("n_alive"))
+    derived = None
+    if dead is None and alive is None:
+        dead = dead_from_pct(b.get("reported_mortality_pct"), exposed)
+        if dead is not None:
+            derived = "dead/surviving counts derived in code from reported % x number exposed"
     if alive is None and exposed is not None and dead is not None:
         alive = exposed - dead
     if dead is None and exposed is not None and alive is not None:
@@ -231,6 +266,8 @@ def _bioassay_cols(b):
         "Mortality proportion": mort,
         "Phenotype": who_phenotype(mort, b.get("assay_type"), b.get("synergist")),
         "Mortality assessment time": f"{t} h" if t is not None else None,
+        "_derived": derived,
+        "_note": b.get("inconsistency_note") or None,
     }
 
 
@@ -256,10 +293,18 @@ def study_rows(rid, folder):
         if freq is None and rac is not None and n and g.get("pooled") != "True":
             if g.get("variant_type") == "SNP":
                 freq, raw = round(rac / (2 * n), 4), "yes (allele counts)"
-            else:   # CNV / SV: proportion of carriers
+            else:   # CNV / SV, older extractions: carriers were stored here
                 freq, raw = round(rac / n, 4), "yes (carrier counts)"
+        carriers = _num(g.get("n_carriers"))
+        if freq is None and carriers is not None and n:
+            if g.get("variant_type") in ("CNV", "SV"):   # carrier frequency is the usual measure
+                freq, raw = round(carriers / n, 4), f"yes (carrier counts: {carriers}/{n})"
+            else:   # SNP: RR vs RS unknown, so the allele frequency is not determined
+                raw = f"carriers only ({carriers}/{n}) — allele frequency not determinable"
         if freq is None and _num(g.get("reported_allele_freq")) is not None:
-            freq, raw = _num(g.get("reported_allele_freq")), "no (reported frequency only)"
+            freq = _num(g.get("reported_allele_freq"))
+            raw = "no (reported frequency only" + (f"; carriers {carriers}/{n})" if carriers is not None
+                                                   and n else ")")
         r.update({
             "Record type": "genotype",
             "Amino-acid change": g.get("amino_acid_change"),
@@ -273,31 +318,62 @@ def study_rows(rid, folder):
             "SS frequency": f.get("SS frequency"),
             "Sample size reported": "yes" if n else "no",
             "Raw counts available": raw + (" — pooled" if g.get("pooled") == "True" else ""),
+            "Data quality flag": g.get("inconsistency_note") or None,
         })
         rows.append(r)
 
     for b in bioassays.values():
         r = {**base, **_survey_cols(surveys.get(b["survey_id"])), **_bioassay_cols(b), **_prov_cols(b)}
+        raw = "no (reported mortality only)"
+        if _num(b.get("n_dead")) is not None or _num(b.get("n_alive")) is not None:
+            raw = "yes"
+        elif r["_derived"]:
+            raw = "derived (reported % x n)"
         r.update({"Record type": "bioassay",
                   "Sample size reported": "yes" if _num(b.get("n_exposed")) else "no",
-                  "Raw counts available": "yes" if _num(b.get("n_dead")) is not None
-                  or _num(b.get("n_alive")) is not None else "no (reported mortality only)"})
+                  "Raw counts available": raw,
+                  "Data quality flag": _flag(r["_note"], r["_derived"])})
         rows.append(r)
 
-    # geno_pheno: merge alive + dead rows of the same (bioassay, marker) into one row.
+    # geno_pheno: merge alive + dead rows of the same (survey, test, marker) into one row.
+    # The test is the linked bioassay, or — when survivors/dead were pooled across tests —
+    # the insecticide as reported. (Older outputs have no survey_id column: use the bioassay's.)
     groups = {}
     for gp in _read_csv(folder / "geno_pheno.csv"):
-        key = (gp["bioassay_id"], gp.get("gene_std") or gp["gene"], gp.get("variant_std") or gp["marker"])
+        bid = gp.get("bioassay_id") or None
+        sid = gp.get("survey_id") or bioassays.get(bid, {}).get("survey_id")
+        key = (sid, bid or gp.get("insecticide") or "", gp.get("gene_std") or gp["gene"],
+               gp.get("variant_std") or gp["marker"])
         groups.setdefault(key, {})[gp["phenotype_group"]] = gp
-    for (bid, gene, var), by in groups.items():
-        b = bioassays.get(bid, {})
+    for (sid, _test, gene, var), by in groups.items():
         first = by.get("alive") or by.get("dead")
-        r = {**base, **_survey_cols(surveys.get(b.get("survey_id"))), **_bioassay_cols(b),
+        b = bioassays.get(first.get("bioassay_id") or None, {})
+        if b:
+            test_cols = _bioassay_cols(b)
+        else:   # pooled across tests: only the insecticide is known
+            ins = first.get("insecticide") or None
+            test_cols = {"Insecticide name": ins, "Pyrethroid subtype": pyrethroid_subtype(ins, None)}
+        r = {**base, **_survey_cols(surveys.get(sid)), **test_cols,
              **_marker_cols(first), **_prov_cols(first)}
         al, de = by.get("alive", {}), by.get("dead", {})
         tot = {k: sum(_num(x.get(k)) or 0 for x in (al, de)) for k in ("rr", "rs", "ss")}
-        f = _geno_freqs(tot["rr"], tot["rs"], tot["ss"])
+        has_counts = all(_num(x.get(k)) is not None for x in by.values() for k in ("rr", "rs", "ss"))
+        f = _geno_freqs(tot["rr"], tot["rs"], tot["ss"]) if has_counts else {}
         is_vgsc = gene == "Vgsc"
+        raw = "yes" if f else "no"
+        if not f:
+            groups_ = (("survivors", al), ("dead", de))
+            carr = [f"{lab} {_num(x.get('n_carriers'))}/{_num(x.get('n'))}" for lab, x in groups_
+                    if _num(x.get("n_carriers")) is not None]
+            freqs = [f"{lab} {_num(x.get('reported_allele_freq'))}" for lab, x in groups_
+                     if _num(x.get("reported_allele_freq")) is not None]
+            if carr:
+                raw = "carriers only (" + ", ".join(carr) + ")"
+            elif freqs:
+                raw = "no (reported allele frequency only: " + ", ".join(freqs) + ")"
+        notes = [x.get("inconsistency_note") for x in (al, de)]
+        if not b:
+            notes.append("survivors/dead pooled across tests — not linked to a single bioassay")
         r.update({
             "Record type": "geno_pheno",
             "Phenotype group": " + ".join(k for k in ("alive", "dead") if k in by),
@@ -312,8 +388,9 @@ def study_rows(rid, folder):
             "Homozygous susceptible (SS)": tot["ss"] if f else None,
             "RR frequency": f.get("RR frequency"), "RS frequency": f.get("RS frequency"),
             "SS frequency": f.get("SS frequency"),
-            "Sample size reported": "yes" if f else "no",
-            "Raw counts available": "yes" if f else "no",
+            "Sample size reported": "yes" if f or any(_num(x.get("n")) for x in by.values()) else "no",
+            "Raw counts available": raw,
+            "Data quality flag": _flag(*notes, test_cols.get("_note"), test_cols.get("_derived")),
         })
         rows.append(r)
 

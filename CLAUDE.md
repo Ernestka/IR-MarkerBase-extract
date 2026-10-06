@@ -26,7 +26,9 @@ Ernest wants to learn as we go — explain changes briefly.
 Tier 1 — Vgsc (kdr): L995F, L995S, N1570Y, I1527T, V402L, P1874S/L
 Tier 2 — Ace-1 G280S (+ duplication); Rdl A296G/S; GSTe2 L119F (funestus);
 Cyp6p9a/b resistance alleles (funestus); 6.5 kb SV between Cyp6p9a/b (funestus);
-Cyp6aa1 duplication (gambiae/coluzzii); Cyp9k1 G454A (funestus).
+Cyp6aa1 duplication (gambiae/coluzzii); Cyp9k1 G454A (funestus);
+Ace-1 N485I (funestus); Cyp4j5 L43F, Cyp6p4 I236M, ZZB-TE insertion (gambiae, East Africa).
+Candidates not yet added: Coeae1d marker SNP; Vgsc K1603T / A1746S / V1853I / I1868T.
 
 **Numbering trap:** older papers use *Musca domestica* numbering
 (L1014F = L995F, L1014S = L995S, N1575Y = N1570Y, G119S = G280S).
@@ -41,13 +43,16 @@ Relational, one row = one unit:
 | `survey` | site × time window × species × collection method |
 | `genotypes` | survey × marker (RR, RS, SS counts or allele counts; pooled flag) |
 | `bioassays` | survey × insecticide × concentration × synergist (exposed, dead, timepoint) |
-| `geno_pheno` | bioassay × marker × outcome (alive/dead) → RR, RS, SS |
+| `geno_pheno` | survey × bioassay (or insecticide, if survivors/dead pooled across tests) × marker × outcome (alive/dead) → RR, RS, SS |
 Every table carries provenance: source quote/table, page, figure, supplement.
 
 Rules:
 - Mosquitoes are **diploid** — store genotype classes; allele freq = (2RR+RS)/2N.
 - The LLM extracts **raw counts only**; derived values (frequencies, mortality %)
   are computed in code. Reported percentages go in `reported_pct` with a flag.
+- The LLM **never corrects** a printed value (even an obvious typo): it keeps it and
+  explains in `inconsistency_note`; the validator then warns instead of forcing a repair.
+  Final table shows these, and counts derived in code, in `Data quality flag`.
 - Need `variant_type` (SNP / CNV / SV) and `pooled` fields.
 - LLM extracts place names + any **reported** coordinates; geocoding is done in code
   (GeoNames/OSM) with a precision field. Do not let the LLM invent coordinates.

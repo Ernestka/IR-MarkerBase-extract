@@ -25,3 +25,7 @@ Cyp6p9b,CYP6P9b;Cyp6p9b,R,Cyp6p9b_R;Cyp6p9b-R;resistant allele,SNP,,,An. funestu
 Cyp6p9a/b,CYP6P9a/b;Cyp6p9a-b;6.5kb;6.5 kb,6.5kb-SV,6.5kb SV;6.5 kb insertion;6.5kb insertion;SV;structural variant,SV,,,An. funestus,2
 Cyp6aa1,CYP6AA1;Cyp6aa1,DUP,Dup1;Cyp6aa1 duplication;Cyp6aa1 CNV;Cyp6aaDup1,CNV,,,An. gambiae / An. coluzzii,2
 Cyp9k1,CYP9K1;Cyp9k1,G454A,454A,SNP,G,A,An. funestus,2
+Ace-1,ace1;ace-1R;AChE1;AChE;acetylcholinesterase,N485I,485I,SNP,N,I,An. funestus,2
+Cyp4j5,CYP4J5;Cyp4j5,L43F,43F,SNP,L,F,An. gambiae complex,2
+Cyp6p4,CYP6P4;Cyp6p4,I236M,236M,SNP,I,M,An. gambiae / An. arabiensis,2
+Cyp6p4,CYP6P4;Cyp6p4;Cyp6aa1-Cyp6p4,ZZB-TE,ZZB;ZZB-TE insertion;Zanzibar-like TE;Zanzibar-like transposable element;TE insertion,SV,,,An. gambiae complex,2

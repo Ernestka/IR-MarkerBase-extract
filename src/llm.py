@@ -8,7 +8,7 @@ Model specs
 A spec is "provider:model-id", a comma-separated FAILOVER CHAIN of them, or a
 short alias from ALIASES:
 
-    flash   -> gemini-3.8-flash, then 3.5-flash, 3.7-flash, 3.1-flash-lite
+    flash   -> gemini-3.8-flash, then 3.5, 3.7, 3.6, 3-flash-preview, 3.1-flash-lite
                (default for eligibility; Google free tier — see "Rate limits")
     flash-extract -> the same without flash-lite (default for extraction)
     pro     -> gemini:gemini-pro-latest, then the flash chain
@@ -39,6 +39,9 @@ models are often "busy" (503). So a call works down its chain:
     of this run, immediately — never wait hours;
   - busy / server error -> retry LLM_MAX_RETRIES times (default 2), then move on;
   - short rate limit (Google asks to wait <= 2 min) -> wait, then retry.
+If EVERY model in the chain is only busy (not out of quota), the whole chain is
+tried again after a pause — LLM_BUSY_ROUNDS extra rounds (default 3), pausing
+1, 2, then 4 min — before giving up. Overloads usually pass within minutes.
 Calls are also spaced LLM_MIN_INTERVAL seconds apart (default 7 s for Gemini).
 The model that actually answered is in LLMResult.model_id (and the roster).
 """
@@ -52,10 +55,14 @@ from dataclasses import dataclass, field
 
 from pydantic import BaseModel, ValidationError
 
-_FLASH_CHAIN = ("gemini:gemini-3.8-flash,gemini:gemini-3.5-flash,"
-                "gemini:gemini-3.7-flash,gemini:gemini-3.1-flash-lite")
-# Extraction needs the stronger models: same chain without flash-lite.
-_EXTRACT_CHAIN = _FLASH_CHAIN.rsplit(",", 1)[0]
+# Each free-tier model has its OWN daily quota, so a longer chain = more papers/day.
+_FLASH_CHAIN = ("gemini:gemini-3.8-flash,gemini:gemini-3.5-flash,gemini:gemini-3.7-flash,"
+                "gemini:gemini-3.6-flash,gemini:gemini-3-flash-preview,"
+                "gemini:gemini-3.1-flash-lite")
+# Extraction needs the stronger, stable models: no flash-lite, and no 3-flash-preview
+# (it ran away to the output limit on long extractions — fine for eligibility).
+_EXTRACT_CHAIN = ("gemini:gemini-3.8-flash,gemini:gemini-3.5-flash,gemini:gemini-3.7-flash,"
+                  "gemini:gemini-3.6-flash")
 ALIASES = {
     "flash": _FLASH_CHAIN,
     "flash-extract": _EXTRACT_CHAIN,
@@ -88,6 +95,7 @@ def _load_dotenv():
 _load_dotenv()
 
 MAX_RETRIES = int(os.environ.get("LLM_MAX_RETRIES", "2"))   # per model, before failing over
+BUSY_ROUNDS = int(os.environ.get("LLM_BUSY_ROUNDS", "3"))   # extra passes when all are busy
 MAX_WAIT = 120          # never sleep longer than this; longer = quota exhausted, fail over
 DEFAULT_INTERVAL = {"gemini": 7.0}   # seconds between calls, per provider
 
@@ -198,6 +206,22 @@ def call(spec, system, parts, schema, max_tokens=16000):
     Works down the model chain (see module docstring); raises AllModelsFailed if
     every model is out of quota or keeps failing."""
     chain = resolve(spec)
+    for rnd in range(BUSY_ROUNDS + 1):
+        res, notes = _try_chain(chain, system, parts, schema, max_tokens)
+        if res is not None:
+            return res
+        if all(f"{p}:{m}" in _exhausted for p, m in chain) or rnd == BUSY_ROUNDS:
+            break
+        pause = 60 * 2 ** rnd
+        print(f"    (llm: every model busy — pausing {pause // 60} min, then round "
+              f"{rnd + 2}/{BUSY_ROUNDS + 1})")
+        time.sleep(pause)
+    raise AllModelsFailed("No model could answer:\n  " + "\n  ".join(notes)
+                          + "\nWait for the quota to reset, try later, or pass another --model.")
+
+
+def _try_chain(chain, system, parts, schema, max_tokens):
+    """One pass down the chain -> (LLMResult or None, notes on why each model failed)."""
     notes = []
     for provider, model in chain:
         mid = f"{provider}:{model}"
@@ -212,7 +236,7 @@ def call(spec, system, parts, schema, max_tokens=16000):
             try:
                 res = fn(model, system, parts, schema, limit)
                 res.model_id = mid
-                return res
+                return res, notes
             except Exception as e:
                 kind, delay = _classify(e)
                 if kind == "fatal":
@@ -234,8 +258,7 @@ def call(spec, system, parts, schema, max_tokens=16000):
                 why = "provider busy" if kind == "busy" else "rate limit"
                 print(f"    (llm: {mid} {why}; retry {attempt}/{MAX_RETRIES} in {delay:.0f}s)")
                 time.sleep(delay)
-    raise AllModelsFailed("No model could answer:\n  " + "\n  ".join(notes)
-                          + "\nWait for the quota to reset, try later, or pass another --model.")
+    return None, notes
 
 
 def _validate(schema, text):

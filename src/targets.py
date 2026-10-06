@@ -61,6 +61,15 @@ def normalise(gene, marker):
     return None
 
 
+def canonical_gene(gene):
+    """'kdr' -> 'Vgsc', 'ace1' -> 'Ace-1'; unknown names are returned unchanged."""
+    g = _key(gene)
+    for r in load():
+        if g in r["gene_keys"]:
+            return r["gene"]
+    return gene
+
+
 def label(row):
     return f"{row['gene']} {row['variant']}"
 

@@ -54,6 +54,8 @@ on every record. Then code:
 - validates the data (`src/validate.py`: RR+RS+SS = N, dead ≤ exposed, IDs link,
   markers are targets, coordinates in Africa…), sending errors back to the LLM
   for repair;
+- looks up the PMID from the DOI (Europe PMC) and geocodes sites that have no
+  printed coordinates (OpenStreetMap; `src/enrich.py`) — the LLM never does either;
 - computes every derived value (allele/genotype frequencies, mortality, WHO
   phenotype, pyrethroid subtype…) and writes the final table
   **`data/final/ir_extraction.csv` / `.xlsx`** (`src/export.py`).
@@ -101,6 +103,19 @@ settings to use Drive); check it with `python src/check_setup.py`.
 ```bash
 .venv/bin/python src/run_local.py papers/   # a local folder of PDFs → local_output/
 ```
+
+## Checking accuracy against a gold standard
+
+1. `.venv/bin/python src/evaluate.py --template gold.xlsx` — an empty sheet with
+   the final-table columns.
+2. Extract your gold papers by hand into it: one row per data point, as in the
+   final table (genotype, bioassay or geno-pheno row). Leave unreported cells empty.
+3. Run the pipeline on the same PDFs (`src/run_local.py gold_papers/ --skip-eligibility`), then
+   `.venv/bin/python src/evaluate.py gold.xlsx local_output/final/ir_extraction.csv`.
+
+It prints, per record type, how many of your rows were found (recall) and how
+many extracted rows are real (precision), and per column how often the value is
+right. Every disagreement is listed in `local_output/eval/eval_mismatches.csv`.
 
 ## What humans edit
 

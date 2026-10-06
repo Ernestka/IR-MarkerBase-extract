@@ -50,9 +50,33 @@ def _nonneg(errors, where, **vals):
             errors.append(f"{where}: {k} is negative ({v})")
 
 
-def _classes(where, rr, rs, ss, n, errors, n_name="n_genotyped"):
+def _sink(rec, errors, warnings):
+    """Where a count mismatch goes. The extractor must keep printed values as they
+    are; if it flagged the record (inconsistency_note), the mismatch is the paper's
+    and a human decides — a warning. Unflagged, it is probably a misreading — an
+    error, sent back for repair."""
+    return warnings if rec.inconsistency_note else errors
+
+
+def _flagged(where, rec, warnings):
+    if rec.inconsistency_note:
+        warnings.append(f"{where}: inconsistent in the paper (values kept as printed) — "
+                        f"{rec.inconsistency_note}")
+
+
+def _classes(where, rr, rs, ss, n, sink, n_name="n_genotyped"):
     if None not in (rr, rs, ss) and n is not None and rr + rs + ss != n:
-        errors.append(f"{where}: RR+RS+SS = {rr}+{rs}+{ss} = {rr + rs + ss} but {n_name} = {n}")
+        sink.append(f"{where}: RR+RS+SS = {rr}+{rs}+{ss} = {rr + rs + ss} but {n_name} = {n}")
+
+
+def _carriers(where, rec, n, sink):
+    c = rec.n_carriers
+    if c is None:
+        return
+    if n is not None and c > n:
+        sink.append(f"{where}: n_carriers {c} > {n} tested")
+    if rec.rr is not None and rec.rs is not None and c != rec.rr + rec.rs:
+        sink.append(f"{where}: n_carriers {c} != RR+RS = {rec.rr + rec.rs}")
 
 
 def check(ex):
@@ -109,16 +133,21 @@ def check(ex):
                               "(double counting?)")
             seen.add(key)
         _nonneg(errors, w, n_genotyped=g.n_genotyped, rr=g.rr, rs=g.rs, ss=g.ss,
-                resistant_allele_count=g.resistant_allele_count)
-        _classes(w, g.rr, g.rs, g.ss, g.n_genotyped, errors)
+                n_carriers=g.n_carriers, resistant_allele_count=g.resistant_allele_count)
+        _flagged(w, g, warnings)
+        _classes(w, g.rr, g.rs, g.ss, g.n_genotyped, _sink(g, errors, warnings))
+        _carriers(w, g, g.n_genotyped, _sink(g, errors, warnings))
         if (not g.pooled and g.resistant_allele_count is not None and g.n_genotyped
                 and t and t["variant_type"] == "SNP" and g.resistant_allele_count > 2 * g.n_genotyped):
-            errors.append(f"{w}: resistant_allele_count {g.resistant_allele_count} > 2 x n_genotyped")
+            _sink(g, errors, warnings).append(
+                f"{w}: resistant_allele_count {g.resistant_allele_count} > 2 x n_genotyped")
         if g.reported_allele_freq is not None and not 0 <= g.reported_allele_freq <= 1:
             errors.append(f"{w}: reported_allele_freq {g.reported_allele_freq} must be a 0-1 proportion")
-        has_counts = any(v is not None for v in (g.rr, g.rs, g.ss, g.resistant_allele_count))
+        has_counts = any(v is not None for v in (g.rr, g.rs, g.ss, g.n_carriers,
+                                                 g.resistant_allele_count))
         if not has_counts and g.reported_allele_freq is None:
-            errors.append(f"{w}: no counts and no reported frequency — empty record")
+            errors.append(f"{w}: no counts and no reported frequency — empty record (if the paper "
+                          "gives only how many mosquitoes carry the mutation, use n_carriers)")
         if not has_counts and g.reported_allele_freq is not None:
             warnings.append(f"{w}: frequency only (no raw counts)")
         if None not in (g.rr, g.rs, g.ss) and g.reported_allele_freq is not None:
@@ -140,10 +169,12 @@ def check(ex):
         if b.survey_id not in survey_ids:
             errors.append(f"{w}: survey_id '{b.survey_id}' not found among surveys")
         _nonneg(errors, w, n_exposed=b.n_exposed, n_dead=b.n_dead, n_alive=b.n_alive)
+        _flagged(w, b, warnings)
+        sink = _sink(b, errors, warnings)
         if b.n_exposed is not None and b.n_dead is not None and b.n_dead > b.n_exposed:
-            errors.append(f"{w}: n_dead {b.n_dead} > n_exposed {b.n_exposed}")
+            sink.append(f"{w}: n_dead {b.n_dead} > n_exposed {b.n_exposed}")
         if None not in (b.n_exposed, b.n_dead, b.n_alive) and b.n_dead + b.n_alive != b.n_exposed:
-            errors.append(f"{w}: n_dead + n_alive = {b.n_dead + b.n_alive} but n_exposed = {b.n_exposed}")
+            sink.append(f"{w}: n_dead + n_alive = {b.n_dead + b.n_alive} but n_exposed = {b.n_exposed}")
         if b.reported_mortality_pct is not None and not 0 <= b.reported_mortality_pct <= 100:
             errors.append(f"{w}: reported_mortality_pct {b.reported_mortality_pct} outside 0-100")
         if b.n_exposed and b.n_dead is not None and b.reported_mortality_pct is not None:
@@ -163,10 +194,9 @@ def check(ex):
     # --- double counting: the same mosquitoes in genotypes AND geno_pheno
     gp_n = {}
     for gp in ex.geno_pheno:
-        b = bio.get(gp.bioassay_id)
         t = targets.normalise(gp.gene, gp.marker)
-        if b and t and gp.n is not None:
-            key = (b.survey_id, t["gene"], t["variant"])
+        if t and gp.n is not None:
+            key = (gp.survey_id, t["gene"], t["variant"])
             gp_n[key] = gp_n.get(key, 0) + gp.n
     for i, g in enumerate(ex.genotypes):
         t = targets.normalise(g.gene, g.marker)
@@ -178,14 +208,30 @@ def check(ex):
 
     # --- genotype x phenotype
     for i, gp in enumerate(ex.geno_pheno):
-        w = f"geno_pheno #{i + 1} ({gp.bioassay_id}, {gp.gene} {gp.marker}, {gp.phenotype_group.value})"
-        if gp.bioassay_id not in bio:
-            errors.append(f"{w}: bioassay_id not found among bioassays")
+        test = gp.bioassay_id or gp.insecticide or "no insecticide"
+        w = f"geno_pheno #{i + 1} ({test}, {gp.gene} {gp.marker}, {gp.phenotype_group.value})"
+        if gp.survey_id not in survey_ids:
+            errors.append(f"{w}: survey_id '{gp.survey_id}' not found among surveys")
+        b = bio.get(gp.bioassay_id) if gp.bioassay_id else None
+        if gp.bioassay_id and not b:
+            errors.append(f"{w}: bioassay_id not found among bioassays — use an existing one, or "
+                          "null + `insecticide` if these mosquitoes are pooled across tests")
+        if b and b.survey_id != gp.survey_id:
+            errors.append(f"{w}: survey_id '{gp.survey_id}' differs from its bioassay's survey "
+                          f"'{b.survey_id}'")
+        if not gp.bioassay_id:
+            warnings.append(f"{w}: not linked to a single bioassay (insecticide as reported: "
+                            f"{gp.insecticide or 'none given'})")
         if targets.normalise(gp.gene, gp.marker) is None:
             errors.append(f"{w}: '{gp.gene} {gp.marker}' is not a target marker")
-        _nonneg(errors, w, rr=gp.rr, rs=gp.rs, ss=gp.ss, n=gp.n)
-        _classes(w, gp.rr, gp.rs, gp.ss, gp.n, errors, n_name="n")
-        b = bio.get(gp.bioassay_id)
+        _nonneg(errors, w, rr=gp.rr, rs=gp.rs, ss=gp.ss, n=gp.n, n_carriers=gp.n_carriers)
+        _flagged(w, gp, warnings)
+        _classes(w, gp.rr, gp.rs, gp.ss, gp.n, _sink(gp, errors, warnings), n_name="n")
+        _carriers(w, gp, gp.n, _sink(gp, errors, warnings))
+        if gp.reported_allele_freq is not None and not 0 <= gp.reported_allele_freq <= 1:
+            errors.append(f"{w}: reported_allele_freq {gp.reported_allele_freq} must be a 0-1 proportion")
+        if all(v is None for v in (gp.rr, gp.rs, gp.ss, gp.n_carriers, gp.reported_allele_freq)):
+            errors.append(f"{w}: no genotype counts and no reported frequency — empty record")
         if b and gp.n is not None:
             cap = b.n_alive if gp.phenotype_group.value == "alive" else b.n_dead
             if cap is not None and gp.n > cap:

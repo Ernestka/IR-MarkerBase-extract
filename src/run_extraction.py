@@ -24,6 +24,7 @@ from datetime import date
 from pathlib import Path
 
 import drive
+import enrich
 import extraction
 import llm
 import store
@@ -87,9 +88,11 @@ def extract_one(rid, pdf, supp_parts, elig_ctx, roster, model=None, extracted_di
                 repair = {"too_long": True}
             continue
 
+        extraction.keep_printed_only(ex)
         errors, warnings = validate.check(ex)
         if not errors:
             extraction.write_outputs(out_dir, sid, ex, model_id, warnings)
+            print(f"    enrich: {enrich.enrich_study(out_dir)}")   # PMID + geocoding, in code
             fail = out_dir / "EXTRACTION_FAILED.md"
             if fail.exists():
                 fail.unlink()

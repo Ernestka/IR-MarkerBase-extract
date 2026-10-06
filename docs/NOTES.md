@@ -195,6 +195,8 @@ docs/    NOTES.md + the generated stats.svg
 | `src/extraction.py` | Extraction schema (5 tables + provenance), prompt, per-study writers. |
 | `src/validate.py` | Deterministic checks → errors (repair loop) / warnings (README). |
 | `src/export.py` | Builds `data/final/ir_extraction.{csv,xlsx}`; computes all derived values. |
+| `src/enrich.py` | After extraction: PMID from DOI (Europe PMC) and geocoding of sites without printed coordinates (OSM Nominatim, cached). |
+| `src/evaluate.py` | Compares the final table with a hand-made gold standard: record recall/precision, per-column accuracy, mismatch list. |
 | `src/targets.py` | Loads `config/target_loci.csv`; `normalise()` maps aliases / Musca numbering. |
 | `src/run_eligibility.py`, `src/run_extraction.py` | Drive-based drivers (GitHub Actions). |
 | `src/run_local.py` | Local-folder driver. |
@@ -210,7 +212,7 @@ docs/    NOTES.md + the generated stats.svg
 | `surveys.csv` | site × time window × species × collection method |
 | `genotypes.csv` | survey × marker (RR/RS/SS or allele counts; `pooled` flag) |
 | `bioassays.csv` | survey × insecticide × concentration × synergist |
-| `geno_pheno.csv` | bioassay × marker × alive/dead → RR/RS/SS |
+| `geno_pheno.csv` | survey × bioassay (or insecticide, when survivors/dead are pooled across tests) × marker × alive/dead → RR/RS/SS |
 
 The final table is long format: one row per genotype, bioassay or geno-pheno
 record (`Record type`), with paper and survey fields repeated, and `NA` for
@@ -224,10 +226,23 @@ only as a fallback, flagged `Raw counts available = no (reported frequency only)
 Vgsc codon 995 (1014) is multi-allelic (L/F/S): L995F and L995S are separate
 rows, and for each, SS = mosquitoes with no copy of *that* allele (so it
 includes carriers of the other mutation); the true L/L count goes in the study
-README. Coordinates are only those the paper states. Geocoding place names
-(GeoNames/OSM) is **not built yet**, so `Coordinates reported or inferred` is
-`reported` or `NA`. The WHO phenotype uses raw mortality (no Abbott correction),
-only for diagnostic-dose assays without synergist.
+README. The LLM gives only coordinates the paper states. Sites without them are
+geocoded in code (`src/enrich.py`, OpenStreetMap Nominatim): it tries site +
+admin units, then admin units alone, and only accepts a place of the right kind
+(a county name never matches a town of the same name). Such rows say `inferred
+(geocoded)`, the query that matched, and the level matched (e.g. `village;
+geocoded at admin1 level` = the site is a village but only its region was found)
+— check these before modelling. The PMID is always looked up from the DOI, even
+when the model gave one. The WHO phenotype uses raw mortality (no Abbott
+correction), only for diagnostic-dose assays without synergist.
+
+Values are kept **exactly as printed**: the LLM never fixes a typo. When a
+record's own numbers don't add up (RR+RS+SS ≠ N, dead + alive ≠ exposed), it
+explains in `inconsistency_note`; the validator then warns instead of sending it
+back for repair. When a bioassay gives only n exposed and a mortality %, code
+derives dead/surviving counts if exactly one whole number fits the printed %.
+Both cases are shown in the extra last column `Data quality flag`, as are
+geno-pheno rows not linked to a single bioassay.
 
 ### State / config files
 
@@ -238,6 +253,7 @@ only for diagnostic-dose assays without synergist.
 | `data/eligibility/<id>.json` | bot | Full eligibility decision per paper. |
 | `data/extracted/<id>/` | bot | The five tables + README (decisions, validator warnings). |
 | `data/final/` | bot | Combined CSV + Excel. |
+| `data/geocode_cache.json` | bot | Nominatim answers, so each place name is looked up once. |
 | `data/exclude.txt` | you | Papers to skip entirely. |
 | `data/duplicate_decisions.yaml` | you | `duplicate` / `unique` rulings. |
 
