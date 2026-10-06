@@ -1,0 +1,84 @@
+{
+  "id": "s13071-017-2361-8",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-06",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s., An. arabiensis, and An. funestus in Kenya."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports on kdr mutations Vgsc L1014S (L995S) and L1014F (L995F) from literature synthesis."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper synthesizes literature and reports data ranges/maps, but does not present primary extractable genotype counts or frequencies from its own mosquito collections."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Summarizes field data from various regions across Kenya."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a secondary literature synthesis and database creation paper collating published and unpublished data from 1987 to 2015."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific study sites across Kenya are listed in Table 1 and mapped."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Extracted literature sources are categorized by collection periods and years (1994-2015)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly re-analyzes and compiles data from previously published articles and institutional reports (Table 1)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable as the study is ineligible due to being a secondary literature review/database collation."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      1994,
+      1996,
+      1999,
+      2004,
+      2006,
+      2007,
+      2008,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is a literature synthesis and database collation mapping the current status of insecticide resistance and resistance mechanisms (kdr L1014S and L1014F) among malaria vectors in Kenya using data from 1987 to 2015. It is excluded because it is a secondary database review paper rather than a primary empirical study.",
+    "exclusion_reasons": [
+      "Not a primary study (review/database collation of existing literature and unpublished reports).",
+      "Does not present original extractable genotype data."
+    ]
+  }
+}
