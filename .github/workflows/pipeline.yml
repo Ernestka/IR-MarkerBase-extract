@@ -46,7 +46,11 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       PYTHONUNBUFFERED: "1"
     steps:
+      # The LATEST main, not the commit the run was triggered on: a run that waited
+      # in the queue must start from the previous run's results, or the two clash.
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
 
       - uses: actions/setup-python@v6
         with:
@@ -87,16 +91,31 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data docs/stats.svg README.md
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Pipeline run: update roster and extractions"
-          git pull --rebase --autostash
-          git push
+          git commit -q -m "Pipeline run: update roster and extractions"
+          for attempt in 1 2 3; do
+            # If someone pushed during the run, replay this run's commit on top. Where
+            # both changed the same lines, this run's (newer) state wins; a roster row
+            # lost that way is simply rediscovered from Drive on the next run.
+            if ! git pull -q --rebase -X theirs; then
+              git rebase --abort
+              echo "::error::Could not combine with the latest main — results are in the run log only."
+              exit 1
+            fi
+            # Rebuild the generated files from the combined data, so they match it.
+            python src/export.py && python src/stats.py
+            git add data docs/stats.svg README.md
+            git diff --cached --quiet || git commit -q --amend --no-edit
+            git push && exit 0
+            sleep 15
+          done
+          exit 1
 
       - name: Summary
         if: ${{ always() }}
         run: |
           {
             echo "### Roster"
-            python -c "import csv,collections; c=collections.Counter(r['status'] for r in csv.DictReader(open('data/roster.csv'))); print('\n'.join(f'- **{k}**: {v}' for k,v in sorted(c.items())))"
+            python -c "import csv,collections; c=collections.Counter(r['status'] for r in csv.DictReader(open('data/roster.csv'))); print('\n'.join(f'- **{k}**: {v}' for k,v in sorted(c.items(), key=str)))"
             echo
             echo "Final table: \`data/final/ir_extraction.xlsx\`"
           } >> "$GITHUB_STEP_SUMMARY"
