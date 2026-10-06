@@ -71,11 +71,20 @@ work by changing the model spec, e.g. `--model sonnet`.
 contributor's subfolder). Name each one uniquely, ideally `PMID_<number>.pdf` —
 the name becomes the paper's ID everywhere.
 
-**2. Wait, or start it now.** The pipeline runs by itself every 4 hours. To run
-it immediately: **Actions → Pipeline → Run workflow**. Each run checks
-eligibility of new papers, then extracts every eligible one. On the Gemini free
-tier expect ~15–25 papers a day; when the daily quota runs out the run stops
-cleanly and the next run continues.
+**2. Start it.** GitHub's 4-hourly schedule is best-effort (often hours late), so
+start a run yourself after adding papers — **Actions → Pipeline → Run workflow**,
+or from a terminal in this folder (one-time: `sudo apt install gh && gh auth login`):
+
+```bash
+gh workflow run pipeline.yml                     # start (add -f max_papers=40 for big batches)
+gh run watch                                     # follow it until it finishes
+git pull                                         # get the results
+```
+
+Each run checks eligibility of new papers, then extracts every eligible one (15
+per stage by default). The Gemini free tier allows a few dozen papers a day; when
+the daily quota runs out the run stops cleanly — start another run the next day
+and it continues where it stopped.
 
 **3. Get the results.** Download **`data/final/ir_extraction.xlsx`** from the repo
 (or `git pull`). One row per data point (`Record type` = genotype / bioassay /
