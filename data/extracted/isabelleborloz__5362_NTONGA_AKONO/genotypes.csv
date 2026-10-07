@@ -1,5 +1,1 @@
-survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,resistant_allele_count,reported_allele_freq,source_text,page,table,figure,supplement
-isabelleborloz__5362_NTONGA_AKONO_urban,kdr,Kdr West,Vgsc,L995F,SNP,1,L995F,,F,TaqMan,False,100,,,,,0.94,"Tableau IV: Kribi urbain, Kdr West, N=100, R=0,94",7,Tableau IV,,
-isabelleborloz__5362_NTONGA_AKONO_urban,kdr,Kdr East,Vgsc,L995S,SNP,1,L995S,,S,TaqMan,False,100,,,,,0.18,"Tableau IV: Kribi urbain, Kdr East, N=100, R=0,18",7,Tableau IV,,
-isabelleborloz__5362_NTONGA_AKONO_rural,kdr,Kdr West,Vgsc,L995F,SNP,1,L995F,,F,TaqMan,False,75,,,,,0.93,"Tableau IV: Kribi rural, Kdr West, N=75, R=0,93",7,Tableau IV,,
-isabelleborloz__5362_NTONGA_AKONO_rural,kdr,Kdr East,Vgsc,L995S,SNP,1,L995S,,S,TaqMan,False,75,,,,,0.15,"Tableau IV: Kribi rural, Kdr East, N=75, R=0,15",7,Tableau IV,,
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement

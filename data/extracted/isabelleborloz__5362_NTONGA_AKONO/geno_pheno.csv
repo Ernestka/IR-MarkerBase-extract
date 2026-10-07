@@ -1,1 +1,5 @@
-bioassay_id,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,source_text,page,table,figure,supplement
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+isabelleborloz__5362_NTONGA_AKONO_urban,,"DDT, permethrin, deltamethrin",Vgsc,Kdr West,Vgsc,L995F,SNP,alive,,,,100,,0.94,,Tableau IV: Fréquences alléliques des mutations Kdr chez les échantillons d’An. gambiae s.l de Kribi,7,Tableau IV,,
+isabelleborloz__5362_NTONGA_AKONO_urban,,"DDT, permethrin, deltamethrin",Vgsc,Kdr East,Vgsc,L995S,SNP,alive,,,,100,,0.18,,Tableau IV: Fréquences alléliques des mutations Kdr chez les échantillons d’An. gambiae s.l de Kribi,7,Tableau IV,,
+isabelleborloz__5362_NTONGA_AKONO_rural,,"DDT, permethrin, deltamethrin",Vgsc,Kdr West,Vgsc,L995F,SNP,alive,,,,75,,0.93,,Tableau IV: Fréquences alléliques des mutations Kdr chez les échantillons d’An. gambiae s.l de Kribi,7,Tableau IV,,
+isabelleborloz__5362_NTONGA_AKONO_rural,,"DDT, permethrin, deltamethrin",Vgsc,Kdr East,Vgsc,L995S,SNP,alive,,,,75,,0.15,,Tableau IV: Fréquences alléliques des mutations Kdr chez les échantillons d’An. gambiae s.l de Kribi,7,Tableau IV,,

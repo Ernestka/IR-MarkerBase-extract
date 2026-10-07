@@ -3,7 +3,7 @@ title: Habitats larvaires d’Anopheles gambiae s.l. et mécanismes de résistan
   (Cameroun)
 first_author: Patrick NTONGA AKONO
 doi: 10.48327/mtsi.v2i4.2022.284
-pmid: null
+pmid: '36815176'
 publication_year: 2022
 countries:
 - Cameroon
@@ -17,4 +17,5 @@ provenance:
   supplement: null
 confidence: high
 model: gemini:gemini-3.5-flash
-extracted: '2026-10-05'
+extracted: '2026-10-07'
+pmid_source: Europe PMC (from DOI)

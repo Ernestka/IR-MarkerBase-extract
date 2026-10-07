@@ -22,13 +22,13 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**6 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-06
+**6 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-07
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| isabelleborloz,+5362_NTONGA_AKONO | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6861 | 3893 | gemini:gemini-3.5-flash | 7986 | 17442 | re-queued: extraction rules changed (geno-pheno, values as printed, carriers) | 0.0000 |
+| isabelleborloz,+5362_NTONGA_AKONO | master | EXTRACTED | True | high | low | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6861 | 3893 | gemini:gemini-3.5-flash | 8696 | 16853 | 2 survey(s), 0 genotype, 12 bioassay, 4 geno-pheno rows; 4 warning(s) | 0.0000 |
 | journal.pone.0332497 | master | AWAIT_SUPPLEMENT | True | high | low | True | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 7781 | 3736 |  |  |  |  | 0.0000 |
-| s12936-021-03606-4 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 9101 | 4765 | gemini:gemini-3.7-flash | 22346 | 13335 | re-queued: extraction rules changed (geno-pheno, values as printed, carriers) | 0.0000 |
+| s12936-021-03606-4 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 9101 | 4765 | gemini:gemini-3.5-flash | 10905 | 13432 | 1 survey(s), 2 genotype, 1 bioassay, 0 geno-pheno rows | 0.0000 |
 | s12936-025-05696-w | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 7481 | 2103 |  |  |  |  | 0.0000 |
 | s13071-017-2361-8 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-06 | 2026-10-06 | 0 |  | gemini:gemini-3.6-flash | 8712 | 2091 |  |  |  |  | 0.0000 |
 | s13071-021-04706-5 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6941 | 1706 | gemini:gemini-3.5-flash | 8214 | 21826 | re-queued: extraction rules changed (geno-pheno, values as printed, carriers) | 0.0000 |

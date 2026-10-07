@@ -3,7 +3,7 @@ title: Western Kenyan Anopheles gambiae showing intense permethrin resistance ha
   distinct microbiota
 first_author: Diana Omoke
 doi: 10.1186/s12936-021-03606-4
-pmid: null
+pmid: '33557825'
 publication_year: 2021
 countries:
 - Kenya
@@ -15,5 +15,6 @@ provenance:
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.7-flash
-extracted: '2026-10-05'
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-07'
+pmid_source: Europe PMC (from DOI)
