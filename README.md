@@ -31,7 +31,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | s12936-021-03606-4 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 9101 | 4765 | gemini:gemini-3.5-flash | 10905 | 13432 | 1 survey(s), 2 genotype, 1 bioassay, 0 geno-pheno rows | 0.0000 |
 | s12936-025-05696-w | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 7481 | 2103 |  |  |  |  | 0.0000 |
 | s13071-017-2361-8 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-06 | 2026-10-06 | 0 |  | gemini:gemini-3.6-flash | 8712 | 2091 |  |  |  |  | 0.0000 |
-| s13071-021-04706-5 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6941 | 1706 | gemini:gemini-3.5-flash | 8214 | 21826 | re-queued: extraction rules changed (geno-pheno, values as printed, carriers) | 0.0000 |
+| s13071-021-04706-5 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6941 | 1706 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 
