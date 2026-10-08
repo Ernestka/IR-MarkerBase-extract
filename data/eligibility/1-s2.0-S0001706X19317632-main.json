@@ -1,0 +1,71 @@
+{
+  "id": "1-s2.0-S0001706X19317632-main",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study monitors and profiles insecticide resistance in Anopheles gambiae s.l. malaria vectors (An. gambiae s.s., An. coluzzii, and An. arabiensis) in Guinea-Bissau (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F (L995F), L1014S (L995S), N1575Y (N1570Y), and Ace-1 G119S (G280S) (Section 2.5, Page 2; Table 3, Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on Page 4 reports mutant allele frequencies with sample sizes (number of alleles) for L1014F, L1014S, N1575Y, and G119S across multiple populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae/pupae from field sites in Buba, Gabu, Bafatá, and Bissau in Guinea-Bissau in October 2018 (Section 2.2, Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were performed at specific sentinel regions: Buba, Gabu, Bafatá, Cacheu, and Bissau (Section 2.2, Page 2; Fig. 1, Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Fieldwork was conducted from 6 to 31 October 2018 (Section 2.2, Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes routine surveillance and collections funded by the Global Fund and INFRAVEC2, with no indication of sample overlap with other published datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary target marker frequencies, sample sizes, and bioassay results are fully reported in the main text tables (Tables 1, 2, and 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Guinea-Bissau"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 321,
+    "summary": "This study monitors insecticide resistance in Anopheles gambiae s.l. populations across five regions of Guinea-Bissau in October 2018. It reports high frequencies of the Vgsc L1014F mutation, the first detection of the N1575Y mutation, and low frequencies of the Ace-1 G119S mutation, alongside WHO tube bioassays demonstrating pyrethroid resistance.",
+    "exclusion_reasons": []
+  }
+}

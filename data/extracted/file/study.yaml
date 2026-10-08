@@ -1,0 +1,23 @@
+study_id: file
+title: 'Association Mapping of Insecticide Resistance in Wild Anopheles gambiae Populations:
+  Major Variants Identified in a Low-Linkage Disequilbrium Genome'
+first_author: David Weetman
+doi: 10.1371/journal.pone.0013140
+pmid: '20976111'
+publication_year: 2010
+countries:
+- Cameroon
+- Ghana
+data_source: PLoS ONE
+provenance:
+  source_text: 'Association Mapping of Insecticide Resistance in Wild Anopheles gambiae
+    Populations: Major Variants Identified in a Low-Linkage Disequilbrium Genome.
+    PLoS ONE 5(10): e13140.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-08'
+pmid_source: Europe PMC (from DOI)

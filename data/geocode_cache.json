@@ -1,1 +1,124 @@
-{}
+{
+ "bj|Djohounkollé": [],
+ "bj|Djohounkollé, Plateau": [],
+ "bj|Djohounkollé, Sakété, Plateau": [],
+ "bj|Ifangni": [
+  {
+   "lat": 6.6806,
+   "level": "town",
+   "lon": 2.71829,
+   "name": "Ifangni, Plateau, Bénin"
+  }
+ ],
+ "bj|Ifangni, Plateau": [
+  {
+   "lat": 6.6806,
+   "level": "town",
+   "lon": 2.71829,
+   "name": "Ifangni, Plateau, Bénin"
+  }
+ ],
+ "bj|Itakpako": [],
+ "bj|Itakpako, Ifangni, Plateau": [],
+ "bj|Itakpako, Plateau": [],
+ "bj|Itassoumba": [],
+ "bj|Itassoumba, Ifangni, Plateau": [],
+ "bj|Itassoumba, Plateau": [],
+ "bj|Ko-Koumolou, Ifangni, Plateau": [],
+ "bj|Ko-Koumolou, Plateau": [
+  {
+   "lat": 6.61547,
+   "level": "village",
+   "lon": 2.67655,
+   "name": "Ko-Koumolou, Sakété, Plateau, Bénin"
+  }
+ ],
+ "bj|Plateau": [
+  {
+   "lat": 7.10026,
+   "level": "admin1",
+   "lon": 2.64091,
+   "name": "Plateau, Bénin"
+  }
+ ],
+ "bj|Sakété, Plateau": [
+  {
+   "lat": 6.73776,
+   "level": "town",
+   "lon": 2.65516,
+   "name": "Sakété, Plateau, Bénin"
+  },
+  {
+   "lat": 6.74403,
+   "level": "admin2",
+   "lon": 2.67655,
+   "name": "Sakété, Plateau, Bénin"
+  }
+ ],
+ "gw|Bafatá": [
+  {
+   "lat": 12.13485,
+   "level": "admin1",
+   "lon": -14.75036,
+   "name": "Região de Bafatá, Província Leste, Guiné-Bissau"
+  },
+  {
+   "lat": 12.17234,
+   "level": "town",
+   "lon": -14.6555,
+   "name": "Bafatá, Sector de Bafatá, Região de Bafatá, Província Leste, Guiné-Bissau"
+  }
+ ],
+ "gw|Bissau": [
+  {
+   "lat": 11.86132,
+   "level": "town",
+   "lon": -15.58305,
+   "name": "Bissau, Sector autónomo de Bissau, 1021, Guiné-Bissau"
+  },
+  {
+   "lat": 11.87018,
+   "level": "admin1",
+   "lon": -15.6077,
+   "name": "Sector autónomo de Bissau, Guiné-Bissau"
+  }
+ ],
+ "gw|Buba, Quinara": [
+  {
+   "lat": 11.59198,
+   "level": "town",
+   "lon": -14.99479,
+   "name": "Sector de Buba, Região de Quinara, Província Sul, Guiné-Bissau"
+  }
+ ],
+ "gw|Cacheu": [
+  {
+   "lat": 12.27425,
+   "level": "town",
+   "lon": -16.16489,
+   "name": "Cacheu, Sector de Cacheu, Região de Cacheu, Província Norte, Guiné-Bissau"
+  },
+  {
+   "lat": 12.19543,
+   "level": "admin1",
+   "lon": -16.09919,
+   "name": "Região de Cacheu, Província Norte, Guiné-Bissau"
+  }
+ ],
+ "gw|Gabu, Gabú": [
+  {
+   "lat": 12.28195,
+   "level": "town",
+   "lon": -14.22608,
+   "name": "Gabu, Sector de Gabu, Região de Gabu, Província Leste, Guiné-Bissau"
+  }
+ ],
+ "gw|Gabu-Bafatá": [
+  {
+   "lat": 12.17808,
+   "level": "aeroway",
+   "lon": -14.65354,
+   "name": "Aeroporto de Bafatá, N1, Mafanco, Sector de Bafatá, Região de Bafatá, Província Leste, Guiné-Bissau"
+  }
+ ]
+}

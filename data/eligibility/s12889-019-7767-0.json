@@ -1,0 +1,68 @@
+{
+  "id": "s12889-019-7767-0",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Larvae were reared in the insectary and the emerging 2–3 days old female adults of Anopheles gambiae s.l were subjected to susceptibility test. (Page 1, Abstract)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The knock down (kdr) resistance gene both western and eastern variants were determined by normal PCR following the published procedure of Martinez-Torres et al. [26] and Ranson et al. [27] respectively. (Page 3-4)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "A total of 130 mosquitoes that survived insecticide exposure were further subjected for kdr genotyping (both eastern and western variants). Kdr mutation alleles were not detected in all the samples that were tested and therefore sequencing was not performed. (Page 6)"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in agricultural areas of Magu district (02°35′S-033°26′E) in Mwanza region, Tanzania. (Page 2)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "We investigated the practices of farmers with regard to pesticide usage in the vegetable growing areas and their impact on susceptibility status of An. gambiae s.l. (Page 1, Abstract)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The farms selected were located in the following vilages: Sola, Ijitu, Kiloleli and Ilumya. (Page 2)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between January through September 2014 (Page 2)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine collection by local researchers (University of Dar es Salaam and NIMR Mwanza) in Magu district, Tanzania."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text contains the genotype results (130 survivors tested, 0 kdr detected) and bioassay results (Table 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 130,
+    "summary": "The study investigated pesticide usage practices among farmers in Magu district, Tanzania, and its impact on the susceptibility of Anopheles gambiae s.l. Mosquito larvae were collected from farms between January and September 2014, reared to adults, and subjected to WHO susceptibility tests. High phenotypic resistance was observed against DDT and pyrethroids. PCR sibling species identification showed An. arabiensis (86%) and An. gambiae s.s. (8%). Kdr genotyping (L995F and L995S) of 130 survivors of insecticide exposure revealed no kdr mutations.",
+    "exclusion_reasons": []
+  }
+}

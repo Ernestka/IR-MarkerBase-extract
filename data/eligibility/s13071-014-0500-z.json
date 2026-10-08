@@ -1,0 +1,80 @@
+{
+  "id": "s13071-014-0500-z",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates 'Anopheles gambiae sensu lato' (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports 'kdr 1014F' (Vgsc L995F) frequency (Page 1, Abstract; Page 4, Figure 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report new primary genotype data. The kdr 1014F frequency data is compiled from previously published studies (Page 5, 'originating primarily from two geographically wide-ranging studies [13,22]')."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Côte d'Ivoire (Page 1, Abstract)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a review/meta-analysis of historical data, explicitly labeled as 'REVIEW' (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are mapped to specific districts and towns in Côte d'Ivoire, such as Sikensi, Divo, Agboville, and Tiassalé (Page 9, Additional files)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Data are stratified by specific years and periods, such as 1998, 2004-2012, and 2013 (Page 4, Figure 2; Page 9, Additional files)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The genotype data is entirely compiled from previously published papers: 'molecular resistance diagnostic data for the kdr L1014F polymorphism (Additional file 2d), originating primarily from two geographically wide-ranging studies [13,22]' (Page 5)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      1998,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a review and meta-analysis of 22 years of insecticide resistance data in Côte d'Ivoire. It compiles previously published kdr L1014F genotype frequencies and bioassay data, and presents some new bioassay data, but does not report any new primary genotype data. Therefore, it is ineligible.",
+    "exclusion_reasons": [
+      "The study is a review/meta-analysis (not a primary empirical study).",
+      "It does not report new primary genotype data, only compiling previously published kdr frequencies."
+    ]
+  }
+}

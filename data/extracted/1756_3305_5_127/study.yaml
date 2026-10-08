@@ -1,0 +1,21 @@
+study_id: '1756_3305_5_127'
+title: 'Population dynamics of Anopheles gambiae s.l. in Bobo-Dioulasso city: bionomics,
+  infection rate and susceptibility to insecticides'
+first_author: Roch K Dabiré
+doi: 10.1186/1756-3305-5-127
+pmid: '22721002'
+publication_year: 2012
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: 'Population dynamics of Anopheles gambiae s.l. in Bobo-Dioulasso city:
+    bionomics, infection rate and susceptibility to insecticides'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-08'
+pmid_source: Europe PMC (from DOI)

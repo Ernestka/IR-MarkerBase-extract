@@ -1,0 +1,20 @@
+study_id: '1756_3305_6_352'
+title: Impact of land-use on malaria transmission in the Plateau region, southeastern
+  Benin
+first_author: Arthur Sovi
+doi: 10.1186/1756-3305-6-352
+pmid: '24330734'
+publication_year: 2013
+countries:
+- Benin
+data_source: Parasites & Vectors
+provenance:
+  source_text: Sovi et al. Parasites & Vectors 2013, 6:352
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-08'
+pmid_source: Europe PMC (from DOI)

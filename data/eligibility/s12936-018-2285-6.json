@@ -1,0 +1,67 @@
+{
+  "id": "s12936-018-2285-6",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. and Anopheles funestus s.l. in the Democratic Republic of Congo (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the Vgsc L1014F (L995F) mutation in Anopheles gambiae s.l. (Page 4, 'Laboratory analysis' and Page 6, 'Fig. 2')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 2 on Page 6 reports the frequency of Vgsc-1014F genotypes (RR, RS, SS) along with the sample size (n) for six sentinel sites (Kabondo, Lodja, Kingasani, Mikalayi, Kapolowe, and Tshikaji)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from transient puddles in eight sentinel sites across the Democratic Republic of Congo (Page 2, 'Study sites' and 'Insecticide susceptibility tests')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collection, bioassay, and molecular data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 on Page 3 lists the specific sentinel sites (e.g., Lodja, Kabondo, Tshikaji, Kapolowe, Kingasani, Mikalayi, Katana, Kalemie) along with their GPS coordinates."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The genotyped samples were specifically collected during the 2014 surveillance period (Page 4, 'Laboratory analysis')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study was conducted as part of the USAID-funded President's Malaria Initiative (PMI) Africa Indoor Residual Spraying (AIRS) Project, but this paper represents the primary peer-reviewed publication of these specific genotype and bioassay datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The genotype data for the Vgsc L1014F marker is fully presented in Figure 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 378,
+    "summary": "This study reports on nationwide insecticide resistance and biting behavior of malaria vectors in the Democratic Republic of Congo. It provides Vgsc L1014F (L995F) genotype frequencies (RR, RS, SS) for 378 Anopheles gambiae s.l. mosquitoes collected in 2014 across six sentinel sites (Kabondo, Lodja, Kingasani, Mikalayi, Kapolowe, and Tshikaji).",
+    "exclusion_reasons": []
+  }
+}

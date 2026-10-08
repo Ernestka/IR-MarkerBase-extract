@@ -1,0 +1,70 @@
+{
+  "id": "s13071-021-04833-z",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates insecticide resistance in Anopheles arabiensis and Anopheles gambiae s.l. in western Kenya (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F (L995F), L1014S (L995S), and Ace-1 G119S (G280S) (Page 5, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 on page 6 reports the sample sizes (N) and allele frequencies for L1014, L1014S, L1014F, and G119S across different years and zones."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were reared from larvae collected from irrigated and non-irrigated fields in Homa Bay County, western Kenya (Page 1, Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in specific irrigated and non-irrigated clusters in Homa Bay County, western Kenya (Page 3, Fig. 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were conducted between February and July in 2018 and 2019 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study was supported by NIH ICEMR grants, but describes routine primary field collections unique to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequencies and sample sizes are reported in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 317,
+    "summary": "This study assessed insecticide resistance and target-site mutations (Vgsc L1014F/S and Ace-1 G119S) in Anopheles arabiensis from irrigated and non-irrigated areas of Homa Bay County, western Kenya, in 2018 and 2019. Low frequencies of kdr mutations (1-16%) and Ace-1 G119S (0.7%) were detected.",
+    "exclusion_reasons": []
+  }
+}

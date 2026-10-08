@@ -1,0 +1,72 @@
+{
+  "id": "molecules-27-06343",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Species of the An. gambiae s.l. complex were identified using molecular diagnostic tools. An. gambiae, An. coluzzii and An. arabiensis were identified in the different settings."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The frequency of L1014F allele (kdr West) was always >75% except in Kaélé (43.40%). The L1014S kdr allele (kdr East) was detected only in the populations of Njombé and Tibati at low frequencies. The N1575Y allele was recorded in Kaélé, Santchou, Tibati and Bertoua..."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 on page 9 reports the sample sizes (ranging from 30 to 40 per population) and the frequencies (Mean ± SE) of the kdr L1014F, L1014S, and N1575Y alleles across seven field populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae and pupae were collected from the field in Cameroon (Kaélé, Tibati, Bertoua, Bélabo, Kékem, Santchou, and Njombé) and reared to F0 adults for testing."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing original field collections, susceptibility bioassays, and molecular genotyping of malaria vectors in Cameroon."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies specific collection sites: Kaélé, Tibati, Bertoua, Bélabo, Kékem, Santchou, and Njombé."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted over three consecutive years from July 2019 to July 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine new collections and bioassays conducted by the authors' network in Cameroon, with no indication of direct sample overlap with other published datasets."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Detailed bioassay data (individual replicates and exact counts) are located in the supplementary files: 'Table S1: Susceptibility test of Anopheles gambiae s.l. with permethrin; Table S2: Susceptibility test of Anopheles gambiae s.l. with deltamethrin.'"
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 270,
+    "summary": "This study assesses pyrethroid resistance profiles and underlying mechanisms in Anopheles gambiae s.l. populations across five eco-epidemiological settings in Cameroon between 2019 and 2021. It reports WHO susceptibility bioassays, PBO synergist assays, and target-site resistance genotyping (Vgsc L995F, L995S, and N1570Y) in unexposed field-collected mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

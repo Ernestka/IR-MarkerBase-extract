@@ -1,0 +1,69 @@
+{
+  "id": "1756-3305-5-127",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. and Anopheles arabiensis as described in the Abstract and Mosquito collections section on page 2."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the Vgsc L1014F (L995F) kdr mutation and the ace-1R (G119S / G280S) mutation as described in the Abstract and the 'Molecular analysis' section on page 3."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 and Table 5 on page 7 provide the exact genotype counts (SS, RS, RR) and allele frequencies for kdr L1014F and ace-1R across the different species and locations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Bobo-Dioulasso, Burkina Faso, West Africa, between May and December 2008 (page 2, 'Study areas' and 'Mosquito collections')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study reporting field collections, WHO susceptibility bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific coordinates and names for two districts in Bobo-Dioulasso: Dioulassoba (11°10'42\"N; 4°17'35\"W) and Kodéni (11°10'N; 4°15'W) on page 2."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted from May to December 2008 (page 2, 'Mosquito collections')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes routine local entomological monitoring and does not indicate any sample overlap with larger consortia or previously published datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 586,
+    "summary": "This study reports on the species composition, Plasmodium infection rates, and insecticide resistance status of Anopheles gambiae s.l. in Bobo-Dioulasso, Burkina Faso, in 2008. It provides detailed genotype counts and frequencies for the Vgsc L1014F (L995F) and Ace-1 G119S (G280S) mutations in An. arabiensis, An. gambiae S form, and An. gambiae M form, alongside WHO tube bioassay results.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Newpaper",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (Page 1, Title and Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study investigates the kdr L1014F (Vgsc L995F) mutation (Page 2, 'Methods' and Page 3, 'Mosquitoes')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies from field populations are reported; only the behavior of pre-determined laboratory strains (Kisumu, kdr-kis, and their RS cross) is analyzed."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study only uses laboratory reference strains (Kisumu and kdr-kis) and does not test any field-collected mosquitoes (Page 3, 'Mosquitoes' section)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the influence of pyrethroid-treated nets on host-seeking behavior."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as no field collections were conducted."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as no field collections were conducted."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a laboratory-based behavioral study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are needed because the study is fundamentally ineligible due to the lack of field-collected mosquitoes."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the host-seeking behavior of Anopheles gambiae s.s. in response to permethrin-treated nets using laboratory reference strains (Kisumu and kdr-kis) in a dual-choice olfactometer. Because the study relies entirely on laboratory colonies and does not test field-collected mosquito populations, it does not meet the eligibility criteria.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

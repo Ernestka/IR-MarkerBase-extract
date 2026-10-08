@@ -1,0 +1,66 @@
+{
+  "id": "s13071-016-1923-5",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Out of 619 Anopheles specimens sampled, 537 (87%) were identified as Anopheles gambiae (sensu stricto)... (Page 1, Abstract)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR genotyping of kdr and ace-1 were carried out... to detect the West African kdr allele, L1014F... PCR to detect ace-1 G119S mutation... was carried out (Page 3)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 reports kdr resistance counts (resistant vs sensitive) for An. gambiae (s.s.) (n=537) and An. coluzzii (n=82). Table 3 reports these counts segregated by alive/dead status. Ace-1 G119S was not detected (0%) in the population (Page 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles larvae and pupae were sampled from major open-spaced irrigated vegetable farms in the submetropolis [Asokwa, Kumasi, Ghana] and reared to adults in an insectary. (Page 2)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "We conducted susceptibility tests... and characterization of knockdown resistance and acetylcholinesterase mutant genes. (Page 1, Abstract)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Asokwa submetropolis in Kumasi Metropolis, Ghana (Page 2)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not explicitly state the years of mosquito collection, although ethics approval was obtained in 2014 (Ref: CHRPE/AP/343/14) and the manuscript was received in April 2016."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study presents original local surveillance data from Kumasi, Ghana, funded by the local EOD research working group, with no indication of sharing samples with larger consortia."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data, including bioassay results and genotype counts, are fully presented in the main text and tables (Tables 1, 2, and 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 619,
+    "summary": "The study investigated insecticide resistance in Anopheles gambiae s.l. (An. gambiae s.s. and An. coluzzii) from Kumasi, Ghana. Larvae were collected from irrigated vegetable farms and reared to adults. WHO tube bioassays were performed for pyrethroids, carbamates, organochlorides, and organophosphates. Genotyping was performed for Vgsc L995F (L1014F) and Ace-1 G280S (G119S) on 619 specimens. Vgsc L995F was detected at high frequencies (61% in An. gambiae s.s. and 91% in An. coluzzii), and genotype-phenotype association was reported (segregated by alive/dead). Ace-1 G280S was not detected.",
+    "exclusion_reasons": []
+  }
+}

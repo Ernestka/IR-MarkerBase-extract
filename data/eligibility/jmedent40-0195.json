@@ -1,0 +1,67 @@
+{
+  "id": "jmedent40-0195",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae (M and S molecular forms) as described in the Abstract: 'A sodium channel 'kdr'-type mutation was identified in the M form of Anopheles gambiae from Burkina Faso...'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the standard Leu-Phe kdr mutation (Vgsc L995F, formerly L1014F) as stated on page 2: 'to detect the standard Leu-Phe 'kdr' mutation (Martinez-Torres et al. 1998).'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 on page 2 reports monthly genotype counts (e.g., '3RR + 1RS', '1RS') and sample sizes for both S and M molecular forms of An. gambiae in 1999 and 2000."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Burkina Faso, as described on page 2: 'A survey was conducted in the Kou Valley of Burkina Faso... larval collections and night catches were performed in VK7, a village located on the boundary of the rice and cotton areas.'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the exact village of collection: 'VK7, a village located on the boundary of the rice and cotton areas' in the 'Kou Valley of Burkina Faso' (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were performed monthly between July and December in 1999 and 2000 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper presents original field collection and genotyping data from 1999-2000 with no indication of overlap with larger databases or previously published datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay results are fully reported in the main text (Table 1 and Figure 1)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      1999,
+      2000
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 399,
+    "summary": "This study reports the frequency of the Vgsc L995F (kdr-west) mutation in sympatric M and S molecular forms of Anopheles gambiae collected from VK7 village in the Kou Valley, Burkina Faso, between July and November in 1999 and 2000. Genotype counts (RR, RS, SS) are provided monthly for both molecular forms. Permethrin bioassays were also performed on larval-reared adults.",
+    "exclusion_reasons": []
+  }
+}

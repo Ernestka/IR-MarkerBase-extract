@@ -1,0 +1,67 @@
+{
+  "id": "1756-3305-6-352",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. in southeastern Benin (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the kdr Leu-Phe mutation (Vgsc L995F) (page 4, 'Infection and molecular characterization of the populations of An. gambiae by PCR: species, molecular forms and kdr Leu-phe mutation')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 on page 9 reports the exact kdr genotype counts (RR, RS, SS) for An. gambiae from four villages."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and pupae from the field in four villages in the Plateau region of Benin and reared to adults for testing (page 4, 'Collection of An. gambiae larvae')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing field collections, bioassays, and molecular analysis of Anopheles mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study is resolved to four specific villages: Itassoumba, Ko-Koumolou, Djohounkollé, and Itakpako in Ifangni and Sakété districts, Benin (page 2, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were carried out from July 2011 to June 2012 (page 2, 'Study area')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors describe routine field collections conducted specifically for this study, with no indication of sample overlap with larger consortia."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, bioassay results, and site details are fully reported in the main text and tables (specifically Table 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 148,
+    "summary": "This study evaluates malaria transmission and insecticide resistance in four villages in the Plateau region of southeastern Benin. Anopheles gambiae s.l. larvae were collected from the field, reared to adults, and tested using WHO susceptibility bioassays with deltamethrin and permethrin. Genotyping of the Vgsc L995F (kdr-west) mutation was performed on 148 mosquitoes, with genotype counts (RR, RS, SS) reported separately for survivors (alive) and dead mosquitoes following deltamethrin exposure.",
+    "exclusion_reasons": []
+  }
+}

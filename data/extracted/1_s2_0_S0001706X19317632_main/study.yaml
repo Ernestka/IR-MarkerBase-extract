@@ -1,0 +1,21 @@
+study_id: 1_s2_0_S0001706X19317632_main
+title: Monitoring and molecular profiling of contemporary insecticide resistance status
+  of malaria vectors in Guinea–Bissau
+first_author: Ronise Silva
+doi: 10.1016/j.actatropica.2020.105440
+pmid: '32156617'
+publication_year: 2020
+countries:
+- Guinea-Bissau
+data_source: journal_article
+provenance:
+  source_text: Monitoring and molecular profiling of contemporary insecticide resistance
+    status of malaria vectors in Guinea–Bissau
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-08'
+pmid_source: Europe PMC (from DOI)

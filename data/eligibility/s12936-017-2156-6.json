@@ -1,0 +1,73 @@
+{
+  "id": "s12936-017-2156-6",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles arabiensis, Anopheles gambiae s.s., and Anopheles funestus (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes mosquitoes for the L1014S (Vgsc L995S) and L1014F (Vgsc L995F) kdr mutations (Page 1, Abstract; Page 5, 'Knockdown resistance mutations')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 on Page 5 reports the L1014S kdr genotype counts (RR, RS, SS) for resistant and susceptible Anopheles gambiae s.s."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Marigiza and Kidomaya villages, Kwale County, Coastal Kenya (Page 2, 'Study area')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific village names and coordinates: Marigiza (Latitude -4.443036, Longitude 39.461887) and Kidomaya (Latitude -4.578639, Longitude 39.157574) in Kwale County, Kenya (Page 2, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in July and August 2015 (Page 2, 'Mosquito collection and rearing')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine entomological collections conducted specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, bioassay results, and site coordinates are fully reported in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles leesoni",
+      "Anopheles parensis",
+      "Anopheles rivulorum",
+      "Anopheles vaneedeni"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 300,
+    "summary": "This study assessed pyrethroid resistance in malaria vectors in Kwale County, Coastal Kenya. Mosquitoes were collected in July and August 2015 from Marigiza and Kidomaya villages. WHO susceptibility bioassays were performed for permethrin and deltamethrin. Genotyping for Vgsc L1014F and L1014S mutations was performed on 300 Anopheles gambiae s.l. individuals, showing a low frequency of L1014S and the absence of L1014F.",
+    "exclusion_reasons": []
+  }
+}
