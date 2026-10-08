@@ -1,0 +1,84 @@
+{
+  "id": "s13071-019-3774-3",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study characterizes seven Anopheles strains: Kisumu (An. gambiae s.s.), Moz (An. arabiensis), Tiassalé 13 (An. gambiae s.l.), Banfora M (An. coluzzii), VK7 2014 (An. coluzzii), FANG (An. funestus s.s.), and FUMOZ-R (An. funestus s.s.). (Table 1, Page 3)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study screens for kdr mutations (L1014F, L1014S, N1575Y) and the ace-1 G119S mutation. (Page 2, Methods; Page 10, Figure 3)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies for kdr (1014F), N1575Y, and ace-1 (119S) are reported over time for several strains in Figure 3 (Page 10). The text states that 48 females were genotyped per round (Page 5)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study reports data on established laboratory colonies maintained at the Liverpool Insect Testing Establishment (LITE) at LSTM. While these strains originated from field collections in Africa, the paper focuses on their characterization and stability as lab strains. The instructions explicitly exclude papers where the only genotyped mosquitoes are laboratory colonies such as Kisumu, FANG, and FUMOZ. (Page 2, Methods; Table 1, Page 3)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study characterizing the resistance phenotypes and genotypes of laboratory-maintained Anopheles strains."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The origins of the strains are specified at the sub-country level, e.g., Banfora M district and Valley de Kou 7 in Burkina Faso, Tiassalé in Côte d'Ivoire. (Table 1, Page 3)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Genotyping and bioassay data are presented for specific years/months (e.g., Figure 3 shows data points from 2013 to 2018). (Page 10, Figure 3)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes standard reference strains maintained at LSTM. While data for these strains might appear in other papers using them as controls or for comparison, this paper is the primary characterization of the LITE 'suite' of strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text and figures provide the genotype frequencies and bioassay results. Additional files are mentioned but the core data for eligibility assessment is in the main document."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya",
+      "Mozambique",
+      "Côte d'Ivoire",
+      "Burkina Faso",
+      "Angola"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 48,
+    "summary": "The study characterizes seven Anopheles strains (Kisumu, Moz, Tiassalé 13, Banfora M, VK7 2014, FANG, and FUMOZ-R) maintained at the Liverpool Insect Testing Establishment (LITE). It reports their insecticide resistance profiles (WHO tube, topical, and tarsal bioassays) and the frequencies of target-site resistance markers (Vgsc L995F, N1570Y, and Ace-1 G280S) over multiple generations in the laboratory. Since the study only reports data for established laboratory colonies, it is ineligible according to the criteria.",
+    "exclusion_reasons": [
+      "The study reports data only for established laboratory colonies (Kisumu, Moz, Tiassalé 13, Banfora M, VK7 2014, FANG, FUMOZ-R) maintained at the Liverpool School of Tropical Medicine (LITE), rather than field populations (F0/F1). The instructions specifically exclude papers where the only genotyped mosquitoes are laboratory colonies."
+    ]
+  }
+}

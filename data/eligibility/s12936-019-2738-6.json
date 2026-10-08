@@ -1,0 +1,93 @@
+{
+  "id": "s12936-019-2738-6",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study reviews data on Anopheles gambiae sensu lato and Anopheles funestus s.l. (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on knockdown resistance (kdr) mutations L1014S and L1014F, as well as the Rdl mutation (Table 4 and Table 5, Page 10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "While the paper reports allele frequencies for kdr mutations in Table 4, it provides them as ranges (e.g., 33-84%) and does not provide the specific number of mosquitoes genotyped (N) for those frequencies, which is required for extraction (Page 10)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The review covers field-collected mosquitoes from 35 sites across mainland Tanzania (Abstract, Page 1; Figure 2, Page 4)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly identified as a 'systematic review' in the title and abstract, synthesizing data from 30 previously published articles (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is linked to 35 specific sites across Tanzania, including Moshi, Kilombero, Muheza, and Muleba (Figure 2, Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Table 1 lists the specific years of mosquito collection for each of the reviewed studies, often providing single years or two-year ranges (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "This is a systematic review of 30 articles; therefore, all genotype and bioassay data reported are duplicates of the original primary studies (Abstract, Page 1)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a review and does not require external supplementary files for the data it summarizes."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Rdl A296G"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a systematic review of insecticide resistance in malaria vectors in mainland Tanzania from 1997 to 2017. It synthesizes data from 30 primary studies, reporting on phenotypic resistance trends and mechanisms such as kdr (L1014F/S) and Rdl mutations. It is ineligible for the database because it is a secondary review and does not provide the necessary sample sizes (N) alongside the summarized genotype frequencies.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

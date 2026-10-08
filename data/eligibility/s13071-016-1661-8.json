@@ -1,0 +1,70 @@
+{
+  "id": "s13071-016-1661-8",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles larvae were collected in 13 villages... Sibling species within Anopheles gambiae complex were identified by PCR techniques. (Abstract)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The 1014 F and 1014S kdr mutations were detected by allelic discrimination Taqman assays (Methods, page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 Kdr allelic frequencies in An. coluzzi and An. gambiae. f(1014)F was determined by qPCR. N represents the number of alleles tested (Page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The thirteen villages... were located in southeast Benin. They belonged to four districts: Ifangni, Sakete, Pobe, Ketou and were visited for mosquito collection (Table 1). (Methods, page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The aim of this study was to investigate the dynamic of pyrethroid resistance in malaria vectors from 2012 to 2014 in 13 villages of Plateau Department... (Methods, page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The thirteen villages... were located in southeast Benin. They belonged to four districts: Ifangni, Sakete, Pobe, Ketou... (Table 1). Table 4 lists the 13 villages."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Anopheles larvae were collected in 13 villages twice a year from 2012 to 2014. (Abstract)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This research forms part of a multi-country study coordinated by the Global Malaria Program of the World Health Organization... The present study was part of a multidisciplinary project funded by the Bill & Melinda Gates Foundation... (Funding, page 8)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Table 4 provides the allele frequencies and number of alleles tested for all sites and time points."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2745,
+    "summary": "This study monitored the frequency and mechanisms of pyrethroid resistance in Anopheles gambiae and Anopheles coluzzii in 13 villages in Plateau Department, Benin, from 2012 to 2014. The authors report high frequencies of the Vgsc L1014F (L995F) mutation, which was near fixation in both species. Vgsc L1014S (L995S) was not detected. Phenotypic resistance to deltamethrin was widespread, and metabolic resistance (CYP6P3, CYP6M2, GSTD3) was also investigated.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "s12936-020-03388-1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study examines Anopheles gambiae sensu lato (s.l.) including An. coluzzii, An. arabiensis, and An. gambiae s.s. (Abstract, Page 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping of Vgsc-1014F (L995F), Vgsc-1014S (L995S), Vgsc-1575Y (N1570Y), and Ace1-119S (G280S) (Abstract, Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 6) provides allele frequencies and sample sizes (N) for F1 An. coluzzii survivors and dead. Table 2 (page 7) provides allele frequencies and sample sizes (N) for wild F0 An. gambiae s.l. populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Kpalsogu and Libga in Northern Ghana between July and November 2017 (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections and laboratory analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to specific villages: Kpalsogu (9.33° N, 1.02° W) and Libga (9.35° N, 0.51° W) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in a single season: July–November 2017 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the study sites are part of routine NMCP/PMI surveillance, the data presented appears to be from a specific research project conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequencies and sample sizes are contained within the main text tables (Table 1 and Table 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 3675,
+    "summary": "This study investigated the association between insecticide resistance and resting behavior in Anopheles gambiae s.l. in Northern Ghana. Mosquitoes were collected indoors and outdoors in 2017. The authors report phenotypic resistance to DDT, deltamethrin, malathion, and bendiocarb, and provide allele frequencies for Vgsc (1014F, 1014S, 1575Y) and Ace-1 (119S) markers in both field-caught F0 and F1 progeny, including associations with bioassay outcomes.",
+    "exclusion_reasons": []
+  }
+}
