@@ -1,0 +1,23 @@
+study_id: jmedent40_0195
+title: 'KDR Mutation, a Genetic Marker to Assess Events of Introgression Between the
+  Molecular M and S Forms of Anopheles gambiae (Diptera: Culicidae) in the Tropical
+  Savannah Area of West Africa'
+first_author: Diabate, A.
+doi: 10.1603/0022-2585-40.2.195
+pmid: '12693848'
+publication_year: 2003
+countries:
+- Burkina Faso
+data_source: Journal of Medical Entomology
+provenance:
+  source_text: 'KDR Mutation, a Genetic Marker to Assess Events of Introgression Between
+    the Molecular M and S Forms of Anopheles gambiae (Diptera: Culicidae) in the Tropical
+    Savannah Area of West Africa'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-08'
+pmid_source: Europe PMC (from DOI)

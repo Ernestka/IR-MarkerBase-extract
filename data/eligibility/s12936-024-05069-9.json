@@ -1,0 +1,71 @@
+{
+  "id": "s12936-024-05069-9",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study monitors target-site resistance mutations in Anopheles coluzzii and Anopheles arabiensis (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F (L995F), L1014S (L995S), and V402L (Page 1, Abstract; Page 3, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype percentages and sample sizes (N) for each year (2011, 2015, 2020) are reported in Table 1 (An. coluzzii, N=300 total) and Table 2 (An. arabiensis, N=362 total) on Page 4."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Goden, a rural village in the central region of Burkina Faso (Page 3, Study area)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing original collections and molecular genotyping of insecticide resistance markers."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study is resolved to Goden village (12°25′ N, 1° 21′ W) in Burkina Faso (Page 3, Study area)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in specific years: 2011, 2015, and 2020 (Page 3, Entomological collections and specimen processing)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states that 'A subsample of mosquitoes, already identified as An. coluzzii and An. arabiensis in previous studies [45, 47, 48], was randomly chosen for each sampling year and processed for insecticide resistance allele genotyping' (Page 3). While the specimens come from previously published collections, the genotyping data for these markers appears to be newly generated here."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The genotype percentages and sample sizes (N) are fully detailed in Table 1 and Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc V402L"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2011,
+      2015,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 662,
+    "summary": "This study presents a longitudinal survey (2011, 2015, and 2020) of target-site resistance mutations (Vgsc L1014F, L1014S, and V402L) in Anopheles coluzzii and Anopheles arabiensis from Goden village in central Burkina Faso. It reports a significant increase in V402L in An. coluzzii and L1014F in An. arabiensis over the 10-year period following massive ITN scale-up.",
+    "exclusion_reasons": []
+  }
+}

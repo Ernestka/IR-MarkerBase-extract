@@ -1,0 +1,68 @@
+{
+  "id": "s12936-016-1618-6",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Larvae of Anopheles gambiae sensu lato mosquitoes were collected in 12 sentinel sites throughout Rwanda. (Page 1, Abstract)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Seven hundred and twenty-five (134 An. gambiae s.s. and 591 An. arabiensis) mosquitoes collected in 2011 and 2013 were genotyped for kdr-east (L1014S). (Page 5, kdr Genotypes)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 7 provides genotype counts (SS, RS, RR) for An. gambiae s.s. and An. arabiensis across seven sentinel sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected in the 12 sentinel sites... distributed over the three provinces of Rwanda (Eastern, Southern and Western province) and Kigali City. (Page 2, Study area)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting original insecticide resistance survey data from 2011 and 2013 in Rwanda."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies 12 specific sentinel sites: Busoro, Mbuga, Karambi, Rukara, Mimuri, Bukora, Mareba, Mashesha, Kivumu, Mubuga, Kibogora, and Kicukiro. (Page 2, Study area)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Data were collected during nationwide insecticide resistance surveys conducted in 2011 and 2013. (Page 1, Abstract)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors state this is the 'first nationwide study of insecticide resistance in malaria vectors in Rwanda'. (Page 1, Abstract)"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are contained within the main text and tables (specifically Table 2 and Table 3)."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Rwanda"
+    ],
+    "collection_years": [
+      2011,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 725,
+    "summary": "This study presents the results of insecticide resistance monitoring in Rwanda for the years 2011 and 2013. It includes WHO tube bioassay results for six insecticides across 12 sentinel sites and reports the frequency of the Vgsc L1014S (kdr-east) mutation in An. gambiae s.s. and An. arabiensis. Genotype counts (RR, RS, SS) are provided for seven of the sentinel sites, pooled across the two collection years.",
+    "exclusion_reasons": []
+  }
+}

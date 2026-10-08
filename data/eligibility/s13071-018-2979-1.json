@@ -1,0 +1,68 @@
+{
+  "id": "s13071-018-2979-1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study assesses the susceptibility of Anopheles gambiae (s.l.) mosquitoes (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotyped kdr alleles L1014F and L1014S (Page 1, Abstract; Page 3, kdr genotyping)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides genotype counts (SS, SR, RR) for An. coluzzii and An. gambiae (s.s.) across three study sites (Page 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from Limbe, Tiko, and Buea in South-West Cameroon and reared to adults (Page 2, Mosquitoes sampling)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collections and laboratory analysis (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for three specific cities: Limbe, Tiko, and Buea, with coordinates provided (Page 2, Study sites)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between November and December 2015 (Page 2, Study sites)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study compares its findings to previous reports from the same area (e.g., Nwane et al. 2011) but uses new collections from 2015 (Page 6)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Additional file 1: Table S1 is mentioned as containing 'Molecular identification and kdr genotypes of samples from Limbe, Tiko and Buea' and is likely where the phenotype-linked genotype data resides (Page 7)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 134,
+    "summary": "This study evaluated insecticide resistance in Anopheles gambiae (s.l.) from three locations in South-West Cameroon (Limbe, Tiko, and Buea) in late 2015. The researchers found high levels of resistance to pyrethroids (deltamethrin and permethrin) but full susceptibility to malathion. Molecular analysis identified An. coluzzii and An. gambiae (s.s.) as the primary vectors. Genotyping of the Vgsc gene revealed high frequencies of the L1014F (kdr-west) mutation, particularly in Tiko and Buea, while the L1014S (kdr-east) mutation was absent.",
+    "exclusion_reasons": []
+  }
+}

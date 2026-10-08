@@ -1,0 +1,20 @@
+study_id: s12889_019_7767_0
+title: 'Farmers’ pesticide usage practices in the malaria endemic region of North-Western
+  Tanzania: implications to the control of malaria vectors'
+first_author: Anitha Philbert
+doi: 10.1186/s12889-019-7767-0
+pmid: '31694595'
+publication_year: 2019
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: Philbert et al. BMC Public Health (2019) 19:1456 https://doi.org/10.1186/s12889-019-7767-0
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-08'
+pmid_source: Europe PMC (from DOI)

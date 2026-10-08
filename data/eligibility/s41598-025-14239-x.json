@@ -1,0 +1,75 @@
+{
+  "id": "s41598-025-14239-x",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigated the impact of environmental contaminants on insecticide resistance by sampling Anopheles larvae from six sites in Ghana (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports frequencies for Vgsc L995F, L995S, N1570Y, V402L, I1527T, P1874L, and Ace-1 G280S (Page 2, Results; Table 1, Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 4) provides allele frequencies (F) and the number of samples genotyped (N=30) for each of the six study sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from six field sites in Ghana: Abossey Okai, Kokompe, Tamale Fitam, Obuasi, Tema community 1, and Accra Industrial Area (Page 7, Materials and methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original collection, bioassay, and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for six specific sites in Ghana, with coordinates provided for each (Page 7, Materials and methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Anopheles larvae sampling was carried out from January 2023 to July 2024 (Page 8, Mosquito larval collection)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study mentions support from PMI-Vector Link and AngloGold Ashanti malaria control, but describes original sampling and analysis for this specific research question (Page 11, Acknowledgements)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequencies and sample sizes are provided in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Vgsc P1874L",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 180,
+    "summary": "This study investigated the impact of environmental contaminants (heavy metals, pesticides, and petroleum) on insecticide resistance in Anopheles gambiae s.l. populations across six sites in Ghana. Larvae were collected between January 2023 and July 2024. The study reports high frequencies of several Vgsc mutations (L995F, V402L, I1527T, P1874L) and the presence of L995S, N1570Y, and Ace-1 G280S. Phenotypic resistance to pyrethroids, organophosphates, neonicotinoids, and pyrroles was also assessed using WHO tube and bottle bioassays.",
+    "exclusion_reasons": []
+  }
+}
