@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**30 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-08
+**30 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-09
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -38,7 +38,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | molecules-27-06343 | master | AWAIT_SUPPLEMENT | True | high | low | True | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 9140 | 4250 |  |  |  |  | 0.0000 |
 | s12889-019-7767-0 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7632 | 3442 | gemini:gemini-3.6-flash | 9337 | 18398 | 1 survey(s), 0 genotype, 18 bioassay, 2 geno-pheno rows; 6 warning(s) | 0.0000 |
 | s12936-015-0924-8 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 7632 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
-| s12936-016-1618-6 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 7632 | 2545 |  |  |  |  | 0.0000 |
+| s12936-016-1618-6 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 7632 | 2545 | gemini:gemini-3.5-flash | 9325 | 46324 | 38 survey(s), 14 genotype, 25 bioassay, 0 geno-pheno rows; 2 warning(s) | 0.0000 |
 | s12936-017-2156-6 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6552 | 2884 |  |  |  |  | 0.0000 |
 | s12936-018-2285-6 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 8712 | 3589 |  |  |  |  | 0.0000 |
 | s12936-019-2738-6 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 10332 | 3182 |  |  |  |  | 0.0000 |

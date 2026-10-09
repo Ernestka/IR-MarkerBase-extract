@@ -120,5 +120,285 @@
    "lon": -14.65354,
    "name": "Aeroporto de Bafatá, N1, Mafanco, Sector de Bafatá, Região de Bafatá, Província Leste, Guiné-Bissau"
   }
+ ],
+ "rw|Bukora": [
+  {
+   "lat": -2.30865,
+   "level": "amenity",
+   "lon": 30.78652,
+   "name": "Bukora Health Centre, DR67, Muwoga, Nyamugali, Kirehe District, Eastern Province, Rwanda"
+  }
+ ],
+ "rw|Bukora, Eastern Province": [
+  {
+   "lat": -2.30865,
+   "level": "amenity",
+   "lon": 30.78652,
+   "name": "Bukora Health Centre, DR67, Muwoga, Nyamugali, Kirehe District, Eastern Province, Rwanda"
+  }
+ ],
+ "rw|Busoro, Southern Province": [
+  {
+   "lat": -2.28215,
+   "level": "town",
+   "lon": 29.93986,
+   "name": "Busoro, Nyanza District, Southern Province, Rwanda"
+  },
+  {
+   "lat": -2.32995,
+   "level": "village",
+   "lon": 29.77714,
+   "name": "Busoro, Kigoma, Nyanza District, Southern Province, Rwanda"
+  }
+ ],
+ "rw|Eastern Province": [
+  {
+   "lat": -1.74151,
+   "level": "admin1",
+   "lon": 30.54043,
+   "name": "Eastern Province, Rwanda"
+  }
+ ],
+ "rw|Karambi": [
+  {
+   "lat": -1.72419,
+   "level": "village",
+   "lon": 30.47351,
+   "name": "Karambi, Kayonza District, Eastern Province, Rwanda"
+  },
+  {
+   "lat": -2.31721,
+   "level": "town",
+   "lon": 29.28817,
+   "name": "Karambi, Nyamasheke District, Western Province, Rwanda"
+  },
+  {
+   "lat": -1.86127,
+   "level": "town",
+   "lon": 30.45662,
+   "name": "Karambi, Muhazi, Rwamagana District, Eastern Province, Rwanda"
+  },
+  {
+   "lat": -1.87259,
+   "level": "village",
+   "lon": 30.45448,
+   "name": "Karambi, Muhazi, Rwamagana District, Eastern Province, Rwanda"
+  },
+  {
+   "lat": -2.50117,
+   "level": "village",
+   "lon": 28.90091,
+   "name": "Karambi, Mururu, Rusizi District, Western Province, Rwanda"
+  }
+ ],
+ "rw|Karambi, Southern Province": [
+  {
+   "lat": -2.72142,
+   "level": "stream",
+   "lon": 29.4925,
+   "name": "Karambi, Ruheru, Nyaruguru District, Southern Province, Rwanda"
+  },
+  {
+   "lat": -2.23374,
+   "level": "amenity",
+   "lon": 29.65655,
+   "name": "Karambi, NR7, Kabagali, Ruhango District, Southern Province, Rwanda"
+  }
+ ],
+ "rw|Kibogora": [
+  {
+   "lat": -2.33068,
+   "level": "building",
+   "lon": 29.13739,
+   "name": "Kibogora Health Centre, NR11, Kirambo, Kanjongo, Nyamasheke District, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.33097,
+   "level": "building",
+   "lon": 29.13731,
+   "name": "Kibogora Health Centre, NR11, Kanjongo, Nyamasheke District, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.32665,
+   "level": "amenity",
+   "lon": 29.13409,
+   "name": "Kibogora Hospital, NR11, Kirambo, Kanjongo, Nyamasheke District, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.32639,
+   "level": "amenity",
+   "lon": 29.13212,
+   "name": "Kibogora Hospital, NR11, Kirambo, Kanjongo, Nyamasheke District, Western Province, Rwanda"
+  }
+ ],
+ "rw|Kibogora, Western Province": [
+  {
+   "lat": -2.33068,
+   "level": "building",
+   "lon": 29.13739,
+   "name": "Kibogora Health Centre, NR11, Kirambo, Kanjongo, Nyamasheke District, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.33097,
+   "level": "building",
+   "lon": 29.13731,
+   "name": "Kibogora Health Centre, NR11, Kanjongo, Nyamasheke District, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.32665,
+   "level": "amenity",
+   "lon": 29.13409,
+   "name": "Kibogora Hospital, NR11, Kirambo, Kanjongo, Nyamasheke District, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.32639,
+   "level": "amenity",
+   "lon": 29.13212,
+   "name": "Kibogora Hospital, NR11, Kirambo, Kanjongo, Nyamasheke District, Western Province, Rwanda"
+  }
+ ],
+ "rw|Kicukiro, Kigali City": [
+  {
+   "lat": -2.0193,
+   "level": "town",
+   "lon": 30.15279,
+   "name": "Kicukiro District, City of Kigali, Rwanda"
+  },
+  {
+   "lat": -1.98544,
+   "level": "village",
+   "lon": 30.10363,
+   "name": "Kicukiro, City of Kigali, Rwanda"
+  }
+ ],
+ "rw|Kivumu, Western Province": [
+  {
+   "lat": -1.77894,
+   "level": "village",
+   "lon": 29.31773,
+   "name": "Kivumu, Rutsiro District, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.2241,
+   "level": "town",
+   "lon": 29.51623,
+   "name": "Kivumu, Ruganda, Karongi district, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.18658,
+   "level": "stream",
+   "lon": 29.47106,
+   "name": "Kivumu, Rugobagoba, Gashari, Karongi district, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.20061,
+   "level": "stream",
+   "lon": 29.43824,
+   "name": "Kivumu, Mutuntu, Karongi district, Western Province, Rwanda"
+  },
+  {
+   "lat": -1.80709,
+   "level": "stream",
+   "lon": 29.50241,
+   "name": "Kivumu, Muhanda, Ngororero District, Western Province, Rwanda"
+  }
+ ],
+ "rw|Mareba, Eastern Province": [
+  {
+   "lat": -2.26285,
+   "level": "town",
+   "lon": 30.05671,
+   "name": "Mareba, Bugesera District, Eastern Province, Rwanda"
+  }
+ ],
+ "rw|Mashesha, Western Province": [
+  {
+   "lat": -2.59694,
+   "level": "village",
+   "lon": 29.00114,
+   "name": "Mashesha, Gitambi, Rusizi District, Western Province, Rwanda"
+  }
+ ],
+ "rw|Mbuga": [
+  {
+   "lat": -1.64043,
+   "level": "stream",
+   "lon": 29.77884,
+   "name": "Mbuga, Nemba, Gakenke District, Northern Province, Rwanda"
+  },
+  {
+   "lat": -2.52372,
+   "level": "amenity",
+   "lon": 29.41823,
+   "name": "Mbuga, NR10, Kitabi, Nyamagabe District, Southern Province, Rwanda"
+  }
+ ],
+ "rw|Mbuga, Southern Province": [
+  {
+   "lat": -2.52372,
+   "level": "amenity",
+   "lon": 29.41823,
+   "name": "Mbuga, NR10, Kitabi, Nyamagabe District, Southern Province, Rwanda"
+  }
+ ],
+ "rw|Mimuri": [
+  {
+   "lat": -1.4461,
+   "level": "amenity",
+   "lon": 30.25282,
+   "name": "BPR Bank Mimuri, DR60, Mimuli, Nyagatare District, Eastern Province, Rwanda"
+  }
+ ],
+ "rw|Mimuri, Eastern Province": [
+  {
+   "lat": -1.4461,
+   "level": "amenity",
+   "lon": 30.25282,
+   "name": "BPR Bank Mimuri, DR60, Mimuli, Nyagatare District, Eastern Province, Rwanda"
+  }
+ ],
+ "rw|Mubuga, Western Province": [
+  {
+   "lat": -2.10424,
+   "level": "village",
+   "lon": 29.33116,
+   "name": "Mubuga, Karongi district, Western Province, Rwanda"
+  },
+  {
+   "lat": -2.13706,
+   "level": "village",
+   "lon": 29.31602,
+   "name": "Mubuga, Karongi district, Western Province, Rwanda"
+  }
+ ],
+ "rw|Rukara, Eastern Province": [
+  {
+   "lat": -1.7986,
+   "level": "town",
+   "lon": 30.50488,
+   "name": "Rukara, Kayonza District, Eastern Province, Rwanda"
+  },
+  {
+   "lat": -1.79568,
+   "level": "town",
+   "lon": 30.50467,
+   "name": "Rukara, Kayonza District, Eastern Province, Rwanda"
+  }
+ ],
+ "rw|Southern Province": [
+  {
+   "lat": -2.62721,
+   "level": "admin1",
+   "lon": 29.6063,
+   "name": "Southern Province, Rwanda"
+  }
+ ],
+ "rw|Western Province": [
+  {
+   "lat": -2.37991,
+   "level": "admin1",
+   "lon": 29.20153,
+   "name": "Western Province, Rwanda"
+  }
  ]
 }

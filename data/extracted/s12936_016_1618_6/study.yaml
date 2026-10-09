@@ -1,0 +1,20 @@
+study_id: s12936_016_1618_6
+title: Susceptibility of Anopheles gambiae to insecticides used for malaria vector
+  control in Rwanda
+first_author: Emmanuel Hakizimana
+doi: 10.1186/s12936-016-1618-6
+pmid: '27905919'
+publication_year: 2016
+countries:
+- Rwanda
+data_source: Malaria Journal
+provenance:
+  source_text: Hakizimana et al. Malar J (2016) 15:582
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-09'
+pmid_source: Europe PMC (from DOI)
