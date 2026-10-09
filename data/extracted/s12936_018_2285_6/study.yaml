@@ -1,0 +1,20 @@
+study_id: s12936_018_2285_6
+title: Nationwide insecticide resistance status and biting behaviour of malaria vector
+  species in the Democratic Republic of Congo
+first_author: Francis Wat’senga
+doi: 10.1186/s12936-018-2285-6
+pmid: '29580247'
+publication_year: 2018
+countries:
+- Democratic Republic of the Congo
+data_source: Malaria Journal
+provenance:
+  source_text: Wat’senga et al. Malar J (2018) 17:129
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-09'
+pmid_source: Europe PMC (from DOI)

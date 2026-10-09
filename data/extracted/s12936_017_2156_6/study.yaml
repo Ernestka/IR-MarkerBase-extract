@@ -1,0 +1,20 @@
+study_id: s12936_017_2156_6
+title: Status of insecticide resistance in malaria vectors in Kwale County, Coastal
+  Kenya
+first_author: Caroline W. Kiuru
+doi: 10.1186/s12936-017-2156-6
+pmid: '29304805'
+publication_year: 2018
+countries:
+- Kenya
+data_source: journal article
+provenance:
+  source_text: Kiuru et al. Malar J (2018) 17:3 https://doi.org/10.1186/s12936-017-2156-6
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-09'
+pmid_source: Europe PMC (from DOI)

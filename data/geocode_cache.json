@@ -121,6 +121,40 @@
    "name": "Aeroporto de Bafatá, N1, Mafanco, Sector de Bafatá, Região de Bafatá, Província Leste, Guiné-Bissau"
   }
  ],
+ "ke|Kidomaya and Marigiza": [],
+ "ke|Kidomaya and Marigiza, Kwale County": [],
+ "ke|Kwale County": [
+  {
+   "lat": -4.17399,
+   "level": "amenity",
+   "lon": 39.45611,
+   "name": "Kwale sub-county hospital, B92, Golini sublocation, Kwale, Tsimba Golini ward, Matuga, Kwale, Kenya"
+  },
+  {
+   "lat": -4.31828,
+   "level": "office",
+   "lon": 39.5472,
+   "name": "Kwale County Office, Ukunda-Ramisi Road, Kona Ya Chale, Ukunda ward, Msambweni, Kwale, 80403, Kenya"
+  },
+  {
+   "lat": -4.18373,
+   "level": "building",
+   "lon": 39.45913,
+   "name": "Kwale County Assembly, B92, Golini sublocation, Kwale, Tsimba Golini ward, Matuga, Kwale, Kenya"
+  },
+  {
+   "lat": -4.31806,
+   "level": "office",
+   "lon": 39.54717,
+   "name": "Kenya Red Cross, Kwale County, Ukunda-Ramisi Road, Kona Ya Chale, Ukunda ward, Msambweni, Kwale, 80403, Kenya"
+  },
+  {
+   "lat": -4.31798,
+   "level": "office",
+   "lon": 39.54662,
+   "name": "Kwale County Office, Ukunda-Ramisi Road, Kona Ya Chale, Ukunda ward, Msambweni, Kwale, 80403, Kenya"
+  }
+ ],
  "rw|Bukora": [
   {
    "lat": -2.30865,
