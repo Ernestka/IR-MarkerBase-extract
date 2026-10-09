@@ -1,23 +1,23 @@
 # Extraction record — s12936_017_2156_6
 
 - Extracted: 2026-10-09
-- Model: gemini:gemini-3.8-flash
+- Model: gemini:gemini-3.7-flash
 - Confidence (model's own): high
 - Surveys: 5 · Genotype rows: 0 · Bioassays: 7 · Geno-pheno rows: 2
 
 ## Decisions
 
-### Survey and Bioassay Resolution
-- Mosquitoes were collected in July-August 2015 from two villages in Kwale County, Coastal Kenya: Marigiza (-4.443036, 39.461887) and Kidomaya (-4.578639, 39.157574). As the authors explicitly noted that no differences in mortality rate were observed between the two villages, all bioassay and genotype data were analysed and reported pooled across both villages (Table 3, Table 4). Consequently, surveys are represented at the Kwale County level (spatial_precision: admin1) with coordinates left null.
-- In Table 3, bioassay results are reported for both species complexes (pooled) and individual sibling species (identified post-assay by PCR). Per Rule 7, bioassays are extracted at the finest taxonomic resolution (An. arabiensis, An. gambiae s.s., An. funestus s.s., An. vaneedeni), omitting the pooled complex totals (An. gambiae s.l. and An. funestus s.l.) and unamplified specimens. Kisumu laboratory strain positive controls and silicone oil negative controls are excluded.
-- In Table 3, only n_exposed and mortality percentages are reported; dead_alive_printed is set to false, and n_dead / n_alive are left null.
+# Decisions and Extraction Notes
 
-### Genotype-Phenotype Data (Table 4)
-- Table 4 is titled 'in Anopheles gambiae s.s.', but the sample size of 247 (78 resistant + 169 susceptible) represents all bioassay-tested An. gambiae s.l. mosquitoes genotyped for kdr. In total, only 16 An. gambiae s.s. were tested in bioassays (Table 3), while the remainder were An. arabiensis and unamplified. All five kdr-mutant individuals were An. gambiae s.s., which explains why the table was labelled as such. This dataset is assigned to survey `s12936_017_2156_6_kwale_2015_gambiae_sl`.
-- Because survivors and dead mosquitoes were pooled across both deltamethrin and permethrin exposures ('alive 24 h post-exposure to either deltamethrin or permethrin'), bioassay_id is set to null, and insecticide is set to 'deltamethrin + permethrin'.
-- In the text on page 5, the authors mention that 79 mosquitoes had exhibited the resistance phenotype, whereas Table 4 reports n = 78 resistant (0 RR, 1 RS, 77 SS). All numbers within Table 4 reconcile internally.
-- While 53 field-collected adults were also tested for kdr (and all were wild-type), their genotype counts are not reported in a dedicated table and are not split by phenotype, so they are not extracted to avoid double-counting or deriving counts by subtraction.
-- The L1014F mutation was tested in the same 300 mosquitoes, but no L1014F alleles were detected. Because counts are not broken down by phenotype class in Table 4, L1014F is omitted from geno_pheno.
+- **Sites and Spatial Pooling**: Mosquitoes were collected in July and August 2015 in two villages in Kwale County, Coastal Kenya: Marigiza (lat -4.443036, long 39.461887) and Kidomaya (lat -4.578639, long 39.157574). However, as stated in the text (page 5): 'As no differences in mortality rate was observed between the two villages, Kidomaya and Marigiza mortality rate data was analysed together for both villages (Table 3).' Neither bioassay results nor genotype results were reported separately by village. Consequently, surveys are defined at the admin1 level (Kwale County, with both villages pooled) and coordinates are left null to avoid fabricating an averaged point.
+
+- **Species Resolution**: Bioassay results in Table 3 are extracted at the molecular species level (An. arabiensis, An. gambiae s.s., An. funestus s.s., and An. vaneedeni), omitting the pooled complex/group totals per extraction rules. Unamplified PCR groups in Table 3 were not extracted as they do not represent species.
+
+- **Table 4 Species Attribution**: Table 4 is titled 'Frequency of Knockdown resistance allele in relation to phenotypes determined by WHO susceptibility bioassay in Anopheles gambiae s.s.' However, the total number of tested individuals in Table 4 is 247 (78 resistant + 169 susceptible), which corresponds precisely to the 247 bioassay-tested An. gambiae s.l. described on page 5 ('Out of the 300 mosquitoes, 53 were from field collected adults while 247 were from the adults used for the bioassay'). Across the entire study, only 16 An. gambiae s.s. were tested in bioassays (Table 3) and only 18 were collected in total (Table 1). The text explicitly explains that among the 247 bioassay mosquitoes, only 5 individuals carried the L1014S mutation and all 5 were identified as An. gambiae s.s., with no kdr mutation detected in An. arabiensis. Therefore, Table 4 represents the bioassay-exposed An. gambiae s.l. cohort (pooled across sibling species), and is linked to survey `s12936_017_2156_6_kwale_2015_gambsl`.
+
+- **Genotype-Phenotype Linking**: The genotyped mosquitoes in Table 4 were pooled across survivors and non-survivors of both deltamethrin and permethrin ('alive 24 h post-exposure to either deltamethrin or permethrin'). Thus, `bioassay_id` is set to null, and `insecticide` is recorded as 'deltamethrin + permethrin'. Per Rule 6, these mosquitoes are extracted in `geno_pheno` and not duplicated in `genotypes`.
+
+- **Field-Collected Adult Genotypes**: The paper notes that 53 field-collected adult An. gambiae s.l. were also genotyped (total 300 genotyped) and no kdr alleles were detected in them (all 5 mutant carriers were in the bioassay cohort). However, no table or raw genotype counts specifically breaking down these 53 individuals are provided, so they are not included in `genotypes`.
 
 ## Validator warnings
 

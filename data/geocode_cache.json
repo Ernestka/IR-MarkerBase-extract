@@ -123,6 +123,14 @@
  ],
  "ke|Kidomaya and Marigiza": [],
  "ke|Kidomaya and Marigiza, Kwale County": [],
+ "ke|Kwale": [
+  {
+   "lat": -4.18361,
+   "level": "admin1",
+   "lon": 39.10509,
+   "name": "Kwale, Kenya"
+  }
+ ],
  "ke|Kwale County": [
   {
    "lat": -4.17399,
@@ -155,6 +163,8 @@
    "name": "Kwale County Office, Ukunda-Ramisi Road, Kona Ya Chale, Ukunda ward, Msambweni, Kwale, 80403, Kenya"
   }
  ],
+ "ke|Marigiza and Kidomaya": [],
+ "ke|Marigiza and Kidomaya, Kwale": [],
  "rw|Bukora": [
   {
    "lat": -2.30865,
