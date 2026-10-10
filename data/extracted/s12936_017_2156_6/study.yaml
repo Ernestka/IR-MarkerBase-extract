@@ -7,9 +7,10 @@ pmid: '29304805'
 publication_year: 2018
 countries:
 - Kenya
-data_source: journal article
+data_source: null
 provenance:
-  source_text: Kiuru et al. Malar J (2018) 17:3 https://doi.org/10.1186/s12936-017-2156-6
+  source_text: Status of insecticide resistance in malaria vectors in Kwale County,
+    Coastal Kenya. Kiuru et al. Malar J (2018) 17:3
   page: '1'
   table: null
   figure: null

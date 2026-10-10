@@ -10,12 +10,12 @@ countries:
 data_source: journal_article
 provenance:
   source_text: Insecticide resistance in indoor and outdoor-resting Anopheles gambiae
-    in Northern Ghana
+    in Northern Ghana. Hamid-Adiamoh et al. Malar J (2020) 19:314 https://doi.org/10.1186/s12936-020-03388-1
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
+model: gemini:gemini-3.7-flash
 extracted: '2026-10-10'
 pmid_source: Europe PMC (from DOI)

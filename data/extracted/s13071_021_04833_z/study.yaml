@@ -1,0 +1,21 @@
+study_id: s13071_021_04833_z
+title: Insecticide resistance status of Anopheles arabiensis in irrigated and non-irrigated
+  areas in western Kenya
+first_author: Pauline Winnie Orondo
+doi: 10.1186/s13071-021-04833-z
+pmid: '34174946'
+publication_year: 2021
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: Insecticide resistance status of Anopheles arabiensis in irrigated
+    and non-irrigated areas in western Kenya
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-10'
+pmid_source: Europe PMC (from DOI)

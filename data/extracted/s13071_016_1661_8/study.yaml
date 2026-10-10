@@ -1,0 +1,20 @@
+study_id: s13071_016_1661_8
+title: Dynamics of pyrethroid resistance in malaria vectors in southern Benin following
+  a large scale implementation of vector control interventions
+first_author: Gildas A. Yahouédo
+doi: 10.1186/s13071-016-1661-8
+pmid: '27378358'
+publication_year: 2016
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Yahouédo et al. Parasites & Vectors (2016) 9:385 DOI 10.1186/s13071-016-1661-8
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-10'
+pmid_source: Europe PMC (from DOI)

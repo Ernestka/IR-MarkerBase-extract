@@ -1,0 +1,19 @@
+study_id: s13071_016_1923_5
+title: Insecticide resistance in malaria vectors in Kumasi, Ghana
+first_author: Sandra Baffour-Awuah
+doi: 10.1186/s13071-016-1923-5
+pmid: '27927238'
+publication_year: 2016
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: Baffour-Awuah et al. Parasites & Vectors (2016) 9:633 DOI 10.1186/s13071-016-1923-5
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-10'
+pmid_source: Europe PMC (from DOI)

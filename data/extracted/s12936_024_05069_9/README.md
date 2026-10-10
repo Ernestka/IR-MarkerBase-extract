@@ -7,29 +7,30 @@
 
 ## Decisions
 
-### Survey and Genotype Extraction Decisions
-- **Surveys**: Mosquito collections were conducted in Goden village, Burkina Faso, across three time points (2011, 2015, and 2020) and for two molecularly identified species (*Anopheles coluzzii* and *Anopheles arabiensis*). Thus, six survey records were established.
-- **Collection Methods**: Resting collections (pyrethrum spray catch and sticky resting box) were used in 2011; human landing catches were used in 2015 and 2020.
-- **Genotype Data**: Tables 1 and 2 present the sample size (N) and genotype frequencies exclusively as percentages (e.g. 65%, 22%, 13%) rather than raw integer counts. Per rule 2, count fields (`rr`, `rs`, `ss`, `resistant_allele_count`) were not back-calculated from percentages and were left null. Instead, reported allele frequencies were extracted directly as 0-1 proportions from the text and Figures 1 and 2.
-- **Carrier Counts**: For V402L in *An. arabiensis* (2011), the text explicitly states that the mutation was detected in heterozygosis in a single specimen (`n_carriers` = 1, `n_genotyped` = 104).
-- **Bioassays**: No insecticide bioassays were performed in this study (historical specimens from previous entomological surveys were analyzed only for target-site mutations).
+### Study and Surveys
+- Collections were conducted longitudinally in Goden village, central region of Burkina Faso, in three distinct years: 2011 (pyrethrum spray catches and sticky resting boxes indoors/outdoors) and 2015 and 2020 (indoor/outdoor human landing catches).
+- Two species from the Anopheles gambiae complex were analyzed: Anopheles coluzzii and Anopheles arabiensis. Each year x species combination forms a distinct survey (6 surveys total).
+
+### Genotypes
+- Genotyping investigated three VGSC target-site mutations: L1014F (L995F), L1014S (L995S), and V402L.
+- Tables 1 and 2 report sample sizes (N) and genotype percentages rather than integer counts. In accordance with Rule 2, RR, RS, and SS integer fields were left null to avoid calculating counts from percentages; the reported allele frequencies printed in Figures 1 and 2 and in the text are captured in `reported_allele_freq`.
+- For An. arabiensis V402L in 2011, the text explicitly notes: 'Finally, 402L mutation is detected in heterozygosis in a single An. arabiensis specimen collected in 2011 (Table 2)', so `n_carriers = 1` was recorded for that survey.
+- L1014S was genotyped in An. coluzzii but not observed in any year (`reported_allele_freq = 0.0`, `n_carriers = 0`).
+
+### Bioassays & Genotype-Phenotype
+- No bioassays were conducted in this study; therefore, the `bioassays` and `geno_pheno` arrays are empty.
 
 ## Validator warnings
 
-- genotype #1 (s12936_024_05069_9_goden_2011_coluzzii, vgsc L1014F): frequency only (no raw counts)
-- genotype #2 (s12936_024_05069_9_goden_2011_coluzzii, vgsc L1014S): frequency only (no raw counts)
-- genotype #3 (s12936_024_05069_9_goden_2011_coluzzii, vgsc V402L): frequency only (no raw counts)
-- genotype #4 (s12936_024_05069_9_goden_2011_arabiensis, vgsc L1014F): frequency only (no raw counts)
-- genotype #5 (s12936_024_05069_9_goden_2011_arabiensis, vgsc L1014S): frequency only (no raw counts)
-- genotype #7 (s12936_024_05069_9_goden_2015_coluzzii, vgsc L1014F): frequency only (no raw counts)
-- genotype #8 (s12936_024_05069_9_goden_2015_coluzzii, vgsc L1014S): frequency only (no raw counts)
-- genotype #9 (s12936_024_05069_9_goden_2015_coluzzii, vgsc V402L): frequency only (no raw counts)
-- genotype #10 (s12936_024_05069_9_goden_2015_arabiensis, vgsc L1014F): frequency only (no raw counts)
-- genotype #11 (s12936_024_05069_9_goden_2015_arabiensis, vgsc L1014S): frequency only (no raw counts)
-- genotype #12 (s12936_024_05069_9_goden_2015_arabiensis, vgsc V402L): frequency only (no raw counts)
-- genotype #13 (s12936_024_05069_9_goden_2020_coluzzii, vgsc L1014F): frequency only (no raw counts)
-- genotype #14 (s12936_024_05069_9_goden_2020_coluzzii, vgsc L1014S): frequency only (no raw counts)
-- genotype #15 (s12936_024_05069_9_goden_2020_coluzzii, vgsc V402L): frequency only (no raw counts)
-- genotype #16 (s12936_024_05069_9_goden_2020_arabiensis, vgsc L1014F): frequency only (no raw counts)
-- genotype #17 (s12936_024_05069_9_goden_2020_arabiensis, vgsc L1014S): frequency only (no raw counts)
-- genotype #18 (s12936_024_05069_9_goden_2020_arabiensis, vgsc V402L): frequency only (no raw counts)
+- genotype #1 (s12936_024_05069_9_goden_2011_col, Vgsc L1014F): frequency only (no raw counts)
+- genotype #3 (s12936_024_05069_9_goden_2011_col, Vgsc V402L): frequency only (no raw counts)
+- genotype #4 (s12936_024_05069_9_goden_2015_col, Vgsc L1014F): frequency only (no raw counts)
+- genotype #6 (s12936_024_05069_9_goden_2015_col, Vgsc V402L): frequency only (no raw counts)
+- genotype #7 (s12936_024_05069_9_goden_2020_col, Vgsc L1014F): frequency only (no raw counts)
+- genotype #9 (s12936_024_05069_9_goden_2020_col, Vgsc V402L): frequency only (no raw counts)
+- genotype #10 (s12936_024_05069_9_goden_2011_ara, Vgsc L1014F): frequency only (no raw counts)
+- genotype #11 (s12936_024_05069_9_goden_2011_ara, Vgsc L1014S): frequency only (no raw counts)
+- genotype #13 (s12936_024_05069_9_goden_2015_ara, Vgsc L1014F): frequency only (no raw counts)
+- genotype #14 (s12936_024_05069_9_goden_2015_ara, Vgsc L1014S): frequency only (no raw counts)
+- genotype #16 (s12936_024_05069_9_goden_2020_ara, Vgsc L1014F): frequency only (no raw counts)
+- genotype #17 (s12936_024_05069_9_goden_2020_ara, Vgsc L1014S): frequency only (no raw counts)

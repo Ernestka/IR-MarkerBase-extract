@@ -1,4 +1,36 @@
 {
+ "bj|Adjozoume": [
+  {
+   "lat": 7.35044,
+   "level": "amenity",
+   "lon": 2.5665,
+   "name": "Eglise catholique Adjozoumè, RNIE 4, vovoloko, Oke Ola, Kétou, Plateau, Bénin"
+  }
+ ],
+ "bj|Adjozoume, Plateau": [
+  {
+   "lat": 7.35044,
+   "level": "amenity",
+   "lon": 2.5665,
+   "name": "Eglise catholique Adjozoumè, RNIE 4, vovoloko, Oke Ola, Kétou, Plateau, Bénin"
+  }
+ ],
+ "bj|Agbarou": [
+  {
+   "lat": 6.96394,
+   "level": "amenity",
+   "lon": 2.6438,
+   "name": "EPP AYERE AGBAROU, RN 3, Pobè, Okôffin, Adja-Ouèrè, Plateau, Bénin"
+  }
+ ],
+ "bj|Agbarou, Plateau": [
+  {
+   "lat": 6.96394,
+   "level": "amenity",
+   "lon": 2.6438,
+   "name": "EPP AYERE AGBAROU, RN 3, Pobè, Okôffin, Adja-Ouèrè, Plateau, Bénin"
+  }
+ ],
  "bj|Djohounkollé": [],
  "bj|Djohounkollé, Plateau": [],
  "bj|Djohounkollé, Sakété, Plateau": [],
@@ -55,8 +87,21 @@
    "name": "Sakété, Plateau, Bénin"
   }
  ],
+ "gh|Ashanti": [
+  {
+   "lat": 6.80033,
+   "level": "admin1",
+   "lon": -1.51881,
+   "name": "Ashanti Region, Ghana"
+  }
+ ],
+ "gh|Asokwa submetropolis, Kumasi": [],
+ "gh|Asokwa submetropolis, Kumasi, Ashanti": [],
+ "gh|Asokwa submetropolis, Kumasi, Kumasi Metropolis, Ashanti": [],
  "gh|Kpalsogu and Libga": [],
  "gh|Kpalsogu and Libga, Northern": [],
+ "gh|Kumasi Metropolis": [],
+ "gh|Kumasi Metropolis, Ashanti": [],
  "gh|Northern": [
   {
    "lat": 9.66,
@@ -131,9 +176,25 @@
    "name": "Aeroporto de Bafatá, N1, Mafanco, Sector de Bafatá, Região de Bafatá, Província Leste, Guiné-Bissau"
   }
  ],
+ "ke|Homa Bay": [
+  {
+   "lat": -0.56396,
+   "level": "admin1",
+   "lon": 34.31878,
+   "name": "Homa Bay, Kenya"
+  },
+  {
+   "lat": -0.53037,
+   "level": "town",
+   "lon": 34.45198,
+   "name": "Homa Bay, Homa Bay Town, Homa Bay, Kenya"
+  }
+ ],
  "ke|Kidomaya and Marigiza": [],
  "ke|Kidomaya and Marigiza, Kwale County": [],
  "ke|Kidomaya and Marigiza, Kwale County, Kwale": [],
+ "ke|Kimira-Oluch irrigated area": [],
+ "ke|Kimira-Oluch irrigated area, Homa Bay": [],
  "ke|Kwale": [
   {
    "lat": -4.18361,
@@ -174,8 +235,44 @@
    "name": "Kwale County Office, Ukunda-Ramisi Road, Kona Ya Chale, Ukunda ward, Msambweni, Kwale, 80403, Kenya"
   }
  ],
+ "ke|Kwale, Coast": [
+  {
+   "lat": -3.97463,
+   "level": "water_storage",
+   "lon": 39.54656,
+   "name": "Coast Water Services Board, Bonje, Kasemeni ward, Kinango, Kwale, Kenya"
+  },
+  {
+   "lat": -4.28441,
+   "level": "leisure",
+   "lon": 39.57003,
+   "name": "South Coast Pirates Rugby Club, showground path, Diani Beach, Ukunda, Ukunda ward, Msambweni, Kwale, 80401, Kenya"
+  },
+  {
+   "lat": -4.26698,
+   "level": "shop",
+   "lon": 39.57005,
+   "name": "South coast out wokers, Ukunda-Ramisi Road, Kona Ya Chale, Gombato Bongwe ward, Msambweni, Kwale, 80403, Kenya"
+  },
+  {
+   "lat": -4.2846,
+   "level": "shop",
+   "lon": 39.56586,
+   "name": "South coast, Ukunda-Ramisi Road, Kona Ya Chale, Ukunda ward, Msambweni, Kwale, 80403, Kenya"
+  },
+  {
+   "lat": -4.28267,
+   "level": "building",
+   "lon": 39.56586,
+   "name": "Coast Water Board, Ukunda-Ramisi Road, Kona Ya Chale, Ukunda ward, Msambweni, Kwale, 80403, Kenya"
+  }
+ ],
  "ke|Marigiza and Kidomaya": [],
+ "ke|Marigiza and Kidomaya, Coast": [],
  "ke|Marigiza and Kidomaya, Kwale": [],
+ "ke|Marigiza and Kidomaya, Kwale, Coast": [],
+ "ke|Non-irrigated area": [],
+ "ke|Non-irrigated area, Homa Bay": [],
  "rw|Bukora": [
   {
    "lat": -2.30865,

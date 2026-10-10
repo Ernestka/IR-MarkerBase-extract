@@ -1,0 +1,21 @@
+study_id: s41598_025_14239_x
+title: Environmental contaminants drive insecticide resistance in Anopheles mosquitoes
+  in Ghana
+first_author: Christopher Mfum Owusu-Asenso
+doi: 10.1038/s41598-025-14239-x
+pmid: '40890290'
+publication_year: 2025
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: Environmental contaminants drive insecticide resistance in Anopheles
+    mosquitoes in Ghana
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-10'
+pmid_source: Europe PMC (from DOI)

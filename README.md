@@ -39,23 +39,23 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | s12889-019-7767-0 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7632 | 3442 | gemini:gemini-3.6-flash | 9337 | 18398 | 1 survey(s), 0 genotype, 18 bioassay, 2 geno-pheno rows; 6 warning(s) | 0.0000 |
 | s12936-015-0924-8 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 7632 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | s12936-016-1618-6 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 7632 | 2545 | gemini:gemini-3.5-flash | 9325 | 46324 | 38 survey(s), 14 genotype, 25 bioassay, 0 geno-pheno rows; 2 warning(s) | 0.0000 |
-| s12936-017-2156-6 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6552 | 2884 |  |  |  |  | 0.0000 |
-| s12936-018-2285-6 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 8712 | 3589 |  |  |  |  | 0.0000 |
+| s12936-017-2156-6 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6552 | 2884 | gemini:gemini-3.8-flash | 8274 | 37512 | 6 survey(s), 2 genotype, 7 bioassay, 2 geno-pheno rows; 4 warning(s) | 0.0000 |
+| s12936-018-2285-6 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 8712 | 3589 | gemini:gemini-3.8-flash | 29442 | 51105 | 6 survey(s), 6 genotype, 12 bioassay, 0 geno-pheno rows | 0.0000 |
 | s12936-019-2738-6 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 10332 | 3182 |  |  |  |  | 0.0000 |
-| s12936-020-03388-1 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 8172 | 3706 |  |  |  |  | 0.0000 |
+| s12936-020-03388-1 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 8172 | 3706 | gemini:gemini-3.7-flash | 9919 | 43669 | 10 survey(s), 26 genotype, 8 bioassay, 24 geno-pheno rows; 26 warning(s) | 0.0000 |
 | s12936-021-03606-4 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 9101 | 4765 | gemini:gemini-3.5-flash | 10905 | 13432 | 1 survey(s), 2 genotype, 1 bioassay, 0 geno-pheno rows | 0.0000 |
-| s12936-024-05069-9 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7092 | 2674 |  |  |  |  | 0.0000 |
+| s12936-024-05069-9 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7092 | 2674 | gemini:gemini-3.8-flash | 8863 | 18624 | 6 survey(s), 18 genotype, 0 bioassay, 0 geno-pheno rows; 12 warning(s) | 0.0000 |
 | s12936-024-05106-7 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 10332 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | s12936-025-05696-w | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 7481 | 2103 |  |  |  |  | 0.0000 |
 | s13071-014-0500-z | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7092 | 4440 |  |  |  |  | 0.0000 |
-| s13071-016-1661-8 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 6552 | 7925 |  |  |  |  | 0.0000 |
-| s13071-016-1923-5 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6012 | 5172 |  |  |  |  | 0.0000 |
+| s13071-016-1661-8 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 6552 | 7925 | gemini:gemini-3.8-flash | 8288 | 29970 | 18 survey(s), 18 genotype, 0 bioassay, 0 geno-pheno rows; 18 warning(s) | 0.0000 |
+| s13071-016-1923-5 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6012 | 5172 | gemini:gemini-3.7-flash | 7813 | 25554 | 3 survey(s), 3 genotype, 10 bioassay, 0 geno-pheno rows | 0.0000 |
 | s13071-017-2361-8 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-06 | 2026-10-06 | 0 |  | gemini:gemini-3.6-flash | 8712 | 2091 |  |  |  |  | 0.0000 |
 | s13071-018-2979-1 | master | AWAIT_SUPPLEMENT | True | high | low | True | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 6012 | 3196 |  |  |  |  | 0.0000 |
 | s13071-019-3774-3 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 9252 | 6647 |  |  |  |  | 0.0000 |
 | s13071-021-04706-5 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6941 | 1706 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
-| s13071-021-04833-z | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7092 | 3784 |  |  |  |  | 0.0000 |
-| s41598-025-14239-x | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 8172 | 3906 |  |  |  |  | 0.0000 |
+| s13071-021-04833-z | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7092 | 3784 | gemini:gemini-3.5-flash | 8738 | 16647 | 4 survey(s), 12 genotype, 12 bioassay, 0 geno-pheno rows; 12 warning(s) | 0.0000 |
+| s41598-025-14239-x | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 8172 | 3906 | gemini:gemini-3.5-flash | 40865 | 60505 | 6 survey(s), 42 genotype, 34 bioassay, 0 geno-pheno rows; 48 warning(s) | 0.0000 |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 
