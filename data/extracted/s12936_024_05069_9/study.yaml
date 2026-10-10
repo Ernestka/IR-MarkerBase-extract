@@ -1,0 +1,21 @@
+study_id: s12936_024_05069_9
+title: Longitudinal survey of insecticide resistance in a village of central region
+  of Burkina Faso reveals co-occurrence of 1014F, 1014S and 402L mutations in Anopheles
+  coluzzii and Anopheles arabiensis
+first_author: Eleonora Perugini
+doi: 10.1186/s12936-024-05069-9
+pmid: '39164725'
+publication_year: 2024
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: Perugini et al. Malaria Journal (2024) 23:250 https://doi.org/10.1186/s12936-024-05069-9
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-10'
+pmid_source: Europe PMC (from DOI)

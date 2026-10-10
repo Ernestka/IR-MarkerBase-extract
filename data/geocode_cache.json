@@ -55,6 +55,16 @@
    "name": "Sakété, Plateau, Bénin"
   }
  ],
+ "gh|Kpalsogu and Libga": [],
+ "gh|Kpalsogu and Libga, Northern": [],
+ "gh|Northern": [
+  {
+   "lat": 9.66,
+   "level": "admin1",
+   "lon": -0.39438,
+   "name": "Northern Region, Ghana"
+  }
+ ],
  "gw|Bafatá": [
   {
    "lat": 12.13485,

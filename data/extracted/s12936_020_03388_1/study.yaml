@@ -1,0 +1,21 @@
+study_id: s12936_020_03388_1
+title: Insecticide resistance in indoor and outdoor-resting Anopheles gambiae in Northern
+  Ghana
+first_author: Majidah Hamid-Adiamoh
+doi: 10.1186/s12936-020-03388-1
+pmid: '32867769'
+publication_year: 2020
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: Insecticide resistance in indoor and outdoor-resting Anopheles gambiae
+    in Northern Ghana
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-10'
+pmid_source: Europe PMC (from DOI)
