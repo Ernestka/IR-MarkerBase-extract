@@ -1,0 +1,68 @@
+{
+  "id": "s13071-018-2923-4",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles arabiensis (Anopheles gambiae s.l.) collected in Nouakchott, Mauritania (p. 3, 'Larvae and pupae of Anopheles mosquito were collected...')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR was performed for both West African (L1014F / L995F) and East African (L1014S / L995S) kdr mutations (p. 4, 'detection of kdr mutations'; p. 5, 'Species identification and kdr genotyping')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies for surviving An. arabiensis mosquitoes are explicitly provided on page 5 and Figure 2: 'The homozygous resistant west (RwRw) was the most frequent genotype (54.3%, 38/70), followed by the wild-type homozygous susceptible (SS, 22.8%, 16/70) and the homozygous resistant east (ReRe, 21.4%, 15/70). Only one mosquito (1/70, 1.4%) was heterozygous (RwS)...'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae/pupae during August-September 2015 and 2016 from two sites in Nouakchott, Mauritania and reared to adulthood (p. 3, 'Study sites and mosquito collection')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original primary research article reporting field collections, susceptibility bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at two specific sites in Nouakchott: Lycée de Teyarett (18°07'37\"N, 15°56'14\"W) and Carrefour Ould Badou (18°07'07\"N, 15°55'29\"W) (p. 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval surveys were conducted during the rainy season (August-September) in 2015 and 2016 (p. 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The mosquito samples represent primary, routine field collections conducted by the study authors in Nouakchott."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotypic frequencies and counts are provided directly in the main text and Figure 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Mauritania"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 70,
+    "summary": "This study evaluated insecticide susceptibility and kdr mutations in Anopheles arabiensis from Nouakchott, Mauritania collected in 2015 and 2016. High pyrethroid resistance was observed, and genotyping of 70 surviving mosquitoes revealed both Vgsc-L995F (West African kdr) and Vgsc-L995S (East African kdr) alleles.",
+    "exclusion_reasons": []
+  }
+}

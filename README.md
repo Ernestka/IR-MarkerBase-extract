@@ -22,11 +22,12 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**30 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-12
+**35 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-12
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1-s2.0-S0001706X19317632-main | master | EXTRACTED | True | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 5472 | 3401 | gemini:gemini-3.5-flash | 27742 | 56306 | 10 survey(s), 21 genotype, 19 bioassay, 0 geno-pheno rows; 23 warning(s) | 0.0000 |
+| 1475-2875-7-178 (1) | master | EXTRACTED | True | high | none | False | 1 | 2026-10-12 | 2026-10-12 | 0 |  | gemini:gemini-3.8-flash | 7412 | 1719 | gemini:gemini-3.8-flash | 9134 | 15292 | 2 survey(s), 2 genotype, 0 bioassay, 0 geno-pheno rows | 0.0000 |
 | 1756-3305-5-127 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6552 | 3606 | gemini:gemini-3.5-flash | 8246 | 37022 | 6 survey(s), 11 genotype, 37 bioassay, 0 geno-pheno rows | 0.0000 |
 | 1756-3305-6-352 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 8172 | 1632 | gemini:gemini-3.5-flash | 9816 | 31601 | 10 survey(s), 6 genotype, 8 bioassay, 7 geno-pheno rows | 0.0000 |
 | Newfile | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
@@ -51,11 +52,15 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | s13071-016-1661-8 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 6552 | 7925 | gemini:gemini-3.8-flash | 8288 | 29970 | 18 survey(s), 18 genotype, 0 bioassay, 0 geno-pheno rows; 18 warning(s) | 0.0000 |
 | s13071-016-1923-5 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6012 | 5172 | gemini:gemini-3.7-flash | 7813 | 25554 | 3 survey(s), 3 genotype, 10 bioassay, 0 geno-pheno rows | 0.0000 |
 | s13071-017-2361-8 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-06 | 2026-10-06 | 0 |  | gemini:gemini-3.6-flash | 8712 | 2091 |  |  |  |  | 0.0000 |
+| s13071-018-2923-4 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-12 | 2026-10-12 | 0 |  | gemini:gemini-3.7-flash | 6012 | 2076 | gemini:gemini-3.8-flash | 7803 | 18034 | 3 survey(s), 0 genotype, 8 bioassay, 2 geno-pheno rows; 4 warning(s) | 0.0000 |
 | s13071-018-2979-1 | master | AWAIT_SUPPLEMENT | True | high | low | True | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 6012 | 3196 |  |  |  |  | 0.0000 |
 | s13071-019-3774-3 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 9252 | 6647 |  |  |  |  | 0.0000 |
 | s13071-021-04706-5 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-05 | 2026-10-05 | 0 |  | gemini:gemini-3.5-flash | 6941 | 1706 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
 | s13071-021-04833-z | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7092 | 3784 | gemini:gemini-3.5-flash | 8738 | 16647 | 4 survey(s), 12 genotype, 12 bioassay, 0 geno-pheno rows; 12 warning(s) | 0.0000 |
 | s41598-025-14239-x | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 8172 | 3906 | gemini:gemini-3.5-flash | 40865 | 60505 | 6 survey(s), 42 genotype, 34 bioassay, 0 geno-pheno rows; 48 warning(s) | 0.0000 |
+| tjaf133 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-12 | 2026-10-12 | 0 |  | gemini:gemini-3.8-flash | 7092 | 1991 |  |  |  |  | 0.0000 |
+| trab116 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-12 | 2026-10-12 | 0 |  | gemini:gemini-3.8-flash | 4812 | 2359 | gemini:gemini-3.7-flash | 14931 | 16449 | 1 survey(s), 2 genotype, 0 bioassay, 0 geno-pheno rows; 1 warning(s) | 0.0000 |
+| vontas-et-al-2018-rapid-selection-of-a-pyrethroid-metabolic-enzyme-cyp9k1-by-operational-malaria-control-activities | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-12 | 2026-10-12 | 0 |  | gemini:gemini-3-flash-preview | 4932 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

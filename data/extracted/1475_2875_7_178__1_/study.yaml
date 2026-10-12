@@ -1,0 +1,20 @@
+study_id: '1475_2875_7_178__1_'
+title: 'Malaria transmission in Dakar: A two-year survey'
+first_author: Frederic Pagès
+doi: 10.1186/1475-2875-7-178
+pmid: '18796138'
+publication_year: 2008
+countries:
+- Senegal
+data_source: publisher_pdf
+provenance:
+  source_text: 'Malaria transmission in Dakar: A two-year survey. Frederic Pagès et
+    al. Malaria Journal 2008, 7:178'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-12'
+pmid_source: Europe PMC (from DOI)

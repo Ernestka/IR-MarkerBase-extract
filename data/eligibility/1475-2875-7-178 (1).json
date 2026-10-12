@@ -1,0 +1,68 @@
+{
+  "id": "1475-2875-7-178 (1)",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study surveys Anopheles gambiae s.l. (specifically An. arabiensis, An. melas, and An. gambiae s.s.) in Dakar, Senegal (page 1, Abstract; page 7, 'Molecular identification of An. gambiae s.l')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyping of Kdr-w (Vgsc L995F) and Ace-1 (G280S) is reported on page 7 ('Kdr-w and Ace1 mutation frequencies in An. gambiae s.l' and Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 7 gives genotypic counts and frequencies (RR, RS, SS) for Kdr in An. arabiensis from Bel-air (RR=11, RS=4, SS=94, total=109) and Ouakam (RR=5, RS=9, SS=90, total=104). The text also notes Ace-1 mutations were not detected in any tested mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult mosquitoes were collected by human landing catches (indoors and outdoors) in Dakar, Senegal (Bel-air and Ouakam districts) between May 2005 and October 2006 (page 2, 'Field mosquito processing')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper describing original field entomological surveys and molecular testing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected at specific districts in Dakar, Senegal: Bel-air and Ouakam (page 2, 'Location')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field sampling for the genotyped mosquitoes was conducted between May 2005 and May 2006 (Table 3, page 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original entomological surveillance conducted by the authors in French military camps in Dakar."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and data are contained within the main text and Table 3."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2005,
+      2006
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 213,
+    "summary": "This study evaluated malaria transmission and vector dynamics in two districts of Dakar, Senegal (Bel-air and Ouakam) from 2005 to 2006. Genotyping of field-collected An. arabiensis identified Vgsc L995F (kdr-w) at allele frequencies of 12% in Bel-air and 9% in Ouakam, with full genotype counts reported. Ace-1 G280S was also assayed and found to be absent.",
+    "exclusion_reasons": []
+  }
+}

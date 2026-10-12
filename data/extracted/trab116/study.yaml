@@ -1,0 +1,22 @@
+study_id: trab116
+title: Insecticide resistance profiles in malaria vector populations from Sud-Kivu
+  in the Democratic Republic of the Congo
+first_author: Sévérin N'Do
+doi: 10.1093/trstmh/trab116
+pmid: '34324683'
+publication_year: 2021
+countries:
+- Democratic Republic of the Congo
+data_source: journal_article
+provenance:
+  source_text: 'Insecticide resistance profiles in malaria vector populations from
+    Sud-Kivu in the Democratic Republic of the Congo. Trans R Soc Trop Med Hyg 2021;
+    115: 1339–1344. https://doi.org/10.1093/trstmh/trab116'
+  page: '1339'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-12'
+pmid_source: Europe PMC (from DOI)

@@ -273,6 +273,14 @@
  "ke|Marigiza and Kidomaya, Kwale, Coast": [],
  "ke|Non-irrigated area": [],
  "ke|Non-irrigated area, Homa Bay": [],
+ "mr|Nouakchott": [
+  {
+   "lat": 18.07924,
+   "level": "town",
+   "lon": -15.97801,
+   "name": "Nouakchott نواكشوط, تفرغ زينة, Nouakchott Ouest نواكشوط الغربية, Mauritanie موريتانيا"
+  }
+ ],
  "rw|Bukora": [
   {
    "lat": -2.30865,
