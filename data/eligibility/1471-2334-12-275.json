@@ -1,0 +1,67 @@
+{
+  "id": "1471-2334-12-275",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adults and larvae of Anopheles gambiae s.s. (M and S molecular forms) and An. ziemanni were collected and analyzed (page 3, 'Field sampling')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screening of Vgsc L1014F (L995F) and L1014S (L995S) is described in the text: 'To screen for the presence of kdr alleles (L1014F and L1014S) that confer resistance to DDT and pyrethroid, DNA extracted from individuals exposed to insecticides was tested using the Hot Ligation Oligonucleotide Assay...' (page 3); results for L1014F and L1014S are reported on page 4."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 4, 'Insecticide susceptibility assays': 'kdr allele screening was conducted on 61 specimens selected from mosquitoes that survived exposure to DDT, permethrin and deltamethrin; 38 (62.3%) were found to carry the L1014F allele at this locus. In contrast, the L1014S allele, which is common in East Africa, was not detected. Twenty-seven samples were homozygous for the L1014 F allele, whereas 11 samples were heterozygous at this locus.' (giving 27 RR, 11 RS, and 23 SS out of 61 survivors)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were sampled in Ndogpassi district, Douala, Cameroon and reared to adults: 'The An. gambiae larvae used for this analysis were collected from temporary and semi-permanent breeding sites situated near the study area' (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing field collections and laboratory assays conducted by the authors in 2011."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ndogpassi district, Douala, Cameroon (coordinates given on page 2: 3° 48' N, 10° 08' E)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred over a 12-month period from 'January to December 2011' (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper reports original field collections conducted by the authors in Ndogpassi, Douala in 2011."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay details are presented in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 61,
+    "summary": "The study evaluated malaria transmission, vector bionomics, and insecticide resistance in Anopheles gambiae from Ndogpassi district, Douala, Cameroon in 2011. WHO susceptibility bioassays were conducted with DDT, permethrin, and deltamethrin. Genotyping of Vgsc L1014F and L1014S on 61 bioassay survivors identified 27 homozygous 1014F/1014F, 11 heterozygous 1014L/1014F, and 23 homozygous wild-type 1014L/1014L (with 1014S absent).",
+    "exclusion_reasons": []
+  }
+}

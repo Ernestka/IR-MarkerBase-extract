@@ -1,0 +1,71 @@
+{
+  "id": "Medical Vet Entomology - 2003 - N'Guessan - Resistance to carbosulfan in Anopheles gambiae from Ivory Coast  based on",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on field populations of the malaria vector mosquito Anopheles gambiae Giles (Diptera: Culicidae) from two localities near Bouaké, Ivory Coast (p. 19)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports biochemical assays for insensitive acetylcholinesterase (AChE) and cites kdr frequencies from previous literature (Martinez-Torres et al., 1998), but it does not perform new molecular genotyping for any of the target markers (e.g., Ace-1 G280S or Vgsc L995F)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts (RR/RS/SS) or allele frequencies with associated sample sizes are provided for the target markers. The AChE data is presented as biochemical inhibition rates (Fig. 1), not molecular genotypes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from ricefields in rural M’bé and suburban Yaokoffikro, Ivory Coast (p. 19, 20)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and biochemical assay results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to specific localities: M’bé (rural) and Yaokoffikro (suburban), both near Bouaké (p. 19)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in March and April 2000 (p. 21)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study reports new bioassay and biochemical data, although it references kdr frequencies for these sites from a previously published study (Martinez-Torres et al., 1998)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary materials are mentioned or required for the data reported."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2000
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 188,
+    "summary": "The study investigates carbosulfan resistance in Anopheles gambiae (M and S forms) from two sites in Ivory Coast using WHO bioassays and biochemical assays for insensitive acetylcholinesterase. While the paper discusses the kdr mutation and insensitive AChE, it does not report new molecular genotype data; kdr frequencies are cited from previous work and AChE resistance is characterized by enzyme inhibition levels rather than DNA-based genotyping.",
+    "exclusion_reasons": [
+      "Does not report molecular genotype data for target markers (only biochemical assays for insensitive AChE).",
+      "Genotype frequencies mentioned (kdr) are cited from previous studies (Martinez-Torres et al., 1998) rather than being primary data from this study."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "s12936-017-2087-2",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu lato (specifically An. gambiae s.s. and An. arabiensis) collected in Tanzania (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper explicitly states on page 8: 'This study did not report the results for kdr mutation as they were inconclusive and at a very low frequency.' No other target markers (e.g., Ace-1, Rdl, GSTe2) were genotyped; the study instead used biochemical assays to measure enzyme activity levels."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies for target insecticide-resistance markers are provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from 20 sentinel sites in mainland Tanzania in 2015 (Abstract, Page 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new field collections and bioassay/biochemical results from 2015 (Page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for 20 specific sentinel sites including Arumeru, Babati, Bagamoyo, Geita, Iringa, Kahama, Kilombero, Kilosa, Kinondoni, Kondoa, Magu, Manyoni, Mbozi, Moshi, Mtwara, Muleba, Musoma-rural, Ngara, Ruangwa, and Songea (Table 1, Page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field work was carried out between May and June 2015 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is part of the ongoing annual national insecticide resistance monitoring programme in Tanzania, but the 2015 data presented appears to be primary to this publication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "There is no mention of supplementary files containing the missing genotype data; the text explicitly states kdr results were not reported due to being inconclusive."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 10340,
+    "summary": "This study reports on the insecticide susceptibility status of Anopheles gambiae s.l. in 20 sites across mainland Tanzania in 2015. Resistance was assessed using WHO tube bioassays and biochemical assays for enzyme activity (GSTs, NSEs, and oxidases). Although the study initially intended to genotype for kdr mutations, it explicitly states that these results were inconclusive and were not reported. Consequently, the paper contains no extractable genotype data for target resistance markers.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data for target insecticide-resistance markers.",
+      "Explicitly states kdr results were inconclusive and not reported."
+    ]
+  }
+}

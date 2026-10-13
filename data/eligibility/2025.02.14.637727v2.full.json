@@ -1,0 +1,82 @@
+{
+  "id": "2025.02.14.637727v2.full",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 3, 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotypes for Vgsc L995F/S, Ace-1 G280S, Rdl A296G/S, Cyp6p3-I88T, Cyp6p4-I236M, Cyp6p1-L374M, Cyp9k1, Gste2-I114T/L119V, and Cyp4j5-L43F (pages 8-10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports allele frequencies for multiple markers across different cohorts (e.g., page 8, 9, 10)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study includes field-collected mosquitoes from Obuasi, Ghana (2017) and the Upper River Region, The Gambia (2011) (page 5, 16)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study developing and validating a new amplicon sequencing panel and pipeline."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Locations are specified at the district/town level: Obuasi (Ghana), Upper River Region (The Gambia), Siaya county (Kenya), and Valle de Kou (Burkina Faso) (page 5, 16)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are explicitly stated for each cohort: Obuasi (2017), The Gambia (2011), Siaya (2023), and VK7 (2014) (page 5, 16)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses new collections and laboratory strains. While it references Ag1000g data for validation, the primary data is new."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper provides sufficient genotype frequency data in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "Rdl A296S",
+      "Cyp6p4 I236M",
+      "Cyp4j5 L43F",
+      "Gste2 L119V",
+      "Gste2 I114T"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ghana",
+      "The Gambia",
+      "Kenya",
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2011,
+      2014,
+      2017,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 467,
+    "summary": "This study introduces Ag-vampIR, a targeted amplicon sequencing panel for insecticide resistance markers in Anopheles gambiae s.l., and the AmpSeeker pipeline. The authors validated the platform using field-collected samples from Ghana and The Gambia, and laboratory strains from Kenya and Burkina Faso. They performed a genotype-phenotype association study on the Siaya colony and demonstrated the ability to predict bioassay mortality using machine learning.",
+    "exclusion_reasons": []
+  }
+}

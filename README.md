@@ -22,21 +22,29 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**50 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-13
+**59 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-13
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 07-1575 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.7-flash | 5852 | 1799 |  |  |  |  | 0.0000 |
 | 1-s2.0-S0001706X19317632-main | master | EXTRACTED | True | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 5472 | 3401 | gemini:gemini-3.5-flash | 27742 | 56306 | 10 survey(s), 21 genotype, 19 bioassay, 0 geno-pheno rows; 23 warning(s) | 0.0000 |
 | 1-s2.0-S0001706X21004691-main | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.7-flash | 6012 | 1558 |  |  |  |  | 0.0000 |
+| 1471-2334-12-275 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.7-flash | 6012 | 2128 |  |  |  |  | 0.0000 |
 | 1475-2875-12-151 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.7-flash | 6012 | 1876 |  |  |  |  | 0.0000 |
+| 1475-2875-6-52 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 4812 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | 1475-2875-7-178 (1) | master | EXTRACTED | True | high | none | False | 1 | 2026-10-12 | 2026-10-12 | 0 |  | gemini:gemini-3.8-flash | 7412 | 1719 | gemini:gemini-3.8-flash | 9134 | 15292 | 2 survey(s), 2 genotype, 0 bioassay, 0 geno-pheno rows | 0.0000 |
+| 1475-2875-8-81 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.8-flash | 5852 | 2055 |  |  |  |  | 0.0000 |
+| 1475-2875-9-83 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 4932 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | 1756-3305-5-127 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6552 | 3606 | gemini:gemini-3.5-flash | 8246 | 37022 | 6 survey(s), 11 genotype, 37 bioassay, 0 geno-pheno rows | 0.0000 |
 | 1756-3305-5-68 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 5472 | 3383 |  |  |  |  | 0.0000 |
 | 1756-3305-6-352 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 8172 | 1632 | gemini:gemini-3.5-flash | 9816 | 31601 | 10 survey(s), 6 genotype, 8 bioassay, 7 geno-pheno rows | 0.0000 |
+| 1756-3305-7-213 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 6552 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | 1756-3305-7-450 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 9252 | 3201 |  |  |  |  | 0.0000 |
+| 2025.02.14.637727v2.full | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.1-flash-lite | 15524 | 981 |  |  |  |  | 0.0000 |
 | Another paper | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.8-flash | 5852 | 5679 |  |  |  |  | 0.0000 |
+| BioMed Research International - 2018 - Fodjo - Insecticides Resistance Status of An  gambiae in Areas of Varying | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 6552 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | Insect Molecular Biology - 2001 - Ranson - Identification of a point mutation in the voltage‐gated sodium channel gene of | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 5472 | 3858 |  |  |  |  | 0.0000 |
+| Medical Vet Entomology - 2003 - N'Guessan - Resistance to carbosulfan in Anopheles gambiae from Ivory Coast  based on | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 5472 | 4614 |  |  |  |  | 0.0000 |
 | Newfile | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | Newpaper | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 9492 | 1967 |  |  |  |  | 0.0000 |
 | Newpaper- | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.1-flash-lite | 4812 | 729 |  |  |  |  | 0.0000 |
@@ -50,6 +58,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | s12889-019-7767-0 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 7632 | 3442 | gemini:gemini-3.6-flash | 9337 | 18398 | 1 survey(s), 0 genotype, 18 bioassay, 2 geno-pheno rows; 6 warning(s) | 0.0000 |
 | s12936-015-0924-8 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 7632 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | s12936-016-1618-6 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 7632 | 2545 | gemini:gemini-3.5-flash | 9325 | 46324 | 38 survey(s), 14 genotype, 25 bioassay, 0 geno-pheno rows; 2 warning(s) | 0.0000 |
+| s12936-017-2087-2 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 7092 | 3148 |  |  |  |  | 0.0000 |
 | s12936-017-2156-6 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 6552 | 2884 | gemini:gemini-3.8-flash | 8274 | 37512 | 6 survey(s), 2 genotype, 7 bioassay, 2 geno-pheno rows; 4 warning(s) | 0.0000 |
 | s12936-018-2285-6 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 8712 | 3589 | gemini:gemini-3.8-flash | 29442 | 51105 | 6 survey(s), 6 genotype, 12 bioassay, 0 geno-pheno rows | 0.0000 |
 | s12936-019-2738-6 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 10332 | 3182 |  |  |  |  | 0.0000 |

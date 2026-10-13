@@ -1,0 +1,68 @@
+{
+  "id": "1475-2875-8-81",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (molecular M form) and Anopheles funestus (e.g. Title, Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for knockdown resistance (kdr) using PCR with primers Agd1, Agd2, Agd3, Agd4 citing Fanello et al. 2003, which assays Vgsc L995F (L1014F) (page 3, 'Molecular forms and kdr analysis')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 4, 'Molecular forms and kdr': 'The kdr PCR assay of 192 of the samples (148 survivors (DDT: 67; deltamethrin: 17; permethrin: 64: and 44 susceptible ones) however, did not reveal any kdr mutations in the mosquitoes.' Thus N=192 (100% SS / 0% R alleles)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "F1 progeny from wild indoor resting blood-fed and gravid females collected across ecological zones in Kassena-Nankana District, northern Ghana (page 2, 'Field procedures')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field bioassay and resistance surveillance study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Kassena-Nankana District, Upper East Region, northern Ghana (10°30' to 11°00'N, 1°00' to 1°30'W) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes collected between November 2006 and October 2007 (page 4, 'Discussion')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collections conducted specifically for this study by Navrongo Health Research Centre."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant bioassay data, sample sizes, and genotyping outcomes are described completely within the text and tables of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2006,
+      2007
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 192,
+    "summary": "This study tested pyrethroid and DDT susceptibility in F1 progeny of Anopheles gambiae and Anopheles funestus collected in 2006–2007 from Kassena-Nankana District, northern Ghana. A subsample of 192 An. gambiae (148 bioassay survivors and 44 susceptible individuals; all identified as M molecular form) were genotyped for the kdr mutation (Vgsc L995F) using PCR, with 0% mutant alleles detected (all 192 were homozygous susceptible).",
+    "exclusion_reasons": []
+  }
+}
