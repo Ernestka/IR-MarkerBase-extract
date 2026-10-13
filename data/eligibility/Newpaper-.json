@@ -1,0 +1,67 @@
+{
+  "id": "Newpaper-",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (referred to as 1014F) and L995S (referred to as 1014S) (page 4, Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 provides genotype counts (LL, LF, FF) for survivors and dead mosquitoes in both IRS and DL bioassays."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field sites in Bomi County, Liberia (page 1, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical entomological survey conducted in 2011 (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific collection sites in Bomi County, Liberia, with UTM coordinates in Table 1 (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection in 2011 (page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study is a baseline entomological survey conducted in 2011 in Bomi County, Liberia, and does not indicate it is a subset of a larger previously published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Liberia"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 169,
+    "summary": "This study investigated pyrethroid resistance in Anopheles gambiae s.l. in Bomi County, Liberia, in 2011. It combined WHO tube and cone bioassays with molecular analysis of kdr mutations (1014F/S). The study found high resistance to deltamethrin and a high frequency of the 1014F kdr allele, which was significantly associated with survival in IRS bioassays.",
+    "exclusion_reasons": []
+  }
+}

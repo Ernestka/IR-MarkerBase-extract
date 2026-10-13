@@ -1,0 +1,67 @@
+{
+  "id": "Another paper",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles funestus collected in Tororo district, Uganda (page 1-2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No approved target markers were genotyped. The authors sequenced exon 20 of VGSC spanning codon 1014 in An. funestus (finding all wild-type in 19 specimens; page 4), but Vgsc L995F/S is a marker for the An. gambiae complex. CYP6P9a and CYP6P9b were evaluated by semi-quantitative RT-PCR expression analysis, not DNA marker genotyping. GST and esterases were assessed only via biochemical enzyme assays."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype or allele counts/frequencies for any approved target resistance markers are presented."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as indoor-resting females from Tororo District (0°45' N, 34°5' E) in Eastern Uganda in April and November 2009 and tested as F1 adults (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research study reporting field collections, WHO bioassays, biochemical assays, RT-PCR, and gene sequencing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Tororo District (0°45' N, 34°5' E), Eastern Uganda (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in April and November 2009 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field collections conducted in Tororo, Uganda in 2009."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files needed; the study does not genotype target markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated pyrethroid and DDT resistance in Anopheles funestus from Tororo District, Uganda, using WHO bioassays on F1 adults from 2009 collections. Resistance was metabolic, with biochemical assays showing elevated GST and P450 levels, and RT-PCR showing CYP6P9b overexpression. Exon 20 of VGSC was sequenced in 19 specimens (all wild-type at codon 1014), but no target resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

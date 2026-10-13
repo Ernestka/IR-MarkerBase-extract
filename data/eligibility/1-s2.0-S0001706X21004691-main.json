@@ -1,0 +1,66 @@
+{
+  "id": "1-s2.0-S0001706X21004691-main",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles coluzzii (Anopheles gambiae s.l.) as described in Title and Section 2.3."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for kdr-west (L1014F / Vgsc L995F) using AS-PCR (Section 2.6 and Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact sample sizes and genotype counts (RR, Rr, rr) for kdr-west in Kosofe (N=69: RR=8, Rr=0, rr=61), Ojo (N=68: RR=4, Rr=1, rr=63), and Lagos Mainland (N=104: RR=17, Rr=0, rr=87)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae collected between May and September 2019 from breeding sites in Ajegunle (Kosofe LGA), Oko-Baba (Lagos mainland LGA) and Iyana-Iba (Ojo LGA), Lagos State, Nigeria, and reared to adults (Section 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper reporting field collections, bioassays, and molecular assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data reported at LGA and community level: Ajegunle (Kosofe LGA), Oko-Baba (Lagos mainland LGA), and Iyana-Iba (Ojo LGA), Lagos State, Nigeria (Section 2.2 and Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae were collected between May and September 2019 (Section 2.2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary field survey conducted by the authors in Lagos State, Nigeria."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant sample numbers, bioassays, and genotype counts are fully reported in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 241,
+    "summary": "This study evaluated DDT and permethrin susceptibility, PBO synergism, metabolic enzyme activities, and Vgsc L1014F (L995F) frequencies in field populations of Anopheles coluzzii from three LGAs in Lagos State, Nigeria, collected between May and September 2019. Genotype counts for L1014F were clearly reported across all three sites.",
+    "exclusion_reasons": []
+  }
+}

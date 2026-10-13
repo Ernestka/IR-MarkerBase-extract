@@ -1,0 +1,67 @@
+{
+  "id": "s41598-020-75865-1",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted using Anopheles gambiae s.s. collected from Bungoma county, western Kenya (page 2, 'Mosquito population and strain used' and page 3, 'An. gambiae s.s F1 larvae were pooled...')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "TaqMan assays were used to detect Vgsc L1014S, L1014F, N1575Y, and Ace-1 G119S (page 3, 'Mutation analysis of the voltage-gated sodium channel (Vgsc) and acetylcholinesterase-1 (Ace-1) genes' and Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 on page 6 reports allele frequencies for Vgsc 1014 (L1014, L1014S, L1014F), 1575 (1575Y), and Ace-1 (G119S) along with sample sizes (e.g., Parent population N=196, R Group F3 N=179, S Group F9 N=176, S Group F13 N=176)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Bungoma county (00.590531°N, 034.388066°E) in western Kenya as blood-fed females over a 6-week period, and the parental population / F1s were evaluated (page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article investigating pyrethroid selection and decay dynamics in colonized lines established from field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collected from Bungoma county (00.590531°N, 034.388066°E) in western Kenya (page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper states mosquito collections took place over a 6-week period, but the specific year(s) of mosquito collection are not reported anywhere in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study establishes new selection and unselected laboratory lines from wild-caught mosquitoes in Bungoma county."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant target marker frequency and sample size data are provided in Table 1 within the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 196,
+    "summary": "This study examined phenotypic, genotypic, and biochemical changes in Anopheles gambiae from Bungoma, western Kenya, across multi-generational selection for deltamethrin resistance and resistance decay without selection pressure. Table 1 reports allele frequencies for Vgsc L1014F, L1014S, N1575Y, and Ace-1 G119S in the parental field-derived population (N=196) and subsequent filial generations.",
+    "exclusion_reasons": []
+  }
+}

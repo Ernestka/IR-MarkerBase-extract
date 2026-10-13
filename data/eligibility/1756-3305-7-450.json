@@ -1,0 +1,95 @@
+{
+  "id": "1756-3305-7-450",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper reviews mutations in the voltage-gated sodium channel gene of Anopheles mosquitoes (Title, Abstract, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The review discusses Vgsc L1014F (L995F), L1014S (L995S), and N1575Y (N1570Y) (Abstract, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review and does not provide primary genotype counts, allele counts, or frequencies with associated sample sizes for any specific population; it only summarizes the presence of mutations reported in other studies (Table 2)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper discusses data from African field populations reported in other studies but does not report new primary data from field collections."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly a review article (Title, Page 1 header, Page 3 section header)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "As a review, it does not provide primary data tied to specific sub-country locations."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "As a review, it does not provide primary data tied to specific collection windows."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper is a review that synthesizes data from 98 previously published studies (Page 4, Page 6)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No primary data is expected in supplements as this is a review paper."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles melas",
+      "Anopheles merus",
+      "Anopheles moucheti",
+      "Anopheles nili"
+    ],
+    "countries": [
+      "Angola",
+      "Benin",
+      "Burkina Faso",
+      "Burundi",
+      "Cameroon",
+      "Chad",
+      "Congo",
+      "Equatorial Guinea",
+      "Ethiopia",
+      "Gabon",
+      "Ghana",
+      "Ivory Coast",
+      "Kenya",
+      "Liberia",
+      "Mali",
+      "Niger",
+      "Nigeria",
+      "Senegal",
+      "Sudan",
+      "Tanzania",
+      "Uganda"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review paper summarizing the distribution and detection methods of voltage-gated sodium channel (kdr) mutations in Anopheles mosquitoes globally. It synthesizes findings from 98 primary studies published up to 2013, covering various species and geographical locations, particularly in Africa and Asia. It does not contain new primary empirical data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

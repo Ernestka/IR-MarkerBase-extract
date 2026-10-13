@@ -1,0 +1,68 @@
+{
+  "id": "s12936-025-05562-9",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu lato, specifically identifying An. coluzzii and An. arabiensis (Page 1, Abstract; Page 5, Molecular identification section)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (kdr West) and Vgsc L995S (kdr East) (Page 3, Molecular analysis section; Page 5, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 on page 5 provides genotype counts (RR, RS, SS) and allele frequencies for the kdr West mutation for each village and time point."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from three villages (Seguedin, Nazoanga, and Soum) in the Nanoro Health District, Burkina Faso (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article reporting new empirical data from field collections and laboratory analysis (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for three specific villages: Seguedin, Nazoanga, and Soum (Page 2, Methods; Page 3, Fig. 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted in 2023 (Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of mosquitoes in 2023 for this specific research project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 720,
+    "summary": "This study assessed insecticide resistance in Anopheles gambiae s.l. (predominantly An. coluzzii) in three villages around the Soum agropolis in Burkina Faso. It reports phenotypic resistance to deltamethrin (partially restored by PBO) and bendiocarb, and susceptibility to pirimiphos-methyl. Genotyping for kdr West (L1014F) and kdr East (L1014S) was performed, with high frequencies of kdr West observed.",
+    "exclusion_reasons": []
+  }
+}

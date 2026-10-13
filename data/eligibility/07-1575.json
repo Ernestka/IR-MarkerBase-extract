@@ -1,0 +1,67 @@
+{
+  "id": "07-1575",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. collected in experimental huts (p. 1707, 1708)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for kdr (Vgsc L995F / L1014F) using Martinez-Torres et al. 1998 and Ace1R (Ace-1 G280S / G119S) using Weill et al. 2004 (p. 1709, Table 1, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (p. 1709) provides allele frequencies and number tested for kdr (0.08/41 in dry season, 0.88/48 in rainy season) and Ace1R (0.01/40 and 0.40/49). Table 3 (p. 1712) reports allele frequencies and numbers tested for surviving and dead mosquitoes across three treatments."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-collected mosquitoes entering experimental huts in village VK7, Kou River valley, near Bobo-Dioulasso, southwestern Burkina Faso (p. 1708)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field trial and experimental hut study evaluating insecticide-repellent mixtures on bed nets in 2006 (p. 1708)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Village VK7, Kou River valley, near Bobo-Dioulasso, southwestern Burkina Faso (p. 1708)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Conducted in May–June and September–October 2006 (p. 1708)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary experimental hut trial conducted in 2006 with original entomological and molecular data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary allele frequency and sample size data are provided in the main text in Table 1 and Table 3."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2006
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 192,
+    "summary": "This study tested repellent-organophosphate mixtures on bed nets in experimental huts in VK7, Burkina Faso, during the dry and rainy seasons of 2006. Anopheles gambiae s.s. (M and S forms) were genotyped for kdr (L995F) and Ace-1 (G280S), with allele frequencies and sample sizes reported in untreated control huts and separately for survivors vs. dead mosquitoes exposed to different net treatments.",
+    "exclusion_reasons": []
+  }
+}

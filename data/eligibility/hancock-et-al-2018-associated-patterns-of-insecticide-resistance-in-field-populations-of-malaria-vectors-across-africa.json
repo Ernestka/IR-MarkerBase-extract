@@ -1,0 +1,97 @@
+{
+  "id": "hancock-et-al-2018-associated-patterns-of-insecticide-resistance-in-field-populations-of-malaria-vectors-across-africa",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae complex mosquitoes across Africa (page 1, Abstract; page 2, column 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Analyzes Vgsc mutations L1014F (L995F) and L1014S (L995S) (page 4, column 1; page 6, column 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary extractable genotype counts (RR/RS/SS), allele counts, or site-level frequencies with mosquito sample sizes are tabulated in the main text; data are presented only as aggregated geostatistical model outputs and scatter plots (Figs. 1F, 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected across 38 African countries in sub-Saharan Africa (page 2, column 1)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a secondary geostatistical modeling study re-analysing previously published and collated bioassay and kdr frequency data from Coleman et al. (2017) (page 5, Materials and Methods; page 6, column 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data were mapped to 1,183 specific sampling coordinates/locations across Africa (page 2, column 1; Fig. 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Underlying bioassay and genetic records have discrete collection years between 2000 and 2015 (page 2, column 1; page 6, column 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "Directly uses collated data from Coleman et al. 2017 (Malar J 16:86): 'We obtained data on the prevalence of Vgsc mutations in mosquito samples from the dataset collated by Coleman et al. (26)' (page 6, column 1)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study is fundamentally a secondary geostatistical re-analysis and modeling study of existing data rather than an eligible primary empirical report."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Cameroon",
+      "Cote d'Ivoire",
+      "Democratic Republic of the Congo",
+      "Ghana",
+      "Kenya",
+      "Mali",
+      "Mozambique",
+      "Nigeria",
+      "Senegal",
+      "Tanzania",
+      "Uganda"
+    ],
+    "collection_years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This is a Bayesian geostatistical modeling study analyzing cross-resistance patterns and the relationship between phenotypic bioassay mortality (pyrethroids, DDT, carbamates, organophosphates) and Vgsc L1014F/S allele frequencies in Anopheles gambiae s.l. across Africa. Because it is a secondary modeling study re-analysing previously collated datasets from Coleman et al. (2017), it fails the primary empirical study and extractable raw data requirements.",
+    "exclusion_reasons": [
+      "Pure modeling and secondary re-analysis study of previously published/collated datasets (not a primary empirical study)",
+      "No extractable population-level genotype or allele counts/sample sizes presented in the paper"
+    ]
+  }
+}

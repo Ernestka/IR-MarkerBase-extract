@@ -1,0 +1,72 @@
+{
+  "id": "s13071-020-04437-z",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates the Anopheles gambiae complex, specifically An. gambiae (s.s.), An. arabiensis, and An. coluzzii (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc-1014F (L995F), Vgsc-1014S (L995S), Ace-1 G119S (G280S), and Rdl A296G/S (Page 1, Abstract; Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (RR/RS/SS) for Vgsc-1014F, Vgsc-1014S, Ace-1 G119S, and Rdl A296G/S for different species and sites, along with the number of mosquitoes genotyped."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from field sites in Kedougou and Wassadou/Badi, southeastern Senegal, in October and November 2014 (Page 1, Abstract; Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original insecticide susceptibility and genotype data from field collections (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for specific sites: Kedougou and Wassadou/Badi (Page 1, Abstract; Page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in October and November 2014 (Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study mentions support from PMI (President’s Malaria Initiative) monitoring activities in Senegal (Page 9), but the data presented appear to be original results from the 2014 collection period."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are contained within the main text and tables (Tables 1, 2, and 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 745,
+    "summary": "This study reports on insecticide resistance and the frequency of target-site mutations (Vgsc L1014F, Vgsc L1014S, Ace-1 G119S, and Rdl A296G/S) in Anopheles gambiae s.l. populations from Kedougou and Wassadou/Badi in southeastern Senegal. Mosquitoes were collected as larvae in late 2014. The study provides detailed genotype counts for each marker across species and sites, and further analyzes marker frequencies in survivors versus dead mosquitoes from WHO susceptibility bioassays.",
+    "exclusion_reasons": []
+  }
+}

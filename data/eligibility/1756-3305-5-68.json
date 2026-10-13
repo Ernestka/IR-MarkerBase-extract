@@ -1,0 +1,67 @@
+{
+  "id": "1756-3305-5-68",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. collected from Yaokoffikro, Côte d'Ivoire (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the L1014F kdr (Vgsc L995F) and ace-1R (Ace-1 G280S) mutations (Page 1, Abstract; Page 3, PCR detection)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 4) provides the allelic frequencies for kdr (0.94) and ace-1R (0.50) along with the number of mosquitoes genotyped (n=111 and n=44, respectively)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from Yaokoffikro, a suburban village of Bouaké city in central Côte d’Ivoire (Page 2, Study area)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting original field collections and laboratory assays conducted in 2008 (Page 2, Mosquito collection)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study location is specified as Yaokoffikro village, near Bouaké, Côte d'Ivoire, with coordinates 5°1’ W, 7° 11’ N (Page 2, Study area)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during the rainy season in June 2008 (Page 2, Mosquito collection)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While Yaokoffikro is a well-known WHOPES field site with previous publications, this study explicitly states it is an update conducted six years after the 2002 crisis, using new collections from 2008 (Page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype frequencies and sample sizes are provided in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 111,
+    "summary": "This study updates the insecticide resistance status of Anopheles gambiae s.s. (S molecular form) at the Yaokoffikro field site in Côte d'Ivoire in 2008. It reports high frequencies of the Vgsc L1014F (0.94) and Ace-1 G119S (0.50) mutations, alongside results from WHO susceptibility bioassays showing resistance to pyrethroids, DDT, and carbamates.",
+    "exclusion_reasons": []
+  }
+}

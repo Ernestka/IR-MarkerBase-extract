@@ -1,0 +1,69 @@
+{
+  "id": "1475-2875-12-151",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. (M and S molecular forms) collected as larvae from rice paddies in M’Bé (page 2, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014F (L995F), L1014S (L995S), and Ace-1 G119S (G280S) (page 3, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5: 'Concerning the kdr-w mutation (L1014F), the genotypes were distributed as follow among the M-form An. gambiae: 16 were resistant homozygotes (RR), 114 were heterozygotes (RS), and 93 were susceptible homozygotes (SS). The kdr-w frequency was 0.33. The three S-form specimens were respectively SS, RS and RR.' Table 2 gives allele frequencies and total sample size (226) for kdr-w (0.33), kdr-e (0.00), and ace-1R (0.00)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae collected in May 2012 from rice paddies in M’Bé valley, Côte d'Ivoire, and reared to adulthood (page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field research article evaluating insecticide resistance status and mechanisms."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "M’Bé valley (5.209963° W, 7.970241° N), 30 km north of Bouaké, Bandama department, Côte d'Ivoire (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae collected during May 2012 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field evaluation conducted by the study authors at the M'Bé field station."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype counts and frequencies are reported directly within the main text and Table 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 226,
+    "summary": "This study tested insecticide resistance and underlying resistance mechanisms in Anopheles gambiae s.s. (mostly M form / An. coluzzii) collected from M'Bé valley, Côte d'Ivoire, in May 2012. Genotyping of 226 mosquitoes identified Vgsc L1014F (16 RR, 114 RS, 93 SS in M-form; 1 RR, 1 RS, 1 SS in S-form; allelic frequency 0.33), while Vgsc L1014S and Ace-1 G119S were not detected (0.00).",
+    "exclusion_reasons": []
+  }
+}

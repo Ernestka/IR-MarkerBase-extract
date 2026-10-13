@@ -1,0 +1,68 @@
+{
+  "id": "Insect Molecular Biology - 2001 - Ranson - Identification of a point mutation in the voltage‐gated sodium channel gene of",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae (Title: 'Identification of a point mutation in the voltage-gated sodium channel gene of Kenyan Anopheles gambiae')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports the discovery and genotyping of the leucine-serine mutation at position 1014 (Vgsc L1014S, which corresponds to Vgsc L995S) (Abstract, Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype data for a 1999 field collection is provided on page 4: 'In 1999 a further forty-two An. gambiae s.l. were collected... identified three individuals that were heterozygous for the kdr mutation... All the remaining individuals were homozygous for the wild-type susceptible allele.' (3 RS, 39 SS, N=42)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from villages approximately 50 km north-west of Kisumu, Kenya, in 1986, 1992, and 1999 (Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing the identification of a new kdr mutation and its frequency in field populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to villages approximately 50 km north-west of Kisumu, Kenya (Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The field collection data is specifically attributed to the year 1999 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes the original identification of the L1014S mutation in Kenya and reports a specific 1999 field collection; there is no indication this data is a subset of a larger published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype counts for the field population and linkage analysis are contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      1986,
+      1992,
+      1999
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 42,
+    "summary": "The study identifies the Vgsc L1014S (L995S) mutation, also known as kdr-east, in Anopheles gambiae from Western Kenya. It provides genotype frequencies for a field collection of 42 mosquitoes from 1999 (3 RS, 39 SS) and demonstrates a significant correlation between the mutation and permethrin resistance through linkage analysis of F2 progeny from genetic crosses (Table 2).",
+    "exclusion_reasons": []
+  }
+}

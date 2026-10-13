@@ -1,0 +1,73 @@
+{
+  "id": "s13071-019-3538-0",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-13",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "In the transmission seasons of 2016 and 2017, Anopheles gambiae (s.l.) larvae were sampled... Among the 2000 anophelines, 1511 (80.7%) were Anopheles arabiensis, 204 (10.9%) Anopheles coluzzii, 75 (4%) Anopheles gambiae (s.s.), and 83 (4.4%) An. gambiae (s.s.) and An. coluzzii hybrids (p. 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Investigated mutations at the Voltage-gated sodium channel (Vgsc-1014F and Vgsc-1014S) gene and at the Ace-1 (Ace-1-119S) gene using Taqman PCR (p. 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The main text states that 1873 mosquitoes were successfully genotyped and notes 3 mosquitoes carried Ace-1 119S without population denominators or full genotype breakdowns (p. 5). Specific allele and genotype frequencies for Vgsc-1014F and Vgsc-1014S by region and species are reported only in supplementary material ('Additional file 1: Figure S1 and Table S4', p. 5, 7), which is not included in the provided document."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae and adult females were collected in 2016 and 2017 from sentinel sites and additional villages across The Gambia (p. 1-2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field entomological survey assessing phenotypic susceptibility and molecular resistance markers in The Gambia (p. 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at 9 sentinel sites (Essau, Farafenni, Mansa Konko, Kuntaur, Brikama, Basse, Bwiam, Pirang, Bakau) and additional villages (Besse, Yallal Ba, Chogen Wellingara, Wali Kunda, Gambisarra, Gunjur Koto, Sare Wuro, Ngedden, Sare Seedy) grouped into 7 regions (p. 2-3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling took place during the malaria transmission seasons of 2016 and 2017 (p. 1-2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original nationwide surveillance study conducted in 2016-2017 in collaboration with the Gambian National Malaria Control Programme."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "'Additional file 1: Table S4. Frequency of kdr alleles, L1014F and L1014S per species by region' and 'Table S3. The distribution and number of mosquitoes screened for molecular markers of insecticide resistance by year' contain the necessary genotype frequency and count tables (p. 5, 7)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "The Gambia"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1873,
+    "summary": "This study monitored insecticide resistance and resistance markers (Vgsc L995F, Vgsc L995S, Ace-1 G280S) across The Gambia in 2016 and 2017. While bioassay results and association models are presented in the main text, detailed extractable genotype counts and allele frequencies by population are located in Additional file 1 (Table S4), which was not provided.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}
