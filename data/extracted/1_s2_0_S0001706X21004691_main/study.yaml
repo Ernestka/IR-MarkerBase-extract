@@ -1,0 +1,22 @@
+study_id: 1_s2_0_S0001706X21004691_main
+title: 'Multiple insecticide resistance mechanisms in urban population of Anopheles
+  coluzzii (Diptera: culicidae) from Lagos, South-West Nigeria'
+first_author: Ahmed Idowu Omotayo
+doi: 10.1016/j.actatropica.2021.106291
+pmid: '34958768'
+publication_year: 2022
+countries:
+- Nigeria
+data_source: journal_article
+provenance:
+  source_text: 'Multiple insecticide resistance mechanisms in urban population of
+    Anopheles coluzzii (Diptera: culicidae) from Lagos, South-West Nigeria. Acta Tropica
+    227 (2022) 106291.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-14'
+pmid_source: Europe PMC (from DOI)

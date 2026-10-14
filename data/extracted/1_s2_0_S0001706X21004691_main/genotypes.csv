@@ -1,0 +1,4 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+1_s2_0_S0001706X21004691_main_kosofe,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,AS-PCR,False,69,8,0,61,8,16,0.116,,"Table 2: Kosofe, No examined: 69, RR: 8, Rr: 0, rr: 61, kdr allelic frequency [F(R)] (%): 11.6",6,Table 2,,
+1_s2_0_S0001706X21004691_main_ojo,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,AS-PCR,False,68,4,1,63,5,9,0.067,,"Table 2: Ojo, No examined: 68, RR: 4, Rr: 1, rr: 63, kdr allelic frequency [F(R)] (%): 6.7",6,Table 2,,
+1_s2_0_S0001706X21004691_main_lagos_mainland,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,AS-PCR,False,104,17,0,87,17,34,0.164,,"Table 2: Lagos Mainland, No examined: 104, RR: 17, Rr: 0, rr: 87, kdr allelic frequency [F(R)] (%): 16.4",6,Table 2,,
