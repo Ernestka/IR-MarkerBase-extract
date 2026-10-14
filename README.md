@@ -22,11 +22,11 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**59 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-14
+**60 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-14
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 07-1575 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.7-flash | 5852 | 1799 |  |  |  |  | 0.0000 |
+| 07-1575 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.7-flash | 5852 | 1799 | gemini:gemini-3.7-flash | 20693 | 50422 | 3 survey(s), 4 genotype, 0 bioassay, 12 geno-pheno rows; 16 warning(s) | 0.0000 |
 | 1-s2.0-S0001706X19317632-main | master | EXTRACTED | True | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 5472 | 3401 | gemini:gemini-3.5-flash | 27742 | 56306 | 10 survey(s), 21 genotype, 19 bioassay, 0 geno-pheno rows; 23 warning(s) | 0.0000 |
 | 1-s2.0-S0001706X21004691-main | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.7-flash | 6012 | 1558 |  |  |  |  | 0.0000 |
 | 1471-2334-12-275 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.7-flash | 6012 | 2128 |  |  |  |  | 0.0000 |
@@ -45,6 +45,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | BioMed Research International - 2018 - Fodjo - Insecticides Resistance Status of An  gambiae in Areas of Varying | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 6552 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | Insect Molecular Biology - 2001 - Ranson - Identification of a point mutation in the voltage‐gated sodium channel gene of | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 5472 | 3858 |  |  |  |  | 0.0000 |
 | Medical Vet Entomology - 2003 - N'Guessan - Resistance to carbosulfan in Anopheles gambiae from Ivory Coast  based on | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 5472 | 4614 |  |  |  |  | 0.0000 |
+| New_file | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-14 | 2026-10-14 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | Newfile | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | Newpaper | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-08 | 2026-10-08 | 0 |  | gemini:gemini-3.5-flash | 9492 | 1967 |  |  |  |  | 0.0000 |
 | Newpaper- | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3.1-flash-lite | 4812 | 729 |  |  |  |  | 0.0000 |

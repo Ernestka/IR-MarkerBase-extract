@@ -1,0 +1,21 @@
+study_id: '07_1575'
+title: Mixture for Controlling Insecticide-Resistant Malaria Vectors
+first_author: Cédric Pennetier
+doi: 10.3201/eid1411.071575
+pmid: '18976553'
+publication_year: 2008
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: Pennetier C, Costantini C, Corbel V, Licciardi S, Dabiré RK, Lapied
+    B, et al. Mixture for Controlling Insecticide-Resistant Malaria Vectors. Emerg
+    Infect Dis. 2008;14(11):1707-1714.
+  page: '1707'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-14'
+pmid_source: Europe PMC (from DOI)
