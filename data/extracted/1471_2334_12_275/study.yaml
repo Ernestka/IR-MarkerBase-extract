@@ -1,0 +1,22 @@
+study_id: '1471_2334_12_275'
+title: High mosquito burden and malaria transmission in a district of the city of
+  Douala, Cameroon
+first_author: Antonio-Nkondjio
+doi: 10.1186/1471-2334-12-275
+pmid: '23106909'
+publication_year: 2012
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: High mosquito burden and malaria transmission in a district of the
+    city of Douala, Cameroon. Antonio-Nkondjio et al. BMC Infectious Diseases 2012,
+    12:275
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-14'
+pmid_source: Europe PMC (from DOI)

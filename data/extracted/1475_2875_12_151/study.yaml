@@ -1,0 +1,23 @@
+study_id: '1475_2875_12_151'
+title: 'Insecticide resistance status of Anopheles gambiae s.s population from M’Bé:
+  a WHOPES-labelled experimental hut station, 10 years after the political crisis
+  in Côte d’Ivoire'
+first_author: Alphonsine A Koffi
+doi: 10.1186/1475-2875-12-151
+pmid: '23641777'
+publication_year: 2013
+countries:
+- Côte d'Ivoire
+data_source: journal_article
+provenance:
+  source_text: 'Koffi et al. Malaria Journal 2013, 12:151. Insecticide resistance
+    status of Anopheles gambiae s.s population from M’Bé: a WHOPES-labelled experimental
+    hut station, 10 years after the political crisis in Côte d’Ivoire'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-14'
+pmid_source: Europe PMC (from DOI)
