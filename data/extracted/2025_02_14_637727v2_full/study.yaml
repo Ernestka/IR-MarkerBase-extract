@@ -1,0 +1,24 @@
+study_id: 2025_02_14_637727v2_full
+title: Targeted genomic surveillance of insecticide resistance in African malaria
+  vectors
+first_author: Sanjay C Nagi
+doi: 10.1101/2025.02.14.637727
+pmid: null
+publication_year: 2025
+countries:
+- Ghana
+- The Gambia
+- Kenya
+- Burkina Faso
+data_source: preprint
+provenance:
+  source_text: 'Targeted genomic surveillance of insecticide resistance in African
+    malaria vectors. Sanjay C Nagi et al. bioRxiv preprint doi: https://doi.org/10.1101/2025.02.14.637727;
+    this version posted May 7, 2025.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-15'

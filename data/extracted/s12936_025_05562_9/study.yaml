@@ -1,0 +1,20 @@
+study_id: s12936_025_05562_9
+title: Insecticide resistance in Anopheles gambiae in villages around the Soum agropolis
+  in the Center-West Region of Burkina Faso
+first_author: Hamidou Ilboudo
+doi: 10.1186/s12936-025-05562-9
+pmid: '41029635'
+publication_year: 2025
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: Ilboudo et al. Malaria Journal (2025) 24:297 https://doi.org/10.1186/s12936-025-05562-9
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-15'
+pmid_source: Europe PMC (from DOI)

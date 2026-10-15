@@ -1,4 +1,28 @@
 {
+ "bf|Nazoanga, Nanoro, Centre-West": [
+  {
+   "lat": 12.62265,
+   "level": "village",
+   "lon": -2.12883,
+   "name": "Nazoanga, Nanoro, Boulkiemdé, Centre-Ouest, Burkina Faso"
+  }
+ ],
+ "bf|Seguedin, Nanoro, Centre-West": [
+  {
+   "lat": 12.68561,
+   "level": "village",
+   "lon": -2.01903,
+   "name": "Séguédin, Nanoro, Boulkiemdé, Centre-Ouest, Burkina Faso"
+  }
+ ],
+ "bf|Soum, Nanoro, Centre-West": [
+  {
+   "lat": 12.59841,
+   "level": "village",
+   "lon": -2.29664,
+   "name": "Soum, Nanoro, Boulkiemdé, Centre-Ouest, Burkina Faso"
+  }
+ ],
  "bf|VK7": [
   {
    "lat": 11.40467,
@@ -7,6 +31,7 @@
    "name": "VK7, Houet, Hauts-Bassins, Burkina Faso"
   }
  ],
+ "bf|Valle de Kou": [],
  "bj|Adjozoume": [
   {
    "lat": 7.35044,
@@ -130,6 +155,28 @@
    "level": "admin1",
    "lon": -0.39438,
    "name": "Northern Region, Ghana"
+  }
+ ],
+ "gh|Obuasi": [
+  {
+   "lat": 6.21154,
+   "level": "town",
+   "lon": -1.6894,
+   "name": "Obuasi, Obuasi Municipal District, Ashanti Region, Ghana"
+  },
+  {
+   "lat": 6.92509,
+   "level": "village",
+   "lon": -1.68011,
+   "name": "Obuasi, Offinso Municipal District, Ashanti Region, Ghana"
+  }
+ ],
+ "gm|Upper River Region": [
+  {
+   "lat": 13.405,
+   "level": "admin1",
+   "lon": -14.14956,
+   "name": "Upper River, Gambia"
   }
  ],
  "gw|Bafatá": [
@@ -289,12 +336,76 @@
    "name": "Coast Water Board, Ukunda-Ramisi Road, Kona Ya Chale, Ukunda ward, Msambweni, Kwale, 80403, Kenya"
   }
  ],
+ "ke|Laboratory cross (RSP-ST x FAST)": [],
  "ke|Marigiza and Kidomaya": [],
  "ke|Marigiza and Kidomaya, Coast": [],
  "ke|Marigiza and Kidomaya, Kwale": [],
  "ke|Marigiza and Kidomaya, Kwale, Coast": [],
  "ke|Non-irrigated area": [],
  "ke|Non-irrigated area, Homa Bay": [],
+ "ke|Siaya": [
+  {
+   "lat": -0.0604,
+   "level": "admin1",
+   "lon": 34.20014,
+   "name": "Siaya, Kenya"
+  }
+ ],
+ "ke|Siaya, Western Kenya": [
+  {
+   "lat": 0.18237,
+   "level": "shop",
+   "lon": 34.29585,
+   "name": "Western Kenya school supplies, Ugunja Primary Road, Ugunja, Ugunja ward, Ugunja, Siaya, 40606, Kenya"
+  }
+ ],
+ "ke|four villages approximately 50 km north-west of Kisumu": [],
+ "lr|Bomi": [
+  {
+   "lat": 6.71779,
+   "level": "admin1",
+   "lon": -10.78818,
+   "name": "Bomi County, Liberia"
+  }
+ ],
+ "lr|Klay, Bomi": [
+  {
+   "lat": 6.70554,
+   "level": "admin2",
+   "lon": -10.81301,
+   "name": "Klay, Bomi County, Liberia"
+  },
+  {
+   "lat": 6.69519,
+   "level": "town",
+   "lon": -10.87361,
+   "name": "Klay, Bomi County, Liberia"
+  }
+ ],
+ "lr|Malema Camp / Gissi Camp (Site 3)": [],
+ "lr|Malema Camp / Gissi Camp (Site 3), Bomi": [],
+ "lr|Malema Camp / Gissi Camp (Site 3), Klay, Bomi": [],
+ "lr|Outer Norbor / Norbor (Site 10)": [],
+ "lr|Outer Norbor / Norbor (Site 10), Bomi": [],
+ "lr|Senjeh, Bomi": [
+  {
+   "lat": 6.84047,
+   "level": "admin2",
+   "lon": -10.89205,
+   "name": "Senjeh, Bomi County, Liberia"
+  },
+  {
+   "lat": 6.86869,
+   "level": "town",
+   "lon": -10.82481,
+   "name": "Tubmanburg, Senjeh, Bomi County, Liberia"
+  }
+ ],
+ "lr|Weamoi / Outside Weamoi (Site 7)": [],
+ "lr|Weamoi / Outside Weamoi (Site 7), Bomi": [],
+ "lr|Woman's centre / UNMIL camp / Garage (Site 5)": [],
+ "lr|Woman's centre / UNMIL camp / Garage (Site 5), Bomi": [],
+ "lr|Woman's centre / UNMIL camp / Garage (Site 5), Senjeh, Bomi": [],
  "mr|Nouakchott": [
   {
    "lat": 18.07924,

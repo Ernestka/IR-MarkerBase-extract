@@ -1,0 +1,21 @@
+study_id: Insect_Molecular_Biology___2001___Ranson___Identification_of_a_point_mutation_in_the_voltage_gated_sodium_channel_gene_of
+title: Identification of a point mutation in the voltage-gated sodium channel gene
+  of Kenyan Anopheles gambiae associated with resistance to DDT and pyrethroids
+first_author: H. Ranson
+doi: 10.1046/j.1365-2583.2000.00209.x
+pmid: '11029667'
+publication_year: 2000
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: Identification of a point mutation in the voltage-gated sodium channel
+    gene of Kenyan Anopheles gambiae associated with resistance to DDT and pyrethroids
+  page: '491'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-15'
+pmid_source: Europe PMC (from DOI)

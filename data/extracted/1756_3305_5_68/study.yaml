@@ -1,0 +1,21 @@
+study_id: '1756_3305_5_68'
+title: Update on resistance status of Anopheles gambiae s.s. to conventional insecticides
+  at a previous WHOPES field site, “Yaokoffikro”, 6 years after the political crisis
+  in Côte d’Ivoire
+first_author: Alphonsine A Koffi
+doi: 10.1186/1756-3305-5-68
+pmid: '22472088'
+publication_year: 2012
+countries:
+- Côte d'Ivoire
+data_source: null
+provenance:
+  source_text: Koffi et al. Parasites & Vectors 2012, 5:68
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-15'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,5 @@
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+Newpaper_site3,Newpaper_site3_cone_irs,deltamethrin,kdr,L1014F,Vgsc,L995F,SNP,alive,38,5,0,43,,0.94,,"Table 5: IRS Alive: Number tested = 43, LL = 0, LF = 5, FF = 38, 1014F allele Frequency = 0.94",6,Table 5,,
+Newpaper_site3,Newpaper_site3_cone_irs,deltamethrin,kdr,L1014F,Vgsc,L995F,SNP,dead,27,13,2,42,,0.8,,"Table 5: IRS Dead: Number tested = 42, LL = 2, LF = 13, FF = 27, 1014F allele Frequency = 0.80",6,Table 5,,
+Newpaper_site3,Newpaper_site3_cone_dl,deltamethrin,kdr,L1014F,Vgsc,L995F,SNP,alive,39,1,0,40,,0.99,,"Table 5: DL Alive: Number tested = 40, LL = 0, LF = 1, FF = 39, 1014F allele Frequency = 0.99",6,Table 5,,
+Newpaper_site3,Newpaper_site3_cone_dl,deltamethrin,kdr,L1014F,Vgsc,L995F,SNP,dead,37,5,2,44,,0.9,,"Table 5: DL Dead: Number tested = 44, LL = 2, LF = 5, FF = 37, 1014F allele Frequency = 0.90",6,Table 5,,

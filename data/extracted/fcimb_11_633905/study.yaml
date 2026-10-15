@@ -1,0 +1,23 @@
+study_id: fcimb_11_633905
+title: Presence of L1014F Knockdown-Resistance Mutation in Anopheles gambiae s.s.
+  From São Tomé and Príncipe
+first_author: Hongying Zhang
+doi: 10.3389/fcimb.2021.633905
+pmid: '34307185'
+publication_year: 2021
+countries:
+- São Tomé and Príncipe
+data_source: journal_article
+provenance:
+  source_text: Zhang H, Li M, Tan R, Deng C, Huang B, Wu Z, Zheng S, Guo W, Tuo F,
+    Yuan Y, Bandeira CA, Rompão DH, Xu Q, Song J and Wang Q (2021) Presence of L1014F
+    Knockdown-Resistance Mutation in Anopheles gambiae s.s. From São Tomé and Príncipe.
+    Front. Cell. Infect. Microbiol. 11:633905.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-15'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,22 @@
+study_id: Newpaper_
+title: Pyrethroid Resistance in Anopheles gambiae, in Bomi County, Liberia, Compromises
+  Malaria Vector Control
+first_author: Emmanuel A. Temu
+doi: 10.1371/journal.pone.0044986
+pmid: '23028724'
+publication_year: 2012
+countries:
+- Liberia
+data_source: journal_article
+provenance:
+  source_text: 'Temu EA, Maxwell C, Munyekenye G, Howard AFV, Munga S, et al. (2012)
+    Pyrethroid Resistance in Anopheles gambiae, in Bomi County, Liberia, Compromises
+    Malaria Vector Control. PLoS ONE 7(9): e44986.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-15'
+pmid_source: Europe PMC (from DOI)
