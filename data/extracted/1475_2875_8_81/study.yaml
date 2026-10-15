@@ -1,0 +1,21 @@
+study_id: '1475_2875_8_81'
+title: Insecticide resistance profiles for malaria vectors in the Kassena-Nankana
+  district of Ghana
+first_author: Francis Anto
+doi: 10.1186/1475-2875-8-81
+pmid: '19389257'
+publication_year: 2009
+countries:
+- Ghana
+data_source: null
+provenance:
+  source_text: Anto et al. Insecticide resistance profiles for malaria vectors in
+    the Kassena-Nankana district of Ghana. Malaria Journal 2009, 8:81
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-15'
+pmid_source: Europe PMC (from DOI)

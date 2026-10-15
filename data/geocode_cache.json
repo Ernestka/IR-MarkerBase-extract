@@ -106,6 +106,20 @@
  "gh|Asokwa submetropolis, Kumasi": [],
  "gh|Asokwa submetropolis, Kumasi, Ashanti": [],
  "gh|Asokwa submetropolis, Kumasi, Kumasi Metropolis, Ashanti": [],
+ "gh|Kassena-Nankana District, Upper East Region": [
+  {
+   "lat": 10.74555,
+   "level": "town",
+   "lon": -1.07267,
+   "name": "Kassena-Nankana Municipal District, Upper East Region, Ghana"
+  },
+  {
+   "lat": 10.87318,
+   "level": "admin2",
+   "lon": -1.31572,
+   "name": "Kassena-Nankana West District, Upper East Region, Ghana"
+  }
+ ],
  "gh|Kpalsogu and Libga": [],
  "gh|Kpalsogu and Libga, Northern": [],
  "gh|Kumasi Metropolis": [],
