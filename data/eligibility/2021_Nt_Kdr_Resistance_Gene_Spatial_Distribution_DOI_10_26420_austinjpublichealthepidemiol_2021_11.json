@@ -1,0 +1,68 @@
+{
+  "id": "2021_Nt_Kdr_Resistance_Gene_Spatial_Distribution_DOI_10_26420_austinjpublichealthepidemiol_2021_11",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adults of Anopheles gambiae s.l. were reared from field-collected larvae and identified as An. gambiae and An. coluzzii (Page 1, Abstract; Page 3, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for the Vgsc 1014F (L995F) kdr mutation using PCR according to Martinez-Torres et al. 1998 (Page 3, Methods; Page 4, Discussion)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 reports sample sizes and allele frequencies of the Kdr mutation in An. gambiae s.l.: Akoun (N=100, R=1, S=0) and Ebabodo (N=100, R=1, S=0), with text stating 100% of survivors tested carried the mutation (Page 1, Abstract; Page 4, Table 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected in December 2019 and February 2020 from natural larval habitats in Akoun and Ebabodo, Ayos, southern Cameroon (Page 2, Methodology)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field collection, bioassay, and PCR data (Pages 1-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected at two specific sites in Ayos city: Akoun (3°54'102\"N, 12°31'054\"E) and Ebabodo (3°54'295\"N, 12°31'631\"E) in Cameroon (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae collections took place in December 2019 and February 2020 (Page 2, Mosquito collection and treatment)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field survey conducted in Ayos city with no mention of data sharing from external databases or networks."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data (bioassays, species ID, and kdr frequencies) are contained within the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 200,
+    "summary": "This study evaluated insecticide susceptibility and the frequency of the Vgsc 1014F kdr mutation in Anopheles coluzzii and An. gambiae collected from urban (Akoun) and peri-urban (Ebabodo) sites in Ayos, southern Cameroon between December 2019 and February 2020. WHO tube tests showed resistance to DDT, permethrin, and deltamethrin. Genotyping of bioassay survivors showed 100% fixation of the 1014F resistant allele.",
+    "exclusion_reasons": []
+  }
+}

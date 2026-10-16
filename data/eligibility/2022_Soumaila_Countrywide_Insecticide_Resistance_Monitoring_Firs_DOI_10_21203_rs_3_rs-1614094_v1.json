@@ -1,0 +1,71 @@
+{
+  "id": "2022_Soumaila_Countrywide_Insecticide_Resistance_Monitoring_Firs_DOI_10_21203_rs_3_rs-1614094_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae sensu lato (identified as An. coluzzii, An. gambiae s.s., and An. arabiensis) across Niger (page 3, 5, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Characterized knock-down resistance West (kdr-w / L1014F), knock-down resistance East (kdr-e / L1014S), and acetylcholinesterase (ace-1 / G119S) mutations using PCR/RFLP (page 5, 6, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 2 and 3 provide exact sample sizes and genotype counts (RR, RS, SS) and allele frequencies for kdr-w and ace-1 in 2019 across 9 sites, and for kdr-w, kdr-e, and ace-1 in 2020 across 15 sites (page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae and pupae were collected from field breeding sites across 16 localities in Niger (West Africa) in 2019 and 2020, and reared to adults for bioassays and molecular testing (page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original entomological surveillance and resistance monitoring data conducted in Niger (page 2, 4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific survey sites/districts are reported: Agadez, Balleyara, Boboye, Gaya, Guidimouni, Keita, Madaoua, Madarounfa, Magaria, Matamey, Niamey V, Say, Tchintabaraden, Tessaoua, Tillabery, Fararrat, and Zindarou (page 4, 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred from August to December 2019 and September to December 2020 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The study was conducted by the 'PMI VectorLink project' with funding from the 'United States President's Malaria Initiative through the United States Agency for International Development (USAID) Abt Associates / VectorLink Project' (page 1, 9), representing data collected as part of regular PMI VectorLink annual entomological surveillance."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Full per-site sample sizes, genotype counts (RR, RS, SS), and allele frequencies for all markers are directly published in Tables 2 and 3 of the main article (page 7)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Niger"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2803,
+    "summary": "This study monitored insecticide resistance in Anopheles gambiae s.l. across 16 localities in Niger during 2019 and 2020 under the PMI VectorLink project. WHO susceptibility tests and synergist assays were performed for pyrethroids alongside CDC bottle bioassays for chlorfenapyr. Genotype counts (RR, RS, SS) and allele frequencies are fully detailed for Vgsc-L995F (kdr-w), Vgsc-L995S (kdr-e), and Ace-1-G280S (ace-1) across both years.",
+    "exclusion_reasons": []
+  }
+}

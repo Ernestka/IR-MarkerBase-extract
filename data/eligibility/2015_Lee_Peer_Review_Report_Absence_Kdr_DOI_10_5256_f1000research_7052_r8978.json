@@ -1,0 +1,67 @@
+{
+  "id": "2015_Lee_Peer_Review_Report_Absence_Kdr_DOI_10_5256_f1000research_7052_r8978",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae sensu stricto collected across the Comoros and from Dar es Salaam, Tanzania (page 3, Methods: 'A total of 362 indoor resting adults and larvae were collected... Species were determined based on the combination of species diagnostic assays and a divergence island SNP (DIS) genotyping assay')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of the Vgsc L995S (L1014S, kdr-East) marker (page 3, Results & discussion and Table 1: 'A. gambiae from Dar es Salaam, Tanzania, had the kdr-East (L1014S) genotype at a frequency of 96%... In contrast, all A. gambiae from the Comoros were homozygous for the susceptible kdr alleles (+/+)')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides site-level mosquito counts genotyped for kdr, along with exact genotype breakdowns (+/+, E/+, E/E) and resistance allele frequencies (%E) for 14 sites in Comoros and 1 site in Tanzania (total n = 387)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Specimens were field-collected as indoor resting adults and larvae in the Union of the Comoros and Dar es Salaam, Tanzania (page 3, Methods: 'A total of 362 indoor resting adults and larvae were collected from 13 locations from the three islands... between February and March, 2011. Mosquitoes from Dar es Salaam were obtained from Dr. Kija Ngh’abi at Ifakara Health Institute')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article presenting novel empirical genotyping data on field-collected mosquitoes using Sequenom iPLEX genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Provides specific village/site names and coordinates for 14 sites across Comoros (Assimpao, Boeninidi, Bouni, Fomboni, Hoani, Male, Miringoni, Moya, Mutsamudu, Ndremeani, Ossivo, Saliman, Wala, Wanani) and Dar es Salaam, Tanzania (Table 1, page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in February and March 2011 (page 3, Methods and Table 1 caption)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field samples were collected in 2011 and Dar es Salaam samples were obtained via collaborator Kija Ngh'abi at Ifakara Health Institute; Comoros samples share collection context with Marsden et al. 2013 population genetic work, but kdr genotyping is primary to this paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Table 1 in the main text contains complete site-level sample sizes, genotype counts (+/+, E/+, E/E), and allele frequencies. Supplemental Document S1 only covers assay primer details."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Comoros",
+      "Tanzania"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 387,
+    "summary": "This study genotyped Anopheles gambiae s.s. collected in February-March 2011 across 14 sites in the Union of the Comoros (n = 362) and one site in Dar es Salaam, Tanzania (n = 25) for Vgsc L995S (L1014S, kdr-East) using Sequenom iPLEX. All Comoros specimens were homozygous susceptible (+/+), while Dar es Salaam mosquitoes had 24 homozygous resistant (E/E) and 1 heterozygous (E/+).",
+    "exclusion_reasons": []
+  }
+}

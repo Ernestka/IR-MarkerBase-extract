@@ -1,0 +1,69 @@
+{
+  "id": "2022_Sagbohan_Intensity_Different_Genes_Involved_Resistance_DOI_10_22271_23487941_2022_v9_i2a_596",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (Anopheles gambiae s.s., Anopheles coluzzii, and Anopheles arabiensis) collected as larvae in northern Benin (page 1, Abstract; page 3, 'Biological material')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for the Vgsc L995F (kdr L1014F) mutation using the Martinez-Torres et al. PCR protocol (page 4, 'Polymerase chain reaction to identify in An. gambiae s.l. the kdr L1014F mutation involved in pyrethroid resistance')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (pages 5-6) reports sample sizes, genotype counts (1014F/1014F, 1014L/1014F, 1014L/1014L), and allele frequencies broken down by species and district (total N = 400). Table 2 (page 7) also provides genotype counts broken down by survival status (dead vs alive)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were sampled in four districts of northern Benin (Parakou, N'Dali, Kandi, Malanville) between October 2019 and December 2020, and reared to adults (page 2, 'Materials and methods'; page 3, 'Larval survey and rearing of larvae')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original primary research article reporting field collections, WHO bioassays, biochemical assays, and PCR genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported by commune/district: Parakou, N'Dali, Kandi, and Malanville in northern Benin (page 2, 'Study sites'; page 3, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between October 2019 and December 2020 (page 2, 'Study sites')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Standard field study carried out by CREC / University of Abomey-Calavi with funding support from PMI/USAID; no evidence of duplicate reporting or secondary dataset reuse."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, bioassay results, and district breakdown tables are included in the main text (Tables 1 and 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 400,
+    "summary": "This study evaluated pyrethroid resistance intensity and mechanisms in Anopheles gambiae s.l. from four districts in northern Benin (Parakou, N'Dali, Kandi, and Malanville) collected between October 2019 and December 2020. A total of 400 mosquitoes (100 per district) across An. gambiae s.s., An. coluzzii, and An. arabiensis were genotyped for the Vgsc L1014F (L995F) mutation, with full genotype counts and allele frequencies presented overall, by species, and separated by dead vs alive following 5x deltamethrin exposure.",
+    "exclusion_reasons": []
+  }
+}

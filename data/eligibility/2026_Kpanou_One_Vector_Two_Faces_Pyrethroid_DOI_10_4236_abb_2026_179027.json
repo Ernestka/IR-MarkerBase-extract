@@ -1,0 +1,68 @@
+{
+  "id": "2026_Kpanou_One_Vector_Two_Faces_Pyrethroid_DOI_10_4236_abb_2026_179027",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae sensu lato, specifically identifying Anopheles gambiae sensu stricto, Anopheles coluzzii, and Anopheles arabiensis (page 2, Abstract and page 9, Section 3.4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study tests for the Vgsc L1014F (L995F) kdr mutation using allele-specific PCR (page 2, Abstract; page 6, Section 2.3; Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (pages 9-10) reports exact genotype counts (1014F/1014F, 1014F/1014L, 1014L/1014L) and total N tested for each species in Banikoara, Boukombé, and Gogounou."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from breeding sites in northern Benin (communes of Gogounou, Banikoara, and Boukombé) between August and October 2024 and reared to adulthood (page 1, Abstract; page 4, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article detailing original field collections, insecticide bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from three specific communes in northern Benin: Gogounou, Banikoara, and Boukombé (page 4, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were conducted between August and October 2024 (page 1, Abstract; page 4, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper reports original primary entomological surveillance data collected between August and October 2024 by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, sample sizes, and bioassay results are provided directly in the text and Table 1 of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 149,
+    "summary": "This study evaluated susceptibility to pyrethroids, clothianidin, and chlorfenapyr in Anopheles gambiae s.l. collected across three communes in northern Benin (Gogounou, Banikoara, Boukombé) in 2024. It characterized species composition and determined kdr L1014F genotype counts and allele frequencies in 149 specimens.",
+    "exclusion_reasons": []
+  }
+}

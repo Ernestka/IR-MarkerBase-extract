@@ -1,0 +1,22 @@
+study_id: 2021_Nt_Kdr_Resistance_Gene_Spatial_Distribution_DOI_10_26420_austinjpublichealthepidemiol_2021_11
+title: 'Kdr Resistance Gene and Spatial Distribution of Anopheles gambiae Complex
+  Members in a Secondary City in Central Africa: Ayos Case (South Cameroon)'
+first_author: Nopowo NT
+doi: null
+pmid: null
+publication_year: 2021
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: 'Citation: Nopowo NT, Akono PN, Ngaha R, Offono LE, Kojom R, Mache
+    PN, et al. Kdr Resistance Gene and Spatial Distribution of Anopheles gambiae Complex
+    Members in a Secondary City in Central Africa: Ayos Case (South Cameroon). Austin
+    J Public Health Epidemiol. 2021; 8(4): 1108.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-16'

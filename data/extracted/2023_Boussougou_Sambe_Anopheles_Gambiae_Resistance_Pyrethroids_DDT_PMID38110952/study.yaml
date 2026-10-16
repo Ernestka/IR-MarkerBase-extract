@@ -1,0 +1,20 @@
+study_id: 2023_Boussougou_Sambe_Anopheles_Gambiae_Resistance_Pyrethroids_DDT_PMID38110952
+title: Anopheles gambiae s.s. resistance to pyrethroids and DDT in semi-urban and
+  rural areas of the Moyen-Ogooué Province, Gabon
+first_author: Stravensky Térence Boussougou-Sambe
+doi: 10.1186/s12936-023-04820-y
+pmid: '38110952'
+publication_year: 2023
+countries:
+- Gabon
+data_source: journal_article
+provenance:
+  source_text: Boussougou-Sambe et al. Malaria Journal (2023) 22:382 https://doi.org/10.1186/s12936-023-04820-y
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-16'
+pmid_source: Europe PMC (from DOI)

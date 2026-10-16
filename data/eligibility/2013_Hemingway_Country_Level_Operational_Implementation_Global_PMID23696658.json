@@ -1,0 +1,69 @@
+{
+  "id": "2013_Hemingway_Country_Level_Operational_Implementation_Global_PMID23696658",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. (M and S forms), Anopheles funestus, and Anopheles melas (page 9397-9399)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports Vgsc L995F (kdr-west, leu1014-phe), Vgsc L995S (kdr-east, SRe), and Ace-1 G280S (Gly119-Ser) (pages 9397, 9399, 9401 Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 9401) reports exact genotype counts for kdr in An. gambiae collected in 2004: 1,741 SS, 1,564 SRw, 543 RwRw, plus footnote stating 'Seven specimens were heterozygous for the east African variant of kdr SRe, and 5 were ReRw'."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected from 18 sentinel sites on Bioko Island, Equatorial Guinea in 2004 using window exit traps, and larvae collected from Malabo, Bioko in 2011 (pages 9399, 9401)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary study reporting new retrospective molecular genotyping of ~4,000 stored field specimens from 2004 and microarray/bioassay work from 2011 (pages 9398, 9401)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Bioko Island (with 18 sentinel sites referenced) and Malabo (pages 9399, 9401)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Specimens for kdr genotyping were collected in 2004 (pages 9398, 9401 Table 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "Exit trap samples were originally collected by the Bioko Island Malaria Control Project in 2004 (Sharp et al., 2007, ref 5): 'all specimens caught before and after the IRS in 2004 were recently analyzed retrospectively and were combined with specimen results that were obtained at the time' (page 9401)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Extractable genotype counts for the 2004 Bioko collection are provided directly in Table 2 and Table 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2004,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 3860,
+    "summary": "This study evaluated the operational impact of insecticide resistance on vector control on Bioko Island, Equatorial Guinea. Retrospective genotyping of 3,860 Anopheles gambiae s.s. collected in window exit traps across Bioko in 2004 provided exact genotype numbers for Vgsc L995F and L995S, demonstrating lower sporozoite positivity in kdr homozygotes compared to heterozygotes and susceptibles. In addition, 2011 field collections were screened by PCR for Ace-1 G280S (which was absent) and evaluated for metabolic resistance by microarray.",
+    "exclusion_reasons": []
+  }
+}

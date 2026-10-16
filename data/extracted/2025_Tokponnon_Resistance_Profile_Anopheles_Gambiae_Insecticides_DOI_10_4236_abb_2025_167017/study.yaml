@@ -1,0 +1,24 @@
+study_id: 2025_Tokponnon_Resistance_Profile_Anopheles_Gambiae_Insecticides_DOI_10_4236_abb_2025_167017
+title: Resistance Profile of Anopheles gambiae s.l. to Insecticides in the Atlantic,
+  Littoral and Oueme Departments of Benin in West Africa
+first_author: Tatchémè Filémon Tokponnon
+doi: 10.4236/abb.2025.167017
+pmid: null
+publication_year: 2025
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Tokponnon, T.F., Ossè, R., Kossou, J., Abadame, R., Nouwagbe, C., Gnacadja,
+    O., Radji, A., Houngbe, S., Kpanou, C., Sagbohan, H., Ahouandjinou, J., Towakinou,
+    L., Agassounon, B., Sare Dabou, Z., Baba-Moussa, L., Padonou, G.G. and Akogbeto,
+    M. (2025) Resistance Profile of Anopheles gambiae s.l. to Insecticides in the
+    Atlantic, Littoral and Oueme Departments of Benin in West Africa. Advances in
+    Bioscience and Biotechnology, 16, 261-276.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-16'

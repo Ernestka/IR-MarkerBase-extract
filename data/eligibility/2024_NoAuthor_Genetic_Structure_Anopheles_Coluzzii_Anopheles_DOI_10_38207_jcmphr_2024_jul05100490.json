@@ -1,0 +1,70 @@
+{
+  "id": "2024_NoAuthor_Genetic_Structure_Anopheles_Coluzzii_Anopheles_DOI_10_38207_jcmphr_2024_jul05100490",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Section 'Molecular characterization of vector' (page 3): '3,134 Anopheles gambiae mosquitoes collected from the field were subjected to molecular characterization... The technique of Santolamazza et al. [15] was used to distinguish the twin species Anopheles gambiae and Anopheles coluzzii.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Section 'Identification of the L995F mutation within the kdr gene' and 'Identification of the G280S mutation within the ace-1 gene' (page 3): genotypes Vgsc L995F (kdr-L995F) and Ace-1 G280S."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figures 2 and 3 show allele frequencies of kdr-L995F and ace-1 G280S per commune, species, and IRS period. Tables 1 and 2 provide the exact sample sizes (N) for each corresponding group (summing to 3,134 mosquitoes across An. gambiae and An. coluzzii), alongside observed heterozygosity (Ho), expected heterozygosity (He), and Fis."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Section 'Collection of mosquito samples' (page 3): 'The population studied came from adult mosquitoes collected monthly in 2019, 2020, and 2021 by capture from human volunteers in the control commune (Bembèrèkè) and the IRS communes (Gogounou and Kandi to the north of Bembèrèkè, Djougou, and Copargo to the southeast of Bembèrèkè)' in northern Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field surveillance and genotyping data across three IRS campaign years in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Communes identified: Bembèrèkè (Borgou Department), Kandi and Gogounou (Alibori Department), and Djougou and Copargo (Donga Department) in northern Benin (pages 2-3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected monthly from 2019 to 2021 (a 3-year period), and data are reported per year/intervention period (2019, 2020, 2021; Tables 1-2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Page 10, Funding: 'This study was supported by the US President's Malaria Initiative (PMI) through funding for the PMI Indoor Residual Spraying (AIRS) project, the PMI Vector Link project and the PMI Evolve project.' Collections overlap with PMI VectorLink surveillance and companion publications (e.g., Odjo et al. 2024)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary allele frequencies, observed heterozygosity values, and sample sizes per commune and year are reported within the main text, Figures 2-3, and Tables 1-2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 3134,
+    "summary": "This study evaluated the genetic structure and target-site resistance marker frequencies (Vgsc L995F and Ace-1 G280S) in Anopheles gambiae s.s. and Anopheles coluzzii collected across five communes (Bembèrèkè, Kandi, Gogounou, Djougou, Copargo) in northern Benin between 2019 and 2021 during IRS campaigns.",
+    "exclusion_reasons": []
+  }
+}

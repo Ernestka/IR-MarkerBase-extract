@@ -1,0 +1,21 @@
+study_id: 2024_NoAuthor_Genetic_Structure_Anopheles_Coluzzii_Anopheles_DOI_10_38207_jcmphr_2024_jul05100490
+title: Genetic Structure Of Anopheles coluzzii and Anopheles gambiae Populations In
+  Northern Benin (West Africa) In The Context Of Indoor Residual Spraying
+first_author: Esdras Mahoutin Odjo
+doi: 10.38207/JCMPHR/2024/JUL05100490
+pmid: null
+publication_year: 2024
+countries:
+- Benin
+data_source: field_collection
+provenance:
+  source_text: Genetic Structure Of Anopheles coluzzii and Anopheles gambiae Populations
+    In Northern Benin (West Africa) In The Context Of Indoor Residual Spraying. J
+    Comm Med and Pub Health Rep 5(10)
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-16'

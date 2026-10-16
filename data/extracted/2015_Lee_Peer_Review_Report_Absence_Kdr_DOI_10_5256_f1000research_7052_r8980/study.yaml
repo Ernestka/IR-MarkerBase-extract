@@ -1,0 +1,21 @@
+study_id: 2015_Lee_Peer_Review_Report_Absence_Kdr_DOI_10_5256_f1000research_7052_r8980
+title: Absence of kdr resistance alleles in the Union of the Comoros, East Africa
+first_author: Yoosook Lee
+doi: 10.12688/f1000research.6567.1
+pmid: '26339473'
+publication_year: 2015
+countries:
+- Comoros
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: Absence of kdr resistance alleles in the Union of the Comoros, East
+    Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-16'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,20 @@
+study_id: 2022_Aizoun_Dynamics_Insecticide_Resistance_Anopheles_Gambiae_DOI_10_30574_wjarr_2022_14_1_0268
+title: Dynamics of insecticide resistance in Anopheles gambiae sensu lato populations
+  from Bohicon in Sudano-guinean area of Benin, West Africa
+first_author: Nazaire Aïzoun
+doi: 10.30574/wjarr.2022.14.1.0268
+pmid: null
+publication_year: 2022
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: 'World Journal of Advanced Research and Reviews, 2022, 14(01), 476–482.
+    Article DOI: https://doi.org/10.30574/wjarr.2022.14.1.0268'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-16'

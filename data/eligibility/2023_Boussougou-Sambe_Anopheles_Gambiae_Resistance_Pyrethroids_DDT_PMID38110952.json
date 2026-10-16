@@ -1,0 +1,68 @@
+{
+  "id": "2023_Boussougou-Sambe_Anopheles_Gambiae_Resistance_Pyrethroids_DDT_PMID38110952",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult mosquitoes were identified morphologically and molecularly using SINE200 as Anopheles gambiae sensu stricto (p. 2-4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "TaqMan assays were used to genotype Vgsc-L1014F and Vgsc-L1014S (p. 3, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts (L1014F/L1014F, L1014F/L1014S, L1014S/L1014S) and allele counts for Lambaréné (N=60) and Zilé (N=56) (p. 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were sampled from breeding sites in Lambaréné and Zilé, Moyen-Ogooué Province, Gabon, and reared to adults (p. 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper reporting original susceptibility tests and kdr genotyping from field collections (p. 1-2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Lambaréné and Zilé in Moyen-Ogooué Province, Gabon (p. 2, Fig. 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place from November 2017 to February 2018 (p. 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors refer to their previous study in Zilé (ref 18), but describe these as specific larvae collections conducted from November 2017 to February 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype counts and frequencies are reported in the main text and Table 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Gabon"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 116,
+    "summary": "This study reports WHO susceptibility assays (deltamethrin, permethrin, DDT) and kdr genotyping (Vgsc-L1014F and L1014S) in Anopheles gambiae s.s. collected as larvae in Lambaréné and Zilé, Moyen-Ogooué Province, Gabon between November 2017 and February 2018. Genotype counts are clearly tabulated in Table 2 for both localities.",
+    "exclusion_reasons": []
+  }
+}

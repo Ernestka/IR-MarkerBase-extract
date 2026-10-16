@@ -1,0 +1,70 @@
+{
+  "id": "2017_Djenontin_Mosquitoes_Fauna_Diversity_Plasmodium_Falciparum_DOI_10_14741_ijmcr_v_5_6_23",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (predominantly Anopheles coluzzii, plus An. melas and An. gambiae s.s.) as well as An. pharoensis and An. ziemanni (page 2, section 2.2; page 3, section 3.1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for 'The knock-down resistance mutation (kdr-west, L1014F) and acetylcholinesterase resistance mutation (Ace1)... detected by Taqman allelic discrimination assays as described by Bass (Bass et al., 2007)' (page 2, section 2.3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table III (page 3) provides exact kdr (L1014F) genotype counts: Flood (RR=90, RS=38, SS=8), Fall (RR=309, RS=248, SS=7), Total (RR=399, RS=286, SS=15). Page 3, section 3.4 states: 'Concerning ace1 gene, only one Anopheles coluzzii of the 770 Anopheles gambiae s.l. tested successfully was heterozygote for the mutation'."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Sô-Ava District, southern Benin, between July 2014 and June 2015 using CDC light traps and larval collections (page 2, section 2.1-2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical field study reporting mosquito diversity, CSP infection rates, WHO bioassay susceptibility, and genotype data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sô-Ava District (6° 28′ 00″ N, 2° 25′ 00″ E), Atlantic Department, southern Benin (page 2, section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Surveys were conducted between July 2014 and June 2015 (page 2, section 2.2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard entomological field survey conducted by local university/CREC/IRD researchers without indication of being part of a larger consortium or re-used dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype counts and frequencies are reported directly in the main text and Table III."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 770,
+    "summary": "This study evaluated mosquito diversity, Plasmodium falciparum CSP infection rates, and insecticide resistance in Sô-Ava District, a lagoon area in southern Benin between July 2014 and June 2015. Genotyping for Vgsc L995F (kdr-west) and Ace-1 G280S was performed on Anopheles gambiae s.l. (largely An. coluzzii), providing full RR/RS/SS counts. WHO susceptibility bioassays were conducted with several pyrethroids, organophosphates, DDT, and bendiocarb.",
+    "exclusion_reasons": []
+  }
+}

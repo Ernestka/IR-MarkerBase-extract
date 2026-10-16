@@ -1,0 +1,22 @@
+study_id: 2022_Sagbohan_Intensity_Different_Genes_Involved_Resistance_DOI_10_22271_23487941_2022_v9_i2a_596
+title: Intensity and different genes involved in the resistance of An. gambiae s.l.
+  to pyrethroids in four districts representative of the different agricultural production
+  zones of North Benin, West Africa
+first_author: Hermann Watson Sagbohan
+doi: 10.22271/23487941.2022.v9.i2a.596
+pmid: null
+publication_year: 2022
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Intensity and different genes involved in the resistance of An. gambiae
+    s.l. to pyrethroids in four districts representative of the different agricultural
+    production zones of North Benin, West Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-16'

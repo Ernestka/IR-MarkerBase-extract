@@ -1,0 +1,7 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2026_Kpanou_banikoara_2024_col,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,allele-specific PCR,False,6,4,2,0,,10,0.83,,A. coluzzii 6 4 2 0 83 52 - 98,10,Table 1,,
+2026_Kpanou_banikoara_2024_gam,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,allele-specific PCR,False,43,40,2,1,,82,0.95,,A. gambiae 43 40 2 1 95 89 - 99,10,Table 1,,
+2026_Kpanou_boukombe_2024_gam,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,allele-specific PCR,False,50,39,8,3,,86,0.86,,A. gambiae 50 39 8 3 86 78 - 92,10,Table 1,,
+2026_Kpanou_gogounou_2024_ara,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,allele-specific PCR,False,2,1,1,0,,3,0.75,,A. arabiensis 2 1 1 0 75 19 - 99,10,Table 1,,
+2026_Kpanou_gogounou_2024_col,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,allele-specific PCR,False,39,31,5,3,,67,0.86,,A. coluzzii 39 31 5 3 86 76 - 93,10,Table 1,,
+2026_Kpanou_gogounou_2024_gam,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,allele-specific PCR,False,9,8,1,0,,17,0.94,,A. gambiae 9 8 1 0 94 73 - 100,10,Table 1,,

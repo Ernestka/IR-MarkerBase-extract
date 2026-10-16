@@ -64,9 +64,113 @@
    "name": "EPP AYERE AGBAROU, RN 3, Pobè, Okôffin, Adja-Ouèrè, Plateau, Bénin"
   }
  ],
+ "bj|Banikoara, Alibori": [
+  {
+   "lat": 11.32625,
+   "level": "admin2",
+   "lon": 2.47304,
+   "name": "Banikoara, Alibori, Bénin"
+  },
+  {
+   "lat": 11.02082,
+   "level": "river",
+   "lon": 2.46364,
+   "name": "Alibori, Banikoara, Alibori, Bénin"
+  }
+ ],
+ "bj|Bembèrèkè, Borgou": [
+  {
+   "lat": 10.25396,
+   "level": "admin2",
+   "lon": 2.75074,
+   "name": "Bembèrèkè, Borgou, Bénin"
+  },
+  {
+   "lat": 10.22422,
+   "level": "town",
+   "lon": 2.66751,
+   "name": "Bembèrèkè, Borgou, Bénin"
+  }
+ ],
+ "bj|Bohicon, Zou": [
+  {
+   "lat": 7.18163,
+   "level": "town",
+   "lon": 2.06957,
+   "name": "Bohicon, Zou, Bénin"
+  }
+ ],
+ "bj|Boukombé, Atacora": [
+  {
+   "lat": 10.18322,
+   "level": "town",
+   "lon": 1.10005,
+   "name": "Boukombé, Atakora, Bénin"
+  },
+  {
+   "lat": 10.2372,
+   "level": "admin2",
+   "lon": 1.09683,
+   "name": "Boukombé, Atakora, Bénin"
+  }
+ ],
+ "bj|Copargo, Donga": [
+  {
+   "lat": 9.88179,
+   "level": "admin2",
+   "lon": 1.54463,
+   "name": "Copargo, Donga, Bénin"
+  },
+  {
+   "lat": 9.83954,
+   "level": "town",
+   "lon": 1.54675,
+   "name": "Copargo, Donga, Bénin"
+  }
+ ],
  "bj|Djohounkollé": [],
  "bj|Djohounkollé, Plateau": [],
  "bj|Djohounkollé, Sakété, Plateau": [],
+ "bj|Djougou, Donga": [
+  {
+   "lat": 9.71067,
+   "level": "town",
+   "lon": 1.66516,
+   "name": "Djougou, Donga, Bénin"
+  },
+  {
+   "lat": 9.70231,
+   "level": "admin2",
+   "lon": 1.79835,
+   "name": "Djougou, Donga, Bénin"
+  },
+  {
+   "lat": 9.71244,
+   "level": "village",
+   "lon": 1.94903,
+   "name": "Donga, Djougou, Donga, Bénin"
+  }
+ ],
+ "bj|Gogounou, Alibori": [
+  {
+   "lat": 10.85227,
+   "level": "admin2",
+   "lon": 2.72909,
+   "name": "Gogounou, Alibori, Bénin"
+  },
+  {
+   "lat": 10.83935,
+   "level": "town",
+   "lon": 2.83505,
+   "name": "Gogounou, Alibori, Bénin"
+  },
+  {
+   "lat": 10.71207,
+   "level": "river",
+   "lon": 2.46942,
+   "name": "Alibori, Gogounou, Alibori, Bénin"
+  }
+ ],
  "bj|Ifangni": [
   {
    "lat": 6.6806,
@@ -89,6 +193,34 @@
  "bj|Itassoumba": [],
  "bj|Itassoumba, Ifangni, Plateau": [],
  "bj|Itassoumba, Plateau": [],
+ "bj|Kandi": [
+  {
+   "lat": 11.1311,
+   "level": "town",
+   "lon": 2.93223,
+   "name": "Kandi, Alibori, Bénin"
+  },
+  {
+   "lat": 11.28498,
+   "level": "admin2",
+   "lon": 3.04642,
+   "name": "Kandi, Alibori, Bénin"
+  }
+ ],
+ "bj|Kandi, Alibori": [
+  {
+   "lat": 11.1311,
+   "level": "town",
+   "lon": 2.93223,
+   "name": "Kandi, Alibori, Bénin"
+  },
+  {
+   "lat": 11.28498,
+   "level": "admin2",
+   "lon": 3.04642,
+   "name": "Kandi, Alibori, Bénin"
+  }
+ ],
  "bj|Ko-Koumolou, Ifangni, Plateau": [],
  "bj|Ko-Koumolou, Plateau": [
   {
@@ -96,6 +228,36 @@
    "level": "village",
    "lon": 2.67655,
    "name": "Ko-Koumolou, Sakété, Plateau, Bénin"
+  }
+ ],
+ "bj|Malanville": [
+  {
+   "lat": 11.86181,
+   "level": "town",
+   "lon": 3.3863,
+   "name": "Malanville, Alibori, Bénin"
+  }
+ ],
+ "bj|N'Dali": [
+  {
+   "lat": 9.86229,
+   "level": "town",
+   "lon": 2.71913,
+   "name": "N'Dali, Borgou, Bénin"
+  },
+  {
+   "lat": 9.68833,
+   "level": "admin2",
+   "lon": 2.46336,
+   "name": "N'Dali, Borgou, Bénin"
+  }
+ ],
+ "bj|Parakou": [
+  {
+   "lat": 9.34002,
+   "level": "town",
+   "lon": 2.62783,
+   "name": "Parakou, Borgou, Bénin"
   }
  ],
  "bj|Plateau": [
@@ -118,6 +280,38 @@
    "level": "admin2",
    "lon": 2.67655,
    "name": "Sakété, Plateau, Bénin"
+  }
+ ],
+ "ga|Lambaréné, Moyen-Ogooué": [
+  {
+   "lat": -0.69426,
+   "level": "town",
+   "lon": 10.22365,
+   "name": "Lambaréné, Ogooue Et Lacs, Moyen-Ogooué, Gabon"
+  }
+ ],
+ "ga|Moyen-Ogooué": [
+  {
+   "lat": -0.50035,
+   "level": "admin1",
+   "lon": 10.49911,
+   "name": "Moyen-Ogooué, Gabon"
+  }
+ ],
+ "ga|Zilé": [
+  {
+   "lat": -0.67042,
+   "level": "lake",
+   "lon": 10.27796,
+   "name": "Lac Zilé, Etougué, Ogooue Et Lacs, Moyen-Ogooué, Gabon"
+  }
+ ],
+ "ga|Zilé, Moyen-Ogooué": [
+  {
+   "lat": -0.67042,
+   "level": "lake",
+   "lon": 10.27796,
+   "name": "Lac Zilé, Etougué, Ogooue Et Lacs, Moyen-Ogooué, Gabon"
   }
  ],
  "gh|Ashanti": [

@@ -1,0 +1,20 @@
+study_id: 2026_Kpanou_One_Vector_Two_Faces_Pyrethroid_DOI_10_4236_abb_2026_179027
+title: 'One Vector, Two Faces: Pyrethroid Resistance and Susceptibility to New-Generation
+  Insecticides in Anopheles gambiae s.l. from Northern Benin'
+first_author: Casimir Dossou Kpanou
+doi: 10.4236/abb.2026.179027
+pmid: null
+publication_year: 2026
+countries:
+- Benin
+data_source: publication
+provenance:
+  source_text: 'One Vector, Two Faces: Pyrethroid Resistance and Susceptibility to
+    New-Generation Insecticides in Anopheles gambiae s.l. from Northern Benin'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-16'

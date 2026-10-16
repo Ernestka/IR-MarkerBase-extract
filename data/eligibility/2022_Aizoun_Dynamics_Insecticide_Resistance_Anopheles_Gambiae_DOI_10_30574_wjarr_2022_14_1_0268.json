@@ -1,0 +1,67 @@
+{
+  "id": "2022_Aizoun_Dynamics_Insecticide_Resistance_Anopheles_Gambiae_DOI_10_30574_wjarr_2022_14_1_0268",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study sampled Anopheles gambiae sensu lato larvae and identified them by PCR as 100% Anopheles gambiae s.s. (page 4, section 3.2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR for the detection of the kdr Leu-phe (L1014F) mutation was performed (page 3, section 2.4; page 5, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts and allele frequency for Bohicon in 2015: Number tested = 25, RR = 20, RS = 5, SS = 0, F(Kdr) = 0.90 (page 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae and pupae of Anopheles gambiae s.l. were collected from field breeding sites in Bohicon district, Zou department, Benin in 2015 and reared to adulthood (page 2, section 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field collection, bioassay, and PCR genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Bohicon district in Zou department, Benin (page 2, section 2.1-2.2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Genotyping was conducted specifically on mosquitoes collected from the April to June 2015 collection period (page 2, section 2.2; page 3, section 2.4; page 5, Table 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper describes original field collections undertaken in Bohicon in 2015 and 2020 without reference to secondary datasets or large consortia."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype and bioassay results are reported within the main text and tables (Table 1 and Table 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 25,
+    "summary": "This study evaluated susceptibility and L1014F (L995F) kdr frequencies in Anopheles gambiae s.s. from Bohicon, Benin. Field larvae collected in 2015 were bioassayed against permethrin and DDT, and 25 bioassay survivors were genotyped for L1014F, yielding 20 RR and 5 RS individuals.",
+    "exclusion_reasons": []
+  }
+}

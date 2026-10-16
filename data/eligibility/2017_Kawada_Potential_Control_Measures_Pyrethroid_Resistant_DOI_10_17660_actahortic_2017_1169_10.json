@@ -1,0 +1,73 @@
+{
+  "id": "2017_Kawada_Potential_Control_Measures_Pyrethroid_Resistant_DOI_10_17660_actahortic_2017_1169_10",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s., Anopheles arabiensis, and Anopheles funestus (e.g. Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mentions kdr mutation Vgsc L1014S (L995S) in An. gambiae s.s. (e.g. page 3, page 4, Figure 5 caption)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper only mentions anecdotally on page 4 and Figure 5 that a wild population 'has developed > 90% homozygous L1014S point mutation', but gives no genotype counts (RR/RS/SS), allele counts, or sample size (N) of mosquitoes genotyped."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Discusses mosquitoes collected in Kenya (e.g., western Kenya, Mbita) and Tanzania (Bagamoyo) (pages 3-5)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review/perspective article summarizing previously published trials and unpublished observations on pyrethroid repellency, LLINs, and house screening (pages 1-6)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions specific sites such as Nyandago village, Mbita Division, Suba district, Kenya (page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mentions specific trial years such as 2010-2011 (page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper is a synthesis/review of data from previously published papers by the author, including Kawada et al. 2008, 2011a, 2011b, 2012b, 2014a, and 2014b."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary materials are referenced that would provide extractable genotype tables."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya",
+      "Tanzania"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a review/synthesis examining behavioral effects, repellency, and control measures (LLINs, screening, metofluthrin strips) against pyrethroid-resistant Anopheles populations in Africa. While it mentions the L1014S kdr mutation in western Kenya, it does not present primary extractable genotype counts or frequencies with sample sizes.",
+    "exclusion_reasons": [
+      "Not a primary study (review/perspective article reviewing prior published studies)",
+      "Lacks extractable marker genotype data (no counts or frequencies with denominator/sample size reported)"
+    ]
+  }
+}

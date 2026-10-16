@@ -1,0 +1,65 @@
+{
+  "id": "2025_Minwuyelet_Evaluating_Insecticide_Susceptibility_Major_Africa_DOI_10_3389_fmala_2025_1478249",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates Anopheles gambiae sensu lato and Anopheles funestus across Africa (page 11, 'This meta-analysis and systematic review includes published articles on the susceptibility status of An.gambae s.l and An.funestus to insecticides used to control malaria in Africa')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No resistance markers were genotyped in this study; L1014F and L1014S are only mentioned in the text of the discussion (pages 22-23) citing previous literature."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any genotype or allele counts, frequencies, or sample sizes genotyped for resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The review analyzes pooled data from field-collected Anopheles populations across multiple African countries (page 11, Section 3.2)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly a secondary study: 'Susceptibility Status of Principal Malaria Vectors to Insecticides Commonly Used for Malaria Control in Africa: Meta-analysis and Systemic review' (title, page 1; abstract, page 3)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Results are pooled at continental and regional levels (West Africa, Central Africa, East Africa, South Africa) rather than specific sub-country sites."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The meta-analysis aggregates data across nearly two decades (2002–2021) with pooled time categories spanning 4–5 years (page 16, page 59)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper compiles and re-analyzes data from 50 previously published studies (page 11, Section 3.1)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "None. The manuscript itself is ineligible as a systematic review/meta-analysis lacking primary marker data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a systematic review and meta-analysis summarizing WHO susceptibility bioassay and knockdown time data for Anopheles gambiae s.l. and Anopheles funestus across Africa published between 2002 and 2021. It is not a primary study and contains no empirical resistance marker genotype data.",
+    "exclusion_reasons": [
+      "Study is a systematic review / meta-analysis rather than a primary empirical study.",
+      "No target resistance markers were genotyped.",
+      "No extractable genotype or allele frequency data are reported."
+    ]
+  }
+}
