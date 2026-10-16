@@ -1,0 +1,63 @@
+{
+  "id": "2010_Rivero_Insecticide_Control_Vector_Borne_Diseases_PMID20700451",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review discusses Anopheles sp. malaria vectors alongside other disease vectors (e.g., Table 1, page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions resistance mechanisms broadly (such as kdr, AChE, GST) in literature overview and conceptual discussion, but does not assay or report specific target resistance markers with empirical data."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies with sample sizes are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "This is a theoretical review paper and does not collect or test field-caught African mosquito populations."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly labeled as a 'Review' (page 1) reviewing literature and presenting epidemiological modeling concepts."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No mosquito collection sites are sampled or reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito sampling collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; the article is a review."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Appendix S1 contains mathematical model details, not primary field genotype data."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article assessing the potential impact of insecticide resistance mechanisms on vector longevity, competence, and behavior, and their combined effect on basic reproductive ratio (R0). It does not present any primary field mosquito collections or genotype data.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_target_markers",
+      "no_extractable_genotypes",
+      "no_african_field_population"
+    ]
+  }
+}

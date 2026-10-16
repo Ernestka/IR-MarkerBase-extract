@@ -1,0 +1,91 @@
+{
+  "id": "2008_Sogoba_Spatial_Distribution_Chromosomal_Forms_Anopheles_PMID18847463",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae sensu stricto chromosomal forms across Mali (page 1, Abstract; page 2, 'In Mali, the An. gambiae complex is composed of An. arabiensis, and An. gambiae s.s')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper maps chromosomal inversion forms (Mopti, Bamako, Savanna) using cytogenetic karyotyping. While kdr is discussed in the background and discussion citing prior literature (Fanello et al. 2003, ref [19]), no target resistance markers (e.g. Vgsc, Ace-1, Rdl, GSTe2, etc.) were genotyped in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies for any target insecticide resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 79 rural field sites across eco-climatic zones of Mali between 1981 and 2004 (page 2, 'Vector data')."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a geostatistical modeling and mapping analysis compiling published and unpublished chromosomal data from past surveys between 1981 and 2004 (page 2, 'Vector data')."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquito data were tied to 71 specific aggregated locations across Mali (page 3, 'separating some collection sites, data were aggregated resulting in a set of 71 locations'; Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Surveys were pooled from a 23-year period: 'cross-sectional and longitudinal surveys carried out between 1981 and 2004' (page 2, 'Vector data')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "Vector data were collated from historical surveys including published data (e.g. Touré et al. 1998, ref [15]) from the Malaria Research and Training Centre (MRTC) between 1981 and 2004 (page 2, 'Vector data')."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional file 1 contains details of the geostatistical multinomial regression model, not resistance marker genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Mali"
+    ],
+    "collection_years": [
+      1981,
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
+      1987,
+      1988,
+      1989,
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 26328,
+    "summary": "This study uses Bayesian geostatistical modelling to map the distribution of cytogenetically identified chromosomal forms of Anopheles gambiae s.s. (Mopti, Bamako, Savanna) across Mali using historical survey data from 1981 to 2004. No target insecticide resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "Does not report any target resistance markers (studies chromosomal inversion forms only).",
+      "Does not report extractable insecticide resistance genotype data.",
+      "Re-analysis and spatial modeling of previously collated historical survey data spanning >3 years (1981-2004)."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2011_Bai_Large_Scale_RNAi_Screen_G_PMID21806814",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study was conducted on the red flour beetle, Tribolium castaneum (strain GA-1), to investigate the function of G protein-coupled receptors via RNA interference (e.g., Title, Abstract, and Methods section 'Beetle rearing and staging'). Anopheles gambiae is only mentioned in the introduction and discussion as background context."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance target markers were genotyped; the study is a functional genomic RNAi screen of GPCRs in Tribolium castaneum."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No marker genotype frequencies or counts are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No African field populations of mosquitoes were used; the study used laboratory strain GA-1 of Tribolium castaneum."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article detailing an empirical RNAi screen in beetles."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable; no field mosquito populations were studied."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable; no field mosquito collections were performed."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study does not utilize mosquito datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not involve target marker data in mosquitoes; supplementary files contain Tribolium GPCR alignments and screening mortality tables."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is an RNAi screen of G protein-coupled receptors in the red flour beetle Tribolium castaneum to identify potential pesticide targets. It does not evaluate Anopheles mosquitoes or genotype any insecticide resistance markers.",
+    "exclusion_reasons": [
+      "Studies Tribolium castaneum, not Anopheles mosquitoes.",
+      "Does not genotype any insecticide-resistance target markers.",
+      "No extractable genotype data reported.",
+      "No African field-collected mosquito populations tested."
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2017_Gabriel_Kuniyoshi_Mathematical_Modelling_Vector_Borne_Diseases_PMID28694821",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study is a theoretical mathematical modelling paper focusing primarily on arboviral disease vectors (Aedes aegypti), with Anopheles mentioned only as background/literature discussion (e.g. pages 2, 11)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No empirical genotyping of any insecticide resistance target markers was performed; the paper uses abstract alleles (A and a) in ordinary differential equation simulations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No real mosquito genotype or allele count data are reported; all frequencies and numbers represent simulated model parameters."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field-collected mosquitoes were sampled or tested."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a theoretical mathematical modelling and numerical simulation study, not an empirical primary study of mosquito populations."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No sampling sites exist as no field specimens were collected."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates exist as no field mosquitoes were collected."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; theoretical modeling study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; study is fundamentally ineligible."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article describes a deterministic compartmental mathematical model (SIRSI) incorporating vector population genetics (dominant and recessive resistance alleles) to simulate vector-borne arboviral epidemics. It does not collect or genotype real Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "not_anopheles",
+      "no_target_markers",
+      "no_extractable_genotype_data",
+      "no_african_field_population",
+      "not_primary_study_pure_modelling"
+    ]
+  }
+}

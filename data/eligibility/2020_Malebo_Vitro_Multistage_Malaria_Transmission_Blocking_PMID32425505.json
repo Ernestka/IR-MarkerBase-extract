@@ -1,0 +1,63 @@
+{
+  "id": "2020_Malebo_Vitro_Multistage_Malaria_Transmission_Blocking_PMID32425505",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the antiplasmodial activity of MMV Malaria Box compounds against Plasmodium falciparum and Plasmodium berghei. Anopheles stephensi is mentioned only as a laboratory colony used to maintain the rodent malaria parasite (page 1598)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance markers are investigated or genotyped in the paper."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field-collected African mosquito populations were studied; the work evaluated in vitro compound activity against parasite cultures and rodent malaria."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article testing compounds against Plasmodium stages."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No mosquito field collection sites are present."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito field collection dates exist."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No mosquito collection data are involved."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study does not evaluate mosquito insecticide resistance markers; no relevant supplementary data are needed."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the in vitro transmission-blocking and antiplasmodial activity of eight compounds from the MMV Malaria Box against asexual and sexual stages of Plasmodium falciparum and Plasmodium berghei. It does not examine mosquito insecticide resistance or genotype any vector resistance markers.",
+    "exclusion_reasons": [
+      "not_anopheles_focused",
+      "no_target_markers",
+      "no_extractable_genotype_data",
+      "not_african_field_population"
+    ]
+  }
+}

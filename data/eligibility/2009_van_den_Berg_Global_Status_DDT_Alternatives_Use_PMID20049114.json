@@ -1,0 +1,70 @@
+{
+  "id": "2009_van_den_Berg_Global_Status_DDT_Alternatives_Use_PMID20049114",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Discusses malaria vectors belonging to the genus Anopheles (e.g., Anopheles gambiae s.s., Anopheles arabiensis, Anopheles funestus; pages 1656, 1659)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr generally in the context of pyrethroid and DDT cross-resistance (page 1658) but does not genotype any specific target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele frequencies, or mosquito sample sizes are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field-caught mosquito populations were collected or tested for this paper; it is a review based on secondary literature."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly a review ('Review', page 1656: 'In this review, I present the current situation regarding the use of DDT for vector control...')."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary mosquito sampling was performed."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary mosquito sampling was performed."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary materials containing primary genotype data are referenced or required."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles culicifacies",
+      "Anopheles sinensis",
+      "Anopheles epiroticus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a global review summarizing the production, usage, costs, environmental/health impacts, and resistance challenges associated with DDT and its alternatives for disease vector control. Because it is a review and does not present primary insecticide resistance marker genotyping data, it is not eligible.",
+    "exclusion_reasons": [
+      "is_primary_study: The article is a review rather than a primary empirical study.",
+      "reports_target_markers: No specific target resistance markers were assayed or genotyped.",
+      "reports_extractable_genotype_data: No extractable genotype or allele counts/frequencies are reported.",
+      "african_field_population: No field mosquito populations were sampled or tested."
+    ]
+  }
+}

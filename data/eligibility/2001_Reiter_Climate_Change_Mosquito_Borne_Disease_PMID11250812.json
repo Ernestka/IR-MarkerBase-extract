@@ -1,0 +1,63 @@
+{
+  "id": "2001_Reiter_Climate_Change_Mosquito_Borne_Disease_PMID11250812",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 141: 'This review explores the validity of both assumptions by examining the history of three mosquito-borne diseases—malaria, yellow fever, and dengue—in the context of past climates...'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a review article on climate change and vector-borne diseases; it does not genotype or report frequencies for any target insecticide resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or marker frequencies are reported in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper discusses historical malaria literature and epidemiology across various global regions, but presents no primary field collection or genotyping of African mosquito populations."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "Page 141: 'This review explores the validity of both assumptions by examining the history of three mosquito-borne diseases...'"
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as this is a literature review without primary field sampling."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as this is a literature review without primary field sampling."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "None; this is a broad narrative review."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data required."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a comprehensive review evaluating the historical impact of climate change on mosquito-borne diseases (malaria, yellow fever, and dengue). It does not contain primary empirical research or genotyping data for insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "Not a primary study (review article)",
+      "Does not report target insecticide resistance markers",
+      "No extractable genotype data",
+      "No primary African field population sampling"
+    ]
+  }
+}

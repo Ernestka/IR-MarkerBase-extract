@@ -1,0 +1,65 @@
+{
+  "id": "2006_Adams_Abstracts_Fifth_International_Symposium_Molecular_PMC2990333",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Several abstracts discuss Anopheles gambiae (e.g. pages 4, 8, 15, 28, 35, 50)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "None of the abstracts report genotyping data for the target insecticide resistance markers (such as Vgsc L995F/S or Ace-1 G280S) in mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts, allele counts, or genotype frequencies are provided for target markers."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No extractable marker genotype data from African field populations of Anopheles is reported."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This document is a collection of symposium abstracts from The Fifth International Symposium on Molecular Insect Science (2006)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No specific sub-country collection site is associated with extractable marker genotype data."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates are associated with target marker genotype data."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as the paper is not eligible."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable as the paper is not eligible."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This document is a published collection of conference abstracts from The Fifth International Symposium on Molecular Insect Science (May 2006). It does not present primary empirical genotype frequency data for target insecticide resistance markers in African Anopheles field populations.",
+    "exclusion_reasons": [
+      "Does not report target resistance marker genotypes",
+      "Does not report extractable genotype data",
+      "Does not evaluate African field populations for target marker frequencies",
+      "Not a primary empirical study (collection of conference abstracts)"
+    ]
+  }
+}

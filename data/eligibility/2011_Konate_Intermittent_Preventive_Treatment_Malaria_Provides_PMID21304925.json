@@ -1,0 +1,66 @@
+{
+  "id": "2011_Konate_Intermittent_Preventive_Treatment_Malaria_Provides_PMID21304925",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study is a clinical trial conducted in human children evaluating intermittent preventive treatment of malaria (IPTc). Local Anopheles vectors (Anopheles gambiae s.s., An. arabiensis, An. funestus) are mentioned only as background context, and vector studies are relegated to an external supplementary file (Text S7)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No Anopheles target resistance markers are genotyped in the main text. The paper only examines Plasmodium falciparum drug-resistance markers (dhfr, dhps, pfcrt, pfmdr1). A passing mention states 'some kdr-mediated resistance to pyrethroids was found (Text S7)' without naming or reporting the specific marker data in the paper."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype counts, allele frequencies, or mosquito sample sizes for insecticide-resistance markers are provided."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field-caught Anopheles mosquito data or sample sizes are reported in the main text."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary randomized, double-blind, placebo-controlled clinical trial conducted in Burkina Faso in 2008."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Study carried out in four villages (Laye, Niou, Sao, and Toeghin) in Boussé health district, Kourweogo province, Burkina Faso (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Conducted during the 2008 malaria transmission season (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary clinical trial conducted in 2008 with no overlap with mosquito surveillance consortium datasets."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Text S7 ('Text S7 Entomological investigations. Reports on malaria transmission intensity estimation, bioassays, vector resistance to insecticide, and concentration of insecticide on LLINs') is cited on pages 11 and 12 for bioassay and kdr data but is not included in the provided document."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is a randomized, double-blind, placebo-controlled trial evaluating the efficacy of intermittent preventive treatment in children (IPTc) with sulphadoxine-pyrimethamine plus amodiaquine in children using LLINs in Burkina Faso. It genotypes Plasmodium falciparum drug resistance markers, not mosquito insecticide resistance markers. Entomological bioassays and kdr resistance are mentioned only as residing in an unattached supplementary file (Text S7).",
+    "exclusion_reasons": [
+      "The paper is a clinical trial in humans and does not study Anopheles mosquitoes in the main text",
+      "No target insecticide resistance markers in Anopheles are reported",
+      "No extractable mosquito genotype data are provided"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2007_Wang-Sattler_Mosaic_Genome_Architecture_Anopheles_Gambiae_PMID18043756",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates 414 field-collected mosquitoes belonging to the Anopheles gambiae species complex (An. gambiae s.s., An. arabiensis, An. merus, and An. melas) (page 1, Abstract and page 2, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study tests 42 neutral microsatellite markers across the genome to examine phylogenetic relationships and population structure (Figure 1 and Table 4). The kdr gene is mentioned only in the text as background context from previous literature; no insecticide resistance target markers were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype or allele frequency data are reported for any target insecticide resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Burkina Faso (Goundry), Mali (Selenkenyi, Soulouba, Kokouna), Kenya (Kilifi), and Senegal between 1996 and 1998 (page 2, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study generating and analyzing novel and compiled microsatellite genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites are documented: Goundry (Burkina Faso), Selenkenyi, Soulouba, Kokouna (Mali), and Kilifi (Kenya) (page 2, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between 1996 and 1998, with year specified per population (Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field samples were collected during 1996-1998, some of which may have been used in previous microsatellite studies by the authors (e.g. Wang et al., 2001 [21]), but no target resistance markers are evaluated."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary tables and figures contain microsatellite marker details and raw microsatellite allele lengths, none of which pertain to target resistance markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles merus",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Mali",
+      "Kenya",
+      "Senegal"
+    ],
+    "collection_years": [
+      1996,
+      1997,
+      1998
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 414,
+    "summary": "This study analyzes 42 microsatellite markers in 414 mosquitoes from Burkina Faso, Mali, Kenya, and Senegal to reconstruct the phylogenetic relationships and investigate genome mosaicism in the Anopheles gambiae complex. No target insecticide resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers genotyped (studies microsatellite loci only)."
+    ]
+  }
+}

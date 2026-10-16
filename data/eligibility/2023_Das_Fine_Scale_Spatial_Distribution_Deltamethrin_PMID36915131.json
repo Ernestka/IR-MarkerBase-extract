@@ -1,0 +1,69 @@
+{
+  "id": "2023_Das_Fine_Scale_Spatial_Distribution_Deltamethrin_PMID36915131",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles funestus s.s. and Anopheles arabiensis collected in southern Mozambique (page 1, Abstract; page 3, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR assays tested An. gambiae s.l. for Vgsc L1014F (L995F) and L1014S (L995S) and An. funestus for Cyp6p9a RFLP (Cyp6p9a R) (page 4, 'Insecticide resistance molecular detection')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 7, 'Molecular resistance': 'Of the 164 An. arabiensis that were tested for the 1014 locus of the kdr gene that confers pyrethroid resistance, 162 (98.8%) were homozygous susceptible and 2 (1.2%) did not amplify... Of the 420 An. funestus s.s. mosquitoes, 408 had enough DNA extract available for the CYP6P9a gene detection PCR for pyrethroid resistance. 401 (98.3%) were homozygous resistant, one was heterozygous resistant (0.2%), two were homozygous susceptible (0.5%), and four (1.0%) did not amplify.'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as adults inside houses in 11 towns across Maputo and Gaza provinces in southern Mozambique between March and May 2016 (page 3, 'Mosquito collection')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper reporting field collections, CDC bottle bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "11 towns across Manhiça, Magude, and Bilene districts: Bobole, Buna, Chobela, Ilha Josina, Macia, Magude (Mulelemani), Maragra, Palmeira (and 8 specific bairros within Palmeira), Punguene, Ribangua, and 3 de Fevereiro (page 3, Fig. 1 and text)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from March 9 to May 4, 2016 (page 3, 'Mosquito collection')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field collections were conducted specifically for this study by the authors in collaboration with CISM in 2016, with no mention of re-used external genomic datasets."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Bioassay data per locality (counts, sample sizes, and mortalities) are in Additional file 1: Tables S1, S2, and S3: '30-min mortality rates at 1x diagnostic dose ranging from 3.9% (Buna) to 88.8% (Ilha Josina) (Additional file 1: Table S1, Fig. 3A)' (page 6)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Cyp6p9a R"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Mozambique"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 572,
+    "summary": "This study evaluated deltamethrin susceptibility via CDC bottle bioassays and genotyped Vgsc L1014F/S in An. arabiensis (n=164, 162 SS, 2 failed) and Cyp6p9a R via RFLP in An. funestus s.s. (n=408, 401 RR, 1 RS, 2 SS, 4 failed) collected from 11 towns in southern Mozambique in 2016.",
+    "exclusion_reasons": []
+  }
+}

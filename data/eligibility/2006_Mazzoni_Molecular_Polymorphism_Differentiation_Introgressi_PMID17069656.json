@@ -1,0 +1,63 @@
+{
+  "id": "2006_Mazzoni_Molecular_Polymorphism_Differentiation_Introgressi_PMID17069656",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-16",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study investigates sand fly species Lutzomyia intermedia and Lutzomyia whitmani (Diptera: Psychodidae), not Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study analyzes sequence variation in the circadian clock gene period (per) and does not genotype any of the target insecticide resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies for target insecticide resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Sand flies were collected in Eastern Brazil (Posse, Jacarepaguá, Afonso Claudio, Corte de Pedra, and Ilhéus), not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting empirical molecular data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected at specific sub-country sites in Brazil including Posse (Petrópolis, Rio de Janeiro), Jacarepaguá, Afonso Claudio, Corte de Pedra, and Ilhéus."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Sampling years for the field collections are not explicitly stated."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; study is ineligible."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed as the study is ineligible."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper evaluates molecular polymorphism and introgression in the period gene between two Brazilian sand fly species, Lutzomyia intermedia and Lutzomyia whitmani. It is ineligible because it does not study Anopheles mosquitoes, does not evaluate target insecticide resistance markers, and collects samples from South America rather than Africa.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (studies Lutzomyia sand flies).",
+      "Does not report target insecticide-resistance markers (analyzes period gene).",
+      "Does not report extractable target marker genotype data.",
+      "Mosquito/vector populations are not from an African country (collected in Brazil)."
+    ]
+  }
+}
