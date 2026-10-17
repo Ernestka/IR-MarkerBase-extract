@@ -1,0 +1,9 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2010_Ahoua_Alou_toumbokro_2004_m,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,36,0,24,12,,,0.333,,"Table 2: Toumbokro M Form: S=12, RS=24, R=0, F(G119S)%=33.3",5,Table 2,,
+2010_Ahoua_Alou_toumbokro_2004_s,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,26,0,18,8,,,0.346,,"Table 2: Toumbokro S Form: S=8, RS=18, R=0, F(G119S)%=34.6",5,Table 2,,
+2010_Ahoua_Alou_yamoussoukro_2004_m,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,31,0,24,7,,,0.387,,"Table 2: Yamoussoukro M Form: S=7, RS=24, R=0, F(G119S)%=38.7",5,Table 2,,
+2010_Ahoua_Alou_toumodi_2004_m,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,75,0,28,47,,,0.186,,"Table 2: Toumodi M Form: S=47, RS=28, R=0, F(G119S)%=18.6",5,Table 2,,
+2010_Ahoua_Alou_toumodi_2004_s,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,1,0,1,0,,,0.5,,"Table 2: Toumodi S Form: S=0, RS=1, R=0, F(G119S)%=50.0",5,Table 2,,
+2010_Ahoua_Alou_tiassale_2004_m,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,82,0,82,0,,,0.5,,"Table 2: Tiassalé M Form: S=0, RS=82, R=0, F(G119S)%=50.0",5,Table 2,,
+2010_Ahoua_Alou_nieky_2004_m,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,30,0,7,23,,,0.117,,"Table 2: Nieky M Form: S=23, RS=7, R=0, F(G119S)%=11.7",5,Table 2,,
+2010_Ahoua_Alou_abidjan_2004_m,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,47,0,21,26,,,0.223,,"Table 2: Abidjan M Form: S=26, RS=21, R=0, F(G119S)%=22.3",5,Table 2,,

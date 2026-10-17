@@ -1,0 +1,72 @@
+{
+  "id": "2008_Caputo_Anopheles_Gambiae_Complex_Along_Gambia_PMID18803885",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (including An. gambiae M and S forms, An. arabiensis, and An. melas) collected along the River Gambia (pages 1-6)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only performs molecular species and M/S form identification using PCR-RFLP of rDNA, and ELISA blood-meal analyses; no insecticide resistance markers (such as Vgsc, Ace-1, Rdl, etc.) are genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No insecticide resistance marker genotype or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected adult females from various sites along the Gambia River in The Gambia and eastern Senegal during 2005 and 2006 (pages 3-6, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field study reporting mosquito collections, species/form identification, and blood meal analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific villages with GPS coordinates are provided in Table 1 (e.g., Kartong 13°05'N, 16°45'W; Mandinaba 13°17'N, 16°35'W)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections were conducted during October-November 2005 and August-October 2006 (pages 2-4, Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Standard primary entomological survey conducted by MRC Laboratories and Sapienza University."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional files 1 and 2 only contain monthly rainfall data and landscape analysis, neither of which includes insecticide resistance marker data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Gambia",
+      "Senegal"
+    ],
+    "collection_years": [
+      2005,
+      2006
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 4079,
+    "summary": "This study examined the geographic and seasonal distribution of the Anopheles gambiae complex and the M and S molecular forms along a 400 km west-to-east transect following the River Gambia in The Gambia and eastern Senegal in 2005 and 2006. It investigated species/form composition, M/S hybridization rates, and human blood indices, but did not genotype any insecticide resistance markers or conduct bioassays.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

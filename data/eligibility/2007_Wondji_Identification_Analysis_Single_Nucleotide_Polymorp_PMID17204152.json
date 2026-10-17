@@ -1,0 +1,65 @@
+{
+  "id": "2007_Wondji_Identification_Analysis_Single_Nucleotide_Polymorp_PMID17204152",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles funestus, described as 'one of the major malaria vectors in Africa' (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper performs genome-wide SNP discovery across 50 nuclear genes in Anopheles funestus, but does not genotype or report any of the specified target insecticide resistance markers (such as GSTe2 L119F, Cyp6p9a_R, Cyp6p9b_R, or Ace-1 N485I)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies for target resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field specimens of An. funestus were collected from Kela village in Chikwawa district in southern Malawi (Page 8, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting original SNP identification and sequencing in An. funestus."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Kela village in Chikwawa district, southern Malawi (Page 8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact collection year for the field samples from Malawi is not specified in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine small-scale specimen collection (7 field mosquitoes and laboratory strains) for gene sequencing and SNP discovery."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary materials are not required as the paper does not examine target resistance markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Malawi"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 21,
+    "summary": "This study identifies 494 SNPs across 50 nuclear genes in Anopheles funestus by sequencing 21 specimens (7 field-caught mosquitoes from Malawi, 7 FUMOZ-R, and 7 FANG laboratory strain individuals). Although it evaluates genetic diversity and maps gene positions, it does not target or report genotype data for any defined target insecticide resistance markers.",
+    "exclusion_reasons": [
+      "Does not report any target resistance markers (e.g. GSTe2 L119F, Cyp6p9a_R, Cyp6p9b_R, Ace-1 G280S/N485I).",
+      "Does not report extractable genotype or allele frequency data for target resistance markers."
+    ]
+  }
+}

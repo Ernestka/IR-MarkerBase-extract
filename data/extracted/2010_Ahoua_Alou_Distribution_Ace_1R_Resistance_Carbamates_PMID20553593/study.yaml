@@ -1,0 +1,22 @@
+study_id: 2010_Ahoua_Alou_Distribution_Ace_1R_Resistance_Carbamates_PMID20553593
+title: Distribution of ace-1R and resistance to carbamates and organophosphates in
+  Anopheles gambiae s.s. populations from Côte d'Ivoire
+first_author: Ludovic P Ahoua Alou
+doi: 10.1186/1475-2875-9-167
+pmid: '20553593'
+publication_year: 2010
+countries:
+- Côte d'Ivoire
+data_source: journal_article
+provenance:
+  source_text: Distribution of ace-1R and resistance to carbamates and organophosphates
+    in Anopheles gambiae s.s. populations from Côte d'Ivoire. Ahoua Alou et al. Malaria
+    Journal 2010, 9:167
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-17'
+pmid_source: Europe PMC (from DOI)

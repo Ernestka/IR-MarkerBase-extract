@@ -1,0 +1,66 @@
+{
+  "id": "2010_Ahoua_Alou_Distribution_Ace_1R_Resistance_Carbamates_PMID20553593",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies field populations of Anopheles gambiae s.s. (M and S molecular forms) in Côte d'Ivoire (Page 1, Abstract; Page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for the Ace-1 G119S mutation (Ace-1 G280S) by PCR-RFLP using AluI digestion (Page 2, 'DNA diagnostic test for insensitive acetylcholinesterase G119S mutation')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 5) reports exact genotype counts (SS, RS, RR) and allele frequencies of G119S across 6 localities split by M and S molecular forms (total n = 328)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from six localities across Côte d'Ivoire (Toumbokro, Yamoussoukro, Toumodi, Tiassalé, Nieky, Abidjan) in September 2004 and reared to adults (Page 2, 'Mosquito populations and sampling sites')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper reporting original field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Six specific localities with coordinates provided: Toumbokro (7°N; 5°35' W), Yamoussoukro (6°82' N; 5°28' W), Toumodi (6°55' N; 5°03' W), Tiassalé (5°88' N; 4°38' W), Nieky (5°20' N; 4°10' W), and Abidjan (5°33' N; 4°03' W) (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 'September 2004' (Page 1, Abstract; Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard field collection conducted by the authors across Côte d'Ivoire in September 2004."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, bioassay results, and sampling details are presented in the main text and Tables 1 and 2."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2004
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 328,
+    "summary": "This study evaluated susceptibility to carbamates (carbosulfan, propoxur) and organophosphates (chlorpyrifos-methyl, fenitrothion) in Anopheles gambiae s.s. collected in September 2004 across six localities in Côte d'Ivoire. The Ace-1 G119S (G280S) mutation was genotyped in 328 individuals (split into M and S molecular forms), with genotype counts and allelic frequencies reported per site.",
+    "exclusion_reasons": []
+  }
+}

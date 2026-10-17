@@ -1,0 +1,65 @@
+{
+  "id": "2012_Jagannathan_Increasing_Incidence_Malaria_Children_Despite_PMID23273022",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "This is a clinical cohort study in human children (Tororo Child Cohort) evaluating malaria incidence, immunity, and treatment efficacy. The authors state on page 5: 'Although we did not collect detailed information on mosquito species or biting habits...'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No mosquito resistance markers were genotyped in this study. The paper only mentions kdr L1014S in the Discussion (page 5) by citing prior published studies (Ramphul et al. 2009, Verhaeghen et al. 2010)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary mosquito genotype data are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito populations were sampled or genotyped in this study."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary clinical epidemiological cohort study, but not a primary entomological or vector genetics study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The clinical cohort took place in Tororo District, Uganda (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The cohort of children was enrolled between August 2007 and January 2008 and followed for 48 months (until 2011/2012)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No mosquito genotyping was performed."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary mosquito genotype data exist for this clinical cohort study."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a clinical epidemiology cohort study following 100 Ugandan children to assess malaria incidence and asymptomatic parasitemia under LLIN use and ACT treatment. No mosquitoes were collected or genotyped; mention of kdr L1014S in Tororo is purely literature citation.",
+    "exclusion_reasons": [
+      "Studies human malaria patients, not Anopheles mosquitoes",
+      "Does not genotype target insecticide resistance markers",
+      "Does not report extractable mosquito genotype data",
+      "No field-caught mosquito population analyzed"
+    ]
+  }
+}

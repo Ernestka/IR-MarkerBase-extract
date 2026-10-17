@@ -1,0 +1,63 @@
+{
+  "id": "2006_Anyanwu_Health_Effects_Long_Term_Exposure_PMID17173181",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Mentions Anopheles mosquitoes in relation to malaria transmission and ITN use (e.g. page 4: 'to combat Anopheles mosquitoes indoors')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions 'kdr resistance gene' generically in the text (page 8) referencing other literature, but does not assay or report any specific target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data, allele frequencies, or sample sizes are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No mosquito populations were sampled or tested in this paper."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly a review paper ('Review Article', page 1) focusing on human health effects of long-term exposure to insecticide-treated bednets."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary mosquito sampling was conducted."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary mosquito collection was conducted."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a narrative review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; this is a review paper."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article discussing the potential toxicological and health hazards of long-term exposure to insecticide-treated mosquito nets in malaria-endemic regions. It does not contain any primary empirical data or insecticide resistance marker genotyping in Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_target_markers",
+      "no_extractable_genotypes",
+      "no_african_field_mosquitoes"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2007_NoAuthor_Infectious_Disease_Safety_Net_Malaria_PMC1867985",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page A 244, 'Safety Net for Malaria?': discusses 'malaria-carrying Anopheles gambiae mosquitoes in an area of Benin'."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page A 244 only vaguely references 'the kdr gene' without specifying a specific target allele (e.g., Vgsc L995F or L995S) or assay details."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, sample sizes, or allele counts/frequencies with sample sizes are reported; it is a brief popular science news piece."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mentions field studies in Benin and Côte d'Ivoire."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a journalistic news report in the Environews Forum section of Environmental Health Perspectives summarizing a February 2007 study in Emerging Infectious Diseases by Mark Rowland et al."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Mentions only Benin and Côte d'Ivoire generally without specific sub-country sites."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito collection dates or years are provided."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "Directly reports on and cites a study by Mark Rowland et al. in the February 2007 issue of Emerging Infectious Diseases."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data exists for this news brief."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin",
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This document is an Environews Forum news summary reporting on previously published research by Mark Rowland and colleagues on pyrethroid-treated net efficacy and kdr in Benin and Cote d'Ivoire. It contains no primary data or extractable genotype counts.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_extractable_genotypes",
+      "target_marker_not_specified"
+    ]
+  }
+}

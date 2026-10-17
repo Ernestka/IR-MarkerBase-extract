@@ -1,0 +1,67 @@
+{
+  "id": "2013_Gatton_Importance_Mosquito_Behavioural_Adaptations_Malari_PMID23550770",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review focuses on African malaria vectors, predominantly Anopheles gambiae sensu lato and Anopheles funestus (page 1220)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions 'knock-down resistance (kdr)' generally as an example of a single-gene trait (page 1220), but does not test or genotype any specific target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary mosquito genotyping was performed; no genotype or allele counts/frequencies are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "This paper does not sample or test any mosquitoes; it is a review and simulation modeling study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a perspective/review article with mathematical simulation modeling ('We review emerging and historical data on behavioral resistance in response to LLINs and IRS', page 1218)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No empirical mosquito sampling locations are reported in this study."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No empirical mosquito collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; no primary empirical dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper is a narrative review and modeling study."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a review and simulation study assessing the impact of vector behavioral adaptations (such as increased exophagy and altered biting times) on malaria control interventions in Africa. It contains no primary empirical entomological collections or marker genotyping.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_target_markers",
+      "no_extractable_genotypes",
+      "not_field_population"
+    ]
+  }
+}

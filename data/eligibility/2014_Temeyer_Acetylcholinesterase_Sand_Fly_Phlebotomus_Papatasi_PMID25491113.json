@@ -1,0 +1,62 @@
+{
+  "id": "2014_Temeyer_Acetylcholinesterase_Sand_Fly_Phlebotomus_Papatasi_PMID25491113",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the sand fly Phlebotomus papatasi: 'Acetylcholinesterase of the sand fly, Phlebotomus papatasi (Scopoli): construction, expression and biochemical properties of the G119S orthologous mutant' (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study examines the G119S orthologous site in recombinant sand fly AChE1 (PpAChE1), not Anopheles target markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data or allele frequencies for Anopheles populations are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No African field populations of mosquitoes were used. The study used a laboratory colony of Phlebotomus papatasi maintained in Kerrville, Texas (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article investigating recombinant sand fly AChE1 expression and enzyme inhibition kinetics."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field mosquito collection sites."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field mosquito collections."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; not an Anopheles study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; the paper is entirely out of scope."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper investigates the biochemical properties and inhibition kinetics of the G119S orthologous mutant of acetylcholinesterase-1 in the sand fly Phlebotomus papatasi using recombinant baculoviral expression and a laboratory colony. No Anopheles mosquitoes were studied.",
+    "exclusion_reasons": [
+      "Not an Anopheles study (focuses on the sand fly Phlebotomus papatasi)",
+      "Does not report target resistance markers in Anopheles",
+      "Does not study African field populations"
+    ]
+  }
+}

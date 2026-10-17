@@ -1,0 +1,75 @@
+{
+  "id": "2015_Wilson_Urban_Malaria_Understanding_Epidemiology_Ecology_PMID26259941",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles vectors including An. gambiae s.s., An. arabiensis, and An. funestus across ICEMR sites (Table 4, page 118)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance markers are genotyped in this study. The terms 'kdr' and 'ace-1' are only mentioned conceptually as examples in Table 1 ('Types of evidence used to infer whether urban malaria is the result of transmission in an urban setting', page 113)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data, counts, or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The overview discusses field studies in Uganda (Jinja), Malawi (Blantyre), and Senegal (Thiès), as well as sites in Brazil, Colombia, and India (Table 2, page 114)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a perspective/overview report describing the ICEMR network's research approaches, questions, and preliminary high-level findings regarding urban malaria (pages 110-111)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Describes specific urban sites including Jinja City (Uganda), Blantyre (Malawi), and Madina Fall, Thiès (Senegal) (Table 2, page 114)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Lists sample collection periods such as August 2011-present, April 2012-present, etc. (Table 3, page 116)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No extractable empirical genotype data are presented."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files with insecticide resistance genotype data are referenced."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles stephensi",
+      "Anopheles darlingi"
+    ],
+    "countries": [
+      "Uganda",
+      "Malawi",
+      "Senegal",
+      "Brazil",
+      "Colombia",
+      "India"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is an overview and review of the research frameworks, methodologies, and preliminary observations on urban malaria across seven ICEMR network sites globally. It does not perform or report any empirical insecticide-resistance marker genotyping.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_target_markers",
+      "no_extractable_data"
+    ]
+  }
+}

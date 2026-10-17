@@ -13,19 +13,34 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 1756-3305-6-352,master,EXTRACTED,True,high,low,False,1,2026-10-08,2026-10-08,0,,gemini:gemini-3.5-flash,8172,1632,gemini:gemini-3.5-flash,9816,31601,"10 survey(s), 6 genotype, 8 bioassay, 7 geno-pheno rows"
 1756-3305-7-213,master,INELIGIBLE,,,,,1,2026-10-13,2026-10-13,0,,gemini:gemini-3-flash-preview,6552,7985,,,,model returned no structured result — re-run or check by hand
 1756-3305-7-450,master,INELIGIBLE,False,high,high,False,1,2026-10-13,2026-10-13,0,,gemini:gemini-3-flash-preview,9252,3201,,,,
+1998_Brogdon_Insecticide_Resistance_Vector_Control_PMID9866736,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,6372,943,,,,
 2001_Reiter_Climate_Change_Mosquito_Borne_Disease_PMID11250812,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.5-flash,12612,1346,,,,
 2006_Adams_Abstracts_Fifth_International_Symposium_Molecular_PMC2990333,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.5-flash,40692,2008,,,,
+2006_Anyanwu_Health_Effects_Long_Term_Exposure_PMID17173181,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,7412,928,,,,
 2006_Mazzoni_Molecular_Polymorphism_Differentiation_Introgressi_PMID17069656,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.5-flash,7412,1339,,,,
+2007_Djouaka_Quantification_Efficiency_Treatment_Anopheles_Gamb_PMID17488523,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,4812,1029,,,,
+2007_NoAuthor_Infectious_Disease_Safety_Net_Malaria_PMC1867985,master,INELIGIBLE,False,high,high,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,3772,840,,,,
 2007_Wang-Sattler_Mosaic_Genome_Architecture_Anopheles_Gambiae_PMID18043756,master,INELIGIBLE,False,high,low,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,7412,1725,,,,
+2007_Wondji_Identification_Analysis_Single_Nucleotide_Polymorp_PMID17204152,master,INELIGIBLE,False,high,low,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.5-flash,8452,2836,,,,
+2008_Caputo_Anopheles_Gambiae_Complex_Along_Gambia_PMID18803885,master,INELIGIBLE,False,high,low,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.8-flash,10532,1590,,,,
 2008_Sogoba_Spatial_Distribution_Chromosomal_Forms_Anopheles_PMID18847463,master,INELIGIBLE,False,high,high,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,7932,1860,,,,
 2009_van_den_Berg_Global_Status_DDT_Alternatives_Use_PMID20049114,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,5852,1061,,,,
+2010_Ahoua_Alou_Distribution_Ace_1R_Resistance_Carbamates_PMID20553593,master,EXTRACTED,True,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,5472,1692,gemini:gemini-3.5-flash,7247,27872,"10 survey(s), 8 genotype, 23 bioassay, 0 geno-pheno rows"
+2010_Howard_Pyrethroid_Resistance_Anopheles_Gambiae_Leads_PMID20553597,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,6552,1263,,,,
 2010_Rivero_Insecticide_Control_Vector_Borne_Diseases_PMID20700451,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,6372,844,,,,
 2011_Bai_Large_Scale_RNAi_Screen_G_PMID21806814,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,7632,799,,,,
 2011_Konate_Intermittent_Preventive_Treatment_Malaria_Provides_PMID21304925,master,INELIGIBLE,False,high,none,True,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,8972,2715,,,,
+2012_Alout_Novel_AChE_Inhibitors_Sustainable_Insecticide_PMID23056599,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.8-flash,5852,1254,,,,
+2012_Jagannathan_Increasing_Incidence_Malaria_Children_Despite_PMID23273022,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,6012,1120,,,,
+2012_Stuckey_Simulation_Malaria_Epidemiology_Control_Highlands_PMID23107070,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,9252,1285,,,,
+2012_Wong_Select_Small_Core_Structure_Carbamates_PMID23049714,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,7932,1575,,,,
+2013_Gatton_Importance_Mosquito_Behavioural_Adaptations_Malari_PMID23550770,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.8-flash,8452,879,,,,
 2013_Hemingway_Country_Level_Operational_Implementation_Global_PMID23696658,master,REVIEW_DUPLICATE,True,high,high,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.8-flash,4932,2323,,,,
 2014_Monteiro_Genetic_Diversity_Brazilian_Aedes_Aegypti_PMID25233218,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,6892,927,,,,
+2014_Temeyer_Acetylcholinesterase_Sand_Fly_Phlebotomus_Papatasi_PMID25491113,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.8-flash,7092,1571,,,,
 2015_Lee_Peer_Review_Report_Absence_Kdr_DOI_10_5256_f1000research_7052_r8978,master,EXTRACTED,True,high,low,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.8-flash,7932,2079,gemini:gemini-3.8-flash,9864,19237,"15 survey(s), 15 genotype, 0 bioassay, 0 geno-pheno rows"
 2015_Lee_Peer_Review_Report_Absence_Kdr_DOI_10_5256_f1000research_7052_r8980,master,EXTRACTED,True,high,low,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.8-flash,7932,1868,gemini:gemini-3.5-flash,9733,17797,"15 survey(s), 15 genotype, 0 bioassay, 0 geno-pheno rows"
+2015_Wilson_Urban_Malaria_Understanding_Epidemiology_Ecology_PMID26259941,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,8972,1347,,,,
 2016_Bradley_Cluster_Randomized_Trial_Comparing_Deltamethrin_PMID27448667,,NAME_COLLISION,,,,,,2026-10-16,,,,,,,,,,2 files share this name (in: master) — rename so each is unique
 2016_Lynch_Evolution_Generate_Sustainable_Malaria_Control_PMID27776220,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.6-flash,17812,1801,,,,
 2017_Djenontin_Mosquitoes_Fauna_Diversity_Plasmodium_Falciparum_DOI_10_14741_ijmcr_v_5_6_23,master,EXTRACTION_FAILED,True,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.8-flash,4352,1881,,0,0,extractor error: Server disconnected without sending a response.

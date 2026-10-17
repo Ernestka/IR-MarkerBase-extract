@@ -1,0 +1,65 @@
+{
+  "id": "2007_Djouaka_Quantification_Efficiency_Treatment_Anopheles_Gamb_PMID17488523",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tests larvae of Anopheles gambiae (Ladji strain) from Benin (page 2, 'Quantification of larvicidal activities of PP on Anopheles Ladji')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide-resistance markers were genotyped in this study. The authors only cite prior literature regarding the kdr mutation status of the Ladji strain: 'The kdr mutation, which is one of the mechanisms conferring the resistant status to this strain appears to be homozygous in this mosquito population, with an allelic frequency of one [13]' (page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype assays were performed and no genotype or allele counts are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae of Anopheles gambiae were collected from the traditional community of Ladji, near Cotonou, Republic of Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study testing the larvicidal efficacy of petroleum products."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ladji, near Cotonou, Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact collection dates/years of the mosquito larvae tested are not specified in the manuscript."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard empirical larvicide study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary materials cited containing relevant genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the larvicidal efficacy and mode of action of various petroleum products (petrol, kerosene, engine oil, waste oil) against larvae of a pyrethroid-resistant strain of Anopheles gambiae from Ladji, Benin. No genetic marker assays or genotyping data were generated.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (the paper only cites previous literature for the kdr status of the strain).",
+      "No extractable genotype or allele frequency data reported."
+    ]
+  }
+}

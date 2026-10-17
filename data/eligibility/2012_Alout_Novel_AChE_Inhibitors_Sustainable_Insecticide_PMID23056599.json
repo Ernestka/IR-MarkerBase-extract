@@ -1,0 +1,65 @@
+{
+  "id": "2012_Alout_Novel_AChE_Inhibitors_Sustainable_Insecticide_PMID23056599",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Tests reference strains of Anopheles gambiae (Kisumu and Acerkis) alongside Culex pipiens (page 2, page 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Examines the Ace-1 G119S mutation (AChE1 G119S) conferring organophosphate/carbamate resistance (page 1-2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No field-collected mosquitoes are genotyped. Only laboratory strains (Kisumu, Acerkis) and in silico population genetics simulations are studied; no empirical field genotype counts or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Only long-term colonized laboratory strains (Kisumu and Acerkis) and Culex laboratory colonies were used (page 6); no African field populations were sampled or tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary laboratory experimental study reporting chemical screening, biochemical assays, and larval bioassays."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field mosquito collections were performed."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field mosquito collections were performed."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; no field surveillance data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study only uses laboratory colonies and chemical assays; supplementary tables S1-S3 concern chemical properties and in vitro kinetics."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates pyrimidinetrione furan-substituted (PTF) compounds that act as selective acetylcholinesterase inhibitors preferentially targeting the Ace-1 G119S resistant mutant over wild-type AChE1. Bioassays were conducted using established laboratory colonies (An. gambiae Kisumu and Acerkis, as well as Culex pipiens strains Slab, SR, and Ducos). Because no African field-collected populations were genotyped, the study does not meet inclusion criteria.",
+    "exclusion_reasons": [
+      "No extractable genotype data from field populations (reports_extractable_genotype_data is false).",
+      "No African field-collected mosquito populations tested; only laboratory colonies used (african_field_population is false)."
+    ]
+  }
+}

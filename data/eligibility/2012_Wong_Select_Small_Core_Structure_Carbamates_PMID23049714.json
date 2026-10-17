@@ -1,0 +1,65 @@
+{
+  "id": "2012_Wong_Select_Small_Core_Structure_Carbamates_PMID23049714",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates carbamate insecticides against Anopheles gambiae strains G3 and Akron (e.g. title: 'Select Small Core Structure Carbamates Exhibit High Contact Toxicity to Carbamate-Resistant Strain Malaria Mosquitoes, Anopheles gambiae (Akron)')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes Ace-1 G119S (G280S) by PCR-RFLP and sequencing (page 2, 'Confirmation of the Carbamate-resistant Genotype in Akron Strain An. gambiae')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Genotyping was conducted only qualitatively to confirm the genotypes of laboratory colony individuals (G3 as homozygous wild-type, Akron as homozygous resistant; Figures 1 and 2), with no field population sample sizes or genotype frequencies reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Only laboratory colony strains (G3 and Akron) obtained from MR4 and maintained at Virginia Tech were tested (page 10, 'Both G3 and Akron strains of An. gambiae were obtained from MR4 (www.mr4.org) and have been in colony at Virginia Tech since 2005 (G3) and 2009 (Akron)'). No African field populations were sampled."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper reports original primary laboratory experiments evaluating enzyme kinetics, chemical synthesis, and contact toxicity assays."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collections were performed; the text only mentions the historical origin of the MR4 Akron colony (Porto Novo, Akron, Benin)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates are reported because only colonized strains were used."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine use of standard MR4 laboratory colonies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data required; the study design does not involve field mosquito collections."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the contact toxicity and acetylcholinesterase inhibition kinetics of small-core carbamates on Anopheles gambiae. Only laboratory colonies (G3 and Akron obtained from MR4) were tested, so it fails the requirement for African field populations and extractable field genotype data.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}
