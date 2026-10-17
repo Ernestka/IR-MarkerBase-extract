@@ -1,0 +1,20 @@
+study_id: 2013_Aikpon_Bendiocarb_Resistance_Anopheles_Gambiae_Population_PMID23803527
+title: 'Bendiocarb resistance in Anopheles gambiae s.l. populations from Atacora department
+  in Benin, West Africa: a threat for malaria vector control'
+first_author: Rock Aïkpon
+doi: 10.1186/1756-3305-6-192
+pmid: '23803527'
+publication_year: 2013
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Aïkpon et al. Parasites & Vectors 2013, 6:192
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-17'
+pmid_source: Europe PMC (from DOI)

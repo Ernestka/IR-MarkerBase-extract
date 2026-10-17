@@ -1,0 +1,61 @@
+{
+  "id": "2015_Guyant_Past_New_Challenges_Malaria_Control_PMID26185098",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Mentions Anopheles malaria vectors including An. gambiae, An. arabiensis, An. maculatus, and An. minimus (page 7-8)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a meeting report and does not report genotyping for any of the target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable marker genotype counts, allele counts, or frequencies are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No empirical field population mosquito genotype data from Africa are presented."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a meeting report summarizing discussions from a 1-day workshop held in Bangkok on December 1st 2014 (page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary field collection location data linked to target marker genotypes are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field sampling date window linked to target marker genotypes is reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; no primary empirical sample genotyping reported."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are required as this is a non-eligible meeting report."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This document is a meeting report summarizing a workshop held in Bangkok in December 2014 regarding challenges for malaria control, drug resistance, and vector control. It contains no primary empirical mosquito genotyping data for target resistance markers.",
+    "exclusion_reasons": [
+      "Not a primary study (meeting report summarizing a workshop).",
+      "Does not report genotyping or extractable genotype data for target resistance markers."
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2006_Akogbeto_Screening_Pesticide_Residues_Soil_Water_PMID16563153",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 3: 'Anopheles species collected were susceptible to pyrethroids... abundance of populations of An. arabiensis (87.5%) in the area' and Table 1 lists An. gambiae s.s. and An. arabiensis."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 3: 'that of Martinez Torres et al [17] for kdr mutations' (Vgsc L995F / L1014F)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 4): Reports mosquitoes tested for PCR (N=30 at Houeyiho, N=80 at Parakou) along with kdr frequencies (Freq. Kdr 90% at Houeyiho and 10% at Parakou)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 3: 'Mosquitoes exposed to insecticide papers in this test were three- to five-day old females of Anopheles, having emerged from larvae collected on the premises and in water spots found in the vegetable plantations of Houeyiho and Parakou' in Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper published in Malaria Journal (2006)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2-3: Vegetable plantations of Houeyiho (Cotonou) and Parakou, Benin."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not state the exact year(s) of mosquito larval field collection."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No indication that these genotyped field samples were imported from or shared with external consortium databases."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All PCR kdr genotyping frequency data and sample sizes are provided in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 110,
+    "summary": "This study evaluated pesticide residue presence and vector susceptibility in vegetable farming sites in Houeyiho and Parakou, Benin. Field-collected An. gambiae s.l. larvae were reared and tested for insecticide resistance via WHO bioassays, and 110 mosquitoes across the two sites were genotyped by PCR for the Vgsc L995F (kdr) mutation.",
+    "exclusion_reasons": []
+  }
+}

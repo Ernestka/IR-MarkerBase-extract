@@ -1,0 +1,62 @@
+{
+  "id": "2016_Papanicolaou_Whole_Genome_Sequence_Mediterranean_Fruit_PMID27659211",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the whole genome sequence of the Mediterranean fruit fly, Ceratitis capitata (Diptera: Tephritidae), not Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target insecticide-resistance markers in Anopheles species were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data or allele frequencies for Anopheles field populations are provided."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study does not analyze field-caught African Anopheles mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study presenting the whole genome sequence and assembly of Ceratitis capitata."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations for Anopheles mosquitoes are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates for Anopheles field populations are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper does not share sample datasets with Anopheles resistance surveillance projects."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are not needed because the study is ineligible."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study reports the genome assembly and annotation of the Mediterranean fruit fly, Ceratitis capitata. It does not study Anopheles mosquitoes or report target marker frequencies for malaria vectors.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes.",
+      "Does not report target insecticide resistance markers.",
+      "Does not report genotype data for African field populations."
+    ]
+  }
+}

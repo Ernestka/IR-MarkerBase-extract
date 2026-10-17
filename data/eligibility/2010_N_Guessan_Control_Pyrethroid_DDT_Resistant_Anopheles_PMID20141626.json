@@ -1,0 +1,67 @@
+{
+  "id": "2010_N_Guessan_Control_Pyrethroid_DDT_Resistant_Anopheles_PMID20141626",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated the efficacy of indoor residual spraying and insecticide-treated nets against wild populations of Anopheles gambiae s.s. (page 2, 'Methods: Study sites and experimental huts')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not genotype any resistance markers; it only references previous publications regarding the presence of kdr in the local Ladji mosquito population (page 2: 'The local An. gambiae population is comprised entirely of the M taxon and is resistant to pyrethroids and DDT, with kdr at high frequency and metabolic resistance also present [9,17]')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotyping was performed in this study; hence no genotype counts, sample sizes for genotyping, or allele frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were free-flying wild field populations entering experimental huts in Ladji, a peri-urban area on the periphery of Cotonou, Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper reporting experimental hut trials conducted between April and June 2005 (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The field site is reported as Ladji, Cotonou, southern Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field hut evaluations were conducted from '8 April to 24 June 2005' (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field experimental hut trial with no indication of shared specimen data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No external supplementary files are mentioned as holding missing genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2005
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is an experimental hut trial in Ladji, Benin evaluating the efficacy and residual activity of microencapsulated chlorpyrifos-methyl (IRS and ITN) compared to DDT and lambdacyhalothrin against wild pyrethroid-resistant An. gambiae and Cx. quinquefasciatus. Although the presence of kdr in the study population is cited from earlier publications, no molecular marker genotyping was performed in this study.",
+    "exclusion_reasons": [
+      "No target resistance markers were genotyped; the study relies on previous citations for the presence of kdr in the local vector population.",
+      "Lacks extractable genotype or allele counts/frequencies."
+    ]
+  }
+}

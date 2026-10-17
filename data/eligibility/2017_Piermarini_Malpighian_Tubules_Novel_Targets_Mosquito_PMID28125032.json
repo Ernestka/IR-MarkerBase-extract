@@ -1,0 +1,65 @@
+{
+  "id": "2017_Piermarini_Malpighian_Tubules_Novel_Targets_Mosquito_PMID28125032",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review mentions Anopheles gambiae (e.g. Abstract p. 1, p. 8, and p. 9) alongside Aedes species."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The article is a review focusing on inward rectifier potassium (Kir) channels and Malpighian tubule physiology; it does not genotype any of the target insecticide resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies for target markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito populations from Africa were collected or genotyped."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is an explicit review article ('Review', p. 1) summarizing previous physiological, biochemical, and pharmacological work."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field mosquito collection locations are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field mosquito collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review article without primary field genotype data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper is fundamentally ineligible."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article summarizing research on mosquito Malpighian tubules as physiological targets for mosquito control via inhibition of inward-rectifier potassium (Kir) channels and related pathways. It contains no primary field data or genotyping of target insecticide resistance markers.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_target_markers",
+      "no_extractable_genotypes",
+      "no_african_field_population"
+    ]
+  }
+}

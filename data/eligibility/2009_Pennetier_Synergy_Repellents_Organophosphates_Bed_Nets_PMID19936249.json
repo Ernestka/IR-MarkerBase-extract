@@ -1,0 +1,67 @@
+{
+  "id": "2009_Pennetier_Synergy_Repellents_Organophosphates_Bed_Nets_PMID19936249",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1 Abstract: 'We present here the results of two trials run against free-flying Anopheles gambiae populations...'; Page 2: 'In Western Africa, the major vector of malaria is Anopheles gambiae Giles sensu stricto...'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 2 PCR Detection of Resistance Alleles: 'Samples of live and dead mosquitoes were taken from the control hut for detection of kdr and Ace1R alleles in individual mosquitoes...'; Page 3 Table 1: 'Frequency of the S molecular form of An. gambiae, of Knock Down Resistance (Kdr) allele and insensitive acetylcholinesterase (Ace.1R) allele.'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 3 Table 1 provides allele frequencies and sample sizes (n tested): dry season Kdr frequency 0.08 (n=41), Ace1R frequency 0.01 (n=40); rainy season Kdr frequency 0.88 (n=48), Ace1R frequency 0.40 (n=49)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2 Study Area: 'Vallée du Kou (11°24'N; 04°24'W) is about 30 km north-west of Bobo-Dioulasso in the valley of the Kou River... Burkina Faso, West Africa.' Mosquitoes were wild free-flying populations entering experimental huts."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Page 2: 'We present here the results of two trials run against free-flying Anopheles gambiae populations comparing the effects of two insect repellents... Used alone and in combination on bed nets.'"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: 'Vallée du Kou (11°24'N; 04°24'W) is about 30 km north-west of Bobo-Dioulasso in the valley of the Kou River...'"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2: 'Two trials, one in the dry season (May 5th to June 3rd) and one in the wet season September 18th to October 14th, 2006) lasted each 27 nights.'"
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Page 6: 'A companion study showed that these two mixtures are more efficient than conventional pyrethroid-treated nets against susceptible and resistant An. gambiae populations and did not induce any additional selective pressure on the resistance genes, Ace1R and Kdr [15].' (Ref 15: Pennetier et al. 2008 Emerg Infect Dis). Samples may overlap with this companion study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Genotype frequencies and sample sizes for kdr and Ace-1 are reported in Table 1 in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2006
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 97,
+    "summary": "This study evaluated the efficacy and behavioral responses of free-flying Anopheles gambiae to bed nets impregnated with pirimiphos-methyl (PM) combined with repellents (DEET or KBR 3023) in experimental huts in Vallée du Kou, Burkina Faso in 2006. Genotyping of control hut mosquitoes confirmed the presence and frequencies of Vgsc L995F (kdr) and Ace-1 G280S (Ace-1R) alleles across dry and rainy seasons.",
+    "exclusion_reasons": []
+  }
+}

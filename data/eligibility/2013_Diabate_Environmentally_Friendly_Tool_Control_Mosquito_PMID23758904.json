@@ -1,0 +1,68 @@
+{
+  "id": "2013_Diabate_Environmentally_Friendly_Tool_Control_Mosquito_PMID23758904",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study conducted on Anopheles gambiae s.l. (An. gambiae s.s., M form / An. coluzzii, and An. arabiensis) in Burkina Faso (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped the Vgsc L995F mutation (referred to as kdr mutation, page 3 and Table 1 page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 6) gives sample counts and kdr allele frequencies for M form, S form, and An. arabiensis in traps versus houses across both study sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-caught mosquitoes collected in Soumousso and VK3 (Bama), Burkina Faso (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper reporting field evaluation of Lehmann's funnel entry trap."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field sites identified as Soumousso and VK3 (Bama), Burkina Faso (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from July to September 2012 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Primary trial of a newly designed trap with field sampling conducted specifically for this study in 2012."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All extractable genotype frequency data and sample counts are fully presented in Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 600,
+    "summary": "This study evaluated the efficacy of Lehmann's funnel entry trap for controlling malaria vectors in low-density (Soumousso) and high-density (VK3) areas of Burkina Faso from July to September 2012. A total of 600 Anopheles gambiae s.l. mosquitoes were genotyped for species/molecular form and the Vgsc L995F (kdr) mutation, showing high kdr frequency across both trapped and house-collected mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

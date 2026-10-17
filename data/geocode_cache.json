@@ -23,6 +23,23 @@
    "name": "Soum, Nanoro, Boulkiemdé, Centre-Ouest, Burkina Faso"
   }
  ],
+ "bf|Soumousso": [
+  {
+   "lat": 11.01283,
+   "level": "village",
+   "lon": -4.047,
+   "name": "Soumousso, Houet, Hauts-Bassins, Burkina Faso"
+  }
+ ],
+ "bf|VK3": [
+  {
+   "lat": 11.37145,
+   "level": "village",
+   "lon": -4.40372,
+   "name": "VK3, Houet, Hauts-Bassins, Burkina Faso"
+  }
+ ],
+ "bf|VK3, Bama": [],
  "bf|VK7": [
   {
    "lat": 11.40467,
@@ -62,6 +79,14 @@
    "level": "amenity",
    "lon": 2.6438,
    "name": "EPP AYERE AGBAROU, RN 3, Pobè, Okôffin, Adja-Ouèrè, Plateau, Bénin"
+  }
+ ],
+ "bj|Atacora": [
+  {
+   "lat": 10.71605,
+   "level": "admin1",
+   "lon": 1.53315,
+   "name": "Atakora, Bénin"
   }
  ],
  "bj|Banikoara, Alibori": [
@@ -171,6 +196,14 @@
    "name": "Alibori, Gogounou, Alibori, Bénin"
   }
  ],
+ "bj|Houeyiho, Cotonou, Littoral": [
+  {
+   "lat": 6.37241,
+   "level": "village",
+   "lon": 2.39395,
+   "name": "Houeyiho, 11ème Arrondissement, Cotonou, Littoral, Bénin"
+  }
+ ],
  "bj|Ifangni": [
   {
    "lat": 6.6806,
@@ -230,12 +263,42 @@
    "name": "Ko-Koumolou, Sakété, Plateau, Bénin"
   }
  ],
+ "bj|Kouandé": [
+  {
+   "lat": 10.33218,
+   "level": "town",
+   "lon": 1.69198,
+   "name": "Kouandé, Atakora, Bénin"
+  }
+ ],
+ "bj|Kouandé, Atacora": [
+  {
+   "lat": 10.33218,
+   "level": "town",
+   "lon": 1.69198,
+   "name": "Kouandé, Atakora, Bénin"
+  }
+ ],
  "bj|Malanville": [
   {
    "lat": 11.86181,
    "level": "town",
    "lon": 3.3863,
    "name": "Malanville, Alibori, Bénin"
+  }
+ ],
+ "bj|Matéri, Atacora": [
+  {
+   "lat": 10.82147,
+   "level": "admin2",
+   "lon": 1.07023,
+   "name": "Materi, Atakora, Bénin"
+  },
+  {
+   "lat": 10.69617,
+   "level": "town",
+   "lon": 1.06309,
+   "name": "Materi, Atakora, Bénin"
   }
  ],
  "bj|N'Dali": [
@@ -252,7 +315,29 @@
    "name": "N'Dali, Borgou, Bénin"
   }
  ],
+ "bj|Natitingou, Atacora": [
+  {
+   "lat": 10.30515,
+   "level": "town",
+   "lon": 1.38086,
+   "name": "Natitingou, Atakora, Bénin"
+  },
+  {
+   "lat": 10.25141,
+   "level": "admin2",
+   "lon": 1.38354,
+   "name": "Natitingou, Atakora, Bénin"
+  }
+ ],
  "bj|Parakou": [
+  {
+   "lat": 9.34002,
+   "level": "town",
+   "lon": 2.62783,
+   "name": "Parakou, Borgou, Bénin"
+  }
+ ],
+ "bj|Parakou, Borgou": [
   {
    "lat": 9.34002,
    "level": "town",
@@ -268,6 +353,22 @@
    "name": "Plateau, Bénin"
   }
  ],
+ "bj|Péhunco": [
+  {
+   "lat": 10.23089,
+   "level": "town",
+   "lon": 2.00043,
+   "name": "Péhunco, Pehonko, Atakora, Bénin"
+  }
+ ],
+ "bj|Péhunco, Atacora": [
+  {
+   "lat": 10.23089,
+   "level": "town",
+   "lon": 2.00043,
+   "name": "Péhunco, Pehonko, Atakora, Bénin"
+  }
+ ],
  "bj|Sakété, Plateau": [
   {
    "lat": 6.73776,
@@ -280,6 +381,20 @@
    "level": "admin2",
    "lon": 2.67655,
    "name": "Sakété, Plateau, Bénin"
+  }
+ ],
+ "bj|Tanguiéta, Atacora": [
+  {
+   "lat": 10.96551,
+   "level": "admin2",
+   "lon": 1.42034,
+   "name": "Tanguièta, Atakora, Bénin"
+  },
+  {
+   "lat": 10.6301,
+   "level": "town",
+   "lon": 1.27063,
+   "name": "Tanguieta, Tanguièta, Atakora, Bénin"
   }
  ],
  "ga|Lambaréné, Moyen-Ogooué": [

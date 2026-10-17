@@ -1,0 +1,5 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2009_Pennetier_Synergy_Repellents_Organophosphates_Bed_Nets_PMID19936249_vallee_du_kou_dry_2006,Vgsc,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,41,,,,,,0.08,,"dry season ... Kdr frequency 0,08 (41)",3,Table 1,,
+2009_Pennetier_Synergy_Repellents_Organophosphates_Bed_Nets_PMID19936249_vallee_du_kou_dry_2006,Ace-1,Ace.1R,Ace-1,G280S,SNP,2,G280S,,280S,PCR,False,40,,,,,,0.01,,"dry season ... Ace1R frequency 0,01 (40)",3,Table 1,,
+2009_Pennetier_Synergy_Repellents_Organophosphates_Bed_Nets_PMID19936249_vallee_du_kou_rainy_2006,Vgsc,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,48,,,,,,0.88,,"rainy season ... Kdr frequency 0,88 (48)",3,Table 1,,
+2009_Pennetier_Synergy_Repellents_Organophosphates_Bed_Nets_PMID19936249_vallee_du_kou_rainy_2006,Ace-1,Ace.1R,Ace-1,G280S,SNP,2,G280S,,280S,PCR,False,49,,,,,,0.4,,"rainy season ... Ace1R frequency 0,40 (49)",3,Table 1,,

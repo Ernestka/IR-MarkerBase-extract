@@ -1,0 +1,64 @@
+{
+  "id": "2010_Kikankie_Infectivity_Entomopathogenic_Fungus_Beauveria_Bass_PMID20210990",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tested laboratory colonies and field-caught Anopheles arabiensis mosquitoes (page 1, 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study performed species identification PCR and WHO insecticide susceptibility bioassays, but did not genotype any target-site resistance markers (kdr is only mentioned in the discussion as a potential mechanism, page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotyping was performed, so no genotype or allele counts/frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult mosquitoes were collected from inside houses in Karonga, northern Malawi, and reared to F1 progeny (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper testing fungal infectivity and insecticide resistance."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Karonga (9° 48'51.04\" S, 33° 52'.97\" E), northern Malawi (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact collection year or dates for the field mosquitoes from Karonga, Malawi are not stated in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No indication of sample reuse from other studies or consortia."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No relevant supplementary files mentioned or required; the study simply did not perform marker genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Malawi"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the susceptibility of laboratory strains and wild-caught Anopheles arabiensis from Malawi to infection with the entomopathogenic fungus Beauveria bassiana and standard chemical insecticides. No insecticide resistance marker genotyping was conducted.",
+    "exclusion_reasons": [
+      "No target resistance markers were genotyped (bioassay and fungal study only)."
+    ]
+  }
+}

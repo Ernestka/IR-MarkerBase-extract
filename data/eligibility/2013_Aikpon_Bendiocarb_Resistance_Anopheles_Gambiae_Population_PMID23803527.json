@@ -1,0 +1,66 @@
+{
+  "id": "2013_Aikpon_Bendiocarb_Resistance_Anopheles_Gambiae_Population_PMID23803527",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. (specifically An. gambiae s.s. M and S forms) larvae were collected from five districts in Atacora department, Benin (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped the Ace-1 G280S (ace-1R, G119S) mutation using PCR-RFLP (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact RR, RS, and SS genotype counts for both M and S forms of An. gambiae s.s. across 5 districts (n=252 total genotyped). Figure 2 provides genotype counts for bendiocarb bioassay survivors (n=109) vs dead (n=143)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from natural breeding sites across five districts (Kouand&eacute;, Mat&eacute;ri, Natitingou, P&eacute;hunco, Tangui&eacute;ta) in the Atacora department, Benin (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field study reporting original bioassay and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Five districts in Atacora department, Benin: Kouand&eacute;, Mat&eacute;ri, Natitingou, P&eacute;hunco, and Tangui&eacute;ta (Page 2, Table 2, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections took place during the rainy season from July to October 2012 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard primary study reporting original collections and testing conducted in 2012 by CREC."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype counts, species/form identification, and bioassay phenotype association data are fully contained in the main text (Table 2, Figure 2)."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 252,
+    "summary": "This primary study evaluated bendiocarb, propoxur, pirimiphos-methyl, and fenitrothion susceptibility in Anopheles gambiae s.s. (M and S forms) collected across five districts in Atacora department, Benin, in July-October 2012. Ace-1 G280S (G119S) genotyping was performed on 252 mosquitoes, providing extractable genotype counts (RR/RS/SS) by district and molecular form, as well as genotype breakdown between bioassay survivors and non-survivors.",
+    "exclusion_reasons": []
+  }
+}

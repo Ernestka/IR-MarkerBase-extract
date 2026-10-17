@@ -1,0 +1,10 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2013_Aikpon_Atacora_Kouande_S,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,58,1,10,47,,12,0.103,,"Table 2: Kouandé S Form, Phénotypes RR: 1, RS: 10, SS: 47, f(ace-1): 0,103",5,Table 2,,
+2013_Aikpon_Atacora_Kouande_M,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,3,0,0,3,,0,0.0,,"Table 2: Kouandé M Form, Phénotypes RR: 0, RS: 0, SS: 3, f(ace-1): 0",5,Table 2,,
+2013_Aikpon_Atacora_Materi_S,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,44,2,6,36,,10,0.114,,"Table 2: Matéri S Form, Phénotypes RR: 2, RS: 6, SS: 36, f(ace-1): 0,114",5,Table 2,,
+2013_Aikpon_Atacora_Materi_M,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,4,0,0,4,,0,0.0,,"Table 2: Matéri M Form, Phénotypes RR: 0, RS: 0, SS: 4, f(ace-1): 0",5,Table 2,,
+2013_Aikpon_Atacora_Natitingou_S,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,44,0,11,33,,11,0.125,,"Table 2: Natitingou S Form, Phénotypes RR: 0, RS: 11, SS: 33, f(ace-1): 0,125",5,Table 2,,
+2013_Aikpon_Atacora_Natitingou_M,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,1,0,0,1,,0,0.0,,"Table 2: Natitingou M Form, Phénotypes RR: 0, RS: 0, SS: 1, f(ace-1): 0",5,Table 2,,
+2013_Aikpon_Atacora_Pehunco_S,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,49,1,11,37,,13,0.133,,"Table 2: Péhunco S Form, Phénotypes RR: 1, RS: 11, SS: 37, f(ace-1): 0,133",5,Table 2,,
+2013_Aikpon_Atacora_Tanguieta_S,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,43,0,11,32,,11,0.128,,"Table 2: Tanguiéta S Form, Phénotypes RR: 0, RS: 11, SS: 32, f(ace-1): 0,128",5,Table 2,,
+2013_Aikpon_Atacora_Tanguieta_M,ace-1,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,6,0,1,5,,1,0.083,,"Table 2: Tanguiéta M Form, Phénotypes RR: 0, RS: 1, SS: 5, f(ace-1): 0,083",5,Table 2,,

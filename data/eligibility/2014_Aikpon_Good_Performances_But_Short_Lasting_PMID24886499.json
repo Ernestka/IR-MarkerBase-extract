@@ -1,0 +1,68 @@
+{
+  "id": "2014_Aikpon_Good_Performances_But_Short_Lasting_PMID24886499",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'Anopheles gambiae s.l. populations were sampled monthly by human landing catch.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study performed species identification and molecular form characterization within the Anopheles gambiae complex, but did not genotype any target insecticide-resistance markers (e.g. Vgsc L995F/S, Ace-1 G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable resistance marker genotype or allele counts/frequencies were reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: 'The study was carried out in Atacora-Donga region located in the North-west of Benin and includes three districts: Kouandé, Tanguiéta and Copargo.'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper reports primary empirical field evaluation of Actellic 50 EC IRS and vector control parameters in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2 and Page 3 Figure 1: Specific districts (Kouandé, Tanguiéta, Copargo) and villages (Biacou, Taiacou, Mary, Beket-Bourame, Kparakounan, Kataban) in Benin are specified."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2: 'These catches were made from June to August 2013 (after IRS intervention)'."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports original routine field entomological monitoring for the 2013 IRS campaign in Atacora-Donga region."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No missing resistance marker genotyping data is referenced as being in supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 341,
+    "summary": "This study evaluated the efficacy and entomological impact of Actellic 50 EC indoor residual spraying (IRS) in three districts of the Atacora-Donga region in northern Benin between June and August 2013. Field-collected Anopheles gambiae s.l. mosquitoes were identified to species (An. gambiae s.s. and An. coluzzii) and assessed for biting rate, sporozoite rate, parity, and exophily, alongside WHO cone bioassays. However, no target insecticide resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "Does not genotype target resistance markers (reports_target_markers)",
+      "Does not report extractable genotype data (reports_extractable_genotype_data)"
+    ]
+  }
+}

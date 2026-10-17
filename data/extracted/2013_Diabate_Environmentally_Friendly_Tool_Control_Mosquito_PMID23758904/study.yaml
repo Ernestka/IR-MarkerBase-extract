@@ -1,0 +1,20 @@
+study_id: 2013_Diabate_Environmentally_Friendly_Tool_Control_Mosquito_PMID23758904
+title: 'Environmentally friendly tool to control mosquito populations without risk
+  of insecticide resistance: the Lehmann’s funnel entry trap'
+first_author: Abdoulaye Diabaté
+doi: 10.1186/1475-2875-12-196
+pmid: '23758904'
+publication_year: 2013
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: Diabaté et al. Malaria Journal 2013, 12:196
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-17'
+pmid_source: Europe PMC (from DOI)

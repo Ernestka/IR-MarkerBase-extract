@@ -1,0 +1,71 @@
+{
+  "id": "2013_Rehman_Five_Years_Malaria_Control_Continental_PMID23651490",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study monitors malaria vectors, noting that 'The primary malaria vector is Anopheles gambiae sensu lato (s.l.)' (page 2) and reports sporozoite rates in collected mosquitoes (page 7)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not report any insecticide-resistance marker genotyping. It mentions kdr in the discussion only by referencing other papers (e.g., Ridl et al. 2008 [ref 8] and Reddy et al. 2013 [ref 12]) on page 9: 'Analysis of mosquitoes caught in the period 2009–2011 showed that the level of kdr mutation increased over the period of the initiative [12]'."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotype counts, frequencies, or sample sizes are presented in the paper; entomological results are limited to sporozoite rates."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes were collected across 17 sentinel sites in continental Equatorial Guinea between 2007 and 2011 (page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article evaluating five years of malaria control interventions and malaria indicator surveys in Equatorial Guinea."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sentinel sites are named, including 'Akurenam, Bicurga and Niefang in Centro Sur province; Ebebeyin, Mico Miseng, and Nsok Nsomo in Kie-Ntem province...' (page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Data are disaggregated by individual survey years from 2007 to 2011 (e.g., Tables 1 and 2, page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as no genotype data are reported."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplementary files (Additional files 1-3) cover LLIN use, IRS coverage, and P. falciparum prevalence; none contain target resistance marker genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the impact of five years of vector control and case management interventions on malaria parasite prevalence in the continental region of Equatorial Guinea from 2007 to 2011. While it includes entomological monitoring of sporozoite rates, it does not genotype or report any insecticide resistance markers (referring readers instead to Reddy et al. 2013).",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

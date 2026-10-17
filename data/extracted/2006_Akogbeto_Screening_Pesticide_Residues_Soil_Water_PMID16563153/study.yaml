@@ -1,0 +1,21 @@
+study_id: 2006_Akogbeto_Screening_Pesticide_Residues_Soil_Water_PMID16563153
+title: Screening of pesticide residues in soil and water samples from agricultural
+  settings
+first_author: Martin C Akogbéto
+doi: 10.1186/1475-2875-5-22
+pmid: '16563153'
+publication_year: 2006
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Screening of pesticide residues in soil and water samples from agricultural
+    settings
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-17'
+pmid_source: Europe PMC (from DOI)

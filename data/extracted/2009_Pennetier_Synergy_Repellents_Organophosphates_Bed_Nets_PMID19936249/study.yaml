@@ -1,0 +1,23 @@
+study_id: 2009_Pennetier_Synergy_Repellents_Organophosphates_Bed_Nets_PMID19936249
+title: 'Synergy between Repellents and Organophosphates on Bed Nets: Efficacy and
+  Behavioural Response of Natural Free-Flying An. gambiae Mosquitoes'
+first_author: C&#233;dric Pennetier
+doi: 10.1371/journal.pone.0007896
+pmid: '19936249'
+publication_year: 2009
+countries:
+- Burkina Faso
+data_source: main_text
+provenance:
+  source_text: 'Pennetier C, Costantini C, Corbel V, Licciardi S, Dabir&#233; RK,
+    et al. (2009) Synergy between Repellents and Organophosphates on Bed Nets: Efficacy
+    and Behavioural Response of Natural Free-Flying An. gambiae Mosquitoes. PLoS ONE
+    4(11): e7896.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-17'
+pmid_source: Europe PMC (from DOI)
