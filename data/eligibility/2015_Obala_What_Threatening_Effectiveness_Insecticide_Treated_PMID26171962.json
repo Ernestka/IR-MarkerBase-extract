@@ -1,0 +1,68 @@
+{
+  "id": "2015_Obala_What_Threatening_Effectiveness_Insecticide_Treated_PMID26171962",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult Anopheles mosquitoes were sampled using CDC light traps, and susceptible lab-reared Anopheles gambiae were used in WHO cone bioassays (pages 5 and 10)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance markers were genotyped in this study. The only mention of kdr is a citation to a prior study in a neighboring district (page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were trapped from field households in Bungoma East sub-county, western Kenya (pages 3, 5, and 10)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary case-control study investigating factors associated with malaria bednet failure."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Bungoma East sub-county and Webuye Sub-county Hospital area, Kenya (latitude: 0° 36' 26.244\", longitude: 34° 46' 19.056\") (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between May 2013 and July 2014 (page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary field study data collected specifically for this case-control assessment."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No resistance marker genotyping was performed in the study, and S1 Table only contains unadjusted odds ratios for epidemiological models."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This case-control study assessed behavioral, environmental, and physical net integrity factors associated with hospitalized malaria among children in Bungoma East, Kenya. Mosquitoes were collected with CDC light traps to measure vector density and bioefficacy of field nets was evaluated using a susceptible laboratory colony, but no molecular resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (reports_target_markers = false).",
+      "No extractable resistance marker genotype data are reported (reports_extractable_genotype_data = false)."
+    ]
+  }
+}

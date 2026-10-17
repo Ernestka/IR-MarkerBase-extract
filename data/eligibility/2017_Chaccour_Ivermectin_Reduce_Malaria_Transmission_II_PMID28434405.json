@@ -1,0 +1,68 @@
+{
+  "id": "2017_Chaccour_Ivermectin_Reduce_Malaria_Transmission_II_PMID28434405",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review discusses malaria vectors including Anopheles gambiae, Anopheles coluzzii, and Anopheles funestus (e.g., page 3 and Fig. 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The review mentions 'Anopheles coluzzi carrying the kdr mutation' in passing when referencing previous literature (page 3), but performs no genotyping of target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies are generated or reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito collections or testing were conducted in this paper."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly designated as a 'REVIEW' addressing clinical development pathways for ivermectin (page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No empirical sampling locations are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No empirical sampling dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are referenced for missing empirical data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article outlining considerations and potential trial designs for the clinical development pathway of ivermectin as an endectocide for malaria transmission reduction. It does not contain primary empirical data or resistance marker genotyping.",
+    "exclusion_reasons": [
+      "Not a primary study (review article).",
+      "Does not genotype or report target insecticide-resistance markers.",
+      "Does not report extractable genotype data.",
+      "No field-collected mosquito populations studied."
+    ]
+  }
+}

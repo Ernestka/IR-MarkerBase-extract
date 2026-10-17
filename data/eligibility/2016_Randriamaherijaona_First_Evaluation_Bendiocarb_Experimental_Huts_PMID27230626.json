@@ -1,0 +1,69 @@
+{
+  "id": "2016_Randriamaherijaona_First_Evaluation_Bendiocarb_Experimental_Huts_PMID27230626",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated residual activity of bendiocarb using a laboratory strain of Anopheles arabiensis (page 2, 'Biological materials for insecticide residual activity monitoring')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only notes in passing that 'No kdr or ace-1 resistance gene was detected by PCR in An. arabiensis' to confirm susceptibility of the laboratory colony (page 2), without specific marker allele data, target marker assays, or genotyping of field populations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or genotype frequencies with sample sizes are reported anywhere in the paper."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All bioassay tests were conducted using an insectary laboratory strain of Anopheles arabiensis established in January 2008 at the Institut Pasteur de Madagascar (page 2). No African field-caught mosquitoes were genotyped or tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting an experimental hut and house trial in Madagascar."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in two villages, Saharevo (S18°51′12.9″ E48°07′48.8″) and Ambohitranivo (S18°50′52.71″ E48°14′24.17″), in Moramanga district, Madagascar (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "All experimental measurements were conducted from June 2013 to February 2014 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper describes a primary local trial evaluating bendiocarb residual efficacy on experimental huts and houses."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are referenced containing missing field genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Madagascar"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the residual efficacy of bendiocarb indoor residual spraying across different substrates in experimental huts and houses in Moramanga district, Madagascar, using laboratory-reared susceptible strains of Anopheles arabiensis and Aedes albopictus. No field-caught mosquitoes were sampled, and no extractable genotype data for resistance markers were reported.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

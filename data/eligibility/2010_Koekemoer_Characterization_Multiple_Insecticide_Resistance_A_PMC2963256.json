@@ -1,0 +1,70 @@
+{
+  "id": "2010_Koekemoer_Characterization_Multiple_Insecticide_Resistance_A_PMC2963256",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "page 1: 'Anopheles gambiae s.l mosquitoes were collected resting indoors... The only malaria vector species collected was An. gambiae S form'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "page 1: 'Dieldrin and DDT resistance was attributed to target site resistance (the rdl and L1 014F/ L1014S kdr mutations respectively)'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "page 1: The conference abstract mentions the presence of rdl and L1014F/L1014S kdr mutations, but provides no sample sizes, genotype counts, or allele frequencies."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "page 1: 'Field sampling was conducted during April 2009 in the village of Kouilou Potash, close to the city of Pointe Noire' [Republic of the Congo]."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "page 1: Reports original field sampling and entomological evaluation conducted in April 2009."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "page 1: 'village of Kouilou Potash, close to the city of Pointe Noire'"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "page 1: 'Field sampling was conducted during April 2009'"
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard field collection, though later full paper publication of these data might exist."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "This is a single-page conference poster abstract without supplementary files referenced."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Rdl A296G"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Republic of the Congo"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This conference poster abstract summarizes insecticide resistance and mechanisms in Anopheles gambiae S form from Kouilou Potash near Pointe Noire, Republic of the Congo in April 2009. While L1014F/S kdr and rdl mutations are mentioned, no extractable genotype numbers or frequencies are presented.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

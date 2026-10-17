@@ -1,0 +1,63 @@
+{
+  "id": "2016_Rinker_Disease_Vectors_Era_Next_Generation_PMID27154554",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review discusses Anopheles mosquitoes (e.g. Page 1: 'described the role of Anopheles mosquitoes in the human malaria cycle')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The article mentions knockdown resistance and metabolic resistance mechanisms conceptually (Page 8), but does not report or genotype any target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele frequencies, or mosquito sample sizes are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field collections of mosquitoes were conducted for this study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review article, explicitly marked as 'REVIEW' on Page 1 ('Disease vectors in the era of next generation sequencing')."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary field collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Review article with no original empirical dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data containing empirical genotype results exists."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article describing the applications and opportunities of next-generation sequencing (NGS) in studying vector biology and disease transmission. It presents no primary empirical data on insecticide-resistance markers in field Anopheles populations.",
+    "exclusion_reasons": [
+      "This is a review paper rather than a primary empirical study.",
+      "No target insecticide resistance markers are genotyped.",
+      "No extractable genotype data are presented.",
+      "No African field-collected mosquito populations are tested."
+    ]
+  }
+}

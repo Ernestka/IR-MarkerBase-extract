@@ -1,0 +1,68 @@
+{
+  "id": "2010_Mosqueira_Efficacy_Insecticide_Paint_Against_Malaria_PMID21108820",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Field trials were conducted in experimental huts against wild populations of Anopheles gambiae and Culex quinquefasciatus in Ladji, Benin (page 2, 'Study site')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not genotype any resistance markers. It only refers to previously published data on kdr and ace-1R from Corbel et al. 2007 (ref [14]) in the study site description: 'kdr is present at a high frequency, but is susceptible to organophosphates and carbamates, the ace-1R mutation was absent [14]' (page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype assays, genotype counts, or allele counts/frequencies were performed or reported in the study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild Anopheles gambiae were collected entering experimental huts and as larvae reared for release experiments at Ladji (6°23N, 2°25E), Benin (pages 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary experimental hut evaluation of an insecticide paint (Inesfly 5A IGR)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ladji (6°23N-2°25E), Cotonou, Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections and evaluations were conducted from September 2003 to September 2004 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2003,
+      2004
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study evaluates the efficacy and residual effect of an insecticide paint (Inesfly 5A IGR) in experimental huts in Ladji, Benin, against local wild populations of Anopheles gambiae and Culex quinquefasciatus. The authors assess mortality, blood-feeding inhibition, and residual efficacy in cone bioassays and distance tests, but do not perform any molecular marker genotyping.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped in this study; mention of kdr and ace-1R was solely a citation of previously published work (Corbel et al. 2007).",
+      "No extractable genotype data reported."
+    ]
+  }
+}

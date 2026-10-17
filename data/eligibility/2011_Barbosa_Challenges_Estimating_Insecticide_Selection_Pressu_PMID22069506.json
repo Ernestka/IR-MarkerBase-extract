@@ -1,0 +1,67 @@
+{
+  "id": "2011_Barbosa_Challenges_Estimating_Insecticide_Selection_Pressu_PMID22069506",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the dengue vector Aedes aegypti (Abstract, p. 1: 'We investigate practical problems of obtaining such estimates, with particular emphasis on Mexican populations of the dengue vector Aedes aegypti')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The only marker examined is the Aedes aegypti voltage-gated sodium channel mutation Ile1016 (p. 2: 'We used published data on pyrethroid resistance from Aedes aegypti, throughout Mexico [6] on the frequency of the Ile1,016 mutation'). None of the target Anopheles resistance markers are studied."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts or population-specific genotype frequencies with sample sizes are presented; it only models and re-analyzes published allele frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were from field collections across Mexico (Abstract: 'Mexican populations of the dengue vector Aedes aegypti')."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper presents statistical and population genetic modeling re-analyzing previously published data from Garcia et al. 2009 (p. 3: 'Field data, collected and analyzed by Garcia et al. [6], was available for analysis')."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No sub-country locations with associated genotype counts are reported; data are simulated or pooled across 78 Mexican locations from a previous study."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Data spanned from 1999 to 2008 without disaggregated yearly genotype tables (p. 6: 'rough estimate between the years 1999 to 2008')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The empirical data analyzed are entirely from a previously published study: 'Field data, collected and analyzed by Garcia et al. [6], was available for analysis' (p. 3)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are required as the paper is fundamentally ineligible."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Mexico"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This methodological/modeling paper develops maximum likelihood methods to estimate insecticide selection pressures, dominance coefficients, and initial frequencies from mosquito field data, using simulated datasets and published data on the Ile1016 mutation in Mexican Aedes aegypti. It does not study Anopheles, does not report target resistance markers, and is not an African field study.",
+    "exclusion_reasons": [
+      "Not an Anopheles study (focuses on Aedes aegypti).",
+      "Does not report any target resistance markers (focuses on Ae. aegypti Ile1016).",
+      "Not an African field population (mosquitoes are from Mexico).",
+      "Not a primary study of field mosquito genotypes (re-analysis and simulation based on published data from Garcia et al. 2009)."
+    ]
+  }
+}

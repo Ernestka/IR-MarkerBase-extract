@@ -1,0 +1,69 @@
+{
+  "id": "2010_Brooke_Larval_Time_Hatch_Insecticide_Resistance_PMC2963243",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies 'Anopheles gambiae S form material from Obuasi' (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mentions 'L1014F kdr mutation', 'rdl mutation', and 'ace-1 mutation' (page 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a one-page conference presentation abstract without numerical genotype counts, allele frequencies, or sample sizes for the markers mentioned."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Testing was conducted on a colonized laboratory strain ('GAH colony') established from Obuasi, Ghana and selected sub-colonies, rather than field-collected mosquitoes or their direct F1 progeny (page 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Reports primary experimental research on larval time-to-hatch and resistance phenotypes in the GAH colony."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions the colony was derived from the 'Obuasi region of Ghana' (page 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates or years for the original material are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No external dataset overlap is stated, although this conference abstract represents an initial report of laboratory experiments."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "This is a conference abstract published in a supplement; no external supplementary datasets are linked or referenced."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S",
+      "Rdl A296G"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This conference abstract describes experiments investigating larval time-to-hatch and resistance to various insecticides in the GAH laboratory colony of Anopheles gambiae from Obuasi, Ghana. While L1014F kdr, rdl, and ace-1 mutations are mentioned as being associated with resistance, no quantitative genotype numbers or frequencies are reported, and testing was performed strictly on a laboratory colony.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

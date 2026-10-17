@@ -1,0 +1,63 @@
+{
+  "id": "2008_Greenwood_Malaria_Progress_Perils_Prospects_Eradication_PMID18382739",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses malaria transmission and control of Anopheles mosquitoes, including Anopheles gambiae and Anopheles funestus (e.g. page 1273)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No resistance markers are genotyped in this article; it only generally references pyrethroid resistance mutations (e.g., kdr citation 123 on page 1273)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a narrative review and does not present any mosquito sample sizes, genotype counts, or allele frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field collections or empirical testing of mosquito populations are conducted in this paper."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This article is a review article in the 'Review series' section of the Journal of Clinical Investigation (pages 1266-1276)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary mosquito sampling locations are surveyed."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito collections are performed in this study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; narrative review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; this is a review paper."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a broad review covering malaria biology, antimalarial drug resistance, vaccine development, and vector control strategies. It does not present any primary empirical mosquito genotyping or field collection data.",
+    "exclusion_reasons": [
+      "Not a primary study (review article)",
+      "Does not genotype target insecticide resistance markers",
+      "No extractable genotype data",
+      "No field-collected mosquito populations analysed"
+    ]
+  }
+}

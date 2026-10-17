@@ -1,0 +1,65 @@
+{
+  "id": "2010_Djogbenou_Costs_Insensitive_Acetylcholinesterase_Insecticide_PMID20070891",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates life-history traits in Anopheles gambiae s.s. (page 2, 'Two strains of An. gambiae s.s. were used in this study')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study focuses on the ace-1 G119S (G280S) mutation (page 2, 'The ace-1 gene in mosquitoes codes for acetylcholinesterase enzyme... This is a GGC-to-AGC point mutation leading to a glycine-to-serine amino-acid substitution at position 119, or G119S')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No field-collected mosquito populations were genotyped to report genotype/allele counts or frequencies; the experiments utilized predefined homozygous laboratory colonies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Only laboratory strains were tested (page 2, 'Two strains of An. gambiae s.s. were used in this study. Kisumu is a reference strain... The other strain was AcerKis, which is homozygous for the G119S mutation... due to 19 generations of back-crossing and selection'). No field-caught F0 or F1 mosquitoes were evaluated."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper reporting empirical laboratory experiments measuring fitness costs of resistance."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field mosquito collections were performed for this study."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates or sampling windows are present because only laboratory colonies were analyzed."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard laboratory strain experiment without field surveillance data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files required; the paper is inherently ineligible due to using only laboratory strains."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory study evaluated the fitness costs of insensitive acetylcholinesterase resistance (Ace-1 G119S) by comparing developmental and life-history traits in Anopheles gambiae laboratory strains Kisumu and AcerKis under varying larval food treatments. Because only laboratory colonies were used and no wild African field populations were genotyped, the paper is not eligible.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

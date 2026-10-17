@@ -1,0 +1,63 @@
+{
+  "id": "2015_Sutherland_Transcriptomic_Responses_Emamectin_Benzoate_Pacifi_PMID25685190",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study investigates salmon lice (Lepeophtheirus salmonis), an ectoparasitic copepod of salmon (page 133)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No Anopheles insecticide resistance target markers were examined; the study focuses on transcriptomic responses and candidate genes related to emamectin benzoate resistance in salmon lice."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequencies/counts for any target resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Samples were collected from salmon farms in British Columbia and New Brunswick, Canada (page 135)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study reports original primary transcriptomic and RT-qPCR data on salmon lice exposed to emamectin benzoate."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred near Campbell River, British Columbia, and Back Bay / Grand Manan, New Brunswick, Canada (page 135)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Pacific lice were collected in March 2009 and Atlantic lice were collected in 2012 (page 135)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable to African Anopheles surveillance networks."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study does not contain data on Anopheles or relevant insecticide resistance markers."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study examines transcriptomic responses and expression differences linked to emamectin benzoate resistance in salmon lice (Lepeophtheirus salmonis) in Canada. It does not study Anopheles or mosquito resistance markers.",
+    "exclusion_reasons": [
+      "not_anopheles",
+      "no_target_markers",
+      "no_genotype_data",
+      "not_african_population"
+    ]
+  }
+}

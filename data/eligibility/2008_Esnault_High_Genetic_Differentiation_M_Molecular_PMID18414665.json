@@ -1,0 +1,74 @@
+{
+  "id": "2008_Esnault_High_Genetic_Differentiation_M_Molecular_PMID18414665",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "A total of 446 An. gambiae mosquitoes (257 M and 189 S) were sampled from 21 sites in Africa (page 3, Materials and Methods)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study investigates insertion polymorphisms of transposable elements (Aara8, Ozymandias, Crusoe) to study genetic differentiation between the M and S molecular forms of An. gambiae. It mentions kdr only in the introduction and in Figure 7 by citing previous literature (page 1-2, 6); no insecticide resistance target markers were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No insecticide resistance marker genotype data were generated or reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 21 field sites in 10 African countries: Benin, Burkina Faso, Cameroon, Ghana, Ivory Coast, Madagascar, Mali, Mozambique, Niger, and Tanzania (page 3, Figure 1 and Materials and Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article analyzing transposable element insertion polymorphisms in field-collected An. gambiae."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific sampling sites and geographic coordinates are reported for all 21 locations (e.g., Ladji 6°21' N, 2°27' E; page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates or years are provided in the text for the mosquito samples."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine collections across multiple sites; no indication that these transposable element data duplicate existing marker datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files (Table S1, Table S2) cover between-population differentiation indices and primer sequences, not target resistance marker data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Cameroon",
+      "Côte d'Ivoire",
+      "Ghana",
+      "Madagascar",
+      "Mali",
+      "Mozambique",
+      "Niger",
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 446,
+    "summary": "This study analyzes transposable element insertion polymorphisms (Aara8, Ozymandias, Crusoe) using Transposon Display to evaluate genetic differentiation between the M and S molecular forms of Anopheles gambiae across 10 African countries. No insecticide resistance target markers were genotyped.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide-resistance markers",
+      "Does not report extractable genotype data for resistance markers"
+    ]
+  }
+}
