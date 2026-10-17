@@ -1,0 +1,66 @@
+{
+  "id": "2016_Zhou_Impact_Long_Lasting_Microbial_Larvicides_PMID27558161",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The protocol focuses on malaria vectors Anopheles gambiae s.s., An. arabiensis, and An. funestus (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr in the background text but does not genotype or report data for any target resistance markers (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or extractable marker data are reported in this study protocol."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The protocol describes planned field trials in Kakamega and Vihiga counties, western Kenya (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a study protocol paper for a cluster randomized controlled trial (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Locations are specified at county/village level in Kakamega and Vihiga counties, Kenya (Page 3, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Trial timeline covers specific planned intervals and references historical baselines (Page 3, 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "None"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are missing; the paper itself is a trial protocol without marker genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article presents a study protocol for a cluster randomized controlled trial evaluating the impact of long-lasting microbial larvicides on malaria transmission in western Kenya. It does not perform or report target marker genotyping.",
+    "exclusion_reasons": [
+      "Does not report genotype data for target resistance markers."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2010_Howard_Entomopathogenic_Fungus_Beauveria_Bassiana_Reduces_PMID20843321",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Laboratory behavioural assays tested Anopheles gambiae s.s. VKPER strain, and 87 wild Anopheles gambiae s.s. females were collected during field trials (page 2, 7)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study mentions the kdr gene mutation in background literature and in the colony description of An. gambiae VKPER, but does not perform any molecular genotyping of target resistance markers in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts or frequencies are reported for any population."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field collections were conducted in experimental huts in Ladji village, Cotonou, Benin (page 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary study measuring behavioural responses and mortality in experimental huts."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ladji village (6°23’23N, 2°25’56E), Cotonou, Benin (page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field trial ran from 6th April to 6th June 2009 (pages 5 and 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original experimental hut trial data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are indicated to contain resistance marker genotyping data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of the entomopathogenic fungi Metarhizium anisopliae and Beauveria bassiana on mosquito entry, blood-feeding, and mortality in experimental huts in Benin. While wild Culex quinquefasciatus and small numbers of An. gambiae were collected, no molecular genotyping of insecticide-resistance markers was performed.",
+    "exclusion_reasons": [
+      "Does not genotype any of the target insecticide resistance markers.",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

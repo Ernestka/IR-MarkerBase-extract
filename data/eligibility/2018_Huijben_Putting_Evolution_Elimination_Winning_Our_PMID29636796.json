@@ -1,0 +1,67 @@
+{
+  "id": "2018_Huijben_Putting_Evolution_Elimination_Winning_Our_PMID29636796",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses malaria vectors including Anopheles gambiae and Anopheles funestus (e.g. page 416, Section 2.1; page 417, Section 2.1.2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr generally in review/conceptual terms (e.g. page 417), but does not conduct or report primary genotyping for any target markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies are presented in this review article."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No mosquito specimens were sampled or tested; the article is a literature review."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly designated as a 'REVIEW AND SYNTHESES' (page 415)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable; no primary mosquito field collection was conducted."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable; no primary mosquito field collection was conducted."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files containing primary empirical genotype data exist for this review article."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a review and synthesis discussing the application of evolutionary biology principles to malaria control and elimination, covering both antimalarial drug resistance in Plasmodium falciparum and insecticide resistance in Anopheles vectors. It does not present primary empirical field data or genotype counts.",
+    "exclusion_reasons": [
+      "Not a primary study (review article)",
+      "Does not report primary target marker genotyping",
+      "Does not report extractable genotype data",
+      "Does not sample an African field population"
+    ]
+  }
+}

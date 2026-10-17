@@ -1,0 +1,68 @@
+{
+  "id": "2011_Howard_First_Report_Infection_Insecticide_Resistant_PMID21288359",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 2, Methods: 'The mosquitoes used were An. gambiae s.s. VKPER.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page 2 mentions the colony was selected in the past to fix the kdr gene ('This is a pyrethroid-resistant strain that was initially collected from the Valley du Kou in Burkina Faso and then selected repeatedly to fix the kdr gene'), but no molecular genotyping of resistance markers was performed in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies are reported for any population."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Page 3, Methods: The only mosquitoes tested were from a long-established laboratory colony: 'The VKPER strain has been maintained as a colony at the Centre de Recherche Entomologique de Cotonou (CREC) in Benin for 14 years and is subject to standard rearing.'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary empirical study investigating entomopathogenic fungus infection under field conditions in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 3: 'In Cotonou, Benin, pieces of netting were treated with B. bassiana conidia...'"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 3: 'The nets were treated and stored, and bioassays carried out, in June 2009 at the beginning of the wet season.'"
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine laboratory experimental bioassay study using an established colony."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are missing or needed; the study does not report marker genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study tested the virulence and conidial viability of the entomopathogenic fungus Beauveria bassiana against the pyrethroid-resistant Anopheles gambiae s.s. VKPER laboratory colony under ambient field conditions in Cotonou, Benin. No resistance marker genotyping was performed, and no field-collected mosquitoes were used.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide-resistance markers",
+      "Does not report extractable genotype data",
+      "Mosquitoes tested were solely from an established laboratory colony (VKPER maintained for 14 years), not African field populations"
+    ]
+  }
+}

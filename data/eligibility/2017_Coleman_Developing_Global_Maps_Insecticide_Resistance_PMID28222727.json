@@ -1,0 +1,65 @@
+{
+  "id": "2017_Coleman_Developing_Global_Maps_Insecticide_Resistance_PMID28222727",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study collates data across 74 anopheline species or species complexes, including members of the Anopheles gambiae complex and Anopheles funestus (page 3, 'Data availability for standard metrics linked to insecticide resistance')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper collates generic 'kdr allele frequencies' (page 3, Table 1; page 5-6) from past literature, but does not report specific target marker genotypes (e.g. Vgsc L995F or L995S) directly for individual field populations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No population-level extractable genotype counts (RR/RS/SS), allele counts, or frequencies linked to sample sizes are provided in the article; kdr data is only presented as an aggregate global dot map (Figure 3, page 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The database includes field-collected mosquitoes from African countries among 71 malaria endemic countries (page 3, 'Results')."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a secondary database and mapping methodology paper establishing the Malaria Atlas Project-Insecticide Resistance (MAP-IR) database by collating data from published literature and unpublished datasets (page 2, 'Methods')."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data were georeferenced to specific point locations and administrative units (page 2-3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Bioassay records were grouped into specific collection periods (e.g., 2008-2015, 2000-2007) and single collection periods (page 2-3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "This paper explicitly collates existing datasets: 'Resistance data are obtained from three sources; through published articles, by contacting authors, and by contacting the custodians of unpublished datasets' (page 2, 'Methods')."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files describe database fields (Additional file 1) and subnational pyrethroid resistance bioassay records (Additional file 2), neither of which contains primary empirical genotype data for extraction."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article describes the establishment of the Malaria Atlas Project-Insecticide Resistance (MAP-IR) database, collating published and unpublished bioassay and resistance mechanism data globally. Because it is a secondary synthesis and database collation rather than a primary empirical study, and does not report extractable population-level genotype counts or frequencies for specific resistance markers, it is not eligible.",
+    "exclusion_reasons": [
+      "Not a primary study (collates previously published and secondary database records)",
+      "Does not report specific target resistance markers",
+      "Does not report extractable genotype data"
+    ]
+  }
+}

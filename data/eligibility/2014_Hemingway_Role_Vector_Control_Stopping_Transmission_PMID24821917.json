@@ -1,0 +1,67 @@
+{
+  "id": "2014_Hemingway_Role_Vector_Control_Stopping_Transmission_PMID24821917",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Discusses Anopheles gambiae, Anopheles coluzzii, and Anopheles funestus (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Mentions kdr mutations (leucine to phenylalanine or serine, West or East African forms) and metabolic resistance in general discussion and review context, but does not assay or report any specific marker data (page 2-3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele frequencies, or mosquito sample sizes are presented; this is a review article."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No primary field collections are sampled or genotyped in this paper."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly labeled as a 'Review' (page 1) in a theme issue, summarizing vector control challenges and the IVCC pipeline."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary collection sites are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary field mosquito collections are conducted."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper is a narrative review."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article examining vector control challenges, pyrethroid resistance mechanisms, and the development of new insecticides through the Innovative Vector Control Consortium (IVCC). It does not contain primary empirical genotyping data.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_target_marker_genotyped",
+      "no_extractable_genotypes",
+      "no_african_field_population"
+    ]
+  }
+}

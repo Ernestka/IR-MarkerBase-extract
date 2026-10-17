@@ -1,0 +1,63 @@
+{
+  "id": "2017_Norris_Current_Future_Repellent_Technologies_Potential_PMID28146066",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper is a broad review on repellent technologies; while it mentions Anopheles in the text and literature references (e.g., page 5, 8), it does not sample or genotype Anopheles populations."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers are genotyped. Knockdown resistance (kdr) is only mentioned in passing when citing previously published literature on Aedes aegypti (page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "There are no genotype or allele counts or frequencies reported anywhere in the paper."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No African field populations of mosquitoes are collected or tested for resistance markers."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly labeled as a 'Review' (page 1) surveying repellent technologies and modes of action."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary mosquito collection sites are studied."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito collection dates/years are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper is fundamentally ineligible as a review."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a review focusing on contact and spatial repellent technologies for mosquito-borne disease control, mechanisms of action, and novel biorational chemistries. It does not perform primary empirical genotyping of insecticide-resistance markers in African Anopheles field populations.",
+    "exclusion_reasons": [
+      "Review article (not a primary empirical study)",
+      "Does not genotype target insecticide resistance markers",
+      "No extractable genotype data",
+      "No African field mosquito populations tested"
+    ]
+  }
+}

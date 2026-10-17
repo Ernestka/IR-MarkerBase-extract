@@ -1,0 +1,64 @@
+{
+  "id": "2007_Pennetier_Synergy_Repellents_Non_Pyrethroid_Insecticides_PMID17394646",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Under 'Biological material' (page 2): 'The reference susceptible strain of An. gambiae Kisumu was used.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance markers were genotyped in this study; the authors tested net efficacy and synergy between repellents and pyrimiphos-methyl using a laboratory colony."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular genotyping or genotype frequency data are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Under 'Biological material' (page 2): 'The reference susceptible strain of An. gambiae Kisumu was used. This strain, originating from Kenya, has been colonized for many years and is free from any detectable insecticide resistance mechanism.' No field-collected mosquitoes were tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary laboratory bioassay study assessing treated net efficacy and synergy using tunnel tests."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection was conducted; only the Kisumu colony was tested."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field mosquito collection dates; laboratory colony experiments."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard laboratory colony study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data referenced containing field genotype counts."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory study evaluated the synergistic effect of mixing repellents (DEET or KBR 3023) with an organophosphate (pyrimiphos-methyl) on polyester netting against the susceptible laboratory colony Anopheles gambiae Kisumu using tunnel tests. No field mosquitoes were tested and no molecular marker genotyping was performed.",
+    "exclusion_reasons": [
+      "No target insecticide-resistance markers were genotyped.",
+      "No extractable genotype data reported.",
+      "Only a laboratory colony (Kisumu) was used; no African field populations tested."
+    ]
+  }
+}

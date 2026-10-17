@@ -1,0 +1,63 @@
+{
+  "id": "2017_malERA_Refresh_Consultative_Pa_MalERA_Updated_Research_Agenda_Insecticide_PMID29190671",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review discusses insecticide resistance in Anopheles vectors (e.g. An. gambiae, An. funestus) on page 3."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions target site mutations generally ('Two main mechanisms of insecticide resistance have been identified: target site mutations (such as kdr and ace)', page 5), but does not genotype any mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary mosquito genotyping was performed; no genotype counts, allele frequencies, or sample sizes are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "This is a review and research agenda paper; no mosquito field collections were conducted."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is classified as a 'Collection Review' (page 1) outlining the malERA research agenda for insecticide and drug resistance."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary empirical study locations are described."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No empirical mosquito collection dates exist for this review."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; this is a review."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a collection review presenting the malERA Refresh updated research agenda on drug and insecticide resistance in malaria elimination. It contains no primary empirical mosquito genotyping or bioassay data.",
+    "exclusion_reasons": [
+      "Not a primary study (review/agenda paper)",
+      "Does not genotype target insecticide resistance markers",
+      "Does not report extractable genotype data",
+      "Does not report an African field population tested directly"
+    ]
+  }
+}

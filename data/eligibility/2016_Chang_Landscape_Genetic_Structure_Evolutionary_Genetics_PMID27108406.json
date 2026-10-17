@@ -1,0 +1,72 @@
+{
+  "id": "2016_Chang_Landscape_Genetic_Structure_Evolutionary_Genetics_PMID27108406",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles sinensis mosquitoes (Page 1, Abstract; Page 2, 'Methods')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports para-type sodium channel gene mutations at codon 1014: L1014F and L1014S (Page 1, Abstract; Page 5, 'Kdr allele frequency distribution')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Figure 1 shows pie charts of allele frequencies per site, but numerical genotype counts (RR/RS/SS) or exact allele counts per population are not provided in the main text (reported partly in supplementary files, e.g., Table S2 mentions haplotypes)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected exclusively in China across 15 localities in central, south, and southwest China (Page 2, 'Sample collection and preparation'; Table 1). No African populations were surveyed."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting novel field collections and molecular analysis (Page 2, 'Methods')."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 provides specific localities and geographic coordinates (latitude and longitude) for 15 sites across China."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Collection dates in Table 1 span from July 2007 (YNNE) to August 2012 (SDHZ), covering a range of >5 years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field collections across China described by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study is fundamentally ineligible due to non-African field populations."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2007,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 344,
+    "summary": "This study investigates the evolutionary genetics and spatial population structure of kdr mutations (L1014F, L1014S, and L1014C) in Anopheles sinensis collected across 15 localities in China.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

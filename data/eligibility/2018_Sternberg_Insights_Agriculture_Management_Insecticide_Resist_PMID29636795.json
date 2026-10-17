@@ -1,0 +1,63 @@
+{
+  "id": "2018_Sternberg_Insights_Agriculture_Management_Insecticide_Resist_PMID29636795",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses malaria vectors including Anopheles gambiae (e.g. page 406, 'pyrethroid-based IRS was still used effectively for malaria control on Bioko Island despite high levels of kdr in the Anopheles gambiae population')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses knockdown resistance (kdr) conceptually (e.g. page 406), but does not genotype any specific target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts or allele frequency data are reported; page 411 states 'There are no data associated with this manuscript to archive.'"
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field collections of mosquitoes were conducted for this perspective paper."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a perspective/review article exploring overlaps between managing insecticide resistance in agriculture and public health, not a primary research study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary field sampling locations are presented."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary field collections or collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a perspective review article without primary empirical mosquito data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data files are referenced or needed."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a perspective article reviewing and comparing insecticide resistance management strategies between agriculture and public health. It contains no primary empirical mosquito sampling, bioassays, or marker genotyping data.",
+    "exclusion_reasons": [
+      "Not a primary study (perspective/review paper).",
+      "Does not genotype target insecticide-resistance markers.",
+      "Does not report extractable genotype data.",
+      "Does not study field-collected African mosquito populations."
+    ]
+  }
+}

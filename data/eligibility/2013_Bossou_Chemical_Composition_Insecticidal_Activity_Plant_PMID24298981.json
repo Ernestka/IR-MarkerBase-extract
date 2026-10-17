@@ -1,0 +1,67 @@
+{
+  "id": "2013_Bossou_Chemical_Composition_Insecticidal_Activity_Plant_PMID24298981",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adults of Anopheles gambiae (Kisumu susceptible strain and Ladji field-derived resistant strain) were tested in bioassays (page 4, 'Mosquito collection')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No molecular genotyping of resistance markers was performed in this study. The paper only mentions kdr in the discussion by citing prior literature (page 13, '...which has permitted the apparition and the increase of kdr mutation in A. gambiae populations in Benin [7,10]')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies are reported because no molecular assays were conducted."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field larvae were collected from a natural breeding site in Ladji, Cotonou, Benin between March 2012 and June 2012 and reared to adults (page 4, 'Mosquito collection')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study evaluating the chemical composition and insecticidal activity of plant essential oils against Anopheles gambiae."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquito collection site: 'natural breeding site in \"Ladji\" in Cotonou' (page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae were collected 'from March 2012 to June 2012' (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study tested the insecticidal efficacy of essential oils from nine plant species collected in Benin against susceptible (Kisumu) and pyrethroid-resistant (Ladji, Cotonou) Anopheles gambiae using WHO susceptibility test kits. No molecular genotyping of resistance markers was performed.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

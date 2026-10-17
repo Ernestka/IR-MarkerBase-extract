@@ -1,0 +1,68 @@
+{
+  "id": "2010_Yadouleton_Impact_Expansion_Urban_Vegetable_Farming_PMID21143999",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult collections yielded Anopheles gambiae s.l. (Anopheles gambiae s.s. and Anopheles arabiensis) along with minor numbers of An. pharoensis, An. ziemanni, and An. funestus (Page 1, Abstract; Page 4, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for the 'Leu-Phe kdr' mutation (Vgsc L995F / L1014F) and 'ace-1R' mutation (Ace-1 G280S) (Page 4, Page 6, Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 (Page 7) provides exact sample sizes, genotype counts (RR, RS, SS), and allelic frequencies for kdr and ace-1 across three sites: Houeyiho (N=360), Acron (N=360), and Azèrèkè (N=360)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using pyrethrum spray catches and human landing catches from January to December 2009 in three urban sites in Benin: Houeyiho (Cotonou), Acron (Porto-Novo), and Azèrèkè (Parakou) (Page 2, Study area and Field mosquito collection)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original entomological and genetic survey data collected in 2009."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific study sites with GPS coordinates are provided: Houeyiho in Cotonou (6°45'N, 2°31'E), Acron in Porto-Novo (6°30'N, 2°47'E), and Azèrèkè in Parakou (9°22'N, 2°40'E) (Page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted monthly from January 2009 to December 2009 (Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is an original cross-sectional field study conducted in 2009 without indication of re-used external datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype counts and frequencies are reported directly in Table 5 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1080,
+    "summary": "This study evaluated the impact of urban vegetable farming on malaria transmission in three cities in Benin (Cotonou, Porto-Novo, and Parakou) in 2009. A total of 1,080 Anopheles gambiae s.l. collected via indoor pyrethrum spray catches were genotyped for Vgsc L995F (kdr-w) and Ace-1 G280S, with complete sample sizes and genotype distributions reported.",
+    "exclusion_reasons": []
+  }
+}

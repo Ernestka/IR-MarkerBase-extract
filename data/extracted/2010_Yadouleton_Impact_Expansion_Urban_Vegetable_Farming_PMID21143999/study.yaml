@@ -1,0 +1,22 @@
+study_id: 2010_Yadouleton_Impact_Expansion_Urban_Vegetable_Farming_PMID21143999
+title: The impact of the expansion of urban vegetable farming on malaria transmission
+  in major cities of Benin
+first_author: Anges Yadouléton
+doi: 10.1186/1756-3305-3-118
+pmid: '21143999'
+publication_year: 2010
+countries:
+- Benin
+data_source: journal article
+provenance:
+  source_text: Yadouléton et al. Parasites & Vectors 2010, 3:118. The impact of the
+    expansion of urban vegetable farming on malaria transmission in major cities of
+    Benin
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-17'
+pmid_source: Europe PMC (from DOI)

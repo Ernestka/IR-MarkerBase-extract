@@ -1,0 +1,63 @@
+{
+  "id": "2018_South_Insecticide_Resistance_Evolution_Mixtures_Sequence_PMID29448925",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The model is developed in the context of malaria vector control, and uses Anopheles gambiae data from previously published literature as a demonstration example (page 13-14: 'here Anopheles gambiae data are extracted for pyrethroid (Alpha-cypermethrin) resistance...')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr and ace-1 mutations conceptually and cites published data for kdr [26] and ace1 [27] to parameterize model fitness values (page 13-14), but conducts no primary genotyping of target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts or allele frequencies are reported; the paper only uses genotype-specific survival parameters taken from earlier studies (Kolaczinski et al. 2000 [26] and Essandoh et al. 2013 [27]) for model illustration (Table 6, page 14)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No mosquitoes were collected or tested in this study; it is a population genetics simulation and mathematical modelling paper."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a theoretical modelling and simulation paper describing a model of insecticide resistance evolution; it re-uses previously published data to demonstrate parameter estimation (page 1, page 13-14)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable; theoretical modelling paper with no field study sites."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable; theoretical modelling paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; pure modelling study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; study is a theoretical model."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article presents a population genetics simulation model implemented in R to investigate the evolution of insecticide resistance under single use, sequential use, and mixture strategies for vector control. It is purely a theoretical and simulation study with no primary mosquito collections or empirical genotyping data.",
+    "exclusion_reasons": [
+      "Pure modelling study without primary empirical data (is_primary_study = false)",
+      "No primary field collection of African Anopheles mosquitoes (african_field_population = false)",
+      "No primary genotyping of target resistance markers (reports_target_markers = false)",
+      "No extractable primary genotype counts or frequencies (reports_extractable_genotype_data = false)"
+    ]
+  }
+}

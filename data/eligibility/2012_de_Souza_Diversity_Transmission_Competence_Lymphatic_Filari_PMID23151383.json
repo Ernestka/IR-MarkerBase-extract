@@ -1,0 +1,68 @@
+{
+  "id": "2012_de_Souza_Diversity_Transmission_Competence_Lymphatic_Filari_PMID23151383",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae s.l. and Anopheles funestus in West Africa (page 1, Abstract; page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the kdr mutation in passing when reviewing literature (page 3: 'The pyrethroid resistance mechanism of kdr mutation had been found distributed in the M and S forms of An. gambiae s.s., [47-49]'), but conducts no genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies are presented in this review article."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito collections or testing were carried out for this study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly labeled as a 'REVIEW' (page 1) summarizing vector-parasite interactions and the diversity of lymphatic filariasis vectors in West Africa."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No new primary collection sites are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary collection dates exist."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data files are referenced or needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles melas",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article synthesizing information on the diversity and transmission competence of Anopheles lymphatic filariasis vectors in West Africa. It does not present any primary empirical data or marker genotyping.",
+    "exclusion_reasons": [
+      "is_primary_study is false (review article)",
+      "reports_target_markers is false (no primary genotyping performed)",
+      "reports_extractable_genotype_data is false",
+      "african_field_population is false"
+    ]
+  }
+}
