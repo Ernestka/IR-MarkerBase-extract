@@ -1,0 +1,68 @@
+{
+  "id": "2015_King_Hybridization_Parasites_Consequences_Adaptive_Evol_PMID26336070",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Box 3 (page 5) focuses on Anopheles mosquitoes (e.g., Anopheles gambiae and A. coluzzii) as malaria vectors."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Box 3 (page 5) mentions the introgression of the insecticide resistance mutation 'Vgsc-L1014F from A. gambiae to A. coluzzii'."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is an opinion/review paper; no genotype counts, sample sizes, or allele frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito collections or testing were conducted in this study; it only discusses literature findings."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is an 'OPINION' article synthesizing published literature on parasite and vector hybridization, not a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary field locations are sampled or analyzed."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary mosquito sampling was conducted."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a perspective/opinion piece without primary data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data exists or is needed."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is an opinion article reviewing hybridization and introgression in parasites and disease vectors, citing prior studies on Vgsc-L1014F introgression between An. gambiae and An. coluzzii. It does not report primary empirical genotype data.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (opinion/review article).",
+      "Does not report extractable genotype data (no genotype or allele counts/frequencies).",
+      "Does not test African field populations directly."
+    ]
+  }
+}

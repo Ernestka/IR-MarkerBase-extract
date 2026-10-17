@@ -1,0 +1,68 @@
+{
+  "id": "2018_Sternberg_Evaluating_Impact_Screening_Plus_Eave_PMID30021543",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study protocol focuses on malaria vectors including Anopheles gambiae s.l., Anopheles funestus, and Anopheles nili (page 7)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The protocol states that 'PCR will also be used to type An. gambiae s.l. females to species, and to measure the prevalence of kdr and ace-1 resistance mutations' (page 7), but no actual genotyping data or specific marker alleles are reported."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a study protocol; no empirical genotype data, counts, or frequencies are presented."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The proposed trial will collect field mosquitoes from the Gbêkê region around Bouaké in central Côte d'Ivoire (pages 3-4)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This article is a study protocol describing the methodology of a planned cluster randomized controlled trial, not a primary research study reporting results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The trial is situated in the Gbêkê region within a 60 km radius around Bouaké, Côte d'Ivoire (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The timetable describes trial activities scheduled between 2016 and 2019 (Table 1, page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is an original study protocol."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; this is a study protocol without empirical genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles nili"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This publication is a study protocol for a two-armed cluster randomized controlled trial evaluating the impact of screening plus eave tubes (SET) on malaria transmission in central Côte d'Ivoire. No empirical resistance marker genotyping results or bioassay data are reported.",
+    "exclusion_reasons": [
+      "Article is a study protocol without empirical data",
+      "No target insecticide resistance markers genotyped or reported",
+      "No extractable genotype data provided"
+    ]
+  }
+}

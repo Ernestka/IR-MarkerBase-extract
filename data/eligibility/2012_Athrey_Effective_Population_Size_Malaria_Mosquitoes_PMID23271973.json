@@ -1,0 +1,76 @@
+{
+  "id": "2012_Athrey_Effective_Population_Size_Malaria_Mosquitoes_PMID23271973",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae (M and S forms), Anopheles melas, and Anopheles moucheti from Equatorial Guinea, Cameroon, and Mali (page 1, Abstract; page 3, Results)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only genotypes neutral microsatellite loci (13-17 loci per species). Although kdr alleles L1014F and L1014S are mentioned in the discussion (page 9), those data are cited from external literature (Reddy et al., reference 36); no target resistance markers were genotyped as part of this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies for target insecticide resistance markers were generated or reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field populations in Equatorial Guinea (Bioko Island and mainland sites), Cameroon (Tiko), and Mali (Fanzana) (page 3, Figure 1; page 4, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary research article analyzing mosquito demographic history using microsatellite markers."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sites include Punta Europa, Arena Blanca, Ukomba, Mongomo, Yengue, Niefang, and Cogo in Equatorial Guinea; Tiko in Cameroon; and Fanzana in Mali (page 4, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples are tied to specific months and years between 2002 and 2010 (Table 1, page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine research field collections and public microsatellite repository reference data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The article and its supplementary materials focus on microsatellite demographic modeling; no supplementary target resistance marker data exist."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles melas",
+      "Anopheles moucheti"
+    ],
+    "countries": [
+      "Equatorial Guinea",
+      "Cameroon",
+      "Mali"
+    ],
+    "collection_years": [
+      2002,
+      2003,
+      2004,
+      2006,
+      2007,
+      2009,
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study analyzes 13-17 microsatellite loci across Anopheles gambiae, An. melas, and An. moucheti populations from Equatorial Guinea, Cameroon, and Mali to determine the impact of vector control interventions on effective population size (Ne) using Approximate Bayesian Computation. The study did not genotype any target insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "The study did not genotype any of the required target insecticide resistance markers (it only tested neutral microsatellite markers)."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2012_Bradley_Increased_Risks_Malaria_Due_Limited_PMID22835049",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates vector control against Anopheles gambiae on Bioko Island, Equatorial Guinea (page 1, page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr only in the background section citing prior literature (reference 10) to explain historical switches in IRS strategy, but does not genotype any target resistance markers in this study (page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or sample sizes for resistance markers are reported in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito populations were genotyped. Cone bioassays used susceptible adult mosquitoes reared in a local insectary (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary study reporting results from the 2011 malaria indicator survey and WHO cone bioassays on Bioko Island (pages 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Studies were conducted across 32 clusters/sentinel sites on Bioko Island, Equatorial Guinea (page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Data were collected during the 2011 annual malaria indicator survey and cone bioassays conducted in 2010 and 2011 (page 3, page 6). "
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No genotype data reported, so no risk of molecular sample overlap."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No target marker genotyping was performed or described as being in supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper evaluates the impact of bendiocarb IRS residual life and LLIN usage on malaria prevalence in children on Bioko Island, Equatorial Guinea, using 2011 survey data and WHO cone bioassays on sprayed walls using insectary-reared mosquitoes. The study does not perform any molecular marker genotyping.",
+    "exclusion_reasons": [
+      "Does not report target resistance marker genotyping",
+      "No extractable genotype data",
+      "Does not genotype African field populations of mosquitoes"
+    ]
+  }
+}

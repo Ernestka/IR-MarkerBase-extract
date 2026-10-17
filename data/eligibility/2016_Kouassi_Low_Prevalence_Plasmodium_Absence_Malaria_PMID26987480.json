@@ -1,0 +1,69 @@
+{
+  "id": "2016_Kouassi_Low_Prevalence_Plasmodium_Absence_Malaria_PMID26987480",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study addresses the bio-ecology of larval and adult stages of malaria vectors, Plasmodium infection in Anopheles gambiae s.l. in the city of Conakry, Guinea (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The determination of the knock-down mutation conferring resistance to pyrethroids was undertaken using the method of Martinez-Torres et al. [23] (page 4). This method detects the L1014F (L995F) mutation, referred to in the text as the Leu-Phe kdr mutation (page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 (page 10) provides genotype counts (RR, RS, SS) for the kdr mutation in An. coluzzii and An. gambiae s.s. across different districts in Conakry."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult mosquitoes were collected in 15 communities in the five districts of Conakry, Guinea, using exit traps and indoor spraying catches over a 1-year period (November 2012 to October 2013) (Abstract, page 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections and molecular analysis of mosquito populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for five districts in Conakry: Dixinn, Kaloum, Matam, Matoto, and Ratoma (page 2, Table 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected over a 1-year period from November 2012 to October 2013 (Abstract, page 1) or December 2012 to November 2013 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors state that 'To date no molecular identification of members of the An. gambiae complex had been undertaken in Conakry' (page 2), suggesting this is a novel dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype counts and site information are contained within the main text and tables (specifically Table 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Guinea"
+    ],
+    "collection_years": [
+      2012,
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 102,
+    "summary": "The study reports the species composition and kdr (L995F) genotype frequencies of Anopheles gambiae s.l. in Conakry, Guinea, collected between 2012 and 2013. Genotype counts (RR, RS, SS) are provided for An. coluzzii and An. gambiae s.s. across five districts. No bioassays were performed.",
+    "exclusion_reasons": []
+  }
+}

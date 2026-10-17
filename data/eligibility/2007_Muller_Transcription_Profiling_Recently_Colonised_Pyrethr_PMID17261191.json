@@ -1,0 +1,68 @@
+{
+  "id": "2007_Muller_Transcription_Profiling_Recently_Colonised_Pyrethr_PMID17261191",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. (Odumasy and Kisumu strains), page 1."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No primary genotyping of target resistance markers was conducted. The paper only mentions that the Odumasy strain has a high frequency (84%) of West African kdr (Vgsc L995F) based on previous literature (Yawson et al. 2004) and citing unpublished data that the laboratory colony is fixed for kdr (page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies were generated or reported in this study; it is an expression profiling study using the detox microarray chip."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes used were colonized laboratory strains (Odumasy strain colonized in 2002 and laboratory-selected with permethrin; and Kisumu susceptible strain), page 9."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting microarray gene expression profiling in Anopheles gambiae."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The Odumasy strain originated from Odumasy, Southern Ghana (page 8-9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Specimens for the Odumasy colony were collected in 2002 (page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine laboratory strain comparison study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional file 1 contains microarray transcript expression values, not field genotype frequencies."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2002
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study performs microarray expression profiling using the detox chip to identify metabolic resistance genes (such as CYP6M2 and CYP6Z2) upregulated in a colonized pyrethroid-resistant strain from Odumasy, Ghana, compared with the Kisumu strain. No field mosquito populations were genotyped for resistance markers.",
+    "exclusion_reasons": [
+      "No target resistance markers were genotyped in this study.",
+      "No extractable field genotype frequency or count data reported.",
+      "Only colonized laboratory strains (Odumasy and Kisumu) were tested."
+    ]
+  }
+}

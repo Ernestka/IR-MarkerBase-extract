@@ -1,0 +1,69 @@
+{
+  "id": "2019_Hawkins_Evolutionary_Origins_Pesticide_Resistance_PMID29971903",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Discusses Anopheles gambiae and Anopheles coluzzii in the context of pesticide resistance evolution (e.g., page 143, Section V(1) and Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Discusses Vgsc L1014F, L1014S, and Ace-1 G119S in Anopheles gambiae/coluzzii (page 143, Section V(1))."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This review paper does not report novel, extractable genotype counts or frequencies for any mosquito population; it merely summarizes previously published literature."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No primary mosquito collections or field populations were tested in this paper."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review article ('In this review, we consider what is known about the evolutionary origins of resistance to pesticides...', page 136, Section I) published in Biological Reviews."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field study conducted; literature examples cite locations from other studies (e.g., Selinkenyi, Mali from Norris et al., 2015)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collections performed by this study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; this is a review paper."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a review comparing evolutionary origins of pesticide resistance (de novo mutations vs standing genetic variation and introgression) across insecticides, herbicides, and fungicides. It does not present any primary field data or extractable genotype data.",
+    "exclusion_reasons": [
+      "not a primary study (review article)",
+      "no extractable genotype data",
+      "no primary African field mosquito collections tested"
+    ]
+  }
+}

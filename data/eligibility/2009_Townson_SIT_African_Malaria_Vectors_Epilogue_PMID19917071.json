@@ -1,0 +1,86 @@
+{
+  "id": "2009_Townson_SIT_African_Malaria_Vectors_Epilogue_PMID19917071",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses the Anopheles gambiae complex and Anopheles arabiensis (page 1, 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the L1014F (Vgsc L995F) mutation but only by citing other studies (e.g., Santolamazza et al. [17] on page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any primary genotype counts or frequencies; it provides a summary of existing literature."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The paper discusses mosquito populations in various African countries including Senegal, Nigeria, Uganda, and Sudan (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is an 'Epilogue' to a supplement, serving as a summary and commentary on the prospects of SIT, rather than a primary empirical study (page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "While it mentions specific regions like Zanzibar and La Réunion, it does not provide primary data tied to specific sites."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary collection dates are provided."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "As a summary/epilogue, it does not present new data that could overlap with other primary studies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a summary and does not refer to supplementary tables containing primary genotype data for this specific article."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Senegal",
+      "Nigeria",
+      "Cameroon",
+      "Angola",
+      "Uganda",
+      "Sudan",
+      "Rwanda",
+      "Tanzania",
+      "Benin",
+      "Ethiopia",
+      "Ghana",
+      "Kenya",
+      "Liberia",
+      "Madagascar",
+      "Malawi",
+      "Mali",
+      "Mozambique",
+      "Zambia"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is an epilogue to a supplement focused on the development of the Sterile Insect Technique (SIT) for African malaria vectors. It provides a high-level overview of the challenges and current status of vector control in Africa, citing existing literature on insecticide resistance markers (such as kdr L1014F) and bioassay results from other studies. It does not contain any primary genotype or bioassay data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "reports_target_markers"
+    ]
+  }
+}

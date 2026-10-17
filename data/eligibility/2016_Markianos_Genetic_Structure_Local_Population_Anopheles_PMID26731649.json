@@ -1,0 +1,69 @@
+{
+  "id": "2016_Markianos_Genetic_Structure_Local_Population_Anopheles_PMID26731649",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Members of the Anopheles gambiae species complex are primary vectors of human malaria in Africa (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "the genotype for the nucleotide mutation of the para gene associated with pyrethroid insecticide resistance (kdr, Fig 1D) [34] (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Fig 1D and 2D show kdr genotypes (RR, RS, SS) for 422 mosquitoes. S4 Table contains the raw genotype data for all individuals (Page 12)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the Sudan Savanna region of Burkina Faso in the village of Goundry... during the 2007 and 2008 malaria transmission seasons (Page 9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "we used a genome-wide custom SNP typing array to analyze a population collection from a single geographic region in West Africa (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "village of Goundry (12°30'N, 1°20'W), 30 km N of the capital city, Ouagadougou (Page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "during the 2007 and 2008 malaria transmission seasons (Page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Of the 456 unique samples genotyped here, only 160 samples (35%) were previously genotyped and analyzed... [14] (Page 10). Reference 14 is Riehle et al. 2011."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "S4 Table. Genotype data for mosquito individuals typed on the Illumina chip. (XLSX) (Page 12)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2007,
+      2008
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 422,
+    "summary": "This study investigates the genetic structure of the Anopheles gambiae complex in Goundry, Burkina Faso, using a custom 1536-SNP array. The researchers genotyped 422 mosquitoes collected in 2007 and 2008, identifying four distinct population subgroups: A. coluzzii, A. gambiae, A. arabiensis, and a novel 'Goundry' form. The study reports genotypes for the Vgsc L1014F (kdr) mutation, showing its distribution across these subgroups. While the primary focus is on population genetics and Plasmodium susceptibility, the inclusion of extractable kdr genotype data makes it eligible.",
+    "exclusion_reasons": []
+  }
+}

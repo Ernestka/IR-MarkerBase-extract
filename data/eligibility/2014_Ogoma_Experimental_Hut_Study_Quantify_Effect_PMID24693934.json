@@ -1,0 +1,69 @@
+{
+  "id": "2014_Ogoma_Experimental_Hut_Study_Quantify_Effect_PMID24693934",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies evaluated wild Anopheles arabiensis and colonized Anopheles gambiae s.s. in experimental huts (page 2, 'Methods'; page 9, 'Experiment 1 field')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "PCR was performed only for species identification of the Anopheles gambiae complex (page 6, 'Mosquito handling and identification'; page 9, 'Experiment 1 field'). No target insecticide-resistance markers were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No insecticide resistance marker genotype or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field trials were conducted in Lupiro village, Kilombero valley, south-east Tanzania (page 3, 'Experiment 1: field - Study area')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary empirical experimental hut study measuring entomological parameters and repellency/toxicity of DDT and airborne pyrethroids."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Lupiro village in the Kilombero valley, south-east Tanzania (page 3, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field experiments were conducted between 24th November 2010 and 15th October 2011 (page 6, 'Mosquito collection')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary experimental hut evaluation with original mosquito collection and release data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are indicated as containing missing resistance marker genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study assesses the deterrence, excito-repellency, feeding inhibition, and mortality effects of DDT indoor residual spraying and airborne pyrethroid coils (transfluthrin and metofluthrin) on An. arabiensis in field experimental huts in Lupiro, Tanzania, and laboratory-reared An. gambiae s.s. in a semi-field system. No insecticide resistance target markers were genotyped.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (PCR was only used for Anopheles gambiae complex species identification).",
+      "No extractable resistance marker genotype data are reported."
+    ]
+  }
+}

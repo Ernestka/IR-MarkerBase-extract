@@ -1,0 +1,69 @@
+{
+  "id": "2014_Pocquet_Insecticide_Resistance_Disease_Vectors_Mayotte_PMID24984704",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-17",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae collected in Mayotte (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014F (L995F), Vgsc L1014S (L995S), and Ace-1 G119S (G280S) mutations in Anopheles gambiae (Page 4, 6, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports sample sizes and genotype counts for An. gambiae: L1014F (N=31, all susceptible homozygous), L1014S (N=28, all susceptible homozygous), and Ace-1 G119S (N=30, all susceptible homozygous) (Page 6, 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "An. gambiae larvae collected from a garbage dump in Dzoumogné, Mayotte between 2010 and 2011 (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field study on mosquito insecticide resistance (Page 1-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Dzoumogné, Mayotte (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field sampling conducted between 2010 and 2011 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary field collection in Mayotte with no indication of sample overlap or reuse from external public datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Extractable genotype counts and sample sizes for An. gambiae are fully presented in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Mayotte"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 31,
+    "summary": "This primary study evaluated insecticide susceptibility and target-site resistance markers (Vgsc L1014F, L1014S, and Ace-1 G119S) in Anopheles gambiae (and non-Anopheles species) collected in Dzoumogné, Mayotte in 2010-2011. An. gambiae specimens were fully susceptible to deltamethrin and harbored no Vgsc kdr or Ace-1 G119S mutations.",
+    "exclusion_reasons": []
+  }
+}
