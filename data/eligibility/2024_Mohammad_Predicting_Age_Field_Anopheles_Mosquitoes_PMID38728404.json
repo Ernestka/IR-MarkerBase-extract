@@ -1,0 +1,67 @@
+{
+  "id": "2024_Mohammad_Predicting_Age_Field_Anopheles_Mosquitoes_PMID38728404",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a major malaria vector species of the Gambiae complex in Africa (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper focuses on predicting mosquito age using MALDI-TOF mass spectrometry and deep learning. It does not genotype any of the target insecticide-resistance markers (e.g., Vgsc, Ace-1, Rdl, GSTe2). It mentions kdr allele frequencies in the discussion (page 8) but only by citing previous studies (Dia et al. 2018)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data for resistance markers are reported in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from two sites in Senegal: Keur Massar (Senegal 1) and N'dofan (Senegal 2) (page 9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing the development and validation of a new age-prediction method."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to Keur Massar health district (Dakar) and N'dofan health district (Keur Socé) with specific coordinates provided (page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in November 2019 and December 2021 (page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the collection sites are part of established surveillance areas, the specific samples and MALDI-TOF analysis appear unique to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplementary materials (Data S1-S8) contain data related to mass spectra and age prediction, but do not contain the missing insecticide-resistance genotype data required for eligibility."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2019,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 251,
+    "summary": "This study evaluates the use of MALDI-TOF mass spectrometry combined with deep learning to predict the age of field-collected Anopheles arabiensis mosquitoes from two sites in Senegal. While it provides detailed geographical and temporal data for the field populations, it does not report genotyping for any insecticide-resistance markers, focusing instead on protein fingerprinting for age estimation.",
+    "exclusion_reasons": [
+      "Does not report results for any of the target insecticide-resistance markers."
+    ]
+  }
+}

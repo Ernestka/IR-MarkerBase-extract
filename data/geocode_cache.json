@@ -7,6 +7,8 @@
    "name": "Nazoanga, Nanoro, Boulkiemdé, Centre-Ouest, Burkina Faso"
   }
  ],
+ "bf|Saponé health district (Control arm)": [],
+ "bf|Saponé health district (Intervention arm)": [],
  "bf|Seguedin, Nanoro, Centre-West": [
   {
    "lat": 12.68561,
@@ -721,6 +723,615 @@
    "level": "town",
    "lon": -15.97801,
    "name": "Nouakchott نواكشوط, تفرغ زينة, Nouakchott Ouest نواكشوط الغربية, Mauritanie موريتانيا"
+  }
+ ],
+ "ng|Ado-ekiti": [
+  {
+   "lat": 7.62325,
+   "level": "town",
+   "lon": 5.22274,
+   "name": "Adó-Èkìtì, Ekiti, Nigeria"
+  }
+ ],
+ "ng|Ado-ekiti, Ekiti": [
+  {
+   "lat": 7.62325,
+   "level": "town",
+   "lon": 5.22274,
+   "name": "Adó-Èkìtì, Ekiti, Nigeria"
+  }
+ ],
+ "ng|Akure": [
+  {
+   "lat": 7.25256,
+   "level": "town",
+   "lon": 5.19326,
+   "name": "Akure, Akure South, Ondo, 340021, Nigeria"
+  }
+ ],
+ "ng|Akure, Ondo": [
+  {
+   "lat": 7.25256,
+   "level": "town",
+   "lon": 5.19326,
+   "name": "Akure, Akure South, Ondo, 340021, Nigeria"
+  }
+ ],
+ "ng|Ati-kankan 1": [],
+ "ng|Ati-kankan 1, Ado-ekiti, Ekiti": [],
+ "ng|Ati-kankan 1, Ekiti": [],
+ "ng|Ati-kankan 2": [],
+ "ng|Ati-kankan 2, Ado-ekiti, Ekiti": [],
+ "ng|Ati-kankan 2, Ekiti": [],
+ "ng|Bashorun": [
+  {
+   "lat": 6.50284,
+   "level": "road",
+   "lon": 3.33291,
+   "name": "Salami Bashorun Street, Ijesha Tedo, Surulere, Lagos, 100263, Nigeria"
+  },
+  {
+   "lat": 6.44358,
+   "level": "road",
+   "lon": 3.41685,
+   "name": "Alhaji Bashorun Street, Dolphin Estate, Ikoyi, Eti Osa, Lagos, 332222, Nigeria"
+  },
+  {
+   "lat": 6.42843,
+   "level": "road",
+   "lon": 3.43673,
+   "name": "Younis Bashorun Street, Itirin, Eti Osa, Lagos, 101243, Nigeria"
+  },
+  {
+   "lat": 6.44879,
+   "level": "road",
+   "lon": 3.4731,
+   "name": "Bashorun Okusanya Avenue, Chisco, Lekki Phase I, Eti Osa, Lagos, 101244, Nigeria"
+  },
+  {
+   "lat": 6.44434,
+   "level": "road",
+   "lon": 3.46655,
+   "name": "Akanni Bashorun Street, Maroko, Lekki Phase I, Eti Osa, Lagos, 101244, Nigeria"
+  }
+ ],
+ "ng|Bashorun, Ibadan, Oyo": [
+  {
+   "lat": 7.4023,
+   "level": "road",
+   "lon": 3.86806,
+   "name": "Bashorun Apampa Avenue, Links Reservation, Ibadan North West, Oyo, 234102, Nigeria"
+  },
+  {
+   "lat": 7.41595,
+   "level": "amenity",
+   "lon": 3.93897,
+   "name": "Akeke/Olorombo Health Centre, Bashorun, Lagos-Ibadan Expressway, Ibadan North East, Oyo, 200222, Nigeria"
+  }
+ ],
+ "ng|Bashorun, Oyo": [
+  {
+   "lat": 7.4023,
+   "level": "road",
+   "lon": 3.86806,
+   "name": "Bashorun Apampa Avenue, Links Reservation, Ibadan North West, Oyo, 234102, Nigeria"
+  },
+  {
+   "lat": 7.41595,
+   "level": "amenity",
+   "lon": 3.93897,
+   "name": "Akeke/Olorombo Health Centre, Bashorun, Lagos-Ibadan Expressway, Ibadan North East, Oyo, 200222, Nigeria"
+  }
+ ],
+ "ng|Challenge": [
+  {
+   "lat": 7.33883,
+   "level": "road",
+   "lon": 3.87723,
+   "name": "Challenge Road, Ibadan South East, Oyo, 200253, Nigeria"
+  },
+  {
+   "lat": 7.34699,
+   "level": "road",
+   "lon": 3.87831,
+   "name": "Challenge Road, Ìbàdàn, Ibadan South West, Oyo, 200253, Nigeria"
+  },
+  {
+   "lat": 7.34693,
+   "level": "road",
+   "lon": 3.87838,
+   "name": "Challenge Road, Ibadan South East, Oyo, 200253, Nigeria"
+  },
+  {
+   "lat": 10.46119,
+   "level": "road",
+   "lon": 7.43907,
+   "name": "New Challenge Drive, Narayi High Cost, Narayi, Chikun, Kaduna, Nigeria"
+  },
+  {
+   "lat": 7.34517,
+   "level": "amenity",
+   "lon": 3.91275,
+   "name": "New Day Hospital, Challenge, express road, Ibadan, Lagos-Ibadan Expressway, Ìbàdàn, Ibadan South East, Oyo, 200252, Nigeria"
+  }
+ ],
+ "ng|Challenge, Ibadan, Oyo": [
+  {
+   "lat": 7.34699,
+   "level": "road",
+   "lon": 3.87831,
+   "name": "Challenge Road, Ìbàdàn, Ibadan South West, Oyo, 200253, Nigeria"
+  },
+  {
+   "lat": 7.34517,
+   "level": "amenity",
+   "lon": 3.91275,
+   "name": "New Day Hospital, Challenge, express road, Ibadan, Lagos-Ibadan Expressway, Ìbàdàn, Ibadan South East, Oyo, 200252, Nigeria"
+  }
+ ],
+ "ng|Challenge, Oyo": [
+  {
+   "lat": 7.33883,
+   "level": "road",
+   "lon": 3.87723,
+   "name": "Challenge Road, Ibadan South East, Oyo, 200253, Nigeria"
+  },
+  {
+   "lat": 7.34699,
+   "level": "road",
+   "lon": 3.87831,
+   "name": "Challenge Road, Ìbàdàn, Ibadan South West, Oyo, 200253, Nigeria"
+  },
+  {
+   "lat": 7.34693,
+   "level": "road",
+   "lon": 3.87838,
+   "name": "Challenge Road, Ibadan South East, Oyo, 200253, Nigeria"
+  },
+  {
+   "lat": 7.34517,
+   "level": "amenity",
+   "lon": 3.91275,
+   "name": "New Day Hospital, Challenge, express road, Ibadan, Lagos-Ibadan Expressway, Ìbàdàn, Ibadan South East, Oyo, 200252, Nigeria"
+  }
+ ],
+ "ng|Ekiti": [
+  {
+   "lat": 7.73689,
+   "level": "admin1",
+   "lon": 5.27383,
+   "name": "Ekiti, Nigeria"
+  },
+  {
+   "lat": 8.11202,
+   "level": "admin2",
+   "lon": 5.34386,
+   "name": "Ekiti, Kwara, Nigeria"
+  }
+ ],
+ "ng|Ibadan": [
+  {
+   "lat": 7.37837,
+   "level": "town",
+   "lon": 3.89723,
+   "name": "Ìbàdàn, Ibadan South West, Oyo, 234102, Nigeria"
+  },
+  {
+   "lat": 10.84498,
+   "level": "village",
+   "lon": 4.02115,
+   "name": "Ibadan, Borgu, Niger, Nigeria"
+  }
+ ],
+ "ng|Ibadan, Oyo": [
+  {
+   "lat": 7.37837,
+   "level": "town",
+   "lon": 3.89723,
+   "name": "Ìbàdàn, Ibadan South West, Oyo, 234102, Nigeria"
+  }
+ ],
+ "ng|Ife": [
+  {
+   "lat": 7.48282,
+   "level": "town",
+   "lon": 4.56045,
+   "name": "Ifẹ̀, Ife Central, Osun, 220282, Nigeria"
+  }
+ ],
+ "ng|Ife, Osun": [
+  {
+   "lat": 7.48282,
+   "level": "town",
+   "lon": 4.56045,
+   "name": "Ifẹ̀, Ife Central, Osun, 220282, Nigeria"
+  }
+ ],
+ "ng|Ijebu-ode": [
+  {
+   "lat": 6.81401,
+   "level": "town",
+   "lon": 3.91517,
+   "name": "Ìjẹ̀bú Òde, Ogun, Nigeria"
+  }
+ ],
+ "ng|Ijebu-ode, Ogun": [
+  {
+   "lat": 6.81401,
+   "level": "town",
+   "lon": 3.91517,
+   "name": "Ìjẹ̀bú Òde, Ogun, Nigeria"
+  }
+ ],
+ "ng|Ilesha garage": [
+  {
+   "lat": 7.26979,
+   "level": "retail",
+   "lon": 5.16571,
+   "name": "ilesha garage, Akure, Akure South, Ondo, Nigeria"
+  },
+  {
+   "lat": 7.27038,
+   "level": "highway",
+   "lon": 5.16691,
+   "name": "ilesha garage, Oba Adesida Road, Akure, Akure South, Ondo, 340021, Nigeria"
+  }
+ ],
+ "ng|Ilesha garage, Akure, Ondo": [
+  {
+   "lat": 7.26979,
+   "level": "retail",
+   "lon": 5.16571,
+   "name": "ilesha garage, Akure, Akure South, Ondo, Nigeria"
+  },
+  {
+   "lat": 7.27038,
+   "level": "highway",
+   "lon": 5.16691,
+   "name": "ilesha garage, Oba Adesida Road, Akure, Akure South, Ondo, 340021, Nigeria"
+  }
+ ],
+ "ng|Ilesha garage, Ondo": [
+  {
+   "lat": 7.26979,
+   "level": "retail",
+   "lon": 5.16571,
+   "name": "ilesha garage, Akure, Akure South, Ondo, Nigeria"
+  },
+  {
+   "lat": 7.27038,
+   "level": "highway",
+   "lon": 5.16691,
+   "name": "ilesha garage, Oba Adesida Road, Akure, Akure South, Ondo, 340021, Nigeria"
+  }
+ ],
+ "ng|Inowo": [],
+ "ng|Inowo, Ijebu-ode, Ogun": [],
+ "ng|Inowo, Ogun": [],
+ "ng|Lagere": [],
+ "ng|Lagere, Ife, Osun": [],
+ "ng|Lagere, Osun": [],
+ "ng|Mobalufon": [],
+ "ng|Mobalufon, Ijebu-ode, Ogun": [],
+ "ng|Mobalufon, Ogun": [],
+ "ng|Modakeke, Ife, Osun": [
+  {
+   "lat": 7.47802,
+   "level": "road",
+   "lon": 4.53586,
+   "name": "Olanrewaju Street Modakeke, Ife North, Osun, 220282, Nigeria"
+  },
+  {
+   "lat": 7.47563,
+   "level": "building",
+   "lon": 4.54051,
+   "name": "Modakeke Middle School, Famia Road, Idita, Ife North, Osun, 220282, Nigeria"
+  },
+  {
+   "lat": 7.47245,
+   "level": "building",
+   "lon": 4.5385,
+   "name": "Modakeke New Town hall, F207, Ife North, Osun, 220282, Nigeria"
+  },
+  {
+   "lat": 7.45874,
+   "level": "tourism",
+   "lon": 4.55633,
+   "name": "OROLEYE JUNCTION MODAKEKE, F207, Moro, Ife North, Osun, 220282, Nigeria"
+  }
+ ],
+ "ng|Modakeke, Osun": [
+  {
+   "lat": 7.38333,
+   "level": "village",
+   "lon": 4.26667,
+   "name": "Mọdákẹ́kẹ́, Irewole, Osun, Nigeria"
+  }
+ ],
+ "ng|Ogbomoso": [
+  {
+   "lat": 8.133,
+   "level": "town",
+   "lon": 4.25,
+   "name": "Ogbomosho, Ogbomosho North, Oyo, 210271, Nigeria"
+  }
+ ],
+ "ng|Ogbomoso, Oyo": [
+  {
+   "lat": 8.133,
+   "level": "town",
+   "lon": 4.25,
+   "name": "Ogbomosho, Ogbomosho North, Oyo, 210271, Nigeria"
+  }
+ ],
+ "ng|Ogere 1": [],
+ "ng|Ogere 1, Ogun": [],
+ "ng|Ogere 2": [],
+ "ng|Ogere 2, Ogun": [],
+ "ng|Ogun": [
+  {
+   "lat": 6.97886,
+   "level": "admin1",
+   "lon": 3.43893,
+   "name": "Ogun, Nigeria"
+  }
+ ],
+ "ng|Oja-tuntun": [
+  {
+   "lat": 8.48723,
+   "level": "amenity",
+   "lon": 4.53909,
+   "name": "Oja Tuntun Market Kwara Baboko Road, Oja Oba, Oko Erin 240101, Kwara, Nigeria, Abdul Aziz Attah Road, Ìlọrin, Ilorin East, Kwara, 240212, Nigeria"
+  },
+  {
+   "lat": 8.48762,
+   "level": "building",
+   "lon": 4.53634,
+   "name": "FGQP+9FH beside ibedc, Asa-Dam Rd, beside ibedc, Oja Oba, Ilorin 240281, Kwara, Nigeria, Abdul Aziz Attah Road, Oja Tuntun, Oko Erin, Nigeria, Ilorin East, Kwara, 240212, Nigeria"
+  },
+  {
+   "lat": 8.48803,
+   "level": "amenity",
+   "lon": 4.56205,
+   "name": "FHQ6+6RM, Omu-Aran-Oja Oba, Oko Erin 240101, Kwara, Nigeria, Ibrahim Taiwo Road, Ìlọrin, Ilorin East, Kwara, 240212, Nigeria"
+  },
+  {
+   "lat": 8.48634,
+   "level": "shop",
+   "lon": 4.53867,
+   "name": "130 Surulere Rd, Oja Oba, Kwara, Nigeria, Abdul Aziz Attah Road, Ìlọrin, Ilorin East, Kwara, 240212, Nigeria"
+  },
+  {
+   "lat": 8.49599,
+   "level": "amenity",
+   "lon": 4.546,
+   "name": "Oja Oba, Ilorin, Nigeria, Abdul Aziz Attah Road, Ìlọrin, Ilorin East, Kwara, 240212, Nigeria"
+  }
+ ],
+ "ng|Oja-tuntun, Ogbomoso, Oyo": [],
+ "ng|Oja-tuntun, Oyo": [],
+ "ng|Ojoo": [
+  {
+   "lat": 7.38434,
+   "level": "road",
+   "lon": 3.92205,
+   "name": "Lagos-Ojoo Expressway, Ibadan North East, Oyo, 234102, Nigeria"
+  },
+  {
+   "lat": 7.46647,
+   "level": "amenity",
+   "lon": 3.91251,
+   "name": "Diadem Pharmacy, Ojoo, Oyo Road, Ojo, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  },
+  {
+   "lat": 7.47115,
+   "level": "amenity",
+   "lon": 3.91562,
+   "name": "Ojoo Pry Healthcare Centre, Ibadan-Ilorin Expressway, Ojo, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  },
+  {
+   "lat": 7.5231,
+   "level": "amenity",
+   "lon": 3.95789,
+   "name": "Aroro Pry Health Centre, Ojoo, Akobo - Olorunda Abba Road, Ìbàdàn, Akinyele, Oyo, Nigeria"
+  },
+  {
+   "lat": 7.47179,
+   "level": "amenity",
+   "lon": 3.91244,
+   "name": "Hamdalat Hospital, Ojoo, Trinity Street, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  }
+ ],
+ "ng|Ojoo, Ibadan, Oyo": [
+  {
+   "lat": 7.47115,
+   "level": "amenity",
+   "lon": 3.91562,
+   "name": "Ojoo Pry Healthcare Centre, Ibadan-Ilorin Expressway, Ojo, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  },
+  {
+   "lat": 7.47095,
+   "level": "amenity",
+   "lon": 3.91822,
+   "name": "2 Div Military Hospital, Odogbo Cantonment, Ojoo, Ibadan-Ilorin Expressway, Ojo, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  },
+  {
+   "lat": 7.47639,
+   "level": "amenity",
+   "lon": 3.9199,
+   "name": "Faith Mission House, Idi ori, Ojoo (Solution Gospel Aba Opa), Ibadan-Ilorin Expressway, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  },
+  {
+   "lat": 7.47179,
+   "level": "amenity",
+   "lon": 3.91244,
+   "name": "Hamdalat Hospital, Ojoo, Trinity Street, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  },
+  {
+   "lat": 7.5231,
+   "level": "amenity",
+   "lon": 3.95789,
+   "name": "Aroro Pry Health Centre, Ojoo, Akobo - Olorunda Abba Road, Ìbàdàn, Akinyele, Oyo, Nigeria"
+  }
+ ],
+ "ng|Ojoo, Oyo": [
+  {
+   "lat": 7.38434,
+   "level": "road",
+   "lon": 3.92205,
+   "name": "Lagos-Ojoo Expressway, Ibadan North East, Oyo, 234102, Nigeria"
+  },
+  {
+   "lat": 7.5231,
+   "level": "amenity",
+   "lon": 3.95789,
+   "name": "Aroro Pry Health Centre, Ojoo, Akobo - Olorunda Abba Road, Ìbàdàn, Akinyele, Oyo, Nigeria"
+  },
+  {
+   "lat": 7.46647,
+   "level": "amenity",
+   "lon": 3.91251,
+   "name": "Diadem Pharmacy, Ojoo, Oyo Road, Ojo, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  },
+  {
+   "lat": 7.47179,
+   "level": "amenity",
+   "lon": 3.91244,
+   "name": "Hamdalat Hospital, Ojoo, Trinity Street, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  },
+  {
+   "lat": 7.47095,
+   "level": "amenity",
+   "lon": 3.91822,
+   "name": "2 Div Military Hospital, Odogbo Cantonment, Ojoo, Ibadan-Ilorin Expressway, Ojo, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
+  }
+ ],
+ "ng|Ondo": [
+  {
+   "lat": 7.02097,
+   "level": "admin1",
+   "lon": 5.05675,
+   "name": "Ondo, Nigeria"
+  }
+ ],
+ "ng|Osun": [
+  {
+   "lat": 7.5484,
+   "level": "admin1",
+   "lon": 4.49783,
+   "name": "Osun, Nigeria"
+  }
+ ],
+ "ng|Owena, Ondo": [
+  {
+   "lat": 7.19537,
+   "level": "village",
+   "lon": 5.02174,
+   "name": "Owena, Ondo East, Ondo, Nigeria"
+  }
+ ],
+ "ng|Oyo": [
+  {
+   "lat": 8.21512,
+   "level": "admin1",
+   "lon": 3.56429,
+   "name": "Oyo, Nigeria"
+  },
+  {
+   "lat": 7.84105,
+   "level": "town",
+   "lon": 3.93154,
+   "name": "Ọ̀yọ́, Oyo West, Oyo, Nigeria"
+  }
+ ],
+ "ng|UI": [
+  {
+   "lat": 7.45772,
+   "level": "park",
+   "lon": 3.89618,
+   "name": "UI Botanical Gardens, Ibadan North, Oyo, Nigeria"
+  },
+  {
+   "lat": 7.44833,
+   "level": "farmland",
+   "lon": 3.89644,
+   "name": "UI Student's farm, Ibadan North, Oyo, Nigeria"
+  },
+  {
+   "lat": 7.44704,
+   "level": "amenity",
+   "lon": 3.89934,
+   "name": "UI's Mosque, Emotan Lane, University of Ibadan, Ibadan North, Oyo, 200213, Nigeria"
+  },
+  {
+   "lat": 7.44786,
+   "level": "amenity",
+   "lon": 3.89929,
+   "name": "UI Chapel, Chapel Road, University of Ibadan, Ibadan North, Oyo, 200213, Nigeria"
+  },
+  {
+   "lat": 7.44469,
+   "level": "leisure",
+   "lon": 3.89793,
+   "name": "UI's Swimming Pool, Emotan Lane, University of Ibadan, Ibadan North, Oyo, 200213, Nigeria"
+  }
+ ],
+ "ng|UI, Ibadan, Oyo": [
+  {
+   "lat": 7.44253,
+   "level": "amenity",
+   "lon": 3.90687,
+   "name": "Omak Pharmacy, opposite UI, Oyo Road, Ìbàdàn, Ibadan North, Oyo, 200213, Nigeria"
+  },
+  {
+   "lat": 7.44259,
+   "level": "amenity",
+   "lon": 3.90076,
+   "name": "University Health Service, Jaja Clinic, UI, Jaja Avenue, University of Ibadan, Ìbàdàn, Ibadan North, Oyo, 200213, Nigeria"
+  },
+  {
+   "lat": 7.45772,
+   "level": "park",
+   "lon": 3.89618,
+   "name": "UI Botanical Gardens, Ibadan North, Oyo, Nigeria"
+  },
+  {
+   "lat": 7.44833,
+   "level": "farmland",
+   "lon": 3.89644,
+   "name": "UI Student's farm, Ibadan North, Oyo, Nigeria"
+  }
+ ],
+ "ng|UI, Oyo": [
+  {
+   "lat": 7.45772,
+   "level": "park",
+   "lon": 3.89618,
+   "name": "UI Botanical Gardens, Ibadan North, Oyo, Nigeria"
+  },
+  {
+   "lat": 7.44833,
+   "level": "farmland",
+   "lon": 3.89644,
+   "name": "UI Student's farm, Ibadan North, Oyo, Nigeria"
+  },
+  {
+   "lat": 7.44704,
+   "level": "amenity",
+   "lon": 3.89934,
+   "name": "UI's Mosque, Emotan Lane, University of Ibadan, Ibadan North, Oyo, 200213, Nigeria"
+  },
+  {
+   "lat": 7.44786,
+   "level": "amenity",
+   "lon": 3.89929,
+   "name": "UI Chapel, Chapel Road, University of Ibadan, Ibadan North, Oyo, 200213, Nigeria"
+  },
+  {
+   "lat": 7.44469,
+   "level": "leisure",
+   "lon": 3.89793,
+   "name": "UI's Swimming Pool, Emotan Lane, University of Ibadan, Ibadan North, Oyo, 200213, Nigeria"
   }
  ],
  "rw|Bukora": [

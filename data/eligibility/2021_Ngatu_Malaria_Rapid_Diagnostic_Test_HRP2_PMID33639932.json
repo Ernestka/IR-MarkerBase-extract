@@ -1,0 +1,68 @@
+{
+  "id": "2021_Ngatu_Malaria_Rapid_Diagnostic_Test_HRP2_PMID33639932",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study is a human household survey and epidemiological evaluation of a community WASH intervention and malaria rapid diagnostic tests (RDTs); no Anopheles mosquitoes were collected or studied."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance marker genotyping was performed in this study (kdr mutations are only referenced in the introduction citing previous literature)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No mosquito populations were sampled or tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "It is a primary mixed-method intervention and epidemiological study in humans in Kongo Central province, DRC."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Conducted in Mbanza-Ngungu and Kasangulu, Kongo Central province, Democratic Republic of the Congo."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Surveys and interventions were conducted between 1 January 2017 and March 2018."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; no mosquito collections were performed."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No mosquito data exists in the study or any supplements."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the impact of a community participatory WASH intervention on human malaria incidence and RDT positivity in Kongo Central province, DRC. No entomological collections or mosquito insecticide resistance genotyping were performed.",
+    "exclusion_reasons": [
+      "no_anopheles_studied",
+      "no_resistance_markers_reported",
+      "no_extractable_genotype_data",
+      "no_field_mosquitoes_tested"
+    ]
+  }
+}

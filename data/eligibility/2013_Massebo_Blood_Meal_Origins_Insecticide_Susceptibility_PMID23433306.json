@@ -1,0 +1,67 @@
+{
+  "id": "2013_Massebo_Blood_Meal_Origins_Insecticide_Susceptibility_PMID23433306",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles arabiensis (and other Anopheles species) from Chano village in south-west Ethiopia (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance target markers were genotyped. PCR was only used for species identification within the An. gambiae complex (page 3, 'Species identification'). Kdr L1014F is only referenced from previous literature in the discussion (page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotyping was performed, so no genotype or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Chano village near Arba Minch in south-west Ethiopia (page 2, 'Study area')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collections, host-choice ELISA, and insecticide bioassay data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred in Chano village near Arba Minch, Ethiopia, located at 6°6.666' N and 37°35.775' E (page 2, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted biweekly from May 2009 to April 2010 (page 3, 'Mosquito collections')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field sampling for the Ethiopian Malaria Prediction System program."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study does not indicate that any resistance marker genotyping was performed or placed in supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2009,
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated host blood meal origins and insecticide susceptibility of Anopheles arabiensis from Chano village in south-west Ethiopia using WHO tube bioassays with cyfluthrin, lambdacyhalothrin, alphacypermethrin, deltamethrin, and DDT. Although bioassays showed resistance to DDT and pyrethroids, no insecticide resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (the study only conducted species identification PCR, blood meal ELISA, and WHO susceptibility bioassays)."
+    ]
+  }
+}

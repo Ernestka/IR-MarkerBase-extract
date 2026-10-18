@@ -1,0 +1,22 @@
+study_id: 2007_Djouaka_Does_Spillage_Petroleum_Products_Anopheles_PMID18053173
+title: Does the spillage of petroleum products in Anopheles breeding sites have an
+  impact on the pyrethroid resistance?
+first_author: Rousseau F Djouaka
+doi: 10.1186/1475-2875-6-159
+pmid: '18053173'
+publication_year: 2007
+countries:
+- Nigeria
+data_source: Malaria Journal
+provenance:
+  source_text: Djouaka et al. Does the spillage of petroleum products in Anopheles
+    breeding sites have an impact on the pyrethroid resistance? Malaria Journal 2007,
+    6:159
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

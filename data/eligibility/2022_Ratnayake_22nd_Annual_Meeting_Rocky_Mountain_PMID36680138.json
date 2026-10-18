@@ -1,0 +1,71 @@
+{
+  "id": "2022_Ratnayake_22nd_Annual_Meeting_Rocky_Mountain_PMID36680138",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Abstracts by Molly Ring (p. 12) and Kathryn Coffin (p. 16) discuss Anopheles gambiae, An. coluzzii, and An. funestus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr mutations only in Aedes aegypti (Sanchez-Vargas abstract, p. 13). No target markers are reported as genotyped in Anopheles mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data for target markers in Anopheles is provided in any of the abstracts."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Kathryn Coffin's abstract (p. 16) describes Anopheles mosquitoes captured in Burkina Faso between 2019 and 2020."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a conference report/compendium of abstracts, which summarizes various studies rather than being a primary empirical study itself."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Bobo Dioulasso, Burkina Faso is mentioned in Kathryn Coffin's abstract (p. 16)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years 2019-2020 are mentioned in Kathryn Coffin's abstract (p. 16)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as the paper is not eligible."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No indication that the missing genotype data for Anopheles exists in a supplement for this conference report."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This document is a compendium of abstracts from the 22nd Annual Meeting of the Rocky Mountain Virology Association. While it includes abstracts discussing Anopheles mosquitoes in Burkina Faso (Kathryn Coffin) and ivermectin response in Anopheles gambiae (Molly Ring), it does not report genotyping of any target insecticide-resistance markers in Anopheles. One abstract (Sanchez-Vargas) discusses kdr mutations in Aedes aegypti, which is outside the scope of this database.",
+    "exclusion_reasons": [
+      "No target markers genotyped in Anopheles mosquitoes.",
+      "No extractable genotype data provided for target markers.",
+      "The document is a conference report/compendium of abstracts, not a primary empirical study."
+    ]
+  }
+}

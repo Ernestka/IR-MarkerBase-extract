@@ -1,0 +1,65 @@
+{
+  "id": "2007_Djouaka_Does_Spillage_Petroleum_Products_Anopheles_PMID18053173",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies field populations of Anopheles gambiae s.l. (specifically An. gambiae s.s. and An. arabiensis) in south-western Nigeria (page 2-3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Assessed Vgsc L995F ('kdr mutations in An. gambiae ss. populations [17]' referencing Martinez-Torres et al. 1998, page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 on page 9 reports the number of mosquitoes tested (n = 30 per site) and PCR-kdr outcome ('No Kdr', meaning 100% SS / 0% resistant allele frequency) across 6 localities of An. gambiae s.s."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from breeding sites across 5 states in south-western Nigeria (Ogun, Oyo, Osun, Ondo, Ekiti) and reared to adults (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research study investigating insecticide resistance and breeding site characteristics (pages 1-10)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Identifies 15 specific sampling sites/localities across 5 states in Nigeria, including Ojoo, Bashorun, UI, Challenge, Lagere, Modakeke, etc. (Table 1 and Table 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact collection dates or years are not reported anywhere in the text, tables, or figures."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Portions of data are linked to the first author's 2004 MSc thesis at the University of Ibadan (reference 18), but this is the primary peer-reviewed publication of the data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant bioassay and molecular characterization data (PCR-species, PCR-form, PCR-kdr) are presented in the main text and Table 4."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 180,
+    "summary": "This study evaluated permethrin susceptibility and breeding site characteristics (particularly petroleum spillage) in Anopheles gambiae s.l. from south-western Nigeria. WHO tube bioassays with 0.75% permethrin were performed on adult females from 15 localities. Molecular form and kdr genotyping (Vgsc L995F) were conducted on 30 An. gambiae s.s. females from each of 6 localities (180 total), finding an absence of the kdr mutation across all tested specimens.",
+    "exclusion_reasons": []
+  }
+}

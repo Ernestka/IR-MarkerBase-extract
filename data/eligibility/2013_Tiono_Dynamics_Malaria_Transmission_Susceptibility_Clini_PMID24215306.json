@@ -1,0 +1,68 @@
+{
+  "id": "2013_Tiono_Dynamics_Malaria_Transmission_Susceptibility_Clini_PMID24215306",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Entomological study evaluated Anopheles gambiae s.l. (comprising An. coluzzii, An. gambiae, and An. arabiensis) and Anopheles funestus (page 4, Table 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for the 'kdr West African mutation' (Vgsc L995F) using PCR methods of Martinez-Torres et al. (1998) and Ranson et al. (2000) (page 4-5, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Methods specify a subsample of 500 An. gambiae s.l. (50 from each of 10 clusters: 5 intervention, 5 control) were genotyped for kdr (page 4-5). Table 2 reports the mean kdr West African mutation frequency as 0.65 (SD 0.12) in the intervention arm and 0.71 (SD 0.16) in the control arm (page 9)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using indoor pyrethrum spray catches in 10 rural villages in the health district of Saponé, Burkina Faso, between January and December 2011 (page 2, 4, 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing a cluster-randomized trial with a parallel entomology field study (pages 1-2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in 10 villages across the Saponé health district, approximately 50 km south of Ouagadougou, Burkina Faso (pages 2, 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place weekly from January to December 2011 (pages 4, 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Independent cluster-randomized community screening trial and parallel field entomological collection conducted by the CNRFP in Saponé, Burkina Faso."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Only Additional file 1 is mentioned, which pertains to clinical malaria incidence data, not entomological or genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 500,
+    "summary": "This cluster-randomized trial in Saponé health district, Burkina Faso (2011), assessed the impact of community screening and treatment of asymptomatic Plasmodium falciparum carriers. In parallel, indoor pyrethrum spray catches collected 12,466 mosquitoes. A subsample of 500 An. gambiae s.l. (250 in intervention clusters, 250 in control clusters) was genotyped for the Vgsc L995F (kdr-west) mutation, finding mean cluster frequencies of 0.65 and 0.71, respectively.",
+    "exclusion_reasons": []
+  }
+}

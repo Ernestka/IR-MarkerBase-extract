@@ -1,0 +1,69 @@
+{
+  "id": "2013_Osse_Shift_Indoor_Residual_Spraying_IRS_PMID23497708",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study monitors field populations of Anopheles gambiae s.l. and Anopheles funestus (page 4, 'Captured female Anopheles gambiae s.l were dissected...')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study references kdr in the background literature (page 2), but does not perform any molecular genotyping of insecticide resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No insecticide resistance marker genotype or allele frequency data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Ouémé Department, southern Benin (Adjohoun, Dangbo, Missérété, Sèmè, and Adjara) between 2010 and 2011 (pages 2-4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary entomological monitoring study assessing vector density, exophily, parity, and sporozoite rates before and after IRS withdrawal."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Districts Adjohoun, Dangbo, Missérété, Sèmè, and Adjara, including specific central and peripheral localities (Figure 1, page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during April–December 2010 and April–December 2011 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary entomological surveillance data collected specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are referenced for resistance marker genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study assesses entomological transmission indicators (human biting rate, parity rate, exophily, blood meal index, and CSP ELISA sporozoite rates) of Anopheles gambiae s.l. in Ouémé Department, southern Benin, comparing the period during bendiocarb IRS (2010) to the period after IRS withdrawal and universal LLIN distribution (2011). No insecticide-resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "No target resistance markers genotyped (reports_target_markers check failed)",
+      "No extractable genotype data provided (reports_extractable_genotype_data check failed)"
+    ]
+  }
+}

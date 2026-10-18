@@ -1,0 +1,68 @@
+{
+  "id": "2014_N_Guessan_Mosquito_Nets_Treated_Mixture_Chlorfenapyr_PMID24498360",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. collected near Akron, Porto Novo, Benin (page 2, 'Species and resistance characterisation')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports testing for kdr mutations (Vgsc L995F) using the Martinez-Torres et al. PCR diagnostic test on An. gambiae s.s. (page 2, 'Species and resistance characterisation')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Page 3 states 'In molecular assays on An. gambiae the frequency of kdr was 0.86', but fails to report the sample size N, genotype counts (RR/RS/SS), or allele counts."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were reared from larval collections at Akron, a village on the outskirts of Porto Novo, Benin (page 2, 'Study site and experimental huts')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical experimental hut trial and resistance characterisation study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field collections were conducted at Akron, outskirts of Porto Novo, Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place between April and June 2010 (page 2, 'Mosquito net treatments and trial procedure')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Primary experimental hut trial conducted in Benin in 2010."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Table S1 is only a CONSORT-style checklist for experimental hut trials; no additional genotyping dataset is mentioned as being in supplementary files."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated mosquito nets treated with chlorfenapyr and alphacypermethrin mixtures in experimental huts in Akron, Benin, against wild pyrethroid-resistant An. gambiae and Cx. quinquefasciatus. While the study performed PCR assays for kdr on An. gambiae and reported a kdr allele frequency of 0.86, it did not provide the number of mosquitoes genotyped or genotype counts, making the genotype data unextractable.",
+    "exclusion_reasons": [
+      "Lacks extractable genotype data: the paper reports a kdr frequency of 0.86 for An. gambiae s.s. but does not state the sample size (number of mosquitoes genotyped) or genotype/allele counts."
+    ]
+  }
+}

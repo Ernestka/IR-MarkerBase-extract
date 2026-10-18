@@ -1,0 +1,25 @@
+study_id: 2013_Tiono_Dynamics_Malaria_Transmission_Susceptibility_Clini_PMID24215306
+title: 'Dynamics of malaria transmission and susceptibility to clinical malaria episodes
+  following treatment of Plasmodium falciparum asymptomatic carriers: results of a
+  cluster-randomized study of community-wide screening and treatment, and a parallel
+  entomology study'
+first_author: Alfred B Tiono
+doi: 10.1186/1471-2334-13-535
+pmid: '24215306'
+publication_year: 2013
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: 'Dynamics of malaria transmission and susceptibility to clinical malaria
+    episodes following treatment of Plasmodium falciparum asymptomatic carriers: results
+    of a cluster-randomized study of community-wide screening and treatment, and a
+    parallel entomology study'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

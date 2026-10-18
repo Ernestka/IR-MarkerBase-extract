@@ -1,0 +1,66 @@
+{
+  "id": "2021_Zhang_Comparative_Proteomics_Reveals_Mechanisms_That_PMID33764997",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Culex pipiens pallens Coquillett (Page 1: 'Comparative proteomics reveals mechanisms that underlie insecticide resistance in Culex pipiens pallens Coquillett')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study uses iTRAQ labeling and LC-MS/MS proteomics to analyze protein expression; no target-site resistance markers or genotype data are reported."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes used are a laboratory colony of Culex pipiens pallens (Tangkou strain originating from Shandong Province, China in 1960) selected in the laboratory, with no African field populations (Page 3: 'The laboratory Tangkou strain of Cx. pipiens pallens, originating from Tangkou Village (Jining prefecture, Shandong Province)...')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article performing experimental proteomics on insecticide-selected mosquito strains."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Tangkou Village, Jining prefecture, Shandong Province, China is mentioned as the origin of the laboratory colony (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection window is applicable; the laboratory colony has been reared since 1960."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Laboratory-based proteomic study of a colony strain."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary genetic data relevant to the repository is needed; the paper is non-Anopheles."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex pipiens pallens"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses comparative proteomics (iTRAQ and LC-MS/MS) on laboratory-selected resistant strains of Culex pipiens pallens from China to examine metabolic and cuticular mechanisms of resistance to cypermethrin, propoxur, DDV, and Bti.",
+    "exclusion_reasons": [
+      "Study does not investigate Anopheles mosquitoes (investigates Culex pipiens pallens).",
+      "Does not genotype or report frequencies for any target insecticide resistance markers.",
+      "Does not sample or test African field mosquito populations."
+    ]
+  }
+}

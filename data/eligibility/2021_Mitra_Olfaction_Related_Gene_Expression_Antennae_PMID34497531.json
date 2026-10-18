@@ -1,0 +1,63 @@
+{
+  "id": "2021_Mitra_Olfaction_Related_Gene_Expression_Antennae_PMID34497531",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on laboratory strains of Aedes aegypti (Page 1, Title and Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers in Anopheles species were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for target insecticide resistance markers were reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study evaluates laboratory strains of Aedes aegypti rather than African field populations (Page 2, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study conducting Y-tube olfactometer bioassays and RNA-seq transcriptome profiling on Aedes aegypti strains (Pages 2-5)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No African field collection sites are present."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field mosquito collection time window is reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary study on laboratory strains of Aedes aegypti."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are not required as the paper is ineligible."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates olfaction-related gene expression and behavioral attraction to human host odor and DEET across common laboratory strains of Aedes aegypti. Because it studies Aedes aegypti rather than Anopheles vectors and does not genotype target insecticide resistance markers, it is not eligible.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (studies Aedes aegypti).",
+      "Does not report target insecticide resistance markers.",
+      "Does not report extractable genotype data.",
+      "Does not study African field populations."
+    ]
+  }
+}

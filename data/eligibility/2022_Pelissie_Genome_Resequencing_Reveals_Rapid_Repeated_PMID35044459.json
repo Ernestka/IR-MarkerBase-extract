@@ -1,0 +1,62 @@
+{
+  "id": "2022_Pelissie_Genome_Resequencing_Reveals_Rapid_Repeated_PMID35044459",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses entirely on the Colorado potato beetle, Leptinotarsa decemlineata (Coleoptera: Chrysomelidae), not Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No Anopheles insecticide resistance target markers were assayed; the study focuses on genome resequencing of Leptinotarsa decemlineata."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for target Anopheles resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Beetles were collected from North America (United States, Mexico) and Europe, not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article investigating genomic variation and insecticide resistance evolution in Leptinotarsa decemlineata."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sub-country locations are specified for beetle samples across various US states (e.g., Maine, Vermont, New York, New Jersey, Michigan, Wisconsin, Oregon)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Specific collection dates are not tied down to a defined <= 3-year collection period in the main text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; non-target organism."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplement is needed as the paper is completely ineligible based on the species studied."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study analyzes whole-genome resequencing and transcriptomic data of the Colorado potato beetle (Leptinotarsa decemlineata) to examine the evolutionary mechanisms driving rapid insecticide resistance evolution in North America and Europe.",
+    "exclusion_reasons": [
+      "Study organism is the Colorado potato beetle (Leptinotarsa decemlineata), not Anopheles mosquitoes.",
+      "Does not evaluate any target Anopheles insecticide resistance markers.",
+      "Mosquitoes from African field populations are not studied."
+    ]
+  }
+}

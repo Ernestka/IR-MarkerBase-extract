@@ -1,0 +1,66 @@
+{
+  "id": "2016_Reid_Contribution_Agricultural_Insecticide_Use_Increasi_PMID26895980",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review focuses on African malaria vectors, specifically Anopheles gambiae sensu lato species (page 1, Abstract; page 5, Table 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a review of literature and does not conduct original genotyping of target resistance markers (pages 1-3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts, allele frequencies, or mosquito sample sizes from original genotyping are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No primary mosquito collections or field testing were conducted; it compiles findings from 25 published studies (page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly a review article: 'REVIEW' (page 1 heading) and 'This review examines the recent primary research that addresses the putative relationship between agricultural insecticide use and trends in insecticide resistance' (page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary study sites are sampled by the authors; it reviews secondary data."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Literature review spanning publications from 2000 onwards."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper is fundamentally ineligible as a review."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles quadriannulatus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a literature review analyzing 25 previously published studies across Africa to assess the relationship between agricultural pesticide usage and insecticide resistance in Anopheles malaria vectors. Because it does not report primary empirical field data or new genotyping, it is ineligible.",
+    "exclusion_reasons": [
+      "The paper is a review article, not a primary empirical study.",
+      "No primary extractable genotype data are presented."
+    ]
+  }
+}
