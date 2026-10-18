@@ -1,0 +1,77 @@
+{
+  "id": "2011_Zhou_Changing_Patterns_Malaria_Epidemiology_2002_PMID21629783",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Entomological surveys collected Anopheles gambiae s.l. and Anopheles funestus (page 2, 'Entomological survey')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not genotype any insecticide resistance markers; PCR was used strictly for species identification between An. gambiae s.s. and An. arabiensis (page 2, 'Entomological survey'). Kdr alleles are only mentioned in passing in the discussion citing previous literature (page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No insecticide-resistance marker genotype or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Indoor resting female mosquitoes were collected in Western Kenya at three sites: Iguhu, Marani, and Kombewa between 2002 and 2010 (page 2, 'Methods')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary longitudinal study monitoring malaria parasite prevalence and vector abundance in western Kenya."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Three sentinel sites: Iguhu (Kakamega district), Marani (Kisii district), and Kombewa (Kisumu district) with geographical coordinates (page 2, 'Study areas')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections are presented by specific months and years from 2002 to 2010 (pages 2, 4, 6, 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard long-term primary research surveys conducted by the study authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not genotype target markers, and no supplementary files are referenced for resistance marker data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This longitudinal study evaluated malaria parasite prevalence and vector abundance in three sentinel sites in western Kenya between 2002 and 2010 following ITN scale-up. Mosquito bioassays were performed on bed nets using the susceptible laboratory colony Kisumu strain, but no field mosquito bioassays or insecticide resistance marker genotyping were conducted.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide resistance markers.",
+      "Does not report extractable genotype data for target markers."
+    ]
+  }
+}

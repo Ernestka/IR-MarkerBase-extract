@@ -1,0 +1,67 @@
+{
+  "id": "2013_Oxborough_ITN_Mixtures_Chlorfenapyr_Pyrrole_Alphacypermethri_PMID23409042",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles arabiensis along with Culex quinquefasciatus (page 2, 'Methods - Mosquito Strains')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014F (L995F) and L1014S (L995S; misprinted as L10145S): 'After the experimental hut trial a sub-sample of 80 An. arabiensis, that were collected alive from the hut with alpha ITN, were tested for the presence of L1014F and L10145S kdr variants' (page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "'After the experimental hut trial a sub-sample of 80 An. arabiensis, that were collected alive from the hut with alpha ITN, were tested for the presence of L1014F and L10145S kdr variants. No kdr mutations were detected, confirming earlier reports of metabolic resistance mechanisms' (page 2). This provides N=80, with 0/80 possessing L1014F or L1014S (all 80 wild-type SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were wild An. arabiensis entering experimental huts and F1 progeny of wild mosquitoes collected from cattle sheds in Lower Moshi, Tanzania (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article evaluating chlorfenapyr and alphacypermethrin mixture ITNs using experimental huts and laboratory bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Lower Moshi Rice Irrigation Zone (3°22'S, 37°19'E), Kilimanjaro, Tanzania (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were sampled in November 2011: 'Resistance testing using WHO cylinders in November 2011 shortly prior to the experimental hut trial...' (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field trial conducted at KCMUCo field station in Lower Moshi, Tanzania."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype and bioassay results are reported in full in the text and tables of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 80,
+    "summary": "The study evaluated chlorfenapyr and alphacypermethrin mixture ITNs against An. arabiensis and Cx. quinquefasciatus in Lower Moshi, Tanzania. A sample of 80 wild An. arabiensis collected alive from experimental huts with alphacypermethrin ITNs were genotyped for Vgsc L1014F and L1014S, with 0 mutations detected (all 80 wild-type SS).",
+    "exclusion_reasons": []
+  }
+}

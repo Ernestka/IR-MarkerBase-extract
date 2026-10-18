@@ -1,0 +1,65 @@
+{
+  "id": "2009_Pemba_Influence_Sensitivity_Insecticides_Case_Study_PMID20345010",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. collected in Liwonde, Malawi (page 82-83)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only evaluated phenotypic susceptibility via knockdown bottle bioassays; no target-site resistance markers were genotyped. The authors explicitly state: 'The mechanisms of pyrethroid resistance in the Anopheles in this study are however not known' (page 84)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotyping was performed, and no genotype or allele counts/frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and adults from field sites in Liwonde Township and Liwonde National Park, Malawi (page 82)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field study examining insecticide knockdown sensitivity in wild mosquito populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Liwonde National Park (14° 50'S, 35° 20'E) and Liwonde Township, Machinga/Balaka districts, Malawi (page 82)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact collection year(s) are not stated in the paper (sampling frequency is described as bimonthly, but calendar years are omitted)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary entomological collection without indication of repository or consortium reuse."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are referenced or required; the paper is self-contained."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Malawi"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study assesses insecticide sensitivity (deltamethrin and permethrin) of Anopheles gambiae s.l. from Liwonde Township versus Liwonde National Park in Malawi using bottle knockdown bioassays. No molecular genotyping of resistance markers was conducted.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (phenotypic bioassays only).",
+      "No extractable genotype data provided."
+    ]
+  }
+}

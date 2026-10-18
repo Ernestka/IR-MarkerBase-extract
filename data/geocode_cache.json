@@ -1,4 +1,12 @@
 {
+ "bf|Bobo-Dioulasso": [
+  {
+   "lat": 11.17658,
+   "level": "town",
+   "lon": -4.29614,
+   "name": "Bobo-Dioulasso, Houet, Hauts-Bassins, Burkina Faso"
+  }
+ ],
  "bf|Nazoanga, Nanoro, Centre-West": [
   {
    "lat": 12.62265,
@@ -51,6 +59,15 @@
   }
  ],
  "bf|Valle de Kou": [],
+ "bf|Vallée du Kou": [
+  {
+   "lat": 11.38645,
+   "level": "farmland",
+   "lon": -4.38718,
+   "name": "Périmètre Rizicole de la Vallée du Kou, VK5, Houet, Hauts-Bassins, Burkina Faso"
+  }
+ ],
+ "bf|Vallée du Kou, Bobo-Dioulasso": [],
  "bj|Adjozoume": [
   {
    "lat": 7.35044,
@@ -488,6 +505,194 @@
    "level": "admin1",
    "lon": -14.14956,
    "name": "Upper River, Gambia"
+  }
+ ],
+ "gn|Conakry": [
+  {
+   "lat": 9.51706,
+   "level": "town",
+   "lon": -13.69984,
+   "name": "Conakry, Guinée"
+  }
+ ],
+ "gn|Kaloum": [
+  {
+   "lat": 9.51496,
+   "level": "town",
+   "lon": -13.70844,
+   "name": "Kaloum, Conakry, 258, Guinée"
+  }
+ ],
+ "gn|Kaloum, Conakry": [
+  {
+   "lat": 9.51496,
+   "level": "town",
+   "lon": -13.70844,
+   "name": "Kaloum, Conakry, 258, Guinée"
+  }
+ ],
+ "gn|Matam": [
+  {
+   "lat": 9.54509,
+   "level": "town",
+   "lon": -13.6647,
+   "name": "Matam, Conakry, Guinée"
+  },
+  {
+   "lat": 9.55206,
+   "level": "village",
+   "lon": -13.64958,
+   "name": "Matam, Conakry, Guinée"
+  }
+ ],
+ "gn|Matam, Conakry": [
+  {
+   "lat": 9.54509,
+   "level": "town",
+   "lon": -13.6647,
+   "name": "Matam, Conakry, Guinée"
+  },
+  {
+   "lat": 9.55206,
+   "level": "village",
+   "lon": -13.64958,
+   "name": "Matam, Conakry, Guinée"
+  }
+ ],
+ "gn|Matoto": [
+  {
+   "lat": 9.61806,
+   "level": "town",
+   "lon": -13.58891,
+   "name": "Matoto, Conakry, Guinée"
+  },
+  {
+   "lat": 9.60908,
+   "level": "village",
+   "lon": -13.59375,
+   "name": "Matoto, Matoto Marché, Matoto, Conakry, Guinée"
+  },
+  {
+   "lat": 10.31849,
+   "level": "village",
+   "lon": -13.95064,
+   "name": "Matoto, Kolindon, Préfecture de Boffa, Boké, Guinée"
+  },
+  {
+   "lat": 10.8989,
+   "level": "village",
+   "lon": -15.011,
+   "name": "Matoto, Kamabanga, Préfecture de Boké, Boké, Guinée"
+  },
+  {
+   "lat": 9.6067,
+   "level": "industrial",
+   "lon": -13.60115,
+   "name": "Matoto, Simbaya Gare, Simbaya École, Matoto, Conakry, Guinée"
+  }
+ ],
+ "gn|Matoto, Conakry": [
+  {
+   "lat": 9.61806,
+   "level": "town",
+   "lon": -13.58891,
+   "name": "Matoto, Conakry, Guinée"
+  },
+  {
+   "lat": 9.60908,
+   "level": "village",
+   "lon": -13.59375,
+   "name": "Matoto, Matoto Marché, Matoto, Conakry, Guinée"
+  },
+  {
+   "lat": 9.6067,
+   "level": "industrial",
+   "lon": -13.60115,
+   "name": "Matoto, Simbaya Gare, Simbaya École, Matoto, Conakry, Guinée"
+  }
+ ],
+ "gn|Ratoma": [
+  {
+   "lat": 9.63063,
+   "level": "town",
+   "lon": -13.60784,
+   "name": "Ratoma, Conakry, 625, Guinée"
+  },
+  {
+   "lat": 9.58917,
+   "level": "village",
+   "lon": -13.65571,
+   "name": "Ratoma, Ratoma Centre, Ratoma, Conakry, 625, Guinée"
+  }
+ ],
+ "gn|Ratoma, Conakry": [
+  {
+   "lat": 9.63063,
+   "level": "town",
+   "lon": -13.60784,
+   "name": "Ratoma, Conakry, 625, Guinée"
+  },
+  {
+   "lat": 9.58917,
+   "level": "village",
+   "lon": -13.65571,
+   "name": "Ratoma, Ratoma Centre, Ratoma, Conakry, 625, Guinée"
+  }
+ ],
+ "gq|Arena Blanca": [],
+ "gq|Arena Blanca, Bioko Sur": [],
+ "gq|Bakake Grande": [],
+ "gq|Bakake Grande, Bioko Norte": [],
+ "gq|Biabia": [],
+ "gq|Biabia, Bioko Norte": [],
+ "gq|Bioko Norte": [
+  {
+   "lat": 3.64846,
+   "level": "admin1",
+   "lon": 8.78512,
+   "name": "Bioko Norte, Región Insular, Guinea Ecuatorial"
+  }
+ ],
+ "gq|Bioko Sur": [
+  {
+   "lat": 3.42453,
+   "level": "admin1",
+   "lon": 8.66461,
+   "name": "Bioko Sur, Región Insular, Guinea Ecuatorial"
+  }
+ ],
+ "gq|Cacahual": [],
+ "gq|Cacahual, Bioko Norte": [],
+ "gq|Mongola": [],
+ "gq|Mongola, Bioko Norte": [],
+ "gq|Riaba, Bioko Sur": [
+  {
+   "lat": 3.38546,
+   "level": "village",
+   "lon": 8.76297,
+   "name": "Riaba, Bioko Sur, Región Insular, Guinea Ecuatorial"
+  }
+ ],
+ "gq|Santa Maria, Bioko Norte": [
+  {
+   "lat": 3.73975,
+   "level": "village",
+   "lon": 8.76626,
+   "name": "Santa María, Malabo, Distrito de Malabo, Bioko Norte, Región Insular, Guinea Ecuatorial"
+  }
+ ],
+ "gq|Semu, Bioko Norte": [
+  {
+   "lat": 3.73785,
+   "level": "village",
+   "lon": 8.78375,
+   "name": "Semu, Malabo, Distrito de Malabo, Bioko Norte, Región Insular, Guinea Ecuatorial"
+  },
+  {
+   "lat": 3.74141,
+   "level": "amenity",
+   "lon": 8.7831,
+   "name": "Semu, Avenida de Semu, Semu, Malabo, Distrito de Malabo, Bioko Norte, Región Insular, Guinea Ecuatorial"
   }
  ],
  "gw|Bafatá": [
@@ -1613,5 +1818,20 @@
    "lon": 29.20153,
    "name": "Western Province, Rwanda"
   }
- ]
+ ],
+ "tz|Lower Moshi, Kilimanjaro": [
+  {
+   "lat": -3.15692,
+   "level": "village",
+   "lon": 37.36704,
+   "name": "Mweka Camp, Moshi Rural, Kilimanjaro, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.15619,
+   "level": "building",
+   "lon": 37.36698,
+   "name": "Lower Mweka Hut, Moshi Rural, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
+ "yt|Dzoumogné": []
 }

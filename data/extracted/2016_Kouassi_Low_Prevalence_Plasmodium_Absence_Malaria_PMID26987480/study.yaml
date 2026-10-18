@@ -1,0 +1,24 @@
+study_id: 2016_Kouassi_Low_Prevalence_Plasmodium_Absence_Malaria_PMID26987480
+title: 'Low prevalence of Plasmodium and absence of malaria transmission in Conakry,
+  Guinea: prospects for elimination'
+first_author: Bernard L. Kouassi
+doi: 10.1186/s12936-016-1230-9
+pmid: '26987480'
+publication_year: 2016
+countries:
+- Guinea
+data_source: journal_article
+provenance:
+  source_text: 'Bernard L. Kouassi, Dziedzom K. de Souza, Andre Goepogui, Siradiou
+    M. Balde, Lamia Diakité, Arsène Sagno, Georgina I. Djameh, Frédérique Chammartin,
+    Penelope Vounatsou, Moses J. Bockarie, Jürg Utzinger and Benjamin G. Koudou. Low
+    prevalence of Plasmodium and absence of malaria transmission in Conakry, Guinea:
+    prospects for elimination. Malar J (2016) 15:175.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

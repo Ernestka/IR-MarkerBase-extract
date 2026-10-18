@@ -1,0 +1,68 @@
+{
+  "id": "2017_Bilgo_Improved_Efficacy_Arthropod_Toxin_Expressing_PMID28611355",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tests Anopheles coluzzii, Anopheles gambiae s.s., and An. gambiae Kisumu (page 2, 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 3 mentions quantifying kdr resistance using PCR based on Martinez-Torres et al. 1998 (Vgsc L995F / L1014F): 'The kdr mutation reduces sensitivity to DDT and pyrethroids... The levels of kdr resistance in wild-caught An. coluzzii and An. gambiae s.s. were 98.3% and 92.9%, respectively (Supplementary Table 1).'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The main text reports only percentages (98.3% and 92.9% kdr resistance) without mosquito sample sizes (N), genotype counts, or allele counts in the main text; it refers readers to Supplementary Table 1, which is not provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were reared from larval collections at Vallée du Kou and Soumousso in Burkina Faso (page 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper evaluating transgenic Metarhizium pingshaense efficacy against mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 5 specifies exact coordinates and locations in Burkina Faso: 'Vallée du Kou (11°23′N, 4°24′W) and Soumousso (11°04′N, 4°03′W)'."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito collection months or years are reported anywhere in the main text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Larvae were collected directly from natural breeding sites in Burkina Faso specifically for this study."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Genotype sample sizes and counts are located in 'Supplementary Table 1' (page 3: 'The levels of kdr resistance in wild-caught An. coluzzii and An. gambiae s.s. were 98.3% and 92.9%, respectively (Supplementary Table 1)'), which was not provided."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study tested the efficacy of transgenic Metarhizium pingshaense expressing arthropod toxins against wild insecticide-resistant Anopheles coluzzii and An. gambiae s.s. from Burkina Faso. Although kdr (Vgsc L995F) resistance frequencies are mentioned (98.3% and 92.9%), no sample sizes or genotype counts are included in the main text, referencing an unprovided Supplementary Table 1.",
+    "exclusion_reasons": [
+      "Lacks extractable genotype counts or frequencies with sample size (N) in the provided text (data resides in Supplementary Table 1).",
+      "Collection dates/years are not reported."
+    ]
+  }
+}

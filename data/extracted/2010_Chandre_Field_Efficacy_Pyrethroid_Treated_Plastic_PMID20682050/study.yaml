@@ -1,0 +1,22 @@
+study_id: 2010_Chandre_Field_Efficacy_Pyrethroid_Treated_Plastic_PMID20682050
+title: Field efficacy of pyrethroid treated plastic sheeting (durable lining) in combination
+  with long lasting insecticidal nets against malaria vectors
+first_author: Fabrice Chandre
+doi: 10.1186/1756-3305-3-65
+pmid: '20682050'
+publication_year: 2010
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: A verandah trap experimental hut trial of ITPS with or without Olyset
+    LN was conducted in the Vallée du Kou near Bobo-Dioulasso, where the two molecular
+    forms of Anopheles gambiae s.s., S (frequency 65%) and M (frequency 35%), occur.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

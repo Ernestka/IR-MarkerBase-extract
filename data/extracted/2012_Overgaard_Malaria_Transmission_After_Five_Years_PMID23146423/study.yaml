@@ -1,0 +1,20 @@
+study_id: 2012_Overgaard_Malaria_Transmission_After_Five_Years_PMID23146423
+title: Malaria transmission after five years of vector control on Bioko Island, Equatorial
+  Guinea
+first_author: Hans J Overgaard
+doi: 10.1186/1756-3305-5-253
+pmid: '23146423'
+publication_year: 2012
+countries:
+- Equatorial Guinea
+data_source: journal_article
+provenance:
+  source_text: Overgaard et al. Parasites & Vectors 2012, 5:253
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

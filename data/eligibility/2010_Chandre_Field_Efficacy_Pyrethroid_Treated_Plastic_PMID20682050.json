@@ -1,0 +1,67 @@
+{
+  "id": "2010_Chandre_Field_Efficacy_Pyrethroid_Treated_Plastic_PMID20682050",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. (M and S molecular forms) entering experimental huts in Vallée du Kou (page 1, Abstract; page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Detection of kdr alleles using the PCR method of Martinez-Torres et al. 1998 (Vgsc L995F / L1014F) (page 3, 'Genetic information')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact counts of mosquitoes genotyped and dead/total collected for each kdr genotype (kdr/kdr, kdr/+, +/+) across M and S forms and experimental hut arms, totaling 202 specimens (page 4, Table 2 and text under 'Impact of kdr mutation on mortality')."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes collected entering experimental huts in Vallée du Kou near Bobo-Dioulasso, Burkina Faso (page 2, 'Study area' and page 3, 'Results')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary experimental hut trial conducted between mid-September and late December 2005 (page 3, 'Methods')."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Vallée du Kou, near Bobo-Dioulasso, Burkina Faso (page 2, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Evaluated over 80 nights between mid September and late December 2005 (page 3, 'Methods')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard experimental hut trial conducted by IRD/IRSS/Centre Muraz teams in 2005 with no indication of sample sharing from external databases."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and genotype-phenotype mortality data are fully presented in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2005
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": true,
+    "sample_size": 202,
+    "summary": "This study evaluated permethrin-treated durable lining (ITPS) alone and in combination with Olyset long-lasting insecticidal nets in experimental huts in Vallée du Kou, Burkina Faso in 2005. A sample of 202 An. gambiae s.s. (M and S molecular forms) collected from the huts were genotyped for the Vgsc L995F kdr mutation, with genotype frequencies and mortality breakdowns provided for each treatment arm.",
+    "exclusion_reasons": []
+  }
+}

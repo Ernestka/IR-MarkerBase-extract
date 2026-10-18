@@ -1,0 +1,69 @@
+{
+  "id": "2014_Zhu_Colonization_Pyrethroid_Resistant_Strain_Wild_PMID25499700",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted on Anopheles sinensis ('The colonization of pyrethroid resistant strain from wild Anopheles sinensis, the major Asian malaria vector', page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes codon 1014 (L1014F and L1014C) in the Asian vector Anopheles sinensis rather than the target African malaria vector species complexes (such as Anopheles gambiae s.l. or Anopheles funestus group) (page 4, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts across generations (F0 to F11) for codon 1014 (page 5, Table 2)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected from Yixing County, Jiangsu Province, China, not from an African country ('From June to July in 2013, living engorged female anopheline mosquitoes (F0) were captured gently with a mouth aspirator in pigsties near a rice field in Yixing County (119°38′ E, 31°16′ N), Jiangsu Province, China', page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper describing colonization, selection, bioassays, and genotyping of An. sinensis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Yixing County (119°38′ E, 31°16′ N), Jiangsu Province, China (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were sampled between June and July 2013 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard primary colonization and selection study with field collection from 2013."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary bioassay and genotype data are reported directly in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2000,
+    "summary": "This study describes the laboratory colonization and deltamethrin selection of wild Anopheles sinensis collected in Yixing County, Jiangsu Province, China in 2013. The paper is ineligible because it evaluates an Asian malaria vector collected outside Africa.",
+    "exclusion_reasons": [
+      "Mosquitoes were collected in China (non-African field population).",
+      "The target species is the Asian vector Anopheles sinensis rather than African malaria vectors."
+    ]
+  }
+}

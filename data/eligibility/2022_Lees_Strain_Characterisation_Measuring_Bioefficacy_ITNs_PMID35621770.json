@@ -1,0 +1,65 @@
+{
+  "id": "2022_Lees_Strain_Characterisation_Measuring_Bioefficacy_ITNs_PMID35621770",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on Anopheles malaria vectors (e.g., Anopheles gambiae s.l., mentioning strains such as Kisumu and Tiassalé 13 on page 19, Table 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses target site mutations (such as kdr) generally as part of strain characterisation recommendations, but does not genotype or report frequencies for any target markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data, counts, or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito collections or tests on field-collected mosquitoes are reported; the paper presents consensus guidelines and illustrative bioassay data from laboratory colonies (Kisumu and Tiassalé 13)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a guidelines/consensus methodology paper developing a standard operating procedure for strain characterisation in ITN durability monitoring."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection sites are sampled or reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito collection dates or sampling windows are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No primary empirical field dataset is reported."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplement contains an SOP (I2I-SOP-004) rather than empirical field genotype datasets."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article presents consensus guidelines and a standard operating procedure (SOP) for mosquito strain characterisation to measure the bioefficacy of dual-active ingredient ITNs during durability monitoring. It does not contain any primary empirical genotype data or field mosquito collections.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (guidelines / protocol consensus)",
+      "No target insecticide resistance markers genotyped",
+      "No extractable genotype data reported",
+      "No African field populations sampled or tested"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2012_Overgaard_Malaria_Transmission_After_Five_Years_PMID23146423",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. and Anopheles melas collected on Bioko Island, Equatorial Guinea (page 1, Abstract; page 5, Table 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mosquitoes were screened for Vgsc L1014F (L995F), L1014S (L995S), and ace-1R (G119S/G280S) using real-time TaqMan assays (page 5, 'Specimen handling and molecular analyses'; page 8, 'Insecticide resistance')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 (page 11) presents exact sample sizes and genotype counts (S/S, S/R, R/R) as well as L1014F allele frequencies for An. gambiae s.s. from Mongola, Arena Blanca, and Riaba. Table 3 (page 11) reports L1014F frequencies from light trap collections across multiple sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field across multiple sites on Bioko Island, Equatorial Guinea, during 2009 using HLC and LTC (page 3, 'Mosquito collections')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original entomological data collected in 2009 on Bioko Island."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported by specific sentinel locations on Bioko Island: Punta Europa (Mongola, Biabia, Cacahual), Riaba, Basacato del Oeste, Santa Maria, Arena Blanca, Bilelipa, Semu, and Bakake Grande (page 5, Table 1; page 11, Table 3 and Table 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "All collections took place during a single year, between February and December 2009 (page 3, 'Mosquito collections')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Mosquitoes were collected in 2009 as part of routine BIMCP entomological monitoring; while biting rates for one site were previously mentioned in Reddy et al. 2011, this is the primary presentation of the comprehensive 2009 insecticide resistance data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype counts and frequencies are reported directly in the main text in Tables 3 and 4."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1754,
+    "summary": "This study evaluated entomological transmission indicators and insecticide resistance alleles (Vgsc L1014F, L1014S, and Ace-1 G119S) on Bioko Island, Equatorial Guinea, in 2009. Only Vgsc L1014F was detected in An. gambiae s.s. (M molecular form), with full genotype counts (S/S, S/R, R/R) and allele frequencies provided for three sites from human landing collections, and allele frequencies from light trap collections across multiple sites.",
+    "exclusion_reasons": []
+  }
+}

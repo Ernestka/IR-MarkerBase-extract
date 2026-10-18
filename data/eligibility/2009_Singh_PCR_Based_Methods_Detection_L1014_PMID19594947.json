@@ -1,0 +1,66 @@
+{
+  "id": "2009_Singh_PCR_Based_Methods_Detection_L1014_PMID19594947",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles culicifacies sensu lato (page 1, title and abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotypes the Vgsc L1014F (L995F) kdr mutation (page 1 abstract; page 5 Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5, Results: 'A total of 186 samples were genotyped using AS-PCR, of which 167 were assigned as homozygous susceptible (SS), one as homozygous resistant (RR) and 18 as heterozygote (SR)'."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected from Surat district of Gujarat state, India (page 2, 'Study area'). No African populations were studied."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting novel PCR assays and empirical genotyping of field-collected Anopheles culicifacies."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Surat district, Gujarat state, India, within three Primary Health Centres: Amladam, Bareda and Dadheda (page 2, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No sampling dates or collection years are provided in the paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collection from local primary health centres in India for assay development and validation."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype data necessary are reported in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles culicifacies"
+    ],
+    "countries": [
+      "India"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 186,
+    "summary": "This study develops three PCR-based methods (AS-PCR, ARMS, and PIRA-PCR) for genotyping the Vgsc L1014F mutation in Anopheles culicifacies s.l. and tests 186 field-collected mosquitoes from Surat district, Gujarat, India. It is ineligible because the mosquitoes are from India, not Africa.",
+    "exclusion_reasons": [
+      "african_field_population"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2011_Kweka_Durability_Associated_Efficacy_Long_Lasting_PMID21819578",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Tests Anopheles gambiae s.s. (laboratory colony) and Anopheles arabiensis (wild population) alongside Culex quinquefasciatus (page 1, Abstract; page 2, Bioassays procedures)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The authors mention the 1014F-kdr mutation in passing as a citation to explain bioassay mortality differences ('This is likely due to the pyrethroid resistance conferred by the 1014F-kdr mutation known to be predominant among mosquitoes population in this study area [21,22]', page 2), but do not perform any molecular marker genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular genotyping was performed; no genotype counts, frequencies, or sample sizes for resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild An. arabiensis were collected from Lower Moshi, north-eastern Tanzania (page 2, Findings and Bioassays procedures)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study presents primary field evaluations of LLIN durability, HPLC deltamethrin quantification, and cone bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Lower Moshi, north-eastern Tanzania (page 2, Findings)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Nets distributed in 2005 and evaluated in 2010 (page 2, Findings)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Small-scale community study evaluating net retention and bioefficacy in Lower Moshi."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are referenced or required; the study is a bioassay and chemical durability evaluation with no genotyping performed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the retention, fabric integrity, chemical content (HPLC), and bioefficacy (cone tests) of PermaNet 2.0 bed nets after five years of household use in Lower Moshi, Tanzania. While cone bioassays were conducted against An. arabiensis, An. gambiae s.s., and Cx. quinquefasciatus, no resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

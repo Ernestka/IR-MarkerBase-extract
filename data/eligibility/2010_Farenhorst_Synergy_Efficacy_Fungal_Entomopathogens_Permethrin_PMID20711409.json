@@ -1,0 +1,67 @@
+{
+  "id": "2010_Farenhorst_Synergy_Efficacy_Fungal_Entomopathogens_Permethrin_PMID20711409",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tested Anopheles gambiae s.s. laboratory colony (VKPer) and field-collected Anopheles gambiae s.s. (M-form) from Ladji, Benin (page 2, 'Mosquitoes')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No genotyping was performed in this study. The authors only cited previous literature stating that the VKPer colony and the Ladji field population carry the kdr mutation (page 2, 'Mosquitoes')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts, sample sizes, or frequencies for any resistance marker are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes were reared from larvae and pupae collected from breeding sites near Ladji, Benin in April 2009 (page 2, 'Mosquitoes')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article investigating the synergistic efficacy of entomopathogenic fungi and permethrin against An. gambiae."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Larval collection occurred in Ladji, Benin (6°23'23\"N, 2°25'56\"E) (page 2, 'Mosquitoes')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field mosquitoes were collected in April 2009 (page 2, 'Mosquitoes')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collection for experimental bioassays conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are required; the study did not conduct molecular marker genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory study evaluated the synergy between entomopathogenic fungi (Beauveria bassiana and Metarhizium anisopliae) and permethrin on resistant Anopheles gambiae s.s. (VKPer colony and field-collected mosquitoes from Ladji, Benin). Although bioassays were performed, no molecular genotyping of insecticide resistance markers was conducted.",
+    "exclusion_reasons": [
+      "reports_target_markers: No resistance marker genotyping was performed; kdr presence was merely assumed from previous literature.",
+      "reports_extractable_genotype_data: No extractable genotype or allele counts/frequencies are presented."
+    ]
+  }
+}

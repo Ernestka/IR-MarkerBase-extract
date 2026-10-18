@@ -1,0 +1,71 @@
+{
+  "id": "2011_Killeen_Importance_Considering_Community_Level_Effects_PMID21838903",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study models transmission by Anopheles gambiae s.s., Anopheles arabiensis, and Anopheles epiroticus (page 5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No genotyping was performed in this paper. The kdr L1014F allele is only mentioned as background information from referenced literature (pages 3, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts or frequencies with sample sizes are reported; the paper only cites previous publications describing the resistance status of the vector populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The simulation uses parameters derived from previously published experimental hut trials on field populations in Cameroon, Burkina Faso, and Benin (page 5)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a mathematical simulation and transmission modeling study that re-analyzes published Phase II experimental hut trial datasets (pages 1, 4-5)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Experimental hut trial sites referenced include Pitoa village near Garoua (Cameroon), Kou Valley near Bobo-Dioulasso (Burkina Faso), and Akron near Porto Novo (Benin) (page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study does not report collection dates or years for the underlying experimental hut data."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a simulation study without original field genotyping data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; the paper is intrinsically a modeling study."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles epiroticus"
+    ],
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Cameroon",
+      "Vietnam"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a process-explicit mathematical simulation study parameterised by previously published Phase II experimental hut trials comparing PermaNet 2.0 and PermaNet 3.0 in Vietnam, Cameroon, Burkina Faso, and Benin. No mosquito genotyping was conducted.",
+    "exclusion_reasons": [
+      "Pure simulation/modelling study (not a primary empirical genotyping study)",
+      "No target insecticide resistance markers genotyped",
+      "No extractable genotype or allele frequency data"
+    ]
+  }
+}

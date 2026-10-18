@@ -1,0 +1,68 @@
+{
+  "id": "2014_Xu_Anopheles_Sinensis_Mosquito_Insecticide_Resistance_PMID24472598",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles sinensis mosquitoes (e.g., Title: 'Anopheles sinensis mosquito insecticide resistance...')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study characterizes kdr mutations at codon 1014 (L1014F, L1014C) in Anopheles sinensis, not in African vector species (An. gambiae complex or An. funestus)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 reports sample sizes (n) and kdr allele frequencies for alive and dead An. sinensis mosquitoes from Liuyang and Huainan."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected exclusively in China: 'We conducted the study in two sites in China, Liuyang County (three villages, 28.1 N and 113.4E) in Hunan province and Huainan County (two villages, 32.6 N and 117.1E) in Anhui province' (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original primary research article reporting field collections, WHO susceptibility bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Liuyang County in Hunan province and Huainan County in Anhui province, China (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in July and August 2011 and July and August 2012 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard field collections conducted directly for this research study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary bioassay and allele frequency data are reported in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 598,
+    "summary": "This study evaluates the influence of mosquito sample collection/preparation methods and age on deltamethrin bioassays, metabolic enzyme activity, and kdr mutations in Anopheles sinensis from Hunan and Anhui provinces in China. The study is ineligible because it is not an African field population and does not investigate African malaria vector target markers.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "reports_target_markers"
+    ]
+  }
+}

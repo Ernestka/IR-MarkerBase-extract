@@ -1,0 +1,20 @@
+study_id: 2014_Pocquet_Insecticide_Resistance_Disease_Vectors_Mayotte_PMID24984704
+title: 'Insecticide resistance in disease vectors from Mayotte: an opportunity for
+  integrated vector management'
+first_author: Nicolas Pocquet
+doi: 10.1186/1756-3305-7-299
+pmid: '24984704'
+publication_year: 2014
+countries:
+- Mayotte
+data_source: journal_article
+provenance:
+  source_text: Pocquet et al. Parasites & Vectors 2014, 7:299
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

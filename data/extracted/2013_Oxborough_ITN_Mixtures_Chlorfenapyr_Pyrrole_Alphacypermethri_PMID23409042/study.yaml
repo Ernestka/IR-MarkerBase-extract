@@ -1,0 +1,23 @@
+study_id: 2013_Oxborough_ITN_Mixtures_Chlorfenapyr_Pyrrole_Alphacypermethri_PMID23409042
+title: ITN Mixtures of Chlorfenapyr (Pyrrole) and Alphacypermethrin (Pyrethroid) for
+  Control of Pyrethroid Resistant Anopheles arabiensis and Culex quinquefasciatus
+first_author: Richard M. Oxborough
+doi: 10.1371/journal.pone.0055781
+pmid: '23409042'
+publication_year: 2013
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: 'Oxborough RM, Kitau J, Matowo J, Feston E, Mndeme R, et al. (2013)
+    ITN Mixtures of Chlorfenapyr (Pyrrole) and Alphacypermethrin (Pyrethroid) for
+    Control of Pyrethroid Resistant Anopheles arabiensis and Culex quinquefasciatus.
+    PLoS ONE 8(2): e55781. doi:10.1371/journal.pone.0055781'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)
