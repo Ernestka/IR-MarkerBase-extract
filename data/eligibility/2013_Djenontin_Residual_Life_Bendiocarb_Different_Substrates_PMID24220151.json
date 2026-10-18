@@ -1,0 +1,65 @@
+{
+  "id": "2013_Djenontin_Residual_Life_Bendiocarb_Different_Substrates_PMID24220151",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated bioefficacy and residual life of bendiocarb against Anopheles gambiae (Kisumu strain and a local wild population) (page 2, 'Mosquitoes')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No resistance marker genotyping was performed in this study. The authors only cite prior literature mentioning kdr and Ace-1 frequencies (e.g. references 16, 25, 26 on pages 2 and 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular assays or genotype data are reported; the paper only reports WHO cone bioassay mortality across time on various substrates."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "A local population of An. gambiae collected as larvae in southern Benin was tested (page 2, 'Mosquitoes')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary empirical study testing bendiocarb residual life via WHO cone tests."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field tests were conducted in Ouidah-Kpomassè-Tori (OKT) health district in southern Benin (page 2, 'Study area and substrates treated')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Specific collection dates/years for the field bioassays and larval collections are not explicitly stated in the manuscript."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the residual efficacy of bendiocarb indoor residual spraying on four different substrate types under laboratory and field conditions in southern Benin using WHO cone bioassays on susceptible (Kisumu) and pyrethroid-resistant Anopheles gambiae. No insecticide resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (bioassay-only study).",
+      "No extractable genotype data reported."
+    ]
+  }
+}

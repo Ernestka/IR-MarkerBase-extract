@@ -1,0 +1,67 @@
+{
+  "id": "2015_Abeku_Monitoring_Changes_Malaria_Epidemiology_Effectiven_PMID26337671",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.s. and Anopheles arabiensis were collected and analyzed (page 10)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc kdr-L1014S (kdr-east / L995S) in An. gambiae s.s. and An. arabiensis (page 10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 10 reports kdr-L1014S frequencies and sample sizes: in Butemba, 94.7% (n=113) in A. gambiae s.s. and 0% (n=7) in A. arabiensis; in Aduku, 81% (n=13) in A. gambiae s.s. and 3% (n=252) in A. arabiensis."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in field sites in Uganda (Aduku, Apac district and Butemba, Kyankwanzi district) in October-November 2012 (page 2, page 10)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting baseline epidemiological and entomological field surveys."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Study sites identified with specific coordinates in Table 1 (e.g. Aduku: 1°59'33.51\"N, 32°43'8.26\"E; Butemba: 1°8'33.86\"N, 31°36'8.79\"E)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred during the baseline survey in October and November 2012 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is the primary publication of the baseline survey data for the Beyond Garki Project in Uganda and Ethiopia."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All kdr genotype frequencies and sample sizes are fully presented in the main text on page 10."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 385,
+    "summary": "This paper reports the baseline cross-sectional malaria survey (October-November 2012) of the Beyond Garki Project in Uganda and Ethiopia. Mosquitoes collected in two sites in Uganda (Aduku and Butemba) were genotyped for the Vgsc L1014S (L995S) kdr mutation in An. gambiae s.s. and An. arabiensis.",
+    "exclusion_reasons": []
+  }
+}

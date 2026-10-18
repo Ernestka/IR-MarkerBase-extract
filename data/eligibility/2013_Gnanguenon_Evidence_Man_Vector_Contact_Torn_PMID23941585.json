@@ -1,0 +1,66 @@
+{
+  "id": "2013_Gnanguenon_Evidence_Man_Vector_Contact_Torn_PMID23941585",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (along with Anopheles pharoensis and Anopheles ziemanni), as described in Methods and Table 1 (page 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for knockdown resistance (kdr) mutations using PCR-RFLP following Martinez-Torres et al. 1998 (Vgsc L995F / L1014F), as described on page 4 and Table 3."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 8 provides exact genotype counts (SS, RS, RR), sample sizes, and kdr allelic frequencies for Anopheles gambiae s.l. collected across different net types in three localities."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in three locations in Benin: Abomey-Takplikpo (Adjarra district), Bame (Zangnanado district), and Malanville (Malanville district) (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study presents primary empirical field research investigating mosquito entry into torn LLINs and subsequent kdr genotyping (pages 2-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Provides specific village/district locations with geographic coordinates: Abomey-Takplikpo (6°31'54\"N, 2°39'56\"E), Bame (7°16'46\"N, 2°24'46\"E), and Malanville (11°50'27\"N, 3°24'08\"E) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected over a 5-month period from April to August 2010 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary field study conducted by Centre de Recherche Entomologique de Cotonou (CREC) with no indication of data duplication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and site data are fully presented in the main text and Table 3."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 320,
+    "summary": "This study evaluated mosquito entry into torn LLINs versus untreated nets across three bioclimatic regions in Benin in 2010. A total of 320 field-caught female Anopheles gambiae s.l. were genotyped for the Vgsc L1014F (L995F) kdr mutation, and complete genotype counts (SS, RS, RR) were reported across sites and net types.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,21 @@
+study_id: 2010_Djenontin_Culicidae_Diversity_Malaria_Transmission_Insectici_PMID20819214
+title: 'Culicidae diversity, malaria transmission and insecticide resistance alleles
+  in malaria vectors in Ouidah-Kpomasse-Tori district from Benin (West Africa): A
+  pre-intervention study'
+first_author: Armel Djènontin
+doi: 10.1186/1756-3305-3-83
+pmid: '20819214'
+publication_year: 2010
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Djènontin et al. Parasites & Vectors 2010, 3:83
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

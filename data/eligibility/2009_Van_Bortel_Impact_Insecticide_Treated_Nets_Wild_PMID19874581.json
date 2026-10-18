@@ -1,0 +1,72 @@
+{
+  "id": "2009_Van_Bortel_Impact_Insecticide_Treated_Nets_Wild_PMID19874581",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates field populations of Anopheles epiroticus (page 1, Abstract; page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No molecular resistance markers were genotyped in this study; the authors only cite previous literature stating kdr is absent in An. epiroticus in this region (page 2, Background; page 7, Discussion)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data or allele counts are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected in Van Duc A village, Bac Lieu province, southern Vietnam (page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating ITNs and LLINs in experimental huts (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Van Duc A village, Bac Lieu province, southern Vietnam (9.18353 N, 105.30339 E) (page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Baseline was conducted in December 2006 and the hut trial took place from 23 September to 28 October 2008 (page 3, Study design)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary experimental hut evaluation trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplemental marker data exists or is referenced."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles epiroticus",
+      "Anopheles nimpe",
+      "Anopheles sinensis",
+      "Anopheles campestris"
+    ],
+    "countries": [
+      "Vietnam"
+    ],
+    "collection_years": [
+      2006,
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of insecticide-treated nets (PermaNet 2.0, PermaNet 3.0, and deltamethrin CTN) against wild pyrethroid-resistant Anopheles epiroticus in experimental huts in Bac Lieu province, southern Vietnam. The study did not test African populations nor did it perform molecular genotyping for resistance markers.",
+    "exclusion_reasons": [
+      "No target insecticide-resistance markers were genotyped.",
+      "No extractable genotype data reported.",
+      "Study conducted outside Africa (Vietnam)."
+    ]
+  }
+}

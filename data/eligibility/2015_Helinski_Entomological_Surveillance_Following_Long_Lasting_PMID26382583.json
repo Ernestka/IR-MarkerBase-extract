@@ -1,0 +1,71 @@
+{
+  "id": "2015_Helinski_Entomological_Surveillance_Following_Long_Lasting_PMID26382583",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Entomological surveillance sampled Anopheles gambiae s.s., Anopheles arabiensis, and Anopheles funestus s.l. (page 1, Abstract; page 4, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014S (kdr-east / L995S) and L1014F (kdr-west / L995F) using TaqMan assays (page 3, 'Molecular analyses'; page 7, 'Insecticide resistance markers'; Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 (page 9) provides kdr L1014S genotype frequencies, sample sizes (N), and percentage homozygous resistant (RR) by site and year (2009-2012) for An. gambiae s.s. and An. arabiensis. Page 7 also gives L1014F sample sizes and genotype frequencies."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-caught adult mosquitoes collected using CDC light traps and human landing catches in Buliisa, Hoima, Kyankwanzi, and Kibaale districts in Midwestern Uganda (pages 2-3, 'Study sites' and 'Mosquito collections & processing')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field study monitoring entomological parameters and insecticide resistance following an LLIN campaign (pages 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sites identified down to exact coordinates: Buliisa (N1°49' 7.78\" E31°19' 29.71\"), Hoima (N1° 25' 22.08\" E31° 18' 24.12\"), Kyankwanzi (N1° 7' 29.28\" E31° 35' 53.88\"), and Kibaale (Muhorro: N0° 55' 0.21\" E30° 45' 28.48\") (page 2, 'Study sites')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Genotyping results in Table 5 are disaggregated by individual calendar year: 2009, 2010, 2011, and 2012."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field collections carried out as part of the Pioneer project in Midwestern Uganda."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequencies, sample sizes, and site breakdown data are present in the main text and Table 5."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1086,
+    "summary": "This study evaluated entomological inoculation rates, species composition, and pyrethroid resistance marker dynamics (Vgsc L1014S and L1014F) in Anopheles gambiae s.s. and An. arabiensis across four districts in Midwestern Uganda between 2009 and 2012 following a universal coverage LLIN distribution campaign.",
+    "exclusion_reasons": []
+  }
+}

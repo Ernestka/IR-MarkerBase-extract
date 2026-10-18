@@ -1,0 +1,22 @@
+study_id: 2012_Ndiath_Low_Seasonal_Malaria_Transmission_Middle_PMID22269038
+title: 'Low and seasonal malaria transmission in the middle Senegal River basin: identification
+  and characteristics of Anopheles vectors'
+first_author: Mamadou O Ndiath
+doi: 10.1186/1756-3305-5-21
+pmid: '22269038'
+publication_year: 2012
+countries:
+- Senegal
+data_source: Parasites & Vectors 2012, 5:21
+provenance:
+  source_text: 'Low and seasonal malaria transmission in the middle Senegal River
+    basin: identification and characteristics of Anopheles vectors. Parasites & Vectors
+    2012, 5:21.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

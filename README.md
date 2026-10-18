@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**198 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-18
+**213 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-18
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -55,6 +55,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2007_Wang-Sattler_Mosaic_Genome_Architecture_Anopheles_Gambiae_PMID18043756 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.7-flash | 7412 | 1725 |  |  |  |  | 0.0000 |
 | 2007_Wondji_Identification_Analysis_Single_Nucleotide_Polymorp_PMID17204152 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.5-flash | 8452 | 2836 |  |  |  |  | 0.0000 |
 | 2008_Caputo_Anopheles_Gambiae_Complex_Along_Gambia_PMID18803885 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 10532 | 1590 |  |  |  |  | 0.0000 |
+| 2008_Casimiro_Monitoring_Operational_Impact_Insecticide_Usage_PMC2248594 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.5-flash | 2732 | 1603 |  |  |  |  | 0.0000 |
 | 2008_Esnault_High_Genetic_Differentiation_M_Molecular_PMID18414665 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 5332 | 1457 |  |  |  |  | 0.0000 |
 | 2008_Greenwood_Malaria_Progress_Perils_Prospects_Eradication_PMID18382739 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 7632 | 858 |  |  |  |  | 0.0000 |
 | 2008_Irish_Loss_Protection_Insecticide_Treated_Nets_PMID18564409 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 4292 | 1200 |  |  |  |  | 0.0000 |
@@ -64,11 +65,14 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2009_Pennetier_Synergy_Repellents_Organophosphates_Bed_Nets_PMID19936249 | master | EXTRACTED | True | high | medium | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.5-flash | 5852 | 2853 | gemini:gemini-3.5-flash | 18160 | 15987 | 2 survey(s), 4 genotype, 0 bioassay, 0 geno-pheno rows; 4 warning(s) | 0.0000 |
 | 2009_Singh_PCR_Based_Methods_Detection_L1014_PMID19594947 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 5852 | 1577 |  |  |  |  | 0.0000 |
 | 2009_Townson_SIT_African_Malaria_Vectors_Epilogue_PMID19917071 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3-flash-preview | 3772 | 2902 |  |  |  |  | 0.0000 |
+| 2009_Van_Bortel_Impact_Insecticide_Treated_Nets_Wild_PMID19874581 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.7-flash | 5852 | 1124 |  |  |  |  | 0.0000 |
 | 2009_van_den_Berg_Global_Status_DDT_Alternatives_Use_PMID20049114 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.7-flash | 5852 | 1061 |  |  |  |  | 0.0000 |
 | 2010_Ahoua_Alou_Distribution_Ace_1R_Resistance_Carbamates_PMID20553593 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.7-flash | 5472 | 1692 | gemini:gemini-3.5-flash | 7247 | 27872 | 10 survey(s), 8 genotype, 23 bioassay, 0 geno-pheno rows | 0.0000 |
 | 2010_Brooke_Larval_Time_Hatch_Insecticide_Resistance_PMC2963243 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 2772 | 1196 |  |  |  |  | 0.0000 |
+| 2010_Brooke_Major_Effect_Genes_Or_Loose_PMID20716346 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.5-flash | 6012 | 1506 |  |  |  |  | 0.0000 |
 | 2010_Chandre_Field_Efficacy_Pyrethroid_Treated_Plastic_PMID20682050 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 4932 | 1861 | gemini:gemini-3.8-flash | 19309 | 45496 | 2 survey(s), 0 genotype, 0 bioassay, 19 geno-pheno rows; 19 warning(s) | 0.0000 |
 | 2010_Chen_Molecular_Ecology_Pyrethroid_Knockdown_Resistance_PMID20657783 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3-flash-preview | 6372 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
+| 2010_Djenontin_Culicidae_Diversity_Malaria_Transmission_Insectici_PMID20819214 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.7-flash | 5472 | 1911 |  |  |  |  | 0.0000 |
 | 2010_Djogbenou_Costs_Insensitive_Acetylcholinesterase_Insecticide_PMID20070891 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 6012 | 1769 |  |  |  |  | 0.0000 |
 | 2010_Farenhorst_Synergy_Efficacy_Fungal_Entomopathogens_Permethrin_PMID20711409 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 6892 | 1529 |  |  |  |  | 0.0000 |
 | 2010_Howard_Entomopathogenic_Fungus_Beauveria_Bassiana_Reduces_PMID20843321 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 7632 | 1091 |  |  |  |  | 0.0000 |
@@ -82,11 +86,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2011_Bai_Large_Scale_RNAi_Screen_G_PMID21806814 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.7-flash | 7632 | 799 |  |  |  |  | 0.0000 |
 | 2011_Barbosa_Challenges_Estimating_Insecticide_Selection_Pressu_PMID22069506 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 7412 | 1315 |  |  |  |  | 0.0000 |
 | 2011_Howard_First_Report_Infection_Insecticide_Resistant_PMID21288359 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.7-flash | 6012 | 1213 |  |  |  |  | 0.0000 |
-| 2011_Killeen_Importance_Considering_Community_Level_Effects_PMID21838903 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 5472 | 1550 |  |  |  |  | 0.0000 |
-| 2011_Konate_Intermittent_Preventive_Treatment_Malaria_Provides_PMID21304925 | master | INELIGIBLE | False | high | none | True | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.7-flash | 8972 | 2715 |  |  |  |  | 0.0000 |
-| 2011_Kweka_Durability_Associated_Efficacy_Long_Lasting_PMID21819578 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 4392 | 1144 |  |  |  |  | 0.0000 |
-| 2011_Zhou_Changing_Patterns_Malaria_Epidemiology_2002_PMID21629783 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 7932 | 1600 |  |  |  |  | 0.0000 |
-| … 138 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| … 153 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

@@ -1,0 +1,71 @@
+{
+  "id": "2014_Maliti_Islands_Stepping_Stones_Comparative_Population_PMID25353688",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. and Anopheles arabiensis from Tanzania (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014F (L995F) and L1014S (L995S) using TaqMan qPCR (page 3, 'Microsatellite and kdr genotyping')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports that kdr 1014F was absent in all samples; kdr 1014S was tested in 693 An. arabiensis with exactly 1 heterozygote detected in Dar es Salaam; and in An. gambiae s.s. (tested in ~20 individuals per site), allele and homozygote frequencies are detailed in Figure 7 and the text (page 8, 12)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 22 field sites across central, eastern, and island regions of Tanzania between 2008 and 2011 (pages 1-3, Table 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field mosquito collections and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Locations and coordinates are provided for specific sites across Tanzania, including Dar es Salaam districts (Ilala, Kinondoni, Temeke), Bagamoyo, Unguja, Pemba, and Kilombero Valley villages (Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections are resolved to specific sampling years (2008, 2009, 2010, 2011) as shown in Table 1 and Table 2."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Mosquito samples were collected by the authors and routine surveillance teams (NIMR, ZAMEP, IHI) with no reported duplication of previously published kdr genotype data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Genotype frequencies and sample counts for kdr are reported in the main text (pages 8, 12) and Figure 7."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1429,
+    "summary": "This study analyzes the population structure and kdr resistance mutations (L1014F and L1014S) in Anopheles gambiae s.s. and Anopheles arabiensis from central-eastern Tanzania and the Zanzibar archipelago (Unguja and Pemba) collected between 2008 and 2011. L1014F was not detected, whereas L1014S was found at high frequencies in coastal An. gambiae s.s. populations and at very low frequency in An. arabiensis.",
+    "exclusion_reasons": []
+  }
+}

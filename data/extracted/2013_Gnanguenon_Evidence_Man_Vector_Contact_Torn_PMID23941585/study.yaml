@@ -1,0 +1,19 @@
+study_id: 2013_Gnanguenon_Evidence_Man_Vector_Contact_Torn_PMID23941585
+title: Evidence of man-vector contact in torn long-lasting insecticide-treated nets
+first_author: Virgile Gnanguenon
+doi: 10.1186/1471-2458-13-751
+pmid: '23941585'
+publication_year: 2013
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Gnanguenon et al. BMC Public Health 2013, 13:751
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-18'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,69 @@
+{
+  "id": "2010_Djenontin_Culicidae_Diversity_Malaria_Transmission_Insectici_PMID20819214",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult mosquitoes collected included Anopheles gambiae s.s. and Anopheles funestus s.s. (page 4, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Characterization of kdr (west-African Leu-Phe mutation, Vgsc L995F) and ace-1 (G119S/G280S) mutations was performed (page 3, Molecular analysis; page 5, Table 6 and text)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 6 provides exact genotype counts (RR, RS, SS) and sample sizes for the kdr mutation in M and S molecular forms of An. gambiae s.s. across two collection periods (October-December 2007 and January-May 2008), totaling 318 mosquitoes. The text on page 5 also reports Ace-1 genotype data (two RS heterozygotes found in S form)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes were collected via human landing catches in 28 villages across the Ouidah-Kpomasse-Tori (OKT) district in southern Benin (pages 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting baseline field entomological survey and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred in 28 specified villages in Ouidah-Kpomasse-Tori (OKT) health district, southern Benin (page 2, page 3 Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling took place during five surveys between October 2007 and May 2008 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field surveys represent a primary baseline entomological collection conducted before implementing an IRM randomized controlled trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and allelic frequencies are provided directly in Table 6 and the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2007,
+      2008
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 318,
+    "summary": "This study conducted baseline entomological surveys across 28 villages in the Ouidah-Kpomasse-Tori district of southern Benin from October 2007 to May 2008. Field-caught An. gambiae s.s. (M and S molecular forms, now An. coluzzii and An. gambiae) were genotyped for Vgsc L995F (kdr-w) and Ace-1 G119S, reporting extractable genotype counts (RR, RS, SS) for 318 individuals.",
+    "exclusion_reasons": []
+  }
+}

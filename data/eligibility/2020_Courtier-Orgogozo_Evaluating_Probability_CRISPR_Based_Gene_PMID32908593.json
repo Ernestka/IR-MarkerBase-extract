@@ -1,0 +1,63 @@
+{
+  "id": "2020_Courtier-Orgogozo_Evaluating_Probability_CRISPR_Based_Gene_PMID32908593",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae, An. coluzzii, and An. arabiensis in the context of gene drive technology and introgression (p. 3-4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr resistance in passing when reviewing literature on introgression (p. 4), but does not perform any genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts, allele counts, or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito populations were collected or genotyped in this study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a theoretical review and modelling paper deriving a formula (DRAQUE) to evaluate gene drive contamination risks."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; this is a theoretical review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed because the paper contains no primary empirical field genotyping data."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper presents a theoretical framework and formula (DRAQUE) to assess the risk of CRISPR-based gene drives transferring to non-target species. It is a review and opinion piece, containing no primary empirical genotype or bioassay data on field-caught Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "Does not genotype target insecticide resistance markers",
+      "Does not report extractable genotype data",
+      "Does not study African field populations",
+      "Is not a primary empirical study (theoretical/review article)"
+    ]
+  }
+}

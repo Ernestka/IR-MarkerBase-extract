@@ -1,0 +1,68 @@
+{
+  "id": "2008_Casimiro_Monitoring_Operational_Impact_Insecticide_Usage_PMC2248594",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'Monitoring the operational impact of insecticide usage for malaria control on Anopheles funestus from Mozambique'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper only discusses WHO bioassay susceptibility test results and mentions kdr historically in the text; no molecular marker genotyping was performed or reported in this paper."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular marker genotype counts or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 1: 'WHO susceptibility test results on 1–3 day old F1 An. funestus from 16 localities in Mozambique'"
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This publication is a formal Correction notice (erratum) for Casimiro et al. 2007 (Malaria J 2007, 6:142)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2, Table 1 lists 16 specific localities in Mozambique including Benfica, Boane, Catuane, Chibuto, Chokwe, Mafambisse, etc."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2, Table 1 reports 1999 baseline data and 2006 data."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "This is an erratum/correction notice for a previously published study (Casimiro et al., Malaria J 2007, 6:142)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No target marker data exists in supplementary files for this correction."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Mozambique"
+    ],
+    "collection_years": [
+      1999,
+      2006
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This document is a formal correction notice for Casimiro et al. (2007) providing corrected WHO susceptibility bioassay data (Lambda-cyhalothrin, Deltamethrin, Bendiocarb, DDT) for Anopheles funestus across 16 localities in Mozambique. It does not report any molecular target marker genotyping data.",
+    "exclusion_reasons": [
+      "Does not report target marker genotyping data",
+      "Not a primary study (correction/erratum note)"
+    ]
+  }
+}

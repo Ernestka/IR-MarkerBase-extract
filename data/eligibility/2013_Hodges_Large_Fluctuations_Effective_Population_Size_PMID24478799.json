@@ -1,0 +1,67 @@
+{
+  "id": "2013_Hodges_Large_Fluctuations_Effective_Population_Size_PMID24478799",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. (M molecular form, now An. coluzzii) collected on Bioko Island, Equatorial Guinea (page 1, Abstract; page 4, 'Mosquito sampling')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only genotyped 13 neutral microsatellite markers (AG2H79, AG2H325, AG2H603, AG2H720, AG2H770, AG2H787, AG3H59, AG3H93, AG3H119, AG3H242, AG3H249, AG3H577, and AG3H817) to estimate effective population size (Ne). While kdr (L1014F) is referenced in the text citing past literature (page 4), no resistance markers were genotyped in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No insecticide resistance marker genotype or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using human landing catches and CDC light traps in Mongola, Bioko Island, Equatorial Guinea in 2009 and 2010 (page 4, 'Mosquito sampling' and Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical population genetics study analyzing effective population size dynamics over vector control cycles."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling took place in Mongola village (3°45.88788'N, 8°43.30314'E) in the Punta Europa area of Bioko Island, Equatorial Guinea (page 3, 'Study location')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between March 2009 and April 2010 (page 4, Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Samples were collected as part of the Bioko Island Malaria Control Project entomological monitoring, including 95 samples previously genotyped in Athrey et al. (2012b)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary tables cover demographic models, microsatellite summary statistics, and sensitivity analyses; no resistance marker genotyping was performed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2009,
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 791,
+    "summary": "This study examines changes in the effective population size (Ne) of Anopheles gambiae s.s. (M molecular form) in Mongola, Bioko Island, Equatorial Guinea across indoor residual spraying rounds using 13 microsatellite loci. No target insecticide resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "The study does not genotype any target insecticide resistance markers (it analyzes 13 microsatellite loci for demographic history and Ne estimation)."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2013_Rowland_New_Long_Lasting_Indoor_Residual_PMID23936033",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. (M molecular form) from Akron, Benin (page 2, 'Species and Resistance Characterisation')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for kdr (Vgsc L995F using Martinez-Torres et al. 1998) and Ace-1 G119S (Ace-1 G280S using Weill et al. 2004) (page 3, 'Species and Resistance Characterisation')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "On page 5, the authors report 'In molecular assays on An. gambiae the frequency of kdr was 0.86 but no Ace.1R allele was detected', but do not report the number of mosquitoes genotyped (sample size) or individual genotype/allele counts."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from Akron, near Porto-Novo, southern Benin, and reared to adults (page 2, 'Study Sites and Experimental Huts' and 'Species and Resistance Characterisation')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary study presenting an experimental hut trial and resistance characterisation in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Akron, on the outskirts of Porto-Novo, Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Trial was initiated in April 2009 and ran for 12 months (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Standard experimental hut trial and entomological characterisation conducted at the Akron field site in Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary information is cited or published for this article."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated microencapsulated pirimiphos-methyl in experimental huts in Akron, Benin against pyrethroid-resistant Anopheles gambiae M form. While kdr frequency (0.86) and Ace-1 G119S status are reported, the paper does not state the number of mosquitoes genotyped or provide genotype counts.",
+    "exclusion_reasons": [
+      "Lacks extractable genotype data: the frequency of kdr is reported as 0.86 and Ace-1R was not detected, but the number of mosquitoes genotyped (sample size) is not reported."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2011_Okorie_Nigeria_Anopheles_Vector_Database_Overview_PMID22162764",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper collates literature on Anopheles mosquitoes in Nigeria, focusing on An. gambiae s.l. and An. funestus s.l. (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study mentions 'evidence of the kdr allele' and maps kdr presence/absence (page 6, 'the kdr allele was tested 26 times and found to be present in ten locations'; Figure 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper collates presence/absence of kdr from published literature and maps it as binary presence/absence (Figure 7); no raw genotype or allele counts/frequencies per population are extracted or reported in the main text."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The collated data represent mosquito studies across Nigeria (page 1, Abstract)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The study is a systematic literature review and database collation: 'A systematic collation of primary empirical occurrence data for Anopheles mosquitoes in Nigeria, in published articles, was carried out to develop a comprehensive geo-referenced database' reviewing 110 publications from 1900 to 2010 (page 2, Data collection/collation)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Numerous specific geo-referenced towns and locations across Nigeria are listed and mapped (page 3, Figure 1, Figure 6, Figure 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The review aggregates studies across an overall span of 110 years (1900–2010), divided into broad multi-decade or ten-year blocks (page 3, Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "This is a secondary collation entirely constructed from 110 previously published papers (page 1, Abstract; page 2, Data collection/collation)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Even though supplementary files (Tables S1-S6) contain the collated database, the paper is excluded as a secondary literature review."
+    },
+    "markers_found": [
+      "kdr"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles melas",
+      "Anopheles moucheti",
+      "Anopheles nili"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a systematic review and historical compilation of 110 published articles from 1900 to 2010 describing Anopheles vector distribution, sporozoite rates, microfilaria rates, and insecticide resistance across Nigeria. It is not an eligible primary empirical study, and only reports summary binary kdr presence/absence data from previous publications.",
+    "exclusion_reasons": [
+      "not_a_primary_study",
+      "no_extractable_genotype_data"
+    ]
+  }
+}
