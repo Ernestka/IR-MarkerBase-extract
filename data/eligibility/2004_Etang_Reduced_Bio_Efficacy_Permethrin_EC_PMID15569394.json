@@ -1,0 +1,69 @@
+{
+  "id": "2004_Etang_Reduced_Bio_Efficacy_Permethrin_EC_PMID15569394",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae s.s. (OC-Lab and Kisumu strains) as described in the Abstract and Methods."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports PCR screening for the kdr Leu-Phe mutation (Vgsc L995F) on page 4."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper states that individuals of the OC-Lab strain which survived WHO susceptibility tests were screened by PCR and all were free of the kdr mutation (Page 4)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The only mosquitoes genotyped were from the OC-Lab laboratory strain, which originated from Yaoundé but had been laboratory-reared for approximately 15 years without insecticide selection (Page 2). The authors explicitly state on page 5 that 'The study was not carried out with field mosquitoes because the cotton fields are actually located 1,000 km from the laboratory, it would be difficult to collect sufficient field samples for bio-assays.'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the efficacy of insecticide-treated nets."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies the origin of the OC-Lab strain as Yaoundé and the field site for net utilization as Ebogo village (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The bednet trial took place in 1998, and susceptibility tests on the OC-Lab strain were performed in 1997 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a specific laboratory strain (OC-Lab) maintained at OCEAC."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data regarding the laboratory strains and bioassays are contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      1997,
+      1998
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 100,
+    "summary": "The study evaluates the bio-efficacy of permethrin-treated bednets against the OC-Lab laboratory strain of Anopheles gambiae s.s. from Cameroon. While the study reports that the OC-Lab strain was screened for the kdr (Vgsc L995F) mutation and found to be free of it, the paper is ineligible because it only genotypes laboratory colonies and does not provide genotype data for field-collected populations.",
+    "exclusion_reasons": [
+      "Only laboratory colonies were genotyped (OC-Lab and Kisumu strains). No field-collected mosquitoes were genotyped."
+    ]
+  }
+}

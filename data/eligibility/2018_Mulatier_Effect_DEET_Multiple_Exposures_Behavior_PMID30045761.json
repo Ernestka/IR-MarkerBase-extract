@@ -1,0 +1,64 @@
+{
+  "id": "2018_Mulatier_Effect_DEET_Multiple_Exposures_Behavior_PMID30045761",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae (s.s.) mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the KdrKis strain harbors the L1014F mutation (page 2), but it does not report any new genotype data or frequencies for this or any other marker in the study populations; it uses a pre-existing laboratory strain."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported for the mosquitoes used in the experiments."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses a laboratory colony (KdrKis strain) reared at the IRD Centre in Montpellier, France (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical laboratory study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses a laboratory colony, not field-collected samples."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted in 2018."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses a standard laboratory strain (KdrKis)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or required for the study's conclusions."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the behavioral and fitness effects of multiple DEET exposures on a laboratory-reared pyrethroid-resistant strain of Anopheles gambiae (KdrKis). It does not report field-collected genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

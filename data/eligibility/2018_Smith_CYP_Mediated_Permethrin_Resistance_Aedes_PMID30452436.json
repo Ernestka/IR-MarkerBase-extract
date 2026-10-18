@@ -1,0 +1,67 @@
+{
+  "id": "2018_Smith_CYP_Mediated_Permethrin_Resistance_Aedes_PMID30452436",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti, which is a culicine mosquito, not an Anopheles vector."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes CYP genes (CYP4C50, 6BB2, 6F2, 6F3, 6Z8) and Vssc mutations (V1016G+S989P) in Aedes aegypti, which are not among the specified Anopheles-specific markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study does not report genotype counts for field populations; it uses laboratory-maintained strains (ROCK, SP, CKR)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory strains (ROCK, SP, CKR). The SP strain is described as 'field collected' but is maintained as a laboratory strain."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection location is provided as the study uses laboratory strains."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection date is provided."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses established laboratory strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the genetic basis of CYP-mediated permethrin resistance in Aedes aegypti using laboratory strains (ROCK, SP, and a congenic CKR strain). It is ineligible because it does not study Anopheles mosquitoes or report on the required Anopheles-specific resistance markers.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population",
+      "sub_country_location",
+      "temporal_resolution_within_3y"
+    ]
+  }
+}

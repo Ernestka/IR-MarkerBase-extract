@@ -1,0 +1,65 @@
+{
+  "id": "2013_Oliver_Effect_Larval_Nutritional_Deprivation_Life_PMID23368928",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses laboratory strains of Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (kdr-west) and L995S (kdr-east) on page 5."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper states: 'All SENN-DDT samples assayed for the L1014F mutation were homozygous resistant (L1014F/F)... All SENN adults were homozygous susceptible (wild-type L1014L/L)' (page 5)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-reared strains (SENN and SENN-DDT) maintained in an insectary in Johannesburg, South Africa. The SENN strain was originally colonized from Sudan in 1980 (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical laboratory study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses laboratory colonies, not field-collected mosquitoes."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study uses laboratory colonies, not field-collected mosquitoes."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a laboratory-based study using established colonies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study examines the effect of larval nutritional deprivation on the life history and DDT resistance phenotype in laboratory-reared Anopheles arabiensis strains (SENN and SENN-DDT). It finds that larval starvation leads to smaller adults with reduced DDT tolerance and lower detoxification enzyme activity. The study is ineligible because it uses laboratory colonies rather than field-collected African populations.",
+    "exclusion_reasons": [
+      "The study uses laboratory colonies, not field-collected African populations."
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2013_Marinotti_Genome_Anopheles_Darlingi_Main_Neotropical_PMID23761445",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper reports the genome sequencing of Anopheles darlingi."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses the identification of insecticide resistance genes (P450s, CCEs, GSTs, VGSC, ace-1) in the genome, but it does not report genotyping of these markers in any field populations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports genome-wide SNV counts and densities, but does not provide genotype counts (RR/RS/SS) or allele frequencies for specific insecticide resistance markers in field populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected in Brazil (South America), not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study presenting the genome sequence of A. darlingi."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper specifies collection locations in Coari, Amazonas State, and Porto Velho, Rondonia State, Brazil."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No specific collection year or range is provided for the mosquito samples used for sequencing."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is the primary genome sequencing paper for A. darlingi."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data for resistance markers, so no supplementary data is needed for this purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles darlingi"
+    ],
+    "countries": [
+      "Brazil"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper presents the annotated reference genome of the neotropical malaria vector Anopheles darlingi, sequenced from wild-caught mosquitoes in Brazil. While it identifies genes associated with insecticide resistance (e.g., VGSC, ace-1, GSTs), it does not report genotyping of resistance markers in field populations, nor does it report bioassay data.",
+    "exclusion_reasons": [
+      "reports_target_markers: No specific resistance marker genotyping reported.",
+      "reports_extractable_genotype_data: No genotype counts or frequencies for resistance markers provided.",
+      "african_field_population: Study conducted in Brazil (South America).",
+      "temporal_resolution_within_3y: No collection year provided."
+    ]
+  }
+}

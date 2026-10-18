@@ -1,0 +1,74 @@
+{
+  "id": "2020_Grossman_Use_Alternative_Bioassays_Explore_Impact_PMID32264935",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses laboratory strains of Anopheles arabiensis, An. funestus, and An. gambiae (Table 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report genotyping for any of the target resistance markers; it focuses on phenotypic resistance intensity and bioassay mortality. It mentions kdr in the discussion but refers to other publications for strain characterization."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or sample sizes for molecular markers are provided."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study exclusively uses laboratory-maintained strains (KGB, FANG, SENN, TONGS, FUMOZ) that were colonized between 1975 and 2010 (Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing empirical experiments with alternative bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The origins of the laboratory strains are specified at the sub-country level (e.g., Kanyemba, Calueque, Sennar, Tongon, Maputo) in Table 1."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The bioassay experiments were conducted in October 2017 and February 2018 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses standard laboratory strains to test a novel bioassay methodology; there is no indication of data duplication regarding field collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible based on the main text and tables; supplementary files (Additional files 1-4) describe a side experiment with PBO nets but do not contain genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Zimbabwe",
+      "Angola",
+      "Sudan",
+      "Côte d'Ivoire",
+      "Mozambique"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the impact of pyrethroid resistance on the efficacy of long-lasting insecticidal nets (LLINs) using two alternative bioassays (tent and cup assays) that simulate more realistic exposure conditions. The researchers tested seven laboratory strains of Anopheles (An. arabiensis, An. funestus, and An. gambiae) with varying levels of resistance. The study concludes that standard WHO tube assays may not fully capture the functional impact of resistance on LLIN efficacy. No molecular genotyping data for resistance markers is reported.",
+    "exclusion_reasons": [
+      "No target marker genotype data reported",
+      "Only laboratory-maintained mosquito strains used (not field populations)"
+    ]
+  }
+}

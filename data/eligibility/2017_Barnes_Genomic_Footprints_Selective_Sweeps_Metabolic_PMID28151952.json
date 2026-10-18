@@ -1,0 +1,75 @@
+{
+  "id": "2017_Barnes_Genomic_Footprints_Selective_Sweeps_Metabolic_PMID28151952",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles funestus, a major African malaria vector."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the CYP6P9a gene (a tier 2 marker) and its associated selective sweep."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides haplotype frequencies and polymorphism data for CYP6P9a across multiple populations (e.g., Table S5, Fig 2, Fig 3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Anopheles funestus from Malawi, Mozambique, Uganda, Cameroon, Benin, and Ghana."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study using microsatellite analysis, whole genome sequencing, and targeted sequencing of field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper specifies collection locations at the district/town level, such as Chokwe (Mozambique), Chikwawa (Malawi), and Obuasi (Ghana)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study compares samples collected in 2002 with those collected in 2009-2010 and 2014, providing clear temporal windows."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analyses of field-caught mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The provided PDF includes all necessary information, and the supplementary tables are referenced in the text."
+    },
+    "markers_found": [
+      "Cyp6p9a R"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique",
+      "Uganda",
+      "Cameroon",
+      "Benin",
+      "Ghana"
+    ],
+    "collection_years": [
+      2002,
+      2009,
+      2010,
+      2011,
+      2014
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 285,
+    "summary": "This study investigates the genomic signatures of selective sweeps in Anopheles funestus across Africa, specifically focusing on the CYP6P9a metabolic resistance gene. It demonstrates that the scale-up of pyrethroid-based vector control has driven a strong selective sweep in southern Africa, leading to the near-fixation of a resistance-associated haplotype.",
+    "exclusion_reasons": []
+  }
+}

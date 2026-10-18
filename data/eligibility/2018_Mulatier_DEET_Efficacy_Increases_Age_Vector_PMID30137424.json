@@ -1,0 +1,66 @@
+{
+  "id": "2018_Mulatier_DEET_Efficacy_Increases_Age_Vector_PMID30137424",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae s.s. (Giles) (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports on the L1014F (kdr-west) mutation in Anopheles gambiae (Page 2, Biological Material)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states the An. gambiae colony is 'fixed for the L1014F homozygote mutation' (Page 2), but does not provide genotype counts or frequencies for a field-collected population sample."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes tested were from a laboratory colony ('introgressed into the Kisumu genome the kdr-west allele obtained from pyrethroid resistant mosquitoes in Kou Valley, Burkina Faso') or collected in Montpellier, France (Ae. albopictus) (Page 2, Biological Material)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the effect of mosquito aging on DEET efficacy (Page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection sites in Africa are reported for the mosquitoes tested; the An. gambiae used is a laboratory colony."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates for African field populations are provided as only lab colonies were used."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The An. gambiae colony is a standard laboratory strain (Kisumu-kdr) described in Alout et al. 2013 (Page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "There is no indication that genotype data for field populations is contained in supplementary materials."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 4057,
+    "summary": "The study investigates the effect of age on DEET efficacy in Anopheles gambiae and Aedes albopictus. It uses an An. gambiae laboratory colony fixed for the Vgsc L1014F (L995F) mutation. Because no African field populations were genotyped (only a lab colony and a French population of Aedes), the paper is ineligible.",
+    "exclusion_reasons": [
+      "Only laboratory colonies or non-African populations were genotyped (An. gambiae colony fixed for L1014F; Ae. albopictus from France)."
+    ]
+  }
+}

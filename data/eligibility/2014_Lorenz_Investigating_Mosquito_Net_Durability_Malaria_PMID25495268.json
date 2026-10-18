@@ -1,0 +1,64 @@
+{
+  "id": "2014_Lorenz_Investigating_Mosquito_Net_Durability_Malaria_PMID25495268",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study protocol describes testing using An. gambiae sensu stricto (s.s.) (Ifakara strain) and monitoring resistance in Anopheles larvae collected from the field (Page 6, 8)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper states that 'PCR-based standard methods will also be used to detect kdr mutations [46]' (Page 8), but no actual genotyping results are reported in this protocol document."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a study protocol and does not contain any tables, figures, or text reporting genotype counts or frequencies."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The planned study is located in eight districts of Tanzania (Abstract, Figure 2)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly titled as a 'study protocol' (Title, Page 1) and describes the design and methodology of a study rather than reporting empirical results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The protocol identifies eight specific districts: Kinondoni, Mbozi, Iringa Urban, Kilosa, Bagamoyo, Geita, Musoma Rural, and Kahama (Figure 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The protocol mentions retrospective evaluation of nets from campaigns in 2009-2011 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "As a protocol paper, it does not contain data that could be duplicated; however, future papers resulting from this ABCDR study will likely contain the primary data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a protocol; supplementary files 1 and 2 (informed consent and questionnaire) are described but would not contain the missing genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a study protocol paper describing the design and methodology for a longitudinal study (ABCDR) on LLIN durability and insecticide resistance monitoring in Tanzania. It does not report any empirical genotype or bioassay results.",
+    "exclusion_reasons": [
+      "The paper is a study protocol and does not report any extractable genotype or bioassay data."
+    ]
+  }
+}

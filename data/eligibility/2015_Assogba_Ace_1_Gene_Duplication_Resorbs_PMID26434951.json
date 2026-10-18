@@ -1,0 +1,69 @@
+{
+  "id": "2015_Assogba_Ace_1_Gene_Duplication_Resorbs_PMID26434951",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae (e.g., Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes the ace-1 G119S mutation (referred to as ace-1R) and the ace-1 gene duplication (ace-1D) (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype frequencies or counts with a denominator for a field population. It describes sequencing 16 females derived from field-collected larvae in Togo to establish a laboratory strain, but these individuals were pre-selected with propoxur and the total number of mosquitoes screened is not provided (Page 2, Page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected in Baguida, Togo, in 2012 (Page 6, Page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study characterizing the fitness and resistance of the ace-1 duplication."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Baguida, Togo (6°09′47″N—1°19′50″E) (Page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection in Togo is stated to have occurred in 2012 (Page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the paper mentions that the ace-1D allele sequence is identical to those found in previous studies in Ivory Coast and Burkina Faso (Ref 41), the Togo collection appears to be unique to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper mentions supplementary materials (Supp. Table 1, Supp. Figs 1-5), but these describe the fixation protocol, primers, and detailed fitness analyses of the laboratory strains rather than field population genotype counts."
+    },
+    "markers_found": [
+      "Ace-1 G280S",
+      "Ace-1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Togo"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 16,
+    "summary": "The study characterizes the ace-1 gene duplication (ace-1D) in Anopheles gambiae by establishing a laboratory strain (Acerduplikis) from 16 females derived from field-collected larvae in Baguida, Togo (2012). It compares resistance levels and fitness costs across different ace-1 genotypes (SS, RR, RS, DD, DS, DR) using laboratory-reared mosquitoes. While it confirms the presence of the duplication in Togo, it does not provide extractable population-level genotype frequencies or counts for the field population, as the founding individuals were pre-selected for resistance and no denominator is reported.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data (counts or frequencies with a denominator) for a field population. The study focuses on characterizing the ace-1 duplication using laboratory-constructed strains derived from a small number of selected field individuals."
+    ]
+  }
+}

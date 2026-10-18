@@ -1,0 +1,66 @@
+{
+  "id": "2020_Chida_Near_Chromosome_Level_Genome_Assembly_PMID33312190",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the genome assembly of Anopheles stephensi (Title, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "While the paper mentions the KDR and ACE1 genes and various cytochrome P450s (e.g., CYP6a14) in the context of genome assembly and expression, it does not report genotyping or frequencies for the specific target SNPs (e.g., Vgsc L995F/S, Ace-1 G280S) required."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study reports genome-wide SNP density and gene expression levels but does not provide extractable genotype or allele counts for specific resistance markers."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes used are laboratory strains originating from India (STE2) and Pakistan (SDA-500). No African field populations were studied."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting a new genome assembly and transcriptomic analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper identifies the STE2 strain as originating from Delhi, India (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not provide specific collection years for the lab strains that would tie the data to a window of at most three years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary genome assembly paper using established laboratory strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible due to the lack of African field populations and target marker genotyping; supplementary files would not change this status."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles stephensi"
+    ],
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study reports a near-chromosome level genome assembly for Anopheles stephensi using Indian (STE2) and Pakistani (SDA-500) lab strains. The research focuses on assembly methodology, comparative genomics, and the expression profiles of genes related to host-seeking and insecticide resistance (e.g., P450s, KDR, ACE1), but it does not genotype specific resistance markers in African field populations.",
+    "exclusion_reasons": [
+      "No African field population (strains are from India and Pakistan).",
+      "Does not report extractable genotype data for target insecticide resistance markers."
+    ]
+  }
+}

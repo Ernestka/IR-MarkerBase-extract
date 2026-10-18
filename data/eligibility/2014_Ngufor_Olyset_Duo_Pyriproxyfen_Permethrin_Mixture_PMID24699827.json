@@ -1,0 +1,68 @@
+{
+  "id": "2014_Ngufor_Olyset_Duo_Pyriproxyfen_Permethrin_Mixture_PMID24699827",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-18",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of Olyset Duo against Anopheles gambiae and Culex quinquefasciatus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that the An. gambiae population is pyrethroid-resistant due to high frequency of kdr (>90%) (page 3), but it does not report the actual genotype counts or frequencies for any specific resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype counts or frequencies for any resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Akron, Benin, using wild mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the CREC experimental hut station in Akron, a village on the outskirts of Porto Novo, Benin."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2014, and the trial was conducted during that period."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or its supplements."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper reports an experimental hut trial in Benin evaluating the efficacy of Olyset Duo nets against pyrethroid-resistant Anopheles gambiae and Culex quinquefasciatus. While it mentions the presence of kdr resistance, it does not provide any genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}
