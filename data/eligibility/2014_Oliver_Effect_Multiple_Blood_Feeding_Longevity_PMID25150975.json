@@ -1,0 +1,66 @@
+{
+  "id": "2014_Oliver_Effect_Multiple_Blood_Feeding_Longevity_PMID25150975",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses laboratory-reared Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the SENN-DDT strain is fixed for the L1014F kdr mutation (page 2, Methods section)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states the strain is 'fixed' for the L1014F mutation but does not provide genotype counts (RR/RS/SS) or allele frequencies for the experimental cohorts."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-reared strains (SENN and SENN-DDT) rather than field-collected mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical laboratory study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses laboratory strains, not field-collected samples."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted in 2014."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary laboratory study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data is contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study examines the effect of multiple blood-feeding on insecticide resistance and longevity in laboratory-reared Anopheles arabiensis (SENN and SENN-DDT strains). It is not eligible because it uses laboratory colonies rather than field-collected mosquitoes and does not report genotype data for the experimental cohorts.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data",
+      "african_field_population",
+      "sub_country_location"
+    ]
+  }
+}

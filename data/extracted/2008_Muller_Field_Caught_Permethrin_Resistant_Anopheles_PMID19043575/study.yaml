@@ -1,0 +1,22 @@
+study_id: 2008_Muller_Field_Caught_Permethrin_Resistant_Anopheles_PMID19043575
+title: Field-Caught Permethrin-Resistant Anopheles gambiae Overexpress CYP6P3, a P450
+  That Metabolises Pyrethroids
+first_author: Pie Müller
+doi: 10.1371/journal.pgen.1000286
+pmid: '19043575'
+publication_year: 2008
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: 'Citation: Müller P, Warr E, Stevenson BJ, Pignatelli PM, Morgan JC,
+    et al. (2008) Field-Caught Permethrin-Resistant Anopheles gambiae Overexpress
+    CYP6P3, a P450 That Metabolises Pyrethroids. PLoS Genet 4(11): e1000286. doi:10.1371/journal.pgen.1000286'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-10-19'
+pmid_source: Europe PMC (from DOI)

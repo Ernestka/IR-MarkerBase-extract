@@ -1,0 +1,72 @@
+{
+  "id": "2013_Chareonviriyaphap_Review_Insecticide_Resistance_Behavioral_Avoidance_PMID24294938",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review discusses multiple mosquito vectors including Anopheles species such as Anopheles annularis and Anopheles minimus (page 6, Table 2; page 14, Malaria vectors)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The review discusses behavioral avoidance and bioassay susceptibility patterns from literature in Thailand, but reports no molecular genotyping data for any of the target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts or allele frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study focuses entirely on mosquitoes in Thailand (Southeast Asia), not Africa."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly a review ('Review of insecticide resistance and behavioral avoidance of vectors of human diseases in Thailand', page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Multiple specific provinces and districts in Thailand are referenced in tables (e.g. Chiang Mai-Chiang Dao, Mae Hongsorn; page 6, Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The review synthesizes literature spanning 2000 to 2011."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No external supplementary files are required as this is an ineligible review paper."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles annularis",
+      "Anopheles minimus",
+      "Anopheles dirus",
+      "Anopheles maculatus",
+      "Anopheles swadwongporni",
+      "Anopheles harrisoni"
+    ],
+    "countries": [
+      "Thailand"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a review synthesizing published literature on insecticide resistance bioassays and behavioral avoidance in mosquito vectors (Anopheles, Aedes, and Culex) in Thailand from 2000 to 2011. It does not contain primary empirical data, does not sample African field populations, and does not report molecular genotyping data for any target resistance markers.",
+    "exclusion_reasons": [
+      "Not a primary study (review article)",
+      "Non-African population (conducted on populations from Thailand)",
+      "Does not report target resistance markers",
+      "Does not report extractable genotype data"
+    ]
+  }
+}

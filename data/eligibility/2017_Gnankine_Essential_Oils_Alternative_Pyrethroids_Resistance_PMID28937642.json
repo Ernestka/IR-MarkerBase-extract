@@ -1,0 +1,62 @@
+{
+  "id": "2017_Gnankine_Essential_Oils_Alternative_Pyrethroids_Resistance_PMID28937642",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review focuses on Anopheles mosquitoes: 'Essential Oils as an Alternative to Pyrethroids’ Resistance against Anopheles Species Complex Giles (Diptera: Culicidae)' (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper references markers such as L1014F, L1014S, N1575Y, and ace-1R in the literature review text (page 2, page 16), but performs no molecular assays or marker genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary mosquito genotyping or extractable genotype/allele frequency data are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito collections or testing were conducted in this study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly designated as a review: 'Review: Essential Oils as an Alternative to Pyrethroids’ Resistance against Anopheles Species Complex Giles' (page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as this is a review article."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as this is a review article."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Review paper compiling previously published findings."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; the paper is fundamentally ineligible as a review."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a literature review summarizing the chemical composition, larvicidal/adulticidal toxicity, and repellency of various plant essential oils and their constituents against Anopheles mosquitoes. It does not contain primary empirical data or insecticide-resistance marker genotyping.",
+    "exclusion_reasons": [
+      "The study is a review article rather than a primary study.",
+      "No target insecticide resistance markers were genotyped.",
+      "No extractable genotype or allele counts/frequencies are reported."
+    ]
+  }
+}

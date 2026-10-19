@@ -1,0 +1,68 @@
+{
+  "id": "2008_Muller_Field_Caught_Permethrin_Resistant_Anopheles_PMID19043575",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. from Dodowa, Ghana (page 2, 'Mosquito Collections')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014F (L995F) and L1014S (L995S) using HOLA (page 2, 'Selection Experiment' and page 5, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts for L1014F and L1014S across control (N=172: 157 RW/RW, 10 RW/+, 3 RW/RE, 2 +/+) and permethrin-selected groups (N=161: 153 RW/RW, 8 RW/+)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from natural breeding sites in Dodowa, Ghana (05°52.67'N, 000°06.36'W) and reared to adults (page 2, 'Mosquito Collections')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting novel field collections, bioassays, microarray expression, and functional metabolism assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Village of Dodowa, Ghana (coordinates: 05°52.67'N, 000°06.36'W) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred between October and November 2006 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collections conducted specifically for this study in late 2006."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Target marker genotype numbers and percentages are fully reported in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2006
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 333,
+    "summary": "This study examined permethrin resistance mechanisms in Anopheles gambiae s.s. from Dodowa, Ghana. A total of 333 female mosquitoes (control and LT50-selected cohorts) were genotyped for Vgsc L1014F and L1014S, showing high frequencies of L1014F (>90% homozygosity), alongside microarray and biochemical analysis demonstrating the overexpression and pyrethroid-metabolising activity of CYP6P3.",
+    "exclusion_reasons": []
+  }
+}

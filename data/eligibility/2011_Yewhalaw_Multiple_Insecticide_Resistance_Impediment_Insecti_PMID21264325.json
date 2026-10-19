@@ -1,0 +1,68 @@
+{
+  "id": "2011_Yewhalaw_Multiple_Insecticide_Resistance_Impediment_Insecti_PMID21264325",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study assesses the susceptibility levels of Anopheles arabiensis (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study screened for West African kdr (L1014F), East African kdr (L1014S), and insensitive acetylcholinesterase (ace-1R, G119S) mutations (Abstract, Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (RR, RS, SS) and allele frequencies for the L1014F mutation in An. arabiensis (Page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from field sites in four districts of southwestern Ethiopia from July to September 2009 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original empirical data on insecticide resistance and resistance markers."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in four districts: Omo Nada, Kerssa, Tiro Afeta, and Sekoru, surrounding the Gilgel-Gibe hydroelectric dam in Ethiopia (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted between July and September 2009 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the study was part of a larger longitudinal framework, the specific insecticide resistance and genotype data reported appear to be original to this publication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are provided in the main text and tables (Table 1 and Table 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 284,
+    "summary": "This study reports on insecticide resistance in Anopheles arabiensis from southwestern Ethiopia in 2009. It provides genotype counts for the Vgsc L995F (L1014F) mutation, which was found at very high frequencies (95-100%). The study also screened for Vgsc L995S (L1014S) and Ace-1 G280S (G119S), but neither was detected in the field populations. Genotype data is linked to bioassay phenotypes (survivors vs. dead).",
+    "exclusion_reasons": []
+  }
+}

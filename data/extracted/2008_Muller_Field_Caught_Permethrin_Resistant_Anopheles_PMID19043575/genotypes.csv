@@ -1,0 +1,5 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2008_Muller_Dodowa_2006_gambiae_S,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,HOLA,False,170,157,13,0,,327,,,"Table 2. Control group (172), S form: RW,RW 91.3% (157), RW,+ 5.8% (10), RW,RE 1.7% (3)",5,Table 2,,
+2008_Muller_Dodowa_2006_gambiae_S,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,HOLA,False,170,0,3,167,,3,,,"Table 2. Control group (172), S form: RW,RE 1.7% (3), RE,RE - (-), RE,+ - (-)",5,Table 2,,
+2008_Muller_Dodowa_2006_gambiae_M,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,HOLA,False,2,0,0,2,,0,,,"Table 2. Control group (172), M form: +,+ 1.2% (2)",5,Table 2,,
+2008_Muller_Dodowa_2006_gambiae_M,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,HOLA,False,2,0,0,2,,0,,,"Table 2. Control group (172), M form: +,+ 1.2% (2)",5,Table 2,,

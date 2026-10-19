@@ -1,0 +1,3 @@
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2008_Muller_Dodowa_2006_gambiae_S,,permethrin,kdr,L1014F,Vgsc,L995F,SNP,alive,153,8,0,161,,,,"Table 2. Selected group (161), S form: RW,RW 95.0% (153), RW,+ 5.0% (8)",5,Table 2,,
+2008_Muller_Dodowa_2006_gambiae_S,,permethrin,kdr,L1014S,Vgsc,L995S,SNP,alive,0,0,161,161,,,,"Table 2. Selected group (161), S form: RW,RE - (-), RE,RE - (-), RE,+ - (-)",5,Table 2,,

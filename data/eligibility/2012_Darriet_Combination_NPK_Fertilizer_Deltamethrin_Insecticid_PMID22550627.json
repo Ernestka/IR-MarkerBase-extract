@@ -1,0 +1,66 @@
+{
+  "id": "2012_Darriet_Combination_NPK_Fertilizer_Deltamethrin_Insecticid_PMID22550627",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tests Anopheles gambiae s.s. (page 160: 'Two strains of An. gambiae s.s. were used in this study. A susceptible strain KIS (S form)... and a strain resistant to pyrethroids (VKPR)...')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Although the paper refers to the laboratory strain VKPR as being homozygous for knockdown resistance (Kdr) Leu-1014-Phe (page 160), no marker genotyping was performed in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotyping data, counts, or frequencies are reported; only the known fixed genotype of the colonized laboratory strain is described."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted exclusively on long-term colonized laboratory strains (page 160: 'A susceptible strain KIS (S form) originating from Kisumu in Kenya and a strain resistant to pyrethroids (VKPR... originating from Kou Valley in Burkina-Faso have been maintained for 15 years under laboratory conditions'). No field-collected mosquitoes were evaluated."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary experimental laboratory study evaluating the effects of fertilizer, plant matter, and deltamethrin on mosquito life history traits."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collections were carried out."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates are reported (only laboratory strains maintained for 15 years)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard laboratory colony study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary materials are missing or cited for genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory study evaluated the effect of NPK fertilizer and deltamethrin on larval development, emergence, adult size, and deltamethrin susceptibility in the laboratory strains VKPR and KIS of Anopheles gambiae s.s. No field populations were collected and no marker genotyping was performed.",
+    "exclusion_reasons": [
+      "No target marker genotyping conducted",
+      "No extractable genotype data reported",
+      "No African field-collected mosquito populations tested (only long-term laboratory colonies)"
+    ]
+  }
+}

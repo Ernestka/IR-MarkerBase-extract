@@ -1,0 +1,70 @@
+{
+  "id": "2010_Singh_Presence_Two_Alternative_Kdr_Like_PMID20509922",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles culicifacies."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Vgsc L1014F, L1014S, and V1010L."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts for L1014 and V1010."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected in the Malkangiri district of Orissa, India, which is in Asia, not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new molecular data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies Malkangiri district, Orissa, India."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection year is stated as 2009."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and genotyping."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc V402L"
+    ],
+    "species": [
+      "Anopheles culicifacies"
+    ],
+    "countries": [
+      "India"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 224,
+    "summary": "This study reports the presence of kdr-like mutations L1014F, L1014S, and a novel mutation V1010L in Anopheles culicifacies from Malkangiri district, Orissa, India. The paper is ineligible because the study population is from India, not Africa.",
+    "exclusion_reasons": [
+      "african_field_population"
+    ]
+  }
+}

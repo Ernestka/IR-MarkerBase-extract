@@ -1,0 +1,65 @@
+{
+  "id": "2019_Gonzalez_Jimenez_Prediction_Mosquito_Species_Population_Age_PMID31544155",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates females of the African malaria vector species Anopheles gambiae and An. arabiensis (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study uses mid-infrared spectroscopy to predict mosquito species and age structure; it does not report genotyping for any target insecticide resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies for resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study used laboratory colony mosquitoes (An. gambiae Kisumu strain and An. arabiensis Ifakara strain reared at the University of Glasgow) rather than field-caught African populations (Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating mid-infrared spectroscopy and machine learning algorithms (Page 1-5)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as only laboratory colonies were analyzed."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection date window is reported as only laboratory colonies were used."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Methodological laboratory colony study with no field data overlap."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary material is needed as the paper does not report target resistance marker data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study demonstrates a machine-learning method using mid-infrared spectroscopy (MIRS) to predict the species identity and age structure of laboratory-reared Anopheles gambiae s.s. and Anopheles arabiensis. It does not report any target insecticide resistance marker genotyping data or field-collected mosquito populations.",
+    "exclusion_reasons": [
+      "Does not report target insecticide-resistance markers",
+      "Does not report extractable genotype data",
+      "Does not evaluate African field populations (uses laboratory colonies only)"
+    ]
+  }
+}
