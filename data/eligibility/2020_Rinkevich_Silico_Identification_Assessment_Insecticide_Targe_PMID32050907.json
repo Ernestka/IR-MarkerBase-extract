@@ -1,0 +1,63 @@
+{
+  "id": "2020_Rinkevich_Silico_Identification_Assessment_Insecticide_Targe_PMID32050907",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper focuses entirely on the small hive beetle, Aethina tumida (Coleoptera: Nitidulidae). Anopheles gambiae is only mentioned in passing in Table 2 as a literature comparator for nAChR subunit counts."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not genotype or report any of the required target resistance markers in Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data, allele frequencies, or sample sizes are reported; this is a purely in silico genomic analysis."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito populations from Africa were collected or genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article analyzing the genome and transcriptome of Aethina tumida in silico."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field mosquito collection sites are present."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito collection dates exist."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable to this non-vector study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplementary file listed (Additional file 1: Table S1) contains GenBank accession numbers for small hive beetle sequences and does not contain mosquito genotype data."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is an in silico comparative genomic analysis of insecticide target sites (DSC1, ryanodine receptor, nAChRs, GABA receptors, GluCl, pHCl, HisCl, and phenolamine receptors) in the genome of the small hive beetle (Aethina tumida), a pest of honey bee colonies. It does not study Anopheles or report mosquito resistance marker data.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes",
+      "Does not report target resistance markers",
+      "Does not report extractable genotype data",
+      "Does not sample African field mosquito populations"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2017_Oumbouke_Relative_Performance_Indoor_Vector_Control_PMID28927465",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 3: 'Only 381 and 35 Anopheles were collected in the Ifakara and West African huts, respectively.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page 2: The paper cites previous literature for kdr frequency (> 90%) at the study site in Donoukin (Djouaka et al. 2008, ref 14), but no marker genotyping was performed in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or genotype frequencies are reported in the paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: 'The study was conducted at Donoukin, a suburban village on the outskirts of Porto Novo, the administrative capital of Benin.'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary experimental hut trial comparing two hut designs in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: Donoukin, outskirts of Porto Novo, Benin."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2-3: Collections were conducted between November 16th, 2011 and September 2nd, 2012."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard primary experimental hut study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files required as no genotyping was conducted."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the relative performance of West African and Ifakara experimental huts in Benin using Olyset nets and metofluthrin coils. Due to low numbers of Anopheles collected, only Culex quinquefasciatus data were analyzed and reported. No insecticide resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "Does not genotype target insecticide resistance markers (kdr mentioned only as site background from literature).",
+      "No extractable genotype data reported."
+    ]
+  }
+}

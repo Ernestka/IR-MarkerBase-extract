@@ -1,0 +1,67 @@
+{
+  "id": "2012_Asidi_Loss_Household_Protection_Use_Insecticide_PMID22709930",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae mosquitoes (page 1) and identifies sibling species An. gambiae s.s. and An. arabiensis (page 4, Table 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mosquitoes were 'genotyped for kdr by using the method of Martinez-Torres et al. (25)' (page 2). This method detects the Vgsc L1014F (L995F) mutation."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 (page 4) provides genotype counts (SS, RS, RR) for An. gambiae s.l. in both northern and southern Benin sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from households in northern and southern Benin (page 1, page 2) during trials in 2008."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting on household trials and molecular analysis of mosquito populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites are named: Ladji, Fifadji, and Abomey Calavi in the south, and Malanville in the north (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between May and August 2008 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the authors have published other studies on resistance in Benin, this paper describes a specific household trial conducted in 2008 that appears to be primary data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype counts and bioassay results are contained within the main text and tables (Table 2, Table 3, Figure)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 92,
+    "summary": "This study evaluated the protective efficacy of insecticide-treated nets (ITNs) against pyrethroid-resistant Anopheles gambiae in Benin through household trials. It reports Vgsc L995F (kdr) genotype frequencies for populations in northern (Malanville) and southern (Cotonou suburbs) Benin. The results demonstrated that ITNs failed to provide protection against biting or significant mortality in the south where kdr frequency was high (80%), whereas they remained effective in the north where kdr frequency was low (10%).",
+    "exclusion_reasons": []
+  }
+}

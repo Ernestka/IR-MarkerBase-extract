@@ -1,0 +1,66 @@
+{
+  "id": "2023_Damien_Long_Lasting_Insecticide_Treated_Nets_PMID37888603",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study is an epidemiological case-control study in human populations assessing the effectiveness of LLINs and IRS against Plasmodium falciparum malaria; it does not collect or study mosquitoes directly."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No primary genotyping was conducted. The paper only mentions kdr frequency in passing in the study area description by citing a project report (page 3: 'The allelic frequency of the kdr mutation was very high in both areas: 95% in Djougou and 100% in Cobly [21]')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or mosquito sample sizes are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No mosquito field populations were sampled or tested in this study."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "It is a primary epidemiological case-control study in humans, but contains no primary mosquito resistance data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Djougou (urban area) and Cobly (rural area), Benin (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between July and September 2014 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is an epidemiological case-control study in humans evaluating the real-world effectiveness of LLINs and IRS against P. falciparum infection and uncomplicated clinical malaria in Djougou and Cobly, Benin. No mosquitoes were collected or genotyped.",
+    "exclusion_reasons": [
+      "No primary mosquito insecticide-resistance marker genotyping was performed; vector kdr frequencies mentioned in the study site description are cited from external literature.",
+      "No extractable mosquito genotype data (no mosquito sample sizes or genotype counts).",
+      "Study examines human epidemiological endpoints rather than Anopheles vector populations."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2010_Matowo_Biochemical_Basis_Permethrin_Resistance_Anopheles_PMID20609220",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles arabiensis of Lower Moshi, Kilimanjaro region of north-eastern Tanzania (Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study focuses on biochemical mechanisms (enzymes) and bioassays. It mentions kdr (L1014F) frequency in the conclusion but cites a previous study (Kulkarni et al. 2006, ref 19) for this data."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies for target markers are reported in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles arabiensis adults were collected during January-April 2007 from the villages of Mabogini, Rau-Kati, and Chekereni [Tanzania] (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating resistance mechanisms."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "villages of Mabogini, Rau-Kati, and Chekereni (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "January-April 2007 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is a primary report from the PAMVERC consortium, but the genotype data mentioned is explicitly cited as coming from a previous study (Kulkarni et al. 2006)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are mentioned as containing genotype data; the study focus is biochemical."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2007
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1011,
+    "summary": "The study investigates the biochemical basis of permethrin resistance in Anopheles arabiensis from Lower Moshi, Tanzania. It uses WHO susceptibility tests, CDC bottle bioassays with synergists (PBO, DEF), and biochemical microplate assays for enzymes (oxidases, esterases). It finds elevated levels of oxidases and beta-esterases. It does not perform genotyping for target resistance markers like kdr, but mentions kdr frequencies from a previous study.",
+    "exclusion_reasons": [
+      "Does not report genotype data for target markers (Vgsc, Ace-1, Rdl, GSTe2, etc.). The study focuses on biochemical (enzyme) assays and bioassays. Mention of kdr frequency (0.16%) refers to a previous study (Kulkarni et al. 2006)."
+    ]
+  }
+}

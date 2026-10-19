@@ -1,0 +1,20 @@
+study_id: 2010_Balkew_Insecticide_Resistance_Anopheles_Arabiensis_Dipter_PMID20416109
+title: 'Insecticide resistance in Anopheles arabiensis (Diptera: Culicidae) from villages
+  in central, northern and south west Ethiopia and detection of kdr mutation'
+first_author: Meshesha Balkew
+doi: 10.1186/1756-3305-3-40
+pmid: '20416109'
+publication_year: 2010
+countries:
+- Ethiopia
+data_source: journal_article
+provenance:
+  source_text: Balkew et al. Parasites & Vectors 2010, 3:40 http://www.parasitesandvectors.com/content/3/1/40
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-19'
+pmid_source: Europe PMC (from DOI)

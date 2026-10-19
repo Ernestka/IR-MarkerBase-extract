@@ -1,0 +1,11 @@
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2010_Balkew_gorgora_arabiensis,2010_Balkew_gorgora_arabiensis_ddt_4,DDT,kdr,1014F,Vgsc,L995F,SNP,dead,0,0,2,2,,,,Table 2 row: Gorgora | DDT | Susceptible | 2 | 2 (100) | 0 | 0,4,Table 2,,
+2010_Balkew_gorgora_arabiensis,2010_Balkew_gorgora_arabiensis_ddt_4,DDT,kdr,1014F,Vgsc,L995F,SNP,alive,3,8,1,12,,,,Table 2 row: Gorgora | DDT | Resistant | 12 | 1 (8.3) | 8 (66.7) | 3 (25.0),4,Table 2,,
+2010_Balkew_gorgora_arabiensis,2010_Balkew_gorgora_arabiensis_perm_075,permethrin,kdr,1014F,Vgsc,L995F,SNP,dead,1,1,5,7,,,,Table 2 row: Gorgora | Permethrin | Susceptible | 7 | 5 (71.4) | 1 (14.3) | 1 (14.3),4,Table 2,,
+2010_Balkew_gorgora_arabiensis,2010_Balkew_gorgora_arabiensis_perm_075,permethrin,kdr,1014F,Vgsc,L995F,SNP,alive,0,7,4,11,,,,Table 2 row: Gorgora | Permethrin | Resistant | 11 | 4 (36.4) | 7 (63.6) | 0,4,Table 2,,
+2010_Balkew_ghibe_arabiensis,2010_Balkew_ghibe_arabiensis_ddt_4,DDT,kdr,1014F,Vgsc,L995F,SNP,dead,1,4,0,5,,,,Table 2 row: Ghibe | DDT | Susceptible | 5 | 0 | 4 (80.0) | 1 (20.0),4,Table 2,,
+2010_Balkew_ghibe_arabiensis,2010_Balkew_ghibe_arabiensis_ddt_4,DDT,kdr,1014F,Vgsc,L995F,SNP,alive,3,6,0,9,,,,Table 2 row: Ghibe | DDT | Resistant | 9 | 0 | 6 (66.7) | 3 (33.3),4,Table 2,,
+2010_Balkew_ghibe_arabiensis,2010_Balkew_ghibe_arabiensis_perm_075,permethrin,kdr,1014F,Vgsc,L995F,SNP,dead,4,3,0,7,,,,Table 2 row: Ghibe | Permethrin | Susceptible | 7 | 0 | 3 (42.9) | 4 (57.1),4,Table 2,,
+2010_Balkew_ghibe_arabiensis,2010_Balkew_ghibe_arabiensis_perm_075,permethrin,kdr,1014F,Vgsc,L995F,SNP,alive,3,0,0,3,,,,Table 2 row: Ghibe | Permethrin | Resistant | 3 | 0 | 0 | 3 (100),4,Table 2,,
+2010_Balkew_ghibe_arabiensis,2010_Balkew_ghibe_arabiensis_delta_005,deltamethrin,kdr,1014F,Vgsc,L995F,SNP,dead,4,2,0,6,,,,Table 2 row: Ghibe | Deltamethrin | Susceptible | 6 | 0 | 2 (33.3) | 4 (66.7),4,Table 2,,
+2010_Balkew_ghibe_arabiensis,2010_Balkew_ghibe_arabiensis_delta_005,deltamethrin,kdr,1014F,Vgsc,L995F,SNP,alive,6,2,0,8,,,,Table 2 row: Ghibe | Deltamethrin | Resistant | 8 | 0 | 2 (25.0) | 6 (75.0),4,Table 2,,

@@ -1,0 +1,67 @@
+{
+  "id": "2024_Aninagyei_Epidemiology_Likelihood_Asymptomatic_Malaria_Commu_PMID39291102",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on human asymptomatic malaria prevalence and associated risk factors (e.g., housing quality, occupation, education). It does not genotype mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report genotyping of any insecticide-resistance markers in mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data is reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study involves human participants, not mosquito populations."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study on human malaria prevalence."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the Fanteakwa South District, Ghana, specifically in the communities of Bosusu, Dwenase, Nsutam, and Osino."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Participants were recruited from 12 July to 5 October 2023."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new cross-sectional study conducted in 2023."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data is needed as the paper is ineligible due to the lack of mosquito genotyping."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is a community-based cross-sectional survey of asymptomatic malaria in humans in the Fanteakwa South District of Ghana. It does not involve the collection or genotyping of mosquitoes.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "is_anopheles",
+      "african_field_population"
+    ]
+  }
+}

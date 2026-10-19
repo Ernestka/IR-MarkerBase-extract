@@ -1,0 +1,68 @@
+{
+  "id": "2012_Marcombe_Insecticide_Resistance_Dengue_Vector_Aedes_PMID22363529",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the dengue vector Aedes aegypti, not Anopheles mosquitoes (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study screens for the Aedes aegypti V1016I kdr mutation and does not genotype any of the listed target markers for Anopheles (Page 2, Kdr genotyping)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for target Anopheles resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected in Martinique (French West Indies, Caribbean), which is not an African country (Page 2, Mosquito strains and populations)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting bioassays, enzyme assays, kdr genotyping, and gene expression analyses (Page 2, Materials and Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling sites are specified at nine sub-island localities in Martinique: AJPB, SPIER, GRMN, SJOS, LAM, FDF, VCLN, RSAL, and SAN (Page 3, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in February 2009 (Page 2, Mosquito strains and populations)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collections conducted specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary information is not needed as the paper is fundamentally ineligible."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Martinique"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates insecticide resistance and associated mechanisms (including V1016I kdr genotyping and metabolic gene expression) in field populations of Aedes aegypti from Martinique. The paper is ineligible because it studies Aedes aegypti instead of Anopheles, reports no target Anopheles resistance markers, and samples a non-African population.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (studies Aedes aegypti).",
+      "Does not report target insecticide resistance markers for Anopheles.",
+      "Does not sample an African field population (sampled in Martinique, French West Indies)."
+    ]
+  }
+}

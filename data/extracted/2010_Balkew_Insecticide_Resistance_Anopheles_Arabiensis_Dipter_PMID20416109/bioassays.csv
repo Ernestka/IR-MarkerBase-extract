@@ -1,0 +1,10 @@
+bioassay_id,survey_id,insecticide,insecticide_class,concentration,exposure_duration_min,assay_method,assay_type,synergist,dead_alive_printed,n_exposed,n_dead,n_alive,reported_mortality_pct,mortality_time_h,inconsistency_note,source_text,page,table,figure,supplement
+2010_Balkew_gorgora_arabiensis_ddt_4,2010_Balkew_gorgora_arabiensis,DDT,organochlorine,4%,60.0,WHO tube,diagnostic dose,,False,198,,,49.5,24.0,,Table 1 row: Gorgora | DDT | 198 | 49.5,3,Table 1,,
+2010_Balkew_gorgora_arabiensis_perm_075,2010_Balkew_gorgora_arabiensis,permethrin,pyrethroid,0.75%,60.0,WHO tube,diagnostic dose,,False,140,,,85.0,24.0,,Table 1 row: Gorgora | Permethrin | 140 | 85.0,3,Table 1,,
+2010_Balkew_gorgora_arabiensis_delta_005,2010_Balkew_gorgora_arabiensis,deltamethrin,pyrethroid,0.05%,60.0,WHO tube,diagnostic dose,,False,160,,,80.6,24.0,,Table 1 row: Gorgora | Deltamethrin | 160 | 80.6,3,Table 1,,
+2010_Balkew_ghibe_arabiensis_ddt_4,2010_Balkew_ghibe_arabiensis,DDT,organochlorine,4%,60.0,WHO tube,diagnostic dose,,False,160,,,3.8,24.0,,Table 1 row: Ghibe | DDT | 160 | 3.8,3,Table 1,,
+2010_Balkew_ghibe_arabiensis_perm_075,2010_Balkew_ghibe_arabiensis,permethrin,pyrethroid,0.75%,60.0,WHO tube,diagnostic dose,,False,60,,,31.7,24.0,,Table 1 row: Ghibe | Permethrin | 60 | 31.7,3,Table 1,,
+2010_Balkew_ghibe_arabiensis_delta_005,2010_Balkew_ghibe_arabiensis,deltamethrin,pyrethroid,0.05%,60.0,WHO tube,diagnostic dose,,False,160,,,31.3,24.0,,Table 1 row: Ghibe | Deltamethrin | 160 | 31.3,3,Table 1,,
+2010_Balkew_sodere_arabiensis_ddt_4,2010_Balkew_sodere_arabiensis,DDT,organochlorine,4%,60.0,WHO tube,diagnostic dose,,False,118,,,78.8,24.0,,Table 1 row: Sodere | DDT | 118 | 78.8,3,Table 1,,
+2010_Balkew_sodere_arabiensis_perm_075,2010_Balkew_sodere_arabiensis,permethrin,pyrethroid,0.75%,60.0,WHO tube,diagnostic dose,,False,80,,,100.0,24.0,,Table 1 row: Sodere | Permethrin | 80 | 100,3,Table 1,,
+2010_Balkew_sodere_arabiensis_delta_005,2010_Balkew_sodere_arabiensis,deltamethrin,pyrethroid,0.05%,60.0,WHO tube,diagnostic dose,,False,120,,,99.2,24.0,,Table 1 row: Sodere | Deltamethrin | 120 | 99.2,3,Table 1,,

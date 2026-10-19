@@ -1,0 +1,72 @@
+{
+  "id": "2015_Chanda_Strengthening_Tactical_Planning_Operational_Framew_PMID26242587",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae s.l. and Anopheles arabiensis in Namibia."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report any primary genotype data for insecticide resistance markers. It only discusses the absence of resistance and cites other studies (e.g., page 8, 'While no insecticide resistance in malaria vectors has been reported so far in Namibia...')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype counts or frequencies for any markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The paper focuses on malaria vectors in Namibia."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a case study/review of vector control frameworks in Namibia."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper mentions specific regions like Kunene, Omusati, Ohangwena, Kavango, and Zambezi."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper discusses data from 2009-2013."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a policy/framework review paper, not a primary entomological study reporting new genotype data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or its context."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Namibia"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a case study on the strengthening of vector control frameworks in Namibia. It does not report any primary insecticide resistance marker genotype data, only summarizing existing knowledge and policy.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

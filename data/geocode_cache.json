@@ -108,6 +108,14 @@
    "name": "Atakora, Bénin"
   }
  ],
+ "bj|Atlantique": [
+  {
+   "lat": 6.54083,
+   "level": "admin1",
+   "lon": 2.22309,
+   "name": "Atlantique, Bénin"
+  }
+ ],
  "bj|Banikoara, Alibori": [
   {
    "lat": 11.32625,
@@ -172,6 +180,7 @@
    "name": "Copargo, Donga, Bénin"
   }
  ],
+ "bj|Cotonou (Ladji, Fifadji, Abomey Calavi)": [],
  "bj|Djohounkollé": [],
  "bj|Djohounkollé, Plateau": [],
  "bj|Djohounkollé, Sakété, Plateau": [],
@@ -350,7 +359,10 @@
  ],
  "bj|Ouidah-Kpomasse-Tori": [],
  "bj|Ouidah-Kpomasse-Tori health district": [],
+ "bj|Ouidah-Kpomasse-Tori health district, Atlantique": [],
  "bj|Ouidah-Kpomasse-Tori health district, Ouidah-Kpomasse-Tori": [],
+ "bj|Ouidah-Kpomasse-Tori health district, Ouidah-Kpomasse-Tori, Atlantique": [],
+ "bj|Ouidah-Kpomasse-Tori, Atlantique": [],
  "bj|Parakou": [
   {
    "lat": 9.34002,

@@ -1,0 +1,22 @@
+study_id: 2012_Asidi_Loss_Household_Protection_Use_Insecticide_PMID22709930
+title: Loss of Household Protection from Use of Insecticide-Treated Nets against Pyrethroid-Resistant
+  Mosquitoes, Benin
+first_author: Alex Asidi
+doi: 10.3201/eid1807.120218
+pmid: '22709930'
+publication_year: 2012
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Loss of Household Protection from Use of Insecticide-Treated Nets against
+    Pyrethroid-Resistant Mosquitoes, Benin. Emerging Infectious Diseases, Vol. 18,
+    No. 7, July 2012
+  page: '1101'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-19'
+pmid_source: Europe PMC (from DOI)

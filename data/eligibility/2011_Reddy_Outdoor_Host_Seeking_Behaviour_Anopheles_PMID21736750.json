@@ -1,0 +1,69 @@
+{
+  "id": "2011_Reddy_Outdoor_Host_Seeking_Behaviour_Anopheles_PMID21736750",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. and Anopheles melas in Punta Europa, Bioko Island (page 3, 'Anopheline mosquitoes were identified based on morphology... A diagnostic PCR followed by restriction enzyme digest was used for species identification within the An. gambiae s.l. complex and to determine the molecular form (M/S)')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance target markers were genotyped in this study. The molecular assays performed were strictly for species and molecular form identification (page 3). The mention of ace-1 G119S on page 8 is cited as '(Slotman, unpublished)' and kdr is cited from previous literature."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotype or allele data are reported in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected using human landing collections in Mongola, Cacahual, and Biabia villages on Bioko Island, Equatorial Guinea in 2007, 2008, and 2009 (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary field study assessing mosquito biting behavior and species composition."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mongola (3°45.88788'N, 8°43.30314'E), Cacahual (3°45.84354'N, 8°41.12424'E), and Biabia (3°45.69354'N, 8°42.32994'E) in Punta Europa, Bioko Island, Equatorial Guinea (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred in November 2007, September 2008, and March–November 2009 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Collections were primary field collections carried out as part of BIMCP monitoring."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not indicate any supplementary files containing resistance marker genotyping data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2007,
+      2008,
+      2009
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated indoor versus outdoor host-seeking behaviour of Anopheles gambiae s.s. (M form) and Anopheles melas in Punta Europa, Bioko Island, Equatorial Guinea between 2007 and 2009. The paper does not genotype any insecticide resistance markers.",
+    "exclusion_reasons": [
+      "Does not genotype or report data for any target insecticide resistance markers."
+    ]
+  }
+}

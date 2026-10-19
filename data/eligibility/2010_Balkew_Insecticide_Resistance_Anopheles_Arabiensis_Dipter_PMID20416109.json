@@ -1,0 +1,68 @@
+{
+  "id": "2010_Balkew_Insecticide_Resistance_Anopheles_Arabiensis_Dipter_PMID20416109",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports the detection of the Vgsc L995F (kdr-west) mutation (referred to as 1014F) in An. arabiensis (page 1, Abstract; page 3, kdr gene detection)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (SS, RS, RR) for An. arabiensis populations from Gorgora and Ghibe, stratified by insecticide exposure and phenotype (page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected mosquitoes from three villages in Ethiopia: Sodere, Gorgora, and Ghibe River Valley (page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article reporting empirical field and laboratory data (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies three distinct locations: Sodere, Gorgora, and Ghibe River Valley, including coordinates for Ghibe and Sodere (page 2, Study localities)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study states that insecticide susceptibility tests were carried out between November 2005 and April 2007 (page 2, Insecticide susceptibility tests)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection and analysis of mosquitoes from three specific Ethiopian sites."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text tables (Table 1, Table 2, Table 3, Table 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2005,
+      2006,
+      2007
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 70,
+    "summary": "This study investigated insecticide resistance and the presence of the kdr (L995F) mutation in Anopheles arabiensis populations from three sites in Ethiopia (Gorgora, Ghibe, and Sodere). The study found high levels of DDT resistance and varying levels of pyrethroid resistance, with the kdr mutation detected in populations from Gorgora and Ghibe. Genotype-phenotype associations were analyzed, showing that kdr homozygotes were present in phenotypically susceptible individuals.",
+    "exclusion_reasons": []
+  }
+}

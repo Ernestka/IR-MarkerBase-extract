@@ -1,0 +1,64 @@
+{
+  "id": "2009_Djenontin_Managing_Insecticide_Resistance_Malaria_Vectors_PMID19843332",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae (Abstract, Methods)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr mutations (L1014F/S) in the background and discussion but does not perform or report genotyping for the mosquitoes used in the study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported. The study reports bioassay results (mortality and blood-feeding) from experimental hut trials and laboratory cone tests."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from Ladji, southern Benin (Page 4, 'Mosquito species')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting laboratory and experimental hut trials."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Ladji, southern Benin (Page 2, Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The specific years of mosquito collection are not stated in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine experimental hut trial; while it uses populations characterized in other papers (e.g., Corbel et al. 2007), the bioassay data itself appears original."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No mention of supplementary files containing genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study evaluates the efficacy of combining carbamate-treated plastic wall sheeting with pyrethroid-treated bed nets against pyrethroid-resistant Anopheles gambiae and Culex quinquefasciatus in Benin. While the paper characterizes the field populations as having kdr mutations, it does so by citing previous literature (e.g., Corbel et al. 2007) and does not report any new genotyping data for the mosquitoes used in the experiments.",
+    "exclusion_reasons": [
+      "The study does not report any new genotype data for the target markers. It characterizes the resistance of the field populations (Ladji, Benin) by citing previous studies and focuses on reporting bioassay results from experimental hut trials and laboratory cone tests."
+    ]
+  }
+}

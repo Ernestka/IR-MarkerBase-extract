@@ -1,0 +1,68 @@
+{
+  "id": "2013_Witzig_Genetic_Mapping_Identifies_Major_Locus_PMID23299100",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-19",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles arabiensis is the major malaria vector in Chad (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "genotyping for the known target-site mutations found in An. gambiae s.l, L1014F and L1014S... and the acetylcholinesterase target-site mutation G119S (ace-1) (Page 1, Introduction; Page 2, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Pyrosequencing unambiguously assigned 90 of these individuals as wild type (that is, 1014 codon TTA). The remaining two... were also homozygote for the wild type (Page 3, Results). All 25 individuals were homozygous for the wild-type allele and the 119S ace-1 mutation was not detected (Page 3, Results)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "collected in houses... in Ndjamena... capital city of Chad, in September 2009 (Page 1, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Empirical study with field collection, bioassays, and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ndjamena (12° 6' 47'' North, 15° 2' 57'' East), capital city of Chad (Page 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "September 2009 (Page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study establishes a colony (Ndja) from field collections in 2009 for QTL mapping, but there is no indication that this genotype data is part of a larger shared dataset like Ag1000G."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The core genotype data for kdr and ace-1 is provided in the main text (Page 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Chad"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 82,
+    "summary": "The study investigates pyrethroid resistance in Anopheles arabiensis from Ndjamena, Chad. It reports the absence of Vgsc L1014F/S and Ace-1 G119S mutations in the field-derived population (Ndja strain). Through QTL mapping and gene expression analysis, it identifies a major locus on chromosome 2R associated with resistance, with Cyp6p4 being significantly upregulated.",
+    "exclusion_reasons": []
+  }
+}

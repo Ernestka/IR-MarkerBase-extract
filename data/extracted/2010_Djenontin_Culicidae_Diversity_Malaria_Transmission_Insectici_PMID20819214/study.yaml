@@ -10,12 +10,14 @@ countries:
 - Benin
 data_source: journal_article
 provenance:
-  source_text: Djènontin et al. Parasites & Vectors 2010, 3:83
+  source_text: 'Culicidae diversity, malaria transmission and insecticide resistance
+    alleles in malaria vectors in Ouidah-Kpomasse-Tori district from Benin (West Africa):
+    A pre-intervention study'
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
 model: gemini:gemini-3.7-flash
-extracted: '2026-10-18'
+extracted: '2026-10-19'
 pmid_source: Europe PMC (from DOI)
