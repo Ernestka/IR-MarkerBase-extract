@@ -1,0 +1,68 @@
+{
+  "id": "2012_Jones_Aging_Partially_Restores_Efficacy_Malaria_PMID22269002",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l., including An. gambiae s.s. (S and M forms) and An. arabiensis (Page 1, Abstract; Page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports the frequency of the Vgsc L1014F (kdr) mutation (Page 2, Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports the frequency of the 1014F allele in a sub-sample of S-form An. gambiae s.s. (95.8% in both test and control samples, N=12 for each test) (Page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the villages of Soumousso and Laye in south-west Burkina Faso (Page 2, Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting original experimental data on mosquito age and insecticide resistance."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to specific villages: Soumousso (N 11° 00’ 46”, W 04° 03’ 25”) and Laye (N 12° 31’ 35”, W 1° 46’ 21”) (Page 2, Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between August and November 2010 (Page 2, Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the study mentions routine monitoring as part of a WHO/TDR multi-country project (Page 2), the specific data on aging and the 2010 collections appear to be unique to this publication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype frequency and sample size are provided in the main text (Page 4). Additional File 1 contains statistical model details rather than raw genotype counts."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 24,
+    "summary": "This study investigates how mosquito age affects insecticide susceptibility in Anopheles gambiae s.l. populations from Burkina Faso. It reports that older mosquitoes (17-19 days) are significantly more susceptible to deltamethrin and bendiocarb than younger mosquitoes (3-5 days). The study provides the frequency of the Vgsc L1014F mutation in An. gambiae s.s. (S-form) and compares frequencies between deltamethrin-exposed (dead) and control mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

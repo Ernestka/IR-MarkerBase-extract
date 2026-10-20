@@ -1,0 +1,69 @@
+{
+  "id": "2024_North_Rapid_Adaptation_Interspecific_Introgression_North_PMID38941083",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the crop pest Helicoverpa zea (corn earworm), which is a moth (Lepidoptera), not an Anopheles mosquito."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports on markers in Helicoverpa zea (e.g., CYP337B3, CYP333B3, kinesin-12), not the specified insecticide-resistance markers for Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study does not report genotype counts for Anopheles mosquitoes."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study focuses on North American populations of Helicoverpa zea."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving genome sequencing of field-collected Helicoverpa zea."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study reports sampling locations at the county level (e.g., Jackson County, TX)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection in 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections of Helicoverpa zea in 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible due to the species studied."
+    },
+    "markers_found": [],
+    "species": [
+      "Helicoverpa zea"
+    ],
+    "countries": [
+      "USA"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 237,
+    "summary": "This study investigates population genomics, introgression, and selective sweeps in the crop pest moth Helicoverpa zea in the United States. It is not an Anopheles study.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2011_Himeidan_Extensive_Permethrin_DDT_Resistance_Anopheles_PMID21812972",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex (page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (referred to as 1014F) and Vgsc L995S (referred to as 1014S) (page 4, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides genotype counts (Leu Leu, Leu Phe, Phe Phe) for alive and dead mosquitoes across multiple populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study collected field-caught Anopheles arabiensis larvae from five states in Sudan (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collection and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific locations (towns/sites) within five states in Sudan (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study states larvae were collected during July - November 2009 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted in 2009."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 248,
+    "summary": "This study investigated insecticide resistance and kdr marker frequencies in Anopheles arabiensis populations across five states in Sudan. It found widespread resistance to permethrin and DDT, with the 1014F kdr allele present in all populations, though its correlation with resistance phenotype was variable.",
+    "exclusion_reasons": []
+  }
+}

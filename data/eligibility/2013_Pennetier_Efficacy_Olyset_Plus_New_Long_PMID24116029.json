@@ -1,0 +1,69 @@
+{
+  "id": "2013_Pennetier_Efficacy_Olyset_Plus_New_Long_PMID24116029",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of Olyset Plus against Anopheles gambiae s.s. and Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the presence of kdr mutations (1014F) in the study populations (e.g., page 3, '1014F kdr frequency is high (0.90)'), but it does not report primary genotype data (counts or frequencies) for these markers in the mosquitoes used in this study. It cites previous studies for these resistance profiles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype counts or frequencies for the mosquitoes used in the experiments; it only cites previous studies for the resistance status of the populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses mosquitoes from field-collected larvae in Cotonou, Benin, and Pitoa, Cameroon."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating the efficacy of a new LLIN."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations such as Cotonou, Benin, and Pitoa, Cameroon."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The field trial was conducted in 2011."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new experimental hut trials and bioassays."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data for the study's conclusions are provided in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of Olyset Plus LLINs against pyrethroid-resistant Anopheles gambiae s.l. in experimental huts in Benin and Cameroon. While it discusses the presence of kdr mutations in the study populations, it does not report primary genotype data for these markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

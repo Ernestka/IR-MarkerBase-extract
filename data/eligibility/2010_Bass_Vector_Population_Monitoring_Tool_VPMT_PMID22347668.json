@@ -1,0 +1,71 @@
+{
+  "id": "2010_Bass_Vector_Population_Monitoring_Tool_VPMT_PMID22347668",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on diagnostic tools for Anopheles gambiae s.l. and Anopheles funestus (page 1, Abstract and Introduction)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The article describes TaqMan assays for Vgsc L1014F and L1014S (page 4, section 6.1), Ace-1 G119S (page 4, section 6.2), and Rdl A296G and A296S (page 4-5, section 6.3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No field population genotype counts, allele frequencies, or population sample sizes are reported. The paper only presents amplification curves and technical validation using lab strains and a few known control samples (pages 4-6)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Although DNA from samples from Ghana and Cameroon was used to evaluate assay dilution and sensitivity (page 5), no defined African field population is sampled or surveyed for resistance marker frequencies."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is published as a 'Review Article' presenting an overview of the Vector Population Monitoring Tool (VPMT) diagnostic suite and technical protocols, rather than a primary field entomological study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No specific sub-country collection localities are given for mosquito populations."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates or years are provided for any field specimens used."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No population data is reported."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data files are referenced containing population genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This review paper describes the development and application of the Vector Population Monitoring Tool (VPMT), a suite of high-throughput real-time TaqMan PCR assays for species identification, Plasmodium detection, and insecticide resistance marker detection (Vgsc L1014F/S, Ace-1 G119S, and Rdl A296G/S) in Anopheles vectors. It does not report field population genotype frequencies or counts.",
+    "exclusion_reasons": [
+      "Review/methodological paper lacking primary field survey data",
+      "No extractable field population genotype counts or frequencies reported"
+    ]
+  }
+}

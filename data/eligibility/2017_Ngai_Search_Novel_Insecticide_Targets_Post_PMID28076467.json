@@ -1,0 +1,62 @@
+{
+  "id": "2017_Ngai_Search_Novel_Insecticide_Targets_Post_PMID28076467",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae and other mosquito species throughout the text."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a review article and does not report original genotyping data for any of the specified insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review article and does not contain original genotype counts or frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review article and does not report on field-collected mosquito populations."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a review article."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The paper is a review article and does not report on specific field locations."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper is a review article and does not report on specific collection years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a review article and does not require supplementary data for the criteria."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article titled 'The search for novel insecticide targets in the post-genomics era, with a specific focus on G-protein coupled receptors'. It does not contain original empirical data on insecticide resistance markers in African Anopheles populations.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (it is a review article).",
+      "Does not report original genotype data for insecticide-resistance markers.",
+      "Does not report on African field populations."
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "2008_John_Reduced_Susceptibility_Pyrethroid_Insecticide_Trea_PMID18503715",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses kdr resistance in the context of literature review (page 2, Background) but does not report any genotyping of resistance markers for the mosquitoes collected in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study only reports phenotypic bioassay data (knockdown time and mortality rates) in Table 1 (page 3). No genotype data is provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Kamwenge District, Uganda (page 2, Materials and methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original bioassay results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection from five parishes in Kamwenge District, Uganda (page 2, Materials and methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study reports data collected over a 10-year period from 1998 to 2007 (Table 1, page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This appears to be an independent study of local mosquito populations."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data was collected, so no supplementary data is needed for this purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study reports phenotypic resistance (knockdown time and mortality) of Anopheles gambiae s.l. to pyrethroids in western Uganda from 1998-2007. It does not perform or report any molecular genotyping of insecticide resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: No genotyping performed.",
+      "reports_extractable_genotype_data: No genotype data reported.",
+      "temporal_resolution_within_3y: The study covers a 10-year period."
+    ]
+  }
+}

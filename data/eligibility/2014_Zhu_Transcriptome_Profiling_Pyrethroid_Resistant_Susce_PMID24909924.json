@@ -1,0 +1,70 @@
+{
+  "id": "2014_Zhu_Transcriptome_Profiling_Pyrethroid_Resistant_Susce_PMID24909924",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles sinensis, a malaria vector."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports kdr mutations at codon 1014 (L1014F and L1014C) in Anopheles sinensis (page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports kdr mutation frequencies (88-100%) for four populations (page 5, Results section)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected in Jiangsu Province, China (page 2, 3). The criteria requires an AFRICAN field population."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and transcriptome sequencing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies four locations in Jiangsu Province: Xuzhou, Nanjing, Changzhou, and Wuxi (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected between July and September 2011 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections and transcriptome sequencing."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required data (kdr frequencies) is provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 514,
+    "summary": "This study performs transcriptome profiling of deltamethrin-resistant and susceptible Anopheles sinensis collected from Jiangsu Province, China. It also reports kdr mutation frequencies (L1014F and L1014C) in these field populations.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "(code) model said eligible=True but required checks give False; using the checks."
+    ]
+  }
+}
