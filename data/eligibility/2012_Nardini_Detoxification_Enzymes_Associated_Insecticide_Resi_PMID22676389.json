@@ -1,0 +1,68 @@
+{
+  "id": "2012_Nardini_Detoxification_Enzymes_Associated_Insecticide_Resi_PMID22676389",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the An. gambiae complex (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the presence of the L1014F kdr mutation (Vgsc L995F) in the laboratory strains (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states that both resistant strains were homozygous for the L1014F kdr mutation but notes 'data not shown' (Page 2). No genotype counts or frequencies for field populations are provided."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses long-established laboratory colonies: SENN (colonized in the 1980s from Sudan) and MBN (colonized in 2002 from South Africa) (Page 2). No field-caught (F0) or F1 progeny were tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study investigating detoxification enzymes and kdr mutations in Anopheles arabiensis strains."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The strains originated from the Sennar region of Sudan and the KwaZulu-Natal (KZN) province in South Africa (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The strains were colonized in the 1980s and 2002; the study does not report on recent field collections (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses standard laboratory strains (SENN and MBN) which are common in insecticide resistance research."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The missing genotype data is for laboratory colonies and is stated as 'data not shown' in the text; no supplementary files are mentioned as containing field genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Sudan",
+      "South Africa"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the role of detoxification enzymes and the L1014F (Vgsc L995F) kdr mutation in DDT and pyrethroid resistance using two laboratory strains of Anopheles arabiensis: SENN (from Sudan, colonized in the 1980s) and MBN (from South Africa, colonized in 2002). It concludes that while kdr is present in both, metabolic resistance also plays a significant role, particularly in the MBN strain.",
+    "exclusion_reasons": [
+      "The study only uses laboratory colonies (SENN and MBN), not field-caught mosquitoes or their F1 progeny.",
+      "No extractable genotype data (counts or frequencies) for field populations are provided; kdr status for lab strains is mentioned as 'data not shown'."
+    ]
+  }
+}

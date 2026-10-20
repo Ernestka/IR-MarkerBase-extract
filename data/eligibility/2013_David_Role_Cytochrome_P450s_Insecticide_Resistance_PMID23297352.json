@@ -1,0 +1,76 @@
+{
+  "id": "2013_David_Role_Cytochrome_P450s_Insecticide_Resistance_PMID23297352",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae, Anopheles funestus, and Anopheles arabiensis (Page 1, 4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "While the paper discusses resistance mechanisms including kdr (Vgsc) and specific P450s like CYP6P9, it does not report new genotyping data; it summarizes findings from previously published studies (Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review and does not provide new extractable genotype counts or frequencies for field populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The review discusses mosquito populations from several African countries including Ghana, Benin, Nigeria, Kenya, and Mozambique (Table 2)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly categorized as a 'Review' (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 2 lists specific sub-country locations such as Dodowa (Ghana), Akron (Benin), and Orogun (Nigeria)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "As a review, it does not specify collection dates for new primary data."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as the paper is a review of existing literature."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No primary data is reported, so no supplementary genotype tables are expected."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Cyp6p9a R",
+      "Cyp6p9b R"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ghana",
+      "Benin",
+      "Nigeria",
+      "Kenya",
+      "Tanzania",
+      "Cameroon",
+      "Mozambique"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article summarizing the role of cytochrome P450s in insecticide resistance in mosquitoes, including African malaria vectors like Anopheles gambiae and An. funestus. It provides a synthesis of previously published data on metabolic resistance markers and their geographical distribution but does not contain new primary empirical data.",
+    "exclusion_reasons": [
+      "is_review"
+    ]
+  }
+}

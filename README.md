@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**288 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-20
+**303 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-20
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -49,6 +49,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2006_Kamau_Status_Insecticide_Susceptibility_Anopheles_Arabie_PMID16756645 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-19 | 2026-10-19 | 0 |  | gemini:gemini-3.1-flash-lite | 4812 | 682 |  |  |  |  | 0.0000 |
 | 2006_Kulkarni_Occurrence_Leucine_Phenylalanine_Knockdown_Resista_PMID16820067 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.8-flash | 5332 | 1794 |  |  |  |  | 0.0000 |
 | 2006_Mazzoni_Molecular_Polymorphism_Differentiation_Introgressi_PMID17069656 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.5-flash | 7412 | 1339 |  |  |  |  | 0.0000 |
+| 2007_Casimiro_Monitoring_Operational_Impact_Insecticide_Usage_PMID17973989 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3-flash-preview | 5332 | 5381 |  |  |  |  | 0.0000 |
 | 2007_Djouaka_Does_Spillage_Petroleum_Products_Anopheles_PMID18053173 | master | EXTRACTED | True | high | low | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.7-flash | 6892 | 4252 | gemini:gemini-3.8-flash | 29932 | 48112 | 15 survey(s), 6 genotype, 15 bioassay, 0 geno-pheno rows | 0.0000 |
 | 2007_Djouaka_Quantification_Efficiency_Treatment_Anopheles_Gamb_PMID17488523 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.7-flash | 4812 | 1029 |  |  |  |  | 0.0000 |
 | 2007_Muller_Transcription_Profiling_Recently_Colonised_Pyrethr_PMID17261191 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 7932 | 1705 |  |  |  |  | 0.0000 |
@@ -74,6 +75,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2009_Singh_PCR_Based_Methods_Detection_L1014_PMID19594947 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 5852 | 1577 |  |  |  |  | 0.0000 |
 | 2009_Townson_SIT_African_Malaria_Vectors_Epilogue_PMID19917071 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3-flash-preview | 3772 | 2902 |  |  |  |  | 0.0000 |
 | 2009_Van_Bortel_Impact_Insecticide_Treated_Nets_Wild_PMID19874581 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.7-flash | 5852 | 1124 |  |  |  |  | 0.0000 |
+| 2009_Verhaeghen_Absence_Knockdown_Resistance_Suggests_Metabolic_PMID19400943 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3-flash-preview | 8972 | 5439 |  |  |  |  | 0.0000 |
 | 2009_van_den_Berg_Global_Status_DDT_Alternatives_Use_PMID20049114 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.7-flash | 5852 | 1061 |  |  |  |  | 0.0000 |
 | 2010_Ahoua_Alou_Distribution_Ace_1R_Resistance_Carbamates_PMID20553593 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.7-flash | 5472 | 1692 | gemini:gemini-3.5-flash | 7247 | 27872 | 10 survey(s), 8 genotype, 23 bioassay, 0 geno-pheno rows | 0.0000 |
 | 2010_Akogbeto_Bendiocarb_Potential_Alternative_Against_Pyrethroi_PMID20630056 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-19 | 2026-10-19 | 0 |  | gemini:gemini-3-flash-preview | 6552 | 3701 |  |  |  |  | 0.0000 |
@@ -84,9 +86,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2010_Chandre_Field_Efficacy_Pyrethroid_Treated_Plastic_PMID20682050 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 4932 | 1861 | gemini:gemini-3.8-flash | 19309 | 45496 | 2 survey(s), 0 genotype, 0 bioassay, 19 geno-pheno rows; 19 warning(s) | 0.0000 |
 | 2010_Chen_Molecular_Ecology_Pyrethroid_Knockdown_Resistance_PMID20657783 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3-flash-preview | 6372 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
 | 2010_Dery_Patterns_Seasonality_Malaria_Transmission_Forest_PMID21054895 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3-flash-preview | 6012 | 4125 |  |  |  |  | 0.0000 |
-| 2010_Djenontin_Culicidae_Diversity_Malaria_Transmission_Insectici_PMID20819214 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.7-flash | 5472 | 1911 | gemini:gemini-3.7-flash | 19054 | 29000 | 4 survey(s), 8 genotype, 0 bioassay, 0 geno-pheno rows | 0.0000 |
-| 2010_Djogbenou_Costs_Insensitive_Acetylcholinesterase_Insecticide_PMID20070891 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 6012 | 1769 |  |  |  |  | 0.0000 |
-| … 228 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| … 243 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

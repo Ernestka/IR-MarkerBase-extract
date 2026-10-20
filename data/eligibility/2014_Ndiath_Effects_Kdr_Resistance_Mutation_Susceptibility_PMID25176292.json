@@ -1,0 +1,71 @@
+{
+  "id": "2014_Ndiath_Effects_Kdr_Resistance_Mutation_Susceptibility_PMID25176292",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates populations of Anopheles coluzzii and Anopheles gambiae S molecular form (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the L1014F and L1014S kdr mutations, referred to as kdr-w and kdr-e (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports the effect of genotype on Plasmodium infection rates but does not provide the actual counts or frequencies of RR, RS, and SS genotypes for any population (F0 or F4) in a table or text. It only provides total sample sizes (N=445 and N=303) for the infection experiments (Page 3)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The genotypes and infection assays were performed on F3 and F4 progeny of mosquitoes collected in Dielmo, Senegal ('F3 progeny of An. gambiae s.l. collected in Dielmo were infected', Abstract; 'F4 females used for infection were genotyped', Page 2). The eligibility criteria only allow up to F1 progeny."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the relationship between kdr genotypes and Plasmodium susceptibility (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the village of Dielmo (13°43’N, 16°24’W) in Senegal (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between August and September 2012 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a specific experimental setup with F4 progeny. It mentions that kdr frequencies for the Dielmo population were previously determined in other studies (e.g., ref 33), suggesting the field data may be published elsewhere."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are mentioned in the text that would contain the missing genotype counts for the field population."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 748,
+    "summary": "The study investigates the effect of kdr genotypes (L1014F and L1014S) on the susceptibility of Anopheles gambiae and Anopheles coluzzii to Plasmodium falciparum infection using F3/F4 progeny from Dielmo, Senegal. It is ineligible because it reports genotypes for F4 progeny (exceeding the F1 limit for field populations) and does not provide extractable genotype counts or frequencies for the field population.",
+    "exclusion_reasons": [
+      "The study reports genotypes for F4 progeny, which exceeds the F1 limit for field populations.",
+      "The paper does not provide extractable genotype counts or frequencies (RR/RS/SS) for the field (F0) population or the experimental (F4) population."
+    ]
+  }
+}

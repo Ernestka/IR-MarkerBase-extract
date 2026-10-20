@@ -1,0 +1,78 @@
+{
+  "id": "2009_Verhaeghen_Absence_Knockdown_Resistance_Suggests_Metabolic_PMID19400943",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on 'three vector species complexes: Anopheles dirus sensu stricto (s.s.) [1], Anopheles minimus sensu lato (s.l.) [2] and Anopheles sundaicus s.l. [3]' (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study screened for 'two substitutions at codon 1014 (L1014F and L1014S) of domain II of the sodium channel gene' (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides the number of specimens (n) analyzed for kdr mutations across several species and locations, stating that 'no kdr mutation was observed in any of the study species' (Page 1)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected in the 'Mekong region (Vietnam, Laos, Cambodia and Thailand)' (Page 2), which is in Southeast Asia, not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating resistance mechanisms in field-collected mosquitoes (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific locations such as 'Hoa Binh Province, northern Vietnam' (Page 5) and the 'Mekong Delta' (Page 1) are mentioned."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected 'from March 2003 until July 2005' (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states that 'The results of the bioassays were described in Van Bortel et al [5]' (Page 2), indicating that the current study is a follow-up analysis of the same samples."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotyping and biochemical assay data are contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles dirus",
+      "Anopheles minimus",
+      "Anopheles epiroticus",
+      "Anopheles subpictus",
+      "Anopheles harrisoni"
+    ],
+    "countries": [
+      "Vietnam",
+      "Cambodia",
+      "Laos",
+      "Thailand"
+    ],
+    "collection_years": [
+      2003,
+      2004,
+      2005
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 4629,
+    "summary": "This study investigated the presence of knockdown resistance (kdr) and metabolic resistance in major malaria vectors (Anopheles dirus s.s., An. minimus s.l., An. epiroticus, and An. subpictus) from the Mekong region (Vietnam, Cambodia, Laos, and Thailand). Molecular assays (FRET/MCA and PCR-RFLP) were used to screen for L1014F and L1014S kdr mutations, but none were detected in the 4,629 mosquitoes genotyped. Biochemical assays suggested that metabolic mechanisms, including increased esterase and GST activity, are likely responsible for the observed pyrethroid and DDT resistance in these populations.",
+    "exclusion_reasons": [
+      "The study was conducted on mosquito populations from the Mekong region (Vietnam, Cambodia, Laos, and Thailand), not from Africa."
+    ]
+  }
+}

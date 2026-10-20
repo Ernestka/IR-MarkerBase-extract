@@ -1,0 +1,69 @@
+{
+  "id": "2014_Sougoufara_Biting_Anopheles_Funestus_Broad_Daylight_PMID24678587",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the biting behaviour of Anopheles funestus (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study uses PCR for species identification within the Anopheles funestus group but does not genotype any of the target insecticide-resistance markers (e.g., Vgsc, Ace-1, Rdl, GSTe2, Cyp6p9a/b)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data for resistance markers is reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Dielmo, a rural Senegalese village, between July 2011 and April 2013 (Page 1, Abstract)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collection and behavioral data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to the village of Dielmo (Page 2, Study area)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected monthly between July 2011 and April 2013 (Page 2, Mosquito collection)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is part of the long-term Dielmo project, but the specific behavioral data for An. funestus from 2011-2013 appears to be primary to this publication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are mentioned as containing the required genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the behavioral adaptation of Anopheles funestus in Dielmo, Senegal, following the deployment of LLINs. It reports a significant shift towards diurnal biting activity. While the study uses PCR for species identification, it does not genotype any insecticide-resistance markers or report bioassay results, making it ineligible for the database.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

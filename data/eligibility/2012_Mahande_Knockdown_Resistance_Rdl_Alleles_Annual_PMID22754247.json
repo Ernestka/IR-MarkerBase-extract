@@ -1,0 +1,69 @@
+{
+  "id": "2012_Mahande_Knockdown_Resistance_Rdl_Alleles_Annual_PMID22754247",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "A total of 6220 mosquitoes were collected... of which 86.0% (n=5350) were Anopheles gambiae sensu lato (Abstract, page 114)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Samples from this study population were taken for kdr and resistance to dieldrin (rdl) genes detection (Abstract, page 114). The study specifically tested for Vgsc L1014S (kdr-east) and the rdl locus (Results, page 116)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Mutation points were detected in 477 of the 534 An. arabiensis, which were successfully genotyped for kdr 1014S and rdl... the rdl locus mutation was found with a resistant allele frequency of 0.48... heterozygote proportions (standard deviation) were 33.13% (19.9) for RR (homozygote resistant), 28.88% (18.15) for SS (homozygote susceptible), and 37.99% (10.37) for RS (heterozygote resistant) (Results, page 116)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study site was located in lower Moshi in the Kilimanjaro region of the northern Tanzania... Mosquitoes were collected from 20 houses by using standard CDC-miniature light trap collections (Materials and Methods, page 115)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections and molecular genotyping results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Lower Moshi, Kilimanjaro region, Tanzania (3º21′S, 37º21′E) (Materials and Methods, page 115)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collections were done fortnightly for 14 months from July 2005 to August 2006 (Materials and Methods, page 115)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes original field collections conducted by the authors in Lower Moshi between 2005 and 2006."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequencies, sample sizes, and species identification data are provided in the main text and Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Rdl A296G"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2005,
+      2006
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 477,
+    "summary": "This study investigated the frequency of knockdown resistance (kdr) and dieldrin resistance (rdl) alleles in Anopheles arabiensis populations from the Lower Moshi irrigation schemes in northern Tanzania. Mosquitoes were collected between July 2005 and August 2006. Molecular analysis of 477 successfully genotyped An. arabiensis revealed an absence of the Vgsc L1014S mutation, but a high frequency (0.48) of the rdl resistant allele, with significant seasonal fluctuations in genotype proportions. Permethrin susceptibility bioassays were also conducted, showing varying mortality rates over the study period.",
+    "exclusion_reasons": []
+  }
+}

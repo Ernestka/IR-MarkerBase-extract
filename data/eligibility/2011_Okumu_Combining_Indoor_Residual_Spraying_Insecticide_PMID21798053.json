@@ -1,0 +1,87 @@
+{
+  "id": "2011_Okumu_Combining_Indoor_Residual_Spraying_Insecticide_PMID21798053",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses malaria vector control strategies targeting Anopheles mosquitoes, specifically mentioning An. gambiae, An. funestus, and An. arabiensis (page 6)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr mutations in the context of reviewing existing literature (page 10) but does not perform or report any new genotyping of target markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts or frequencies are provided; the paper is a review of existing literature and theoretical models."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The review focuses on malaria control interventions in Africa, citing studies from countries such as Burundi, Eritrea, and Mozambique (page 3)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly a review, as stated in the title: 'a review of possible outcomes and an outline of suggestions for the future' and the 'REVIEW' label on page 1."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper mentions specific sub-country locations like Bioko (Equatorial Guinea) and Zambezi province (Mozambique) when discussing other studies (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper cites studies with specific collection windows, such as household surveys conducted between 2006 and 2008 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review paper and does not present original data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a review; the mentioned additional files are summary tables of other studies' findings and properties of insecticides."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles arabiensis",
+      "Anopheles punctulatus",
+      "Anopheles farauti"
+    ],
+    "countries": [
+      "Tanzania",
+      "Eritrea",
+      "Burundi",
+      "Equatorial Guinea",
+      "Mozambique",
+      "Zambia",
+      "Uganda"
+    ],
+    "collection_years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2006,
+      2007,
+      2008
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a review of the potential benefits and challenges of combining indoor residual spraying (IRS) and insecticide-treated nets (ITNs) for malaria control in Africa. It synthesizes findings from previous studies and mathematical models but does not present any new empirical genotype or bioassay data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "reports_target_markers"
+    ]
+  }
+}

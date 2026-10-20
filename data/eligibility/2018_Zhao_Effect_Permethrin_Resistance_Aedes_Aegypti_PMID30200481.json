@@ -1,0 +1,66 @@
+{
+  "id": "2018_Zhao_Effect_Permethrin_Resistance_Aedes_Aegypti_PMID30200481",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti (L.), as stated in the title and throughout the text (e.g., page 1: 'Aedes aegypti (L.) is the primary vector...')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports differential gene expression (transcriptomics) using RNA-seq, not the specific target-site resistance markers (SNPs/CNVs) required by the schema."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper provides transcriptomic data (log fold changes and p-values) for various genes, but does not provide genotype counts (RR/RS/SS) or allele frequencies for the target markers."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquito populations used were collected in Florida, USA: 'Ae. aegypti larvae were collected from Key West (24.55° N, 81.78° W), Florida, USA' and 'The Orlando strain of Ae. aegypti was collected from Orlando... Florida, USA' (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper describes a primary empirical study using RNA-sequencing to compare transcriptomes of resistant and susceptible mosquito strains."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites in Key West and Orlando, Florida (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper states the Key West strain has been maintained since 2011 and the Orlando strain since 1952 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a specific transcriptomic study of established laboratory-maintained strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary information to determine eligibility is present in the main text."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "United States of America"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses RNA-sequencing to compare the transcriptomes of permethrin-resistant (Key West) and susceptible (Orlando) strains of Aedes aegypti from Florida, USA, in response to Zika virus infection. It identifies several differentially expressed detoxification enzymes (P450s, GSTs, esterases) but does not genotype specific target-site markers or study African Anopheles populations.",
+    "exclusion_reasons": [
+      "not_anopheles",
+      "no_target_markers",
+      "not_african_field_population"
+    ]
+  }
+}

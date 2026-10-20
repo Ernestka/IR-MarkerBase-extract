@@ -1,0 +1,75 @@
+{
+  "id": "2013_Seixas_Aedes_Aegypti_Madeira_Island_Portugal_PMID24473797",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti, as stated in the title and throughout the text (e.g., 'Aedes aegypti on Madeira Island (Portugal): genetic variation of a recently introduced dengue vector')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes kdr mutations V1016I and F1534C in Aedes aegypti, which are not among the target markers specified for Anopheles (e.g., Vgsc L995F, Ace-1 G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies for kdr mutations in Aedes aegypti are provided in Tables II and III on pages 3 and 4."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquito samples were collected in Madeira Island (Portugal), Brazil, and Venezuela (Table I, page 3). No new field collections from Africa are reported."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new genetic data for Aedes aegypti populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific localities are provided: Funchal (Madeira), Botucatu (Brazil), and Caracas (Venezuela) in Table I (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are 2009, 2010, and 2013 (Table I, page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports original collections from Madeira, Brazil, and Venezuela for the purpose of this genetic analysis."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype data and collection details are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc V1016I",
+      "Vgsc F1534C"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Portugal",
+      "Brazil",
+      "Venezuela"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 131,
+    "summary": "This study characterizes the genetic diversity and knockdown resistance (kdr) mutations of Aedes aegypti populations from Madeira Island (Portugal), Brazil, and Venezuela. It reports the presence and frequency of V1016I and F1534C mutations. The study is ineligible because it does not focus on Anopheles mosquitoes, does not report the target markers for Anopheles, and does not involve African field populations.",
+    "exclusion_reasons": [
+      "Not Anopheles (studies Aedes aegypti)",
+      "Not an African field population (samples from Portugal, Brazil, and Venezuela)",
+      "Does not report target Anopheles markers"
+    ]
+  }
+}
