@@ -1,0 +1,66 @@
+{
+  "id": "2014_Agossa_Laboratory_Field_Evaluation_Impact_Washings_PMID24884502",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 2, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports kdr mutation frequencies (L995F/L1014F) in Table 1 (page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 5) provides genotype counts (RR, RS, SS) for kdr mutations in Akron and Malanville."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Akron and Malanville, Benin (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating LLIN effectiveness in experimental huts."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations as Akron and Malanville, Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2014, and the data collection is presented as a contemporary evaluation."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific experimental hut trial conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 192,
+    "summary": "This study evaluated the efficacy of three LLINs (LifeNet, Olyset, PermaNet 2.0) after repeated washings in experimental huts in Akron and Malanville, Benin. It also characterized the kdr resistance status of the local Anopheles gambiae s.s. populations.",
+    "exclusion_reasons": []
+  }
+}

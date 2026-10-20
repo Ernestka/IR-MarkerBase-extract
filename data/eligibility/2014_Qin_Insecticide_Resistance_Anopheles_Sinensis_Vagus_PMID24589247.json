@@ -1,0 +1,70 @@
+{
+  "id": "2014_Qin_Insecticide_Resistance_Anopheles_Sinensis_Vagus_PMID24589247",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles sinensis and Anopheles vagus."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports Vgsc L1014F (L995F) and Ace-1 G119S (G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (TTG/TTG, TTG/TTT for kdr; GGC/GGC, GGC/AGC, AGC/AGC for ace-1) for An. sinensis."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Hainan Island, China, which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study collecting and testing mosquitoes from the field."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites including Sanya, Baoting, Chengmai, Dingan, and Tunchang."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study states collections were made in July–August 2012."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes original field collections in 2012."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles sinensis",
+      "Anopheles vagus"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 567,
+    "summary": "This study investigates insecticide resistance in Anopheles sinensis and Anopheles vagus from Hainan Island, China. It reports resistance to DDT, deltamethrin, and malathion, and genotypes for kdr (L1014F) and ace-1 (G119S) mutations. The study is ineligible because it is not based on African field populations.",
+    "exclusion_reasons": [
+      "The study was conducted in China, not Africa."
+    ]
+  }
+}

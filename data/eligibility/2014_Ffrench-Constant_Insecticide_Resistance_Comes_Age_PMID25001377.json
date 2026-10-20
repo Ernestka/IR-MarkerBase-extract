@@ -1,0 +1,61 @@
+{
+  "id": "2014_Ffrench-Constant_Insecticide_Resistance_Comes_Age_PMID25001377",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "This is a review/research highlight article that discusses findings from other studies (specifically Riveron et al. 2014) but does not itself report primary genotype data."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a research highlight and does not contain primary genotype data."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review/research highlight and does not report primary field data."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a research highlight article summarizing other research (specifically Riveron et al. 2014)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as it is a review article."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as it is a review article."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review/research highlight article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable as it is a review article."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a research highlight article that summarizes and discusses the findings of a primary study (Riveron et al., 2014) regarding GSTe2-mediated DDT resistance in Anopheles funestus. It does not contain original empirical data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2021_McGregor_Epidemiology_Plasmodium_Falciparum_Malaria_Bijagos_PMID33782209",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper is a malariometric survey of human participants, not a study of mosquito populations. While it references a separate entomological study (Ant et al., 2020) in the discussion, this paper itself does not genotype mosquito markers."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report any insecticide-resistance marker genotyping for mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data is provided."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study focuses on human participants in Guinea-Bissau, not mosquito populations."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study of human malaria prevalence."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted on the island of Bubaque, Guinea-Bissau."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted in August 2017."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary survey of human malaria prevalence."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not contain mosquito genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Guinea-Bissau"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a cross-sectional survey of Plasmodium falciparum malaria prevalence in human participants on the island of Bubaque, Guinea-Bissau. It does not contain any entomological data or mosquito genotype information.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

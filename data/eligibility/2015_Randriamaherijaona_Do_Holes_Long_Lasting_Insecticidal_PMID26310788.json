@@ -1,0 +1,68 @@
+{
+  "id": "2015_Randriamaherijaona_Do_Holes_Long_Lasting_Insecticidal_PMID26310788",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae (KISUMU strain and AKRON population) and Culex quinquefasciatus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that the An. gambiae AKRON population 'contains a high frequency of the 1014F mutation' (page 3) and that the Culex quinquefasciatus population has 'kdr mutation' (page 3), but it does not report the actual genotype counts or frequencies for these markers in the study population."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype counts (RR/RS/SS) or allele frequencies for the resistance markers mentioned."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The An. gambiae AKRON population was collected in Akron, Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Akron, district of Porto-Novo, Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted in 2012 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary experimental hut study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not provide genotype data in the main text or supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of intact and holed LLINs against pyrethroid-resistant Anopheles gambiae and Culex quinquefasciatus in experimental huts in Benin. While it mentions the presence of kdr mutations in the study populations, it does not report genotype data for these markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper mentions the presence of kdr mutations but does not report the actual genotype counts or frequencies.",
+      "reports_extractable_genotype_data: No genotype counts or frequencies are provided for the resistance markers."
+    ]
+  }
+}

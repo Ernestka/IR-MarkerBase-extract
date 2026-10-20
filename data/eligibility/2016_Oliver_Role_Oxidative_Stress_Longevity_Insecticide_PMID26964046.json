@@ -1,0 +1,69 @@
+{
+  "id": "2016_Oliver_Role_Oxidative_Stress_Longevity_Insecticide_PMID26964046",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study examines Anopheles arabiensis and Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the L1014F kdr mutation in the SENN DDT strain (page 3), but it does not report any new genotype data (counts or frequencies) for this or any other marker in the populations studied. It uses established laboratory strains."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts or frequencies for any field-collected mosquitoes. It uses laboratory-reared strains and F1 progeny from wild-caught mothers, but only reports phenotypic data (longevity, bioassay mortality, enzyme activity, protein carbonyl content)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-reared strains (SENN, SENN DDT, FANG, FUMOZ, FUMOZ-R) and F1 progeny of wild-caught females. It does not report genotype data for field-caught mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study investigating oxidative stress and insecticide resistance."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper mentions Nchelenge, Zambia, as the collection site for the wild-caught mothers of the F1 progeny (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The wild-caught mosquitoes were collected in January 2014 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses established laboratory strains and new F1 progeny from wild-caught mothers."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data is presented in the figures and text."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Zambia"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the role of oxidative stress in the longevity and insecticide resistance of Anopheles arabiensis and Anopheles funestus. It uses laboratory strains and F1 progeny of wild-caught mosquitoes from Zambia. The study focuses on phenotypic and biochemical assays (enzyme activity, protein carbonyl content, bioassays) rather than genotyping resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

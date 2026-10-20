@@ -1,0 +1,71 @@
+{
+  "id": "2018_Zakrzewski_Mapping_Virome_Wild_Caught_Aedes_PMID29549363",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports SNPs in the voltage-gated sodium channel (VGSC) gene, which are associated with pyrethroid resistance (kdr) in Aedes aegypti (Table 3, page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides genotype frequencies (e.g., T 100%, T 77% C 23%) and read depths for specific SNPs in the VGSC gene."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses mosquitoes collected from Cairns (Australia) and Bangkok (Thailand). No African field populations were included."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using RNA-Seq on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper specifies collection locations in Cairns (Earlville, Bungalow, Parramatta Park, Manoora) and Bangkok (page 8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred in 2014 (Cairns) and 2015 (Bangkok) (page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new RNA-Seq data generated from field-collected mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data for the assessment is contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Australia",
+      "Thailand"
+    ],
+    "collection_years": [
+      2014,
+      2015
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "This study characterizes the virome of wild-caught Aedes aegypti from Cairns, Australia, and Bangkok, Thailand, using RNA-Seq. It also analyzes mitochondrial diversity and insecticide resistance-associated SNPs in the VGSC gene. The study does not involve Anopheles mosquitoes or African field populations.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "african_field_population"
+    ]
+  }
+}

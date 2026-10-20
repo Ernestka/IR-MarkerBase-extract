@@ -1,0 +1,70 @@
+{
+  "id": "2015_Shi_Development_Resistance_Pyrethroid_Culex_Pipiens_PMID26275298",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Culex pipiens pallens, a mosquito species that is not an Anopheles vector."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports kdr mutations (L1014F and L1014S) in Culex pipiens pallens."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts for kdr mutations across different generations and strains."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected in China (Tangkou, Shandong Province)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical laboratory selection study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the collection site as Tangkou, Shandong Province, China."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers a period of approximately 28 months (30 generations)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary laboratory selection experiment."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F (L1014F)",
+      "Vgsc L995S (L1014S)"
+    ],
+    "species": [
+      "Culex pipiens pallens"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2427,
+    "summary": "This study investigates the development of pyrethroid resistance in a laboratory-selected population of Culex pipiens pallens collected from China. It monitors kdr mutations and metabolic enzyme activities over 30 generations under different selection pressures.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "african_field_population"
+    ]
+  }
+}

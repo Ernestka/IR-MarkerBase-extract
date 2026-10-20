@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**303 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-20
+**318 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-10-20
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -68,6 +68,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2008_Muller_Field_Caught_Permethrin_Resistant_Anopheles_PMID19043575 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-19 | 2026-10-19 | 0 |  | gemini:gemini-3.8-flash | 6892 | 1450 | gemini:gemini-3.7-flash | 8582 | 17774 | 2 survey(s), 4 genotype, 0 bioassay, 2 geno-pheno rows; 2 warning(s) | 0.0000 |
 | 2008_Ridl_Pre_Intervention_Study_Malaria_Vector_PMID18823554 | master | ELIGIBLE | True | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.7-flash | 5852 | 2082 |  |  |  |  | 0.0000 |
 | 2008_Sogoba_Spatial_Distribution_Chromosomal_Forms_Anopheles_PMID18847463 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.7-flash | 7932 | 1860 |  |  |  |  | 0.0000 |
+| 2009_Betson_Status_Insecticide_Susceptibility_Anopheles_Gambia_PMID19656399 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.1-flash-lite | 5852 | 665 |  |  |  |  | 0.0000 |
 | 2009_Djenontin_Managing_Insecticide_Resistance_Malaria_Vectors_PMID19843332 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-19 | 2026-10-19 | 0 |  | gemini:gemini-3-flash-preview | 6372 | 3274 |  |  |  |  | 0.0000 |
 | 2009_Kweka_Insecticides_Susceptibility_Status_Bedbugs_Cimex_PMID20300399 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.5-flash | 4292 | 1255 |  |  |  |  | 0.0000 |
 | 2009_Pemba_Influence_Sensitivity_Insecticides_Case_Study_PMID20345010 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 3820 | 1241 |  |  |  |  | 0.0000 |
@@ -85,8 +86,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2010_Brooke_Major_Effect_Genes_Or_Loose_PMID20716346 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.5-flash | 6012 | 1506 |  |  |  |  | 0.0000 |
 | 2010_Chandre_Field_Efficacy_Pyrethroid_Treated_Plastic_PMID20682050 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 4932 | 1861 | gemini:gemini-3.8-flash | 19309 | 45496 | 2 survey(s), 0 genotype, 0 bioassay, 19 geno-pheno rows; 19 warning(s) | 0.0000 |
 | 2010_Chen_Molecular_Ecology_Pyrethroid_Knockdown_Resistance_PMID20657783 | master | INELIGIBLE |  |  |  |  | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3-flash-preview | 6372 | 7986 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
-| 2010_Dery_Patterns_Seasonality_Malaria_Transmission_Forest_PMID21054895 | master | ELIGIBLE | True | high | low | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3-flash-preview | 6012 | 4125 |  |  |  |  | 0.0000 |
-| … 243 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| … 258 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

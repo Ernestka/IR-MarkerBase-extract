@@ -1,0 +1,66 @@
+{
+  "id": "2014_Ngufor_Insecticide_Treated_Net_Wall_Hangings_PMID25231168",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus (page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the kdr (L1014S) mutation (page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports a kdr allele (L1014S) frequency of 0.22 in a random sample of 47 An. gambiae s.l. mosquitoes (page 3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquitoes were collected from experimental huts in Zeneti village, Muheza District, Tanzania (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut study conducted by the authors (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Zeneti village, Muheza District, Tanzania (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial ran between June and July of 2011 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a specific experimental hut trial conducted in 2011."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 47,
+    "summary": "This study evaluated the efficacy of pirimiphos methyl-treated net wall hangings (NWH) in experimental huts in Muheza, Tanzania. It also assessed the kdr (L1014S) resistance marker in a sample of 47 An. gambiae s.l. mosquitoes collected from the huts, finding an allele frequency of 0.22.",
+    "exclusion_reasons": []
+  }
+}

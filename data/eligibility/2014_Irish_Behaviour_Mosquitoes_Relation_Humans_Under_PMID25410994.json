@@ -1,0 +1,70 @@
+{
+  "id": "2014_Irish_Behaviour_Mosquitoes_Relation_Humans_Under_PMID25410994",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Reviews experimental hut studies evaluating bednets against Anopheles gambiae s.l., An. arabiensis, and An. funestus (e.g. Table on pages 906-907)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not perform any marker genotyping; it only cites previously published studies, noting in the Table (page 906) '91% frequency of kdr' from Ngufor et al. (2011)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or sample sizes of genotyped mosquitoes are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The reviewed literature covers field mosquito populations in African countries such as The Gambia, Benin, and Tanzania (Table, pages 906-907)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly a review: 'This review summarises findings from experimental hut studies...' (Abstract, page 905) and describes a systematic literature search conducted across PubMed, LILACS, etc. (page 905)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions specific hut locations from referenced studies, e.g. Jiboroh (The Gambia), Ladji and Akron (Benin), Zenet (Tanzania) (pages 906-907)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "As a review compiling published literature from 1982 to 2013, it does not have a single primary collection window <= 3 years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; paper is a secondary review of previously published studies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files required; paper is fundamentally ineligible as a review."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin",
+      "Gambia",
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a systematic literature review summarizing results from experimental hut studies on mosquito behavior, blood feeding, and mortality around holed bednets. It presents no primary empirical mosquito collections or resistance marker genotyping data.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_target_markers_genotyped",
+      "no_extractable_genotypes"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2016_Chaccour_Mind_Gap_Residual_Malaria_Transmission_PMID26755345",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae, Anopheles arabiensis, and Anopheles coluzzii."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a commentary and does not report original genotype data for any insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a commentary and does not report any genotype data."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a commentary and does not report on any field-collected mosquito populations."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a commentary paper, not a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No specific study location is reported as this is a commentary."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates are reported as this is a commentary."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a commentary paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a commentary and does not contain original data."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a commentary article discussing the potential of veterinary endectocides for malaria vector control. It does not contain original empirical data, bioassays, or genotype frequencies.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

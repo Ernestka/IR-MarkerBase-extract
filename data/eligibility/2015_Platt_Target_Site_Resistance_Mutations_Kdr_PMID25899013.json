@@ -1,0 +1,68 @@
+{
+  "id": "2015_Platt_Target_Site_Resistance_Mutations_Kdr_PMID25899013",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii (formerly An. gambiae M form) in Burkina Faso."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F (kdr), Ace-1 G119S, and Rdl A296S."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1, Table 3, and Figure 1/2 provide genotype counts and frequencies for the studied markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from mating swarms in the Vallée du Kou (VK3), Burkina Faso."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical research article."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the collection site as VK3 village in the Vallée du Kou, Burkina Faso."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in April 2010."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, new collection of mosquitoes from mating swarms in April 2010."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in the main text tables (Table 1, Table 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 189,
+    "summary": "This study investigated the fitness costs of insecticide resistance (kdr, Ace-1, and Rdl) on the mating competitiveness of male Anopheles coluzzii in Burkina Faso. It found that homozygote-resistant males for kdr and Rdl had reduced mating success compared to heterozygotes, while metabolic resistance showed no significant impact on mating competitiveness.",
+    "exclusion_reasons": []
+  }
+}

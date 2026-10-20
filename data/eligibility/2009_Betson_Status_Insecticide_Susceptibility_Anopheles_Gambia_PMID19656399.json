@@ -1,0 +1,69 @@
+{
+  "id": "2009_Betson_Status_Insecticide_Susceptibility_Anopheles_Gambia_PMID19656399",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae s.s., An. arabiensis, and An. melas)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses kdr mutations in the background section but does not report any genotyping data for these or any other markers in the study results."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper only reports phenotypic bioassay mortality data; no genotype counts or frequencies are provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from six field sites in The Gambia."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original bioassay data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study reports data for six specific sites: Brikama, Essau, Farafenni, Mansakonko, Kuntaur, and Basse."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae were collected in July 2008."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a standard field survey of insecticide susceptibility."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data (bioassay results) are presented in the main text tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "The Gambia"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1250,
+    "summary": "This study reports insecticide susceptibility bioassay results for Anopheles gambiae s.l. from six sites in The Gambia. While it discusses kdr mutations in the introduction, it does not perform or report any molecular genotyping of resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report any genotype data for the specified markers.",
+      "reports_extractable_genotype_data: No genotype data (counts or frequencies) are provided."
+    ]
+  }
+}
