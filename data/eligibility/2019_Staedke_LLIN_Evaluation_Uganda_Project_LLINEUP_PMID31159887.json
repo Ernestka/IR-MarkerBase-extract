@@ -1,0 +1,70 @@
+{
+  "id": "2019_Staedke_LLIN_Evaluation_Uganda_Project_LLINEUP_PMID31159887",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles mosquitoes, specifically mentioning 'An. gambiae, An. arabiensis and An. funestus' (page 7)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a study protocol and describes plans to genotype markers such as Vgsc-1014S (L995S) and Cyp4j5 (page 8), but it does not report any actual genotype results or data."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or sample sizes for genotyped mosquitoes are reported as this is a protocol paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The protocol describes a trial involving field populations in 104 clusters across Eastern and Western Uganda (page 1)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a study protocol, not a primary empirical study reporting results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study involves 104 health sub-districts in 48 districts of Uganda (page 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study period described is 2017–2018 (page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is the protocol for the LLINEUP trial; results from this study are expected to be published in subsequent primary research papers."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a protocol and does not contain results; the provided supplementary files (Additional file 1 and 2) contain trial registration details and a SPIRIT checklist."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a study protocol for the LLINEUP cluster-randomised trial in Uganda, which evaluates the impact of PBO-treated LLINs. While the protocol outlines the methodology for entomological surveillance, including planned genotyping of Vgsc L995S and Cyp4j5 markers and phenotypic bioassays, it does not report any empirical data or results, making it ineligible for the database.",
+    "exclusion_reasons": [
+      "The paper is a study protocol and does not report any empirical results or genotype data.",
+      "No extractable genotype data (counts or frequencies) are provided."
+    ]
+  }
+}

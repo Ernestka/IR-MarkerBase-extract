@@ -1,0 +1,62 @@
+{
+  "id": "2021_Fotoukkiaii_High_Resolution_Genetic_Mapping_Reveals_PMID34153029",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the two-spotted spider mite, Tetranychus urticae (Acari: Tetranychidae), an agricultural pest (Title, Abstract, Introduction)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No Anopheles target resistance markers are genotyped; the study focuses on spider mite genes CYP392A16, CYP392E6-8, and CPR."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No target marker genotype data for Anopheles are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study investigates laboratory strains and crosses of Tetranychus urticae, not African field Anopheles populations."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The article is a primary empirical research study characterizing resistance genetics via bulked segregant analysis in spider mites."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations for Anopheles are relevant or reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field mosquito collection timeframes are present."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; not an Anopheles study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No relevant mosquito data exists in the main text or supplements."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study analyzes the polygenic basis of pyflubumide resistance in the two-spotted spider mite (Tetranychus urticae) using bulked segregant analysis, transcriptomics, and in vitro functional expression of CYP392A16 and CPR.",
+    "exclusion_reasons": [
+      "Studies Tetranychus urticae (spider mites), not Anopheles mosquitoes",
+      "Does not genotype target insecticide resistance markers",
+      "Does not study African field populations"
+    ]
+  }
+}

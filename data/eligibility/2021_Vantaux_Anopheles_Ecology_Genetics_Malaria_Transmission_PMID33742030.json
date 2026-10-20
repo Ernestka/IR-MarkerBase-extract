@@ -1,0 +1,75 @@
+{
+  "id": "2021_Vantaux_Anopheles_Ecology_Genetics_Malaria_Transmission_PMID33742030",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "We analysed a total of 3920 Anopheles mosquitoes collected during the rainy and dry seasons from four ecological settings in Cambodia (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Of the 844 samples that were molecularly typed for species, a randomly chosen subset of 192 samples representative of species and collection location were sequenced for the presence of known insecticide resistance mutations for ace-1 G119S, rdl A296S, and kdr L1014F (page 4, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Out of 108 A. peditaeniatus, 106 carried the G119S mutation (3 heterozygotes, 103 homozygotes), 78 carried the L1014F mutation (22 heterozygotes, 56 homozygotes), and 104 carried the A296S mutation (12 heterozygotes, 92 homozygotes) (page 11, Figure 6 legend)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Kaev Seima district, Mondulkiri Province, in northeastern Cambodia (page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field study collecting and analysing field mosquitoes in Cambodia (page 2, Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Kaev Seima district, Mondulkiri Province, northeastern Cambodia, with specific villages, plantation, and forest sites (pages 2-3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were carried out during the rainy season in July–August 2017 and during the dry season in December 2017–January 2018 (page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field collection protocol conducted by the authors in 2017-2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not needed; the paper is clearly ineligible based on geographical origin (Cambodia)."
+    },
+    "markers_found": [
+      "Ace-1 G280S",
+      "Vgsc L995F",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles peditaeniatus",
+      "Anopheles dirus",
+      "Anopheles kochi",
+      "Anopheles nivipes",
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "Cambodia"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 260,
+    "summary": "This study examines the ecology, bionomics, Plasmodium carriage, and insecticide-resistance target-site mutations (ace-1 G119S, kdr L1014F, and rdl A296S) in Anopheles species collected across four ecological settings in northeastern Cambodia. Because the study was conducted entirely in Cambodia (Southeast Asia) and not in Africa, it is not eligible.",
+    "exclusion_reasons": [
+      "Mosquito samples are from Cambodia, not an African field population."
+    ]
+  }
+}

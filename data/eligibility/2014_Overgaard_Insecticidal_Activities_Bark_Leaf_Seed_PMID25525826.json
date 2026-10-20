@@ -1,0 +1,64 @@
+{
+  "id": "2014_Overgaard_Insecticidal_Activities_Bark_Leaf_Seed_PMID25525826",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Tested adult female Anopheles gambiae s.s. mosquitoes (Kisumu, kdrKis, and AcerKis strains) (Page 1, 10)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study uses known lab strains carrying L1014F (kdrKis) and G119S Ace1R (AcerKis) mutations for topical bioassays, but does not perform marker genotyping on mosquito populations (Page 2, 10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or allele frequencies are reported for any population."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes tested were laboratory colony strains (Kisumu, kdrKis, AcerKis) maintained at IRD Montpellier, France (Page 10); no field-collected mosquitoes were tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary laboratory study assessing insecticidal activities of Zanthoxylum heitzii extracts on Anopheles gambiae mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Plant material was collected near Douakani village in south-western Republic of Congo (Page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Plant material was collected in December 2011 (Page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard primary laboratory bioassay study using established IRD colony strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed for target marker extraction."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper evaluated the insecticidal activity of stem bark, seed, and leaf extracts from Zanthoxylum heitzii against adult female Anopheles gambiae s.s. using topical application bioassays on three laboratory strains (Kisumu, kdrKis, and AcerKis). No field-caught mosquitoes were genotyped or tested.",
+    "exclusion_reasons": [
+      "No target resistance markers were genotyped in mosquito populations.",
+      "No extractable genotype counts or frequencies are reported.",
+      "Only laboratory colony mosquito strains were tested; no African field mosquito populations were evaluated."
+    ]
+  }
+}

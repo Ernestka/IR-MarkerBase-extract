@@ -1,0 +1,69 @@
+{
+  "id": "2010_Dery_Patterns_Seasonality_Malaria_Transmission_Forest_PMID21054895",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study identifies Anopheles gambiae s.l. and Anopheles funestus as the primary vectors (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the frequency of knock down resistance (kdr) genotypes (Abstract, Page 1; Table 3, Page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 6 provides genotype counts (kdrRR, kdrR/S, kdrSS) for Anopheles gambiae s.s. in both wet and dry seasons."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in the Kintampo North and South districts of Ghana (Methods, Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary entomological study describing field collections and subsequent laboratory analysis (Abstract, Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for the Kintampo area, with specific community names provided in Table 2 (e.g., Ajina, Asantekwa, Ntereban) (Page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from November 2003 to November 2005 (Abstract, Page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study was conducted by the Kintampo Health Research Centre as part of preparation for drug and vaccine trials; while it uses a known surveillance system (KHDSS), the specific genotype data appears unique to this report."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and location information are contained within the main text and tables of the provided PDF."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2003,
+      2004,
+      2005
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 10,
+    "summary": "This study characterizes malaria transmission and vector populations in the forest-savannah transitional zone of Kintampo, Ghana, between 2003 and 2005. It identifies Anopheles gambiae s.s. and Anopheles funestus as the main vectors and provides kdr (Vgsc L995F) genotype counts for a subset of An. gambiae s.s. mosquitoes collected during the wet and dry seasons.",
+    "exclusion_reasons": []
+  }
+}

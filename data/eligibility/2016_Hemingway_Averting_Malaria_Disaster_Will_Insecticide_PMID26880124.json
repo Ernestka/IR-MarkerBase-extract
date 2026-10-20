@@ -1,0 +1,66 @@
+{
+  "id": "2016_Hemingway_Averting_Malaria_Disaster_Will_Insecticide_PMID26880124",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses malaria vectors including Anopheles gambiae sensu lato and Anopheles funestus (page 4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper only generally mentions the 'target site mutation kdr (knockdown resistance)' in the text (page 4) without testing or reporting specific target resistance alleles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or mosquito sample sizes tested for resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No primary mosquito field collections were conducted for this article."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a commentary/perspectives review article published in The Lancet, not a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No specific field collection sites or sub-country locations are studied."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary mosquito collection temporal window is reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "None (commentary article)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; this is a commentary article."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review and commentary paper in The Lancet examining the operational threat of insecticide resistance to malaria control in Africa. It contains no primary empirical mosquito sampling or resistance marker genotyping data.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (review/commentary article)",
+      "Does not genotype target insecticide-resistance markers",
+      "No extractable genotype data reported",
+      "No African field population sampled"
+    ]
+  }
+}

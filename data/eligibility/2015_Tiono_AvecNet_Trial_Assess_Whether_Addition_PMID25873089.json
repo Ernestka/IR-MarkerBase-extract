@@ -1,0 +1,66 @@
+{
+  "id": "2015_Tiono_AvecNet_Trial_Assess_Whether_Addition_PMID25873089",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study protocol describes entomological evaluations on Anopheles gambiae and Anopheles funestus (page 3, page 7)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The protocol states that 'Published kdr resistant markers will be typed by PCR [31,32]' (page 7), but no actual genotyping of target markers was conducted or reported in this manuscript."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data, allele counts, or genotype frequencies are reported; this is a trial protocol."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Although the planned field study is located in rural Burkina Faso, no mosquitoes were tested or reported in this protocol paper."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a study protocol describing the design and methodology for a future cluster-randomised trial (Trials 16:113), not a primary empirical study with results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study site is defined south of the road from Banfora and Sideradougou (10° 56' 00\" N, 004° 46' 00\" W) in Burkina Faso (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial was planned across two transmission seasons in 2014 and 2015 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Study protocol without reported empirical dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed because the manuscript is an empirical protocol without results."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a study protocol for the AvecNet cluster-randomised controlled trial assessing the addition of pyriproxyfen to permethrin LLINs in rural Burkina Faso. No empirical marker genotyping or bioassay data are reported.",
+    "exclusion_reasons": [
+      "Study protocol containing no primary empirical genotype or bioassay data.",
+      "Does not report any target resistance marker genotype data."
+    ]
+  }
+}

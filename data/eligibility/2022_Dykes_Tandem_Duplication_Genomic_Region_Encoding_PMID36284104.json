@@ -1,0 +1,68 @@
+{
+  "id": "2022_Dykes_Tandem_Duplication_Genomic_Region_Encoding_PMID36284104",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles stephensi strains (page 1, title and abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper characterizes GSTe2/GSTe4 gene tandem duplication in Anopheles stephensi and mentions L1014S kdr genotyping of laboratory strains (page 9), but does not report on the defined target markers in an eligible context or complex."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable field genotype frequencies or sample counts (RR, RS, SS) are presented; the authors only mention that the Alw-R laboratory line was homozygous for L1014S while Che-S and Delhi lines were wild-type (page 9)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All mosquito strains originated from India (Alwar in Rajasthan, Chennai, and Delhi) and were tested as laboratory colonies or colonized selected lines (page 9, 'Mosquito samples'). No African field populations were tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study presents primary empirical laboratory molecular work and sequencing data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Coordinates and districts in India are provided: Alwar district, Rajasthan (27°33′ N 76°37′ E) and Chennai (13°04′ N 80°12′ E) (page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Specific collection years for original colonized samples are provided: 2012 for Alwar and 2015 for Chennai (page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine laboratory strain characterization from the authors' own institute insectary colonies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study is fundamentally ineligible due to non-African laboratory colony populations."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles stephensi"
+    ],
+    "countries": [
+      "India"
+    ],
+    "collection_years": [
+      2012,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study characterizes a tandem duplication of the GSTe2 and GSTe4 genomic region in a DDT-resistant laboratory strain of Anopheles stephensi originally derived from Alwar, India, compared with strains from Chennai and Delhi, India. Because the study exclusively investigates non-African laboratory/colonized mosquito strains and does not genotype African field populations for target markers, it is not eligible.",
+    "exclusion_reasons": [
+      "Mosquito samples are from non-African laboratory colonies/selected strains from India.",
+      "Does not report extractable genotype counts or frequencies for target markers in African field populations."
+    ]
+  }
+}

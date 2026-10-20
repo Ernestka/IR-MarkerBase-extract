@@ -1,0 +1,69 @@
+{
+  "id": "2008_Ridl_Pre_Intervention_Study_Malaria_Vector_PMID18823554",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles mosquitoes were captured daily using window traps at 30 sentinel sites in Rio Muni... A total of 6,162 Anopheles mosquitoes were collected of which 4,808 were morphologically identified as Anopheles gambiae s.l., 120 Anopheles funestus, 1,069 Anopheles moucheti, and 165 Anopheles nili s.l. (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The presence of the west-African Leu-Phe and east-African Leu-Ser kdr mutations was determined in 505 An. gambiae s.s individuals using the TaqMan PCR protocol described by Bass et al [15] (page 2). Also tested for insensitive AChE using Weil et al. [17] (page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts (S/S, S/Rw, S/Re, Rw/Rw, Re/Re, Re/Rw) and sample sizes (n) for both M and S molecular forms of An. gambiae s.s. across 30 localities in Rio Muni (page 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles mosquitoes were captured daily using window traps at 30 sentinel sites in Rio Muni, Equatorial Guinea, from December 2006 to July 2007 (pages 1-2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field study of mosquito vectors, transmission rates, and insecticide resistance markers collected in Rio Muni prior to control interventions (pages 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data reported down to specific localities/sentinel sites within districts and provinces, such as Yengue, Ayamiken, Machinda, Ngolo, Etofili-Lubi, Ukomba, Bisun, Ebebiyin, etc. (Table 2, page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during an eight month period, from December 2006 to July 2007 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field samples were collected directly for the baseline entomological monitoring of the Equatorial Guinea Malaria Control Initiative (EGMCI)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and site information are fully presented in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2006,
+      2007
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 506,
+    "summary": "This study evaluated vector abundance, sporozoite rates, and insecticide resistance markers (Vgsc L995F, Vgsc L995S, and Ace-1 G280S) in Anopheles gambiae s.s. (M and S molecular forms) sampled from window exit traps across 30 sentinel sites in Rio Muni, Equatorial Guinea, between December 2006 and July 2007. Genotype counts are fully reported across multiple localities in Table 2.",
+    "exclusion_reasons": []
+  }
+}

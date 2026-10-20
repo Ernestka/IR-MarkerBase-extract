@@ -1,0 +1,68 @@
+{
+  "id": "2015_Koffi_Efficacy_Olyset_Duo_Permethrin_Pyriproxyfen_PMID26489480",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated bed nets against wild free-flying Anopheles gambiae s.s. (largely An. coluzzii) in experimental huts (page 1, 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No genotyping was performed in this study. The paper only mentions Vgsc L1014F (misprinted as L104F) by citing a previous study (Koffi et al. 2013, reference [9]) for the baseline resistance characteristics of the M'Bé site (page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquitoes from this trial were genotyped; no genotype or allele counts/frequencies were measured or presented."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were free-flying wild mosquitoes entering experimental huts in M'bé, Côte d'Ivoire (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting an experimental hut trial conducted in 2012 (page 1, 4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Huts were located in M'bé, 30 km north of Bouaké (5.209963 W and 7.970241 N), central Côte d'Ivoire (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were carried out between October 8 and November 3, 2012 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of Olyset Duo bed nets against wild pyrethroid-resistant Anopheles gambiae s.l. in experimental huts in M'bé, Côte d'Ivoire. No molecular genotyping of resistance markers was conducted as part of this study; previous publications were cited for the site's resistance profile.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

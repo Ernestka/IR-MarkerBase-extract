@@ -1,0 +1,66 @@
+{
+  "id": "2012_Tene_Fossog_Water_Quality_Anopheles_Gambiae_Larval_PMID22719775",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Section 2.3 notes: 'Mosquitoes belonging to the Anopheles gambiae complex were subjected to PCR assays designed for species and molecular forms identifications [11].'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only conducted species and molecular form identification (M and S forms) and larval bioassays. No target-site insecticide resistance markers (such as Vgsc L995F/S, Ace-1, etc.) were genotyped; kdr is only mentioned in the text referencing previous studies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotyping was performed, so no genotype counts or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were sampled from field breeding sites in Yaoundé and Douala, Cameroon (Section 2.1 and 3.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study examining breeding site water chemistry and larval tolerance to pyrethroids in Cameroon."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Section 2.1 lists districts in Yaoundé (Mokolo, Messa, Olezoa, Ngousso, Gare, Nkolbisson, Dakar, Nkolondom, Combattant) and Douala (Ndogbong, Bonaberi, Bessengue, Nylon, PK15, Village, Yassa)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not state the specific month or year(s) in which field larval collections took place (only ethics clearance reference year 2009 and manuscript receipt date in 2012 are provided)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper reports original field larval bioassay and water quality data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are referenced or missing for marker data (no marker assays were performed)."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 18262,
+    "summary": "This study evaluated larval tolerance to permethrin and deltamethrin across 104 breeding sites in Yaoundé and Douala, Cameroon, and correlated tolerance with breeding site physicochemical parameters and molecular forms (M and S). No target-site resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (only species/molecular form PCR-RFLP was conducted).",
+      "No extractable genotype data for target resistance markers."
+    ]
+  }
+}

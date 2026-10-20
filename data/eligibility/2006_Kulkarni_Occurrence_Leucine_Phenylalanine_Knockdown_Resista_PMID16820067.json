@@ -1,0 +1,67 @@
+{
+  "id": "2006_Kulkarni_Occurrence_Leucine_Phenylalanine_Knockdown_Resista_PMID16820067",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-20",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies field populations of Anopheles arabiensis from Tanzania (page 1, 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports testing for Vgsc L1014F (West African kdr, L995F) and L1014S (East African kdr, L995S) (page 1, 2, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5: 'All 978 individuals from susceptibility tests and experimental huts in Mabogini tested homozygous for the wildtype susceptible (104L) genotype. However, the SSOP-ELISA detected two out of 642 individuals from Msitu wa Tembo village that were heterozygous for the L104F kdr genotype (allele frequency = 0.16%).'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes collected from field sites in lower Moshi, northeast Tanzania (Mabogini and Msitu wa Tembo) (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research study reporting original field collections, assay development, and genotyping (page 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mabogini (3°22' S, 37°19' E) and Msitu wa Tembo (3°33' S, 37°17' E) in lower Moshi, Tanzania (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred in 2004 (June/July 2004 in Mabogini; 2004 in Msitu wa Tembo) (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard primary study reporting original collections from 2004."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and collection data are reported in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2004
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1620,
+    "summary": "Development and validation of an SSOP-ELISA method to detect Vgsc L1014F and L1014S mutations, applied to 1,620 field-collected Anopheles arabiensis from Mabogini (n=978) and Msitu wa Tembo (n=642) in northern Tanzania collected in 2004. Two heterozygous L1014F individuals were detected in Msitu wa Tembo.",
+    "exclusion_reasons": []
+  }
+}
