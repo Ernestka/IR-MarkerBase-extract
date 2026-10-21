@@ -1,0 +1,70 @@
+{
+  "id": "2013_Witzig_Identifying_Permethrin_Resistance_Loci_Malaria_PMID23448678",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. M-form (page 1469)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F (L995F), L1014S (L995S), N1575Y (N1570Y), and Ace-1 G119S (G280S) (page 1470)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports the 1014F kdr frequency (0.92) and the number of wild-caught females genotyped (n=74) (page 1470)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as gravid or blood-fed adults resting indoors in Akron, Porto-Novo, Benin in September 2009 (page 1469)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original QTL mapping results (page 1468)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Akron, Porto-Novo, Benin (lat: 4.4300; long: 2.6400) (page 1469)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in September 2009 (page 1469)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes a primary study with new field collections and crosses specifically for this QTL mapping project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The essential genotype frequencies and sample sizes for the field population are provided in the main text (page 1470)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 74,
+    "summary": "The study uses QTL mapping on isofemale pedigrees established from wild-caught Anopheles gambiae (M-form, now An. coluzzii) from Akron, Benin, collected in 2009. It identifies two QTLs associated with permethrin resistance on chromosomes 2L and 3R. Genotype frequencies for Vgsc L1014F/S, N1575Y, and Ace-1 G119S are reported for the field-collected females (n=74).",
+    "exclusion_reasons": []
+  }
+}

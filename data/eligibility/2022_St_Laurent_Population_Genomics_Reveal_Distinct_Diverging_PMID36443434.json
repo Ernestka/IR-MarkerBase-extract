@@ -1,0 +1,71 @@
+{
+  "id": "2022_St_Laurent_Population_Genomics_Reveal_Distinct_Diverging_PMID36443434",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study performed whole-genome sequencing on Anopheles minimus s.s. collected in Cambodia (page 1: 'Illumina deep whole-genome sequencing of 302 wild-caught An. minimus collected from three Cambodian provinces')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper scans known resistance-associated genes (Ace1, Rdl, KDR, GSTe2) and mentions 'Rdl resistance mutation' in general terms referring to Supplementary Data 2, but does not explicitly report or resolve specific target alleles (e.g. Rdl A296G/S, Vgsc L995F/S, or GSTe2 L119F) in the text or main tables."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Allele/genotype counts or frequencies for specific target markers are not provided in the main text; they are referenced as being in Supplementary Data 2 ('Variants occurring at a frequency of more than 2% in at least one of the four populations are reported in the known insecticide-resistance-associated genes Ace1, Rdl, KDR, and GSTe2 (Supplementary Data 2)', page 7)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected from five sites in Cambodia (Southeast Asia), not Africa (page 2: 'Mosquito collections in Thmar Da, in Eastern Cambodia, were done in 2010... Preah Vihear, and Ratanakiri provinces')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper reporting whole-genome sequencing and population genomic analyses of field-collected Anopheles minimus."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected at specific sites/villages across three provinces in Cambodia: Thmar Da, Chean Mok pagoda, Preah Kleang, Sayas, and Chamkar San (page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Collections spanned across 2010, 2014-2015, and 2016 (a 6-year range; page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The samples are contributed to the MalariaGEN Vector Observatory as a primary resource for Anopheles minimus."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper fails eligibility due to studying a non-African mosquito population (Cambodia), so supplementary data would not make it eligible."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles minimus"
+    ],
+    "countries": [
+      "Cambodia"
+    ],
+    "collection_years": [
+      2010,
+      2014,
+      2015,
+      2016
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 302,
+    "summary": "This study analyzes whole-genome sequencing data of 302 wild-caught Anopheles minimus mosquitoes collected from three provinces in Cambodia between 2010 and 2016. Because the study focuses entirely on an Asian vector species from Southeast Asia rather than an African field population, it is ineligible.",
+    "exclusion_reasons": [
+      "african_field_population: Mosquitoes were collected in Cambodia, not Africa.",
+      "reports_target_markers: Does not report specific target resistance marker genotypes in the main text.",
+      "reports_extractable_genotype_data: Specific genotype counts or frequencies for target markers are not extractable from the provided article text."
+    ]
+  }
+}

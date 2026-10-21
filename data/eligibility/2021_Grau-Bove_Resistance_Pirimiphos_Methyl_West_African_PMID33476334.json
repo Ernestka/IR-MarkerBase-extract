@@ -1,0 +1,86 @@
+{
+  "id": "2021_Grau-Bove_Resistance_Pirimiphos_Methyl_West_African_PMID33476334",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates pirimiphos-methyl resistance in the major malaria vectors Anopheles gambiae and A. coluzzii (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the Ace-1 G280S (also known as G119S) SNP and Ace-1 copy number variation (CNV) or duplication (Page 3, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 7) provides genotype frequencies (wt / wt+280S / 280S) and sample sizes (n) for nine West African populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Côte d'Ivoire, Ghana, and Togo (Page 7, Table 1; Page 20, Methods). It also uses data from the Ag1000G project covering multiple African countries (Page 4, Fig 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting new field collections, bioassays, and genomic analyses (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific sites including Tiassalé, Aboisso (Côte d'Ivoire), Korle-Bu, Madina, Weija, Obuasi (Ghana), and Baguida (Togo) (Page 7, Table 1; Page 20, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The new field collections were conducted between May and September 2012 (Page 19, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The study utilizes whole-genome sequencing data from the Anopheles gambiae 1000 Genomes project (Phase 2 AR1), which is a publicly available and previously published dataset (Page 1, Data Availability; Page 19, Methods). However, it also presents new genotype-phenotype data for 1080 specimens collected specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Extractable genotype counts and frequencies for the primary association analysis are provided in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Ace-1 G280S",
+      "Ace-1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire",
+      "Ghana",
+      "Togo",
+      "Burkina Faso",
+      "Guinea",
+      "Angola",
+      "Cameroon",
+      "Gabon",
+      "Uganda",
+      "The Gambia",
+      "Guinea-Bissau",
+      "Kenya",
+      "Equatorial Guinea",
+      "Mayotte"
+    ],
+    "collection_years": [
+      2000,
+      2002,
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 2222,
+    "summary": "This study investigates the genetic basis of pirimiphos-methyl resistance in West African Anopheles gambiae and An. coluzzii. It identifies a complex resistance haplotype involving both the Ace-1 G280S (G119S) mutation and Ace-1 gene duplications (CNV). The study combines whole-genome data from the Ag1000G project with new field collections and bioassays from Côte d'Ivoire, Ghana, and Togo (n=1080), demonstrating that the combination of SNP and CNV is a strong predictor of resistance and has spread via introgression between species.",
+    "exclusion_reasons": []
+  }
+}

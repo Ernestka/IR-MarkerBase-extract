@@ -1,0 +1,65 @@
+{
+  "id": "2018_Camara_Efficacy_Interceptor_G2_New_Long_PMID30088473",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated wild pyrethroid-resistant Anopheles gambiae s.s. from M'Bé, Côte d'Ivoire (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions an allelic frequency of L1014F (L104F) kdr mutation of around 80% on Page 3, but this is cited from previous literature (references 7 and 17) as background for the study site; no target markers were genotyped in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data or counts were generated or reported in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild Anopheles gambiae s.s. were evaluated in experimental huts in M'Bé, Côte d'Ivoire (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical semi-field experimental hut trial and bioassay evaluation."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "M'Bé area, 30 km north of Bouaké (5.209963 W, 7.970241 N), Côte d'Ivoire (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact collection dates/years for the experimental hut trial are not explicitly stated in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Standard primary semi-field experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No missing supplementary marker genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper reports a Phase II semi-field experimental hut trial and CDC bottle/WHO cone bioassays evaluating Interceptor G2 (alphacypermethrin + chlorfenapyr) against wild pyrethroid-resistant Anopheles gambiae s.s. in M'Bé, Côte d'Ivoire. No insecticide resistance marker genotyping was performed in this study; kdr mutation frequency is only mentioned as background context cited from prior literature.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide resistance markers (L1014F mentioned is cited from prior background literature).",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

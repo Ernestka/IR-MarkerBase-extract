@@ -1,0 +1,68 @@
+{
+  "id": "2016_Ngoagouni_Susceptibility_Profile_Metabolic_Mechanisms_Involv_PMID27881148",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti and Aedes albopictus (e.g. title: 'Susceptibility profile and metabolic mechanisms involved in Aedes aegypti and Aedes albopictus resistant to DDT and deltamethrin in the Central African Republic')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study tested Aedes voltage-gated sodium channel mutations (I1011M/V, V1016G/I, F1534C), not any of the specified target markers for Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for Anopheles target resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field populations were collected in Bangui, Central African Republic, between June and September 2014, but they are Aedes mosquitoes, not Anopheles."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing field collections, bioassays, biochemical assays, and kdr sequencing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from six specific districts in Bangui (IPB, Sica 1, Lakouanga, Ouango, Ngongonon 3, 92 Logements)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Immature stages were collected between June and September 2014."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine original field survey in Bangui, CAR."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary information is needed; the paper is non-Anopheles."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti",
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "Central African Republic"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated larval and adult insecticide susceptibility and resistance mechanisms (biochemical assays and kdr screening) in field-caught Aedes aegypti and Aedes albopictus from Bangui, Central African Republic. It does not study Anopheles or target Anopheles resistance markers.",
+    "exclusion_reasons": [
+      "The study investigates Aedes aegypti and Aedes albopictus, not Anopheles vectors.",
+      "Target insecticide-resistance markers in Anopheles were not genotyped."
+    ]
+  }
+}

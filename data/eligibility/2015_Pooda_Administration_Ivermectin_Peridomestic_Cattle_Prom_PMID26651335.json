@@ -1,0 +1,68 @@
+{
+  "id": "2015_Pooda_Administration_Ivermectin_Peridomestic_Cattle_Prom_PMID26651335",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates Anopheles coluzzii (Page 3, 'Mosquito colony: The An. coluzzii colony hosted at the Institut de Recherche en Sciences de la Santé (IRSS), Bobo Dioulasso, Burkina Faso insectary facility was used')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR was performed for Vgsc L995F ('kdr mutation (i.e. kdr-W or L1041F)') and Ace-1 G280S ('ace1') (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Page 3 states: 'Thirty-two females were randomly chosen in the colony to characterize their physiological resistance status by PCR following [29] for the kdr mutation and for ace1 [30]. Eight females carried the mutated kdr allele, and all carried the wild alleles of the ace-1 gene.' Specific genotype counts (RR vs RS) for kdr are not provided, only stating that eight females carried the allele."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The only mosquitoes tested and genotyped were from a laboratory colony established in 2008 at IRSS: 'The An. coluzzii colony hosted at the Institut de Recherche en Sciences de la Santé (IRSS), Bobo Dioulasso, Burkina Faso insectary facility was used. This colony was established in 2008 and repeatedly replenished with F1 from wild-caught mosquito females... Thirty-two females were randomly chosen in the colony to characterize their physiological resistance status' (Page 3). No field-collected mosquitoes (F0, larvae/pupae, or direct F1 progeny) were genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original primary research article evaluating ivermectin treatment in cattle on An. coluzzii survival, reproduction, and Plasmodium transmission."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The mosquito colony origin is described as Kou Valley (11°23'14\"N, 4°24'42\"W), 30 km from Bobo-Dioulasso, Burkina Faso (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study was conducted with an insectary colony established in 2008 and continually replenished; no specific collection dates within a 3-year window are given for the genotyped mosquitoes."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine laboratory experimental study using an insectary colony."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional files 1, 2, and 3 describe mosquito survival and statistical models, and do not contain field mosquito genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 32,
+    "summary": "This study tested the mosquitocidal and fitness effects of ivermectin-treated cattle on Anopheles coluzzii. To characterize the colony, 32 females were tested for kdr (L1014F) and ace-1 mutations. The paper is ineligible because the mosquitoes genotyped were strictly from an insectary laboratory colony established in 2008, not an African field population, and clear genotype breakdowns were not provided.",
+    "exclusion_reasons": [
+      "The only genotyped mosquitoes are from an established laboratory colony (IRSS insectary colony established in 2008), failing the African field population requirement.",
+      "Does not report extractable genotype counts (RR/RS/SS) or complete allele frequencies for Vgsc L995F."
+    ]
+  }
+}

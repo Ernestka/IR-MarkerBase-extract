@@ -1,0 +1,81 @@
+{
+  "id": "2020_Djuicy_CYP6P9_Driven_Signatures_Selective_Sweep_PMID33167550",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus (Page 1, Title and Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study investigates the CYP6P9a gene, which is a target marker (Page 1, Abstract)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports population genetics metrics such as nucleotide diversity (Pi), number of haplotypes (h), and haplotype diversity (hd) for the CYP6P9a gene and surrounding loci (Table 1, Table 3). It does not provide specific genotype counts (RR/RS/SS) or allele counts/frequencies for the resistance marker at each site in an extractable format."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Mozambique, Malawi, Zambia, Tanzania, Uganda, DRC, and Cameroon (Page 2, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting new genomic analyses of Anopheles funestus populations (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites are named: Palmeira, Magania-da-Costa, Fulirwa, Kaoma, Muheza, Tulizamoyo, Ikwambi, Tororo, Kinshasa, and Lagdo (Page 2, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between 2012 and 2018 (Page 2, Section 2.1). While the overall range is 6 years, data for individual sites are typically tied to specific years or short ranges (e.g., as detailed in Table S1, though not provided here)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states that mosquitoes were collected from localities described in previous studies: 'Palmeira [20] and Magania-da-Costa in Mozambique (MOZ), Fulirwa in Malawi (MAL), Kaoma [21] in Zambia (ZB), Muheza, Tulizamoyo and Ikwambi in Tanzania (TZ) [23], Tororo [24] in Uganda (UG) and Kinshasa [25] in Democratic Republic of Congo (DRC). Further details are presented in (Table S1). Additional analyses were performed using sequencing data accessions of mosquitoes from Lagdo in Cameroon (CAM) reported in a previous study [18].' (Page 2, Section 2.1)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible due to the nature of the data reported (population genetics metrics rather than marker frequencies) and high duplicate risk; supplementary files would not resolve these issues."
+    },
+    "markers_found": [
+      "Cyp6p9a R"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Mozambique",
+      "Malawi",
+      "Zambia",
+      "Tanzania",
+      "Uganda",
+      "Democratic Republic of the Congo",
+      "Cameroon"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 111,
+    "summary": "The study investigates the selective sweep of the CYP6P9a pyrethroid resistance gene in Anopheles funestus across several African countries using amplicon sequencing and genomic analysis of the rp1 locus. While it confirms the presence and spread of the resistance-associated haplotype, it reports population genetics metrics (nucleotide diversity, haplotype diversity) rather than specific marker genotype or allele frequencies. Furthermore, the mosquito samples used are largely derived from previously published studies by the same research group.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype/allele counts or frequencies for the target markers (reports population genetics metrics like nucleotide diversity instead).",
+      "The study is a genomic analysis of selective sweeps using samples/data largely derived from or previously described in other studies (high duplicate risk)."
+    ]
+  }
+}

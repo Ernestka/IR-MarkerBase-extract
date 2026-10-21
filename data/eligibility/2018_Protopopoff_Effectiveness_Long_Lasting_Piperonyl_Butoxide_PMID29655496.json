@@ -1,0 +1,69 @@
+{
+  "id": "2018_Protopopoff_Effectiveness_Long_Lasting_Piperonyl_Butoxide_PMID29655496",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae, Anopheles arabiensis, and Anopheles funestus (p. 3, 5, 7)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc-1014F and Vgsc-1014S (Vgsc L995F and L995S) using TaqMan assay (p. 5, p. 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 9 states: 'The Vgsc gene mutation was found in all tested A gambiae with co-occurrence of Vgsc-1014F and Vgsc-1014S in 22 (9%) of 234 A gambiae mosquitoes. No mutation was found in the 247 A arabiensis tested.'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using CDC light traps from March 2015 to December 2016 across 48 clusters in Muleba district, Kagera region, Tanzania (p. 3, 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary cluster randomised controlled trial evaluating PBO LLINs and IRS (p. 1, 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Muleba district, Kagera region, northwest Tanzania (40 villages / 48 clusters) (p. 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito surveillance was conducted from March 2015 to December 2016 (p. 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "New primary data collection within a specific RCT in Muleba district, Tanzania (March 2015 to December 2016)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The appendix is only referenced for epidemiological per-protocol analyses and net use data; no indication of missing supplementary genotype tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 481,
+    "summary": "This cluster randomised controlled trial in Muleba, Tanzania evaluated the effectiveness of PBO-LLINs and pirimiphos-methyl IRS. As part of entomological monitoring, 234 An. gambiae and 247 An. arabiensis were genotyped for Vgsc-1014F and Vgsc-1014S mutations, showing co-occurrence of 1014F and 1014S in 22 (9%) of An. gambiae and 0 mutations in An. arabiensis.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2020_Bergey_Assessing_Connectivity_Despite_High_Diversity_PMID31993086",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae sensu stricto collected from the Lake Victoria Basin, Uganda (p. 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper conducts whole-genome sequencing population genetics and selective sweep scans (e.g., examining genomic regions around Cyp6p, Gste, and Cyp9k1). It explicitly notes that the Vgsc region was excluded during filtering (p. 9), and does not genotype or report specific target resistance alleles such as Vgsc L995F/S, Ace-1 G280S, GSTe2 L119F, or Cyp9k1 G454A."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts or frequencies for any specific target insecticide resistance marker are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field collections of An. gambiae s.l. were conducted across five islands in the Ssese archipelago and four mainland localities in Uganda in May-June 2015 (p. 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article sequencing and analyzing wild-caught mosquitoes from Uganda."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Localities are specified below country level in Uganda: Banda, Bukasa, Bugala, Nsadzi, Sserinya, Buwama, Kaazi, Kiyindi, Wamala (p. 2, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling took place in May and June 2015 (p. 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "New whole-genome sequencing of 116 mosquitoes collected in 2015 deposited in NCBI SRA (PRJNA493853), though integrated with reference Ag1000G data for continent-wide context."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study design and whole-genome sweep analyses do not focus on specific target resistance marker frequencies."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 116,
+    "summary": "This study uses whole-genome sequencing of 116 Anopheles gambiae s.s. from Lake Victoria islands and mainland sites in Uganda to examine population structure, demographic history, and shared selective sweeps. Specific insecticide resistance target markers were not genotyped or reported with extractable frequencies.",
+    "exclusion_reasons": [
+      "No target insecticide-resistance markers genotyped or reported.",
+      "No extractable genotype or allele frequency data for target resistance markers."
+    ]
+  }
+}

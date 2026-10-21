@@ -1,0 +1,71 @@
+{
+  "id": "2020_Amvongo-Adjia_Influence_Major_Mountainous_Landscape_Barrier_PMID33322524",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the African malaria vector Anopheles funestus (Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes the GSTe2 L119F and Rdl A296S resistance markers (Page 2, Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies are provided for four localities in the text (Page 6) and Figures 2 and 3."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in the Mount Cameroon region of Cameroon between 2010 and 2014 (Page 3, Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new field collection and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific localities: Tiko, Mutengene, Meanja, and Likoko (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Mosquitoes were collected over a five-year period from 2010 to 2014, and genotype data is aggregated across these years (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses 90 previously published sequences from other African countries for comparison (ref 20), but the data from the Mount Cameroon localities appears to be original to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype counts for the study sites are extractable from the main text on page 6."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 339,
+    "summary": "This study examines the distribution and genetic diversity of the GSTe2 L119F and Rdl A296S resistance markers in Anopheles funestus populations across an altitudinal gradient on Mount Cameroon. High frequencies of both resistance alleles were found, with GSTe2R increasing and RdlR decreasing with altitude.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "2017_Mint_Mohamed_Lemine_Mosquitoes_Diptera_Culicidae_Mauritania_Review_PMID28103955",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review covers Culicidae including Anopheles species (such as An. arabiensis, An. gambiae s.s., An. funestus, etc.) in Mauritania (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mentions kdr point mutations L1014S and L1014F and ace-1 in the literature review section on insecticide susceptibility (page 8, citing reference 47)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype frequencies or counts (RR, RS, SS) are presented; the paper only summarizes findings previously reported in the literature (e.g. Mint Lekweiry et al. 2016 [47]) without numeric counts or frequencies."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The literature discussed focuses on mosquito populations collected in Mauritania (pages 1-8)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review article: 'Mosquitoes (Diptera: Culicidae) in Mauritania: a review of their biodiversity, distribution and medical importance' (page 1, labelled 'REVIEW'). It reviews literature from 1948 to 2016 rather than reporting primary empirical data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sites and regions such as Nouakchott, Hodh Elgharbi, Tagant, etc. are cited throughout (pages 3-8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The review synthesizes data collected across decades (1948-2016) without presenting an extractable primary dataset tied to a <=3-year collection window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper is a narrative literature review."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles pharoensis",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Mauritania"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a comprehensive review of mosquito biodiversity, distribution, and vector status in Mauritania from 1948 to 2016. Because it is a review and does not present primary extractable genotype data, it is not eligible.",
+    "exclusion_reasons": [
+      "Paper is a review article rather than a primary empirical study.",
+      "No extractable genotype counts or frequencies with sample sizes are reported."
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "2014_Knox_Online_Tool_Mapping_Insecticide_Resistance_PMID24559061",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on major African malaria vectors including Anopheles gambiae s.l. and Anopheles funestus s.l. (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Discusses kdr mutations (L1014F, L1014S) and Ace-1 G119S (Ace-1R) (page 6, Figure 3; page 7, 'Resistance mechanisms')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary extractable population-level genotype counts or frequencies linked to sample sizes are provided; data are presented only as aggregated review summaries and percentages across published studies (e.g., Figure 5, page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The review covers field data collected across 54 countries in Africa (page 1, Abstract; page 3)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review and database/mapping platform introduction (IR Mapper) that compiles previously published literature and databases rather than reporting primary empirical field collections (page 1, Abstract; page 3, 'A systematic search of the published, peer-reviewed literature... was performed')."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific localities from literature are referenced and mapped within the IR Mapper tool (page 3, 'Data were extracted into Microsoft Excel 2010... locality name, GPS coordinates')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collection periods were documented down to specific collection years in the underlying review database (page 3, 'mosquito collection period')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper is an explicit consolidation/re-analysis of published literature, IRBase/ANVR, and PMI reports (page 3, 'Methods')."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional files 1-7 contain meta-summary tables of the reviewed literature, not primary field-level genotype records."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Cameroon",
+      "Cote d'Ivoire",
+      "Democratic Republic of the Congo",
+      "Kenya",
+      "Mali",
+      "Mozambique",
+      "Nigeria",
+      "Sudan",
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This publication introduces the online tool IR Mapper (www.irmapper.com) and presents a systematic review/meta-synthesis of insecticide susceptibility and resistance mechanism data published between 1954 and 2012 across Africa. Because it is a review and does not present primary empirical genotype counts or frequencies for distinct field populations, it is not eligible.",
+    "exclusion_reasons": [
+      "Study is a review and database presentation, not a primary empirical study.",
+      "Lacks extractable population-level genotype or allele counts/frequencies with sample size."
+    ]
+  }
+}

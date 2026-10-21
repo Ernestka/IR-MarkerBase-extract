@@ -1,0 +1,67 @@
+{
+  "id": "2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae complex mosquitoes (Anopheles gambiae s.s. and Anopheles coluzzii) collected in Freetown, Sierra Leone and Monrovia, Liberia (page 1, Abstract; page 2, Specimen Collection)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of Vgsc L995F (kdr / 1014F) using the Martinez-Torres et al. (1998) method (page 2, 'Molecular Studies'; page 4, Table 2 and text discussing the '1014F kdr allele')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts and percentages (RR, SS, RS) for An. coluzzii and An. gambiae s.s across five communities in Freetown (page 4, Table 2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult mosquitoes were collected indoors from households in Freetown, Sierra Leone in November–December 2009 using the pyrethrum spray catch method (pages 1-2, 'Study Sites')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research study reporting original field collections and PCR-based species and resistance marker genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Communities within Freetown, Sierra Leone: Aberdeen, Gbedembu, George Brook, Kissi (Kissy), and York (page 4, Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections in Freetown, Sierra Leone took place in November–December 2009 (page 1, 'Study Sites')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field survey conducted in 2009/2011 by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype data are provided directly in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Sierra Leone"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 182,
+    "summary": "This study surveyed Anopheles gambiae s.l. sibling species and Vgsc L995F (kdr 1014F) in Freetown, Sierra Leone, along with species composition in Monrovia, Liberia. A total of 182 An. gambiae s.l. (67 An. coluzzii and 115 An. gambiae s.s.) from 5 communities in Freetown were genotyped for L995F, revealing very high frequencies of the resistant allele.",
+    "exclusion_reasons": []
+  }
+}
