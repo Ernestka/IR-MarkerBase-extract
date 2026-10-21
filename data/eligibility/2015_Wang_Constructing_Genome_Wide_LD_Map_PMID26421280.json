@@ -1,0 +1,66 @@
+{
+  "id": "2015_Wang_Constructing_Genome_Wide_LD_Map_PMID26421280",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports the Vgsc L995S (1014S) mutation (page 5, section 2.2: 'all mosquitoes that we sequenced (n = 9) harbored the resistance allele (1014S)')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper states that all 9 sequenced mosquitoes were homozygous for the 1014S allele (page 5, section 2.2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquitoes were collected from highland areas around the Kisumu district in western Kenya (page 2, section 2.1; page 6, section 4.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving sequencing of field-collected mosquitoes (page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies 'highland areas around the Kisumu district' in Kenya (page 2, section 2.1; page 6, section 4.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper was received in 2014 and accepted in 2015, and the study describes recent collections (page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new sequencing project of 9 wild-caught mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required data (genotype of the 9 mosquitoes) is provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 9,
+    "summary": "This study sequenced the genomes of 9 wild-caught Anopheles gambiae mosquitoes from the Kisumu district, Kenya, to construct a genome-wide LD map. It identified the Vgsc L995S (1014S) mutation in all 9 sequenced individuals.",
+    "exclusion_reasons": []
+  }
+}

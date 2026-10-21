@@ -1,0 +1,69 @@
+{
+  "id": "2015_Oxborough_New_Class_Insecticide_Malaria_Vector_PMID26377930",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tests Anopheles gambiae Kisumu strain in tunnel tests (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report genotyping of any insecticide-resistance markers (e.g., kdr, ace-1, etc.). It only mentions the use of pyrethroid-resistant strains in bioassays."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data is reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses mosquito strains (e.g., Cx. quinquefasciatus Muheza) originally collected in the field in Tanzania and Benin (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating indoxacarb-treated nets."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study mentions specific locations: Moshi and Muheza, Tanzania, and Cotonou, Benin (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted in 2015 (publication year) and describes recent experimental work."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary experimental study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or supplement."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Tanzania",
+      "Benin"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of indoxacarb-treated mosquito nets against Anopheles gambiae and Culex quinquefasciatus using tunnel tests and ball-frame bioassays. It does not perform any genotyping of insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report genotyping of any insecticide-resistance markers.",
+      "reports_extractable_genotype_data: No genotype data is reported."
+    ]
+  }
+}

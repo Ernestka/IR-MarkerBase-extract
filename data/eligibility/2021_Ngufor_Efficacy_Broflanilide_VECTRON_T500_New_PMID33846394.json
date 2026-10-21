@@ -1,0 +1,70 @@
+{
+  "id": "2021_Ngufor_Efficacy_Broflanilide_VECTRON_T500_New_PMID33846394",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated Anopheles gambiae s.l. (An. coluzzii and An. gambiae s.s.) and Anopheles ziemanni in laboratory and experimental hut trials in Benin (p. 4-5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study mentions kdr L1014F allele frequency in the Covè population but explicitly cites previous literature for this (reference 23, Ngufor et al. 2015, p. 4). No target resistance markers were genotyped in this study; only species identification by SINE PCR was performed."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or genotype frequencies for resistance markers were generated or reported in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild free-flying mosquitoes were collected in experimental huts in Covè, southern Benin (p. 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating broflanilide WP for indoor residual spraying in laboratory bioassays and experimental huts."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Experimental hut station in Covè, southern Benin (7°14'N 2°18'E) (p. 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Experimental hut trial ran for 6 months from September 2018 to March 2019 (p. 11)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary experimental hut evaluation trial conducted in Covè, Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files exist for bottle bioassays (Table S1), but the paper does not report target resistance marker genotyping data anywhere."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles ziemanni"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper evaluates the efficacy and residual activity of broflanilide (VECTRON T500 WP) for indoor residual spraying (IRS) against pyrethroid-resistant Anopheles gambiae s.l. and Anopheles ziemanni in laboratory bioassays and experimental hut trials in Covè, Benin. The paper does not report target insecticide resistance marker genotyping data, as it only cites historical kdr frequency from prior literature and performs species identification.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide resistance markers (cites previous literature for kdr frequency).",
+      "Does not report extractable genotype data for target resistance markers."
+    ]
+  }
+}

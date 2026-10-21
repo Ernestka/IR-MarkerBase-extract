@@ -1,0 +1,65 @@
+{
+  "id": "2013_Nardini_DDT_Pyrethroid_Resistance_Anopheles_Arabiensis_PMID23924547",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports on gene expression (transcriptomics) and microarray data, not genotype frequencies of insecticide resistance markers (SNPs, CNVs, or SVs)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts or frequencies for resistance markers; it focuses on gene expression levels."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The laboratory strains (KWAG-perm, MBN-DDT) were derived from field-collected mosquitoes in Mamfene, KwaZulu-Natal, South Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using microarray and qPCR analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the origin of the strains as Mamfene, KwaZulu-Natal, South Africa."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study uses established laboratory strains with known collection/colonization histories."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it is a follow-up study using the same strains as Nardini et al. (2012) and Munhenga and Koekemoer (2011)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data, so no supplementary genotype data is needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "South Africa"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses microarray and qPCR to analyze gene expression profiles in laboratory-selected pyrethroid-resistant Anopheles arabiensis strains from South Africa. It does not report genotype frequencies for insecticide resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report genotype data for any of the specified insecticide resistance markers.",
+      "reports_extractable_genotype_data: The paper does not report genotype counts or frequencies."
+    ]
+  }
+}

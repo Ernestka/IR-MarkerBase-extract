@@ -1,0 +1,69 @@
+{
+  "id": "2016_Chanda_Operational_Framework_Insecticide_Resistance_Manag_PMID27089119",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Discusses malaria vectors in Zambia, including Anopheles gambiae and Anopheles funestus (e.g., page 775, Objective 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mentions Vgsc L1014F (page 775: 'target site mutation kdr (knockdown resistance) L1014F')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or sample sizes are presented. The paper only briefly mentions kdr L1014F in text as summary context citing prior publications (refs 17, 22)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Discusses field mosquito populations across Zambia (e.g., page 774-776)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a 'PERSPECTIVE' article describing the policy formulation and operational framework of Zambia's Insecticide Resistance Management Technical Working Group, citing previously published entomological data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions specific provinces in Zambia such as Copperbelt, Northern, Muchinga, Luapula, and Eastern provinces (page 776)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The policy perspective covers the broad period 2009–2014 without presenting specific primary collection windows linked to extractable genotype data."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a perspective/policy overview paper with no new genotype data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files with genotype counts are referenced or missing."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Zambia"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a Perspective article describing the operational framework, policy creation, and multi-sectoral technical working group for insecticide resistance management planning in Zambia between 2009 and 2014. It contains no primary extractable genotype data.",
+    "exclusion_reasons": [
+      "not_primary_study",
+      "no_extractable_genotype_data"
+    ]
+  }
+}

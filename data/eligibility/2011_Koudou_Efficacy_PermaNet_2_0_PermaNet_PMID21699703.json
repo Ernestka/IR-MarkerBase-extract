@@ -1,0 +1,67 @@
+{
+  "id": "2011_Koudou_Efficacy_PermaNet_2_0_PermaNet_PMID21699703",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. and other Anopheles species."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions 'high kdr frequencies (94%)' in the background (page 2), but it does not report genotype counts or frequencies for specific markers in the current study; it refers to previous studies for this information."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are provided for the mosquitoes collected in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Yaokoffikro, Côte d’Ivoire."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Yaokoffikro, near Bouaké, Côte d’Ivoire."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial lasted 12 weeks from April to July 2009."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a standard experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Côte d’Ivoire"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 7291,
+    "summary": "This study evaluates the efficacy of PermaNet 2.0 and 3.0 in experimental huts in Côte d’Ivoire. While it mentions high kdr frequencies in the study area, it does not provide primary genotype data for the mosquitoes collected.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

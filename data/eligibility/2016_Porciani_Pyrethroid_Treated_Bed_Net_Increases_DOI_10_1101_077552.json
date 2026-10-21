@@ -1,0 +1,65 @@
+{
+  "id": "2016_Porciani_Pyrethroid_Treated_Bed_Net_Increases_DOI_10_1101_077552",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tested laboratory strains of Anopheles gambiae sensu stricto (page 5, line 92)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper uses strains characterized for the Vgsc L1014F (kdr-west) marker (page 4, line 81; page 5, lines 95-101)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No field-collected mosquito populations were genotyped to report genotype/allele counts or frequencies; predefined laboratory colony lines (homozygous SS, homozygous RR, and heterozygous RS) were used for behavioral testing (page 5, lines 92-101)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Only laboratory reference colonies and their crosses were tested (Kisumu and the introgressed kdr-kis strain, page 5, lines 92-101). No African field populations (F0 or F1) were collected or genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary experimental study assessing mosquito behavior in a dual-choice olfactometer."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field mosquito collections were performed."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates exist because only laboratory strains were tested."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard laboratory-based behavioral study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study does not include field surveillance data or field sample genotyping in supplements."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study tested the behavioral response and host attractiveness of Anopheles gambiae s.s. females towards a rabbit host behind permethrin-treated vs untreated nets in a dual-choice olfactometer. The study exclusively used laboratory strains (Kisumu, kdr-kis, and F1 RS crosses) of known kdr genotype, with no field collections or field population genotyping.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

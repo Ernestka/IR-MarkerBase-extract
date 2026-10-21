@@ -1,0 +1,70 @@
+{
+  "id": "2022_Lacroux_Repellent_Activity_Against_Anopheles_Gambiae_PMID36163024",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses the mosquito Anopheles gambiae for bioassays."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report genotyping of any insecticide-resistance markers. It mentions that the Kisumu strain used in bioassays has its kdr and ace.1R mutations controlled by PCR, but it does not report the actual genotype data or frequencies for these markers in the study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (counts or frequencies) for insecticide-resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes used in the bioassays are from the laboratory-reared susceptible reference strain 'Kisumu'."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the repellent properties of tree essential oils."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study is located in the Sebitoli area of Kibale National Park, Uganda."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study analyzed nesting tree data from June 2017 to June 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes original data collection regarding chimpanzee nesting trees and bioassays."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper provides the necessary information in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates whether chimpanzees in the Sebitoli community of Kibale National Park, Uganda, select nesting trees based on their repellent properties against mosquitoes. The authors performed behavioral bioassays (spatial repellent, contact irritancy, and toxicity) using essential oils from nesting and abundant tree species against the laboratory-reared susceptible Anopheles gambiae Kisumu strain. The paper does not report any field-collected mosquito genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers: No insecticide-resistance marker genotype data reported.",
+      "reports_extractable_genotype_data: No genotype data reported.",
+      "african_field_population: The mosquitoes used were a laboratory strain (Kisumu), not field-collected populations."
+    ]
+  }
+}

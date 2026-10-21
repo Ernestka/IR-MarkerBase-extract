@@ -1,0 +1,70 @@
+{
+  "id": "2009_Ranson_Insecticide_Resistance_Anopheles_Gambiae_Data_PMID20015411",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae sensu lato (including An. gambiae s.s. M and S molecular forms, and An. arabiensis) collected across Burkina Faso, Chad, and Sudan (page 1, 4-5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study conducts WHO tube bioassays and species/molecular form identification by PCR-RFLP (Fanello et al.), but does not genotype any insecticide resistance target-site markers (such as Vgsc kdr or Ace-1); kdr and ace-1 are only referenced from previous literature in the discussion."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotype or allele data are reported; only species/form identification frequencies and bioassay mortality percentages are presented."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-collected larvae reared to adults from 12 sentinel sites across Burkina Faso, Chad, and Sudan in 2008-2009 (pages 3-4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Presents primary empirical bioassay data from year one of the WHO/TDR multi-country network (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific sentinel sites with geographic coordinates are provided: Kuinima, Soumousso, Koupela, and Goundry in Burkina Faso; N'Djamena, Donia, Bongor, and Mandelia in Chad; Wad Medani, El Managil, Wad El Hadad, and Rofaa in Sudan (pages 3-4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred across two rounds between July 2008 and January 2009 (pages 3-4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Primary reporting of the 2008-2009 sentinel site bioassay surveillance network funded by WHO/TDR."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are indicated as containing missing resistance marker genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Chad",
+      "Sudan"
+    ],
+    "collection_years": [
+      2008,
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study reports WHO susceptibility tube bioassay results and Anopheles gambiae complex species/form identification from 12 sentinel sites in Burkina Faso, Chad, and Sudan sampled between 2008 and 2009. No target insecticide resistance markers (such as kdr or ace-1) were genotyped.",
+    "exclusion_reasons": [
+      "Does not genotype any of the target insecticide resistance markers (bioassays and species identification only)."
+    ]
+  }
+}

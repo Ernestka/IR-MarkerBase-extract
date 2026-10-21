@@ -1,0 +1,67 @@
+{
+  "id": "2019_Mavridis_Rapid_Multiplex_Gene_Expression_Assays_PMID30612581",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae (s.l.)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports gene expression levels (metabolic resistance), not target-site resistance markers (genotypes)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts or frequencies for insecticide resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study includes field-caught mosquitoes from Bioko Island, Equatorial Guinea."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study developing and validating new qPCR assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies field-caught populations from the Ela Nguema district of Malabo in Bioko."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2019 and the field samples were recently characterized (referenced as [10], which is Vontas et al. 2018)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses field samples previously characterized in Vontas et al. 2018, but this is a new methodological validation study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data for the study's conclusions are provided in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper describes the development and validation of multiplex TaqMan qPCR assays for measuring the expression levels of detoxification genes (metabolic resistance) in Anopheles gambiae. It does not genotype insecticide resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

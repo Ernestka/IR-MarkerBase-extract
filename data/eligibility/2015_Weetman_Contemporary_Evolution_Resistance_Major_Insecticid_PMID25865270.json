@@ -1,0 +1,72 @@
+{
+  "id": "2015_Weetman_Contemporary_Evolution_Resistance_Major_Insecticid_PMID25865270",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae and Anopheles coluzzii (page 1, 3, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Ace-1 G119S (page 1, 3) and Ace-1 CNV (page 1, 5, 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 8) provides genotype counts for Ace-1 G119S in Anopheles gambiae and Anopheles coluzzii."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Accra, Ghana (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection, genotyping, and sequencing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were made in specific suburbs of Accra, Ghana, including Dzorwulu, Madina, Labadi, and Roman Ridge (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study analyzes samples collected in 2002, 2007, 2008, 2010, and 2011 (page 3, 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions using archived samples from previous studies (Yawson et al. 2004; Lynd et al. 2010; Essandoh et al. 2013) but reports new genotyping and sequencing data for these samples."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype counts are provided in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Ace-1 G280S",
+      "Ace-1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2002,
+      2007,
+      2008,
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 753,
+    "summary": "This study investigates the genomic signatures of selection around the Ace-1 gene in Anopheles gambiae and Anopheles coluzzii from Accra, Ghana. It confirms the strong association of the Ace-1 G119S mutation with insecticide resistance and identifies a large copy number variant (CNV) associated with the resistant allele, which complicates the detection of selective sweeps.",
+    "exclusion_reasons": []
+  }
+}
