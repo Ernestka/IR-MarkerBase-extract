@@ -1,0 +1,72 @@
+{
+  "id": "2022_Tchouakui_Comparative_Study_Effect_Solvents_Efficacy_DOI_10_21203_rs_3_rs-1197098_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 3, 5, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (referred to as L1014F-kdr) and GSTe2 L119F (referred to as I114T-GSTe2) (page 6, 8, 14)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 and Table 2 provide genotype counts (RR, RS, SS) for alive and dead mosquitoes (page 14)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Cameroon, DRC, Ghana, and Uganda (page 3, 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collections and laboratory bioassays/genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific locations are provided: Njombe-Penja, Nkolondom, Mangoum (Cameroon), Ndjili-Brasserie (DRC), Obuasi (Ghana), and Mayuge (Uganda) (page 3, 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from May to July 2021 (page 3, 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections from 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in the main text tables (Table 1 and Table 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Cameroon",
+      "Democratic Republic of the Congo",
+      "Ghana",
+      "Uganda"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 59,
+    "summary": "This study evaluated the susceptibility of Anopheles gambiae s.l. populations from four African countries to neonicotinoids using different solvents. It also investigated the association between pyrethroid resistance markers (L1014F-kdr and I114T-GSTe2) and survival after clothianidin exposure, finding a negative association for kdr and a positive association for GSTe2.",
+    "exclusion_reasons": []
+  }
+}

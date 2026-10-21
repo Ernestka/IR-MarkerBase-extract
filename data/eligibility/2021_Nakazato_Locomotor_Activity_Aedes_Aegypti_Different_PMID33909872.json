@@ -1,0 +1,70 @@
+{
+  "id": "2021_Nakazato_Locomotor_Activity_Aedes_Aegypti_Different_PMID33909872",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report genotype data for any of the specified insecticide-resistance markers; it only discusses previously published resistance data in the introduction and discussion."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported for the mosquitoes used in this study."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses Aedes aegypti populations from Brazil, which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating locomotor activity."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies municipalities in São Paulo state, Brazil (Campinas, Marília, Santos, Ribeirão Preto)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports data for 2016 and 2017."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new experimental data on locomotor activity."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data for the study's conclusions are provided in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Brazil"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 689,
+    "summary": "This study evaluates the locomotor activity of four field populations of Aedes aegypti from São Paulo, Brazil, compared to the Rockefeller strain. It does not genotype insecticide-resistance markers, nor does it study Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2014_Chang_Multiple_Resistances_Complex_Mechanisms_Anopheles_PMID24852174",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles sinensis, a malaria vector."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports Vgsc L1014F/C (kdr) and Ace-1 G119S mutations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 and Table 2 provide genotype counts and frequencies for kdr and ace-1 mutations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study populations are from China (Anhui and Yunnan provinces), which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study collecting and testing field mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations as Yingjiang and Lianghe Counties (Yunnan) and suburbs of Bengbu City (Anhui)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during May–August 2012."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections in 2012."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1103,
+    "summary": "This study examines insecticide resistance in Anopheles sinensis populations from China. It reports on kdr and ace-1 mutations and metabolic enzyme activities, finding high resistance to multiple insecticide classes. The study is excluded because it does not involve African field populations.",
+    "exclusion_reasons": [
+      "african_field_population"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2021_Snetselaar_Efficacy_Indoor_Residual_Spraying_Broflanilide_PMID33657179",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates insecticide efficacy against Anopheles arabiensis and Anopheles gambiae s.s. (page 3, 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the Vgsc L995S (kdr-east) mutation (page 5, 12)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 12 states: 'In the first hut trial 87 mosquitoes were analysed... 85 mosquitoes were homozygous susceptible (SSe) and 2 mosquitoes did not amplify. For the second hut trial 100 mosquitoes were analysed... 99/100 were homozygous kdr susceptible'."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses wild, free-flying mosquitoes collected in the Harusini field station, Moshi, Tanzania (page 3, 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial conducted by the authors (page 1, 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Harusini field station, Moshi rural district, Kilimanjaro region, Tanzania (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trials were conducted between September 2017 and February 2019 (page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a specific experimental hut trial evaluating a new insecticide formulation (broflanilide) and is not part of a larger surveillance network dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts, are provided in the main text (page 12)."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 187,
+    "summary": "This study evaluated the efficacy of broflanilide (TENEBENAL) in experimental huts in Moshi, Tanzania. It included cone assays with insectary-reared strains and collections of wild Anopheles arabiensis. Genotyping for the kdr-east (L1014S) mutation was performed on a subset of the wild-caught mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

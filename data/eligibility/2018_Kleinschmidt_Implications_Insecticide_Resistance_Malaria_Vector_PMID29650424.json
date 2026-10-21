@@ -1,0 +1,77 @@
+{
+  "id": "2018_Kleinschmidt_Implications_Insecticide_Resistance_Malaria_Vector_PMID29650424",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu lato, Anopheles arabiensis, and Anopheles culicifacies."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports phenotypic insecticide resistance using WHO bioassays (mortality rates) but does not report any genotypic data for the specified insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (RR/RS/SS counts or frequencies) are reported in the paper or tables."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study includes field-collected mosquitoes from Benin, Cameroon, Kenya, and Sudan."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary prospective observational cohort study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 provides sub-country locations (e.g., Districts of Ifangni, Sakété, Pobé, and Kétou in Benin)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers the period from 2012 to 2016, with data linked to specific years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a large, multi-country WHO-coordinated study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not contain genotype data, and none is expected in the supplement based on the study design described."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae sensu lato",
+      "Anopheles arabiensis",
+      "Anopheles culicifacies"
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon",
+      "Kenya",
+      "Sudan",
+      "India"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 64174,
+    "summary": "This study investigated the association between pyrethroid resistance (measured by WHO bioassay mortality) and the effectiveness of long-lasting insecticidal nets (LLINs) on malaria incidence and prevalence in 279 clusters across five countries. It found no evidence that the protective effect of LLINs differed by the frequency of resistance as measured by bioassays.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

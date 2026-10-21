@@ -1,0 +1,69 @@
+{
+  "id": "2016_Dhiman_Evaluation_Insecticides_Susceptibility_Malaria_Vec_PMID27010649",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles annularis s.l. and Anopheles vagus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not genotype any of the listed insecticide-resistance markers. It only performs phenotypic insecticide susceptibility bioassays (WHO tube tests) and Plasmodium sporozoite detection."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (RR/RS/SS or allele frequencies) is reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Assam, India, which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies sentinel sites in Orang primary health centre (OPHC) and Balipara primary health centre (BPHC) areas in Assam, India."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from March 2013 to August 2013."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new field collections from 2013."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles annularis s.l.",
+      "Anopheles vagus"
+    ],
+    "countries": [
+      "India"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 3564,
+    "summary": "This study evaluates the insecticide susceptibility and malaria vector potential of Anopheles annularis s.l. and Anopheles vagus in Assam, India. It uses WHO tube tests for phenotypic resistance and VectorTest assays for sporozoite detection. It does not perform any molecular genotyping of resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: No resistance markers genotyped.",
+      "reports_extractable_genotype_data: No genotype data reported.",
+      "african_field_population: Study conducted in India, not Africa."
+    ]
+  }
+}

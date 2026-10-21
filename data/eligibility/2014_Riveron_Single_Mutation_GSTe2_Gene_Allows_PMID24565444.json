@@ -1,0 +1,78 @@
+{
+  "id": "2014_Riveron_Single_Mutation_GSTe2_Gene_Allows_PMID24565444",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles funestus, a major malaria vector."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports the GSTe2 L119F mutation (also referred to as L119F in the text)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype counts for the L119F mutation in Table 3 and Figure 3A/B, including sample sizes (e.g., 35 susceptible and 35 resistant mosquitoes from Gounougou, Cameroon)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected mosquitoes from Benin, Cameroon, Ghana, Burkina Faso, Uganda, Kenya, Malawi, Zambia, and Mozambique."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving field collections, genotyping, and functional validation."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides specific locations such as Pahou (Benin), Kpome (Benin), and Gounougou (Cameroon)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper specifies collection years for various populations, such as 2010-2011 for Pahou and 2006 for Gounougou."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analyses."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in the main text and figures."
+    },
+    "markers_found": [
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon",
+      "Ghana",
+      "Burkina Faso",
+      "Uganda",
+      "Kenya",
+      "Malawi",
+      "Zambia",
+      "Mozambique"
+    ],
+    "collection_years": [
+      2006,
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 70,
+    "summary": "This study identifies the L119F mutation in the GSTe2 gene of Anopheles funestus as a key marker for metabolic resistance to DDT. The study uses field-collected mosquitoes from nine African countries to correlate the L119F genotype with DDT resistance phenotypes and provides functional validation through transgenic Drosophila and enzyme kinetics.",
+    "exclusion_reasons": []
+  }
+}

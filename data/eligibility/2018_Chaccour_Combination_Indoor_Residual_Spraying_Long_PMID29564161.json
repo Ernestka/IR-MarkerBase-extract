@@ -1,0 +1,70 @@
+{
+  "id": "2018_Chaccour_Combination_Indoor_Residual_Spraying_Long_PMID29564161",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae s.s., A. funestus s.s., and A. arabiensis as the primary malaria vectors in Mopeia District (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a study protocol. It mentions that 'Molecular testing will be done to determine kdr mutation frequencies in each cluster' (page 6), but it does not report any actual genotype data."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a protocol and does not contain any genotype counts or frequencies."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study is conducted in Mopeia District, Zambezia Province, Mozambique (page 1, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study protocol for a cluster randomised trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study is located in Mopeia District, Zambezia Province, Mozambique (page 1, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study protocol outlines a timeline for 2016-2018 (page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new cluster randomised trial protocol."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a protocol and does not contain the results data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles funestus s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Mozambique"
+    ],
+    "collection_years": [
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a study protocol for a cluster randomised trial in Mopeia, Mozambique, evaluating the impact of adding IRS (Actellic 300 CS) to LLINs. It mentions that entomological surveillance, including kdr mutation monitoring, will be conducted, but no genotype data is reported in this protocol document.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

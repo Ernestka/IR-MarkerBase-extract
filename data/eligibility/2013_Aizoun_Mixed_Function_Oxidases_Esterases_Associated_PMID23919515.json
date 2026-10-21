@@ -1,0 +1,67 @@
+{
+  "id": "2013_Aizoun_Mixed_Function_Oxidases_Esterases_Associated_PMID23919515",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports bioassay results and synergist assays but does not report any genotype data for insecticide-resistance markers (e.g., kdr, ace-1). It mentions kdr in the discussion as a reference to other studies (e.g., Padonou et al. [20]), but does not generate or report its own marker data."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (RR/RS/SS counts or frequencies) are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from breeding sites in Benin (Oueme, Atacora, and Alibori provinces)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting CDC bottle bioassays on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations: Agbalilame (Seme district), Tanguieta district, and Kandi district (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 2012 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and bioassays performed in 2012."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant bioassay data are presented in the main text tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the susceptibility of Anopheles gambiae s.l. populations from Benin to permethrin, deltamethrin, and bendiocarb using CDC bottle bioassays and synergists (PBO and DEF). It does not perform or report any molecular genotyping of resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report any genotype data for insecticide-resistance markers.",
+      "reports_extractable_genotype_data: No genotype data are reported."
+    ]
+  }
+}

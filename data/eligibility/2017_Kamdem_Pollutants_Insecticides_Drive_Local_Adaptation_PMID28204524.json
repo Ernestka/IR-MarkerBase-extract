@@ -1,0 +1,74 @@
+{
+  "id": "2017_Kamdem_Pollutants_Insecticides_Drive_Local_Adaptation_PMID28204524",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the Anopheles gambiae complex, specifically An. coluzzii, An. gambiae s.s., An. arabiensis, and An. melas (page 1, 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "While the study identifies selective sweeps at the Vgsc (kdr) and Rdl loci using ddRADseq, it does not explicitly genotype the specific target SNPs (e.g., L995F, A296G) or report data for them. It mentions their presence and high frequency qualitatively (page 6, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype or allele counts/frequencies for the target resistance markers. It reports haplotype frequencies for RADseq-derived SNPs (e.g., 44 out of 80 chromosomes for a specific haplotype in Yaoundé, page 7), but these are not the target markers listed in the schema."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 33 locations across four ecogeographic regions in Cameroon (page 11)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using ddRADseq to analyze mosquito populations (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to 33 specific locations in Cameroon, including Yaoundé, Douala, and Nkolondom (page 11, Supplementary Table S1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were performed from August to November 2013 (page 11)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study presents original ddRADseq data from new collections in 2013."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary materials are mentioned (e.g., Table S1 for sites, Table S3 for diversity), but based on the methodology (ddRADseq), they are unlikely to contain the specific target marker genotypes required."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Rdl A296G"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 941,
+    "summary": "This study uses ddRADseq to investigate population structure and selective sweeps in Anopheles gambiae s.l. from Cameroon. It identifies strong signatures of selection at the Vgsc (kdr), Rdl, and GSTE/CYP450 loci, particularly in urban populations. However, it does not report specific genotype or allele frequencies for the target resistance markers, focusing instead on genome-wide scans and haplotype analysis of RADseq-derived SNPs.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data (counts or frequencies with sample size) for the specific target insecticide resistance markers.",
+      "Does not specifically genotype the target SNPs; instead, it identifies selective sweeps in the genomic regions containing these markers using ddRADseq."
+    ]
+  }
+}

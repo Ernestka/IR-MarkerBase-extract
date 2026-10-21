@@ -1,0 +1,69 @@
+{
+  "id": "2018_Djenontin_Field_Efficacy_New_Deltamethrin_Long_PMID30068334",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of LifeNet against wild Anopheles gambiae s.l. (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the occurrence of kdr mutation (1014F) in the study area (page 2), but it does not report any new genotype data for this or any other marker in the mosquitoes collected for this specific study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype counts or frequencies for the mosquitoes collected in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Malanville, Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial evaluating a new LLIN."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Malanville, a District of northern Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The evaluation was run between the 28th November 2010 and the 1st April 2011 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a specific experimental hut trial for a new product (LifeNet)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or its supplements."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of a new deltamethrin-treated LLIN (LifeNet) in experimental huts in Malanville, Benin. While it mentions the presence of kdr resistance in the study area, it does not report any genotype data for the mosquitoes collected during the trial.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}
