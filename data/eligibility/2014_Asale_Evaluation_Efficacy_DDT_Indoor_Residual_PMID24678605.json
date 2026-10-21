@@ -1,0 +1,67 @@
+{
+  "id": "2014_Asale_Evaluation_Efficacy_DDT_Indoor_Residual_PMID24678605",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report any new genotype data for insecticide resistance markers. It only mentions previous studies that reported kdr mutations (e.g., page 2, 'The West African kdr (L1014F) mutation was also reported in populations of An. arabiensis from the different parts of the country with an allelic frequency of 95–100% [23-25]')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported for the mosquitoes collected in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in the Gilgel-Gibe hydropower dam area, southwestern Ethiopia."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating the efficacy of DDT IRS and LLINs using experimental huts."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted around Osso Bille village, Asendabo, southwestern Ethiopia."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from August to November 2011."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data, so no supplementary data is needed for this purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of DDT IRS and LLINs (PermaNet 2.0) against Anopheles arabiensis in experimental huts in southwestern Ethiopia. While it reports bioassay mortality rates for various insecticides, it does not perform or report any new genotyping of insecticide resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

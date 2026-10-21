@@ -1,0 +1,84 @@
+{
+  "id": "2010_Syafruddin_Detection_1014F_Kdr_Mutation_Four_PMID21054903",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on various Anopheles species collected in Indonesia."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the Vgsc L1014F (kdr-west) mutation."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype frequencies (L/L, L/F, F/F) and allele frequencies for multiple Anopheles species."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Indonesia, which is in Southeast Asia, not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collection and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations: Purworejo (Central Java), South Lampung District (Sumatera), and South Halmahera District (North Mollucca)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection period is stated as November 2008-October 2009."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new, integrated mosquito survey conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles sundaicus",
+      "Anopheles vagus",
+      "Anopheles subpictus",
+      "Anopheles indefinitus",
+      "Anopheles tessellatus",
+      "Anopheles aconitus",
+      "Anopheles minimus",
+      "Anopheles kochi",
+      "Anopheles annularis",
+      "Anopheles barbirostris",
+      "Anopheles flavirostris",
+      "Anopheles balabacensis",
+      "Anopheles maculatus",
+      "Anopheles punctulatus",
+      "Anopheles barbumrosus",
+      "Anopheles farauti"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "collection_years": [
+      2008,
+      2009
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 95,
+    "summary": "This study investigated the presence of the Vgsc L1014F (kdr-west) mutation in 16 Anopheles species collected from three sites in Indonesia (Purworejo, South Lampung, and South Halmahera) between 2008 and 2009. The mutation was detected only in South Lampung in four species: An. sundaicus, An. aconitus, An. subpictus, and An. vagus.",
+    "exclusion_reasons": [
+      "The study was conducted in Indonesia (Asia), not in an African country."
+    ]
+  }
+}

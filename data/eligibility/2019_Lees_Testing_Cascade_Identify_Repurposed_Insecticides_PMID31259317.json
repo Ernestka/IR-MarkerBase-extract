@@ -1,0 +1,64 @@
+{
+  "id": "2019_Lees_Testing_Cascade_Identify_Repurposed_Insecticides_PMID31259317",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "All tests were carried out using 2-5-day-old non-blood-fed female mosquitoes of the insecticide-susceptible Kisumu strain of Anopheles gambiae s.s. reared in the Liverpool Insect Testing Establishment (LITE) insectaries at the Liverpool School of Tropical Medicine (LSTM) (page 4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study is a laboratory bioassay evaluation of repurposed agricultural and veterinary insecticides on the susceptible Kisumu laboratory colony; no genetic markers or molecular assays were performed."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotyping was performed, and no genotype or allele counts/frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All mosquitoes tested were from the laboratory-maintained Kisumu colony of Anopheles gambiae s.s. reared at LSTM (page 4). No field-collected mosquitoes or progeny thereof were tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper presents primary experimental laboratory bioassay screening data for 40 chemical compounds."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collections were undertaken."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field mosquito collection dates exist."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates a screening cascade of 40 repurposed agrochemical and animal health insecticides using topical application, tarsal contact, and modified CDC bottle bioassays against the laboratory-reared insecticide-susceptible Kisumu strain of Anopheles gambiae s.s. No field mosquitoes were tested and no resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "Does not report any target resistance markers",
+      "Does not report extractable genotype data",
+      "Does not test an African field population (only laboratory colony Kisumu strain)"
+    ]
+  }
+}

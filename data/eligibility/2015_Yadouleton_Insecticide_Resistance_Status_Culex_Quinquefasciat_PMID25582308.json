@@ -1,0 +1,67 @@
+{
+  "id": "2015_Yadouleton_Insecticide_Resistance_Status_Culex_Quinquefasciat_PMID25582308",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper explicitly states in the title and throughout the text that it studies Culex quinquefasciatus, not Anopheles."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports kdr and ace-1 mutations in Culex quinquefasciatus, which are not among the specified Anopheles-specific markers listed in the instructions."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (SS, RS, RR) for kdr and ace-1 mutations for four populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study collected Culex quinquefasciatus from four localities in Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies four localities: Kandi, Houeyiho, Banikoara, and Natitingou."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from January to December 2013."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study appears to be a routine field collection."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 400,
+    "summary": "This study assesses insecticide resistance in Culex quinquefasciatus populations in Benin. It is ineligible because it does not study Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers"
+    ]
+  }
+}

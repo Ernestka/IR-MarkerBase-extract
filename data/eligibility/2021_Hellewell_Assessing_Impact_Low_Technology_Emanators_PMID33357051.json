@@ -1,0 +1,62 @@
+{
+  "id": "2021_Hellewell_Assessing_Impact_Low_Technology_Emanators_PMID33357051",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles malaria vectors."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a mathematical modelling study and does not report any primary genotype data for insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any genotype counts or frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a modelling study and does not contain primary field-collected mosquito genotype data."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical modelling study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No specific field data collection locations are reported for genotype data."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No genotype data collection window is reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a modelling paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a mathematical modelling paper assessing the impact of low-technology emanators alongside LLINs. It does not report any primary insecticide-resistance marker genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

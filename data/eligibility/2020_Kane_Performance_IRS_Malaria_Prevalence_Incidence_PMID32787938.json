@@ -1,0 +1,67 @@
+{
+  "id": "2020_Kane_Performance_IRS_Malaria_Prevalence_Incidence_PMID32787938",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper mentions Anopheles gambiae sensu lato as the major malaria vector in the study sites (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports phenotypic resistance data (Table 1, page 3) but does not report any genotype data for the specified insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (counts or frequencies) for resistance markers are provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in the Koulikoro and Banamba health districts of Mali (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study assessing the impact of IRS on malaria prevalence and incidence."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies villages: Koula, Karadié, Kolondialan, and N’Galamadibi (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted in 2016 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study appears to be a primary field investigation."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not contain genotype data, and no supplementary file was provided to suggest it exists elsewhere."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae sensu lato"
+    ],
+    "countries": [
+      "Mali"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the impact of pirimiphos-methyl based IRS on malaria prevalence and incidence in children in Mali. While it mentions phenotypic resistance to pyrethroids, it does not perform or report any molecular genotyping of insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

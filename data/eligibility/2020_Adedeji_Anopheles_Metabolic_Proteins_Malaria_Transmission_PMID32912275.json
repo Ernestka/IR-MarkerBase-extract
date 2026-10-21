@@ -1,0 +1,85 @@
+{
+  "id": "2020_Adedeji_Anopheles_Metabolic_Proteins_Malaria_Transmission_PMID32912275",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper is a review of Anopheles metabolic proteins and their role in malaria transmission and control."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper discusses various insecticide resistance markers such as Vgsc L995F/S (kdr), Ace-1 G280S (G119S), and GSTe2 L119F."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a review paper and does not report primary empirical genotype counts or frequencies for any specific field population."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review article and does not present primary data from field-collected mosquitoes."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a review article."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as it is a review."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as it is a review."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable as it is a review."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Ace-1 DUP",
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Cyp6p9b R",
+      "Cyp6aa1 DUP",
+      "Cyp9k1 G454A",
+      "Ace-1 N485I",
+      "Cyp4j5 L43F",
+      "Cyp6p4 I236M",
+      "Cyp6p4 ZZB-TE"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles stephensi",
+      "Anopheles albimanus",
+      "Anopheles sinensis",
+      "Anopheles dirus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article summarizing the role of Anopheles metabolic proteins in malaria transmission and control, including their roles in insecticide resistance. It does not report primary empirical data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

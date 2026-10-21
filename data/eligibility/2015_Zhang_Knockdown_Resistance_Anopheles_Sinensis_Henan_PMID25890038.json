@@ -1,0 +1,69 @@
+{
+  "id": "2015_Zhang_Knockdown_Resistance_Anopheles_Sinensis_Henan_PMID25890038",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles sinensis, Anopheles yatsushiroensis, and Anopheles lesteri."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports mutations at codon 1014 (L1014F and L1014C) in the para-type sodium channel gene (VGSC)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides the number of mosquitoes with specific genotypes (L1014 TTG, L1014C TGT, L1014F TTT+TTC) for each county."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Henan province, China, which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study collecting and analyzing mosquitoes from Henan province."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for specific counties: Kaifeng, Tongbai, Tanghe, Pingqiao, Shihe, and Yongcheng."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The mosquitoes were collected in August 2013."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of mosquitoes in 2013."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995C"
+    ],
+    "species": [
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 125,
+    "summary": "This study investigated kdr mutations in Anopheles sinensis populations collected from six counties in Henan province, China, in 2013. It found high frequencies of L1014F and L1014C mutations in the VGSC gene.",
+    "exclusion_reasons": [
+      "The study was conducted in China, not in an African country."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2015_Toe_Recent_Escalation_Strength_Pyrethroid_Resistance_PMID25766412",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-21",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii (formerly An. gambiae M molecular form) in Burkina Faso."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F), Vgsc L995S (L1014S), and Vgsc N1570Y (N1575Y)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides allele counts (L, F, N, Y) and frequencies for 1014F and 1575Y in multiple populations and time points."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Vallée du Kou (VK7) and Tengrela, Burkina Faso."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collections, microarray analysis, and genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations as Vallée du Kou (VK7) and Tengrela, Burkina Faso, including coordinates."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were performed in 2011, 2012, and 2013."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes new collections and analyses for 2011-2013. While it references previous work (Toé et al. 2014) for resistance levels, the genotype and microarray data presented are specific to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study investigates the transcriptional basis of pyrethroid resistance in Anopheles coluzzii from Burkina Faso (VK7 and Tengrela) using microarray and qPCR. It also genotypes kdr mutations (L1014F, L1014S, N1575Y) and assesses their association with deltamethrin survival.",
+    "exclusion_reasons": []
+  }
+}
