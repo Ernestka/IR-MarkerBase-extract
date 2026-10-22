@@ -1,0 +1,68 @@
+{
+  "id": "2013_Chanda_Efficacy_Vectron_20_WP_Etofenprox_PMID24967135",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study assessed the resistance status of local malaria vectors, An. funestus s.s. and An. gambiae s.s. (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions 'kdr' in the discussion (Page 3) as a known factor in the study areas, citing reference [17], but does not report any new genotyping results for resistance markers in the mosquitoes tested."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies for resistance markers are reported. The data provided is limited to bioassay mortality rates (Table 3) and residual efficacy (Table 1)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Zambia: Bauleni (Lusaka district), Chipulukusu (Ndola district), and Malata (Katete district) (Page 2, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the efficacy of etofenprox IRS and the susceptibility of local Anopheles populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to specific districts and sites: Bauleni in Lusaka, Chipulukusu in Ndola, and Malata in Katete (Page 2, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections and tests were conducted between December 2009 and August 2010 (Page 3, Section 3.1 and Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study reports original bioassay data from specific districts in Zambia collected for this efficacy evaluation."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "There is no indication that genotype data is stored in supplementary files not provided here."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Zambia"
+    ],
+    "collection_years": [
+      2009,
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1664,
+    "summary": "This study evaluated the residual efficacy of etofenprox (Vectron 20 WP) for indoor residual spraying (IRS) in Zambia and assessed the insecticide susceptibility of field-collected An. gambiae s.s. and An. funestus s.s. using WHO tube tests. While the authors discuss the presence of kdr-mediated resistance in the study areas by citing previous literature, they do not report any new genotyping data for resistance markers in the mosquitoes collected for this study.",
+    "exclusion_reasons": [
+      "Does not report genotype data for any of the target insecticide-resistance markers. The mention of 'kdr' in the discussion is a reference to previous work or a characterization of the study site based on other data, not a report of genotyping results from this study."
+    ]
+  }
+}

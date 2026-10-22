@@ -1,0 +1,69 @@
+{
+  "id": "2014_Djegbe_Molecular_Characterization_DDT_Resistance_Anophele_PMID25175167",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 2, Methods: Mosquito sampling)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (L1014F), Vgsc L995S (L1014S), and Vgsc N1570Y (N1575Y) (page 2, Methods: Species identification and kdr genotyping)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides allele frequencies and the number of alleles (N) for each site and collection period."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from four field sites in Benin (Cotonou, Tori-Bossito, Bohicon, and Malanville) (page 2, Methods: Mosquito sampling)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collections and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for specific sites: Cotonou, Tori-Bossito, Bohicon, and Malanville (page 2, Methods: Mosquito sampling)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred between December 2010 and December 2011 (page 2, Methods: Mosquito sampling)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analysis performed in the framework of a WHO/TDR project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype frequencies and sample sizes, are provided in Table 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigated DDT resistance in Anopheles gambiae from four sites in Benin. It combined bioassays with the genotyping of kdr mutations (L1014F, L1014S, N1575Y) and the expression analysis of metabolic genes (CYP6M2, CYP6P3, GSTD3, GSTE2). The study found high levels of DDT resistance and widespread kdr mutations.",
+    "exclusion_reasons": []
+  }
+}

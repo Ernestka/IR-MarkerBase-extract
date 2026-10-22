@@ -1,0 +1,68 @@
+{
+  "id": "2011_Chanda_Insecticide_Resistance_Future_Malaria_Control_PMID21915314",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (specifically An. gambiae s.s.) and Anopheles funestus s.l. (page 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for both Leu-Phe (west, Vgsc L995F) and Leu-Ser (east, Vgsc L995S) kdr mutations (page 4 and page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 provides exact counts of homozygous Leu-Phe mutation, heterozygous Leu-Phe mutation, and homozygous wild type for 159 An. gambiae s.s. across 5 sites (Chipepo, Myooye, Chipulukusu, Kizhingezhinge, Mushili), and reports all 159 were negative for east kdr."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during the rainy seasons of 2009 and 2010 from localities in Zambia as larvae or indoor resting blood-fed females and reared to adults (page 3-4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting field collections, WHO bioassays, and molecular genotyping in Zambia."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Named localities/sentinel sites in Zambia including Chipepo, Myooye, Chipulukusu, Kizhingezhinge, and Mushili (Table 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes for resistance testing were collected during the rainy seasons of 2009 and 2010 (page 3-4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary field survey conducted in Zambia under national monitoring/evaluation supported by IVCC."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype data (Table 5) and bioassay data (Tables 3-4) are reported in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Zambia"
+    ],
+    "collection_years": [
+      2009,
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 159,
+    "summary": "This study evaluated vector abundance, sporozoite infection rates, WHO susceptibility assays, and kdr mutations in Anopheles gambiae s.s. and Anopheles funestus in Zambia during 2009-2010. Genotyping of 159 bioassay survivors across 5 localities revealed the presence of the Vgsc L995F (Leu-Phe) mutation and absence of Vgsc L995S (Leu-Ser), with complete genotype counts presented in Table 5.",
+    "exclusion_reasons": []
+  }
+}

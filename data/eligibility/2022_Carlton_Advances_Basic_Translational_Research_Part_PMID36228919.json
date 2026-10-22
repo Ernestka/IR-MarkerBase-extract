@@ -1,0 +1,87 @@
+{
+  "id": "2022_Carlton_Advances_Basic_Translational_Research_Part_PMID36228919",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles surveillance and insecticide resistance in Anopheles species (e.g., An. stephensi, An. culicifacies, An. subpictus) on page 5."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions detection of kdr mutations (L1014F, L101S) and GSTe2/GSTe4 duplication in Anopheles species on page 5 and 6."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review/summary article. It cites other primary studies (e.g., references 32, 33, 34) for the genotype data but does not provide the actual genotype counts or frequencies for any population in this document."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study populations are located in India (Gujarat, Meghalaya, Odisha, Tamil Nadu), not Africa."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review/summary paper describing the work of the Center for the Study of Complex Malaria in India (CSCMi) over 12 years, not a primary empirical study reporting new data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper specifies locations such as Rourkela, Chennai, Nadiad, and various districts in Meghalaya."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper covers research conducted between 2010 and 2022."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it is a summary of research projects undertaken by the Center for the Study of Complex Malaria in India (CSCMi) over 12 years, referencing numerous previous publications."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a review article and does not contain primary data that would be in a supplement."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Cyp6aa1 DUP"
+    ],
+    "species": [
+      "Anopheles stephensi",
+      "Anopheles culicifacies",
+      "Anopheles subpictus",
+      "Anopheles fluviatilis"
+    ],
+    "countries": [
+      "India"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a review article summarizing 12 years of research by the Center for the Study of Complex Malaria in India (CSCMi). It covers epidemiology, vector studies, and pathogenesis of malaria in India. It is not a primary study and does not report original genotype data.",
+    "exclusion_reasons": [
+      "Not an African field population",
+      "Not a primary empirical study",
+      "Does not report extractable genotype data (it is a review article)"
+    ]
+  }
+}

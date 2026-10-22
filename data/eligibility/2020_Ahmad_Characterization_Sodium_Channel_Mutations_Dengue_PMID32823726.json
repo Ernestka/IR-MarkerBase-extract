@@ -1,0 +1,75 @@
+{
+  "id": "2020_Ahmad_Characterization_Sodium_Channel_Mutations_Dengue_PMID32823726",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper exclusively studies Aedes aegypti and Aedes albopictus, which are not Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Vssc mutations (V1016G, F1534C, S989P) in Aedes aegypti and F1534L in Aedes albopictus."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype counts in tables, such as Table 1, Table 3a, Table 4, Table 5, and Table 6."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study is conducted in Malaysia, which is in Asia, not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and laboratory bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations as PKNS, Shah Alam and AU2, Keramat."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection dates in 2016, 2017, and 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and laboratory experiments."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in the main text tables."
+    },
+    "markers_found": [
+      "Vgsc V1016G",
+      "Vgsc F1534C",
+      "Vgsc S989P",
+      "Vgsc F1534L"
+    ],
+    "species": [
+      "Aedes aegypti",
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "Malaysia"
+    ],
+    "collection_years": [
+      2016,
+      2017,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 322,
+    "summary": "This study characterizes Vssc mutations in Aedes aegypti and Aedes albopictus populations in Kuala Lumpur, Malaysia, in the context of Wolbachia releases. It assesses the association between these mutations and pyrethroid resistance and the impact of backcrossing on maintaining resistance profiles in laboratory colonies.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "african_field_population"
+    ]
+  }
+}

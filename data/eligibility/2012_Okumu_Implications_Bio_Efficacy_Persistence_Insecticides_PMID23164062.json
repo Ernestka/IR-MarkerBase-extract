@@ -1,0 +1,67 @@
+{
+  "id": "2012_Okumu_Implications_Bio_Efficacy_Persistence_Insecticides_PMID23164062",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex (page 1, 3, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for kdr mutations (L1014F and L1014S) in Anopheles arabiensis (page 5, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports that 383 mosquitoes from experimental huts, 122 from a colony, and 15 from local houses were successfully genotyped and all were kdr-negative (100%) (page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Lupiro village, Ulanga District, Tanzania (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting bioassays and molecular analysis on field-collected mosquitoes (page 2-5)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Lupiro village, Ulanga District, Tanzania (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted over a six-month period (page 3, 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, independent experimental hut evaluation and associated susceptibility testing."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data (sample sizes and results) are provided in the main text (page 8)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 520,
+    "summary": "This study evaluated the residual efficacy of three IRS insecticides and three LLINs against Anopheles arabiensis in Lupiro, Tanzania. It also assessed insecticide susceptibility and the presence of kdr mutations (L1014F/S) in field-collected mosquitoes. All tested mosquitoes were found to be kdr-negative.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2015_Lindblade_Cohort_Study_Effectiveness_Insecticide_Treated_PMID25627987",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study identifies Anopheles funestus and Anopheles gambiae s.l. as the primary malaria vectors in the study area (Page 1, Abstract; Page 5, Entomologic surveillance)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L1014F (kdr-west) and L1014S (kdr-east) in An. gambiae s.l. and sequencing the kdr region in An. funestus (Page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper states that 'Of the 22 An. gambiae s.l. tested, none possessed either of the two kdr-like mutations L1014F (West African kdr) or L1014S (East African kdr)' and 'Of the 20 An. funestus samples... none had any single nucleotide polymorphisms that were unique to either the resistant or susceptible populations' (Page 9)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Machinga District, Malawi, using pyrethroid spray catches (PSCs) and reared from eggs or larvae for bioassays (Page 3, Study area; Page 5, Entomologic surveillance)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical cohort study assessing ITN effectiveness and associated insecticide resistance (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the Traditional Authority of Sitola in Machinga District, surrounding the town of Liwonde (-15°3'S 35°14'E) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Data collection occurred between April 2012 and March 2013 (Page 8, Malaria incidence)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes a specific cohort and routine entomological monitoring by the Malaria Alert Centre for this project; no evidence of overlap with larger consortia like Ag1000G is mentioned."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype results (absence of kdr mutations in the tested samples) are reported directly in the main text on page 9."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae s.l.",
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Malawi"
+    ],
+    "collection_years": [
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 42,
+    "summary": "This cohort study in Machinga District, Malawi (2012-2013), evaluated ITN effectiveness against malaria in an area with pyrethroid-resistant Anopheles funestus and An. gambiae s.l. Phenotypic resistance was confirmed via WHO tube assays (38% mortality for An. funestus to deltamethrin). Genotyping of 22 An. gambiae s.l. and sequencing of 20 An. funestus found no evidence of Vgsc L1014F or L1014S mutations, suggesting metabolic resistance mechanisms.",
+    "exclusion_reasons": []
+  }
+}

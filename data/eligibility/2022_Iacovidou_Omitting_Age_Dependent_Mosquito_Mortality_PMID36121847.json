@@ -1,0 +1,65 @@
+{
+  "id": "2022_Iacovidou_Omitting_Age_Dependent_Mosquito_Mortality_PMID36121847",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses field-derived Anopheles gambiae s.l. mosquitoes (page 4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the presence of the 1014F kdr mutation and 1575Y in the mosquito population (page 4), but it does not report any genotype counts or frequencies for these markers in the study population; it only cites previous work (reference 28) for the resistance status."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any genotype counts or frequencies for the mosquitoes used in the experiments."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquitoes were collected as larvae in natural breeding habitats around Bouaké, Côte d’Ivoire (page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study presenting survival data from laboratory experiments on field-derived mosquitoes (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The mosquitoes were collected in Bouaké, Côte d’Ivoire (page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2022, and the data collection is described as novel (page 2), with the paper received in 2021 (page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes novel data collection for this specific study (page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data, so no supplementary genotype data is needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Côte d’Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 200,
+    "summary": "This study uses laboratory experiments to measure the survival of field-derived, pyrethroid-resistant Anopheles gambiae s.l. mosquitoes from Côte d’Ivoire when exposed to ITNs. It fits age-dependent mortality functions to the survival data to improve mathematical models of vectorial capacity. It does not report any genotype data for the mosquitoes used.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

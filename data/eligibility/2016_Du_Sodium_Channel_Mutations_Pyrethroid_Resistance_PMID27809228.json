@@ -1,0 +1,63 @@
+{
+  "id": "2016_Du_Sodium_Channel_Mutations_Pyrethroid_Resistance_PMID27809228",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The review focuses on Aedes aegypti (Page 1: 'Sodium Channel Mutations and Pyrethroid Resistance in Aedes aegypti')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reviews sodium channel mutations in Aedes aegypti and mentions L1014F in Anopheles only in background text."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary extractable genotype data for mosquito populations are presented; it is a review article summarizing previous studies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study does not report primary field population data."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This paper is explicitly a review ('Review: Sodium Channel Mutations and Pyrethroid Resistance in Aedes aegypti', page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as this is a review paper."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as this is a review paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Review paper, no primary field samples."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files needed as the study is ineligible."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a narrative mini-review focusing on voltage-gated sodium channel mutations and pyrethroid resistance in Aedes aegypti. It does not contain primary empirical data on African Anopheles field populations.",
+    "exclusion_reasons": [
+      "Not an Anopheles study (focuses on Aedes aegypti)",
+      "Not a primary study (review article)",
+      "No primary extractable genotype data for target markers",
+      "No primary African field population data"
+    ]
+  }
+}
