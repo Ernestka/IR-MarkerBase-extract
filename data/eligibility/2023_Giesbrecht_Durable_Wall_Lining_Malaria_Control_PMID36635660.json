@@ -1,0 +1,71 @@
+{
+  "id": "2023_Giesbrecht_Durable_Wall_Lining_Malaria_Control_PMID36635660",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and mentions Anopheles funestus (Page 2, 7)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions 'kdr genotyping' was performed (Page 8, 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide extractable genotype counts or frequencies. It only states qualitatively that kdr genotyping 'revealed that insecticide resistance... had not changed' (Page 8) and was 'at similar levels to that reported in 2012' (Page 9). No numerical genotype data is present in the main text or tables."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field sites in Bomi County, Liberia (Page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary cluster randomized trial (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Bomi County, Liberia, with specific collection sites named such as Bahai Town, Gbojay, and Snowe (Page 7, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections and surveys were conducted between April 2014 and April 2016 (Page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes a specific cluster randomized trial (NCT02448745) and does not indicate that the genotype data is part of a larger shared dataset like Ag1000G."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Additional file 2: Table S2 is cited in relation to kdr genotyping results (Page 8), although its title ('Insecticide resistance status of adult mosquitoes exposed to WHO insecticide papers in tube test') suggests it primarily contains bioassay data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Liberia"
+    ],
+    "collection_years": [
+      2014,
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is a cluster randomized trial in Bomi County, Liberia, evaluating the efficacy of Durable Wall Lining (DWL) against malaria. While the authors mention that kdr genotyping was performed to assess the resistance profile of the local Anopheles gambiae s.l. population, they do not report any extractable genotype counts or frequencies, providing only a qualitative summary that resistance levels were consistent with previous reports from 2012.",
+    "exclusion_reasons": [
+      "The study does not report extractable genotype data (counts or frequencies) for the target markers in the provided document. It only provides a qualitative statement regarding kdr genotyping results."
+    ]
+  }
+}

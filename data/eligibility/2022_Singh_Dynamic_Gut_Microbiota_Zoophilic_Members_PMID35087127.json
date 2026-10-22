@@ -1,0 +1,71 @@
+{
+  "id": "2022_Singh_Dynamic_Gut_Microbiota_Zoophilic_Members_PMID35087127",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates members of the Anopheles gambiae complex, specifically An. arabiensis, An. merus, and An. quadriannulatus (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions that the SENN DDT strain is fixed for the kdr L1014F (Vgsc L995F) mutation (Page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states the SENN DDT strain is 'fixed' for L1014F, but this refers to a long-established laboratory colony. No genotype counts or frequencies for field-collected populations are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study exclusively uses laboratory-reared strains (SENN, SENN DDT, MAFUS, and SANGWE) maintained in the Botha de Meillon insectary. The authors explicitly state that the study 'took place in laboratory strains' and that findings 'must be replicated with wild mosquitoes' (Pages 8-9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study characterizing gut microbiota."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as the study uses laboratory strains."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as the study uses laboratory strains."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as the study is ineligible."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "N/A"
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles merus",
+      "Anopheles quadriannulatus"
+    ],
+    "countries": [
+      "South Africa",
+      "Sudan",
+      "Zimbabwe"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study characterizes the gut microbiota of four laboratory strains of Anopheles mosquitoes (SENN, SENN DDT, MAFUS, and SANGWE) to explore the relationship between microbiota, insecticide resistance, and vector competence. While it notes that the SENN DDT strain is fixed for the Vgsc L1014F mutation, it does not provide any data on field-collected mosquitoes, making it ineligible for the database.",
+    "exclusion_reasons": [
+      "No African field population (only laboratory strains used).",
+      "No extractable genotype data for field populations."
+    ]
+  }
+}

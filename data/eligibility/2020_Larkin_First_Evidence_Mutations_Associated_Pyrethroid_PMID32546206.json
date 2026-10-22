@@ -1,0 +1,64 @@
+{
+  "id": "2020_Larkin_First_Evidence_Mutations_Associated_Pyrethroid_PMID32546206",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study investigates human head lice (Pediculus humanus capitis), not Anopheles mosquitoes: 'A total of 83 human head lice (adults and stage III nymphs) were collected from children residing in two Honduran rural communities' (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes the T917I mutation in the Pediculus humanus capitis voltage-sensitive sodium channel gene, which is not one of the target markers for African Anopheles vectors."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for Anopheles mosquitoes or target markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Specimens were collected in Honduras (Central America), not Africa: 'Genomic DNA was extracted from 83 head lice collected in the localities of San Buenaventura and La Hicaca, Honduras' (page 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting field collections and molecular genotyping of head lice."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at San Buenaventura and La Hicaca, Honduras (page 2, page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The specific collection years are not explicitly reported in the text (ethics approval reference dates back to 2015/2016, but dates of lice collection are not specified)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field study on head lice in Honduras; not relevant to Anopheles surveillance databases."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; study is fundamentally ineligible."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Honduras"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 83,
+    "summary": "This study examined the frequency of the T917I kdr mutation conferring pyrethroid resistance in human head lice (Pediculus humanus capitis) collected in Honduras. It does not study Anopheles malaria vectors, nor does it assess African populations or the target insecticide resistance markers.",
+    "exclusion_reasons": [
+      "Not an Anopheles mosquito study (studies Pediculus humanus capitis).",
+      "Does not genotype target insecticide-resistance markers in African Anopheles.",
+      "Not an African field population (conducted in Honduras)."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2015_Wilding_Parallel_Evolution_Or_Purifying_Selection_PMID25213601",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles arabiensis (Title, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping the Vgsc L1014S (L995S) marker in field-collected mosquitoes (Page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "While the paper mentions that the L1014S mutation approaches fixation (99.5%) in Tororo, it cites this as 'unpublished data' from 2012 and does not provide sample sizes or genotype counts for the 80 mothers genotyped in 2009 (Page 14)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from villages in Tororo District and Jinja, Uganda (Page 7, 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the role of Gste4 in insecticide resistance using microarrays, sequencing, and protein expression."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to specific villages in Tororo District (Ngelechom, Abwanget, Angorom, Aburi, and Amoni) and Jinja (Page 7, 8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 2009 and 2012 (Page 7, 14)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions 'Weetman et al. unpublished' and 'Mawejje et al. 2013' regarding kdr frequencies, but the Gste4 sequencing and expression data appear to be unique to this study."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Supplementary table S2, S3 and Suppl. Fig. 1 are mentioned but not included in the document; they may contain more detailed genotype or bioassay data."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2009,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 80,
+    "summary": "The study investigates the role of Gste4 in pyrethroid resistance in Anopheles gambiae and An. arabiensis from Uganda. While the authors genotyped the Vgsc L1014S (L995S) marker in field-collected samples, they do not report extractable genotype counts or frequencies with associated sample sizes, instead stating that the mutation is near fixation and citing unpublished data or previous studies.",
+    "exclusion_reasons": [
+      "No extractable genotype data for target markers (Vgsc L1014S results are mentioned as 'approaching fixation' or cited as 'unpublished data' without sample sizes or genotype counts)."
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2019_Machani_Influence_Blood_Meal_Age_Mosquitoes_PMID30940139",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu stricto and Anopheles arabiensis (Page 1, Abstract; Page 4, Species composition)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports species identification and biochemical assays for broad enzyme classes (monooxygenases, GSTs, and beta-esterases) but does not genotype any of the specific target markers required (e.g., Vgsc L995F/S, Ace-1 G280S, etc.)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data for target resistance markers is provided; only species identification counts and enzyme activity levels are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from Bungoma county in Western Kenya (Page 2, Mosquito population and sampling)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the influence of blood meal and age on insecticide susceptibility."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Bungoma county (00.54057°N, 034.56410°E) in Western Kenya (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "While specific collection years are not explicitly stated in the text, the paper was received in January 2019, implying recent collection within a 3-year window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine field collections in Bungoma, Kenya, for this specific physiological investigation."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional file 1 is described as containing GLM analysis of enzymes, which is consistent with the study's focus and unlikely to contain missing marker genotypes."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 400,
+    "summary": "This study investigated how blood feeding and mosquito age affect susceptibility to deltamethrin in Anopheles gambiae s.l. from Bungoma, Kenya. While it provides detailed bioassay results and biochemical enzyme activity data, it does not report genotyping for any target insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "Does not report genotyping of target insecticide-resistance markers (e.g., Vgsc L995F/S, Ace-1 G280S, Rdl, etc.). Only reports species identification and broad biochemical enzyme assays."
+    ]
+  }
+}

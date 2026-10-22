@@ -1,0 +1,69 @@
+{
+  "id": "2017_Ngufor_Which_Intervention_Better_Malaria_Vector_PMID28814307",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions previous molecular analysis of L1014F kdr allele frequency (page 2), but does not report new genotype data for any of the required markers in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype counts or frequencies for the mosquitoes used in this specific study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Cove, Southern Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Cove, Southern Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial was performed between June and September 2015 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is a new experimental hut trial, though it references previous work in the same location."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1153,
+    "summary": "This study evaluates the efficacy of Interceptor G2 LN (chlorfenapyr + alpha-cypermethrin) compared to combined chlorfenapyr IRS and Interceptor LN in experimental huts in Cove, Benin. While it reports bioassay results for resistance, it does not report new genotype data for resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: No new genotype data reported.",
+      "reports_extractable_genotype_data: No genotype data reported."
+    ]
+  }
+}

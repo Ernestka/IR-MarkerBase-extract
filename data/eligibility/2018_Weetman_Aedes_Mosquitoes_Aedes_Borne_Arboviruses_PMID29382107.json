@@ -1,0 +1,79 @@
+{
+  "id": "2018_Weetman_Aedes_Mosquitoes_Aedes_Borne_Arboviruses_PMID29382107",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper focuses on Aedes mosquitoes (Aedes aegypti, Aedes albopictus, Aedes formosus) as stated in the title and throughout the text. Anopheles species are only mentioned for comparison in the context of vector control integration (Section 5.1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports kdr mutations for Aedes (F1534C, V1016I) in Table 2, but does not report any of the target markers for Anopheles specified in the protocol (e.g., Vgsc L995F, Ace-1 G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a review, the paper summarizes findings from other studies (e.g., Table 2) rather than providing primary extractable genotype data with counts or frequencies and sample sizes."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review and does not report on primary collections or testing of field populations conducted by the authors."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The document is explicitly categorized as a 'Review' on page 1."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 2 lists specific locations such as Dakar, Abidjan, Accra, and Yaoundé."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Table 2 provides specific collection years for the summarized studies, often within a 1-3 year range (e.g., 2013, 2012-2013)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper and does not present new primary data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are required as the paper is ineligible."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti",
+      "Aedes albopictus",
+      "Aedes formosus"
+    ],
+    "countries": [
+      "Cape Verde",
+      "Senegal",
+      "Cote d'Ivoire",
+      "Ghana",
+      "Nigeria",
+      "Cameroon",
+      "Central African Republic",
+      "Gabon",
+      "Sudan",
+      "Tanzania",
+      "Mayotte"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review paper focusing on Aedes mosquitoes and arboviruses in Africa. It is ineligible because it does not study Anopheles mosquitoes, is not a primary study, and does not report the required insecticide-resistance markers for Anopheles.",
+    "exclusion_reasons": [
+      "is_not_anopheles",
+      "is_not_primary_study",
+      "no_target_markers",
+      "no_extractable_genotype_data"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae and Anopheles coluzzii were the major anophelines represented in all collections across the ecological zones (Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The L1014F kdr insecticide resistance mutation (kdr-w) is found at high frequency across all study sites... The L1014S mutation was also examined in a subset of samples (Abstract, Page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 4 (Page 7) provides genotype frequencies (kdr/kdr, kdr/S, S/S) for A. gambiae and A. coluzzii at four sites (Arid Savanna, Humid Savanna, Semi-Forest, Deep Forest) with sample sizes (n) for each group."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from four different study sites at the border with Mali and in Guinea Conakry (Fig. 1). Takan (N 11.47, W 8.33) and Toumani Oulena (N 10.83, W 7.81) are both small villages in the Yanfolila district of southern Mali... Koraboh... Kissidougou district... Guinea Conakry... Koundara... Macenta district... Guinea Conakry (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing original mosquito collections and molecular characterization."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific villages: Takan, Toumani Oulena, Koraboh, and Koundara, with coordinates provided on Page 2."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "All reported collections occurred in October and November in 2012 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study explicitly compares its 2012 data to a previous 2006 survey (Vezenegho et al. 2009), indicating these are new, independent collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Figure 4 provides extractable genotype frequencies and sample sizes. While Additional file 1 is mentioned as containing 'molecular attribute data', the primary data required is available in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Mali",
+      "Guinea"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1425,
+    "summary": "The study characterizes Anopheles gambiae and Anopheles coluzzii populations across four ecological zones in Mali and Guinea Conakry. Mosquitoes were collected in October and November 2012 using human-landing captures, pyrethroid spray catches, and larval sampling. The study reports the frequency of the Vgsc L1014F (kdr-w) mutation, which was found at high frequency and near fixation in forest sites. Vgsc L1014S (kdr-e) was also screened but not detected in the samples tested. Genotype frequencies for L1014F are provided for each species and site in Figure 4.",
+    "exclusion_reasons": []
+  }
+}

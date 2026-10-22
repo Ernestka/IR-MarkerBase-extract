@@ -1,0 +1,82 @@
+{
+  "id": "2022_Nebbak_Mosquito_Vectors_Diptera_Culicidae_Mosquito_PMID36292910",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review discusses 12 Anopheles species found in North Africa, including An. labranchiae, An. sergentii, and An. coluzzii (Page 1, Table 2 on Page 4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a narrative literature review and does not report original genotyping for any target insecticide resistance markers in Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies with sample sizes are reported for target markers in Anopheles."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper does not report new primary field sampling or testing in African mosquito populations."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This article is explicitly a review paper ('Review: Mosquito Vectors (Diptera: Culicidae) and Mosquito-Borne Diseases in North Africa', Page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "As a review paper, no specific primary study site with target genotype data is reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary mosquito sampling timeframe is defined for marker genotyping."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The article is a review paper and does not report primary sample data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed as the study is an ineligible review paper."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles labranchiae",
+      "Anopheles algeriensis",
+      "Anopheles multicolor",
+      "Anopheles sergentii",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles pharoensis",
+      "Anopheles stephensi",
+      "Anopheles coustani",
+      "Anopheles claviger",
+      "Anopheles sachorovi",
+      "Anopheles superpictus"
+    ],
+    "countries": [
+      "Algeria",
+      "Egypt",
+      "Libya",
+      "Morocco",
+      "Tunisia"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a literature review summarizing the distribution of mosquito vector species (including 12 Anopheles species) and mosquito-borne diseases across North Africa. It does not present primary empirical field data or genotype testing for resistance markers.",
+    "exclusion_reasons": [
+      "Not a primary study (literature review).",
+      "Does not report target marker genotyping in Anopheles mosquitoes.",
+      "Does not report extractable genotype data.",
+      "Does not report primary African field population data."
+    ]
+  }
+}

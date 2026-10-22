@@ -1,0 +1,68 @@
+{
+  "id": "2019_Jeanrenaud_Effects_Larval_Organic_Fertiliser_Exposure_PMID30998732",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles arabiensis, Anopheles quadriannulatus, and Anopheles merus (page 3, 'Materials')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers were genotyped in this study. The paper only mentions from prior literature that the colonized strain SENN-DDT is fixed for the kdr L1014F mutation (page 3, 'Materials')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype assays, counts, or frequencies were generated or reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Only long-term laboratory-maintained colonies were used (SENN, SENN-DDT, MBN, MBN-DDT, SANGWE, MAFUS; page 3, 'Materials'). No field collections were conducted."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "It is a primary laboratory empirical study measuring life history and insecticide tolerance traits following fertiliser exposure."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection was conducted; geographic origins are mentioned only as the historical source localities of laboratory strains."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No mosquito collections were performed in this study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard laboratory colony experiment; no field sample overlap."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The single supplementary file (S1 Table) reports average time to 50% mortality in the colony strains, with no genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles merus",
+      "Anopheles quadriannulatus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study tested the effect of organic fertiliser exposure during larval rearing on development rate, longevity, adult size, and insecticide tolerance in laboratory colonies of Anopheles arabiensis, An. merus, and An. quadriannulatus. No molecular marker genotyping was performed and only established laboratory colonies were tested.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (kdr L1014F was only cited from previous literature describing the SENN-DDT colony).",
+      "No extractable genotype data reported.",
+      "No African field-caught mosquitoes tested; only laboratory colonies were used."
+    ]
+  }
+}
