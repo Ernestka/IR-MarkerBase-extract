@@ -1,0 +1,78 @@
+{
+  "id": "2015_Kleinschmidt_Design_Study_Determine_Impact_Insecticide_PMID26194648",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles arabiensis, Anopheles gambiae s.s., Anopheles funestus, and Anopheles culicifacies (Page 8, 10; Table 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mentions allelic frequency of 'Vgsc-L104F (formerly kdr-west) and Vgsc-L1014S (formerly kdr-east) mutation in Anopheles arabiensis and/or An. gambiae s.s.' (Page 8, column 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a study design/protocol paper. Table 3 only lists cluster-level kdr frequency ranges from baseline (e.g., 'Kdr frequency by cluster ranged from 8.3 to 70.8% (2010)') without number of mosquitoes genotyped (N), genotype counts, or allele counts."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes sampled from field clusters in Sudan, Kenya, Cameroon, and Benin (Page 10, Table 3)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is a study design and methodology paper ('Design of a study to determine the impact of insecticide resistance on malaria vector control: a multi-country investigation') presenting the rationale and statistical plans rather than empirical results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Districts and states in Sudan, Kenya, Cameroon, and Benin are identified (e.g., Gezira, Gedaref, Kassala in Sudan; Teso, Rachuonyo, Nyando, Bondo in Kenya; Table 3, page 10)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Baseline kdr surveys referenced for specific years: 2010 in Sudan, 2011 in Cameroon and Benin (Table 3, page 10)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Protocol paper for the multi-country WHO-coordinated trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files containing primary genotype counts or sample sizes are cited."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles culicifacies"
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon",
+      "India",
+      "Kenya",
+      "Sudan"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article outlines the design, epidemiological methods, and analytical plans of a multi-country prospective project across Benin, Cameroon, India, Kenya, and Sudan investigating the impact of vector insecticide resistance on the efficacy of LLINs and IRS. While target resistance markers (Vgsc L995F and L995S) are discussed and broad baseline cluster frequency ranges are cited in Table 3, no extractable genotype or allele counts with denominator sample sizes are reported.",
+    "exclusion_reasons": [
+      "Study is a design/protocol paper, not presenting primary empirical genotype results.",
+      "Lacks extractable genotype or allele counts/frequencies with associated sample sizes."
+    ]
+  }
+}

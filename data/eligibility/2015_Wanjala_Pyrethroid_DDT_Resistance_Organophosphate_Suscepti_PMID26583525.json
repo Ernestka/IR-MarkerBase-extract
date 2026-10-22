@@ -1,0 +1,69 @@
+{
+  "id": "2015_Wanjala_Pyrethroid_DDT_Resistance_Organophosphate_Suscepti_PMID26583525",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu lato, specifically An. gambiae s.s. and An. arabiensis, in western Kenya."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotypes for Vgsc L995F (L1014F) and Vgsc L995S (L1014S) in Table 2."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides explicit counts for LL, LS, and SS genotypes for both An. gambiae and An. arabiensis across multiple study sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 7 sentinel sites in western Kenya (Bungoma, Emu-tete, Iguhu, Emakakha, Chulaimbo, Ahero, and Kisian)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting field collections and laboratory analysis of insecticide resistance."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies 7 distinct sentinel sites (Bungoma, Emutete, Iguhu, Emakakha, Chulaimbo, Ahero, and Kisian) in western Kenya."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted during April 2012–July 2013, which is a period of less than 3 years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, independent field collection and analysis conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and site information are provided in Table 1 and Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 579,
+    "summary": "This study investigated insecticide resistance in Anopheles gambiae s.l. across 7 sites in western Kenya between 2012 and 2013. It combined WHO susceptibility bioassays with molecular genotyping for kdr mutations (L1014F and L1014S). The results showed high resistance to pyrethroids and DDT, with high frequencies of the L1014S mutation in An. gambiae s.s., while An. arabiensis showed lower mutation frequencies.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2016_Riveron_Multiple_Insecticide_Resistance_Major_Malaria_PMID27628765",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus (s.s.) and Anopheles coluzzii (page 1, 2, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for GSTe2 L119F and Rdl A296S (page 3, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts (RR, RS, SS) for L119F-GSTe2 and A296S-RDL are provided in the text and Figure 4 (page 5, 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Obuasi and Adawukwa, Ghana (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field data (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies Atatam village (Obuasi) and Adawukwa (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were made in March and November 2014 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new collections from 2014."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and figures."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 80,
+    "summary": "This study investigated insecticide resistance in Anopheles funestus (s.s.) and Anopheles coluzzii from two sites in southern Ghana (Obuasi and Adawukwa) in 2014. It reports high resistance to pyrethroids, DDT, and bendiocarb, and genotypes the L119F-GSTe2 and A296S-RDL markers.",
+    "exclusion_reasons": []
+  }
+}

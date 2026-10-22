@@ -1,0 +1,69 @@
+{
+  "id": "2014_Kawada_Preventive_Effect_Permethrin_Impregnated_Long_PMID25141947",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Indoor trapping of An. gambiae s.s., An. arabiensis, and An. funestus s.s. was performed (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR and direct DNA sequencing were performed to identify point mutations at 1014 L (L1014S) in the field-collected mosquitoes (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The allelic frequency of the point mutation in the voltage-gated sodium channel (L1014S) in the collected mosquitoes was 98.4% (n = 96, Accession AB776705, AB776706) (Page 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field collections of mosquitoes were conducted in Mfangano Island, Nyaroya Village, and Ungoe Village in western Kenya (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study performed primary field collections and laboratory analysis of mosquito blood-feeding and resistance markers (Page 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mfangano Island, Nyaroya Village, and Ungoe Village in Mbita and Suba districts, western Kenya (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from May 16 to June 1, 2011; October 4 to 31, 2011; February 21 to March 6, 2012; and July 11 to 18, 2012 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field trap collections conducted specifically for this study in 2011-2012."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype frequency and sample size data are present in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 96,
+    "summary": "This study evaluated the preventive effect of permethrin-impregnated bed nets on blood feeding in pyrethroid-resistant Anopheles gambiae s.s., An. arabiensis, and An. funestus s.s. in western Kenya between 2011 and 2012. Sequencing of the voltage-gated sodium channel in field-collected An. gambiae s.s. revealed a Vgsc L1014S (L995S) allele frequency of 98.4% (n = 96).",
+    "exclusion_reasons": []
+  }
+}

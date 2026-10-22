@@ -1,0 +1,71 @@
+{
+  "id": "2020_Hughes_Anopheles_Gambiae_Populations_Burkina_Faso_PMID31924276",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae (s.l.) populations from Burkina Faso."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the presence of kdr mutations (1014F, 1575Y) in the laboratory strains (VK7 and Banfora) as background information (page 3), but it does not report genotype counts or frequencies for any field-collected mosquito populations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype counts or frequencies for the field-collected mosquitoes; it only reports species identification percentages (page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Anopheles mosquitoes from Tengrela and Yendere, Burkina Faso."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting bioassays and experimental hut trials."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations in Tengrela and Yendere, Comoé Province, Burkina Faso (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field experiments were conducted between 2016 and 2018 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new experimental hut trials and bioassays conducted between 2016 and 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data for field populations, so no supplementary genotype data is missing."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the impact of LLIN exposure on the longevity of pyrethroid-resistant Anopheles gambiae (s.l.) populations from Burkina Faso using WHO cone bioassays and experimental hut trials. While the paper mentions the presence of kdr mutations in laboratory colonies, it does not report genotype data for the field-collected populations, rendering it ineligible based on the criteria.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

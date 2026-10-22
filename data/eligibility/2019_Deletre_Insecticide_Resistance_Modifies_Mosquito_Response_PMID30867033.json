@@ -1,0 +1,66 @@
+{
+  "id": "2019_Deletre_Insecticide_Resistance_Modifies_Mosquito_Response_PMID30867033",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae strains (Kis, KdrKis, AcerKis)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the strains are homozygous for kdr L1014F and G119S ace-1 mutations (page 7, Methods section)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states the strains are homozygous for specific mutations but does not provide genotype counts or frequencies for the populations tested; it uses established laboratory strains."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-reared strains (Kis, KdrKis, AcerKis) maintained in insectaries, not field-caught populations."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study testing behavioral responses of mosquito strains to various compounds."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses laboratory strains, not field-collected samples."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study uses laboratory strains, not field-collected samples."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses standard laboratory strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data for the laboratory strains is provided in the main text tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the behavioral responses (repellency, irritancy, toxicity) of three laboratory strains of Anopheles gambiae (susceptible Kis, pyrethroid-resistant KdrKis, and OP-resistant AcerKis) to various repellents and insecticides. It is not eligible because it does not use field-collected populations.",
+    "exclusion_reasons": [
+      "The study uses laboratory-reared strains, not field-collected populations.",
+      "No extractable genotype data (counts/frequencies) is provided for field populations."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "2015_Vera-Maloof_Coevolution_Ile1_016_Cys1_534_PMID26658798",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper exclusively studies Aedes aegypti, which is a culicine mosquito, not an Anopheles species."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Vgsc L1014F (Ile1,016) and F1534C (Cys1,534) in Aedes aegypti."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts for Ile1,016 and Cys1,534 for multiple populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study is conducted on Aedes aegypti populations in Mexico."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving field collections and linkage disequilibrium analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides city-level locations (e.g., Merida, Veracruz, etc.) in Table 1."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports specific collection years for each site in Table 1."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new collections and analyses."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided within the main text and tables of the paper."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc F1534C"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Mexico"
+    ],
+    "collection_years": [
+      1999,
+      2000,
+      2002,
+      2003,
+      2006,
+      2007,
+      2008,
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 4039,
+    "summary": "This study investigates the coevolution of Ile1,016 and Cys1,534 mutations in the voltage-gated sodium channel gene of Aedes aegypti in Mexico. It is ineligible because it focuses on Aedes aegypti rather than Anopheles malaria vectors.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "african_field_population"
+    ]
+  }
+}

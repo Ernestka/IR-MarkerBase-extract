@@ -1,0 +1,73 @@
+{
+  "id": "2020_Liu_RDL_Mutations_Guangxi_Anopheles_Sinensis_PMID31941504",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles sinensis, a malaria vector."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Rdl A296S (A296G/N/S), V327I, and T345S."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (AA/AS/SS, VV/VI/II, TT/TS/SS) for all seven populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study populations are from Guangxi, China, along the China-Vietnam border. While the paper mentions imported malaria from Africa, the mosquitoes themselves are from China."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new genotyping data for An. sinensis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific sampling sites (villages) in Guangxi, China (e.g., Pingmeng, Xinwei, Tongde, Encheng, Shuikou, Shangshi, Dongxing)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected from April 2015 to August 2017, which is a window of approximately 2.5 years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is a new survey of RDL mutations in An. sinensis, extending previous work on AChE and VGSC (Yang et al. 2019)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts, are provided in the main text tables."
+    },
+    "markers_found": [
+      "Rdl A296S",
+      "Rdl V327I",
+      "Rdl T345S"
+    ],
+    "species": [
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 208,
+    "summary": "This study genotyped 208 Anopheles sinensis mosquitoes from seven locations along the China-Vietnam border for Rdl mutations (A296S, V327I, T345S). The study found high frequencies of the A296S mutation and reported genotype counts for all sites.",
+    "exclusion_reasons": [
+      "The study populations are from China, not Africa.",
+      "(code) model said eligible=True but required checks give False; using the checks."
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "2017_Venter_Benchmarking_Insecticide_Resistance_Intensity_Bioa_PMID28427447",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tests Anopheles funestus, An. arabiensis and An. gambiae (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions markers such as L1014F (Vgsc L995F) and Ace-1 (G280S) in the background and Table 1, but these are cited from previous studies as 'known resistance mechanisms' for the laboratory and field-derived strains used; no new genotyping was performed or reported in this study (Page 3, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Tables 3 and 4 only report bioassay mortality percentages and sample sizes (n) for diagnostic and intensity concentrations. No genotype counts (RR/RS/SS) or allele frequencies are provided for the mosquitoes tested (Pages 4-5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses F1 progeny of wild-caught females from Nchelenge, Zambia (ZAMF, 2016) and Northern KwaZulu-Natal, South Africa (KZN, 2016) (Page 3, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study benchmarking insecticide resistance intensity bioassays (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to specific locations: Nchelenge (Zambia), Northern KwaZulu-Natal (South Africa), Sennar (Sudan), Southern Mozambique, and Tongon mine (Cote d'Ivoire) (Page 3, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years or dates of culture establishment are provided for all strains, e.g., ZAMF (2016) and KZN (2016) (Page 3, Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the strains used (e.g., ZAMF, KZN) are field-derived and may be part of larger surveillance efforts, this paper reports new bioassay intensity data and does not report genotype data that could be duplicated."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper states that the datasets supporting the conclusions are included within the article (Page 6)."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Zambia",
+      "South Africa",
+      "Sudan",
+      "Mozambique",
+      "Cote d'Ivoire"
+    ],
+    "collection_years": [
+      1980,
+      2000,
+      2002,
+      2010,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study evaluates pyrethroid resistance intensity in several Anopheles strains (laboratory-maintained and F1 progeny from field collections in Zambia and South Africa) using the revised WHO bioassay protocol (DC, 5x DC, 10x DC). Although it utilizes strains with previously characterized resistance mechanisms (such as L1014F kdr), it does not report any new genotype data or frequencies for these markers, focusing entirely on bioassay phenotypes.",
+    "exclusion_reasons": [
+      "No extractable genotype data reported. The study focuses on insecticide resistance intensity bioassays using laboratory strains and F1 progeny with known resistance mechanisms, but does not perform or report new genotyping for the target markers."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2021_Neafsey_Advances_Opportunities_Malaria_Population_Genomics_PMID33833443",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The article discusses Anopheles mosquitoes extensively, including Anopheles gambiae and Anopheles funestus (e.g., page 502, page 503)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The review mentions vgsc and ace1 genes in a general overview of insecticide resistance loci (page 507), but does not genotype target markers or report target marker frequencies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary extractable genotype data, allele counts, or genotype frequencies are reported in this review article."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No primary mosquito collections or field population sampling data are conducted in this study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review article published in Nature Reviews Genetics (page 502: 'In this Review, we provide a brief history of the use of population genomics in malaria research...')."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary field collection sites are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary sampling timeframes are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable because this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data required; the paper is ineligible as a review."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a literature review published in Nature Reviews Genetics summarizing progress and opportunities in population genomics for Plasmodium parasites and Anopheles vector mosquitoes. It does not contain primary empirical data or marker genotyping.",
+    "exclusion_reasons": [
+      "Not a primary study (it is a review article).",
+      "Does not report target marker genotype/allele frequencies or counts.",
+      "Does not present primary extractable genotype data.",
+      "Does not report on an African field population sample."
+    ]
+  }
+}
