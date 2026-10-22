@@ -1,0 +1,69 @@
+{
+  "id": "2021_Martin_Personal_Protection_PBO_Pyrethroid_Synergist_PMID33691742",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates field-collected Anopheles gambiae s.l. (specifically An. gambiae s.s. and An. arabiensis) and An. funestus in Tanzania (Page 1, Abstract; Page 2, Study area)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not perform molecular genotyping of any insecticide resistance target markers; it only conducts species identification PCR (Bass et al. TaqMan assay to distinguish An. gambiae s.s. from An. arabiensis; Page 3, 'Mosquito collection')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotype or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected from four villages in Muleba District, north-western Tanzania between October 2016 and February 2017 (Page 2, 'Study area')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article evaluating the personal protection and bioefficacy of LLINs under household conditions in Tanzania."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Four villages (Kyamyorwa, Ntungamo, Kakoma, and Kabirizi) in Muleba district, North-West Tanzania (Page 2, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted between October 2016 and February 2017 (Page 2, 'Study area')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Embedded within a known cluster randomised trial in Muleba district (Protopopoff et al. 2018), but this paper presents specific household collection and cylinder bioassay data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No resistance marker genotyping was performed in the study; no supplementary files are referenced for genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated personal protection and bioefficacy of 20-month-old Olyset and Olyset Plus (PBO-pyrethroid) LLINs against wild Anopheles gambiae s.l. and An. funestus in Muleba district, Tanzania. Although cylinder bioassays and species identification PCR were conducted, no insecticide resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (PCR was used solely for sibling species identification within the An. gambiae complex)."
+    ]
+  }
+}

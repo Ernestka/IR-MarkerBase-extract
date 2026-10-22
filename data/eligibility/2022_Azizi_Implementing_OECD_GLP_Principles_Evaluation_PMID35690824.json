@@ -1,0 +1,67 @@
+{
+  "id": "2022_Azizi_Implementing_OECD_GLP_Principles_Evaluation_PMID35690824",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated wild Anopheles arabiensis and laboratory-reared Anopheles gambiae Kisumu strain (page 1, 6, 7)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for the kdr L1014S (Vgsc L995S) mutation using a TaqMan qPCR assay (page 7, 10, 15)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 7 on page 15 and text on pages 10-11 report kdr L1014S genotype counts for wild-caught An. arabiensis (N=88: 0 RRe, 0 RSe, 88 SSe)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild An. arabiensis mosquitoes were collected as larvae from Lower Moshi, Tanzania and reared to adults (page 6, 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting experimental hut trials and laboratory characterization of vector mosquitoes (page 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were made at Pasua (S03°22.764' E037°20.793') in Lower Moshi, Tanzania (page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field trial and mosquito collections were conducted from June 2019 to August 2019 (page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Primary field study conducted in 2019 with no textual evidence of sample overlap with external public databases or prior publications."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Genotype frequency/count data for the field-collected mosquitoes are fully provided in Table 7 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 88,
+    "summary": "This GLP-compliant study evaluated two candidate LLINs (SafeNet NF and SafeNet LLIN) in experimental huts against wild pyrethroid-resistant An. arabiensis in Pasua, Lower Moshi, Tanzania in 2019. Genotyping of wild-caught An. arabiensis (N=88) confirmed 100% SSe (homozygous susceptible) status for the Vgsc L1014S (L995S) mutation, while CDC bottle bioassays with PBO confirmed metabolic resistance mechanism involvement.",
+    "exclusion_reasons": []
+  }
+}

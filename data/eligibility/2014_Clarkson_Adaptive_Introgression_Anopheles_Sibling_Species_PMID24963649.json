@@ -1,0 +1,74 @@
+{
+  "id": "2014_Clarkson_Adaptive_Introgression_Anopheles_Sibling_Species_PMID24963649",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. and Anopheles coluzzii (M and S molecular forms) in southern Ghana (pages 1-3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotypes Vgsc-1014F (L995F/L1014F) in M and S forms (pages 1, 3, 8) and mentions Vgsc-1575Y (N1570Y) heterozygosity in S form individuals (page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports Vgsc-1014F frequency in M forms in southern Ghana (mean +/- s.d. = 0.79 +/- 0.07; range 0.67-0.90) (page 3, Fig 3a), genotypes for 15 whole-genome sequenced individuals (5 M-wt, 5 M-kdr, 5 S-kdr; page 8), and annual sample sizes for M/S form collections (Fig 3b)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes collected from 18 field sites across southern Ghana between 2003 and 2013 (pages 3, 8, Fig 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper reporting whole-genome sequencing and field population surveys."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field collections were performed across 18 sites in southern Ghana, with 6 specific locations sampled in 2007 (pages 3, 8, Fig 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections are broken down by year (2003, 2006, 2007, 2010, 2011, 2012, 2013; page 3, Fig 3b) and summer 2007 (page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Figure 3a includes data redrawn from Lynd et al. (2010, ref 33) combined with new data points ('with additional data points (points shown as x)')."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Per-site location details and specific sample numbers for the 2007 WGS collection locations are referenced in 'Supplementary Table 4' (page 8), which is not included in the provided text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2003,
+      2006,
+      2007,
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 4703,
+    "summary": "This study investigates adaptive introgression of the Vgsc-1014F (L995F) resistance mutation between Anopheles gambiae s.s. (S form) and Anopheles coluzzii (M form) in southern Ghana. Using whole-genome sequencing of 15 individuals and multi-year field sampling (2003-2013 across 18 sites), the authors show that introgression of Vgsc-1014F transferred a ~3.3 Mb pericentromeric genomic island without disrupting reproductive isolation between the species.",
+    "exclusion_reasons": []
+  }
+}

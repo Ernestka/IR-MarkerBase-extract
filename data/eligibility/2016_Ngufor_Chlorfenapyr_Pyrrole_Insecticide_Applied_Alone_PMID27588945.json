@@ -1,0 +1,68 @@
+{
+  "id": "2016_Ngufor_Chlorfenapyr_Pyrrole_Insecticide_Applied_Alone_PMID27588945",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted on wild pyrethroid-resistant Anopheles gambiae s.l. (consisting of An. coluzzii and An. gambiae s.s.) in experimental huts in Cove, Benin (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No resistance markers were genotyped in this study. The mention of 'kdr (L1014F) allele frequency of 89%' on page 3 cites previous characterization of the Cove field site (Ngufor et al. 2015, ref [13])."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No de novo genotype data, counts, or sample sizes for marker testing are reported in the study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild free-flying Anopheles gambiae s.l. entering experimental huts and larvae collected from rice paddies in Cove, Benin were tested (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary experimental hut trial evaluating chlorfenapyr and alpha-cypermethrin IRS."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study took place in Cove, Southern Benin (7°14'N, 2°18'E) (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections and experimental hut trials were conducted between June and September 2015 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard experimental hut trial performed at the LSHTM/CREC collaborative station in Cove, Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplementary file S1 Table contains hut collection raw counts; no genotyping data was generated."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of indoor residual spraying (IRS) with chlorfenapyr alone or mixed with alpha-cypermethrin against wild Anopheles gambiae s.l. in experimental huts in Cove, Benin. Although bioassays and hut performance metrics were assessed, no molecular genotyping of insecticide resistance markers was conducted.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "2018_Implications_of_Insecticide_Re_Implications_Insecticide_Resistance_Malaria_Vector_PMID30348209",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae (s.s.), Anopheles coluzzii, An. arabiensis, An. funestus, and An. culicifacies."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports phenotypic resistance (bioassay mortality) but does not report genotype data for any of the specified insecticide-resistance markers. Table 1 mentions 'Kdr frequency' as baseline information, but this refers to previously published data (e.g., references 16, 18, 42, 43) rather than new genotype data generated in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype counts or frequencies for the mosquitoes tested in this study; it only reports phenotypic mortality data from WHO bioassays."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study includes field-collected mosquitoes from Benin, Cameroon, Kenya, and Sudan."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting longitudinal monitoring of phenotypic resistance."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific districts for each country (e.g., Ifangni, Sakété, Pobé and Kétou in Benin; Garoua, Pitoa and Mayo Oulo in Cameroon)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports annual data collection over a 5-6 year period (2010-2016)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary multi-country prospective study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data, so no supplementary genotype data is needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae (s.s.)",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles culicifacies"
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon",
+      "India",
+      "Kenya",
+      "Sudan"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 90000,
+    "summary": "This study reports longitudinal phenotypic resistance (mortality) to pyrethroids in Anopheles vectors across five countries. It does not generate or report new genotype data for resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

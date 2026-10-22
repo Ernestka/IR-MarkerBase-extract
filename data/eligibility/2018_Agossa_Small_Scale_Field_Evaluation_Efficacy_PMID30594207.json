@@ -1,0 +1,67 @@
+{
+  "id": "2018_Agossa_Small_Scale_Field_Evaluation_Efficacy_PMID30594207",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tested wild Anopheles gambiae s.s. collected as larvae in Dangbo district, Benin, and the Kisumu susceptible strain (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Detection of Leu–Phe kdr mutation (Vgsc L995F / L1014F) was conducted using PCR according to Martinez-Torres et al. (1998) (page 4, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5 reports: 'Molecular analysis of the wild Anopheles population from Dangbo showed very high frequency of kdr mutation (0.99) (49/50)'."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from the field in Dangbo district, Benin, and reared to adults (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field and laboratory evaluation of insecticide formulations (page 1-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Dangbo district, Benin (page 2-3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Ethical approval was obtained in June 2015 and the study was conducted over an 11-month period prior to submission in February 2018 (page 4, 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field trial conducted in Dangbo, Benin; no overlap with larger consortia or external surveillance datasets indicated."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The kdr frequency and sample size are reported directly in the main text on page 5."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 50,
+    "summary": "This study evaluated the residual efficacy of Fludora Fusion (clothianidin + deltamethrin) against wild pyrethroid-resistant An. gambiae s.s. and susceptible Kisumu mosquitoes on cement and mud walls in Dangbo, Benin. The wild population was genotyped for the Leu-Phe kdr mutation (Vgsc L995F), showing a frequency of 0.99 (49/50).",
+    "exclusion_reasons": []
+  }
+}

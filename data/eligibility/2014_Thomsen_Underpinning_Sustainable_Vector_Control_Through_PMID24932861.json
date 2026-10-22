@@ -1,0 +1,71 @@
+{
+  "id": "2014_Thomsen_Underpinning_Sustainable_Vector_Control_Through_PMID24932861",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. and Anopheles funestus s.s. (page 5, 'Mosquito collections' and page 7, 'Mosquito Collections')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for kdr 1014F (Vgsc L995F), kdr 1014S (Vgsc L995S), and Ace-1 119S (Ace-1 G280S) by PCR (page 5, 'Resistance mechanisms' and Table 3, page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 (page 7) gives exact genotype counts (FF, LF, LL for kdr; rr, rs, ss for iACE) for An. gambiae s.s. from Kitwe (41 FF, 0 LF, 0 LL; 41 ss) and Kasama (16 FF, 8 LF, 2 LL; 25 ss)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult female mosquitoes were collected resting indoors in private dwellings from 54 localities across Zambia between March 2011 and April 2013 (page 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research study reporting original field collections, bioassay data, and molecular/transcriptomic assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 3 reports data at the district level (Kitwe and Kasama), and 54 specific collection localities across districts are detailed in Table S1."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between March 2011 and April 2013 (page 5), a 2-year window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Collections were part of national insecticide resistance monitoring by the National Malaria Control Centre supported by PMI/ZISSP; no indication of published duplication of the 2011-2013 genotype data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts are reported in Table 3 in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Zambia"
+    ],
+    "collection_years": [
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 67,
+    "summary": "This study evaluated insecticide susceptibility and underlying resistance mechanisms in Anopheles gambiae s.s. and Anopheles funestus s.s. across Zambia between 2011 and 2013. Target-site resistance genotyping (Vgsc L1014F, L1014S, and Ace-1 G119S) was performed on An. gambiae s.s. F0 females from Kitwe and Kasama districts, revealing high frequencies of 1014F (fixed in Kitwe) and an absence of 1014S and 119S.",
+    "exclusion_reasons": []
+  }
+}

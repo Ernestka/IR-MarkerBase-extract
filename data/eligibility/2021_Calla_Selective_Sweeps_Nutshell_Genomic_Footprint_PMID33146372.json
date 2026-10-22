@@ -1,0 +1,68 @@
+{
+  "id": "2021_Calla_Selective_Sweeps_Nutshell_Genomic_Footprint_PMID33146372",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the navel orangeworm (Amyelois transitella), which is a lepidopteran (moth) pest of almond orchards, not an Anopheles mosquito (Abstract, page 1; Introduction, page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports on the L934F mutation in the para gene of Amyelois transitella, which is not among the target markers for Anopheles species listed in the schema (Results, page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports that 100% of sequenced reads in the resistant population carried the L934F mutation (page 3) and provides nucleotide diversity data for three populations of 100 individuals each (Table 1, Table 2)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The populations (ALM, FIG, R347) were collected from orchards in Madera and Kern counties, California, USA (Materials and Methods, page 10)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing original genomic sequencing and bioassay data (Materials and Methods, page 10)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific counties in California: Madera and Kern (Figure 1, page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected in 2016 (Materials and Methods, page 10)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is an independent study of agricultural pests in the United States."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are mentioned but not required to confirm the study's ineligibility."
+    },
+    "markers_found": [],
+    "species": [
+      "Amyelois transitella"
+    ],
+    "countries": [
+      "USA"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "This study characterizes a large selective sweep associated with insecticide resistance in the navel orangeworm (Amyelois transitella) from California, USA. It identifies the L934F mutation in the para gene as a key factor. The study is ineligible for the database because it does not focus on Anopheles mosquitoes and the study populations are not from Africa.",
+    "exclusion_reasons": [
+      "The study focuses on Amyelois transitella (navel orangeworm), not Anopheles mosquitoes.",
+      "The study populations were collected in California, USA, not in Africa.",
+      "The insecticide resistance markers reported are not among the target markers for Anopheles species."
+    ]
+  }
+}

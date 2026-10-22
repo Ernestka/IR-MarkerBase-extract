@@ -1,0 +1,66 @@
+{
+  "id": "2014_Kawada_Small_Scale_Field_Trial_Pyriproxyfen_PMID25333785",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. and Anopheles arabiensis in Western Kenya (page 2, 'Individual species within An. gambiae s.l. were identified using the multiplex polymerase chain reaction (PCR) method')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR and direct DNA sequencing were performed to detect L1014S (Vgsc L995S) (page 4, 'Detection of Point Mutations in the Voltage-Gated Sodium Channel in An. gambiae s.s. ... The allelic frequency of the point mutation in the voltage-gated sodium channel (L1014S) in An. gambiae s.s. collected was 98.4%')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 4 reports: 'The allelic frequency of the point mutation in the voltage-gated sodium channel (L1014S) in An. gambiae s.s. collected was 98.4% (n = 96, Accession AB776705, AB776706).'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected inside residential houses in Ragwe village, Suba south sub-county, Homabay county, Western Kenya (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research field study investigating the effects of pyriproxyfen-impregnated bed nets on wild populations of An. gambiae s.s."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ragwe village, Suba south sub-county, Homabay county, Nyanza Province, Western Kenya (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between April 22 and May 2, 2013 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field trial conducted in Ragwe village in April–May 2013."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The genotype frequency and sample size are reported directly in the main text (page 4)."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 96,
+    "summary": "This study tested pyriproxyfen-impregnated bed nets in Ragwe village, Western Kenya, collecting wild Anopheles gambiae s.s. in April–May 2013. The Vgsc L1014S (L995S) mutation was genotyped in 96 female An. gambiae s.s., revealing an allelic frequency of 98.4%.",
+    "exclusion_reasons": []
+  }
+}

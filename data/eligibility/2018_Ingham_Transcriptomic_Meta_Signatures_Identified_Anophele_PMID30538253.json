@@ -1,0 +1,82 @@
+{
+  "id": "2018_Ingham_Transcriptomic_Meta_Signatures_Identified_Anophele_PMID30538253",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies members of the Anopheles gambiae species complex: Anopheles gambiae, Anopheles coluzzii, and Anopheles arabiensis (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report primary target marker genotyping data. It only mentions kdr frequency as metadata retrieved from previously published microarray studies (page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable target-site genotype counts or allele frequencies with sample sizes are reported for field mosquito populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Re-analyses transcriptomic datasets from field-caught/reared mosquitoes collected across multiple African countries (e.g., Côte d'Ivoire, Burkina Faso, Cameroon, Tanzania; Fig. 1, page 3)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a transcriptomic meta-analysis re-analysing 31 previously published microarray datasets retrieved from existing literature (refs 7-18, page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Datasets are mapped to specific sub-country collection sites across Africa, such as Tiassalé, VK7, Banfora, M'Be, Bouaké, etc. (Fig. 1, page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Metadata for the datasets spans 5 years of collections (2009-2014) with collection windows specified for each dataset (page 2, page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The study explicitly re-analyses 31 previously published microarray datasets retrieved from published literature (refs 7-18, page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary materials are not needed as the paper fails core eligibility checks (meta-analysis lacking primary marker genotyping data)."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Cameroon",
+      "Côte d'Ivoire",
+      "Equatorial Guinea",
+      "Mozambique",
+      "Sudan",
+      "Tanzania",
+      "Uganda",
+      "Zambia"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article presents a transcriptomic meta-analysis of 31 previously published microarray datasets comparing pyrethroid-resistant and susceptible Anopheles gambiae s.l. populations from sub-Saharan Africa. It identifies gene families (α-crystallins, hexamerins, ATPase subunits) and transcription factors associated with resistance, validated via RNAi and qPCR in lab colonies. It does not report primary target-site marker genotyping data.",
+    "exclusion_reasons": [
+      "Does not report primary target marker genotyping data for field populations",
+      "Is a meta-analysis re-analysing previously published transcriptomic datasets"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2020_Shah_Effectiveness_Older_Insecticide_Treated_Bed_PMID31941502",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Mentions Anopheles funestus and Anopheles gambiae s.l. entomological surveillance and resistance assay data in the study area (page 3-4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study is an epidemiological cohort study evaluating malaria incidence in children. It does not genotype any insecticide-resistance markers; it only refers to previous work in the first cohort reporting 'no evidence of target site mutation in kdr' (page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data or allele frequencies are reported in the paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Entomologic surveillance data discussed refers to field populations from Machinga District, Malawi (page 3-4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary epidemiologic cohort study of children in Malawi (page 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Traditional Authority of Sitola, Machinga District, Malawi (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Cohort followed from May to December 2013 (page 1, 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study does not present new entomological marker data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary mosquito genotype datasets are mentioned or needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Malawi"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is an epidemiological cohort study investigating the effectiveness of 1- to 2-year-old ITNs against malaria infection in children in Machinga District, Malawi. No mosquito genotyping was performed or reported.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped in this study.",
+      "No extractable mosquito genotype data are presented."
+    ]
+  }
+}

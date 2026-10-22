@@ -1,0 +1,65 @@
+{
+  "id": "2020_Nouage_Influence_GST_P450_Based_Metabolic_PMID32946446",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted on Anopheles funestus (both field F1 progeny and laboratory strains; page 3, 'Mosquito collection and rearing')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped the GSTe2 L119F marker in field-collected An. funestus (page 5, 'Genotyping of L119F-GSTe2 mutation in field-collected strain') and CYP6P9a_R in lab crosses (page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts for L119F-GSTe2 in field An. funestus are provided on page 7: among 360 blood-fed mosquitoes, 24 RR, 103 RS, 233 SS; among 300 unfed mosquitoes, 15 RR, 62 RS, 189 SS. Page 9 also reports genotype counts for probing/feeding duration (7 RR, 40 RS, 67 SS out of 114 successfully genotyped)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes were F1 adults reared from wild-caught indoor-resting females (F0) collected in Mibellon, Cameroon (page 3, 'Mosquito collection and rearing')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical research study assessing the effect of metabolic resistance markers on blood-feeding parameters."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred in 'Mibellon (6ɖ46’N, 11⁰ 70’E), a village located in a rural area of the savanna-forest region in Cameroon' (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Although specific collection months/years are not explicitly stated in the text, national ethics clearance was granted in April 2018 (Nɖ2018/04/1000/CE/CNERSH/SP) and the manuscript was received in March 2020, constraining the collection window to ≤3 years (2018–2020)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Mosquitoes were newly collected and reared at the CRID insectary in Yaound\u0000e for this specific blood-feeding experimental trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and results are presented in the main text and figures; S1 Table contains only qPCR primer sequences."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Cyp6p9a R"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 660,
+    "summary": "This study evaluated the effect of pyrethroid metabolic resistance markers on blood feeding in Anopheles funestus. F1 progeny from field-caught An. funestus from Mibellon, Cameroon were genotyped for GSTe2 L119F, reporting extractable genotype counts for blood-fed (24 RR, 103 RS, 233 SS) and unfed (15 RR, 62 RS, 189 SS) mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

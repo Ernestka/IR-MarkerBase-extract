@@ -1,0 +1,67 @@
+{
+  "id": "2018_Agossa_Efficacy_Novel_Mode_Action_Indoor_PMID29747684",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-22",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted on wild Anopheles gambiae (s.l.) mosquitoes and laboratory An. gambiae Kisumu strain (page 2, 'Methods')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Detection of Leu-Phe kdr mutation (Vgsc L995F) and insensitive acetylcholinesterase mutation Ace-1 (Ace-1 G280S) is reported (page 4, 'Detection of Leu-Phe kdr mutation...' and page 5, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 5) reports exact genotype counts for N=30 wild mosquitoes from Cov\bp: kdr (RR=27, RS=3, SS=0, frequency=0.95) and Ace-1 (RR=0, RS=2, SS=28, frequency=0.03)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild Anopheles gambiae (s.l.) mosquitoes collected at the experimental station in Cov\bp, Southern Benin (page 2 and Table 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting an experimental hut trial and associated baseline bioassays/genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections and testing were carried out at Cov\bp, Zou department, Southern Benin (page 2, 'Study design')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial and collections were carried out between October 2015 and May 2016 (page 2, 'Study design')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Standard experimental hut trial conducted by CREC in Benin using locally collected mosquitoes from Cov\bp."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype counts and frequencies are reported directly in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 30,
+    "summary": "This study evaluated the efficacy of SumiShield 50WG IRS against pyrethroid-resistant Anopheles gambiae (s.l.) in experimental huts in Cov\bp, Benin. As part of characterising the wild population, 30 untested mosquitoes were genotyped for Vgsc L995F (kdr-w) and Ace-1 G280S, with complete RR/RS/SS counts provided in Table 2.",
+    "exclusion_reasons": []
+  }
+}
