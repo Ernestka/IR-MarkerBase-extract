@@ -1,0 +1,68 @@
+{
+  "id": "2019_Dagg_Evaluation_Toxicity_Clothianidin_Neonicotinoid_Chl_PMID30795768",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report any new genotype data for insecticide-resistance markers. It only mentions that the field population was 'previously characterized' by kdr allele frequencies in other studies (page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported for the mosquitoes used in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-collected Anopheles arabiensis from Asendabo, Oromia Region, Ethiopia."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating insecticide toxicity."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Asendabo, Oromia region, Ethiopia (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred in 2017 and 2018 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new bioassay experiments on field-collected mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or its supplements."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the toxicity of clothianidin and chlorfenapyr against a laboratory strain and a field-collected population of Anopheles arabiensis from Ethiopia using WHO and CDC bottle bioassays. It does not perform or report any new molecular genotyping of insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "2015_Quinones_Insecticide_Resistance_Areas_Under_Investigation_PMID26259947",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper reviews insecticide resistance in Anopheles malaria vectors."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a review article and does not report primary genotype data for any of the listed markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype counts or frequencies; it only presents bioassay mortality data."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The paper discusses field populations from various African countries."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a review article ('This communication illustrates the current status of insecticide resistance...')."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper mentions specific locations like Jinja, Tororo, and Kanungu in Uganda."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper presents data from specific years or ranges."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper summarizing data from various ICEMR projects."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a review and does not contain primary genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles funestus s.s.",
+      "Anopheles arabiensis",
+      "Anopheles darlingi",
+      "Anopheles albimanus",
+      "Anopheles nuneztovari",
+      "Anopheles benarrochi",
+      "Anopheles pseudopunctipennis",
+      "Anopheles farauti",
+      "Anopheles punctulatus",
+      "Anopheles hinesorum",
+      "Anopheles culicifacies",
+      "Anopheles stephensi",
+      "Anopheles fluviatilis",
+      "Anopheles minimus",
+      "Anopheles dirus",
+      "Anopheles sundaicus",
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "Mali",
+      "Senegal",
+      "The Gambia",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe",
+      "Guatemala",
+      "Panama",
+      "Colombia",
+      "Peru",
+      "Brazil",
+      "India",
+      "China",
+      "Thailand",
+      "Myanmar",
+      "Papua New Guinea",
+      "Solomon Islands"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a review article summarizing the status of insecticide resistance in malaria vectors across various ICEMR study sites globally. It does not report primary empirical genotype data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

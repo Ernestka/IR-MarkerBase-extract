@@ -1,0 +1,68 @@
+{
+  "id": "2019_Tchouakui_Marker_Glutathione_Transferase_Mediated_Resistance_PMID30962458",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus s.s. (page 2, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for GSTe2 L119F (page 3, Table 2) and Rdl A296S (page 4, Association between A296S-RDL mutation and Plasmodium infection)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 3) provides genotype counts (RR, RS, SS) for L119F-GSTe2 in Obout and Mibellon."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Obout and Mibellon, Cameroon (page 9, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study investigating the association between resistance markers and Plasmodium infection."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites as Obout (Southern Region) and Mibellon (Adamaoua Region), Cameroon (page 9, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were performed in May 2016 and February 2017 (page 9, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections and genotyping."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay data are provided in the main text and tables."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1147,
+    "summary": "This study investigates the association between the L119F-GSTe2 metabolic resistance marker and Plasmodium infection in field-collected Anopheles funestus s.s. from two sites in Cameroon (Obout and Mibellon). It also examines the A296S-RDL target-site mutation. The study finds that homozygous resistant 119F/F mosquitoes are significantly more likely to be infected with Plasmodium sporozoites in Obout.",
+    "exclusion_reasons": []
+  }
+}

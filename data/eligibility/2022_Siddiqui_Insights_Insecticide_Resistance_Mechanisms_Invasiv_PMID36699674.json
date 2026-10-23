@@ -1,0 +1,70 @@
+{
+  "id": "2022_Siddiqui_Insights_Insecticide_Resistance_Mechanisms_Invasiv_PMID36699674",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper mentions Anopheles funestus on page 9 and cites studies on Anopheles gambiae in the references (e.g., Balabanidou et al. 2016)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The review discusses resistance mechanisms including kdr (Vgsc), Ace-1 (AChE), GST, and P450s on pages 8 and 9."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a review paper, it summarizes existing knowledge and cites other studies (Tables 1 and 2) but does not report any primary genotype counts or frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper does not report on any primary field collections or genotyping of mosquitoes from Africa; it is a global literature review."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The document is explicitly categorized as a 'TYPE Review' on page 1."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable for a review paper."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable for a review paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper and does not present new primary data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No primary data is expected in supplements for this review article."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review paper that provides a broad overview of insecticide resistance mechanisms (behavioral, metabolic, and target-site) in various invasive insect species globally. While it mentions Anopheles mosquitoes and common resistance markers like kdr and Ace-1, it does not contain any primary empirical data or field collection results from Africa.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

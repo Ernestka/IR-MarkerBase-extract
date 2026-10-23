@@ -1,0 +1,72 @@
+{
+  "id": "2022_Sengul_Demirak_Plant_Based_Bioinsecticides_Mosquito_Control_PMID35206735",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles mosquitoes throughout, for example on page 4: 'In mosquitoes, alterations of target site nerve receptors (e.g., mutations in kdr, Rdl and Ace-1R genes)...'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions markers like kdr (L1014F/S), Ace-1R (G119S), and Rdl (A296S/G) on page 4 in the context of explaining resistance mechanisms, but it does not report primary genotyping results."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a review paper, it summarizes existing literature and does not provide primary genotype counts or frequencies for specific populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review and does not report on a specific primary collection of mosquitoes from the field."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly labeled as a 'Review' on page 1."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary study locations are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper and does not present original data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No primary data is presented that would require a supplement."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles stephensi",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review paper discussing plant-based bioinsecticides for mosquito control. It summarizes the mechanisms of insecticide resistance, including target-site mutations like kdr, Ace-1, and Rdl, but does not present any primary empirical data or genotype frequencies.",
+    "exclusion_reasons": [
+      "is_review",
+      "no_primary_genotype_data"
+    ]
+  }
+}

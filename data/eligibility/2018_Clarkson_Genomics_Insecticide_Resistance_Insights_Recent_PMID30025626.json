@@ -1,0 +1,67 @@
+{
+  "id": "2018_Clarkson_Genomics_Insecticide_Resistance_Insights_Recent_PMID30025626",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on Anopheles gambiae, the major vector of malaria in Africa (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions Vgsc L1014F, L1014S, and Ace-1 G119S (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a review paper and does not report primary genotype data; it summarizes findings from other studies such as the Ag1000G project."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The paper discusses genomic studies of natural mosquito populations collected from various African countries (Page 2)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The document is explicitly identified as a review article in the journal header and the introduction ('Here we provide a brief overview...') (Page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "As a review, it does not provide specific site-level data for primary collections."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No specific collection dates for primary data are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No primary data is expected in supplements for this review article."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article providing an overview of how genomics, particularly whole-genome sequencing (WGS), is transforming the study of insecticide resistance in African malaria vectors. It discusses findings from the Ag1000G project but does not present new primary genotype data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

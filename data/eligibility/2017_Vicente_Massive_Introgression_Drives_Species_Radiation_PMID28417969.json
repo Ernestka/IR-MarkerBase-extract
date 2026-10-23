@@ -1,0 +1,68 @@
+{
+  "id": "2017_Vicente_Massive_Introgression_Drives_Species_Radiation_PMID28417969",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles coluzzii (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-1014F) and Ace-1 G119S (page 6, 7, 11)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides allele frequencies and sample sizes for kdr and ace-1 across genetic clusters."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Guinea-Bissau (page 9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and genetic analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies eight localities in Guinea-Bissau (e.g., Quinhamel, Safim, Antula, Mansoa, Mandingará, Ga-Mbana, Comuda, Leibala) (page 3, 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place between 10th and 30th October 2010 (page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections from 2010."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in Table 3."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Guinea-Bissau"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 687,
+    "summary": "This study investigated the hybrid zone between Anopheles coluzzii and Anopheles gambiae in Guinea-Bissau using microsatellites, chromosomal inversions, and whole-genome sequencing. It reports the frequency of kdr (L1014F) and ace-1 (G119S) resistance markers across different genetic clusters.",
+    "exclusion_reasons": []
+  }
+}

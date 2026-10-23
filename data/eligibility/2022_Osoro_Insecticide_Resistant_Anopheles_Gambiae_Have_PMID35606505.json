@@ -1,0 +1,68 @@
+{
+  "id": "2022_Osoro_Insecticide_Resistant_Anopheles_Gambiae_Have_PMID35606505",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae (page 1, 'Insecticide resistant Anopheles gambiae have enhanced longevity...')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mentions kdr mutations L1014S (Vgsc L995S) and L1014F (Vgsc L995F) in the mosquito colonies (page 2, 'kdr mutations with allele frequencies of 77% (L1014S) and 23% (L1014F)')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Does not report primary/extractable genotype counts or frequencies from newly genotyped populations; kdr allele frequencies for the colony lines are cited from a previous study (Machani et al. 2020, ref 17) (page 2)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Experiments were performed using laboratory-reared/selected lines (6th generation resistant colony, 13th generation susceptible colony, and the Kisumu reference lab strain) rather than field-caught (F0) or F1 mosquitoes (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study measuring gonotrophic cycle, fecundity, and adult longevity under semi-field conditions (pages 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Original colony collected in Bungoma, western Kenya; experiments conducted in Kisumu, Kenya (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not state the collection year range for the field-collected mother colony."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The mosquito colonies and their kdr genotype frequencies are derived directly from Machani et al. 2020 (ref 17) (page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary Table S1 is cited for colony characteristics, but eligibility fails on core requirements (lack of primary extractable genotype data and use of lab colonies)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the fitness costs of pyrethroid resistance (gonotrophic cycle length, fecundity, and longevity) in Anopheles gambiae using lab-selected multi-generation colonies (F6 resistant and F13 susceptible) originally derived from Bungoma, Kenya, alongside the Kisumu reference strain. It does not report new genotype data for field populations.",
+    "exclusion_reasons": [
+      "Does not report primary/extractable genotype data for target markers (kdr frequencies are cited from a previous paper).",
+      "Tested mosquitoes are laboratory-selected/reared colonies (F6 and F13 generations) and reference strains rather than African field populations (F0 or F1)."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2016_Djouaka_Multiple_Insecticide_Resistance_Infected_Populatio_PMID27531125",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus and Anopheles coluzzii (Abstract, Page 1; Table 1, Page 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes GSTe2 L119F and Rdl A296S (Abstract, Page 1; Page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies are provided for 92 mosquitoes: for GSTe2 L119F, 84/92 were RR and 8/92 were RS; for Rdl A296S, 91/92 were SS and 1/92 was RS (Page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the rural locality of Kpome in southern Benin (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original collection and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to the locality of Kpome (6°23′N, 2°13′E) (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between December 2013 and February 2014 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study presents new data from Kpome, distinguishing it from previous work in Pahou (Page 8)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "While supplementary figures (S1, S2) are mentioned, the necessary genotype counts are provided in the main text on page 7."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 92,
+    "summary": "This study investigates insecticide resistance in Anopheles funestus from Kpome, Benin, collected in 2013-2014. It reports high phenotypic resistance to pyrethroids, DDT, and bendiocarb. Molecular analysis of 92 field-collected mosquitoes revealed a high frequency of the GSTe2 L119F mutation (91% RR) and a very low frequency of the Rdl A296S mutation (1% RS). The study also examines the association between GSTe2 genotypes and DDT resistance phenotypes.",
+    "exclusion_reasons": []
+  }
+}

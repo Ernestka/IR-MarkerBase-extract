@@ -1,0 +1,65 @@
+{
+  "id": "2024_Bilgo_Wolbachia_Confers_Protection_Against_Entomopathoge_PMID39097980",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on African Aedes aegypti wild-type populations (Abstract, Page 1). While it mentions that Metarhizium pingshaense is lethal against Anopheles mosquitoes, it does not perform experiments on Anopheles in this paper."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes Wolbachia strains (wAlbB and wAu) using the wsp gene and hth as a reference gene (Page 3), but does not genotype any of the target insecticide resistance markers listed in the schema (e.g., Vgsc L995F, Ace-1 G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for target insecticide resistance markers is provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Ae. aegypti aegypti (BF_WT) from Bobo-Dioulasso, Burkina Faso (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original experimental results on Wolbachia-fungus interactions in mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Bobo-Dioulasso, Burkina Faso (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The specific years of collection for the field-collected Aedes aegypti used to establish the BF_WT line are not explicitly stated."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a mosquito line (BF_WT) established from field collections in Bobo-Dioulasso, but there is no indication of data overlap with larger genomic datasets for insecticide resistance markers."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary information to determine eligibility is present in the main text; target genotype data is not expected to be in the supplement as it is not the focus of the study."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the interaction between two strains of Wolbachia (wAlbB and wAu) and the entomopathogenic fungus Metarhizium pingshaense in Aedes aegypti mosquitoes from Burkina Faso. The research demonstrates that Wolbachia provides a survival advantage against fungal infection. However, the study is ineligible as it does not focus on Anopheles mosquitoes and does not report genotyping of target insecticide resistance markers.",
+    "exclusion_reasons": [
+      "The study focuses on Aedes aegypti, not Anopheles mosquitoes.",
+      "The study does not report genotyping of any target insecticide resistance markers."
+    ]
+  }
+}

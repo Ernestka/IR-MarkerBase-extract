@@ -1,0 +1,68 @@
+{
+  "id": "2017_Kafy_Impact_Insecticide_Resistance_Anopheles_Arabiensis_PMID29229808",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, the main malaria vector in the study area (page 2, 7)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc-1014F (L995F) (page 3, 4, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports the number of specimens successfully genotyped (1,847 of 1,872) and provides allele frequency data in Figure 1 and associated text (page 3, 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Galabat, Sudan, using field-collected Anopheles arabiensis (page 2, 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical cluster randomized trial (page 1, 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Galabat, Gedarif State, Sudan (page 2, 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study period was from June 1, 2012, to May 31, 2015 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states it is 'loosely linked to a larger multicountry study' (page 7), but this is a distinct, primary cluster randomized trial with its own specific data collection."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data (genotype counts/frequencies, bioassay results, and study design) are provided in the main text, tables, and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1847,
+    "summary": "This cluster randomized trial in Galabat, Sudan, investigated the impact of insecticide resistance on malaria incidence and prevalence by comparing LLIN-only clusters with LLIN + IRS clusters (using deltamethrin in 2012 and bendiocarb in 2013-2014). The study genotyped Anopheles arabiensis for the Vgsc-1014F marker and performed phenotypic bioassays.",
+    "exclusion_reasons": []
+  }
+}

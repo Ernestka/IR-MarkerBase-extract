@@ -1,0 +1,71 @@
+{
+  "id": "2024_Patel_Comparison_Effect_Bacterial_Stimulation_Global_PMID38844266",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study examines members of the Anopheles gambiae complex, specifically An. arabiensis, An. merus, and An. quadriannulatus (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the Vgsc L1014F (kdr) mutation in the context of the SENN DDT laboratory strain (Page 2, Section 2.1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts or frequencies for any target markers in the field-collected population. It only states that the SENN DDT laboratory strain is 'fixed for the L1014F kdr mutation' (Page 2, Section 2.1)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild An. arabiensis were collected from Mamfene, Kwazulu-Natal, South Africa (Page 2, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating epigenetic and transcriptomic responses to bacterial stimulation."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Mamfene, Kwazulu-Natal, South Africa (Page 2, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Wild specimens were collected between October 2019 and February 2020 (Page 2, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The mosquitoes were collected specifically for this study, though the SENN/SENN DDT/MAFUS/SANGWE laboratory strains are standard colonies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "There is no indication that genotype data for the field population is provided in supplementary materials."
+    },
+    "markers_found": [
+      "Vgsc L1014F"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles merus",
+      "Anopheles quadriannulatus"
+    ],
+    "countries": [
+      "South Africa"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study investigates the global epigenetic landscape and immune gene expression in Anopheles arabiensis, An. merus, and An. quadriannulatus in response to bacterial stimulation. While it utilizes a laboratory strain (SENN DDT) known to be fixed for the Vgsc L1014F mutation, it does not report any genotype data (counts or frequencies) for the field-collected mosquitoes from South Africa.",
+    "exclusion_reasons": [
+      "No extractable genotype data for the target markers in the field-collected population. The only genotype information provided is for a laboratory strain (SENN DDT)."
+    ]
+  }
+}
