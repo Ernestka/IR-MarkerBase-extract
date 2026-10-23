@@ -1,0 +1,70 @@
+{
+  "id": "2018_Finda_Dramatic_Decreases_Malaria_Transmission_Intensitie_PMID30326881",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'All Anopheles mosquitoes were morphologically identified... sub-samples of An. gambiae and An. funestus examined by PCR to distinguish morphologically-similar siblings.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page 10: 'Knock down resistance (kdr) assays were not assessed, but a previous study done in villages in the neighboring Ulanga district indicated absence of kdr mutation genes [50].'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for resistance markers is provided in the text, tables, or figures; the study focuses on species identification and sporozoite detection."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 1: 'This study was conducted in Ifakara town and its adjacent wards located in the Kilombero river valley, in south-eastern Tanzania.'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper describes original entomological field collections and laboratory analysis (ELISA, PCR, bioassays) conducted between 2015 and 2016."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: 'The Ifakara town area is administratively divided into five wards, namely Ifakara Mjini (Ifakara town centre), Katindiuka, Lipangalala, Mlabani and Viwanja Sitini.'"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 1: 'Mosquitoes were trapped nightly or monthly (June.2015–May.2016)'."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine entomological surveillance conducted by the authors in Ifakara town."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The text explicitly states that kdr assays were not performed, so no supplementary genotype data is expected."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles funestus s.s.",
+      "Anopheles rivulorum",
+      "Anopheles leesoni"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 8613,
+    "summary": "The study assesses malaria transmission intensity and insecticide susceptibility in Ifakara, Tanzania. While it reports phenotypic resistance to pyrethroids, DDT, and pirimiphos-methyl in An. arabiensis using WHO susceptibility assays, it does not genotype any insecticide-resistance markers, explicitly stating that kdr assays were not performed.",
+    "exclusion_reasons": [
+      "Does not report genotyping of any target insecticide-resistance markers. The authors explicitly state on page 10 that 'Knock down resistance (kdr) assays were not assessed'."
+    ]
+  }
+}

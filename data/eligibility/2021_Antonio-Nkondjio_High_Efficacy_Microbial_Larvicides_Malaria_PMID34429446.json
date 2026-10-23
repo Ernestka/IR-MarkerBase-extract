@@ -1,0 +1,75 @@
+{
+  "id": "2021_Antonio-Nkondjio_High_Efficacy_Microbial_Larvicides_Malaria_PMID34429446",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus in Yaoundé, Cameroon (Page 1, Page 5 Table 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports the frequency of the 1014F Kdr allele (Vgsc L995F) in An. gambiae s.l. (Page 7 Table 8, Page 12)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Table 8 (Page 7) reports 1014F Kdr allele frequencies (60%, 75%, 67%, 73%) for the years 2017, 2018, 2019, and 2020, but it does not provide the number of mosquitoes genotyped (N) for these specific markers. The text on page 12 mentions a 'sub-sample' was used but does not specify the size."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in the city of Yaoundé, Cameroon (Page 1, Page 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting the results of a cluster randomized larviciding trial (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to specific districts/clusters within the city of Yaoundé, such as Mendong, Nkolbisson, and others shown in Figure 3 (Page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Data collection is broken down by year (2017, 2018, 2019, 2020) and specific months (Page 10 Figure 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the authors mention that some baseline data were published previously (Refs 42-49), this paper appears to be the primary report for the full 2017-2020 larviciding trial results."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper mentions that 'Supplementary Information The online version contains supplementary material available at https://doi.org/10.1038/s41598-021-96362-z' (Page 15), which may contain the missing genotype sample sizes."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus",
+      "Anopheles ziemanni",
+      "Anopheles leesoni"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 6664,
+    "summary": "The study is a cluster randomized trial evaluating the efficacy of microbial larviciding (VectoMax) against Anopheles vectors in Yaoundé, Cameroon. It reports 1014F (L995F) kdr allele frequencies for An. gambiae s.l. across four years (2017-2020), but it is ineligible for the database because it fails to provide the sample size (N) for the genotyping results in the main text or tables.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

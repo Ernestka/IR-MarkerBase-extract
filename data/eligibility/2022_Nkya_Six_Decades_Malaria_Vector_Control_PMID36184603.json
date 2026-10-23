@@ -1,0 +1,73 @@
+{
+  "id": "2022_Nkya_Six_Decades_Malaria_Vector_Control_PMID36184603",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review focuses on malaria vectors in southern Africa, discussing species such as Anopheles funestus, An. gambiae s.s., and An. arabiensis (page 1, 4-8)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The review generally mentions target-site mutation (knockdown resistance) in the literature (page 8), but does not conduct or report specific target marker genotyping of its own."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary extractable genotype counts, allele frequencies, or sample sizes are presented in this review."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "This is a secondary review synthesis of published literature; it does not collect or test field mosquito populations."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly a literature review: 'Six decades of malaria vector control in southern Africa: a review of the entomological evidence-base' (page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable for a secondary literature review."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable for a review encompassing six decades of published literature (1963-2021)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a literature review."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper is excluded based on study type."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Botswana",
+      "Eswatini",
+      "Mozambique",
+      "Namibia",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a systematic literature review summarizing sixty years of entomological evidence on malaria vectors and vector control in southern Africa (Botswana, Eswatini, Namibia, Mozambique, Zambia, and Zimbabwe). It contains no primary empirical field collections or extractable genotype data.",
+    "exclusion_reasons": [
+      "not a primary empirical study (literature review)",
+      "does not report primary extractable genotype data for target resistance markers",
+      "does not test primary African field populations"
+    ]
+  }
+}

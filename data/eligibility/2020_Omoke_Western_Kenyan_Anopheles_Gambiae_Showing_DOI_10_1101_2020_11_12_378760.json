@@ -1,0 +1,67 @@
+{
+  "id": "2020_Omoke_Western_Kenyan_Anopheles_Gambiae_Showing_DOI_10_1101_2020_11_12_378760",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (Page 1, 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for kdr East (Vgsc L1014S) and kdr West (Vgsc L1014F) (Page 2, 9, 14)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports that 100 mosquitoes (50 resistant and 50 susceptible) were genotyped, finding that kdr East was nearly fixed (99% or 99.14%) and kdr West was present in 1% of samples (Page 2, 14, 20)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as blood-fed/gravid females from Tulukuyi village, Bungoma County, Kenya in 2018, and their F1 progeny were used (Page 2, 6)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study characterizing the microbiota and insecticide resistance markers of field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Tulukuyi village, Bungoma County, Kenya (0.56°N 34.56°E) (Page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in April and May 2018 (Page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study appears to be an independent investigation of mosquito microbiota by researchers from KEMRI and CDC, using specific 2018 collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The genotype frequencies are summarized in the main text as being fixed or nearly fixed (99%), which is sufficient for extraction."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 100,
+    "summary": "This study characterizes the microbiota of Anopheles gambiae s.s. from Tulukuyi village, Bungoma County, Western Kenya, in relation to permethrin resistance. F1 progeny of field-caught mosquitoes were tested using CDC bottle bioassays (5X dose). A subset of 100 mosquitoes (50 resistant and 50 susceptible) were genotyped for kdr mutations. The kdr East (L1014S) mutation was found to be nearly fixed (99-99.14%) in the population, while kdr West (L1014F) was detected in 1% of the samples.",
+    "exclusion_reasons": []
+  }
+}

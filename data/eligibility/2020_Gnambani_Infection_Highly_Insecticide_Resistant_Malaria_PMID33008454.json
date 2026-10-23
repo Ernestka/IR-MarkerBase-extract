@@ -1,0 +1,64 @@
+{
+  "id": "2020_Gnambani_Infection_Highly_Insecticide_Resistant_Malaria_PMID33008454",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles coluzzii (F1 progeny from Kou Valley, Burkina Faso) and Anopheles gambiae s.l. (page 1, Abstract; page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes the Vgsc L1014F (L995F) mutation: 'The kdr gene prevalence within a subsample of mosquitoes (180 mosquitoes) was performed using the PCR protocol and primer sequences previously described [21]. The mutation L1014F was only analysed' (page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 3 and page 5 report: 'The kdr gene prevalence within a subsample of mosquitoes (180 mosquitoes) was performed' and 'The level of kdr resistance within the subsample of first generation (F1) progeny of An. coluzzii that we used for bioassays was 98.3%'."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were F1 progeny reared from larval collections at Kou Valley (11°23' N, 4°24' W) in western Burkina Faso (page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article evaluating the entomopathogenic effect of Chromobacterium violaceum on Anopheles coluzzii (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The collection site is specified as Kou Valley (11°23' N, 4°24' W) in western Burkina Faso (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection months or years for the Kou Valley larval collections are stated in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Mosquito larvae were collected directly from Kou Valley for local laboratory infection assays; no mention of external consortium or shared biobank datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The reported kdr marker prevalence and sample size are presented in the main text; supplementary files contain only bacterial identification and R script."
+    },
+    "markers_found": [
+      "Vgsc-L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 180,
+    "summary": "This study evaluated the entomopathogenic effects of Chromobacterium violaceum against pyrethroid-resistant Anopheles coluzzii from Kou Valley, Burkina Faso. A subsample of 180 F1 mosquitoes was genotyped for the Vgsc L1014F (L995F) kdr marker, reporting 98.3% resistance frequency.",
+    "exclusion_reasons": []
+  }
+}

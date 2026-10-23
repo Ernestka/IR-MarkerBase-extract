@@ -1,0 +1,70 @@
+{
+  "id": "2019_He_Modification_Contact_Avoidance_Behaviour_Associate_PMID30971253",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles sinensis (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped para-type sodium channel gene position L1014 (L1014F and L1014C) (Page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports kdr genotype frequencies and sample sizes for field populations: 146 from Bishan, 94 from Yuanyang, and 100 from Wuhe (Page 5, Fig 3)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Field populations were collected in China (Yuanyang County, Yunnan Province; Bishan District, Chongqing; Wuhe County, Anhui Province) (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting field sampling, WHO susceptibility tube tests, cone bioassays, and genotyping (Pages 2-5)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific counties/districts with coordinates are provided: Bishan County (N: 29°06', E: 106°22'), Yuanyang County (N: 23°04', E: 102°44'), Wuhe County (N: 33°15', E: 117°88') (Table 1, Page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling conducted in June–August 2017 and 2018 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary field collection performed specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are included in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L1014F",
+      "Vgsc L1014C"
+    ],
+    "species": [
+      "Anopheles sinensis"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 340,
+    "summary": "This primary study examined deltamethrin resistance and kdr mutations (L1014F and L1014C) in Anopheles sinensis in three locations in China. The paper is ineligible because the field-collected vector populations are from Asia (China) rather than Africa.",
+    "exclusion_reasons": [
+      "Study populations were collected in China, failing the required African field population criterion."
+    ]
+  }
+}

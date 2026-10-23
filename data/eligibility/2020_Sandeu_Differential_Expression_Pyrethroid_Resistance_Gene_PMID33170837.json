@@ -1,0 +1,68 @@
+{
+  "id": "2020_Sandeu_Differential_Expression_Pyrethroid_Resistance_Gene_PMID33170837",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the malaria vector Anopheles funestus (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports gene expression levels (microarray and qRT-PCR) and genotypes 17 microsatellite markers. It does not report genotypes for any of the specific insecticide-resistance markers (SNPs, CNVs, or SVs) listed in the schema, such as GSTe2 L119F or Cyp6p9a/b R alleles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "While the paper provides population genetic data for microsatellites (Table 3), it does not provide genotype or allele frequencies for the target resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from four districts in Uganda (Arua, Bulambuli, Lira, Tororo) and Kisumu in Kenya (Page 3, Study sites and samples)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original transcriptomic and population genetic data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific localities: Arua, Bulambuli, Lira, Tororo in Uganda and Kisumu in Kenya (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were carried out between December 2011 and June 2012 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine new collections for this specific research project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text and tables provide sufficient information to determine that the study does not meet the inclusion criteria for target marker genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda",
+      "Kenya"
+    ],
+    "collection_years": [
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 207,
+    "summary": "This study investigates the molecular basis of pyrethroid resistance in Anopheles funestus from Uganda and Kenya using microarray-based transcription profiling and microsatellite genotyping. The authors identified several up-regulated cytochrome P450 genes (e.g., CYP6M7, CYP9K1) and assessed population structure. However, the paper is ineligible for the database because it does not report genotype frequencies for any of the specific target insecticide-resistance markers (SNPs, CNVs, or SVs) required by the schema.",
+    "exclusion_reasons": [
+      "Does not report genotypes for any of the target insecticide-resistance markers (SNPs, CNVs, or SVs) listed in the schema. The study focuses on gene expression (microarray/qRT-PCR) and microsatellite genotyping."
+    ]
+  }
+}

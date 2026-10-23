@@ -1,0 +1,67 @@
+{
+  "id": "2018_Tchouakui_Fitness_Costs_Glutathione_Transferase_Epsilon_PMID30572680",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted on field-caught female Anopheles funestus s.s. mosquitoes (Page 1, Abstract; Page 3, Section 2.1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The authors genotyped the GSTe2 L119F mutation in Anopheles funestus (Page 5, Section 3.3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies for 260 oviposited F0 females are reported: 16 (6.1%) 119F/F-RR, 97 (37.3%) L119F-RS, and 147 (56.5%) L/L119-SS (Page 5, Section 3.3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Indoor resting blood-fed female mosquitoes were collected in Mibellon, Cameroon between May 2016 and February 2017 (Page 3, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical paper measuring fitness costs and life-trait parameters associated with the GSTe2 L119F marker in field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were made in Mibellon village (6°46' N, 11°70' E), Adamawa Region, Mayo Banyo Division, Bankim sub-division, Cameroon (Page 3, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between May 2016 and February 2017 (Page 3, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field samples were collected in Mibellon, Cameroon specifically for evaluating life history traits in this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Extractable genotype numbers and frequencies for the target population are fully presented in the main text."
+    },
+    "markers_found": [
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 260,
+    "summary": "This primary study evaluated fitness costs associated with the GSTe2 L119F metabolic resistance mutation in field-collected Anopheles funestus s.s. from Mibellon, Cameroon (2016–2017). Genotyping of 260 F0 female mosquitoes provided allele and genotype frequencies (16 RR, 97 RS, 147 SS). The marker was evaluated for association with fecundity, larval development time, and adult longevity.",
+    "exclusion_reasons": []
+  }
+}

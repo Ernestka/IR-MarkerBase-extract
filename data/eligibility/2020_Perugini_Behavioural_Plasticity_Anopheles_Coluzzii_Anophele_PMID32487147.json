@@ -1,0 +1,68 @@
+{
+  "id": "2020_Perugini_Behavioural_Plasticity_Anopheles_Coluzzii_Anophele_PMID32487147",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study collected and identified Anopheles gambiae (s.l.), specifically Anopheles coluzzii, Anopheles arabiensis, and Anopheles gambiae (s.s.) (Abstract and Results, Page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotyped the L1014F (kdr-w) mutation in the sodium-gated voltage-channel gene (Page 3, Methods; Page 5, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 on page 5 provides genotype frequencies (RR, RS, SS) and total sample sizes (n=122 for An. arabiensis and n=163 for An. coluzzii) for the L1014F mutation."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using human landing catches in the village of Goden, Plateau Central region, Burkina Faso, in November 2015 (Page 2, Sampling area)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting original entomological field collections and molecular genotyping results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to the village of Goden (12° 25′ N, 1° 21′ W) in the Zinaré health district, Plateau Central region, Burkina Faso (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections were carried out over 12 nights in November 2015 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors mention previous studies in the same village in 2011 and 2012 (references 24 and 25), but explicitly state that the current data come from a new collection in 2015 (Page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and frequencies for the target markers are provided in Table 2 of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 285,
+    "summary": "This study reports on the biting behavior and insecticide resistance of Anopheles coluzzii and Anopheles arabiensis in Goden, Burkina Faso. Mosquitoes were collected in November 2015, and a subsample of 285 individuals was genotyped for the Vgsc L1014F (L995F) mutation. The study found high frequencies of the resistant allele (66% in An. coluzzii and 38% in An. arabiensis) and observed behavioral plasticity in biting patterns despite high LLIN coverage.",
+    "exclusion_reasons": []
+  }
+}

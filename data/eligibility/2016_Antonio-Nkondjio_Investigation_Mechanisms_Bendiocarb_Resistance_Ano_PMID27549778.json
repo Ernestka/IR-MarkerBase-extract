@@ -1,0 +1,70 @@
+{
+  "id": "2016_Antonio-Nkondjio_Investigation_Mechanisms_Bendiocarb_Resistance_Ano_PMID27549778",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae and Anopheles coluzzii populations from the city of Yaoundé, Cameroon (Abstract, Page 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study screens for the Ace-1R (G119S) mutation using TaqMan assays (Abstract, Page 3, Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 4: 'A total of 392 specimens including survivors after exposition to bendiocarb (resistant), dead (susceptible) and control (unexposed) were processed to search for Ace-1R mutation presence. None were detected carrying the Ace-1R mutation.' This provides a count of 0/392 for the resistant allele (392 SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from districts of the city of Yaoundé, Cameroon, and reared to adults for testing (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to the city of Yaoundé (3°51′N 11°30′E) and specific sites such as Nkolondom (Page 2, Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study period for mosquito collections and bioassays is stated as October 2010 to December 2013 (Page 2, Page 4), which spans more than three years (4 calendar years)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the authors have published other studies on these populations (e.g., Nwane et al. 2013, Antonio-Nkondjio et al. 2015), this paper presents new bendiocarb-specific resistance mechanism data and genotyping results."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The primary genotype result (0/392 for Ace-1 G119S) is reported in the main text on page 4."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 392,
+    "summary": "The study investigated bendiocarb resistance mechanisms in Anopheles gambiae and Anopheles coluzzii populations from Yaoundé, Cameroon, collected between 2010 and 2013. Bioassays confirmed resistance to bendiocarb, DDT, and pyrethroids. Genotyping of 392 mosquitoes (including survivors and dead from bioassays) for the Ace-1 G119S mutation found no resistant alleles (0/392). Microarray analysis indicated that resistance is likely metabolic, involving the over-expression of several cytochrome P450 genes including cyp6z3, cyp6z1, cyp12f2, cyp6m3, and cyp6p4.",
+    "exclusion_reasons": []
+  }
+}

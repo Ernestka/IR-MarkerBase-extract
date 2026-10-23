@@ -1,0 +1,63 @@
+{
+  "id": "2019_Adolfi_Functional_Genetic_Validation_Key_Genes_PMID31801878",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the major African malaria vector, Anopheles gambiae (Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study focuses on the functional validation of Cyp6m2, Cyp6p3, and Gste2 through transgenic overexpression and does not report genotypes for the specific markers listed in the schema (e.g., Vgsc L995F, Ace-1 G280S) in field populations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports bioassay mortality for transgenic lines but does not provide genotype or allele counts/frequencies for field populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All experiments were performed using laboratory-reared transgenic lines and susceptible lab strains (Kisumu, G3). No field-collected mosquitoes were used for genotyping or bioassays in this study (Materials and Methods, Page 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing functional genetic validation experiments."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection sites are mentioned as no field work was conducted for this study."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates are provided as no field work was conducted."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a unique functional validation study using transgenic lines created specifically for this research."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary materials are mentioned (e.g., SI Appendix, Table S2) but are not required for eligibility as the study is fundamentally ineligible due to the lack of field population data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study describes the functional validation of three candidate resistance genes (Cyp6m2, Cyp6p3, and Gste2) in Anopheles gambiae using the GAL4/UAS transgenic system. The authors demonstrate that overexpression of these genes confers resistance to various insecticide classes. However, the study does not report any genotype frequency data from African field populations, as it relies entirely on laboratory-reared transgenic lines.",
+    "exclusion_reasons": [
+      "The study does not report genotype frequencies for any of the target markers in African field populations.",
+      "The mosquitoes tested are laboratory colonies or transgenic lines, not field-caught or F1 progeny from the field."
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2016_Ndiath_Composition_Genetics_Malaria_Vector_Populations_PMID27456078",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study analyzes Anopheles gambiae, Anopheles funestus, Anopheles coluzzii, and other Anopheles species (Abstract, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the Vgsc L1014F (kdr-w) mutation (Abstract, Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts for the L1014F mutation are provided on page 7: 'Thus 92.3 % of the An. gambiae sister taxa mosquitoes presented a homozygous resistant profile of the type RR (n = 169), 4.4 % a heterozygous profile RS (n = 8)... None of the tested An. gambiae sister taxa mosquitoes was found to be homozygous for the insecticide sensitive wild type kdr allele L1014.'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 15 districts in Bangui, Central African Republic (Abstract, Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing original entomological and genetic data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to 15 specific districts in Bangui, such as Gbanikola, Taoka Saint Paul, and PK 10 (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 2013 (September–October and November–December) (Abstract)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study appears to be an independent collection by the Institut Pasteur and does not mention being part of a larger surveillance network or consortium."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Additional file 5: Table S1 contains molecular attribute data (genotypes) for mosquitoes collected in 4 districts of Bangui, which would provide finer spatial resolution than the aggregate counts in the text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Central African Republic"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 177,
+    "summary": "The study characterizes the composition and insecticide resistance genetics of Anopheles populations in Bangui, Central African Republic, in 2013. It reports high frequencies of the Vgsc L1014F (kdr-w) mutation in the Anopheles gambiae complex, with the resistant allele nearly fixed (92.3% RR, 4.4% RS, 0% SS).",
+    "exclusion_reasons": []
+  }
+}
