@@ -1,0 +1,66 @@
+{
+  "id": "2021_Makhanthisa_Effect_Cattle_Administered_Ivermectin_Fipronil_PMID34215295",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report any insecticide-resistance marker genotyping (e.g., kdr, ace-1, etc.). It is a bioassay study on the effect of cattle-administered endectocides on mosquito mortality and fecundity."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data is reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes used were laboratory-reared colonies obtained from the Vector Control Laboratory of the South African National Institute for Communicable Diseases."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study investigating the effects of ivermectin and fipronil on An. arabiensis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the Experimental farm of the University of Pretoria, Pretoria, South Africa."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2021 and the experiments were conducted within a single study period."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new experimental study using laboratory-reared mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is required as the paper does not report any."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "South Africa"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 4940,
+    "summary": "This study investigated the effect of cattle-administered ivermectin and fipronil on the mortality and fecundity of laboratory-reared Anopheles arabiensis. It did not perform any insecticide-resistance marker genotyping.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

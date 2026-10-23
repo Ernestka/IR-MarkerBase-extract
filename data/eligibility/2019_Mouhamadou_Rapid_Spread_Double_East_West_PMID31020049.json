@@ -1,0 +1,65 @@
+{
+  "id": "2019_Mouhamadou_Rapid_Spread_Double_East_West_PMID31020049",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult Anopheles coluzzii (reported as An. coluzzi and An. gambiae coluzzi) reared from field-collected larvae in Elibou were analyzed (page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc 1014F (L995F) and 1014S (L995S) using real-time PCR triplex and TaqMan assays (page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotyping of 70 adult An. coluzzii showed that 9 mosquitoes (12.85%) harbored both 1014S and 1014F (heterozygous for both mutations), while 0 mosquitoes had only 1014S (page 3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from several breeding sites in Elibou (5°40'57\"N; 4°30'30\"W), southern Côte d'Ivoire, and reared to adult stage in the insectarium (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research note reporting original field collection and molecular genotyping data (page 1, 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Elibou (5°40'57\"N; 4°30'30\"W) in southern Côte d'Ivoire (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No specific collection year or date range is stated for the mosquito sampling in Elibou (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Authors mention that 'mosquitoes used in this study were collected as part of the large bionomic study of malaria transmission in the locality of Elibou' and 'We have not provided data for the kdr 1014F as this is part of another study' (page 3, 5)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The genotype counts for 1014S across the 70 genotyped individuals are presented directly in the text (page 3), although raw qPCR data files are archived on OSF."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 70,
+    "summary": "This research note investigates the occurrence of the Vgsc 1014S (L995S) and 1014F (L995F) kdr mutations in 70 Anopheles coluzzii collected as larvae in Elibou, southern Côte d'Ivoire. A total of 9 out of 70 mosquitoes (12.85%) were found to carry both the 1014S and 1014F mutations simultaneously as heterozygotes, with no mosquitoes homozygous for 1014S.",
+    "exclusion_reasons": []
+  }
+}

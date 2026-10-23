@@ -1,0 +1,68 @@
+{
+  "id": "2019_Birhanu_Bio_Efficacy_Physical_Integrity_Piperonylbutoxide_PMID31272452",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates Anopheles gambiae s.l. (page 1, 3, 5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that 'very high (95–100%) allelic frequencies of kdr-L1014F mutation was reported in both populations [16]' (page 3), but this refers to a previous study (Yewhalaw et al. 2011, cited as [16]). The current study does not perform or report new genotyping of resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any new genotype data for the mosquitoes collected in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Omo-Nada and Tiro-Afeta districts in Ethiopia (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating bio-efficacy and physical integrity of nets."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Omo-Nada and Tiro-Afeta districts, Jimma zone, Ethiopia (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from March 2015 to August 2015 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new bio-efficacy and physical integrity data for nets collected in 2015."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data for the study's conclusions are provided in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the bio-efficacy of PermaNet 3.0 nets and their physical integrity after 3 years of use in Jimma zone, Ethiopia. It also assesses the insecticide susceptibility of local Anopheles gambiae s.l. and Culex quinquefasciatus populations using WHO tube tests. The paper does not generate new genotype data for resistance markers, instead citing previous work for the presence of kdr mutations.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report new genotype data for resistance markers; it only cites a previous study for the presence of kdr-L1014F.",
+      "reports_extractable_genotype_data: No genotype data (counts or frequencies) are reported for the mosquitoes collected in this study."
+    ]
+  }
+}

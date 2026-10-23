@@ -1,0 +1,65 @@
+{
+  "id": "2025_Temeyer_Mosquito_Mutations_F290V_F331W_Expressed_PMID39966927",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the sand fly Phlebotomus papatasi, not Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports on recombinant enzymes engineered with mutations, not field-genotyped markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No field genotype data (counts or frequencies) are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses a laboratory colony of Phlebotomus papatasi."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study on recombinant enzyme biochemistry."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a laboratory-based biochemical study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No field data are required for this study."
+    },
+    "markers_found": [],
+    "species": [
+      "Phlebotomus papatasi"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study characterizes the biochemical properties and inhibitor sensitivity of recombinant acetylcholinesterase (rPpAChE1) from the sand fly Phlebotomus papatasi, specifically testing the effects of orthologous mosquito mutations (G119S, F290V, F331W) on enzyme inhibition. It is not an entomological field study of Anopheles malaria vectors.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

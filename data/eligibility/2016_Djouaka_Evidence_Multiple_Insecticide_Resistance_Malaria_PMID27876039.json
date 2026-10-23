@@ -1,0 +1,68 @@
+{
+  "id": "2016_Djouaka_Evidence_Multiple_Insecticide_Resistance_Malaria_PMID27876039",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus s.s. (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for GSTe2 L119F (page 5) and Rdl A296S (page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts (RR, RS, SS) are provided for both markers in F0 and F1 populations (page 5, page 6, and Figures 4 and 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Akaka-Remo, Nigeria (page 2, Study site description)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collection and laboratory analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study location is Akaka-Remo, Remo-North local government, Ogun state, Nigeria (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred between October 2014 and April 2015 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, new collection in Akaka-Remo, Nigeria."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided within the main text and figures."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 315,
+    "summary": "This study investigates insecticide resistance in Anopheles funestus from Akaka-Remo, Nigeria. It reports high resistance to organochlorines (DDT, dieldrin), pyrethroids, and bendiocarb, with full susceptibility to malathion. Molecular analysis confirms the presence of the L119F-GSTe2 mutation (associated with DDT resistance) and the A296S-RDL mutation (associated with dieldrin resistance). Synergist assays with PBO suggest the involvement of P450s in pyrethroid and dieldrin resistance.",
+    "exclusion_reasons": []
+  }
+}

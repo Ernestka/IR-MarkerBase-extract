@@ -1,0 +1,63 @@
+{
+  "id": "2016_Sweileh_Bibliometric_Analysis_Literature_Malaria_Vector_PMID27884199",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper is a bibliometric analysis of literature on malaria vector resistance, specifically focusing on Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a bibliometric review of existing literature and does not report primary genotype data for any insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any primary genotype counts or frequencies; it is a bibliometric study."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper does not study field populations; it is a bibliometric analysis of published literature."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a bibliometric review/analysis, not a primary empirical study of mosquito populations."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as it is a bibliometric study."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as it is a bibliometric study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a bibliometric review."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a bibliometric analysis of literature on malaria vector resistance published between 1996 and 2015. It does not contain primary empirical data on insecticide resistance markers or bioassays.",
+    "exclusion_reasons": [
+      "is_not_primary_study",
+      "does_not_report_target_markers",
+      "does_not_report_extractable_genotype_data",
+      "does_not_study_african_field_population"
+    ]
+  }
+}

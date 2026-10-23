@@ -1,0 +1,65 @@
+{
+  "id": "2016_Ibrahim_Cytochrome_P450_CYP6P4_Responsible_High_PMID26548743",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report genotyping of any of the listed insecticide-resistance markers. It focuses on the functional characterization of the CYP6P4 gene via heterologous expression and molecular docking."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (counts or frequencies) for resistance markers are reported in this paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquitoes used were derived from a field-collected population from Ndjamena, Chad (Witzig et al., 2013)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study performing functional characterization of the CYP6P4 gene."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the location as Ndjamena, Chad (12° 6' N, 15° 2' E)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study uses a colony established from field collections described in Witzig et al. (2013)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper uses a colony (Ndja) established from field collections previously described in Witzig et al. (2013). This is a standard laboratory use of a previously established colony."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any marker genotype data, so no supplementary data of this type is needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Chad"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper performs a functional characterization of the CYP6P4 gene in Anopheles arabiensis from Chad to determine its role in pyrethroid resistance. It uses heterologous expression in E. coli and molecular docking simulations. It does not perform or report any new genotyping of insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report genotyping of any of the listed insecticide-resistance markers.",
+      "reports_extractable_genotype_data: No genotype data (counts or frequencies) for resistance markers are reported in this paper."
+    ]
+  }
+}

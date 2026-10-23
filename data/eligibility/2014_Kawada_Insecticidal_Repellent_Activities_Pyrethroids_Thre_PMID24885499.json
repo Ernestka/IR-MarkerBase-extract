@@ -1,0 +1,68 @@
+{
+  "id": "2014_Kawada_Insecticidal_Repellent_Activities_Pyrethroids_Thre_PMID24885499",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s., Anopheles arabiensis, and Anopheles funestus s.s. (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports the L1014S mutation in the voltage-gated sodium channel for An. gambiae s.s. (Page 5, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides the allelic frequency and sample sizes (n=214 for Ragwe, n=211 for Mfangano) for the L1014S mutation in An. gambiae s.s. (Page 5, Results)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Mbita and Suba districts, Nyanza Province, Kenya (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting field collections and laboratory bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites: Nyandago, Nyaroya, Hao, Nyamanga, Roo, Ragwe, and Mfangano Island (Page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were performed from May 11th to July 6th, 2011 (Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes new collections performed in 2011. While it references previous work by the same authors (e.g., Kawada et al. 2011), this is a distinct study with new data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including sample sizes and allele frequencies, are provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 425,
+    "summary": "This study investigated the insecticidal and repellent activities of pyrethroids against field-collected An. gambiae s.s., An. arabiensis, and An. funestus s.s. in western Kenya. It reports high resistance to permethrin and deltamethrin and provides L1014S allele frequencies for An. gambiae s.s. populations.",
+    "exclusion_reasons": []
+  }
+}

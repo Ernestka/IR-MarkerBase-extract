@@ -1,0 +1,73 @@
+{
+  "id": "2020_Bogale_Relative_Contributions_Various_Endogenous_Exogenou_PMID33303025",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles mosquitoes (An. gambiae s.s., An. coluzzii, An. melas, An. arabiensis, and An. nili) collected in Guinea and Mali (page 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the Vgsc L995F (kdr-west L1014F) marker (page 3, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 4 (page 7) provides the distribution of kdr-w (L1014F) genotypes (RR, RS, SS) for mosquitoes across different sites, with sample sizes provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses 665 field-caught Anopheles mosquitoes collected in Guinea and Mali (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study characterizing the microbiota and insecticide resistance markers of field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for specific collection sites: Kissidougou, Kankan, Faranah, Dabola, Boffa, Mamou (Guinea) and Bandiagara (Mali) (Table 1, page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection dates are specified as August-November 2016, August 2017, and July 2011 (Table 1, page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analyses of 665 mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in Figure 4 and Additional file 10: Table S4."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles melas",
+      "Anopheles arabiensis",
+      "Anopheles nili"
+    ],
+    "countries": [
+      "Guinea",
+      "Mali"
+    ],
+    "collection_years": [
+      2011,
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 665,
+    "summary": "This study analyzed 665 field-caught Anopheles mosquitoes from Guinea and Mali to investigate the factors influencing their microbiota. It genotyped the mosquitoes for the kdr-west (L1014F) insecticide resistance marker and identified species using S200X6.1 and COX1 loci. The study found that collection site was the primary driver of bacterial diversity, while insecticide resistance genotype, species, and blood-meal status had minimal or no significant effect.",
+    "exclusion_reasons": []
+  }
+}

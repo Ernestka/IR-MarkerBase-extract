@@ -1,0 +1,77 @@
+{
+  "id": "2022_Gansane_Design_Methods_Quasi_Experimental_Pilot_PMID35012559",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles mosquitoes, specifically An. gambiae and An. funestus as listed in Table 1 on page 4."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the measurement of kdr and ace-1 mutation frequencies on page 8."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a methodology paper describing the study design; it does not report any genotype counts or frequencies for the target markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study involves field populations in Burkina Faso, Mozambique, Nigeria, and Rwanda (Page 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "It is a primary methodology paper describing the design of a new study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific study districts are listed in Table 1 (e.g., Banfora, Gaoua, Mandimba, Cuamba, Asa, Karongi)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study period is defined as 2019-2022 (Table 2, page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This paper describes the design of the New Nets Project (NNP) pilot evaluations. While it doesn't report data, future papers from this project will likely contain the data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a protocol and does not contain the data we are looking for; supplementary files are mentioned but likely contain context rather than the missing genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Mozambique",
+      "Nigeria",
+      "Rwanda"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper describes the design and methods for a multi-country pilot study (New Nets Project) evaluating the impact of dual active ingredient insecticide-treated nets (ITNs) on malaria burden in Burkina Faso, Mozambique, Nigeria, and Rwanda. The protocol includes entomological surveillance with plans to measure kdr and ace-1 mutation frequencies, but no genotype data is reported in this publication.",
+    "exclusion_reasons": [
+      "The paper is a methodology/study design report and does not contain extractable genotype data (counts or frequencies with sample sizes) for the target markers."
+    ]
+  }
+}

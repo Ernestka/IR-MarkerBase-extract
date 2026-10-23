@@ -1,0 +1,65 @@
+{
+  "id": "2017_Kweka_Efficacy_PermaNet_3_0_PermaNet_PMID28095897",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of LLINs against Anopheles gambiae sensu lato (specifically An. arabiensis) in northern Tanzania."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses insecticide resistance and mentions kdr and metabolic resistance mechanisms in the discussion (page 6, 8), but it does not report any new genotype data for these markers in the study population."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype counts or frequencies for resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Lower Moshi, Tanzania, using wild-caught Anopheles mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Mabogini village, Moshi Rural District, northern Tanzania."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2017, and the experimental hut trial was conducted in the study area."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of PermaNet 2.0 and 3.0 LLINs against wild Anopheles arabiensis in northern Tanzania using experimental hut trials and cone bioassays. While it discusses insecticide resistance, it does not report any genotype data for resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}
