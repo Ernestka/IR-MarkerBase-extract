@@ -1,0 +1,69 @@
+{
+  "id": "2017_Kweka_Bio_Efficacy_Deltamethrin_Based_Durable_PMID28187779",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'Bio-efficacy of deltamethrin based durable wall lining against wild populations of Anopheles gambiae s.l. in Northern Tanzania'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page 2: Mentions Vgsc L1014F only as background context from previous publications ('The L1014F mutation in this study area was found in An. arabiensis at the allelic frequency of 11.5% in Babati by previous study [10, 18]'). No genotyping was performed in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele count/frequency data were reported in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: Mosquitoes collected from Magugu ward in Babati district, Manyara region, Northern Tanzania."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Page 1-2: Primary empirical field evaluation of durable wall lining vs IRS."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: Magugu ward, Babati district, Manyara region, Northern Tanzania (coordinates shown on map Fig 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2: 'Baseline sampling was conducted before treatment in December, 2012.'"
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No marker genotyping conducted in this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No target marker data exists for this study; supplementary data is not needed for marker extraction."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the bio-efficacy of deltamethrin-treated durable wall lining compared to deltamethrin IRS and control houses in Northern Tanzania. While standard WHO susceptibility bioassays and cone bioassays were conducted on wild Anopheles gambiae s.l., no insecticide resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "Does not genotype or report target insecticide resistance markers (L1014F is mentioned only as a citation of previous literature).",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

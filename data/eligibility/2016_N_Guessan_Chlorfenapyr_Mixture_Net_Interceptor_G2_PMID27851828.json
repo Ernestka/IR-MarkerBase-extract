@@ -1,0 +1,67 @@
+{
+  "id": "2016_N_Guessan_Chlorfenapyr_Mixture_Net_Interceptor_G2_PMID27851828",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The vector species are Anopheles coluzzii (formerly An gambiae M form) and An. gambiae s.s. (S form) [9]. (Page 3)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The frequency of the 1014F kdr allele is 89%... (Page 3)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper mentions a 1014F kdr frequency of 89% in the site description (Page 3), but does not provide the number of mosquitoes genotyped or any genotype counts (RR/RS/SS) for the mosquitoes collected during the study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The Phase II experimental hut station is situated in a rice irrigation zone near Cove´ (7˚140 N, 2˚180 E), Benin. (Page 3)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The efficacy of a novel mixture LN, Interceptor® G2... was evaluated under controlled household conditions (experimental hut trial) and by laboratory bioassay... (Page 1)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Cove´ (7˚140 N, 2˚180 E), Benin (Page 3)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not explicitly state the years in which the mosquito collections or trials took place."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The kdr frequency of 89% for the Cove site is likely a citation or re-report from Ngufor et al. 2015 (Ref 9), which is cited in the same paragraph."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "S1 Table is described as 'Experimental hut data, excel file', which typically contains nightly collection counts per hut, not individual genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study evaluates the efficacy of Interceptor G2 nets against pyrethroid-resistant Anopheles gambiae s.l. in Benin using experimental huts and laboratory bioassays. While it mentions a kdr L1014F frequency of 89% in the site description, it does not report extractable genotype data (counts or frequencies with sample sizes) for the mosquitoes tested.",
+    "exclusion_reasons": [
+      "No extractable genotype data (genotype counts or frequencies with sample sizes) are reported for the mosquitoes used in this study. The kdr frequency mentioned (89%) appears to be a site characterization, likely cited from a previous study (Ngufor et al. 2015)."
+    ]
+  }
+}

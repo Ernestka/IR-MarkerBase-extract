@@ -1,0 +1,68 @@
+{
+  "id": "2017_Omondi_Quantifying_Intensity_Permethrin_Insecticide_Resis_PMID29110724",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae (s.l.) larvae were sampled and identified as An. arabiensis and An. gambiae (s.s.) (Page 2, Mosquito collection; Page 3, Molecular assays)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only performed species-identification PCR and bioassays (WHO tube, CDC bottle, cone bioassay). No target resistance markers (e.g. Vgsc kdr) were genotyped; references to kdr are from published literature."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or allele frequencies for target insecticide-resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles gambiae (s.l.) larvae were collected from October 2015 to February 2016 from Teso, Rachuonyo, Nyando, and Bondo sub-counties in western Kenya (Page 2, Mosquito collection)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting field bioassays and species composition."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling sites specified at sub-location level: Akiriamasi and Kaliwa (Teso), Kamenya Central and Kobuya (Rachuonyo), Kochogo North and Ahero (Nyando), Barkanyango and Omia Mwalo (Bondo) with sub-county coordinates given (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae sampled from October 2015 to February 2016 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collections conducted specifically for this bioassay intensity study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No target resistance marker genotyping was performed in the study."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated permethrin resistance status and intensity, as well as LLIN efficacy, using WHO tube assays, CDC bottle intensity assays, and cone bioassays on Anopheles gambiae s.l. (An. arabiensis and An. gambiae s.s.) collected from western Kenya between October 2015 and February 2016. No resistance marker genotyping was conducted.",
+    "exclusion_reasons": [
+      "Does not report target insecticide resistance marker genotyping data (only bioassays and species-identification PCR were conducted)."
+    ]
+  }
+}

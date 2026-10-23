@@ -1,0 +1,63 @@
+{
+  "id": "2023_Baltzegar_Development_First_High_Density_Linkage_PMID37337584",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the maize weevil, Sitophilus zeamais, not Anopheles mosquitoes (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers in Anopheles vectors were genotyped in this study; ddRADseq SNPs were used for linkage map construction in maize weevils (page 1, 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for target Anopheles insecticide resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study analyzed laboratory colonies of Sitophilus zeamais acquired from USDA laboratories in Florida and Kansas (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing genome size estimation and linkage map construction in Sitophilus zeamais (page 1, 3)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable because no African Anopheles field populations were evaluated."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable because no African Anopheles field populations were evaluated."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; study does not involve Anopheles vector field surveillance data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are not needed because the study is ineligible (studies Sitophilus zeamais)."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper estimates the genome size and develops the first genetic linkage map for the maize weevil, Sitophilus zeamais, using ddRADseq on an F2 laboratory cross. It does not study Anopheles mosquitoes or target insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "Not Anopheles (studies Sitophilus zeamais)",
+      "Does not report target insecticide-resistance markers",
+      "Does not report extractable genotype data for target markers",
+      "Does not study African field populations"
+    ]
+  }
+}

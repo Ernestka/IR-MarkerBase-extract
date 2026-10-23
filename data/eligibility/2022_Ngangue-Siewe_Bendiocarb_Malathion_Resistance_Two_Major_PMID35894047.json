@@ -1,0 +1,69 @@
+{
+  "id": "2022_Ngangue-Siewe_Bendiocarb_Malathion_Resistance_Two_Major_PMID35894047",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l., including Anopheles gambiae, Anopheles coluzzii, and Anopheles arabiensis (page 1, Abstract; page 3, Section 2.2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study screens for Ace-1 G119S (G280S) target site mutation (page 1, Abstract; page 4, Section 2.3 and Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (pages 4-5) reports the sample size and Ace-1 G119S allelic frequency (% G119S mean ± SE) across multiple field populations (Njombé, Kékem, Bélabo, Tibati, Bertoua, Santchou) for bendiocarb survivors, malathion survivors, and unexposed mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from seven field locations across Cameroon (Kékem, Njombé, Belabo, Kaélé, Tibati, Bertoua, and Santchou) and reared to adults (page 8, Table 3; page 9, Section 4.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article detailing original field collections, WHO bioassays, and molecular resistance testing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific localities with geographical coordinates are given in Table 3 (page 8): Kékem (5°10' N, 10°02' E), Njombé (4°64' N, 9°67' E), Belabo (4°56' N, 13°18' E), Kaélé (10°50' N, 14°56' E), Tibati (12°37' N, 12°37' E), Santchou (5°58' N, 9°58' E), and Bertoua (4°34' N, 13°41' E)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were carried out in August 2019, August 2020, and November 2021 (page 9, Section 4.2), spanning exactly 3 years (2019-2021)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The mosquito collections represent standard routine field sampling conducted by the authors in Cameroon for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary marker frequencies and sample sizes are provided directly in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 267,
+    "summary": "This study evaluated bendiocarb and malathion susceptibility in Anopheles gambiae s.l. from seven sites across Cameroon sampled between 2019 and 2021. Mosquitoes from several sites exhibited resistance to bendiocarb and malathion. The Ace-1 G119S (G280S) mutation was quantified using TaqMan qPCR on mosquito pools, reporting allele frequencies and sample sizes for survivors and unexposed mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

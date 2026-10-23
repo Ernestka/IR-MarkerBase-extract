@@ -1,0 +1,68 @@
+{
+  "id": "2022_Kinya_Outdoor_Malaria_Vector_Species_Profile_PMID35505087",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles funestus group and Anopheles gambiae complex mosquitoes trapped outdoors in Kenya (Page 1, Abstract; Page 2, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened mosquitoes for the L119F-GSTe2 mutation (Page 1, Abstract; Page 4, 'Low levels of L119F-GSTe2 resistance alleles detected in An. funestus group and polymorphism analysis'; Page 7, Methodology)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts are directly reported on Page 4: 'The frequency in the former species was 15.6% (1-RR, 3-RS, 12-SS) and in An. longipalpis C, 3.1% (0-RR, 28-RS, 233-SS) (Fig. 4a).'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult female mosquitoes were collected outdoors in three dryland areas of Kenya: Kerio Valley (Baringo County), Rabai (Kilifi County), and Nguruman (Kajiado County) (Page 1, Abstract; Page 6, Methodology)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original entomological collections, molecular species discrimination, Plasmodium detection, and resistance marker genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at specific sites within Kenya: Kapluk and Barwesa in Kerio Valley (Baringo County), Rabai (Kilifi County), and Nguruman (Kajiado County) (Page 6, Methodology)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between August 2019 and May 2020 (Page 6, Methodology)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary field surveys conducted between August 2019 and May 2020 by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts (RR, RS, SS) and sample sizes for GSTe2 L119F are provided in the main text on page 4."
+    },
+    "markers_found": [
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles longipalpis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 277,
+    "summary": "This study evaluated outdoor-trapped Anopheles in three dryland areas in Kenya (Kerio Valley, Rabai, and Nguruman) between August 2019 and May 2020. The authors tested An. funestus s.s. and An. longipalpis C for the GSTe2 L119F mutation using allele-specific PCR and sequencing, finding low frequencies of the resistant allele in Kerio Valley (1 RR, 3 RS, 12 SS in An. funestus s.s.; 0 RR, 28 RS, 233 SS in An. longipalpis C).",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "2016_Meyers_Increasing_Outdoor_Host_Seeking_Anopheles_PMID27113244",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles coluzzii, Anopheles melas, and Anopheles gambiae s.s. collected on Bioko Island, Equatorial Guinea (p. 4, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Molecular testing was performed solely for species identification within the Anopheles gambiae complex using diagnostic PCR and HhaI digestion (p. 3). No target insecticide resistance markers (e.g., Vgsc L995F/S, Ace-1 G280S) were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotype counts, allele frequencies, or sample sizes for resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquito collections were conducted using human landing catches in four villages (Mongola, Arena Blanca, Biabia, Balboa) on Bioko Island, Equatorial Guinea between 2009 and 2014 (p. 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study analyzing mosquito collection rates, species composition, and indoor/outdoor host-seeking proportions over six years (p. 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field sites are specified at village level with geographic coordinates: Mongola (3°45'N, 8°43'E), Biabia (3°45'N, 8°42'E), Arena Blanca (3°30'N, 8°34'E), and Balboa (3°23'N, 8°46'E) (p. 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were carried out regularly from 2009 to 2014, and data are reported annually (p. 3, Fig. 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Collections were conducted as part of the Bioko Island Malaria Control Project (BIMCP) vector monitoring program, but present primary collection and species identification data from 2009 to 2014."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary file 1 contains IRS spray round schedules; no resistance marker genotyping data is mentioned or missing."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles melas",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study monitored Anopheles gambiae s.l. vector density, species composition (An. coluzzii, An. melas, An. gambiae s.s.), and indoor vs. outdoor host-seeking behavior across four villages on Bioko Island, Equatorial Guinea, between 2009 and 2014. Although molecular PCR was used for species identification, no insecticide resistance target site markers were genotyped.",
+    "exclusion_reasons": [
+      "Does not report target insecticide resistance markers.",
+      "Does not report extractable resistance marker genotype data."
+    ]
+  }
+}

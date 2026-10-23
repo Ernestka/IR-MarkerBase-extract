@@ -1,0 +1,66 @@
+{
+  "id": "2017_Martins_Detection_Quantitation_Copy_Number_Variation_PMID28725028",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on the mosquito species Culex quinquefasciatus (Title, Abstract, and Page 6 'Sample collection and DNA isolation')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Genotyping of Vgsc L1014F was performed in Culex quinquefasciatus, not Anopheles mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for target markers in Anopheles mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Indoor resting mosquitoes were collected from four sites in Uganda: Jinja, Kampala, Kanungu and Tororo between June and July 2012 (Page 6)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study evaluating molecular methods for detection of Vgsc copy number variation."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field sites specified as Jinja, Kampala, Kanungu, and Tororo in Uganda (Page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected between June and July 2012 (Page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "None detected."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files exist but are not required as the paper is ineligible based on species."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 190,
+    "summary": "This study evaluates methods (ddPCR, qPCR, pyrosequencing) for estimating copy number variation in the voltage-gated sodium channel gene (Vgsc) in field-collected Culex quinquefasciatus from Uganda. The paper is ineligible because it does not study Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (studies Culex quinquefasciatus)."
+    ]
+  }
+}

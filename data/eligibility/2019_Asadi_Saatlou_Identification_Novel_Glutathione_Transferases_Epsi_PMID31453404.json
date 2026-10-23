@@ -1,0 +1,70 @@
+{
+  "id": "2019_Asadi_Saatlou_Identification_Novel_Glutathione_Transferases_Epsi_PMID31453404",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles maculipennis s.s. collected in Iran (page 1, title and Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The authors screened the GSTe2 gene in An. maculipennis for mutations (mentioning I114T, L119F, F120L), but found none of the target markers; they only reported a novel N148D substitution (page 1 Abstract; page 7: 'Well-known GSTe2 mutation (I114T, L119F, and F120L) were not detected in An. maculepennis species'). Furthermore, target marker GSTe2 L119F is specific to An. funestus."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No target resistance markers were detected or genotyped; only sequence analysis of non-target/novel mutations in GSTe2 was reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected from West Azarbaijan and Zanjan provinces in Iran, which is not an African country (page 2, Section 2.1 Study site and Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study is a primary empirical field collection and sequencing investigation (page 2, Section 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling sites are listed at the village/town level: Nazloo, Jarchiloo, Kooraneh, Larijan, and Gharabooteh (page 2, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Collections were conducted 'during different collections from 2015 to 2018' (4-year window) and not resolved to finer collection dates per sample (page 2, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary collection of Anopheles maculipennis in Iran."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data is needed since the study fails eligibility on geographic and target marker criteria."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles maculipennis"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 19,
+    "summary": "This study sequenced the GSTe2 gene of Anopheles maculipennis s.s. collected in Iran between 2015 and 2018. It found a novel N148D variant in 19 sequenced specimens, but did not study African populations nor detect any canonical target resistance markers.",
+    "exclusion_reasons": [
+      "Mosquitoes were collected in Iran, not an African country.",
+      "Does not genotype or report any of the eligible target resistance markers in African malaria vectors."
+    ]
+  }
+}

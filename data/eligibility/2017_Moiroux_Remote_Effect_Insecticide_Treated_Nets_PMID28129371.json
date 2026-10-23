@@ -1,0 +1,73 @@
+{
+  "id": "2017_Moiroux_Remote_Effect_Insecticide_Treated_Nets_PMID28129371",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 5: 'The malaria vector population in the Malanville site (North of Benin) was composed at 95% by An. coluzzii... In the Kou Valley (North-West of Burkina Faso), the malaria vector population was composed at 85% by An. gambiae s.s.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page 5 mentions Kdr frequency (L1014F target-site mutation) in background context citing previous studies [8, 25], but no marker genotyping was performed as part of this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or extractable genotype frequency data with sample sizes are presented in this paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 5: 'These studies were carried out between 2006 and 2011 in two sites (Malanville, Northern Benin and the Kou Valley, Western Burkina Faso)'"
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "Page 3: 'Therefore to provide a better assessment of ITNs used for malaria control, we performed a retrospective analysis of the deterrence and the personal protection against malaria transmission for 13 ITNs evaluated through EHTs.' The study is a secondary re-analysis of mosquito entry and blood-feeding data from 10 previously conducted WHOPES Phase II trial reports."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 5: 'Malanville, Northern Benin and the Kou Valley, Western Burkina Faso'"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Table 1 lists the collection/trial years for individual trials: 2006, 2007, 2008, and 2011."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "Page 4-5: 'WHOPES supervised EHTs (N = 10)... carried out between 2006 and 2011 in two sites... [19-24].' The paper re-analyzes raw mosquito count data from 10 previously published experimental hut trials."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary file is required because the study does not generate primary genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin",
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2006,
+      2007,
+      2008,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is a retrospective statistical re-analysis of deterrence and personal protection provided by 13 ITNs evaluated in 10 WHOPES Phase II experimental hut trials conducted in Benin and Burkina Faso between 2006 and 2011. No new mosquito genotyping was performed, and no primary target-site genotype data are presented.",
+    "exclusion_reasons": [
+      "No target marker genotyping conducted in this study (kdr L1014F frequency is only cited from background literature).",
+      "No extractable genotype data provided.",
+      "Not a primary genotype study (retrospective secondary analysis of previously published WHOPES trial counts)."
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2023_Medjigbodo_Asymptomatic_Plasmodium_Infection_Primary_Schoolch_PMID36714884",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated Plasmodium falciparum infectivity to laboratory and near-field strains of Anopheles gambiae (p. 4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study mentions kdr (L1014F) and ace-1 (G119S) in Table 1 for previously established laboratory strains citing published references, but does not perform or report marker genotyping on vector mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or genotype/allele frequencies are reported for any target insecticide resistance marker."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study evaluated blood samples from schoolchildren in Benin using established laboratory mosquito colonies (Kisumu, KisKdr, AcerKis, AcerKdrKis) and insectary-reared strains (ASD, ASB, TSD, TSB). No field-caught African mosquito populations were genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical cross-sectional study conducted in Ouidah, Benin (p. 3-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Study conducted in Ouidah municipality, south-western Benin (6°21'47''N, 2°05'06''E) across nine school sites (p. 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Blood samples were collected from 5th to 28th June 2018 (p. 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No evidence of overlapping genotype datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary data not required as paper does not perform target marker genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates asymptomatic Plasmodium falciparum infection rates in primary schoolchildren in Ouidah, Benin, and assesses gametocyte infectivity to laboratory and insectary-maintained Anopheles gambiae mosquito strains using direct membrane feeding assays (DMFAs). The study does not perform or report insecticide resistance marker genotyping on field-collected vector populations.",
+    "exclusion_reasons": [
+      "Does not report target marker genotyping on field-caught Anopheles populations",
+      "Does not report extractable mosquito genotype data"
+    ]
+  }
+}

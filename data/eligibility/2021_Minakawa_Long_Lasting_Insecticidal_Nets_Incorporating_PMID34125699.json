@@ -1,0 +1,72 @@
+{
+  "id": "2021_Minakawa_Long_Lasting_Insecticidal_Nets_Incorporating_PMID34125699",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-23",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates vector densities of Anopheles gambiae s.l., An. arabiensis, and An. funestus s.l. in western Kenya (pages 462, 465)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr (L1014S) in the introduction/background by citing previous published studies (e.g. Kawada et al. 2011), but does not genotype any resistance markers in the mosquitoes collected for this trial (page 462, page 468: 'Although we did not confirm species of the anophelines collected during the study period...')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype counts or allele frequency data are reported in this paper. PCR was performed only for human malaria parasite detection (P. falciparum)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sentinel and cross-sectional household surveys in Gembe East, Homa Bay County, western Kenya (pages 462, 464)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary cluster randomized controlled trial evaluating PBO-LLINs versus standard LLINs."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Gembe East of Homa Bay County, western Kenya, coordinates 0°30'24\" S and 34°20'48\" E (page 462)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Preintervention survey between April 2009 and February 2011; postintervention surveys between March 2011 and May 2012 (pages 462, 464)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Trial entomological collections are original, but no genotype data were produced or reported."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No missing supplementary marker genotype data exists because no marker genotyping was conducted."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This cluster randomized controlled trial in western Kenya evaluated the efficacy of PBO-LLINs compared to standard LLINs on malaria vector density and Plasmodium falciparum prevalence. While Anopheles mosquitoes were collected and monitored, no target insecticide resistance markers were genotyped in this study; resistance mechanisms were only cited from previously published baseline literature.",
+    "exclusion_reasons": [
+      "Does not genotype or report target insecticide-resistance markers in mosquitoes (reports_target_markers = false).",
+      "Does not contain extractable mosquito genotype data (reports_extractable_genotype_data = false)."
+    ]
+  }
+}
