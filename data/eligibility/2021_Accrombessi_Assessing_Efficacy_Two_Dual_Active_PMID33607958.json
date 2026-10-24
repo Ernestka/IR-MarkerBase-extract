@@ -1,0 +1,65 @@
+{
+  "id": "2021_Accrombessi_Assessing_Efficacy_Two_Dual_Active_PMID33607958",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii and Anopheles gambiae s.s. (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "This is a study protocol paper. It describes the planned methodology for monitoring insecticide resistance markers (e.g., Vgsc, CYP6 genes) but does not report any actual genotype data or results."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a study protocol and does not contain any empirical genotype data."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study is conducted in the Zou department, Benin (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study protocol."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study is located in Cove, Zagnanado, and Ouinhi Districts, Zou department, Benin (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study is a 24-month trial (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new study protocol."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a protocol and does not contain empirical data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a study protocol for a cluster-randomized controlled trial in Benin to evaluate the efficacy of two dual-active ingredient LLINs (Interceptor G2 and Royal Guard) compared to a standard pyrethroid-only LLIN. As it is a protocol paper, it does not report any empirical genotype data or results.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

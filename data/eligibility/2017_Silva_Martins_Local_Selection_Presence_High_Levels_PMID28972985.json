@@ -1,0 +1,69 @@
+{
+  "id": "2017_Silva_Martins_Local_Selection_Presence_High_Levels_PMID28972985",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Culex quinquefasciatus, as stated in the title and throughout the text (e.g., page 1: 'Ugandan Culex quinquefasciatus populations')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc-1014F (L995F) and Ace1-119S (G280S) (page 1, Abstract; page 8, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts (RR/RS/SS) and sample sizes (N) for both markers are provided in Table 1 on page 8."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Uganda (Jinja, Kampala, Kanungu, and Tororo) in 2012 (page 3, 'Area of study and mosquito collection'; page 4, 'between July and August 2012')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original genotyping and population genetic analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific districts and cities: Jinja, Kampala, Kanungu, and Tororo (page 8, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted within a single two-month window between July and August 2012 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study mentions sample collection was supported by NIAID Award Number U19AI089674 (ICEMR), but the genotype data for these Culex populations appears to be original to this publication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and sample sizes are provided in Table 1 of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 174,
+    "summary": "This study investigates the frequency of insecticide resistance markers (Vgsc-1014F and Ace1-119S) in Culex quinquefasciatus populations across four districts in Uganda to determine if selection pressure from malaria control interventions (targeting Anopheles) affects non-target species. While it provides extractable genotype data for target markers, it is ineligible because it does not study Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (focuses on Culex quinquefasciatus)."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2021_Medjigbodo_Interplay_Oxytetracycline_Homozygote_Kdr_L1014F_PMID34379759",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae sensu stricto (Page 2, Mosquito Strains and Rearing)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study uses strains with known genotypes for Vgsc L1014F (L995F) and Ace-1 G119S (G280S) (Page 2, Mosquito Strains and Rearing)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study reports data for laboratory strains with fixed genotypes (Kisumu, KisKdr, AcerKis, AcerKdrKis) but does not provide genotype data for any field-collected populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study only uses laboratory strains: 'four laboratory strains of Anopheles gambiae sensu stricto were used. Among these, one is an insecticide susceptible reference strain (Kisumu) collected from Kenya in 1953... The three others are insecticide-resistant strains: ... KisKdr ... AcerKis ... and AcerKdrKis' (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the effect of oxytetracycline on mosquito fecundity."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study is a laboratory experiment using established colonies; no field collection sites are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study uses laboratory colonies and does not report a field collection window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a standard laboratory study using well-characterized reference strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data for the laboratory strains are contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin",
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 701,
+    "summary": "This laboratory study investigated the impact of the antibiotic oxytetracycline on the fecundity of Anopheles gambiae mosquitoes carrying kdr (L1014F) and ace-1 (G119S) resistance mutations. Using four laboratory strains (Kisumu, KisKdr, AcerKis, and AcerKdrKis), the researchers found that oxytetracycline significantly reduced fecundity in the KisKdr strain (homozygous for L1014F) compared to controls and susceptible Kisumu females. The study concludes that oxytetracycline induces a fitness cost specifically in mosquitoes carrying the L1014F mutation, which could have implications for vector control strategies.",
+    "exclusion_reasons": [
+      "The study only uses laboratory strains (Kisumu, KisKdr, AcerKis, AcerKdrKis) and does not report genotype data for any African field populations."
+    ]
+  }
+}

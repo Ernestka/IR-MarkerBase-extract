@@ -1,0 +1,76 @@
+{
+  "id": "2023_F_Entomological_Longitudinal_Surveys_Two_Contrasted_DOI_10_21203_rs_3_rs-2988839_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus s.l. and Anopheles gambiae s.l. (Page 2, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the GSTe2 L119F marker in An. funestus s.s. (Page 5, Methods; Page 9, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype counts and frequencies for the L119F-GSTe2 marker in Figure 7 (Page 22) and Figure 8 (Page 23), and in the text (e.g., Page 9: '3630 mosquitoes... were genotyped')."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Elende and Mibellon, Cameroon (Page 3, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article reporting longitudinal entomological surveys and molecular analysis (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations as Elende (Centre Region) and Mibellon (Adamawa Region), Cameroon (Page 3, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from December 2019 to November 2020 in Elende and during 2021 in Mibellon (Page 4, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new longitudinal collections conducted between 2019 and 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in the main figures (Figures 7 and 8)."
+    },
+    "markers_found": [
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus s.s.",
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles nili",
+      "Anopheles leesoni",
+      "Anopheles rivulorum",
+      "Anopheles ziemanni",
+      "Anopheles rufipes"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": true,
+    "sample_size": 3630,
+    "summary": "This study investigated the impact of the GSTe2 L119F metabolic resistance marker on malaria transmission parameters in Anopheles funestus s.s. populations in two eco-climatic settings in Cameroon (Elende and Mibellon). The study found that the L119F-GSTe2 resistant allele was associated with higher malaria transmission intensity and increased vector competence.",
+    "exclusion_reasons": []
+  }
+}

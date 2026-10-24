@@ -1,0 +1,76 @@
+{
+  "id": "2020_Cosme_Evolution_Kdr_Haplotypes_Worldwide_Populations_PMID32298261",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study exclusively investigates Aedes aegypti ('Evolution of kdr haplotypes in worldwide populations of Aedes aegypti: Independent origins of the F1534C kdr mutation', page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes Aedes aegypti voltage-gated sodium channel mutations (P989S, I1011M, V1016I/G, T1520I, F1534C) rather than the required Anopheles target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts are reported for target Anopheles resistance markers."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Although African populations of Aedes aegypti were sampled, no Anopheles mosquitoes were included."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "It is a primary empirical study sequencing NaV amplicons in mosquito populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific sampling localities are named, such as Sedhiou in Senegal and Nairobi in Kenya (page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are specified for population samples (e.g. 2001-2015 for Brazilian samples, page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "DNA samples were derived from existing lab collections from earlier genetic studies, but are analysed here via amplicon sequencing of NaV."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary tables contain Aedes aegypti data and are not required since the study species is out of scope."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Brazil",
+      "Cameroon",
+      "Colombia",
+      "Dominica",
+      "Haiti",
+      "Kenya",
+      "Mexico",
+      "Philippines",
+      "Saudi Arabia",
+      "Senegal",
+      "Thailand",
+      "United States"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the origin and evolutionary dispersal of kdr haplotypes in worldwide populations of the arbovirus vector Aedes aegypti using next-generation amplicon sequencing. Because it focuses entirely on Ae. aegypti and does not test any Anopheles species or target Anopheles resistance markers, it is not eligible.",
+    "exclusion_reasons": [
+      "The study investigates Aedes aegypti and does not evaluate any Anopheles mosquitoes.",
+      "The study does not report any of the required Anopheles insecticide resistance target markers."
+    ]
+  }
+}

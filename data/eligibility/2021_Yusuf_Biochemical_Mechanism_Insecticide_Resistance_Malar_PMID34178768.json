@@ -1,0 +1,66 @@
+{
+  "id": "2021_Yusuf_Biochemical_Mechanism_Insecticide_Resistance_Malar_PMID34178768",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only reports biochemical enzyme activity levels (P450, GSTs, Esterases) and does not genotype any of the specific molecular markers required (e.g., Vgsc, Ace-1, Rdl)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data is reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field sites in Gombe, Jigawa, and Kano states, Nigeria (Page 3, Study Location)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and biochemical data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for Yamaltu Deba, Auyo, and Kumbotso (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between Aug and Nov 2018 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes original field collections and biochemical assays conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not mention any supplementary files containing the missing genotype data; the study design was focused on biochemical assays."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 288,
+    "summary": "This study evaluates insecticide resistance in Anopheles gambiae s.l. from northern Nigeria using WHO susceptibility tests and biochemical assays for detoxification enzymes (P450, GST, and Esterases). While it provides evidence of metabolic resistance, it does not report genotyping for any of the target molecular markers required for the database.",
+    "exclusion_reasons": [
+      "The study does not report genotyping data for any of the required insecticide-resistance markers; it only reports biochemical enzyme activity levels."
+    ]
+  }
+}

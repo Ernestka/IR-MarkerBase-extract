@@ -1,0 +1,68 @@
+{
+  "id": "2015_Sande_Emergence_Insecticide_Resistance_Major_Malaria_PMID26589891",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus and also mentions Anopheles gambiae complex (An. arabiensis and An. quadriannulatus) (Page 1, Abstract; Page 5, Results)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports insecticide resistance phenotypes using WHO susceptibility and intensity assays but does not perform molecular genotyping for any of the target markers (e.g., Vgsc, Ace-1, Rdl). It mentions kdr in the discussion as a potential mechanism but does not test for it (Page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data is reported for insecticide resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Burma Valley and Zindi sentinel sites in Mutare and Mutasa Districts, Zimbabwe (Page 1, Abstract; Page 3, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new collection and bioassay data from 2014."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Burma Valley (19°11′S, 32°48′E) and Zindi (18°22′S, 32°56′E) (Page 3, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were carried out in February 2014 (Page 3, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the authors mention previous work in the same districts (Choi et al. 2014, Sande et al. 2015), this study presents new primary bioassay data from the 2013/14 season."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is bioassay-only and does not mention supplementary files containing genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles arabiensis",
+      "Anopheles quadriannulatus"
+    ],
+    "countries": [
+      "Zimbabwe"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 846,
+    "summary": "This study reports the emergence of pyrethroid and carbamate resistance in Anopheles funestus populations in Mutare and Mutasa Districts, Zimbabwe. Resistance was characterized using WHO susceptibility tests and intensity assays on field-collected mosquitoes and their F1 progeny. However, no molecular genotyping for resistance markers (such as kdr or Ace-1) was conducted.",
+    "exclusion_reasons": [
+      "The study does not report genotyping for any of the target insecticide-resistance markers; it is a bioassay-only study."
+    ]
+  }
+}

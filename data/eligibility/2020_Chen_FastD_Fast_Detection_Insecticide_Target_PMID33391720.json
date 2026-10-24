@@ -1,0 +1,68 @@
+{
+  "id": "2020_Chen_FastD_Fast_Detection_Insecticide_Target_PMID33391720",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "16 RNA-Seq datasets from four A. arabiensis populations (Mozambique, Asendabo, Chewaka, and Tolay) were analysed (page 3, section 2.3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports Vgsc L1014F (L995F) in An. arabiensis populations (page 8, section 3.8 and Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Table 5 reports variant read counts and total read coverage from pooled RNA-Seq data (e.g. 8 variant reads / 32 total coverage), rather than mosquito genotype counts, allele counts, or allele frequencies with sample sizes of genotyped mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Analyses RNA-Seq data corresponding to An. arabiensis field populations from Mozambique and Ethiopia (Asendabo, Chewaka, Tolay) originally collected by Simma et al. (2019) (page 3, section 2.3)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This paper presents a new bioinformatics software tool (FastD) and evaluates it by re-analysing previously published, publicly available RNA-Seq datasets downloaded from the NCBI SRA database (page 3, section 2.3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specifies locations Asendabo, Chewaka, and Tolay in Ethiopia, as well as Mozambique (page 3, section 2.3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Collection years for the underlying mosquito samples are not stated in this paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The An. arabiensis RNA-Seq datasets re-analysed here were downloaded from NCBI SRA (accession SRP164719), which originates entirely from Simma et al. (2019) (page 3 and page 11)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are not required to determine that the paper re-analyses published data and does not report primary genotype counts."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia",
+      "Mozambique"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study introduces FastD, a bioinformatics tool designed to detect target-site mutations and overexpressed detoxification genes from RNA-Seq data. The authors validated the tool using publicly available RNA-Seq datasets from NCBI SRA, including Anopheles arabiensis populations from Ethiopia and Mozambique (SRP164719; Simma et al. 2019). Because it only re-analyses existing public sequencing data and reports transcript read coverage rather than extractable mosquito genotype data, it is not eligible.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (re-analyses publicly available RNA-Seq datasets from NCBI SRA).",
+      "Does not report extractable mosquito genotype data (reports variant read frequencies and read coverage from RNA-Seq)."
+    ]
+  }
+}

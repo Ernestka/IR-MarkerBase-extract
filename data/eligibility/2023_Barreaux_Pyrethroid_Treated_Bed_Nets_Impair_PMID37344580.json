@@ -1,0 +1,65 @@
+{
+  "id": "2023_Barreaux_Pyrethroid_Treated_Bed_Nets_Impair_PMID37344580",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated Anopheles gambiae s.l. (An. coluzzii VK7 strain and An. gambiae Kisumu strain) (page 1, page 7)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Mentions Vgsc 1014F (L995F) and 1575Y (N1570Y) in the text description of the VK7 colony background (page 7), but does not perform genotyping or report marker frequency data."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies are presented in the study."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Only laboratory-colonized strains (VK7 colonized in 2014 from Burkina Faso and Kisumu colonized in 1975 from Kenya) maintained at LSTM were used (page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical laboratory study assessing mosquito behavior and blood-feeding performance."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field sampling locations are reported; study uses laboratory colonies."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection window reported as study relies on colonized lab strains."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Laboratory study using established insectary colonies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files not required; main text confirms lack of field mosquito genotyping data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the impact of pyrethroid-treated bed nets on blood feeding performance and flight behavior of insecticide-susceptible (Kisumu) and resistant (VK7) Anopheles laboratory strains using a modified 'baited box' video assay. The study did not test field-caught mosquito populations or collect extractable resistance marker genotype data.",
+    "exclusion_reasons": [
+      "Does not genotype target insecticide resistance markers.",
+      "Does not report extractable genotype data.",
+      "Only tests laboratory colonies (VK7 and Kisumu), not African field populations."
+    ]
+  }
+}

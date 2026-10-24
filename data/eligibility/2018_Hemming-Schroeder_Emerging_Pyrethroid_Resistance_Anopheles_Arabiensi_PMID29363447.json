@@ -1,0 +1,67 @@
+{
+  "id": "2018_Hemming-Schroeder_Emerging_Pyrethroid_Resistance_Anopheles_Arabiensi_PMID29363447",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study examines Anopheles arabiensis, a member of the Anopheles gambiae s.l. complex (p. 704)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F (kdr-west) and L1014S (kdr-east) (p. 704, 705)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype frequencies (LL, LF, FF, LS, SS) and sample sizes for Anopheles arabiensis across 11 sites (p. 706)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from 11 field sites across Kenya in 2014 (p. 704)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original collection and genotyping data (p. 704)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for 11 specific sites: Port Victoria, Homa Bay, Kamkuywa, Kanyawegi, Chulaimbo, Miwani, Marigat, Kabernet, Gazi, Mtwapa, and Malindi (p. 705, 706)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between May 2014 and October 2014 (p. 704)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine new collections in 2014 and does not indicate overlap with larger existing datasets like Ag1000G."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are contained within the main text tables and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1425,
+    "summary": "This study reports the frequencies of Vgsc L1014F and L1014S mutations in Anopheles arabiensis populations from 11 sites across Kenya, collected in 2014. It includes WHO deltamethrin tube bioassays and provides a comparison of kdr genotype frequencies between survivors and dead mosquitoes, demonstrating a significant association between L1014F and resistance in some populations.",
+    "exclusion_reasons": []
+  }
+}
