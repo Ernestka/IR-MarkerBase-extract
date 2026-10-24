@@ -1,0 +1,70 @@
+{
+  "id": "2015_Ishak_Contrasting_Patterns_Insecticide_Resistance_Knockd_PMID25888775",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses entirely on Aedes mosquitoes (Aedes aegypti and Aedes albopictus); no Anopheles mosquitoes were sampled or tested."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study investigates kdr mutations in Aedes aegypti (V1016G, F1534C, I1011V/M), none of which are target markers for African Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data are reported for any of the target Anopheles resistance markers."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Collections were conducted in Malaysia (Southeast Asia), specifically in Penang, Kota Bharu, Kuala Lumpur, and Johor Bharu."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper reporting field bioassays and molecular testing on mosquitoes collected in 2010."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were made in Penang, Kota Bharu, Kuala Lumpur, and Johor Bharu, Malaysia."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in July and August 2010."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collections conducted in Malaysia in 2010."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is completely ineligible based on vector species, geography, and target markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti",
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "Malaysia"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study profiles insecticide resistance and kdr mutations (F1534C and V1016G) in Aedes aegypti and Aedes albopictus from Malaysia. It is ineligible because it does not investigate Anopheles mosquitoes, does not report target resistance markers, and was conducted outside Africa.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (studies Aedes aegypti and Aedes albopictus).",
+      "Does not report any target Anopheles insecticide resistance markers.",
+      "Does not provide genotype data for target markers.",
+      "Study populations are from Malaysia, not Africa."
+    ]
+  }
+}

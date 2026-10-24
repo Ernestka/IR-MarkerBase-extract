@@ -1,0 +1,69 @@
+{
+  "id": "2023_Chabi_Efficacy_Partial_Spraying_SumiShield_Fludora_PMID37443329",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "A total of 2197 Anopheles gambiae s.l. were collected during the baseline and 17,835 during the 9-month period after spraying (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions L1014F (kdr-w) on page 8 solely by referencing previously published literature (citation 17, Edi et al. 2017). No target resistance markers were genotyped in the mosquitoes collected for this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No marker genotype counts, allele counts, or frequencies were generated or reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild populations of Anopheles gambiae s.l. were collected in experimental huts in Tiassalé, Côte d'Ivoire (Page 1, Page 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical experimental hut study conducted between August 2020 and June 2021 (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Tiassalé District (5.889542, -4.8287673), southern Côte d'Ivoire (Page 8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from August 2020 to June 2021 (Page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a standard primary experimental hut trial reporting original field collection data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files exist for hut density and bioassay data, but marker genotyping was not performed in the study at all."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This experimental hut study evaluated the efficacy and residual activity of partial indoor residual spraying (IRS) with SumiShield, Fludora Fusion, and Actellic against wild Anopheles gambiae s.l. (predominantly An. coluzzii) in Tiassalé, Côte d'Ivoire. WHO tube susceptibility assays and cone bioassays were conducted, but no target-site resistance markers were genotyped in the study population.",
+    "exclusion_reasons": [
+      "Does not report genotyping for any target insecticide resistance markers (only cites previous literature for L1014F).",
+      "Does not contain extractable genotype data."
+    ]
+  }
+}

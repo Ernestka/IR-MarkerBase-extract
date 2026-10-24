@@ -1,0 +1,68 @@
+{
+  "id": "2021_Osoro_Insecticide_Resistance_Exerts_Significant_Fitness_PMID34107949",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on 'immature stages of Anopheles gambiae' (Title)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports the presence of 'two kdr mutations L1014S (77%) and L1014F (23%)' (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Genotype frequencies (77% L1014S, 23% L1014F) are provided as descriptive characteristics of the colonies, citing Machani et al. 2020 [21], without associated sample sizes (N) or raw counts for the genotyping in this specific study."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses the 6th generation (F6) of a resistant colony and the 13th generation (F13) of a susceptible colony (Page 2), which exceeds the F1 limit for field populations."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the fitness costs of insecticide resistance on larval life-traits."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The colonies were originally 'collected from Bungoma in western Kenya' (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not state the years in which the original field collections in Bungoma took place."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The genotype frequencies and colony characterization are explicitly cited from a previous study: 'The two kdr mutations L1014S (77%) and L1014F (23%) were present... [21]', where [21] is Machani et al. 2020."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional file 1 is mentioned as containing mortality data (Fig S1), but not the required genotype counts."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the fitness costs (larval development and survival) associated with pyrethroid resistance in Anopheles gambiae s.s. from western Kenya. It compares a deltamethrin-selected resistant colony (F6) and a susceptible colony (F13) derived from the same genetic background in Bungoma. While the paper mentions frequencies for Vgsc L995F (kdr-west) and L995S (kdr-east), these are descriptive of the colonies and cited from Machani et al. (2020) without providing new extractable genotype counts or sample sizes. Additionally, the use of advanced generation colonies (F6/F13) excludes it from the field population requirement.",
+    "exclusion_reasons": [
+      "The study uses laboratory-colonized mosquitoes (F6 and F13 generations) rather than field-caught (F0) or F1 mosquitoes.",
+      "Genotype frequencies for Vgsc L995F and L995S are provided without sample sizes (N) or raw counts, and are cited from a previous study (Machani et al. 2020)."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2022_Balbone_Essential_Oils_Plants_Combinations_Alternative_PMID36352066",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae mosquitoes (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the kdr L1014F mutation (Vgsc L995F) in the 'VK' strain (page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states that the frequency of the kdr L1014F mutation in the 'VK' strain was 'closed to fixation (F=0.99)' (page 2), but it does not provide the number of mosquitoes genotyped (N) or the specific genotype counts (RR/RS/SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and pupae from 'Vallée du Kou' (Bama), Burkina Faso, between June and October 2021 (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the adulticidal effects of plant essential oils."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to 'Vallée du Kou' (Bama) in the province of Houet, Burkina Faso (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from June to October 2021 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The mosquitoes were collected specifically for this study's bioassays in 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "There is no indication that genotype counts or sample sizes for genotyping are provided in supplementary materials; the paper focuses on bioassay results."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study evaluates the adulticidal efficacy of five plant essential oils and their combinations against susceptible (Kisumu) and resistant (Vallée du Kou) Anopheles gambiae populations in Burkina Faso. While the paper characterizes the 'VK' field strain as having the kdr L1014F mutation at a frequency of 0.99, it does not provide the number of mosquitoes genotyped or the raw genotype counts, and no molecular methods for genotyping are described, suggesting this is a known characteristic of the strain rather than a primary genotyping result of this study.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

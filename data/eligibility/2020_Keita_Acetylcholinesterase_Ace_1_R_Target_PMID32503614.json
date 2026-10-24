@@ -1,0 +1,68 @@
+{
+  "id": "2020_Keita_Acetylcholinesterase_Ace_1_R_Target_PMID32503614",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates Anopheles gambiae (sensu lato) populations, specifically An. arabiensis, An. coluzzii and An. gambiae (s.s.) (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the ace-1 target site substitution G119S (Page 1, Abstract; Page 4, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 (Page 6) provides genotype counts (RS, SS) for An. gambiae (s.l.) disaggregated by site and bioassay outcome (alive/dead). Table 4 (Page 6) provides allele frequencies and sample sizes (n) for each species (An. arabiensis, An. coluzzii, An. gambiae s.s.) disaggregated by site and bioassay outcome."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae of An. gambiae (s.l.) were collected from breeding habitats in three localities in Mali: Dangassa, Koula, and Karadié (Page 1, Abstract; Page 2, Study area)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and genotyping results from field collections in Mali."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for three specific villages: Dangassa, Koula, and Karadié, with coordinates provided (Page 2, Study area)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study states collections and analysis were conducted in 2016 (Page 4, Fig 2; Page 6, Table 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study appears to be an independent research project; there is no mention of the samples being part of a larger surveillance network or previously published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and frequencies are contained within the main text tables (Table 3 and Table 4)."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Mali"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 263,
+    "summary": "The study investigated bendiocarb resistance and the ace-1 G119S mutation in Anopheles gambiae (s.l.) populations from three villages in Mali (Dangassa, Koula, and Karadié) in 2016. Genotyping was performed on 263 mosquitoes, including survivors and dead individuals from WHO tube bioassays, revealing that the G119S mutation was present only in survivors and was found in all three species (An. arabiensis, An. coluzzii, and An. gambiae s.s.).",
+    "exclusion_reasons": []
+  }
+}

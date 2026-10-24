@@ -1,0 +1,68 @@
+{
+  "id": "2019_Osse_Involvement_Anopheles_Nili_Plasmodium_Falciparum_PMID31036025",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study identifies Anopheles gambiae s.l., Anopheles funestus group, and Anopheles nili group as vectors in the study area (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports on the L1014F kdr and G119S ace-1 mutations (Page 4, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (RR, RS, SS) for L1014F kdr and G119S ace-1 in An. gambiae and An. coluzzii (Page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in the districts of Kérou and Péhunco in Northern Benin (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing an original entomological cross-sectional survey."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific villages: Bambaba, Wodara, Péhunco 2, and Béké (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were performed in September and October 2017 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes a specific cross-sectional survey conducted in 2017. While it references other work in the region (e.g., Salako et al.), there is no indication that these specific genotype results are a subset of a larger previously published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is contained within Table 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 108,
+    "summary": "This study investigates the contribution of Anopheles nili to malaria transmission in Northern Benin. As part of the entomological characterization, the authors genotyped Anopheles gambiae and Anopheles coluzzii for the L1014F kdr (Vgsc L995F) and G119S ace-1 (Ace-1 G280S) resistance markers, providing genotype counts and allele frequencies for populations in the Kérou and Péhunco districts collected in late 2017.",
+    "exclusion_reasons": []
+  }
+}

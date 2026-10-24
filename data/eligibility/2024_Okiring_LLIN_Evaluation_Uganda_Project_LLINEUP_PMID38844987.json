@@ -1,0 +1,75 @@
+{
+  "id": "2024_Okiring_LLIN_Evaluation_Uganda_Project_LLINEUP_PMID38844987",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses mosquito species composition in Uganda, specifically mentioning Anopheles gambiae sensu lato (s.l.), Anopheles arabiensis, and Anopheles funestus (Page 5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions markers such as Vgsc-L1014F/S and Cyp4j5-L43F on page 5, but it explicitly cites a previous study (Lynd et al. [32]) for this information rather than reporting new genotyping results."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No new genotype counts, allele counts, or frequencies with sample sizes are reported. The study uses existing data to parameterize a transmission model."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses data from the LLINEUP trial, which involved field collections in 104 health sub-districts in eastern and western Uganda between 2017 and 2019 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a transmission dynamics modelling study (Abstract, Page 1) that utilizes previously published data from the LLINEUP trial to simulate the impact of COVID-19 disruptions."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to 100 distinct health sub-districts (clusters) in Uganda, such as Buliisa (Page 2, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The model is calibrated using data collected during the LLINEUP trial from 2017 to 2019 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states: 'The LLINEUP study was a cluster-randomized trial embedded into Uganda’s 2017–2018 LLIN distribution campaign that collected data from 2017 to 2019 [16, 19]. This provides understanding of context for 100 distinct health sub-districts to help calibrate the transmission model simulations.' (Page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a modelling study and does not contain the primary genotype data required for the database; such data would be found in the cited primary studies (e.g., Lynd et al. 2019)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Cyp4j5 L43F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is a transmission dynamics modelling exercise evaluating the impact of COVID-19 related disruptions on LLIN distribution in Uganda. It utilizes entomological and epidemiological data from the LLINEUP trial (2017-2019) for model calibration. While it mentions insecticide resistance markers (Vgsc L1014F/S, Cyp4j5 L43F), it does not report new genotyping data, instead referencing previously published results from Lynd et al. (2019).",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

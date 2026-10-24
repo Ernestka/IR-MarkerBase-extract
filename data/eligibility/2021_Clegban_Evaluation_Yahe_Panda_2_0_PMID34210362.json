@@ -1,0 +1,67 @@
+{
+  "id": "2021_Clegban_Evaluation_Yahe_Panda_2_0_PMID34210362",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of insecticidal nets against wild pyrethroid-resistant Anopheles gambiae s.l. (Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the L1014F kdr and N1575Y markers (Page 2, Page 8) but only as background information for the study site, citing previous publications (references 10, 11, 33). No new genotyping was performed on the mosquitoes collected during this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies for the specific mosquito samples collected in this study are provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in M’Bé nearby Bouaké, central Côte d’Ivoire (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting on phase II experimental hut evaluations (Page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study site is M’Bé nearby Bouaké (5.209963 W and 7.970241 N) in Côte d’Ivoire (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The evaluation was conducted over 72 days between 4 August and 25 October 2014 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is a standard primary evaluation of specific net brands (Yahe and Panda Net 2.0) and does not indicate overlap with larger genomic datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotyping, so no supplementary genotype data is expected."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of two new deltamethrin-treated LLINs (Yahe and Panda Net 2.0) against wild pyrethroid-resistant Anopheles gambiae s.l. in an experimental hut trial in M'Bé, Côte d'Ivoire. While the authors describe the study population as having a high frequency of the L1014F kdr mutation (~80%), they cite previous literature for this information and do not report any new genotyping results for the mosquitoes collected during the trial.",
+    "exclusion_reasons": [
+      "Does not report new genotype data for target markers; only cites background frequencies from previous studies."
+    ]
+  }
+}

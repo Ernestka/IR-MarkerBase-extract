@@ -1,0 +1,79 @@
+{
+  "id": "2017_Anopheles_gambiae_1000_Genomes_Genetic_Diversity_African_Malaria_Vector_PMID29186111",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study sequenced the genomes of 765 specimens of Anopheles gambiae and Anopheles coluzzii (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on Vgsc L995F (L1014F), L995S (L1014S), and N1570Y (N1575Y) (Page 7, Figure 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele frequencies for L995F and L995S are provided for several countries (Guinea 100%; Burkina Faso 93%; Cameroon 53%; Gabon 36%; Angola 86%; Cameroon 15%; Gabon 65%; Uganda 100%; Kenya 76%) on page 7, and sample sizes for each population are provided in the table in Extended Data Figure 1."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study analyzed 765 wild-caught specimens collected from 15 locations across 8 African countries: Angola, Burkina Faso, Cameroon, Gabon, Guinea, Guinea-Bissau, Kenya, and Uganda (Page 3, Extended Data Figure 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting the first phase of the Ag1000G project."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to 15 specific sampling sites, such as Koraboh, Koundara, Antula, Bana, Sourukoudinga, Pala, Gado-Badzere, Zembe-Borongo, Daiguene, Mayos, Libreville, Luanda, Tororo, Kilifi-Mbogolo, and Kilifi-Junju (Extended Data Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are provided for each site (e.g., 2012, 2009, 2000) in Extended Data Figure 1."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is the primary publication for Phase 1 of the Ag1000G project (Page 3)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Frequencies and sample sizes required for extraction are present in the main text and Extended Data Figure 1."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Angola",
+      "Burkina Faso",
+      "Cameroon",
+      "Gabon",
+      "Guinea",
+      "Guinea-Bissau",
+      "Kenya",
+      "Uganda"
+    ],
+    "collection_years": [
+      2000,
+      2009,
+      2010,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 765,
+    "summary": "This is the primary publication for Phase 1 of the Ag1000G project, reporting whole-genome sequencing of 765 wild-caught Anopheles gambiae and An. coluzzii from 15 locations across 8 African countries. The study reports frequencies for the insecticide-resistance markers Vgsc L995F, L995S, and N1570Y.",
+    "exclusion_reasons": []
+  }
+}

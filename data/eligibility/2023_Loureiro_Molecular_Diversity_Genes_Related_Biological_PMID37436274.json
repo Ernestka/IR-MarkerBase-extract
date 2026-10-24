@@ -1,0 +1,69 @@
+{
+  "id": "2023_Loureiro_Molecular_Diversity_Genes_Related_Biological_PMID37436274",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles (Nyssorhynchus) darlingi Root 1926 is an important malaria vector in South America (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The classical kdr and ace-1R mutations were not observed (Page 1). The substitutions Leu to Phe or Ser in the codon 1014 are the most found kdr mutations... The substitution G119S in the ace-1 gene was found... (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "from 516 An. darlingi DNA samples... The classical kdr and ace-1R mutations were not observed (Page 1)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "We obtained female An. darlingi samples from five Amazonian localities: Estrada do Brasileirinho, Manaus (79 samples), Amazonas State... Unini River (125 samples)... Jaú River (132 samples)... Porto Velho (125 samples)... in Brazil; and from Tagachi-Quibdó (55 samples), Chocó Department... in Colombia (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original molecular analysis of field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Manaus, Unini River, Jaú River and Porto Velho - Brazil, and Chocó - Colombia (Page 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "We highlight that the collections were not designed specifically for this study, and that the samples were kindly provided for the molecular assays and analyses herein presented (Page 2). No specific years of collection are mentioned."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "the collections were not designed specifically for this study, and that the samples were kindly provided for the molecular assays and analyses herein presented (Page 2)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The haplotypes unrevealed of each gene are accessible in the Genbank [sequences and respective accession numbers in the Supplementary data (Table II) (per), Table IV (tim), Table V (NaV) and Table VI (ace-1)] (Page 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles darlingi"
+    ],
+    "countries": [
+      "Brazil",
+      "Colombia"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 516,
+    "summary": "This study evaluated the molecular diversity of genes related to biological rhythms (period and timeless) and insecticide resistance (NaV and ace-1) in Anopheles darlingi populations from Brazil and Colombia. A total of 516 specimens were analyzed. The researchers found that the classical kdr (Vgsc L1014F/S) and ace-1R (G119S) mutations were absent in the sampled populations.",
+    "exclusion_reasons": [
+      "The study was conducted on field populations from Brazil and Colombia (South America), not Africa."
+    ]
+  }
+}

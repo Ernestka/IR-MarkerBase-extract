@@ -1,0 +1,72 @@
+{
+  "id": "2020_Fotakis_Population_Dynamics_Pathogen_Detection_Insecticide_PMID32183909",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Surveillance recorded Anopheles sacharovi, Anopheles maculipennis s.s., Anopheles hyrcanus, and Anopheles claviger (page 4, Table 1; page 7, Table 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Anopheles specimens were screened for pyrethroid knockdown resistance mutations at codon 1014 (VGSC 1014F/C/S) by PCR and sequencing (page 4, Table 1; page 8; page 9, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 and Table 4 report that Anopheles samples tested (4 An. sacharovi, 6 An. maculipennis, 4 An. hyrcanus, 1 An. claviger) carried no 1014 resistance mutations (all wild type / susceptible) (page 7, Table 2; page 8; page 9, Table 4)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All mosquito and sand fly samples were collected from refugee camps located in Greece (Thessaloniki and Chios Island), Europe, not Africa (page 2-3, 'Study sites')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original primary field surveillance and molecular analysis study conducted during June–September 2017 (page 3, 'Vector surveillance and sample handling')."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at four specific camps: Lagadikia and Diavata in Thessaloniki regional unit, and Souda and Vial on Chios island (page 2-3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected bi-weekly from June to September 2017 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original local surveillance data collected in 2017 in Greece."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary Anopheles data and negative kdr screening results are presented in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles sacharovi",
+      "Anopheles maculipennis",
+      "Anopheles hyrcanus",
+      "Anopheles claviger"
+    ],
+    "countries": [
+      "Greece"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 15,
+    "summary": "This study evaluated mosquito and sand fly vector composition, pathogen carriage, and insecticide resistance in four refugee camps in Greece in 2017. Although Anopheles species (An. sacharovi, An. maculipennis, An. hyrcanus, and An. claviger) were screened for Vgsc codon 1014 mutations, the study was conducted entirely in Greece and is not an African field population.",
+    "exclusion_reasons": [
+      "african_field_population"
+    ]
+  }
+}

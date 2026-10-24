@@ -1,0 +1,68 @@
+{
+  "id": "2018_Rakotondranaivo_Evidence_Insecticide_Resistance_Pyrethroids_Bendio_PMID30402485",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study identifies Anopheles funestus s.s., Anopheles arabiensis, and Anopheles gambiae using molecular methods (Table 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study focuses on biochemical assays and PBO synergism. It explicitly states on page 5: \"The presence or absence of kdr mutation in An. funestus population from Tsararano was not investigated.\" No other target markers (Ace-1, Rdl, etc.) were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies for resistance markers are provided in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from households in Tsararano village, Madagascar in July 2017 (Section 2.1 and 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article reporting new experimental data from field collections and bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for Tsararano village, Marovoay District (Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in July 2017 (Section 2.2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports on a specific local collection in 2017 for this research project with no mention of larger surveillance networks."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper states that mortality data is included and enzymatic data is available on request; there is no mention of supplementary genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Madagascar"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 311,
+    "summary": "The study reports on insecticide resistance in Anopheles funestus and Anopheles gambiae s.l. from Tsararano, Madagascar. It uses WHO susceptibility bioassays, PBO synergist assays, and biochemical assays to detect resistance mechanisms. However, it does not genotype any of the target molecular markers (e.g., kdr, Ace-1), explicitly stating that kdr was not investigated in the An. funestus population.",
+    "exclusion_reasons": [
+      "The study does not report genotyping for any of the target insecticide-resistance markers (e.g., Vgsc, Ace-1, Rdl, etc.)."
+    ]
+  }
+}

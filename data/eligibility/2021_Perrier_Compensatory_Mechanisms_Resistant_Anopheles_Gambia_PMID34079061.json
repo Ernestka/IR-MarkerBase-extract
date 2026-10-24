@@ -1,0 +1,68 @@
+{
+  "id": "2021_Perrier_Compensatory_Mechanisms_Resistant_Anopheles_Gambia_PMID34079061",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae strains (Kis, AcerKis, KdrKis) as stated in the title and throughout the text (e.g., Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper focuses on the Vgsc L1014F (L995F) and Ace-1 G119S (G280S) mutations (Page 2, Introduction; Page 12, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study uses established laboratory strains described as homozygous for the target mutations (Page 12, Methods). It does not report genotype counts or frequencies from a population sample of field-collected mosquitoes."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study exclusively uses laboratory colonies (Kis, AcerKis, KdrKis) maintained at the MIVEGEC laboratory in Montpellier, France (Page 12, Methods). While the resistance alleles originated from Burkina Faso, the mosquitoes tested were not field-collected for this study."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating physiological compensatory mechanisms in resistant mosquitoes."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection sites are reported as the study uses laboratory strains."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates are provided as the study uses laboratory strains."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses standard laboratory strains (Kisumu-based) for physiological research, posing no risk of duplicating field surveillance data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary information to determine ineligibility is contained within the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates neuronal compensatory mechanisms in resistant Anopheles gambiae using laboratory strains (Kis, AcerKis, and KdrKis). It characterizes changes in nAChRs and calcium signaling associated with Ace-1 G119S and Vgsc L1014F mutations. While it reports larval bioassays for clothianidin, it does not use field-collected mosquitoes or provide population-level genotype frequency data, making it ineligible for the database.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}
