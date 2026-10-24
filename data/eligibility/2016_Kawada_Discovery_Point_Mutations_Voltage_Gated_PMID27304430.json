@@ -1,0 +1,72 @@
+{
+  "id": "2016_Kawada_Discovery_Point_Mutations_Voltage_Gated_PMID27304430",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti and Aedes aegypti formosus populations in Ghana (Title, Abstract, Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes F1534C and V1016I in Aedes aegypti, which are not among the target markers listed for Anopheles (Page 9, Tables 1-5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies for the studied markers (F1534C and V1016I) are provided in Tables 1, 2, 4, and 5."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from used tires in various field locations in Ghana, including Accra, Kumasi, and Tamale (Page 3, Fig 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original collection, bioassay, and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific cities and towns in Ghana: Accra, Kumasi, Tamale, Abuakwa/Suhum, and Kintampo (Page 3, Fig 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in December 2013 and September 2014 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes routine new collections and analysis performed by the authors in Ghana."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data for the study's findings on Aedes aegypti are contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc F1534C",
+      "Vgsc V1016I"
+    ],
+    "species": [
+      "Aedes aegypti",
+      "Aedes aegypti formosus"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 759,
+    "summary": "This study investigates insecticide resistance and Vgsc mutations (F1534C, V1016I) in Aedes aegypti populations in Ghana. It is ineligible for the database because it does not study Anopheles mosquitoes or the specific target markers required.",
+    "exclusion_reasons": [
+      "The study focuses on Aedes aegypti, not Anopheles mosquitoes.",
+      "The markers genotyped (F1534C, V1016I) are specific to Aedes aegypti and are not the target markers for Anopheles."
+    ]
+  }
+}

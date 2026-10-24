@@ -1,0 +1,74 @@
+{
+  "id": "2022_Roh_Quasi_Experimental_Study_Estimating_Impact_PMID34983550",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper mentions Anopheles gambiae sensu lato and Anopheles funestus (s.l.) on page 3."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports allele frequencies for Vgsc-L1014S, Vgsc-L1014, and Cyp4j5-L43F on page 4."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper only reports allele frequencies (e.g., 'allele frequencies of Vgsc-L1014S and Vgsc-L1014 mutations were 1.00 and 0.06') but does not provide the raw genotype counts (RR/RS/SS) or the total number of mosquitoes genotyped for these markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses mosquitoes collected in the field in Uganda (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the impact of an LLIN campaign."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies health sub-districts (HSDs) and health facilities in the Eastern Region of Uganda (page 2, 3, 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers the period from January 2015 to February 2018 (page 4, 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states that the entomological data comes from the LLINEUP trial (page 3, 4), which is a previously published study (Staedke et al. 2020, referenced as [14])."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not provide the required genotype counts in the main text or the provided pages."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Cyp4j5 L43F"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus s.l."
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the impact of a mass LLIN campaign on pregnancy outcomes in Uganda. While it mentions insecticide resistance markers (kdr and Cyp4j5) and cites previous entomological data from the LLINEUP trial, it does not report primary genotype counts for the mosquitoes in this specific study, and the entomological data is a secondary analysis of a previously published dataset.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

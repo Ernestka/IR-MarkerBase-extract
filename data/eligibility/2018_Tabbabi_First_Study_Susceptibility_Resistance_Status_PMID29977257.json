@@ -1,0 +1,67 @@
+{
+  "id": "2018_Tabbabi_First_Study_Susceptibility_Resistance_Status_PMID29977257",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study conducted on Anopheles (Cellia) sergentii collected in Southern Tunisia (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study performed bioassays and synergist tests but did not perform molecular genotyping for any target site resistance markers (e.g., Vgsc or Ace-1 mutations)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular genotype or allele frequency data are reported; only larval bioassay LC50 values and resistance ratios are given."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "An. sergentii larvae were collected from breeding sites in Tozeur and Tataouine, Tunisia between September and November 2016 (Table 1, Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting original field collection and larval bioassay results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field collection sites were specified at the governorate and breeding site level: Tozeur (ditch) and Tataouine (river and water pond) (Table 1, Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between September and November 2016 (Table 1, Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original bioassay dataset reported by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No relevant molecular genotype data was generated or placed in supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles sergentii"
+    ],
+    "countries": [
+      "Tunisia"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated susceptibility and resistance to pyrethroids (permethrin, deltamethrin) and synergists (DEF, PB) in larval Anopheles sergentii from three locations in Southern Tunisia in 2016. Target site resistance was inferred indirectly via cross-resistance correlation with DDT, but no molecular genotyping of resistance markers was performed.",
+    "exclusion_reasons": [
+      "Does not genotype target resistance markers (e.g. Vgsc, Ace-1, GSTe2).",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

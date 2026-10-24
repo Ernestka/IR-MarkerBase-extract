@@ -1,0 +1,73 @@
+{
+  "id": "2015_Main_Complex_Genome_Evolution_Anopheles_Coluzzii_PMID26359110",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles coluzzii and Anopheles gambiae."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr) and CYP9K1."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides frequency percentages and sample sizes (N) for CYP9K1 haplotypes in A. coluzzii and A. gambiae across multiple years."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Selinkenyi and Kela, Mali."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collections, genome sequencing, and bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites in Selinkenyi and Kela, Mali."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports data for specific years (e.g., 2002, 2004, 2010, 2012, 2014) and longitudinal trends."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions using some data from previous studies (Lee et al. 2013a,b; Norris et al. 2015) but explicitly states 'Data since 2010 are new' (Fig 1 legend) and describes new genomic sequencing and bioassays performed for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype frequency data is provided in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Cyp9k1 G454A"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Mali"
+    ],
+    "collection_years": [
+      2002,
+      2004,
+      2006,
+      2010,
+      2012,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 458,
+    "summary": "This study investigates the genomic evolution of Anopheles coluzzii in Mali following the introduction of insecticide-treated bed nets in 2006. It documents the adaptive introgression of the kdr resistance marker from A. gambiae and the selection of a specific CYP9K1 haplotype in A. coluzzii, demonstrating a synergistic effect on insecticide resistance.",
+    "exclusion_reasons": []
+  }
+}

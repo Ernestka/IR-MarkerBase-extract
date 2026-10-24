@@ -1,0 +1,79 @@
+{
+  "id": "2020_Tancredi_Tracing_Temporal_Geographic_Distribution_Resistanc_PMID32569337",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper exclusively studies Aedes albopictus mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports kdr mutations in Aedes albopictus, which are not among the required Anopheles-specific markers listed in the instructions."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 and Table 3 provide allele and genotype frequencies for various kdr mutations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study includes populations from China, Thailand, La Reunion Island, Mexico, Greece, and Italy. While La Reunion is an African territory, the paper does not report any Anopheles species."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides specific collection sites such as 'Northern Italy, Modena' and 'Southern Italy, Foggia'."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper specifies collection years for each population (e.g., 2011, 2018)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new collections and analyses."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "China",
+      "Thailand",
+      "France (La Reunion)",
+      "Mexico",
+      "Greece",
+      "Italy"
+    ],
+    "collection_years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 512,
+    "summary": "This paper investigates kdr mutations in the voltage-gated sodium channel gene of Aedes albopictus populations from various countries. It does not study Anopheles malaria vectors.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "african_field_population"
+    ]
+  }
+}

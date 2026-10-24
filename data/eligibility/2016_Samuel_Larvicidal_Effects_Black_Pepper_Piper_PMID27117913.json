@@ -1,0 +1,68 @@
+{
+  "id": "2016_Samuel_Larvicidal_Effects_Black_Pepper_Piper_PMID27117913",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Tests Anopheles arabiensis, An. coluzzii, An. gambiae, An. quadriannulatus, and An. funestus larvae (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers were genotyped in this study. Markers such as L1014F kdr, Rdl A296G, and ace-1R are mentioned only in Table 1 (page 3) as background characteristics cited from previous literature describing laboratory colonies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular genotyping was carried out in this study, and no genotype counts or allele frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All mosquitoes tested were long-term laboratory colonies maintained in the Botha De Meillon Insectary (BMDI) at NICD (page 2, 'Mosquito strains', Table 1); no field-collected mosquitoes were tested."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical laboratory bioassay study assessing larvicidal effects of black pepper and piperine."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Only countries of origin for the historical laboratory colonies are mentioned in Table 1 (e.g., Zimbabwe, Sudan, Liberia, Ghana, Sierra Leone, Côte d'Ivoire, Angola, Mozambique); no field collection sites."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field mosquito collection dates are reported because all tests used established insectary strains."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No field mosquito collections or genotype datasets involved."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; the paper is entirely an insectary-based larval bioassay study without genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles quadriannulatus",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study tested the larvicidal efficacy of black pepper (Piper nigrum) and piperine on third- and fourth-instar larvae across several colonized laboratory strains of Anopheles arabiensis, An. coluzzii, An. gambiae, An. quadriannulatus, and An. funestus. No molecular marker genotyping was performed and no African field populations were tested.",
+    "exclusion_reasons": [
+      "No target resistance markers genotyped (markers mentioned only in literature review of laboratory strain background in Table 1)",
+      "No extractable genotype data reported",
+      "Only colonized laboratory strains tested; no African field populations"
+    ]
+  }
+}

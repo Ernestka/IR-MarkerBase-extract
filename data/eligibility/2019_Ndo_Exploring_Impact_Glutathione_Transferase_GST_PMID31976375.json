@@ -1,0 +1,64 @@
+{
+  "id": "2019_Ndo_Exploring_Impact_Glutathione_Transferase_GST_PMID31976375",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus (page 1, 3, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping of the GSTe2 L119F marker (page 4, 5, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 and Figure 1 provide genotype counts and frequencies for the L119F-GSTe2 marker in Obout and Mibellon populations (page 6, 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Obout and Mibellon, Cameroon (page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research article reporting original experimental infection and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites as Obout and Mibellon, Cameroon (page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2019, and the methods and results describe a specific, contemporary field collection and experimental study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes a new, specific experimental infection study using field-collected mosquitoes. While the authors have published other work on these populations, this specific dataset (infection experiments combined with GSTe2 genotyping) is presented as a distinct study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and infection parameters, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": true,
+    "sample_size": 403,
+    "summary": "This study investigated the impact of the GSTe2 L119F resistance marker on the vector competence of Anopheles funestus for Plasmodium falciparum. 403 mosquitoes from two sites in Cameroon (Obout and Mibellon) were genotyped and their infection status/intensity compared. The study found that while the resistance allele was associated with lower infection prevalence, it was associated with higher infection intensity in infected mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

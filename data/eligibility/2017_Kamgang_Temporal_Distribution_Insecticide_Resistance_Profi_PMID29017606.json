@@ -1,0 +1,70 @@
+{
+  "id": "2017_Kamgang_Temporal_Distribution_Insecticide_Resistance_Profi_PMID29017606",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper exclusively studies Aedes aegypti and Aedes albopictus."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the F1534C mutation in Aedes aegypti (page 3, 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states 'None of the Ae. aegypti mosquitoes was found carrying this mutation' (page 6), but does not provide the specific number of individuals genotyped per population or site, only a total of 59 F0 specimens of Ae. aegypti (page 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Yaoundé, Cameroon (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and laboratory analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for specific neighborhoods in Yaoundé (Mokolo, Mvog-Ada, Essos, Nkolbisson, Emana, Ahala, Nkoabang) (page 2, 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred in December 2015 and June 2016 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections in 2015-2016."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper provides the necessary information in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc F1534C"
+    ],
+    "species": [
+      "Aedes aegypti",
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 59,
+    "summary": "This study investigates the insecticide resistance profile and distribution of Aedes aegypti and Aedes albopictus in Yaoundé, Cameroon. It is ineligible because it does not study Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "is_anopheles"
+    ]
+  }
+}

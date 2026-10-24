@@ -1,0 +1,68 @@
+{
+  "id": "2021_Zhao_Entomological_Molecular_Surveillance_Anopheles_Mos_PMID34222167",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles mosquitoes (An. gambiae complex and An. coustani) in Freetown, Sierra Leone."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr L1014F) and Vgsc L995S (kdr L1014S) in Table 4 and text."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides the number of samples tested and the resistance status (RS, heterozygous) for An. coluzzii and An. gambiae s.s. at the Lakka site."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Freetown, Sierra Leone, in 2019."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research paper reporting new entomological and molecular surveillance data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific surveillance sites in Freetown, Sierra Leone, with coordinates in Table 1."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from June to December 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new surveillance effort in 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Sierra Leone"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 91,
+    "summary": "This study conducted entomological and molecular surveillance of Anopheles mosquitoes in Freetown, Sierra Leone, in 2019. It identified An. coluzzii and An. gambiae s.s. and genotyped them for kdr L1014F and L1014S mutations. All tested mosquitoes were found to be heterozygous for the kdr L1014F mutation, while the L1014S mutation was absent.",
+    "exclusion_reasons": []
+  }
+}

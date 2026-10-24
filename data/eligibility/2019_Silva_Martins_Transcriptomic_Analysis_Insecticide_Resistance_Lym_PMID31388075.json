@@ -1,0 +1,68 @@
+{
+  "id": "2019_Silva_Martins_Transcriptomic_Analysis_Insecticide_Resistance_Lym_PMID31388075",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper studies Culex quinquefasciatus, not Anopheles."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Ace-1 G119S genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 3c provides genotype counts (GG, GS, SS) for alive and dead mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Nagongera, Tororo, Uganda."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original bioassay and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Nagongera, Tororo, Uganda."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection occurred between June and July 2012."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new collections and bioassays."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in Figure 3c."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 81,
+    "summary": "This study investigates insecticide resistance in Culex quinquefasciatus from Tororo, Uganda. It reports bioassay results for six insecticides and genotypes the Ace-1 G119S mutation. It also performs transcriptomic analysis to identify candidate genes for bendiocarb resistance.",
+    "exclusion_reasons": [
+      "is_anopheles"
+    ]
+  }
+}

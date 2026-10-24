@@ -1,0 +1,72 @@
+{
+  "id": "2019_Matowo_Fine_Scale_Spatial_Temporal_Variations_PMID31443737",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study reports the relative abundance and indoor distribution of Anopheles arabiensis and Anopheles funestus group mosquitoes in Table 6 (page 9)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not genotype any of the target insecticide-resistance markers (e.g., Vgsc, Ace-1 G119S, Rdl). It performs molecular species identification for the Culex pipiens complex using the ace-2 locus, but this is not for resistance genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data for the specified resistance markers are reported in the paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Ulanga District, south-eastern Tanzania, between 2012 and 2016 (pages 3-4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating insecticide resistance and species composition in field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for specific wards: Minepa, Mavimba, and Lupiro in Ulanga District, Tanzania (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae for bioassays were collected between June 2015 and June 2016 (page 4). Surveillance data are reported for 2012, 2013, and 2015 (Table 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses data from an annual mosquito surveillance programme conducted by the Ifakara Health Institute (Table 6), but the resistance bioassay data appear to be original to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main findings regarding species identification and bioassay results are contained within the provided tables (Tables 2-6)."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex pipiens complex",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates insecticide resistance and species diversity within the Culex pipiens complex in south-eastern Tanzania. While it provides surveillance data (relative abundance) for Anopheles arabiensis and Anopheles funestus, the insecticide resistance bioassays and molecular analyses were exclusively performed on Culex species. No genotyping of target insecticide-resistance markers (such as Vgsc or Ace-1) was conducted for Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "Does not report genotyping of target insecticide-resistance markers in Anopheles mosquitoes.",
+      "The insecticide resistance bioassays and molecular mechanisms investigated are focused on the Culex pipiens complex."
+    ]
+  }
+}

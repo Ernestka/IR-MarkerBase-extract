@@ -1,0 +1,70 @@
+{
+  "id": "2018_Ibrahim_Pyrethroid_Resistance_Major_Malaria_Vector_PMID29498712",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not genotype any of the listed insecticide-resistance markers. It performs transcriptional profiling (microarray and qRT-PCR) and polymorphism analysis of the CYP6AA1 gene, but does not report genotypes for any of the specified tier 1 or tier 2 markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports polymorphism analysis (haplotypes) of the CYP6AA1 gene, but does not report genotype counts (RR/RS/SS) or allele frequencies for any of the required insecticide-resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Anopheles funestus from Malawi, Mozambique, Zambia, Uganda, Benin, and Ghana."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper mentions specific locations such as Chokwe District in Mozambique (page 17, reference 47) and Tororo in Uganda (page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study uses previously published data and new analyses, but the context of the samples is well-defined."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper uses samples from previously published studies (e.g., [13, 16, 26, 27]), but it is a primary study characterizing a new gene (CYP6AA1)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report the required marker genotype data, so no supplement is needed to fulfill that requirement."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Malawi",
+      "Mozambique",
+      "Zambia",
+      "Uganda",
+      "Benin",
+      "Ghana"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper characterizes the role of the P450 gene CYP6AA1 in pyrethroid resistance in Anopheles funestus. It uses transcriptional profiling, heterologous expression, and transgenic Drosophila to validate the gene's function. It does not genotype any of the required insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+study_id: 2010_Dery_Patterns_Seasonality_Malaria_Transmission_Forest_PMID21054895
+title: Patterns and seasonality of malaria transmission in the forest-savannah transitional
+  zones of Ghana
+first_author: Dominic B Dery
+doi: 10.1186/1475-2875-9-314
+pmid: '21054895'
+publication_year: 2010
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: Patterns and seasonality of malaria transmission in the forest-savannah
+    transitional zones of Ghana
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-24'
+pmid_source: Europe PMC (from DOI)
