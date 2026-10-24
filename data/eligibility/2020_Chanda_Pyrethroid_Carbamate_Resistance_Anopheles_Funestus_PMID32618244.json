@@ -1,0 +1,67 @@
+{
+  "id": "2020_Chanda_Pyrethroid_Carbamate_Resistance_Anopheles_Funestus_PMID32618244",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Indoor-resting mosquitoes of the Anopheles funestus group (An. funestus s.s. and An. rivulorum) were collected along Lake Kariba in southern Zambia (page 91)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers were genotyped. The authors state on page 95: 'resources were limited to perform molecular genotyping to characterize resistance mechanisms in the populations of An. funestus in the study areas.'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotyping was performed, so no genotype or allele counts are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field collections of adult Anopheles mosquitoes were conducted in Southern Province, Zambia between April and May 2015 and reared to F1 for bioassays (pages 91-92)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper evaluating insecticide susceptibility, PBO synergism, and Plasmodium sporozoite infection in field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from six specific sites in Sinazongwe and Siavonga districts of Southern Province, Zambia: Buleyamalima, GVDC, Chiyabi, Sikaneka, Siatwinda, and Manchanvwa (pages 91-94, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between April 2015 and May 2015 (page 91)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study was part of an MDA trial conducted in Southern Province, Zambia, with direct field collections performed by the study team."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The only supplemental file referenced is Supplemental Table S1 describing agricultural insecticides used in the study areas; no genotype data was gathered or withheld."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles rivulorum"
+    ],
+    "countries": [
+      "Zambia"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated susceptibility to deltamethrin, bendiocarb, pirimiphos-methyl, and DDT, as well as PBO synergism and sporozoite rates, in F1 Anopheles funestus s.l. from southern Zambia in 2015. However, no molecular resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "No target insecticide-resistance markers were genotyped in the mosquito populations."
+    ]
+  }
+}

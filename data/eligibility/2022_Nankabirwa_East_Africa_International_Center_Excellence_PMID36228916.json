@@ -1,0 +1,67 @@
+{
+  "id": "2022_Nankabirwa_East_Africa_International_Center_Excellence_PMID36228916",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses vector control and mosquito species including Anopheles gambiae s.s., An. arabiensis, and An. funestus (p. 29)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr and Cyp4j5 in the text when summarizing previous findings (p. 29), but does not genotype any target insecticide-resistance markers in this paper."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or sample sizes for insecticide-resistance markers in mosquitoes are presented."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Discusses field vector populations from Tororo and other districts in Uganda (p. 29)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a review/summary article: 'Here, we report a summary of key research findings from our PRISM projects and some related studies from our group' (p. 21)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions specific districts and subcounties in Uganda such as Nagongera subcounty, Tororo District (p. 24, 29)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "It reviews longitudinal research conducted over more than a decade (2010–2021) without specific primary dataset temporal bounding for vector genotyping."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly reviews previously published findings from the PRISM ICEMR program and cites the primary studies (e.g., references 83, 90, 91, 94, 97)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are indicated as containing primary extractable mosquito genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a review summarizing key research findings from the Program for Resistance, Immunology, Surveillance, and Modeling of Malaria (PRISM) in Uganda, which represents the East African International Center of Excellence for Malaria Research (ICEMR). It does not present primary empirical mosquito genotype data.",
+    "exclusion_reasons": [
+      "Not a primary study (review/summary of PRISM ICEMR findings)",
+      "Does not genotype target markers or report extractable mosquito genotype data"
+    ]
+  }
+}

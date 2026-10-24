@@ -1,0 +1,65 @@
+{
+  "id": "2020_Hughes_Quantifying_Late_Stage_Host_Seeking_PMID32264900",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tests Anopheles gambiae s.l. (Kisumu and Tiassalé strains) (page 5, 'Mosquitoes')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No resistance markers were genotyped. The text mentions known characteristics of the laboratory strains ('It has a high frequency of 1014F kdr and ace-1 mutations...', page 5) citing prior literature, but performs no genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotyping was performed; no genotype counts, frequencies, or sample sizes for marker assays are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All experiments were performed using long-maintained laboratory colonies (Kisumu and Tiassalé) held at the Liverpool School of Tropical Medicine, UK (page 5, 'Mosquitoes'). No field-collected mosquitoes were used."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper investigating mosquito host-seeking behaviour using a novel baited-box bioassay."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Only laboratory colonies were used; no field collection sites were sampled."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collections were conducted in this study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine laboratory assay study evaluating behaviour of LSTM insectary strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary file 1 is a video recording of the baited box assay."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study describes and evaluates a benchtop 'baited-box' video bioassay to quantify the behavioural responses and feeding dynamics of Anopheles gambiae s.l. at insecticide-treated and untreated nets using laboratory colonies (Kisumu and Tiassalé). No field collections or resistance marker genotyping were conducted.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide-resistance markers.",
+      "Does not report extractable genotype data.",
+      "Tested only laboratory colonies (Kisumu and Tiassalé maintained at LSTM), not African field-collected populations."
+    ]
+  }
+}

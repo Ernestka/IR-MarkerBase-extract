@@ -1,0 +1,70 @@
+{
+  "id": "2018_Tabbabi_Resistance_Status_Deltamethrin_Pyrethroid_Culex_PMID30766584",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Culex pipiens pipiens: 'Larvae of Culex pipiens pipiens were collected from three breeding places in Northern and Southern Tunisia between 2003 and 2005.' (page 1182)"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers were genotyped. The authors only inferred the non-involvement of kdr based on cross-resistance bioassays with DDT: 'indicated the non-involvment of kdr mutations since both insecticides target the voltage-gated sodium channel of insect' (page 1184)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular genotyping was performed; only larval bioassay LC50 and resistance ratios are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field populations were collected from Tunisia: 'Larvae of Culex pipiens pipiens were collected from three breeding places in Northern and Southern Tunisia between 2003 and 2005' (page 1183)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study reports original larval bioassays and synergist assays performed on field-collected mosquito populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collected from three locations in Tunisia: Sidi Hcine, El Fahs, and Jebeniana (page 1184, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collected 'between 2003 and 2005' (page 1183), which is a 3-year window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard field collection conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files needed; the paper does not meet the basic eligibility criteria."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex pipiens pipiens"
+    ],
+    "countries": [
+      "Tunisia"
+    ],
+    "collection_years": [
+      2003,
+      2004,
+      2005
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated susceptibility to deltamethrin and DDT with synergists (DEF and Pb) in larval populations of Culex pipiens pipiens from three locations in Tunisia. No Anopheles mosquitoes were studied and no molecular marker genotyping was performed.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

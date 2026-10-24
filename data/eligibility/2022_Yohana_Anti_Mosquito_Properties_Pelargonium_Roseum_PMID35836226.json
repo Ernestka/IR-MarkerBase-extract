@@ -1,0 +1,65 @@
+{
+  "id": "2022_Yohana_Anti_Mosquito_Properties_Pelargonium_Roseum_PMID35836226",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigated larvicidal and adulticidal effects against Anopheles gambiae s.s. (Kisumu strain) and wild Anopheles arabiensis (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers were genotyped. Knockdown resistance is only mentioned in the discussion as a potential explanation citing previous literature."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any genotype or allele frequencies or counts; it exclusively presents bioassay toxicity and mortality results."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild An. arabiensis adults were collected from Mabogini rice irrigation schemes and cowsheds in Lower Moshi, Kilimanjaro Region, Tanzania (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article evaluating the efficacy of essential oils against mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Lower Moshi and Mabogini, Kilimanjaro Region, Tanzania (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Plant material collection is stated as summer 2019, but the collection dates/years for the wild An. arabiensis mosquitoes are not explicitly stated."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard experimental collection of wild mosquitoes for bioassays."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional file 1 covers published activities of essential oils against various arthropods from literature and contains no mosquito genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study tested the larvicidal and adulticidal efficacy of Pelargonium roseum and Juniperus virginiana essential oils and their constituents against laboratory An. gambiae s.s. and wild An. arabiensis from Tanzania. No molecular genotyping of resistance markers was conducted.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped; the paper only reports bioassays."
+    ]
+  }
+}

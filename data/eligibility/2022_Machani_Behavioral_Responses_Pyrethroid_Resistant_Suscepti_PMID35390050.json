@@ -1,0 +1,65 @@
+{
+  "id": "2022_Machani_Behavioral_Responses_Pyrethroid_Resistant_Suscepti_PMID35390050",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. (page 1, 3-4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The authors mention kdr 1014S and 1014F mutations (page 4, 11, 12), but only as background cited from previous work (e.g. Machani et al. 2020, reference 29). No target markers were genotyped as part of this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies with sample sizes are presented in the text, tables, or figures; only qualitative statements referencing previous studies are given (e.g. 'The two kdr mutations 1014S and 1014F were present and at high frequencies', page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The colonies were derived from Bungoma County, western Kenya, and F1 progeny of wild-caught An. gambiae females from Bungoma were also used (page 3-4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study is a primary empirical investigation of mosquito host-seeking and avoidance behavior in a semi-field system (MalariaSphere)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes originated from Bungoma County in western Kenya, and semi-field tests took place at KEMRI in Kisumu (page 3-4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The dates/years of field mosquito collection are not reported in the manuscript."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; no new genotype data were reported."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supporting information tables (S1 Table, S2 Table, S3 Table) contain behavioral and bioassay data, not resistance marker genotyping data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study assesses the behavioral responses (host-seeking, entry, exit, and resting) of pyrethroid-resistant and susceptible Anopheles gambiae strains and F1 wild progeny to deltamethrin-treated bed nets inside a semi-field system in Kisumu, Kenya. No resistance marker genotyping was performed in this study; kdr mutations (1014F, 1014S) are only mentioned in reference to previously published work.",
+    "exclusion_reasons": [
+      "No target resistance markers were genotyped in this study.",
+      "No extractable genotype data (counts or frequencies with sample sizes) are reported."
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2018_Glunt_Impact_Temperature_Insecticide_Toxicity_Against_PMID29606123",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tests Anopheles arabiensis and Anopheles funestus (page 1, Title and Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not genotype any resistance markers. It only cites previous literature regarding the presence of L1014F in the SENN-DDT colony (page 2, 'Methods: Mosquito strains')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies are generated or reported; only phenotypic bioassay mortality data across different temperatures are tested."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All experiments were performed exclusively using long-established laboratory colonies: SENN (maintained since 1990), SENN-DDT, FUMOZ (maintained since 2000), and FUMOZ-R (page 2, 'Methods: Mosquito strains'). No field-collected mosquitoes were used."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary experimental laboratory bioassay study assessing temperature effects on insecticide toxicity."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable to field populations as only long-term laboratory colonies were evaluated."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable to field populations as only laboratory colonies were tested."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard experimental study on established laboratory colonies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary Table S1 only contains sample sizes and environmental conditions for bioassay tests; no genotype data exists."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory study evaluated the effect of temperature (18, 25, and 30 deg C) on deltamethrin and bendiocarb toxicity, as well as PBO synergism, using colonized Anopheles arabiensis (SENN, SENN-DDT) and Anopheles funestus (FUMOZ, FUMOZ-R) strains. No field mosquitoes were tested and no resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "No target resistance markers were genotyped.",
+      "No extractable genotype data reported.",
+      "Mosquitoes tested were exclusively colonized laboratory strains (SENN, SENN-DDT, FUMOZ, FUMOZ-R); no African field-collected populations were evaluated."
+    ]
+  }
+}

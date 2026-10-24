@@ -1,0 +1,64 @@
+{
+  "id": "2015_Agossa_Impact_Insecticide_Resistance_Effectiveness_Pyreth_PMID26674643",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study tested wild Anopheles gambiae s.l. collected as larvae/pupae in Malanville, Benin (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The authors explicitly state on page 8: 'although molecular analysis has not been performed in this study, the results are consistent with the resistance increase observed in 2011 in Malanville'. No target resistance markers were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or allele frequencies are reported because molecular genotyping was not performed."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. larvae and pupae were collected in Malanville, northern Benin (Page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary study evaluating insecticide bioefficacy, bioassays, and experimental hut trials in Benin (Page 2-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field site specified as Malanville (11°52' N and 3°23' E), northern Benin (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper describes a 6-month evaluation period (Page 3) but does not state the specific calendar year(s) of collection."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary study reporting new bioassay and experimental hut evaluations."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary molecular genotyping data is missing because genotyping was not performed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated pyrethroid resistance and the effectiveness of indoor residual spraying (IRS) and long-lasting insecticidal nets (LLINs) against Anopheles gambiae s.l. in Malanville, northern Benin using WHO bioassays, CDC bottle assays, cone bioassays, tunnel tests, and experimental huts. However, no target molecular resistance markers were genotyped in this study.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped or reported in this study (page 8 explicitly states 'although molecular analysis has not been performed in this study')."
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2012_Jones_dioulassoba_2009_2010_arab,kdr,1014S,Vgsc,L995S,SNP,1,L1014S,,S,TaqMan PCR,False,63,11,28,24,,,0.4,,Table 1: Non-exposed | N=63 | LL=24 | LS=28 | SS=11 | f(1014S)=0.40,3,Table 1,,
+2012_Jones_dioulassoba_2009_2010_arab,kdr,1014F,Vgsc,L995F,SNP,1,L1014F,,F,TaqMan PCR,False,63,0,0,63,,,0.0,,The 1014F mutation was not found in An. arabiensis.,5,,,
+2012_Jones_dioulassoba_2009_2010_gamb_ss,kdr,1014F,Vgsc,L995F,SNP,1,L1014F,,F,TaqMan PCR,False,17,,,,,,0.88,,"1014F was at a high frequency (0.88) from a small number of An. gambiae s.s. tested (exposed, N = 16; unexposed, N = 1), while 1014S was not found.",5,,,

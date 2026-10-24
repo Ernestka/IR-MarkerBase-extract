@@ -1,0 +1,20 @@
+study_id: 2011_Hunt_Insecticide_Resistance_Malaria_Vector_Mosquitoes_PMID21679391
+title: Insecticide resistance in malaria vector mosquitoes at four localities in Ghana,
+  West Africa
+first_author: Richard H Hunt
+doi: 10.1186/1756-3305-4-107
+pmid: '21679391'
+publication_year: 2011
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: Hunt et al. Parasites & Vectors 2011, 4:107
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-24'
+pmid_source: Europe PMC (from DOI)

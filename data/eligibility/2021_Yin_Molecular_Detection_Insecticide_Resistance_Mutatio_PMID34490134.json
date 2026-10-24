@@ -1,0 +1,71 @@
+{
+  "id": "2021_Yin_Molecular_Detection_Insecticide_Resistance_Mutatio_PMID34490134",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'In the present study, the polymerase chain reaction was applied for the identification of species of 757 dry adult female Anopheles gambiae mosquitoes reared from larvae collected from four districts in Sierra Leone during May and June 2018.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 3 (Table 2) and Page 4 (Table 4): Evaluates kdr west (L1014F / Vgsc L995F), kdr east (L1014S / Vgsc L995S), A296G rdl (Rdl A296G), A296S rdl (Rdl A296S), and G119S ace-1 (Ace-1 G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 4, Table 4 provides exact counts of RR, RS, and SS genotypes and mutation frequencies for A296G rdl, A296S rdl, kdrE, kdrW, and ace-1 across four collection communities."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: 'They were reared from larvae, which were collected from natural breeding water bodies in Kayangba community from Bo district, Magbema community from Bombali district, Lebanon community from Kono district, and Bolima community from Western Area Rural district, respectively, during May and June 2018' in Sierra Leone."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Page 2-3: The authors collected larvae from field sites in Sierra Leone, reared them, performed PCR species identification, and typed resistance markers using SNaPshot and sequencing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: Kayangba community (Bo district), Magbema community (Bombali district), Lebanon community (Kono district), and Bolima community (Western Area Rural district), Sierra Leone."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2: Samples were collected during May and June 2018."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Page 2 notes the samples were collected as part of the National Malaria Control Program (NMCP) four-year insecticide resistance monitoring program (2017-2020) supported by WHO, but there is no indication this specific genotype dataset was published elsewhere."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All district-level sample counts, genotype breakdown (RR, RS, SS), and allele frequencies are fully provided in Table 3, Table 4, and Table 5 within the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Sierra Leone"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 748,
+    "summary": "This primary study reports target-site resistance marker frequencies (Vgsc L995F/L1014F, Vgsc L995S/L1014S, Ace-1 G280S/G119S, Rdl A296G, Rdl A296S) in 748 Anopheles gambiae s.s. mosquitoes reared from larvae collected in May and June 2018 across four districts in Sierra Leone (Bo, Bombali, Kono, and Western Area Rural). Genotyping was conducted using SNaPshot multiplex extension and sequencing, providing extractable site-level RR, RS, and SS genotype counts.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2020_Fongnikin_Efficacy_Fludora_Fusion_Mixture_Deltamethrin_PMID32917255",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Wild pyrethroid-resistant Anopheles gambiae (s.l.) and laboratory Kisumu strains were evaluated in laboratory and experimental hut trials in Cové, Benin (Page 1, Abstract; Page 3, Study site and experimental huts)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No resistance markers were genotyped in this study. The authors only cite previously published characterization of the Cové site: 'Molecular genotyping and microarray studies have demonstrated a high frequency of the L1014F allele (>90%) and overexpression of the cytochrome P450s CYP6P3, associated with pyrethroid detoxification [13]' (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular assays or genotype data were generated or reported in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild free-flying An. gambiae s.l. and wild larvae reared to adults were collected in Cové, southern Benin (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary experimental hut and laboratory study evaluating Fludora Fusion IRS formulations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field site is Cové, southern Benin (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial ran between December 2015 and November 2016 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy and residual performance of Fludora Fusion (a mixture of deltamethrin and clothianidin) for indoor residual spraying in experimental huts and laboratory cone bioassays in Cové, Benin. No resistance marker genotyping was performed; the paper only references previous literature regarding the presence of Vgsc L1014F in the local population.",
+    "exclusion_reasons": [
+      "No target insecticide-resistance markers were genotyped in this study (bioassays and hut trials only).",
+      "No extractable genotype data provided."
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+study_id: 2012_Edi_Multiple_Insecticide_Resistance_Anopheles_Gambiae_PMID22932478
+title: Multiple-Insecticide Resistance in Anopheles gambiae Mosquitoes, Southern Côte
+  d’Ivoire
+first_author: Constant V.A. Edi
+doi: 10.3201/eid1809.120262
+pmid: '22932478'
+publication_year: 2012
+countries:
+- Côte d'Ivoire
+data_source: journal_article
+provenance:
+  source_text: Multiple-Insecticide Resistance in Anopheles gambiae Mosquitoes, Southern
+    Côte d’Ivoire
+  page: '1508'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-24'
+pmid_source: Europe PMC (from DOI)

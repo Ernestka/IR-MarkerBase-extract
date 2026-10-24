@@ -1,0 +1,23 @@
+study_id: 2011_Yewhalaw_Multiple_Insecticide_Resistance_Impediment_Insecti_PMID21264325
+title: 'Multiple Insecticide Resistance: An Impediment to Insecticide-Based Malaria
+  Vector Control Program'
+first_author: Delenasaw Yewhalaw
+doi: 10.1371/journal.pone.0016066
+pmid: '21264325'
+publication_year: 2011
+countries:
+- Ethiopia
+data_source: journal_article
+provenance:
+  source_text: Susceptibility status of An. arabiensis was assessed using WHO bioassay
+    tests to DDT, permethrin, deltamethrin, malathion and propoxur in Ethiopia from
+    August to September 2009. Mosquito specimens were screened for knockdown resistance
+    (kdr) and insensitive acetylcholinesterase (ace-1R) mutations...
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-24'
+pmid_source: Europe PMC (from DOI)

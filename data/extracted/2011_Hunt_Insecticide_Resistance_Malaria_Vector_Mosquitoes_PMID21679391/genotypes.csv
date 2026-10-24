@@ -1,0 +1,2 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2011_Hunt_Ghana_tarkwa_mform,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,TaqMan,False,5,0,1,4,,1,,,Only five specimens of An. gambiae M form were available (from Tarkwa) for kdr analysis and one was heterozygous for L1014F.,4,,,

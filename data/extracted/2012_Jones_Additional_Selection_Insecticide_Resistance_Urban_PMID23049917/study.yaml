@@ -1,0 +1,21 @@
+study_id: 2012_Jones_Additional_Selection_Insecticide_Resistance_Urban_PMID23049917
+title: 'Additional Selection for Insecticide Resistance in Urban Malaria Vectors:
+  DDT Resistance in Anopheles arabiensis from Bobo-Dioulasso, Burkina Faso'
+first_author: Christopher M. Jones
+doi: 10.1371/journal.pone.0045995
+pmid: '23049917'
+publication_year: 2012
+countries:
+- Burkina Faso
+data_source: published_paper
+provenance:
+  source_text: 'Additional Selection for Insecticide Resistance in Urban Malaria Vectors:
+    DDT Resistance in Anopheles arabiensis from Bobo-Dioulasso, Burkina Faso'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-24'
+pmid_source: Europe PMC (from DOI)

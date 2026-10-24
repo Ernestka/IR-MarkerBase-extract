@@ -1,0 +1,19 @@
+study_id: 2011_Nwane_Kdr_Based_Insecticide_Resistance_Anopheles_PMID22035176
+title: Kdr-based insecticide resistance in Anopheles gambiae s.s populations in Cameroon
+first_author: Philippe Nwane
+doi: 10.1186/1756-0500/4/463
+pmid: '22035176'
+publication_year: 2011
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Kdr-based insecticide resistance in Anopheles gambiae s.s populations
+    in Cameroon. Nwane et al. BMC Research Notes 2011, 4:463
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-24'

@@ -1,0 +1,11 @@
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_ddt,DDT,kdr,L1014F,Vgsc,L995F,SNP,alive,39,7,2,48,,0.885,,DDT Alive No. 48 LL 2 LF 7 FF 39 1014F Frequency 88.5,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_ddt,DDT,kdr,L1014F,Vgsc,L995F,SNP,dead,13,10,2,25,,0.72,,DDT Dead No. 25 LL 2 LF 10 FF 13 1014F Frequency 72,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_permethrin,permethrin,kdr,L1014F,Vgsc,L995F,SNP,alive,31,12,1,44,,0.841,,Permethrin Alive No. 44 LL 1 LF 12 FF 31 1014F Frequency 84.1,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_permethrin,permethrin,kdr,L1014F,Vgsc,L995F,SNP,dead,29,12,3,44,,0.795,,Permethrin Dead No. 44 LL 3 LF 12 FF 29 1014F Frequency 79.5,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_deltamethrin,deltamethrin,kdr,L1014F,Vgsc,L995F,SNP,alive,32,12,1,45,,0.844,,Deltamethrin Alive No. 45 LL 1 LF 12 FF 32 1014F Frequency 84.4,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_deltamethrin,deltamethrin,kdr,L1014F,Vgsc,L995F,SNP,dead,33,9,2,44,,0.852,,Deltamethrin Dead No. 44 LL 2 LF 9 FF 33 1014F Frequency 85.2,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_bendiocarb,bendiocarb,Ace-1,G119S,Ace-1,G280S,SNP,alive,0,49,0,49,,0.5,,Bendiocarb Alive No. 49 GG 0 GS 49 SS 0 119S Frequency 50,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_bendiocarb,bendiocarb,Ace-1,G119S,Ace-1,G280S,SNP,dead,0,12,25,37,,0.162,,Bendiocarb Dead No. 37 GG 25 GS 12 SS 0 119S Frequency 16.2,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_fenitrothion,fenitrothion,Ace-1,G119S,Ace-1,G280S,SNP,alive,0,50,0,50,,0.5,,Fenitrothion Alive No. 50 GG 0 GS 50 SS 0 119S Frequency 50,1510,Table 2,,
+2012_Edi_tiassale_2011_gambiae,2012_Edi_tiassale_2011_fenitrothion,fenitrothion,Ace-1,G119S,Ace-1,G280S,SNP,dead,0,2,48,50,,0.02,,Fenitrothion Dead No. 50 GG 48 GS 2 SS 0 119S Frequency 2,1510,Table 2,,

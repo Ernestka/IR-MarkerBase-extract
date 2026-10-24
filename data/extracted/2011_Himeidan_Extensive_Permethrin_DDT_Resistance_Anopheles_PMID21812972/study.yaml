@@ -1,0 +1,21 @@
+study_id: 2011_Himeidan_Extensive_Permethrin_DDT_Resistance_Anopheles_PMID21812972
+title: Extensive permethrin and DDT resistance in Anopheles arabiensis from eastern
+  and central Sudan
+first_author: Yousif E Himeidan
+doi: 10.1186/1756-3305-4-154
+pmid: '21812972'
+publication_year: 2011
+countries:
+- Sudan
+data_source: journal_article
+provenance:
+  source_text: 'Himeidan et al. Parasites & Vectors 2011, 4:154: Extensive permethrin
+    and DDT resistance in Anopheles arabiensis from eastern and central Sudan'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-24'
+pmid_source: Europe PMC (from DOI)

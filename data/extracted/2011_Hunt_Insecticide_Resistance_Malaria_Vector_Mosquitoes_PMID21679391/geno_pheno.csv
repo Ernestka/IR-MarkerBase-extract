@@ -1,0 +1,9 @@
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2011_Hunt_Ghana_obuasi_sform,,pyrethroids,kdr,L1014F,Vgsc,L995F,SNP,alive,11,1,0,12,,0.958,,Obuasi | S | Resistant | RR=11 | RS=1 | SS=0 | % kdr frequency=95.8,4,Table 3,,
+2011_Hunt_Ghana_obuasi_sform,,pyrethroids,kdr,L1014F,Vgsc,L995F,SNP,dead,12,31,8,51,,0.539,,Obuasi | S | Susceptible | RR=12 | RS=31 | SS=8 | % kdr frequency=53.9,4,Table 3,,
+2011_Hunt_Ghana_ahafo_sform,,pyrethroids,kdr,L1014F,Vgsc,L995F,SNP,alive,20,0,0,20,,1.0,,Ahafo | S | Resistant | RR=20 | RS=0 | SS=0 | % kdr frequency=100,4,Table 3,,
+2011_Hunt_Ghana_akyem_sform,,pyrethroids,kdr,L1014F,Vgsc,L995F,SNP,alive,17,18,3,38,,0.684,,Akyem | S | Resistant | RR=17 | RS=18 | SS=3 | % kdr frequency=68.4,4,Table 3,,
+2011_Hunt_Ghana_akyem_sform,,pyrethroids,kdr,L1014F,Vgsc,L995F,SNP,dead,14,7,6,27,,0.648,,Akyem | S | Susceptible | RR=14 | RS=7 | SS=6 | % kdr frequency=64.8,4,Table 3,,
+2011_Hunt_Ghana_tarkwa_sform,,pyrethroids,kdr,L1014F,Vgsc,L995F,SNP,alive,56,1,0,57,,0.991,,Tarkwa | S | Resistant | RR=56 | RS=1 | SS=0 | % kdr frequency=99.1,4,Table 3,,
+2011_Hunt_Ghana_tarkwa_sform,,pyrethroids,kdr,L1014F,Vgsc,L995F,SNP,dead,10,0,0,10,,1.0,,Tarkwa | S | Susceptible | RR=10 | RS=0 | SS=0 | % kdr frequency=100,4,Table 3,,
+2011_Hunt_Ghana_tarkwa_hybrid,,deltamethrin,kdr,L1014F,Vgsc,L995F,SNP,alive,1,0,0,1,,1.0,,The single M/S hybrid that survived exposure to deltamethrin was homozygous RR.,4,,,

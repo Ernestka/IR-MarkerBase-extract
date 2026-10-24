@@ -1,0 +1,3 @@
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2012_Jones_dioulassoba_2009_2010_arab,,DDT,kdr,1014S,Vgsc,L995S,SNP,alive,12,42,22,76,,0.43,,Table 1: DDT 4% (1 hour) | N=76 | LL=22 | LS=42 | SS=12 | f(1014S)=0.43,3,Table 1,,
+2012_Jones_dioulassoba_2009_2010_arab,,DDT,kdr,1014F,Vgsc,L995F,SNP,alive,0,0,76,76,,0.0,,The 1014F mutation was not found in An. arabiensis.,5,,,

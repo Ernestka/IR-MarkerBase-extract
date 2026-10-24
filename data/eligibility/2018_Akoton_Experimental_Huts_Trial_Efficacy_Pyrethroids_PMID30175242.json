@@ -1,0 +1,67 @@
+{
+  "id": "2018_Akoton_Experimental_Huts_Trial_Efficacy_Pyrethroids_PMID30175242",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated field-collected Anopheles funestus s.s. and Anopheles coluzzii from Kpomè, Southern Benin (p. 3-4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The authors only performed molecular speciation for species identification (An. funestus s.s. and An. coluzzii). No target insecticide resistance markers (e.g., Vgsc kdr, Ace-1, GSTe2, Cyp6p9a/b) were genotyped in this paper."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or allele frequencies for target resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as adults (An. funestus) or larvae (An. coluzzii) in Kpomè, Southern Benin in June 2017 (p. 3-4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study conducting bioassays, cone tests, tunnel tests, HPLC net analyses, and experimental hut trials in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study site is Kpomè, Southern Benin (coordinates: 6° 23' N, 2° 13' E) (p. 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collection of mosquitoes took place in June 2017 and experimental hut trials were conducted in August 2017 (p. 3, 5). "
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collection and experimental hut trial conducted in Kpomè in 2017."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No target marker genotyping was conducted; no missing data in supplements required for marker analysis."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of pyrethroid and pyrethroid-PBO treated nets against field-collected multi-resistant Anopheles funestus s.s. and Anopheles coluzzii populations from Kpomè, Southern Benin, using WHO cone tests, tunnel tests, and experimental hut release-recapture trials. No target insecticide resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "Does not report target resistance markers or extractable genotype data (only molecular speciation and bioassays were performed)."
+    ]
+  }
+}

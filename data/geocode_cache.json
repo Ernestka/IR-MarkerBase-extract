@@ -431,6 +431,27 @@
    "name": "Tanguieta, Tanguièta, Atakora, Bénin"
   }
  ],
+ "et|Gilgel-Gibe dam area": [],
+ "et|Gilgel-Gibe dam area ('high risk' villages)": [],
+ "et|Gilgel-Gibe dam area ('high risk' villages), Jimma": [],
+ "et|Gilgel-Gibe dam area ('low risk' villages)": [],
+ "et|Gilgel-Gibe dam area ('low risk' villages), Jimma": [],
+ "et|Gilgel-Gibe dam area (High-risk villages)": [],
+ "et|Gilgel-Gibe dam area (Low-risk villages)": [],
+ "et|Jimma": [
+  {
+   "lat": 7.67562,
+   "level": "town",
+   "lon": 36.84788,
+   "name": "ጂማ / Jimma, Jimma, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
+  },
+  {
+   "lat": 8.04948,
+   "level": "admin2",
+   "lon": 37.12733,
+   "name": "Jimma, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
+  }
+ ],
  "ga|Lambaréné, Moyen-Ogooué": [
   {
    "lat": -0.69426,
@@ -1854,6 +1875,90 @@
    "level": "admin1",
    "lon": 29.20153,
    "name": "Western Province, Rwanda"
+  }
+ ],
+ "sd|Blue Nile": [
+  {
+   "lat": 11.25645,
+   "level": "admin1",
+   "lon": 34.04972,
+   "name": "النيل الأزرق Blue Nile, السودان"
+  }
+ ],
+ "sd|Damazin": [
+  {
+   "lat": 11.80736,
+   "level": "town",
+   "lon": 34.36563,
+   "name": "الدمازين, النيل الأزرق Blue Nile, السودان"
+  },
+  {
+   "lat": 11.78979,
+   "level": "village",
+   "lon": 34.35986,
+   "name": "الدمازين, النيل الأزرق Blue Nile, السودان"
+  }
+ ],
+ "sd|Damazin, Blue Nile": [
+  {
+   "lat": 11.80736,
+   "level": "town",
+   "lon": 34.36563,
+   "name": "الدمازين, النيل الأزرق Blue Nile, السودان"
+  },
+  {
+   "lat": 11.78979,
+   "level": "village",
+   "lon": 34.35986,
+   "name": "الدمازين, النيل الأزرق Blue Nile, السودان"
+  }
+ ],
+ "sd|Khartoum": [
+  {
+   "lat": 15.5636,
+   "level": "town",
+   "lon": 32.53491,
+   "name": "الخرطوم, ولاية الخرطوم, السودان"
+  },
+  {
+   "lat": 15.87344,
+   "level": "admin1",
+   "lon": 32.99607,
+   "name": "ولاية الخرطوم, السودان"
+  }
+ ],
+ "sd|Kosti, White Nile": [
+  {
+   "lat": 12.6457,
+   "level": "admin2",
+   "lon": 32.23388,
+   "name": "كوستي, النيل الأبيض White Nile, السودان"
+  },
+  {
+   "lat": 13.15219,
+   "level": "town",
+   "lon": 32.67251,
+   "name": "كوستي, النيل الأبيض White Nile, السودان"
+  },
+  {
+   "lat": 13.50549,
+   "level": "town",
+   "lon": 32.49919,
+   "name": "White Nile, كوستي, النيل الأبيض White Nile, السودان"
+  }
+ ],
+ "sd|Sennar": [
+  {
+   "lat": 12.92774,
+   "level": "admin1",
+   "lon": 34.01373,
+   "name": "سنار Sennar, السودان"
+  },
+  {
+   "lat": 13.54241,
+   "level": "town",
+   "lon": 33.61036,
+   "name": "سنار Sennar, السودان"
   }
  ],
  "sn|Senegal River basin": [],

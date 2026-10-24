@@ -1,0 +1,71 @@
+{
+  "id": "2015_Ngufor_Insecticide_Resistance_Profile_Anopheles_Gambiae_PMID26581678",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-24",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (identified as Anopheles coluzzii and An. gambiae s.s.) from Cové, Benin (page 1, 4-5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "TaqMan assays were used to genotype Vgsc L1014F (L995F), L1014S (L995S), N1575Y (N1570Y), and Ace-1 G119S (G280S) (page 4, page 6, page 8 Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 8) reports RR, RS, SS counts, total tested, and resistant allele frequencies for L1014F (RR=200, RS=41, SS=6, N=247), Ace-1 119S (RR=0, RS=2, SS=178, N=180), and N1575Y (RR=0, RS=1, SS=177, N=178)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and wild adults from an experimental hut station in Cové, southern Benin (7°14'N, 2°18'E) (page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article characterizing the resistance profile, species composition, and resistance genetics of the local vector population."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Cové Phase II experimental hut station (7°14'N, 2°18'E), southern Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between December 2013 and November 2014 (page 4, 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field site is a PAMVERC experimental hut collaborative facility, but these are baseline characterization collections specifically conducted in 2013-2014."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and allele frequencies are fully provided in Table 2 of the main text; the supplement contains only microarray data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 247,
+    "summary": "This study characterizes insecticide resistance in Anopheles gambiae s.l. from an experimental hut station in Cové, southern Benin. Genotyping of Vgsc L1014F, L1014S, N1575Y, and Ace-1 G119S is reported with full genotype counts and allele frequencies. WHO tube bioassays and CDC bottle resistance intensity and synergist assays were also performed.",
+    "exclusion_reasons": []
+  }
+}

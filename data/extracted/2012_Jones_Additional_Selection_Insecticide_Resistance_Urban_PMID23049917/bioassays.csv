@@ -1,0 +1,3 @@
+bioassay_id,survey_id,insecticide,insecticide_class,concentration,exposure_duration_min,assay_method,assay_type,synergist,dead_alive_printed,n_exposed,n_dead,n_alive,reported_mortality_pct,mortality_time_h,inconsistency_note,source_text,page,table,figure,supplement
+2012_Jones_dioulassoba_2009_rainy_gamb_ddt,2012_Jones_dioulassoba_2009_rainy_gamb,DDT,organochlorine,4%,60.0,WHO susceptibility test,diagnostic_dose,,False,313,,,65.8,24.0,,Mosquito mortality in the rainy season was 65.8% (N = 313; 95% CI = 60.3–70.1%),4,,,
+2012_Jones_dioulassoba_2010_dry_gamb_ddt,2012_Jones_dioulassoba_2010_dry_gamb,DDT,organochlorine,4%,60.0,WHO susceptibility test,diagnostic_dose,,False,262,,,70.4,24.0,,and in the dry season was 70.4% (N = 262 95% CI = 64.4–75.9%),4,,,
