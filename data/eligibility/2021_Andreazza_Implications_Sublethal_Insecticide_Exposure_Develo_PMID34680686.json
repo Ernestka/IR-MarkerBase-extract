@@ -1,0 +1,71 @@
+{
+  "id": "2021_Andreazza_Implications_Sublethal_Insecticide_Exposure_Develo_PMID34680686",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses the control of Anopheles spp. using IRS and LLINs (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a review and discusses markers like L1014F and Ace-1 G119S (page 7) but does not perform any new genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a review, the paper summarizes findings from other studies and does not provide primary genotype counts or frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review of existing literature and does not involve new field collections."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The document is explicitly labeled as a 'Review' on page 1."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable for a review paper."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable for a review paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper, not a primary study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data is required as the paper is a review."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review paper discussing the implications of sublethal insecticide exposure and the development of resistance on mosquito physiology, behavior, and pathogen transmission. It summarizes existing research on target-site mutations (kdr and Ace-1) and metabolic resistance in Anopheles and other mosquito genera.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population",
+      "is_primary_study"
+    ]
+  }
+}

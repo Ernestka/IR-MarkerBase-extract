@@ -1,0 +1,71 @@
+{
+  "id": "2020_Minakawa_Preliminary_Study_Designing_Cluster_Randomized_PMID33372641",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study reports on populations of Anopheles gambiae s. l. and Anopheles funestus s. l. in western Kenya (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr (L1014F/S) and metabolic resistance in the background and discussion (Pages 2, 7) but does not report any new genotyping results for the mosquitoes collected in this study. It cites previous studies (e.g., references 30, 31) for the resistance status of the population."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies are provided for insecticide resistance markers. The study focuses on mosquito abundance and malaria prevalence for trial design."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 120 houses in Gembe East, Homa Bay County, western Kenya (Page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing a preliminary investigation to design a cluster randomized control trial (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Gembe East of Homa Bay County in western Kenya, with specific coordinates provided: 0° 30′ 24″ S and 34° 20′ 48″ E (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted biweekly from April 2009 to April 2010 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses data from a sentinel surveillance system established by a past study [30], but the specific analysis for trial design appears unique to this paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not indicate that genotype data is available in supplementary files; the focus of the study is on abundance and prevalence for power calculations."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus s.l.",
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s.",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2009,
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 15281,
+    "summary": "This study is a preliminary investigation in western Kenya (Homa Bay County) designed to gather baseline entomological and epidemiological data for the planning of a cluster randomized controlled trial (cRCT) evaluating PBO-LLINs and ceiling nets. While it reports on the abundance and species composition of Anopheles gambiae s.l. and Anopheles funestus s.l. collected between 2009 and 2010, and provides malaria prevalence data in children, it does not perform or report any new genotyping of insecticide resistance markers. It references previous studies for the presence of kdr and metabolic resistance in the area.",
+    "exclusion_reasons": [
+      "No target marker genotyping data reported. The study mentions kdr and metabolic resistance but cites previous publications for these data."
+    ]
+  }
+}

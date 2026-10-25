@@ -1,0 +1,71 @@
+{
+  "id": "2017_Al_Nazawi_Combined_Target_Site_Kdr_Mutations_PMID28347352",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper exclusively studies Aedes aegypti, which is a culicine mosquito, not an Anopheles species."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Vgsc mutations S989P, V1016G, and F1534C in Aedes aegypti."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts for mosquitoes surviving or killed by insecticide exposure."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Aedes aegypti from Jeddah and Makkah, Saudi Arabia."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical research study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collections from Jeddah and Makkah, Saudi Arabia."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were made in 2015 and 2016."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and primary data generation."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc S989P",
+      "Vgsc V1016G",
+      "Vgsc F1534C"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Saudi Arabia"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 41,
+    "summary": "This study investigates insecticide resistance mechanisms in Aedes aegypti from Jeddah and Makkah, Saudi Arabia. It reports on phenotypic resistance to pyrethroids, organophosphates, and carbamates, and genotypes Vgsc mutations (S989P, V1016G, F1534C). While it meets most criteria, it is ineligible because it studies Aedes aegypti, not Anopheles.",
+    "exclusion_reasons": [
+      "is_anopheles"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2018_Unwin_Development_Rapid_Field_Applicable_Molecular_PMID29776379",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae, An. coluzzii, and An. arabiensis (Page 1, Abstract and Background)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study targets Vgsc mutations L1014F, L1014S, and N1575Y (Page 1, Abstract)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports genotype counts for a validation panel of 70 samples (Table 3), but these are not representative of a field population; they are a 'mixed-population panel' compiled from archived samples of known genotypes to validate the assay (Page 2, 3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses pre-extracted An. arabiensis mosquito DNA from 'recent field collections in Senegal' (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study describing the development and validation of a new molecular diagnostic assay."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The paper mentions Senegal as a source for some samples but states that 'location and sampling details of which will be provided elsewhere' (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Collection dates for field samples are only described as 'recent' (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The Senegal samples are mentioned as being part of a study where details will be provided elsewhere, suggesting potential overlap with a future or separate publication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study is a method development paper and does not indicate that field survey data is available in supplementary files."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 70,
+    "summary": "This study describes the development and validation of a rapid, field-applicable molecular diagnostic for kdr markers (L1014F, L1014S, and N1575Y) using the Genedrive platform. While it utilizes field-collected samples from Senegal and an archived panel of An. gambiae for validation, it does not report marker frequencies for a defined field population with specific temporal or sub-country spatial resolution.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data for a defined field population (reports only a validation panel).",
+      "Lacks sub-country location data for field samples.",
+      "Lacks specific collection dates (temporal resolution)."
+    ]
+  }
+}

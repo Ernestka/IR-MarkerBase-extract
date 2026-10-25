@@ -1,0 +1,71 @@
+{
+  "id": "2020_Arevalo-Cortes_Midgut_Microbiota_Colombian_Aedes_Aegypti_PMID32882829",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on Aedes aegypti: 'The mosquito Aedes aegypti is the biological vector of viruses such as dengue, Zika, and chikungunya.' (Page 2)"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes the V1016I mutation in the sodium channel gene (Page 1, 4, 6), which is not among the target markers listed for Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for the specified target markers is reported. While allele frequencies for V1016I are provided (Figure 2), this is not a target marker."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected in Colombia: 'Adults and immature stages of Ae. aegypti were collected between 2016 and 2017 in six Colombian cities...' (Page 3)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating insecticide resistance and microbiota in field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for six specific cities in Colombia: Bello, Puerto Bogota, Neiva, Honda, Cucuta, and Acacias (Table 1, Page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between 2016 and 2017 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine collections in Colombia and does not indicate overlap with larger international surveillance networks or datasets like Ag1000G."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary materials are mentioned (e.g., Table S1 for metadata, Tables S8-S13 for microbiota data), but they are not required to confirm the study's ineligibility."
+    },
+    "markers_found": [
+      "Vgsc V1016I"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "The study evaluates lambda-cyhalothrin resistance and the V1016I kdr mutation in Aedes aegypti populations from six cities in Colombia, while also characterizing their midgut microbiota to explore its role in insecticide resistance.",
+    "exclusion_reasons": [
+      "Not Anopheles (studies Aedes aegypti)",
+      "Not an African field population (studies Colombian populations)",
+      "Does not report target markers (reports V1016I in Aedes aegypti, which is not in the specified list for Anopheles)"
+    ]
+  }
+}

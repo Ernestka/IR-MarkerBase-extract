@@ -1,0 +1,69 @@
+{
+  "id": "2020_Lee_Detection_Nav_Channel_Kdr_Like_PMID33211688",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Culex quinquefasciatus (Title, Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes the kdr-like mutation L982F, which it identifies as the canonical L1014F mutation (Abstract, Page 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts (RR, RS, SS) and frequencies are provided for six operational areas in Table 2 and Figure 8."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected from Harris County, Texas, USA (Title, Abstract, Page 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new field collections, bioassays, and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for six specific operational areas (sites) within Harris County, Texas (Page 4, Fig 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito egg rafts were collected in the field in 2018 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports routine new field collections and bioassays conducted by local mosquito control and university researchers in Texas."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are contained within the main text, tables, and figures."
+    },
+    "markers_found": [
+      "Vgsc L1014F"
+    ],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "USA"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1028,
+    "summary": "The study investigates the frequency of the kdr-like mutation (L982F, equivalent to L1014F) in Culex quinquefasciatus populations from six areas in Harris County, Texas, and evaluates its impact on survivorship following field-cage permethrin tests.",
+    "exclusion_reasons": [
+      "Not Anopheles (studies Culex quinquefasciatus)",
+      "Not an African field population (study conducted in Texas, USA)"
+    ]
+  }
+}

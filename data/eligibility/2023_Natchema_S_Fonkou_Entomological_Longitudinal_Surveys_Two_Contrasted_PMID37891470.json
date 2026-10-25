@@ -1,0 +1,76 @@
+{
+  "id": "2023_Natchema_S_Fonkou_Entomological_Longitudinal_Surveys_Two_Contrasted_PMID37891470",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus s.l. and Anopheles gambiae s.l. collected in Cameroon (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the L119F-GSTe2 marker in Anopheles funestus s.s. (Abstract, Page 1; Page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies and total sample sizes (N=1744 for Elende, N=1886 for Mibellon) are provided in Figure 7 (Page 11) and specific genotype counts for subsets are provided in the text (Page 10 and 11)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Elende and Mibellon, Cameroon, between 2019 and 2021 (Abstract, Page 1; Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original entomological and molecular data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for two specific villages: Elende (3°41’57.27’’N, 11°33’28.46’’E) and Mibellon (6°46'N, 11°7'E) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from December 2019 to November 2020 in Elende and during 2021 in Mibellon (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors mention previous studies at the same sites (Ndo et al. 2019, Tchouakui et al. 2019) but explicitly state that the current study uses new longitudinal collections from 2019-2021 (Page 14)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency data and sample sizes are contained within the main text and figures (specifically Figure 7)."
+    },
+    "markers_found": [
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles nili",
+      "Anopheles leesoni",
+      "Anopheles rivulorum",
+      "Anopheles rufipes",
+      "Anopheles ziemanni"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 3630,
+    "summary": "This longitudinal study conducted in two eco-climatic settings in Cameroon (Elende and Mibellon) between 2019 and 2021 investigated the impact of the GSTe2 L119F metabolic resistance marker on the vectorial capacity of Anopheles funestus s.s. A total of 3630 mosquitoes were genotyped for the L119F marker. The study found that the resistant allele (119F) was associated with significantly higher entomological inoculation rates (EIR) and increased vector competence in Elende.",
+    "exclusion_reasons": []
+  }
+}

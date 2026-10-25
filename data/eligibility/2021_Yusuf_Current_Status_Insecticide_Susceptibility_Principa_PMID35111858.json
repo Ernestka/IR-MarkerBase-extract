@@ -1,0 +1,66 @@
+{
+  "id": "2021_Yusuf_Current_Status_Insecticide_Susceptibility_Principa_PMID35111858",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only reports phenotypic resistance results from WHO susceptibility bioassays and does not perform any molecular genotyping for resistance markers such as Vgsc (kdr) or Ace-1."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or molecular data are provided. The results are limited to mortality rates and knockdown times (Table 1, Figures 2-4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field sites in Gombe, Jigawa, and Kano states in northern Nigeria between August and November 2018 (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay data from field-collected mosquitoes (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific Local Government Areas: Yamaltu Deba (Gombe State), Auyo (Jigawa State), and Kumbotso (Kano State) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted between August and November 2018 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes original field collections and bioassays conducted in 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not mention any supplementary files containing genotype data; the study design appears limited to bioassays."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1800,
+    "summary": "This study investigated the insecticide susceptibility status of Anopheles gambiae s.l. in three states of northern Nigeria (Gombe, Jigawa, and Kano). Larvae were collected from the field in 2018 and reared to adults for WHO tube bioassays against deltamethrin, DDT, malathion, and bendiocarb. The study found high levels of resistance to pyrethroids, organochlorines, and carbamates across all sites, while mosquitoes remained susceptible to malathion. However, the study did not include any molecular genotyping of resistance markers, which is a requirement for eligibility in this database.",
+    "exclusion_reasons": [
+      "Does not report genotyping for any of the target insecticide-resistance markers (e.g., Vgsc L995F/S, Ace-1 G280S). It only reports WHO susceptibility bioassay results."
+    ]
+  }
+}

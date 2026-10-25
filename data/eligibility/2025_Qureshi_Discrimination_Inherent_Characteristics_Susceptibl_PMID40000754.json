@@ -1,0 +1,72 @@
+{
+  "id": "2025_Qureshi_Discrimination_Inherent_Characteristics_Susceptibl_PMID40000754",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae s.l. strains (Kisumu, N’goussu, VK7, and Banfora) as stated in the 'Dataset description' on page 2."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the Vgsc L1014F (L995F) mutation as being fixed in the resistant strains (VK7 and Banfora) on page 2."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states that kdr mutations (L1014F) are 'fixed' in the resistant strains based on routine monitoring and previous characterization (Ref 18), but it does not provide primary genotype counts or frequencies with associated sample sizes for the mosquitoes used in this specific study."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study exclusively uses laboratory colonies: Kisumu (originated from Kenya, 1975), N’goussu (Cameroon, 2006), VK7 (Burkina Faso, 2014), and Banfora (Burkina Faso, 2015). The experiments were conducted at the Liverpool School of Tropical Medicine (LSTM), UK, as described on page 2."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using machine learning to analyze mosquito flight trajectories."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The origins of the laboratory strains are specified (e.g., 'Southwest Burkina Faso' for VK7 and Banfora on page 11)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The experiments were conducted between June 2019 and February 2020 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The trajectory data appears to be a new analysis, though the mosquito strains are standard laboratory colonies previously characterized in other works (e.g., Williams et al. 2019)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study is ineligible due to the use of laboratory colonies; supplementary data would not change this status."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Kenya",
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses machine learning (XGBoost) and explainable AI (SHAP) to analyze the flight trajectories of four Anopheles gambiae laboratory strains (two insecticide-susceptible and two insecticide-resistant) to identify inherent behavioral differences. The study found that resistant mosquitoes tend to fly slower and with more directed paths. It is ineligible for the database because it uses only laboratory colonies and does not report primary genotype data for field populations.",
+    "exclusion_reasons": [
+      "african_field_population",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "2020_Hancock_Mapping_Trends_Insecticide_Resistance_Phenotypes_PMID32584814",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae complex and Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Vgsc L1014F and L1014S (page 14)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper uses previously published data (Moyes et al. 2019) for its modelling. It does not report primary genotype counts or frequencies for new populations; it only uses aggregated data for model training."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses data from field-collected mosquitoes across Africa."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a modelling study that re-analyses previously published datasets (Moyes et al. 2019, Hancock et al. 2018) to generate predictive maps."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study uses geolocated data points across Africa."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers the period 2005-2017."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it uses a database of susceptibility tests from Moyes et al. 2019 and Hancock et al. 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a modelling study and does not contain primary field data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae complex",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Multiple African countries"
+    ],
+    "collection_years": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a modelling study that uses previously published insecticide resistance bioassay and Vgsc genotype data to map resistance trends across Africa. It is not a primary empirical study reporting new field-collected genotype data.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (it is a modelling/meta-analysis paper)",
+      "Does not report primary extractable genotype data (uses previously published datasets)"
+    ]
+  }
+}
