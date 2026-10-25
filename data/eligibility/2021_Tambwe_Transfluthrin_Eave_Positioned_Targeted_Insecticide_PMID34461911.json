@@ -1,0 +1,68 @@
+{
+  "id": "2021_Tambwe_Transfluthrin_Eave_Positioned_Targeted_Insecticide_PMID34461911",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated Anopheles gambiae sensu stricto and Anopheles arabiensis (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that the laboratory Kisumu-kdr strain has the L1014S (kdr-east) mutation, but no marker genotyping assays were performed as part of this study (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts, allele counts, or genotype frequencies were reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study exclusively tested five laboratory-reared colony strains (Kisumu, Kisumu-kdr, Ifakara, Mbita, Kingani) in a semi-field system in Bagamoyo, Tanzania (Page 3, Page 9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical semi-field study evaluating transfluthrin eave-positioned targeted insecticide (EPTI) (Page 2-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The semi-field experiments took place in Bagamoyo, Tanzania (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Experiments were carried out between March 2018 and September 2019 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary empirical semi-field study using established insectary strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data is needed because no field genotyping was performed."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of transfluthrin eave-positioned targeted insecticide (EPTI) in reducing human landing rates of five laboratory-reared Anopheles gambiae s.s. and Anopheles arabiensis strains with varying levels of pyrethroid resistance inside a semi-field system in Bagamoyo, Tanzania. No field populations were collected or genotyped.",
+    "exclusion_reasons": [
+      "The study only tested long-established laboratory mosquito colonies (Kisumu, Kisumu-kdr, Ifakara, Mbita, Kingani) rather than African field populations.",
+      "No extractable target marker genotyping data was generated or reported."
+    ]
+  }
+}

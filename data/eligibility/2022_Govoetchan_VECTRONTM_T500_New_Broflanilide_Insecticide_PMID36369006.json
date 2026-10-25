@@ -1,0 +1,69 @@
+{
+  "id": "2022_Govoetchan_VECTRONTM_T500_New_Broflanilide_Insecticide_PMID36369006",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. and Anopheles gambiae s.s. (Kisumu strain) in Benin."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions previous molecular genotyping of the L1014F allele in the study population (page 3, 'Molecular genotyping and microarray studies have demonstrated a high frequency of the L1014F allele (>90%)'), but it does not report new genotype data or counts for these markers in the current study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any new genotype counts or frequencies for the current study; it only references previous studies for the resistance profile of the population."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Covè, Benin, using wild-caught mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial evaluating a new insecticide."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the CREC/LSHTM experimental hut station in Covè, Southern Benin."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial ran for 18 months between November 2019 and May 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data for the study's outcomes (bioassays and hut trials) are presented in the main text tables and figures."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 23171,
+    "summary": "This study evaluates the efficacy of VECTRON T500 (broflanilide) for indoor residual spraying against pyrethroid-resistant Anopheles gambiae s.l. in experimental huts in Benin. While it mentions previous molecular data (L1014F) for the population, it does not report any new genotype data.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

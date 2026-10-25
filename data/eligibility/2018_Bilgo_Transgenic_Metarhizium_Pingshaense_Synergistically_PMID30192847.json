@@ -1,0 +1,65 @@
+{
+  "id": "2018_Bilgo_Transgenic_Metarhizium_Pingshaense_Synergistically_PMID30192847",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles coluzzii and Anopheles gambiae s.s. field populations as well as the An. gambiae Kisumu laboratory reference strain (page 3, 'Mosquito colonies')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping for the Vgsc L995F mutation (referred to as kdr L1014F) using allele-specific PCR (page 3, 'PCR determination of kdr levels' and page 5, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 5) reports exact genotype counts for 1014L/1014L, 1014L/1014F, and 1014F/1014F, along with sample sizes (N = 291 for An. coluzzii and N = 279 for An. gambiae s.s.) and allele frequencies."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were F1 progeny reared from field larval collections at Kou Valley (11°23' N, 4°24' W) and Soumousso (11°04' N, 4°03' W) in Burkina Faso (page 3, 'Mosquito colonies')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article detailing original laboratory bioassays and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Larval collection sites are given at village level with geographic coordinates: Kou Valley (11°23' N, 4°24' W) and Soumousso (11°04' N, 4°03' W), Burkina Faso (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The specific month and year of larval field collections are not reported anywhere in the text or tables."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses routine field collections reared specifically to test the interaction of Metarhizium and chemical insecticides without indication of shared genotype datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Full extractable genotype counts and frequencies for the target marker are reported directly in Table 1 of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 570,
+    "summary": "This study tested the synergistic insecticidal efficacy of transgenic Metarhizium pingshaense (expressing Hybrid spider toxin) combined with pyrethroids (permethrin, deltamethrin) against wild-caught Anopheles coluzzii and An. gambiae s.s. from Kou Valley and Soumousso, Burkina Faso. Vgsc L995F (L1014F) was genotyped in 291 An. coluzzii and 279 An. gambiae s.s. mosquitoes, and full genotype counts are reported in Table 1.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2019_Agumba_Diagnostic_Dose_Determination_Efficacy_Chlorfenapy_PMID31315614",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae sensu stricto, Anopheles arabiensis, and Anopheles funestus (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study uses PCR for species identification but does not report genotyping for any of the target resistance markers (e.g., Vgsc L995F/S, Ace-1 G280S). Mentions of kdr L1014S on page 5 are citations of previous literature (e.g., ref 15)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies for resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Nyando, Bumula, and Ndhiwa sub-Counties in western Kenya (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study determining diagnostic doses and testing field populations (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific sub-Counties: Nyando, Bumula, and Ndhiwa (Page 2, Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The specific years of mosquito collection are not explicitly stated in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine field collections for the purpose of this specific bioassay evaluation."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional files mentioned (e.g., Additional file 1) contain bioassay dose-response data and control results, not genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2379,
+    "summary": "The study determines diagnostic doses for chlorfenapyr and clothianidin using the susceptible Kisumu strain and evaluates the susceptibility of field-collected Anopheles populations from western Kenya. While it reports species identification via PCR and extensive bioassay results (mortality at 24h, 48h, and 72h), it does not genotype any of the target insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "Does not report genotype data for any of the target insecticide-resistance markers (e.g., Vgsc L995F/S, Ace-1 G280S). PCR was used only for species identification."
+    ]
+  }
+}

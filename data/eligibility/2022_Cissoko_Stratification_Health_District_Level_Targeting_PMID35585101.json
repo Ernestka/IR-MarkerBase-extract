@@ -1,0 +1,73 @@
+{
+  "id": "2022_Cissoko_Stratification_Health_District_Level_Targeting_PMID35585101",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae s.l., An. gambiae s.s., An. coluzzii, An. arabiensis, and An. funestus as malaria vectors in Mali (page 2, 8)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that resistance mechanisms include 'Kdr' and 'Ace-1 genes' (page 2), but it does not report any specific genotype data or marker frequencies for these or any other resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype counts, allele frequencies, or specific marker data. It only discusses vector resistance in terms of bioassay results (phenotypic resistance)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses entomological data from sentinel sites in Mali (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study performing malaria risk stratification in Mali."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data at the health district level (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study analyzes data for the period 2017–2019 (Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a national-level stratification study using existing surveillance data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not contain genotype data, and none is expected to be in the supplement based on the scope of the paper."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Mali"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper performs a malaria risk stratification at the health district level in Mali using epidemiological, entomological, and environmental data. While it discusses insecticide resistance and mentions Kdr and Ace-1 as resistance mechanisms, it does not report any molecular marker genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2022_Niang_Perfect_Association_Spatial_Swarm_Segregation_PMID35750745",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii and Anopheles gambiae s.s. (Anopheles gambiae complex)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping at the L1014F (West African) and L1014S (East African) kdr mutations (page 11, 'Mosquito divergent island SNP (DIS) genotyping')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 4 (page 8) provides frequency data for kdr genotypes (RR, RS, SS) in An. coluzzii and An. gambiae s.s. across multiple years and locations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from natural swarms in Burkina Faso (Bana, Soumousso, VK7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collections and genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for specific villages: Bana, Soumousso, and VK7 in Burkina Faso."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection years (2006, 2007, 2008, 2011, 2012) and analyzes data within these specific windows."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes new collections and analyses of swarms in Burkina Faso. While it references previous work, the data presented is specific to this study's sampling."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype frequency data for the kdr markers is provided in Figure 4."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2006,
+      2007,
+      2008,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 2329,
+    "summary": "This study investigates the association between swarm spatial segregation and speciation islands in Anopheles coluzzii and An. gambiae in Burkina Faso. It also reports on the frequency of kdr resistance alleles (L1014F/S) in these populations over time, showing an increase in resistance in An. coluzzii.",
+    "exclusion_reasons": []
+  }
+}

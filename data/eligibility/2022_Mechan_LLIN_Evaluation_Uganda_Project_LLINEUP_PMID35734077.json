@@ -1,0 +1,70 @@
+{
+  "id": "2022_Mechan_LLIN_Evaluation_Uganda_Project_LLINEUP_PMID35734077",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae (s.l.) for bioassays (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that the 'Busia' strain used in bioassays has been previously characterized as possessing resistance mechanisms (Vgsc-1014S, Cyp4j5, Cyp6aa1, Coeae1d) in other papers (Lynd et al., 2019; Njoroge et al., 2021), but this paper itself does not report any new genotype data for these markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any genotype counts or frequencies for the mosquitoes used in the study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study involves nets collected from households in Uganda (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating LLIN durability."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in 104 clusters (health sub-districts) in eastern and western Uganda (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers a period from baseline to 25 months post-distribution (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it is part of the LLINEUP project and refers to previously published efficacy data (Staedke et al., 2020) and previously characterized mosquito strains (Lynd et al., 2019; Njoroge et al., 2021)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data, so no supplementary genotype data is needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the physical integrity, chemical content, and bioefficacy of four types of LLINs (Olyset Net, Olyset Plus, PermaNet 2.0, PermaNet 3.0) in Uganda over 25 months. It does not report any new insecticide-resistance marker genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report any new genotype data for the markers listed.",
+      "reports_extractable_genotype_data: The paper does not report any genotype counts or frequencies."
+    ]
+  }
+}

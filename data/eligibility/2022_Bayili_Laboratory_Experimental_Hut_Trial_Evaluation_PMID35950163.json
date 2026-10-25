@@ -1,0 +1,68 @@
+{
+  "id": "2022_Bayili_Laboratory_Experimental_Hut_Trial_Evaluation_PMID35950163",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l., An. coluzzii, An. gambiae s.s., and An. arabiensis."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the Vgsc L995F (kdr-w) mutation (Table 6, page 12)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 6 (page 12) provides genotype counts (1014L/1014L, 1014L/1014LF, 1014F/1014LF) for An. coluzzii, An. gambiae, and An. arabiensis."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Vallée du Kou, Burkina Faso (page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating the efficacy of VECTRON T500."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the field station in Vallée du Kou, Bama, Burkina Faso (page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The experimental hut trial was conducted between August and October 2018 (page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new, specific trial of VECTRON T500."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in Table 6."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 602,
+    "summary": "This study evaluated the efficacy of VECTRON T500 (broflanilide) for indoor residual spraying against pyrethroid-resistant malaria vectors in Burkina Faso. It included laboratory cone bioassays and an experimental hut trial. Genotyping for the kdr L1014F mutation was performed on a sub-sample of 602 mosquitoes collected from the huts.",
+    "exclusion_reasons": []
+  }
+}

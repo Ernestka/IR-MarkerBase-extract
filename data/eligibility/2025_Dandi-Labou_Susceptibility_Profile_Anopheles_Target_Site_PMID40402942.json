@@ -1,0 +1,70 @@
+{
+  "id": "2025_Dandi-Labou_Susceptibility_Profile_Anopheles_Target_Site_PMID40402942",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s., An. coluzzii, and An. funestus s.s. (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Ace-1 G280S (G119S) and investigates Ace-1 duplication/CNV (Page 1, Abstract; Page 4, TaqMan genotyping section)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts (RR, RS, SS) are provided for Nkolondom populations in Figure 3 and Table 2."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from six field sites in Cameroon (Page 3, Materials and methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research article reporting new field data and laboratory analysis (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for specific locations: Nkolondom, Mangoum, Njombe, Elende, Mibellon, and Gounougou (Page 3, Materials and methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from April 2021 to January 2022 (Page 3, Materials and methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analyses performed by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text, figures, and tables."
+    },
+    "markers_found": [
+      "Ace-1 G280S",
+      "Ace-1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1200,
+    "summary": "This study monitored resistance to pirimiphos-methyl and malathion in Anopheles gambiae s.s., An. coluzzii, and An. funestus s.s. across six sites in Cameroon. It found that An. funestus s.s. and An. coluzzii were generally susceptible, while An. gambiae s.s. populations in Mangoum and Nkolondom were resistant. The study confirmed a strong association between the Ace-1 G280S mutation and resistance, and further identified that Ace-1 gene duplication and copy number variation contribute to the resistance phenotype in An. gambiae s.s.",
+    "exclusion_reasons": []
+  }
+}

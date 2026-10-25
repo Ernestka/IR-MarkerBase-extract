@@ -1,0 +1,68 @@
+{
+  "id": "2021_Syme_Which_Indoor_Residual_Spraying_Insecticide_PMID33507978",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates Anopheles gambiae s.l. (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions previous molecular genotyping of the L1014F allele (page 3), but does not report new genotype data for any markers in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any new genotype counts or frequencies for the mosquitoes used in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses wild Anopheles gambiae s.l. collected in Covè, Benin (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the CREC/LSHTM experimental hut station in Covè, Benin (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial was conducted between July and October 2018 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data, so no supplementary genotype data is needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of combining a standard pyrethroid LLIN (DuraNet) with IRS insecticides (bendiocarb, chlorfenapyr, pirimiphos-methyl CS) in experimental huts against wild pyrethroid-resistant Anopheles gambiae s.l. in Covè, Benin. It reports bioassay mortality results but does not report any new molecular marker genotype data.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

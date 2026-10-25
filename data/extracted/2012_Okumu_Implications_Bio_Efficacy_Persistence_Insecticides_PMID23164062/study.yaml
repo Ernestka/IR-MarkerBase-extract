@@ -1,0 +1,22 @@
+study_id: 2012_Okumu_Implications_Bio_Efficacy_Persistence_Insecticides_PMID23164062
+title: Implications of bio-efficacy and persistence of insecticides when indoor residual
+  spraying and long-lasting insecticide nets are combined for malaria prevention
+first_author: Fredros O Okumu
+doi: 10.1186/1475-2875-11-378
+pmid: '23164062'
+publication_year: 2012
+countries:
+- Tanzania
+data_source: null
+provenance:
+  source_text: Implications of bio-efficacy and persistence of insecticides when indoor
+    residual spraying and long-lasting insecticide nets are combined for malaria prevention.
+    Okumu et al. Malaria Journal 2012, 11:378
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-10-25'
+pmid_source: Europe PMC (from DOI)
