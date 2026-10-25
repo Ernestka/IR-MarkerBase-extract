@@ -1,0 +1,68 @@
+{
+  "id": "2016_Kabula_Significant_Association_Deltamethrin_Resistance_Pl_PMID27216484",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated field-caught female Anopheles gambiae s.s. and Anopheles arabiensis (Page 2, 'Methods')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for the Vgsc-1014S (L1014S / L995S) mutation using a TaqMan assay (Page 2, 'Molecular species identification and detection of point mutations in the voltage-gated sodium channel (Vgsc)')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 3) gives genotype counts (Leu/Leu, Ser/Leu, Ser/Ser) for 526 Anopheles gambiae s.s. categorized by deltamethrin susceptibility and Plasmodium falciparum sporozoite status. Page 3 also reports the Vgsc-1014S allele frequency in 19 An. arabiensis (0.32) and 526 An. gambiae s.s. (0.45)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Zeneti village (5° 13' S; 38° 39' E) in Muheza district, northeast Tanzania between November 2012 and May 2013 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting original field sampling, WHO bioassays, sporozoite ELISAs, and marker genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Zeneti village (5° 13' S; 38° 39' E), Muheza district, northeast Tanzania (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred between November 2012 and May 2013 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field sampling conducted specifically for this study in Zeneti village."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype counts, bioassay results, and sample details are completely provided in the main text and Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 545,
+    "summary": "This study collected wild female Anopheles gambiae s.s. and Anopheles arabiensis in Zeneti village, Tanzania, to evaluate deltamethrin susceptibility via WHO tube bioassays, Plasmodium falciparum sporozoite infection via ELISA, and Vgsc-1014S genotype via TaqMan PCR. Extractable genotype data for 545 mosquitoes showed significant associations between the Vgsc-1014S allele, deltamethrin resistance, and P. falciparum infection in An. gambiae s.s.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,4 +1,4 @@
 survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
-2012_Ndiath_Low_Seasonal_Malaria_Transmission_Middle_PMID22269038_arabiensis,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,743,,,,,103,0.0693,,Table 1: An. arabiensis: L1014F kdr allele/total frequency% = 103/1486 6.93%,5,Table 1,,
-2012_Ndiath_Low_Seasonal_Malaria_Transmission_Middle_PMID22269038_gambiae_M,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,30,,,,,3,0.05,,Table 1: An. gambiae M: L1014F kdr allele/total frequency% = 3/60 5.00%,5,Table 1,,
-2012_Ndiath_Low_Seasonal_Malaria_Transmission_Middle_PMID22269038_gambiae_S,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,126,,,,,46,0.1825,,Table 1: An. gambiae S: L1014F kdr allele/total frequency% = 46/252 18.25%,5,Table 1,,
+2012_Ndiath_middle_senegal_arabiensis,Vgsc,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,743,,,,,103,0.0693,,Table 1: An. arabiensis L1014F kdr allele/total frequency% 103/1486 6.93%,5,Table 1,,
+2012_Ndiath_middle_senegal_coluzzii,Vgsc,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,30,,,,,3,0.05,,Table 1: An. gambiae M L1014F kdr allele/total frequency% 3/60 5.00%,5,Table 1,,
+2012_Ndiath_middle_senegal_gambiae_ss,Vgsc,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,126,,,,,46,0.1825,,Table 1: An. gambiae S L1014F kdr allele/total frequency% 46/252 18.25%,5,Table 1,,

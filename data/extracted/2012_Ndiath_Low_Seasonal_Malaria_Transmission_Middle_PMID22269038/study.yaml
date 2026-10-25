@@ -7,16 +7,15 @@ pmid: '22269038'
 publication_year: 2012
 countries:
 - Senegal
-data_source: Parasites & Vectors 2012, 5:21
+data_source: journal_article
 provenance:
   source_text: 'Low and seasonal malaria transmission in the middle Senegal River
-    basin: identification and characteristics of Anopheles vectors. Parasites & Vectors
-    2012, 5:21.'
+    basin: identification and characteristics of Anopheles vectors'
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.7-flash
-extracted: '2026-10-18'
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-25'
 pmid_source: Europe PMC (from DOI)

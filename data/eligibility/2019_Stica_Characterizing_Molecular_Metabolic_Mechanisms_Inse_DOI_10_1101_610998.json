@@ -1,0 +1,69 @@
+{
+  "id": "2019_Stica_Characterizing_Molecular_Metabolic_Mechanisms_Inse_DOI_10_1101_610998",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (identified primarily as An. gambiae s.s. and An. coluzzii; lines 29, 279-283)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Evaluates Vgsc L1014F (L995F), Vgsc N1575Y (N1570Y), and Ace-1 G119S (G280S) (lines 33-35, 192-240)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Extractable genotype counts (RS, RR, SS) and sample sizes are provided in Table 2 for N1575Y across multiple sites and insecticide bioassay outcomes, in Table 3 for G119S Ace-1, and in the text for L1014F kdr (100% of n=60; lines 350-351)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using human landing catches (adults) in three villages (Balayani, Foulaya, Tindo) and larval dippers in Faranah, Guinea (lines 101-117)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research study reporting original field collections, bioassays, and molecular testing conducted in 2018."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Precise GPS coordinates and village names are provided: Balayani (10.1325, -10.7443), Foulaya (10.144633, -10.749717), Tindo (9.9612230, -10.7016560), and Faranah (10.042423, -10.740980) in Faranah Prefecture, Guinea (lines 101-110)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between 25th June and 20th July 2018 (lines 116-117)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary entomological field collections conducted specifically for this study in June-July 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary tables containing genotype counts (Table 2 and Table 3) and bioassay data (Table 1) are included in the manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Guinea"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 570,
+    "summary": "This study tested insecticide resistance levels and mechanisms in Anopheles gambiae s.l. collected from three villages and the urban centre of Faranah Prefecture, Guinea, in 2018. Resistance to permethrin and deltamethrin and suspected resistance to bendiocarb were observed via CDC bottle bioassays. Genotyping of field samples confirmed fixation of Vgsc L1014F (100% in 60 tested), presence of Vgsc N1575Y (20% in 561 tested), and Ace-1 G119S (62% in 29 tested bendiocarb survivors/dead), with full genotype counts reported across bioassay outcomes.",
+    "exclusion_reasons": []
+  }
+}

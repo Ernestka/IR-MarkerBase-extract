@@ -1,0 +1,69 @@
+{
+  "id": "2021_Soma_Malaria_Vectors_Diversity_Insecticide_Resistance_PMID33494779",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (An. gambiae s.s., An. coluzzii, and An. arabiensis), Anopheles funestus, and Anopheles nili (Page 2, 'Laboratory processing of adult Anopheles'; Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for kdr-west (Vgsc L1014F) and ace-1 (Ace-1 G119S) mutations (Page 3, 'Bioassay'; Page 8, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 on page 8 provides sample sizes and explicit genotype counts (1014L/1014L, 1014L/1014F, 1014F/1014F; 119G/119G, 119G/119S, 119S/119S) along with allele frequencies for An. arabiensis, An. coluzzii, and An. gambiae s.s. from Diébougou and Dano."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from natural breeding sites in Diébougou and Dano peri-urban areas, South-West Burkina Faso, and reared to adults (Page 3, 'Bioassay')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field entomological and resistance monitoring study conducted in 2015."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Peri-urban areas of Diébougou (N10.96741; W 003.24580) and Dano (N11.14288; W 003.05969) in South-West Burkina Faso (Page 2, 'Study areas')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Surveys were conducted during the 2015 rainy season between August and November 2015 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study mentions funding from 'Jhpiego/ABT/PMI project N° 15_TSC_115' (Page 10), but presents standard original primary research collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All target genotype counts and frequencies are reported in the main text in Table 4."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 701,
+    "summary": "This study evaluated mosquito diversity, transmission dynamics, and insecticide resistance in Diébougou and Dano, Burkina Faso during the 2015 rainy season. WHO susceptibility bioassays were conducted alongside PCR genotyping of Vgsc-L1014F and Ace-1-G119S in An. gambiae s.s., An. coluzzii, and An. arabiensis, providing complete genotype counts by species and site.",
+    "exclusion_reasons": []
+  }
+}

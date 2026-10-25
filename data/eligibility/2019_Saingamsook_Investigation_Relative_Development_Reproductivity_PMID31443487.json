@@ -1,0 +1,66 @@
+{
+  "id": "2019_Saingamsook_Investigation_Relative_Development_Reproductivity_PMID31443487",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses entirely on Aedes aegypti: 'This study determined the relative fitness cost of three insecticide-resistant strains of Aedes aegypti—PMD, PMD-R, and UPK-R—and a hybrid under similar laboratory conditions' (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper genotypes Aedes aegypti kdr mutations (S989P, V1016G, and F1534C) rather than any of the target Anopheles resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for Anopheles or target resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquito strains originated from Chiang Mai, Thailand, not Africa: 'The PMD and PMD-R strains were established from isofemale lines reared from wild larvae from Ban Pang Mai Daeng, a rural village of Chiang Mai Province... The deltamethrin-resistant UPK-R strain was established from isofemale lines reared from wild larvae from Chiang Mai city' (pages 3-4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "It is a primary laboratory study investigating developmental and reproductive fitness costs."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Original strain collections are tied to Chiang Mai city and Ban Pang Mai Daeng, Chiang Mai Province, Thailand (pages 3-4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Experiments were performed on long-term laboratory colonies (e.g., 41st and 82nd generations) originally collected in 1997 and 2006."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; study focuses on Aedes aegypti in Thailand."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary tables cover sex ratio and survival curve p-values for Aedes aegypti, which is irrelevant to the Anopheles database."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Thailand"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the relative fitness costs across three insecticide-resistant strains and a hybrid of Aedes aegypti from Thailand carrying various Ae. aegypti kdr mutations (S989P, V1016G, F1534C). It does not study Anopheles vectors or African field populations.",
+    "exclusion_reasons": [
+      "Studies Aedes aegypti, not Anopheles mosquitoes.",
+      "Does not test any target Anopheles insecticide resistance markers.",
+      "Does not study African field populations (mosquitoes originated from Thailand)."
+    ]
+  }
+}

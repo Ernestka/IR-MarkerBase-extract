@@ -1,0 +1,68 @@
+{
+  "id": "2023_Tokponnon_Entomological_Characteristics_Malaria_Transmission_PMID36661980",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study sampled Anopheles mosquitoes, including An. gambiae s.l., An. funestus group, and An. nili group, across 12 departments in Benin (Page 5, Section 2.2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Assessed presence and allelic frequencies of Vgsc L1014F (L995F) kdr and Ace-1 G119S (G280S) mutations in An. gambiae s.l. (Page 5, Section 2.3; Page 7-8, Section 3.2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports allelic frequencies per department for Vgsc L1014F (68% to 98%) and Ace-1 G119S (2% to 5%), along with proportion of RR genotypes (>=65%), with total sample size of 662 An. gambiae s.l. analyzed across communes (~60 per department; Figure 3 and Section 3.2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes were collected using human landing catches (HLC) and pyrethrum spray catches (PSC) across 24 communes in 12 departments in Benin between July and December 2017 (Page 3, Section 2.1; Page 5, Section 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research article describing original entomological field collections and laboratory molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are linked to 24 specific communes across 12 departments, with exact geographic coordinates (latitude and longitude) provided in Table 1 (Page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place from July to December 2017 (Page 3, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original national entomological survey conducted by the National Malaria Control Program (NMCP) in Benin in 2017."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data and figures are contained within the main article text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 662,
+    "summary": "Primary entomological study conducted across 24 communes in 12 departments of Benin between July and December 2017. Evaluated mosquito species composition, sporozoite rates, and the frequencies of Vgsc L995F (L1014F) and Ace-1 G280S (G119S) resistance markers in An. gambiae s.l. (An. coluzzii and An. gambiae s.s.).",
+    "exclusion_reasons": []
+  }
+}

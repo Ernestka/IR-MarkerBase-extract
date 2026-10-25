@@ -107,10 +107,10 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2012_Jones_Aging_Partially_Restores_Efficacy_Malaria_PMID22269002,master,EXTRACTION_FAILED,True,high,low,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3-flash-preview,7632,2672,,0,0,extractor error: Server disconnected without sending a response.
 2012_Jones_Insecticide_Resistance_Culex_Quinquefasciatus_Zanz_PMID22520274,master,INELIGIBLE,,,,,1,2026-10-21,2026-10-21,0,,gemini:gemini-3-flash-preview,6552,7985,,,,model returned no structured result — re-run or check by hand
 2012_Kawada_Reconsideration_Anopheles_Rivulorum_Vector_Plasmod_PMID23050856,master,INELIGIBLE,False,high,none,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3.1-flash-lite,6012,648,,,,
-2012_Mahande_Knockdown_Resistance_Rdl_Alleles_Annual_PMID22754247,master,ELIGIBLE,True,high,none,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3-flash-preview,4812,3327,,,,
+2012_Mahande_Knockdown_Resistance_Rdl_Alleles_Annual_PMID22754247,master,EXTRACTION_FAILED,True,high,none,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3-flash-preview,4812,3327,,0,0,extractor error: Server disconnected without sending a response.
 2012_Marcombe_Insecticide_Resistance_Dengue_Vector_Aedes_PMID22363529,master,INELIGIBLE,False,high,none,False,1,2026-10-19,2026-10-19,0,,gemini:gemini-3.6-flash,7412,1717,,,,
 2012_Nardini_Detoxification_Enzymes_Associated_Insecticide_Resi_PMID22676389,master,INELIGIBLE,False,high,low,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3-flash-preview,8172,3166,,,,
-2012_Ndiath_Low_Seasonal_Malaria_Transmission_Middle_PMID22269038,master,ELIGIBLE,True,high,none,False,1,2026-10-18,2026-10-18,0,,gemini:gemini-3.5-flash,6012,2038,,,,
+2012_Ndiath_Low_Seasonal_Malaria_Transmission_Middle_PMID22269038,master,EXTRACTED,True,high,none,False,1,2026-10-18,2026-10-18,0,,gemini:gemini-3.5-flash,6012,2038,gemini:gemini-3.5-flash,7844,10889,"3 survey(s), 3 genotype, 0 bioassay, 0 geno-pheno rows"
 2012_Okumu_Implications_Bio_Efficacy_Persistence_Insecticides_PMID23164062,master,ELIGIBLE,True,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,8712,704,,,,
 2012_Overgaard_Malaria_Transmission_After_Five_Years_PMID23146423,master,EXTRACTED,True,high,low,False,1,2026-10-18,2026-10-18,0,,gemini:gemini-3.8-flash,9252,2052,gemini:gemini-3.8-flash,11090,25836,"11 survey(s), 11 genotype, 0 bioassay, 0 geno-pheno rows; 8 warning(s)"
 2012_Stuckey_Simulation_Malaria_Epidemiology_Control_Highlands_PMID23107070,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,9252,1285,,,,
@@ -253,6 +253,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2016_Foster_Spatial_Temporal_Trends_Insecticide_Resistance_PMID27228026,master,INELIGIBLE,,,,,1,2026-10-23,2026-10-23,0,,gemini:gemini-3-flash-preview,8972,7986,,,,model returned no structured result — re-run or check by hand
 2016_Hemingway_Averting_Malaria_Disaster_Will_Insecticide_PMID26880124,master,INELIGIBLE,False,high,none,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3.8-flash,6384,1201,,,,
 2016_Ibrahim_Cytochrome_P450_CYP6P4_Responsible_High_PMID26548743,master,INELIGIBLE,False,high,low,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.1-flash-lite,7092,704,,,,
+2016_Kabula_Significant_Association_Deltamethrin_Resistance_Pl_PMID27216484,master,ELIGIBLE,True,high,low,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.6-flash,4392,2711,,,,
 2016_Kawada_Discovery_Point_Mutations_Voltage_Gated_PMID27304430,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,12612,3139,,,,
 2016_Kouassi_Low_Prevalence_Plasmodium_Absence_Malaria_PMID26987480,master,EXTRACTED,True,high,low,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3-flash-preview,8712,5015,gemini:gemini-3.7-flash,10451,18960,"7 survey(s), 7 genotype, 0 bioassay, 0 geno-pheno rows; 8 warning(s)"
 2016_Lilly_Cuticle_Thickening_Pyrethroid_Resistant_Strain_PMID27073871,master,INELIGIBLE,False,high,none,False,1,2026-10-19,2026-10-19,0,,gemini:gemini-3-flash-preview,8452,4078,,,,
@@ -277,6 +278,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2016_Riveron_Multiple_Insecticide_Resistance_Major_Malaria_PMID27628765,master,ELIGIBLE,True,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,6552,698,,,,
 2016_Samuel_Larvicidal_Effects_Black_Pepper_Piper_PMID27117913,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3.8-flash,6552,1950,,,,
 2016_Sweileh_Bibliometric_Analysis_Literature_Malaria_Vector_PMID27884199,master,INELIGIBLE,False,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.1-flash-lite,8712,571,,,,
+2016_Xu_Multi_Country_Survey_Revealed_Prevalent_PMID27144981,master,INELIGIBLE,False,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.5-flash,7932,1473,,,,
 2016_Zhou_Impact_Long_Lasting_Microbial_Larvicides_PMID27558161,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.6-flash,7632,1420,,,,
 2017_Anopheles_gambiae_1000_Genomes_Genetic_Diversity_African_Malaria_Vector_PMID29186111,master,ELIGIBLE,True,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,16264,7982,,,,
 2017_Antonio-Nkondjio_Review_Evolution_Insecticide_Resistance_Main_PMID29017590,master,INELIGIBLE,False,high,high,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,9252,4084,,,,
@@ -285,6 +287,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2017_Bilgo_Improved_Efficacy_Arthropod_Toxin_Expressing_PMID28611355,master,INELIGIBLE,False,high,none,True,1,2026-10-18,2026-10-18,0,,gemini:gemini-3.8-flash,6012,3039,,,,
 2017_Boussougou-Sambe_Physical_Integrity_Residual_Bio_Efficacy_PMID28095873,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.8-flash,6552,922,,,,
 2017_Chaccour_Ivermectin_Reduce_Malaria_Transmission_II_PMID28434405,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.8-flash,8712,816,,,,
+2017_Cisse_Village_Level_Cluster_Randomized_Entomological_PMID29162120,master,INELIGIBLE,False,high,low,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3-flash-preview,7632,4540,,,,
 2017_Coleman_Developing_Global_Maps_Insecticide_Resistance_PMID28222727,master,INELIGIBLE,False,high,high,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,6552,1431,,,,
 2017_Corbel_International_Workshop_Insecticide_Resistance_Vect_PMID28577363,master,INELIGIBLE,,,,,1,2026-10-18,2026-10-18,0,,gemini:gemini-3-flash-preview,10332,7986,,,,model returned no structured result — re-run or check by hand
 2017_Djenontin_Mosquitoes_Fauna_Diversity_Plasmodium_Falciparum_DOI_10_14741_ijmcr_v_5_6_23,master,EXTRACTION_FAILED,True,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.8-flash,4352,1881,,0,0,extractor error: Server disconnected without sending a response.
@@ -301,6 +304,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2017_Lehmann_Tracing_Origin_Early_Wet_Season_PMID28717390,master,ELIGIBLE,True,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,9252,712,,,,
 2017_Levick_Two_Locus_Model_Evolution_Insecticide_PMID28095406,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,19892,840,,,,
 2017_Martins_Detection_Quantitation_Copy_Number_Variation_PMID28725028,master,INELIGIBLE,False,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.5-flash,7092,1253,,,,
+2017_Mbepera_Influence_Age_Insecticide_Susceptibility_Anopheles_PMID28893240,master,INELIGIBLE,False,high,low,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3-flash-preview,6552,3139,,,,
 2017_Mint_Mohamed_Lemine_Mosquitoes_Diptera_Culicidae_Mauritania_Review_PMID28103955,master,INELIGIBLE,False,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.8-flash,8712,1271,,,,
 2017_Moiroux_Remote_Effect_Insecticide_Treated_Nets_PMID28129371,master,INELIGIBLE,False,high,high,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.6-flash,8452,2151,,,,
 2017_Moyes_Contemporary_Status_Insecticide_Resistance_Major_PMID28727779,master,INELIGIBLE,,,,,1,2026-10-23,2026-10-23,0,,gemini:gemini-3-flash-preview,12092,7986,,,,model returned no structured result — re-run or check by hand
@@ -341,6 +345,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2018_Matthews_Improved_Reference_Genome_Aedes_Aegypti_PMID30429615,master,INELIGIBLE,,,,,1,2026-10-20,2026-10-20,0,,gemini:gemini-3-flash-preview,16788,7981,,,,model returned no structured result — re-run or check by hand
 2018_Mulatier_DEET_Efficacy_Increases_Age_Vector_PMID30137424,master,INELIGIBLE,False,high,low,False,1,2026-10-18,2026-10-18,0,,gemini:gemini-3-flash-preview,5472,3467,,,,
 2018_Mulatier_Effect_DEET_Multiple_Exposures_Behavior_PMID30045761,master,INELIGIBLE,False,high,none,False,1,2026-10-18,2026-10-18,0,,gemini:gemini-3.1-flash-lite,7092,600,,,,
+2018_Okia_Insecticide_Resistance_Status_Malaria_Mosquitoes_PMID29625585,master,ELIGIBLE,True,high,low,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.8-flash,8172,1713,,,,
 2018_Protopopoff_Effectiveness_Long_Lasting_Piperonyl_Butoxide_PMID29655496,master,ELIGIBLE,True,high,low,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.8-flash,8172,6098,,,,
 2018_Pryce_Insecticide_Treated_Nets_Preventing_Malaria_PMID30398672,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3.1-flash-lite,37868,1014,,,,
 2018_Rakotondranaivo_Evidence_Insecticide_Resistance_Pyrethroids_Bendio_PMID30402485,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,6552,4971,,,,
@@ -363,6 +368,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2019_Choi_Indoor_Residual_Spraying_Preventing_Malaria_PMID31120132,master,INELIGIBLE,False,high,high,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.5-flash,36272,2441,,,,
 2019_Dagg_Evaluation_Toxicity_Clothianidin_Neonicotinoid_Chl_PMID30795768,master,INELIGIBLE,False,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.1-flash-lite,7632,613,,,,
 2019_Deletre_Insecticide_Resistance_Modifies_Mosquito_Response_PMID30867033,master,INELIGIBLE,False,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,7092,656,,,,
+2019_Elanga-Ndille_Overexpression_Two_Members_D7_Salivary_PMID30871094,master,ELIGIBLE,True,high,low,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3-flash-preview,10736,5275,,,,
 2019_Gonzalez_Jimenez_Prediction_Mosquito_Species_Population_Age_PMID31544155,master,INELIGIBLE,False,high,none,False,1,2026-10-19,2026-10-19,0,,gemini:gemini-3.5-flash,21452,1683,,,,
 2019_Hawkins_Evolutionary_Origins_Pesticide_Resistance_PMID29971903,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,13032,879,,,,
 2019_He_Modification_Contact_Avoidance_Behaviour_Associate_PMID30971253,master,INELIGIBLE,False,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.5-flash,7632,1893,,,,
@@ -377,14 +383,17 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2019_Nchoutpouen_Culex_Species_Diversity_Susceptibility_Insecticide_PMID30943198,master,ELIGIBLE,True,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,10012,680,,,,
 2019_Ndo_Exploring_Impact_Glutathione_Transferase_GST_PMID31976375,master,ELIGIBLE,True,high,low,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3.1-flash-lite,12612,709,,,,
 2019_Osse_Involvement_Anopheles_Nili_Plasmodium_Falciparum_PMID31036025,master,ELIGIBLE,True,high,low,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,7092,4073,,,,
+2019_Saingamsook_Investigation_Relative_Development_Reproductivity_PMID31443487,master,INELIGIBLE,False,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.8-flash,10204,1042,,,,
 2019_Silva_Martins_Transcriptomic_Analysis_Insecticide_Resistance_Lym_PMID31388075,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3.1-flash-lite,8712,572,,,,
 2019_Staedke_LLIN_Evaluation_Uganda_Project_LLINEUP_PMID31159887,master,INELIGIBLE,False,high,low,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3-flash-preview,8712,3614,,,,
+2019_Stica_Characterizing_Molecular_Metabolic_Mechanisms_Inse_DOI_10_1101_610998,master,ELIGIBLE,True,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.8-flash,18899,2169,,,,
 2019_Tchouakui_Marker_Glutathione_Transferase_Mediated_Resistance_PMID30962458,master,ELIGIBLE,True,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.1-flash-lite,8172,734,,,,
 2019_Vatandoost_Comparison_CDC_Bottle_Bioassay_WHO_PMID31346532,master,INELIGIBLE,False,high,none,False,1,2026-10-19,2026-10-19,0,,gemini:gemini-3-flash-preview,7412,2349,,,,
 2019_Zogo_Anopheles_Bionomics_Insecticide_Resistance_Mechani_PMID31298995,master,ELIGIBLE,True,high,medium,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.7-flash,7544,2813,,,,
 2020_Adedeji_Anopheles_Metabolic_Proteins_Malaria_Transmission_PMID32912275,master,INELIGIBLE,False,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.1-flash-lite,17892,788,,,,
 2020_Ahmad_Characterization_Sodium_Channel_Mutations_Dengue_PMID32823726,master,INELIGIBLE,False,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,11800,718,,,,
 2020_Amvongo-Adjia_Influence_Major_Mountainous_Landscape_Barrier_PMID33322524,master,ELIGIBLE,True,high,low,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3-flash-preview,12864,5968,,,,
+2020_Anopheles_gambiae_1000_Genomes_Genome_Variation_Population_Structure_1142_PMID32989001,master,INELIGIBLE,False,high,high,True,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.8-flash,8972,4699,,,,
 2020_Bergey_Assessing_Connectivity_Despite_High_Diversity_PMID31993086,master,INELIGIBLE,False,high,low,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.8-flash,9792,1655,,,,
 2020_Bogale_Relative_Contributions_Various_Endogenous_Exogenou_PMID33303025,master,ELIGIBLE,True,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.1-flash-lite,8712,837,,,,
 2020_Chanda_Pyrethroid_Carbamate_Resistance_Anopheles_Funestus_PMID32618244,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3.8-flash,5852,1547,,,,
@@ -450,6 +459,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2021_Sanou_Assessment_Novel_Lehmann_Funnel_Entry_PMID33386073,master,INELIGIBLE,,,,,1,2026-10-22,2026-10-22,0,,gemini:gemini-3-flash-preview,8712,7986,,,,model returned no structured result — re-run or check by hand
 2021_Snetselaar_Efficacy_Indoor_Residual_Spraying_Broflanilide_PMID33657179,master,ELIGIBLE,True,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.1-flash-lite,10532,752,,,,
 2021_Soma_Insecticide_Resistance_Status_Malaria_Vectors_PMID33461621,master,INELIGIBLE,False,high,medium,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,6552,3553,,,,
+2021_Soma_Malaria_Vectors_Diversity_Insecticide_Resistance_PMID33494779,master,ELIGIBLE,True,high,low,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.8-flash,7632,2028,,,,
 2021_Vantaux_Anopheles_Ecology_Genetics_Malaria_Transmission_PMID33742030,master,INELIGIBLE,False,high,none,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3.8-flash,10872,1487,,,,
 2021_Wolie_Interaction_Insecticide_Resistance_Associated_Gene_DOI_10_21203_rs_3_rs-637056_v1,master,ELIGIBLE,True,high,low,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,8972,834,,,,
 2021_Xue_Discovery_Ongoing_Selective_Sweeps_Anopheles_PMID33022051,master,INELIGIBLE,False,high,high,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3-flash-preview,10332,5259,,,,
@@ -457,6 +467,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2021_Yusuf_Biochemical_Mechanism_Insecticide_Resistance_Malar_PMID34178768,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,6892,3240,,,,
 2021_Zhang_Comparative_Proteomics_Reveals_Mechanisms_That_PMID33764997,master,INELIGIBLE,False,high,none,False,1,2026-10-18,2026-10-18,0,,gemini:gemini-3.7-flash,13652,979,,,,
 2021_Zhao_Entomological_Molecular_Surveillance_Anopheles_Mos_PMID34222167,master,ELIGIBLE,True,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3.1-flash-lite,7092,724,,,,
+2021_van_den_Berg_Recent_Trends_Global_Insecticide_Use_PMID34903838,master,INELIGIBLE,False,high,high,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3-flash-preview,8172,5006,,,,
 2022_Adams_Selection_Insecticide_Resistance_Can_Promote_DOI_10_1101_2022_12_07_516767,master,INELIGIBLE,False,high,low,True,1,2026-10-25,2026-10-25,0,,gemini:gemini-3-flash-preview,17812,4262,,,,
 2022_Aizoun_Dynamics_Insecticide_Resistance_Anopheles_Gambiae_DOI_10_30574_wjarr_2022_14_1_0268,master,EXTRACTED,True,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.8-flash,5416,1507,gemini:gemini-3.5-flash,7117,9482,"2 survey(s), 0 genotype, 4 bioassay, 1 geno-pheno rows; 1 warning(s)"
 2022_Arevalo-Cortes_Differential_Hatching_Development_Oviposition_Long_PMID35735873,master,INELIGIBLE,False,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3-flash-preview,13396,2735,,,,
@@ -467,10 +478,12 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2022_Gansane_Design_Methods_Quasi_Experimental_Pilot_PMID35012559,master,INELIGIBLE,False,high,low,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3-flash-preview,12492,3522,,,,
 2022_Hughes_Closer_Look_WHO_Cone_Bioassay_PMID35778744,master,INELIGIBLE,False,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.5-flash,7632,2350,,,,
 2022_Iacovidou_Omitting_Age_Dependent_Mosquito_Mortality_PMID36121847,master,INELIGIBLE,False,high,low,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,15732,704,,,,
+2022_Kamau_Long_Lasting_Insecticide_Treated_Net_PMID35415749,master,INELIGIBLE,False,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.5-flash,6892,1804,,,,
 2022_Kinya_Outdoor_Malaria_Vector_Species_Profile_PMID35505087,master,ELIGIBLE,True,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.8-flash,7092,1684,,,,
 2022_Lacroux_Repellent_Activity_Against_Anopheles_Gambiae_PMID36163024,master,INELIGIBLE,False,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.1-flash-lite,7632,722,,,,
 2022_Lees_Strain_Characterisation_Measuring_Bioefficacy_ITNs_PMID35621770,master,INELIGIBLE,False,high,none,False,1,2026-10-18,2026-10-18,0,,gemini:gemini-3.8-flash,16588,1195,,,,
 2022_Machani_Behavioral_Responses_Pyrethroid_Resistant_Suscepti_PMID35390050,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3.8-flash,10012,1758,,,,
+2022_Martin_Durability_Three_Types_Dual_Active_PMID35305667,master,INELIGIBLE,False,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.5-flash,9252,1728,,,,
 2022_Minakawa_Effectiveness_Screened_Ceilings_Over_Current_PMID35437129,master,INELIGIBLE,False,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.1-flash-lite,8076,684,,,,
 2022_Mishra_First_Report_Intensity_Bioassays_Pyrethroid_PMID36249735,master,INELIGIBLE,False,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.1-flash-lite,6012,618,,,,
 2022_Nankabirwa_East_Africa_International_Center_Excellence_PMID36228916,master,INELIGIBLE,False,high,high,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3.8-flash,7932,1825,,,,
@@ -488,6 +501,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2022_Singh_Dynamic_Gut_Microbiota_Zoophilic_Members_PMID35087127,master,INELIGIBLE,False,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3-flash-preview,8172,2477,,,,
 2022_Soumaila_Countrywide_Insecticide_Resistance_Monitoring_Firs_DOI_10_21203_rs_3_rs-1614094_v1,master,REVIEW_DUPLICATE,True,high,high,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.8-flash,9492,2800,,,,
 2022_St_Laurent_Population_Genomics_Reveal_Distinct_Diverging_PMID36443434,master,INELIGIBLE,False,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.7-flash,7092,1692,,,,
+2022_Tchouakui_6_5kb_Intergenic_Structural_Variation_PMID35456432,master,INELIGIBLE,False,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.8-flash,9140,2404,,,,
 2022_Tchouakui_Comparative_Study_Effect_Solvents_Efficacy_DOI_10_21203_rs_3_rs-1197098_v1,master,ELIGIBLE,True,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.1-flash-lite,11052,784,,,,
 2022_Tungu_Large_Scale_Phase_III_Evaluation_PMID35189830,master,INELIGIBLE,False,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.1-flash-lite,7092,744,,,,
 2022_Vargas-Chavez_Transposable_Element_Variants_Potential_Adaptive_PMID34965939,master,INELIGIBLE,False,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.7-flash,8972,2774,,,,
@@ -508,6 +522,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2023_Medjigbodo_Asymptomatic_Plasmodium_Infection_Primary_Schoolch_PMID36714884,master,INELIGIBLE,False,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.5-flash,7092,2114,,,,
 2023_Ominde_Field_Bioassay_Assessing_Ivermectin_Bio_PMID37777725,master,INELIGIBLE,False,high,none,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.6-flash,9252,1773,,,,
 2023_Ratnayake_Buzz_Field_Interaction_Viruses_Mosquitoes_PMID37360524,master,INELIGIBLE,False,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.8-flash,14992,933,,,,
+2023_Tokponnon_Entomological_Characteristics_Malaria_Transmission_PMID36661980,master,ELIGIBLE,True,high,none,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.5-flash,11268,6613,,,,
 2024_Aninagyei_Epidemiology_Likelihood_Asymptomatic_Malaria_Commu_PMID39291102,master,INELIGIBLE,False,high,none,False,1,2026-10-19,2026-10-19,0,,gemini:gemini-3.1-flash-lite,7632,572,,,,
 2024_Bilgo_Wolbachia_Confers_Protection_Against_Entomopathoge_PMID39097980,master,INELIGIBLE,False,high,low,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3-flash-preview,8172,3895,,,,
 2024_Costa_MALDI_TOF_MS_Profiling_Contribution_PMID39336619,master,INELIGIBLE,False,high,none,False,1,2026-10-19,2026-10-19,0,,gemini:gemini-3.1-flash-lite,13928,519,,,,

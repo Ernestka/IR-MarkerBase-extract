@@ -1,0 +1,61 @@
+{
+  "id": "2016_Xu_Multi_Country_Survey_Revealed_Prevalent_PMID27144981",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses entirely on Aedes albopictus (e.g. page 1: 'A total of 597 Ae. albopictus individuals from 12 populations across Asia, Africa, America and Europe were examined')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper examines voltage-gated sodium channel mutations in Aedes albopictus (I1532T, F1534S/C/L) and does not genotype any of the targeted Anopheles markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Genotype data are provided for Aedes albopictus, not for Anopheles."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Aedes albopictus was collected in La Reunion (France) and other non-African sites, but no African Anopheles field populations were evaluated."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting field collections, kdr sequencing, and bioassays in Aedes albopictus."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific sampling sites such as La Reunion, Guangzhou, Shenzhen, Arco, Rome, Athens, etc. are specified (page 4, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected between 2011 and 2014 across 12 sites (page 3). "
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary field sampling of Aedes albopictus."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are mentioned, but the paper is excluded based on species (Aedes albopictus)."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study evaluated pyrethroid resistance and kdr mutations (I1532T and F1534S/C/L) in voltage-gated sodium channel gene across 12 field populations of Aedes albopictus globally. The paper does not study Anopheles mosquitoes or any specified Anopheles target markers, making it ineligible.",
+    "exclusion_reasons": [
+      "Not an Anopheles study (studies Aedes albopictus).",
+      "Does not report target Anopheles resistance markers."
+    ]
+  }
+}

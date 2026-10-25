@@ -1,0 +1,88 @@
+{
+  "id": "2020_Anopheles_gambiae_1000_Genomes_Genome_Variation_Population_Structure_1142_PMID32989001",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae and Anopheles coluzzii across 13 African countries (page 1533, abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Identifies SNPs in Vgsc including L995F, L995S, and N1570Y (page 1538), as well as CNVs in Cyp6aa1-Cyp6p2 (page 1542)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Target-site resistance is only presented as a pooled composite phenotype combining Vgsc-L995F and L995S ('purple, these individuals were either homozygous or heterozygous for one of the two kdr pyrethroid target site resistance alleles Vgsc-L995F/S', Figure 6, page 1540). No individual genotype counts (RR/RS/SS), allele counts, or marker-specific frequencies are provided in the main text or figures."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-caught mosquitoes collected from 13 African countries: Angola, Burkina Faso, Cameroon, Côte d'Ivoire, Equatorial Guinea (Bioko), Gabon, The Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Mayotte, and Uganda (page 1534, Figure 1; page 1541, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary genomic resource paper reporting whole-genome sequencing of 1142 wild-caught mosquitoes and laboratory crosses for Ag1000G phase 2 (page 1533-1534)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection localities are documented, such as Tiassalé (Côte d'Ivoire), Sacriba (Bioko), Njabakunda (The Gambia), and Safim (Guinea-Bissau) (page 1541)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are provided for sampling sites, such as Côte d'Ivoire (2012), Bioko (2002), Mayotte (2011), The Gambia (2011), Ghana (2012), and Guinea-Bissau (2010) (page 1541)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The study directly represents Phase 2 of the MalariaGEN Anopheles gambiae 1000 Genomes (Ag1000G) Project and re-analyzes all samples from Phase 1 (The Anopheles gambiae 1000 Genomes Consortium 2017) alongside newly added samples (page 1533-1534)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Granular sample metadata and individual variant calls are housed in supplemental files and external repositories: 'Further details of samples novel to phase 2 can be found in the Supplemental Material' (page 1541) and at ENA PRJEB36277 / MalariaGEN public FTP site (page 1543)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Cyp6aa1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Angola",
+      "Burkina Faso",
+      "Cameroon",
+      "Côte d'Ivoire",
+      "Equatorial Guinea",
+      "Gabon",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Kenya",
+      "Mayotte",
+      "Uganda"
+    ],
+    "collection_years": [
+      2000,
+      2002,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1142,
+    "summary": "This study reports the second phase of the Anopheles gambiae 1000 Genomes (Ag1000G) project, sequencing 1142 wild-caught An. gambiae and An. coluzzii mosquitoes across 13 African countries. While Vgsc target-site mutations (L995F, L995S, N1570Y) and metabolic resistance CNVs are examined, resistance data in the main paper are presented solely as pooled composite categories (grouping L995F and L995S into a single kdr class and pooling various Cyp amplifications) without extractable marker-specific genotype or allele frequencies.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data: L995F and L995S are pooled together into a single composite target-site resistance category in Figure 6 and the text, without extractable marker-specific genotype counts or allele frequencies per population."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2022_Martin_Durability_Three_Types_Dual_Active_PMID35305667",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 3: 'The main vectors in the study area are Anopheles funestus sensu stricto (s.s.), Anopheles arabiensis and Anopheles gambiae s.s., with An. gambiae s.s being the predominant species.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "This is a study protocol paper. While L1014S (kdr-East) is mentioned in text when describing the characterization of a laboratory strain (Muleba-kis), no field population marker genotyping results are reported."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or genotype frequencies are reported because this is a protocol paper detailing proposed study methodology."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The proposed study describes field collections in Misungwi and Magu districts, Tanzania."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This paper is a methodology/study protocol paper describing planned prospective cohort and experimental hut trial designs, not a primary study reporting empirical data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 3: 'Misungwi district (2°51′00.0′′ S, 33°04′60.0′′ E)' and 'Magu district, Mwanza region, Tanzania (2°34.673′ S, 33°07.170′ E)'."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 3: Baseline census year stated as 2018."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; methodology/protocol paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable; protocol paper."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper describes the study methodology and protocol for a prospective cohort study and experimental hut evaluation nested within a cluster randomized trial in Tanzania to evaluate the durability and bio-efficacy of dual-active ingredient LLINs. No empirical field genotyping data or bioassay results are presented.",
+    "exclusion_reasons": [
+      "Study is a methodology/protocol paper and does not report empirical genotype data for target resistance markers."
+    ]
+  }
+}

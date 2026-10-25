@@ -1,0 +1,69 @@
+{
+  "id": "2019_Elanga-Ndille_Overexpression_Two_Members_D7_Salivary_PMID30871094",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus s.s. and Anopheles gambiae mosquitoes (Section 2.1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F (kdr), Rdl A296S, and GSTe2 L119F (Section 2.7, 3.6.1, 3.6.2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies are provided for RDL-A296S (160 RR, 24 SS out of 190), GSTe2-L119F (11 RR, 35 RS, 27 SS out of 73), and kdr (56 RR, 4 RS out of 60) in sections 3.6.1 and 3.6.2."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the locality of Elon, Central Cameroon (Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original collection, bioassay, and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides the specific locality: Elon (N4.23051° E11.60120°) (Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were implemented in June 2018 (Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes a routine new collection in Elon, Cameroon in 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All extractable genotype data for the target markers is contained within the main text (Sections 3.6.1 and 3.6.2)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Rdl A296S",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 328,
+    "summary": "This study investigates the expression of D7 salivary genes in pyrethroid-resistant Anopheles funestus and Anopheles gambiae from Elon, Cameroon. It reports genotype frequencies for Vgsc L1014F, Rdl A296S, and GSTe2 L119F in field-collected populations from 2018.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2022_Kamau_Long_Lasting_Insecticide_Treated_Net_PMID35415749",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on human malaria infection prevalence via RDTs; no mosquito vector samples were collected or tested directly."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance target markers were genotyped in this study. The manuscript only references past literature regarding kdr L1014S in the background."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data or resistance marker counts/frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No field mosquito populations were sampled or analyzed."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary epidemiological study of human LLIN use and malaria infection rates in Kilifi County, Kenya."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Study carried out in the southern Kilifi Health and Demographic Surveillance System (KHDSS), Kilifi County, Kenya."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field surveys and health facility surveillance took place between March 2018 and February 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No mosquito sample data overlap risk as no mosquitoes were genotyped."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are not required because the study does not contain vector resistance marker data."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a human epidemiological study assessing the impact of LLIN use on malaria parasite prevalence in Kilifi County, Kenya, from March 2018 to February 2019. It does not collect mosquitoes, perform bioassays, or report insecticide resistance marker genotypes.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes directly.",
+      "Does not genotype target insecticide-resistance markers.",
+      "Does not report extractable mosquito genotype data.",
+      "Does not sample/test African field mosquito populations."
+    ]
+  }
+}

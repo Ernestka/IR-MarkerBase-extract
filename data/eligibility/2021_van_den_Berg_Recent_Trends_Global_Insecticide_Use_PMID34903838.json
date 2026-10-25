@@ -1,0 +1,88 @@
+{
+  "id": "2021_van_den_Berg_Recent_Trends_Global_Insecticide_Use_PMID34903838",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study discusses insecticide use for the control of malaria vectors (Anopheles) on page 2 and throughout the results."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study focuses on insecticide use trends and uses bioassay-based resistance data (mortality <90%) from public sources like the WHO Malaria Threats Map; it does not report genotyping of specific resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study includes data from 33 African countries (Page 2) and discusses resistance in countries like Benin, Burkina Faso, and Uganda (Page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary study reporting results from a global survey of insecticide use conducted by the authors (Page 9)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The authors state that 'A limitation of using country-level data is that within-country variations are not accounted for' (Page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Insecticide use data was collected annually from 2010 to 2019 (Page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The resistance data used in the analysis is explicitly stated to be 'publicly available data on insecticide susceptibility' (Page 10), specifically citing the WHO Malaria Threats Map (Reference 24)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The survey dataset is available on request (Page 10), but the paper itself does not contain or point to supplementary genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles"
+    ],
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Uganda",
+      "Senegal",
+      "Tanzania",
+      "Zambia",
+      "Botswana",
+      "Eswatini",
+      "Madagascar",
+      "Mozambique",
+      "Zimbabwe",
+      "Cameroon"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study presents a global analysis of insecticide use for vector control between 2010 and 2019, based on surveys from 87 countries. It examines trends in the use of different insecticide classes (pyrethroids, organochlorines, etc.) and intervention types (ITNs, IRS). While it discusses insecticide resistance in Anopheles malaria vectors, it relies on secondary bioassay data from the WHO Malaria Threats Map and does not report any primary genotyping of resistance markers.",
+    "exclusion_reasons": [
+      "The study does not report genotyping of any target insecticide-resistance markers.",
+      "The study does not provide extractable genotype data (counts or frequencies).",
+      "The resistance data analyzed is secondary data obtained from public sources (WHO Malaria Threats Map)."
+    ]
+  }
+}

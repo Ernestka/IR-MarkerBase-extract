@@ -1,0 +1,70 @@
+{
+  "id": "2017_Cisse_Village_Level_Cluster_Randomized_Entomological_PMID29162120",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu lato (s.l.) in Mali (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions Vgsc 1014F, 1014S, and 1575Y in the background (Page 2) and in discussion of other studies (Page 10), but does not report genotyping results for any target markers in its own study population. It only reports species identification and sporozoite rates."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for insecticide resistance markers is provided in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 16 villages in the Selingue and Bougouni districts of Southern Mali between 2013 and 2015 (Page 3, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the entomological impact of combination LLINs in a cluster-randomized trial (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported at the village level for 16 specific villages in Southern Mali (Page 4, 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Baseline collections were in 2013, and monitoring occurred in 2014 and 2015 (Page 3, 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes a specific cluster-randomized trial conducted by the authors in Mali; while part of the PMI AIRS project, it appears to be a primary report of these specific trial outcomes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not mention any supplementary files containing the missing genotype data; the 'Availability of data and materials' section states data is available upon request (Page 10)."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Mali"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1534,
+    "summary": "This study evaluates the entomological impact of combination LLINs (pyrethroid + PBO) compared to mono-treated pyrethroid LLINs in 16 villages in Southern Mali. The authors report phenotypic insecticide resistance through bottle bioassays (with and without PBO) and provide data on species composition, sporozoite rates, and parity. However, the study does not genotype any of the target insecticide-resistance markers (e.g., Vgsc, Ace-1, Rdl), making it ineligible for the database.",
+    "exclusion_reasons": [
+      "No target markers genotyped. The study reports phenotypic resistance (bottle bioassays) and entomological indices, but does not provide genotype data for Vgsc, Ace-1, Rdl, or other target markers."
+    ]
+  }
+}
