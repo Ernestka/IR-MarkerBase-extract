@@ -1,0 +1,69 @@
+{
+  "id": "2024_Myers_Identifying_Suitable_Methods_Evaluating_Sterilizin_PMID38789998",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae sensu stricto (Kisumu strain), Anopheles coluzzii (Akron strain), and Anopheles gambiae s.l. (Cové strain)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that resistance in the Akron and Cové strains is mediated by target site mutations (L1014F kdr and Ace-1R) (page 3), but it does not report any genotype counts, allele frequencies, or any primary data for these markers. It only references previous studies (citations 26 and 28) for the resistance profile."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any genotype counts or frequencies for the mentioned resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses the Cové strain, which are F1 progeny of mosquitoes collected from the field in Cové, southern Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study comparing two bioassay methods."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the collection site as Cové, southern Benin (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was received in 2023 and published in 2024."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new laboratory bioassays performed for this specific comparison."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not contain genotype data in the main text or supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae sensu stricto",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study compares two methods (oviposition vs. ovary dissection) for evaluating the sterilizing effects of pyriproxyfen on malaria vectors. While it mentions that the strains used have known resistance markers (L1014F kdr and Ace-1R), it does not report any primary genotype data for these markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

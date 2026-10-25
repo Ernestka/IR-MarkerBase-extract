@@ -1,0 +1,68 @@
+{
+  "id": "2015_Soko_Insecticide_Resistance_Malaria_Transmitting_Mosqui_PMID26497808",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper reviews insecticide resistance in Anopheles gambiae s.l. and Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a review article and does not report primary genotype data for any of the specified markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review article and does not contain primary genotype counts or frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review article, not a primary study of field-collected mosquitoes."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly titled 'Insecticide resistance in malaria-transmitting mosquitoes in Zimbabwe: a review'."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper discusses various districts in Zimbabwe such as Gokwe, Chiredzi, and Honde Valley."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The review covers literature from 1972 to 2014."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a review and does not require supplementary genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Zimbabwe"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article summarizing insecticide resistance studies in Zimbabwe from 1972 to 2014. It does not report primary empirical data or genotype frequencies.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

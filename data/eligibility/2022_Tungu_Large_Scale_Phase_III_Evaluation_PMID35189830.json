@@ -1,0 +1,73 @@
+{
+  "id": "2022_Tungu_Large_Scale_Phase_III_Evaluation_PMID35189830",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s., An. arabiensis, and An. funestus s.s. (Page 1, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study protocol explicitly states it will monitor L1014S-kdr, L1014F-kdr, G119S-ace1, L119F-GSTe2, CYP6P9a, and CYP6P9b (Page 6, Genotypic insecticide resistance monitoring)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a study protocol paper describing planned research. It does not contain any empirical genotype data or results."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study is set in Muheza District, Tanzania (Page 1, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary study protocol."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Muheza District, Tanga Region, Tanzania (Page 1, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study is a planned 12-month post-intervention monitoring period (Page 4, Study design)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a protocol paper for a new trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a protocol and does not contain data results."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Cyp6p9b R"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a study protocol for a cluster-randomized trial in Muheza, Tanzania, evaluating the efficacy of broflanilide (VECTRON T500) for indoor residual spraying. As a protocol paper, it does not report any empirical genotype or bioassay data.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

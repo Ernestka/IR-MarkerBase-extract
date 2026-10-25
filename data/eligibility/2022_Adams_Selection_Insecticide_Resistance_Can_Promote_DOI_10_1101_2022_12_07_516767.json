@@ -1,0 +1,71 @@
+{
+  "id": "2022_Adams_Selection_Insecticide_Resistance_Can_Promote_DOI_10_1101_2022_12_07_516767",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles coluzzii and Anopheles gambiae (e.g., Page 5, Page 14)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the Vgsc L1014F (L995F) mutation (Page 6, Page 17, Figure 2A)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 2A provides kdr allele frequencies with sample sizes (n=222 for RES, n=27 for SUS). Figure 3D provides genotype-specific oocyst intensity data with sample sizes for each genotype (kdr/kdr n=15, kdr/wt n=29, wt/wt n=17)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The genotyping data is reported only for laboratory-selected colonies (RES and SUS). These colonies were derived from field collections in Burkina Faso (2015-2018) but were outcrossed to the G3 laboratory strain and maintained/selected for over 18 generations in the lab before testing (Page 6, Page 14). No genotyping of field-caught (F0) or F1 mosquitoes is reported."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing selection experiments and infection assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were originally collected from Vallée du Kou village 5 (VK5) in Burkina Faso (Page 14)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections for colony establishment occurred in 2015, 2017, and 2018 (Page 14)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a specific experimental design (G3VK line) created for this research, though the parental VK5 strain has been used in other studies (e.g., Ref 47)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper refers to 'Supplementary Table 1' for primer sequences and 'Supplementary Figure 1A' for colony establishment details, which are not in the provided document."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2015,
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 249,
+    "summary": "The study investigates how selection for insecticide resistance affects Plasmodium falciparum infection in Anopheles. It established resistant (RES) and susceptible (SUS) laboratory colonies by outcrossing a field-derived strain from Burkina Faso with the G3 lab strain. The authors report Vgsc L1014F (L995F) frequencies and genotype-specific infection intensities for these lab-selected lines.",
+    "exclusion_reasons": [
+      "The study genotypes laboratory-selected colonies (RES and SUS) rather than field-caught (F0) or F1 mosquitoes. These colonies were derived from field samples but underwent multiple generations of lab rearing, outcrossing to the G3 lab strain, and selection."
+    ]
+  }
+}

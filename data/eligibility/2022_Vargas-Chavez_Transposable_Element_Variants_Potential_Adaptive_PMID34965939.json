@@ -1,0 +1,73 @@
+{
+  "id": "2022_Vargas-Chavez_Transposable_Element_Variants_Potential_Adaptive_PMID34965939",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the malaria vector Anopheles coluzzii collected from urban breeding sites in Cameroon and Gabon (page 1, Abstract; page 2, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The authors screened the genome assemblies for Vgsc L1014F (kdr-west), L1014S (kdr-east), N1575Y, and Ace-1 G119S, detecting kdr-west (page 7, 'TE insertions could influence the regulation of genes involved in insecticide resistance')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No population-level genotype counts, allele counts, or sample-size-qualified allele frequencies are reported; the authors merely note that the kdr-west mutation was present in the six Central African genome assemblies (five assembled from pools of six larvae and one from a single larva) and absent in AcolN1 (page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from natural urban breeding sites in Libreville, Gabon (January 2016) and Douala, Cameroon (April 2018) (page 9, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper generating de novo long-read genome assemblies and transposable element annotations (page 1-2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Breeding sites are identified in Douala (Cameroon) and Libreville (Gabon), designated DLA112, DLA155B, DLA146, LBV88, LBV136, and LBV11 (page 2, Table 1; page 9, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected in January 2016 in Libreville and April 2018 in Douala (page 9, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Novel sequencing of field-collected larvae from Gabon and Cameroon."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files describe TE libraries and genome metrics; no population frequency genotyping of target markers is conducted in this study."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon",
+      "Gabon"
+    ],
+    "collection_years": [
+      2016,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This genomic resource paper generated long-read whole-genome assemblies from Anopheles coluzzii larvae collected in Libreville (Gabon) and Douala (Cameroon) to annotate transposable elements. While the authors checked for known resistance mutations in the assembled genomes and detected Vgsc L1014F (kdr-west), no extractable population genotype counts or frequencies are provided.",
+    "exclusion_reasons": [
+      "No extractable genotype data (mutation merely reported as present/absent across whole-genome assemblies from pooled or single individuals, without population genotype or allele counts/frequencies)."
+    ]
+  }
+}

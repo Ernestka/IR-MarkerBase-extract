@@ -1,0 +1,69 @@
+{
+  "id": "2019_Zogo_Anopheles_Bionomics_Insecticide_Resistance_Mechani_PMID31298995",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (specifically An. gambiae s.s. and An. coluzzii), An. funestus group, and An. nili complex (page 1, Abstract; page 4, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Quantitative PCR (qPCR) was performed to detect kdr L1014F (Vgsc L995F) and ace-1 G119S (Ace-1 G280S) mutations (page 3, 'Anopheles vector processing'; page 6, Table 5; page 7, Table 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 and Table 6 provide complete genotype counts (RR, RS, SS) and sample totals for kdr L1014F and ace-1 G119S in Anopheles gambiae s.s. and Anopheles coluzzii across four collection surveys (pages 6-7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using human landing catches (HLC) in 26 villages in the Korhogo department, northern Côte d'Ivoire, and a subset from 6 villages was molecularly analyzed (page 2, 'Study area'; page 3, 'Mosquito sampling')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article providing pre-intervention baseline entomological data for an RCT under the REACT project (page 2, 'Introduction')."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to the Korhogo area/department, with mosquito subsampling conducted in six specific villages: Tahouelékaha, Koungniguékaha, Lablokaha, Felékaha, Noufré, and Karafiné (page 2, 'Study area'; page 3, Figure 1 and text)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred across four surveys between September 2016 and May 2017 (page 2, 'Mosquito sampling')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Conducted as part of the multi-site REACT trial project ('in the framework of a randomized controlled trial (RCT) in the framework of a project called REACT', page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Genotype counts (RR, RS, SS) and sample sizes for both markers and species are fully reported in Table 5 and Table 6 of the main text. The supplementary material is only referenced for indicators of quality control (page 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 739,
+    "summary": "This study evaluated vector bionomics, transmission intensity, and resistance mechanisms in Anopheles gambiae s.s. and Anopheles coluzzii across four seasonal surveys (2016-2017) in Korhogo, northern Côte d'Ivoire. Genotype frequencies and RR/RS/SS counts are reported for Vgsc L995F (kdr L1014F) and Ace-1 G280S (ace-1 G119S).",
+    "exclusion_reasons": []
+  }
+}

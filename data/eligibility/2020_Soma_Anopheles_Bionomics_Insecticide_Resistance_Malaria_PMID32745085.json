@@ -1,0 +1,70 @@
+{
+  "id": "2020_Soma_Anopheles_Bionomics_Insecticide_Resistance_Malaria_PMID32745085",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae complex and Anopheles funestus group mosquitoes (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for L1014F (kdr-w), L1014S (kdr-e), and G119S (ace-1) (page 4, Molecular analysis; Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (SS, RS, RR) for kdr-w, kdr-e, and ace-1 for An. arabiensis, An. coluzzii, and An. gambiae s.s. across three seasons."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in 27 villages in the Diébougou health district, southwest Burkina Faso (page 3, Study site and design)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article describing entomological surveys conducted by the authors (page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the Diébougou health district, southwest Burkina Faso, and mentions specific village names like Diagnon, Kpédia, and Niaba (page 5, Results)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collections in January 2017, March 2017, and June 2017 (page 3, Mosquito collection and determination)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study is a pre-intervention survey for a specific RCT (REACT project) and presents original data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts are provided in Table 4."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 2591,
+    "summary": "This study conducted entomological surveys in 27 villages in the Diébougou health district, Burkina Faso, in 2017. It characterized the bionomics, malaria transmission, and insecticide resistance (kdr-w, kdr-e, and ace-1) of Anopheles vectors. Genotype counts for these markers are provided in Table 4.",
+    "exclusion_reasons": []
+  }
+}

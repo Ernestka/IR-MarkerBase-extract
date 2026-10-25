@@ -1,0 +1,65 @@
+{
+  "id": "2022_Hughes_Closer_Look_WHO_Cone_Bioassay_PMID35778744",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Four strains of An. gambiae s.l. mosquitoes were used in the experiments: Kisumu, N'gousso, Banfora, and VK7 (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study mentions that the Banfora and VK7 laboratory strains have a high frequency of 1014F kdr citing previous literature (ref 25), but does not genotype target markers in this study (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts or frequencies with sample size are reported for target markers."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All bioassays were performed using long-established laboratory colonies (Kisumu, N'gousso, VK7, Banfora) maintained at LSTM; no field populations were collected or tested (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical laboratory study characterizing adaptations to the WHO cone test (Page 2)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations are reported as only laboratory colony strains were used."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection years are reported for mosquito samples in this study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No field genotype data were presented."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary genotype data are needed as the study is ineligible based on criteria checks."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory study evaluated adaptations to the WHO cone bioassay (adding a human host attractant and video tracking) to measure behavioural responses and post-exposure effects in four colony strains of Anopheles gambiae s.l. (Kisumu, N'gousso, Banfora, VK7). No field collections or target marker genotyping were conducted.",
+    "exclusion_reasons": [
+      "No target markers genotyped in this study",
+      "No extractable genotype data reported",
+      "Only laboratory colonies used; no African field populations tested"
+    ]
+  }
+}

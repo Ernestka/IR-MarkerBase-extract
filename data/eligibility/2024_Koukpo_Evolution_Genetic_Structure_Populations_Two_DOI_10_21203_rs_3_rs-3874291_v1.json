@@ -1,0 +1,68 @@
+{
+  "id": "2024_Koukpo_Evolution_Genetic_Structure_Populations_Two_DOI_10_21203_rs_3_rs-3874291_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. complex, specifically An. gambiae s.s. and An. coluzzii."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the Vgsc L995F (L1014F) marker."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 2a and 2b provide genotype counts (N1, N2, N3) for L1014F/L1014F, L1014F/L1014L, and L1014L/L1014L for each population."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected mosquitoes from Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for specific localities (Kandi 1, Sonsoro, Pabégou, Anandana, Baréi, Pélébina, Béroubouay, Gamia) and their coordinates."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study compares two distinct periods: May-July 2016 and May-November 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, new collection effort comparing pre- and post-IRS periods."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is included in the main text tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2016,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 954,
+    "summary": "This study investigated the genetic structure and L1014F kdr resistance allele frequency in Anopheles gambiae s.s. and Anopheles coluzzii populations in Benin before (2016) and after (2019) the implementation of indoor residual spraying (IRS). The study found a significant increase in the L1014F allele frequency in treated areas.",
+    "exclusion_reasons": []
+  }
+}

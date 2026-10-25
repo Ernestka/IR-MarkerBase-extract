@@ -1,0 +1,68 @@
+{
+  "id": "2024_Sovi_Efficacy_Pyrethroid_Pyriproxyfen_Pyrethroid_Chlorf_PMID38839981",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-25",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies members of the Anopheles gambiae sensu lato complex, predominantly Anopheles coluzzii and Anopheles gambiae s.s. (page 4, 'Mosquito species composition')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Assays the L1014F kdr mutation (Vgsc L995F) using PCR (page 2, 'Mosquito collection and processing'; page 6, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 on page 6 provides sample sizes and explicit genotype counts (RR, RS, SS) as well as allelic frequencies for An. coluzzii and An. gambiae s.s. indoors and outdoors across the three study arms."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected via human landing catches in the field across 60 clusters in Covè, Ouinhi, and Zagnanado districts in the Zou department, Benin (page 2, 'Study area' and 'Mosquito collection and processing')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article detailing the third-year entomological results of a cluster-randomised controlled trial (page 1, Abstract; page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were conducted in Covè (07°13′08.0400″N, 02°20′21.8400″E), Ouinhi (07°05′00″N, 02°29′00″E), and Zagnanado (07°16′00″N, 02°21′00″E) in Zou department, Benin (page 2, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place between June 2022 and April 2023 (page 2, 'Mosquito collection and processing')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The study is part of 'The New Nets Project' cluster-randomised controlled trial in Benin, funded by UNITAID/Global Fund via IVCC (page 8, Acknowledgements). Earlier years from this trial are reported in separate publications (e.g., Accrombessi et al. 2023, Yovogan et al. 2024)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts (RR, RS, SS) and sample sizes by species, location, and study arm are provided directly in Table 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 4031,
+    "summary": "This study evaluated entomological indicators and the frequency of the Vgsc L1014F (L995F) resistance mutation in An. coluzzii and An. gambiae s.s. during the third year (2022-2023) of a cluster-randomised trial testing pyrethroid-pyriproxyfen and pyrethroid-chlorfenapyr LLINs against standard pyrethroid-only LLINs in Zou department, Benin. Full genotype counts (RR, RS, SS) for L1014F are reported in Table 4.",
+    "exclusion_reasons": []
+  }
+}
