@@ -1,0 +1,68 @@
+{
+  "id": "2020_Ngufor_Indoor_Spraying_Chlorfenapyr_Pyrrole_Insecticide_PMID32660479",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of insecticide formulations against wild pyrethroid-resistant Anopheles gambiae sensu lato (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that 'Pyrethroid resistance is mediated by L1014 kdr (>90% frequency)' on page 3, but this is provided as background characterization of the study site (citing reference 21) rather than as a result of genotyping conducted during this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies with associated sample sizes are reported for the mosquitoes collected or tested in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from breeding sites near the CREC/LSHTM experimental hut site in Cové, southern Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the bioefficacy of new chlorfenapyr formulations in experimental huts (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Cové, southern Benin (7°14′ N 2°18′ E) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial ran for 12 months from September 2016 to September 2017 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the study is conducted at a well-known research site (Cové) by established researchers, it reports on a specific 12-month trial of new insecticide formulations (FS1, FS7, HKI, etc.) which appears to be a distinct primary study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The results of the bioassays and hut trials are fully reported in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of various chlorfenapyr IRS formulations against pyrethroid-resistant Anopheles gambiae s.l. in Cové, Benin, using experimental huts and bioassays. Although the paper mentions that the L1014 kdr mutation is present at a frequency of >90% in the local population, this information is cited as background characterization of the site and no primary genotyping data (counts or frequencies with sample sizes) are reported for the mosquitoes used in this specific study.",
+    "exclusion_reasons": [
+      "The study does not report primary genotyping data for any of the target insecticide-resistance markers. The mention of L1014 kdr frequency is provided as background information characterizing the study site's vector population and is not a result of genotyping conducted in this study."
+    ]
+  }
+}

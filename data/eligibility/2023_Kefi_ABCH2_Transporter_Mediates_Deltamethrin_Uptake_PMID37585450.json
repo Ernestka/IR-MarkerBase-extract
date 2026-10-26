@@ -1,0 +1,64 @@
+{
+  "id": "2023_Kefi_ABCH2_Transporter_Mediates_Deltamethrin_Uptake_PMID37585450",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper investigates the ABCH2 transporter gene expression and function, but does not genotype any of the specified insecticide-resistance markers (e.g., kdr, Ace-1, etc.)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for resistance markers is reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquito strain used (VK7) is derived from Burkina Faso."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving RNAi, bioassays, and biochemical assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The strain is identified as VK7 from Burkina Faso."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study is a primary empirical investigation published in 2023."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary experimental study using a laboratory-maintained colony."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data for the study's conclusions are provided in the main text and figures."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the role of the ABCH2 transporter in deltamethrin resistance in Anopheles coluzzii using RNAi-mediated silencing, bioassays, and biochemical assays. It does not report on any of the specified insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers"
+    ]
+  }
+}

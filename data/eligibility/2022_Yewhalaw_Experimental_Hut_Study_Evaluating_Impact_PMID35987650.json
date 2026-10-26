@@ -1,0 +1,69 @@
+{
+  "id": "2022_Yewhalaw_Experimental_Hut_Study_Evaluating_Impact_PMID35987650",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis and Anopheles gambiae s.l. (page 5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses previous findings of kdr (L1014F/L1014S) and ace-1R in the background section (page 2), but does not report new genotype data for these or any other markers for the mosquitoes collected in this specific study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports species identification (PCR) results (46 An. arabiensis out of 50 samples, page 5), but does not report genotype counts or frequencies for any insecticide-resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Asendabo, Ethiopia, using field-collected mosquitoes (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial conducted by the authors."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Asendabo, Jimma Zone, Oromia Regional State, Ethiopia (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from 16th November 2020 to 16th January 2021 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data was collected, so no supplement is needed for this purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the impact of combining IRS (pirimiphos-methyl) and ITNs (pyrethroid-only or PBO) in experimental huts in Ethiopia. While it reports species identification via PCR, it does not report any insecticide-resistance marker genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

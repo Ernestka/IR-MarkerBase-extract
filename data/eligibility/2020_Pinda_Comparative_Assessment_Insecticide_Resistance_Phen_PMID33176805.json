@@ -1,0 +1,69 @@
+{
+  "id": "2020_Pinda_Comparative_Assessment_Insecticide_Resistance_Phen_PMID33176805",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus and Anopheles arabiensis (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper explicitly states on page 6: 'Since no kdr mutation tests were done, it is not possible to determine whether these observations were associated with the voltage-gated sodium channel protein mutation'."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any genotype data for insecticide resistance markers; it only reports phenotypic bioassay results."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from three villages in south-eastern Tanzania (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting bioassays on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies three villages: Ikwambi, Sululu, and Tulizamoyo (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were done from September 2018 to November 2019 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections performed between 2018 and 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data for the reported bioassays is contained within the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study compared insecticide resistance phenotypes (bioassays) of Anopheles funestus and Anopheles arabiensis in three villages in south-eastern Tanzania. While it performed molecular identification of sibling species, it did not genotype any insecticide resistance markers (kdr or others).",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper explicitly states no kdr mutation tests were performed.",
+      "reports_extractable_genotype_data: No genotype data for resistance markers is reported."
+    ]
+  }
+}

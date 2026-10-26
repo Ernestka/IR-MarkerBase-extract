@@ -1,0 +1,69 @@
+{
+  "id": "2021_Ingham_Integration_Whole_Genome_Sequencing_Transcriptomic_PMID34941884",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-west) on page 10: 'there is no significant difference in frequency of the classic kdr allele 995F (49% in Banfora-S and 64% in Banfora-R)'."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype frequencies for the kdr 995F allele (49% in Banfora-S and 64% in Banfora-R) and inversion frequencies (e.g., 2La, 2Rb, 2Rc) on pages 7 and 10."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquitoes were collected from the Banfora district in Burkina Faso (page 15)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study using RNAseq and whole genome sequencing on laboratory-reared colonies derived from field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The mosquitoes were collected from the Banfora district, Burkina Faso (page 15)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study describes the loss of resistance in 2018 and subsequent re-selection, with data collection occurring within this timeframe (page 15)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, unique event of resistance loss and re-selection in a laboratory colony, which is a new dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype and frequency data are provided in the main text (e.g., page 10)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "2La inversion",
+      "2Rb inversion",
+      "2Rc inversion"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 96,
+    "summary": "This study investigates the mechanisms of pyrethroid resistance in an Anopheles coluzzii colony from Burkina Faso that lost and then regained resistance. The authors used RNAseq and whole genome sequencing to compare resistant and susceptible lines, identifying changes in basal metabolism, chromosomal inversions (2Rb, 2Rc), and the microbiome, while also reporting on the kdr 995F marker.",
+    "exclusion_reasons": []
+  }
+}

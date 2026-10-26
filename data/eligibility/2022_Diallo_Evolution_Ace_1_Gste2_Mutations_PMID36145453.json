@@ -1,0 +1,72 @@
+{
+  "id": "2022_Diallo_Evolution_Ace_1_Gste2_Mutations_PMID36145453",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae s.s., An. coluzzii, An. arabiensis, and hybrids) as stated in the abstract and throughout the paper."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Ace-1 G119S (Ace-1 G280S) and Gste2 I114T (Gste2 L119F equivalent in An. funestus, but here reported in An. gambiae s.l. as Gste2-I114T)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 1, 2, 3, and 4 provide genotype counts (GG, GS, SS or RR, RS, SS) and allele frequencies for the markers across different species, years, and locations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses historical samples of An. gambiae s.l. collected from ten sentinel health districts in Senegal (field-caught)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study analyzing genetic data from field-collected mosquito samples."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for ten specific health districts in Senegal (e.g., Kaffrine, Kedougou, Koumpentoum, etc.) as shown in Table 1 and Figure 5."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study explicitly states the collection years as 2013, 2017, and 2018."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes using historical samples from an existing collection at Cheikh Anta Diop University, but it is a primary analysis of these samples for specific markers not previously reported in this context."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and location data are provided in the main text tables."
+    },
+    "markers_found": [
+      "Ace-1 G280S",
+      "Gste2 I114T"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae-coluzzii hybrids"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2013,
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1647,
+    "summary": "This study analyzed the presence and evolution of Ace-1 (G119S) and Gste2 (I114T) mutations in 1647 field-collected Anopheles gambiae s.l. mosquitoes from ten health districts in Senegal across 2013, 2017, and 2018. The study found low frequencies of the Ace-1 mutation and variable frequencies of the Gste2 mutation across species and sites, providing insights into the genetic diversity and potential impact on insecticide-based vector control.",
+    "exclusion_reasons": []
+  }
+}

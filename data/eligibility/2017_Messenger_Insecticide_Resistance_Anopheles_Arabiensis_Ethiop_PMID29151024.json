@@ -1,0 +1,71 @@
+{
+  "id": "2017_Messenger_Insecticide_Resistance_Anopheles_Arabiensis_Ethiop_PMID29151024",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F, kdr-west) and Vgsc L995S (L1014S, kdr-east) in Anopheles arabiensis."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 2 and 3 provide detailed genotype counts (RR, RS, SS) for Anopheles arabiensis populations across multiple sites and years."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Anopheles arabiensis from seven regions in Ethiopia."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study conducting nationwide insecticide resistance monitoring."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data at the village/site level (e.g., Alamata, Amibara, Asendabo, Bahir Dar, Chewaka, Halaba, Lare, Ziway-Dugda, Babile, Nono, Metema, Arba Minch, Humera, Abobo)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers the period 2012-2016, with data presented annually."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary nationwide monitoring study; no evidence of overlap with previous datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in the main text tables (Tables 2 and 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1588,
+    "summary": "This study monitored insecticide resistance in Anopheles arabiensis across Ethiopia from 2012 to 2016 using WHO and CDC bioassays and molecular screening for kdr mutations. It found widespread resistance to DDT and pyrethroids, with L1014F (kdr-west) detected at high frequencies, while L1014S (kdr-east) was not found.",
+    "exclusion_reasons": []
+  }
+}

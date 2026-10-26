@@ -1,0 +1,69 @@
+{
+  "id": "2018_Dia_Insecticide_Resistance_Anopheles_Arabiensis_Popula_PMID29544491",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis populations in Dakar, Senegal (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L1014F (kdr-West) and L1014S (kdr-East) (Abstract, page 1; Results, page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides allele frequencies (10.24% for L1014F and 89.53% for L1014S) and mentions genotype distributions (homozygous/heterozygous) (Results, page 5; Fig 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Dakar, Senegal (Methods, page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research study reporting original field and laboratory data (Methods, page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies ten sites in Dakar and its suburbs, including Pikine, Guediawaye, Mbao, and Keur Massar (Methods, page 2; Fig 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted over three successive years: 2013, 2014, and 2015 (Methods, page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, original collection effort in Dakar from 2013-2015."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including bioassay results and marker frequencies, are provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigated insecticide resistance in Anopheles arabiensis populations in Dakar, Senegal, between 2013 and 2015. It utilized WHO tube tests and CDC bottle bioassays to assess resistance to multiple insecticide classes and performed molecular genotyping for kdr mutations (L1014F and L1014S). The results indicate high levels of resistance to pyrethroids and DDT, associated with both target-site mutations and metabolic resistance mechanisms.",
+    "exclusion_reasons": []
+  }
+}

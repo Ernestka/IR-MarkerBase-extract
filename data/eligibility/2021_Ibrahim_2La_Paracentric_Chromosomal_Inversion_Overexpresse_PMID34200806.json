@@ -1,0 +1,67 @@
+{
+  "id": "2021_Ibrahim_2La_Paracentric_Chromosomal_Inversion_Overexpresse_PMID34200806",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles coluzzii and Anopheles gambiae s.s. collected in northern Nigeria (page 1, Abstract; page 4, Section 2.1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not genotype any of the targeted insecticide-resistance markers (e.g. Vgsc L995F/S, Ace-1 G280S, GSTe2 L119F). It only performs karyotyping for the 2La chromosomal inversion and qRT-PCR for gene expression (page 5, Sections 2.5 and 2.6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for any targeted resistance marker is reported in the paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from 4 field sites in northern Nigeria (BUK, Gamjin Bappa, Pantami, Auyo) in July-September 2019 (page 4, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study measuring thermotolerance, insecticide resistance, 2La chromosomal inversion karyotypes, and gene expression."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were performed at four specific sites in Nigeria with geographical coordinates provided: Bayero University Kano (11°58'17\" N, 8°35'09\" E), Gamjin Bappa (11°46'23.6\" N, 8°00'29.9\" E), Pantami (10°15'50.4\" N, 11°09'39.7\" E), and Auyo (12°21'38\" N, 9°59'15\" E) (page 4, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place between July, August, and September 2019 (page 4, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field sampling was conducted specifically for this study in 2019 in northern Nigeria."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are required as target marker data is not part of this study."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated thermotolerance and permethrin resistance in field populations of Anopheles coluzzii and Anopheles gambiae s.s. from four sites in northern Nigeria. It investigated the association of the 2La chromosomal inversion and expression of heat-shock and metabolic genes with thermotolerance and pyrethroid resistance. No target insecticide resistance markers (e.g. Vgsc or Ace-1) were genotyped.",
+    "exclusion_reasons": [
+      "Does not genotype or report extractable data for any of the targeted insecticide-resistance markers (only genotypes 2La chromosomal inversion and measures qRT-PCR gene expression)."
+    ]
+  }
+}

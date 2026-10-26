@@ -1,0 +1,80 @@
+{
+  "id": "2021_Campos_Unravelling_Population_Structure_Heterogeneity_Gen_PMID34103015",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study analyzes Anopheles gambiae and Anopheles coluzzii."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions Vgsc (AGAP004707) and discusses L995F and L995S mutations (page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper uses pre-existing data from the Ag1000G project (page 2). It does not report new, extractable genotype counts (RR/RS/SS) for specific populations in the text or tables; it performs a bioinformatic analysis of existing genomic data."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses 765 specimens collected from 8 African countries (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using t-SNE to analyze population structure."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study mentions 15 locations in 8 African countries (page 11)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between 2009 and 2012 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states: 'Using data from the Ag1000G Project (phase 1 AR3 data release; https://www.malariagen.net/projects/ag1000) carried out by the Malaria Genomic Epidemiology Network (MalariaGEN) [22]'"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a re-analysis of existing data, and the required genotype counts are not provided in the paper or its supplements."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Angola",
+      "Burkina Faso",
+      "Cameroon",
+      "Gabon",
+      "Guinea",
+      "Guinea-Bissau",
+      "Kenya",
+      "Uganda"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 765,
+    "summary": "This study uses t-SNE to visualize population structure in 765 Anopheles gambiae and An. coluzzii specimens from the Ag1000G project. It is a bioinformatic re-analysis of existing genomic data and does not report primary genotype counts for specific field populations.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}
