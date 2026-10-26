@@ -1,0 +1,65 @@
+{
+  "id": "2018_Auteri_Insecticide_Resistance_Associated_Kdr_Mutations_PMID30175124",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper focuses on Aedes albopictus (and Aedes aegypti) mosquitoes rather than Anopheles."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses kdr mutations in Aedes albopictus (e.g., F1534C, F1534S, F1534L, I1532T) and does not genotype any target markers in Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a review paper, it does not present primary extractable genotype data or sample sizes for field populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The article is a review summarizing global literature on Aedes albopictus rather than reporting primary African field collections of Anopheles."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly titled 'Review Article' and summarizes previously published literature."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as this is a review paper."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as this is a review paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable for a review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed because the paper is ineligible."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes albopictus",
+      "Aedes aegypti"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a review summarizing global evidence of knockdown resistance (kdr) mutations in Aedes albopictus. It is ineligible as it is a review paper focusing on Aedes rather than a primary study on Anopheles.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes",
+      "Not a primary empirical study (review article)",
+      "Does not report target insecticide resistance markers in Anopheles"
+    ]
+  }
+}

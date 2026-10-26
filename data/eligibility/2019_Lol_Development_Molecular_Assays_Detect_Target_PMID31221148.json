@@ -1,0 +1,83 @@
+{
+  "id": "2019_Lol_Development_Molecular_Assays_Detect_Target_PMID31221148",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Latin American Anopheles vectors: Anopheles albimanus, An. darlingi, An. vestitipennis, and An. pseudopunctipennis (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Sequenced and evaluated target-site resistance regions including VGSC codon 995 (1014) and Ace-1 codon 280 (119) (Page 1, 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Provides sample counts per species/country and observed genotypes at VGSC codon 995 and Ace-1 codon 280 (Table 2, Page 3-5)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All mosquito samples were collected in Latin American countries (Guatemala, Bolivia, Nicaragua, Panama, Venezuela, Ecuador), with no African field populations included (Table 2, Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study designing and testing molecular assays on field-caught and archived mosquito samples (Page 1-3)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Sample origins in Table 2 are given only at the country level (Guatemala, Bolivia, Nicaragua, Panama, Venezuela, Ecuador)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sample collection dates are reported as individual years (1991, 1998, 1999, 2014, 2015, 2017) in Table 2."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No indication of sample overlap with African vector surveillance datasets or consortia."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All experimental data and sample details are contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles albimanus",
+      "Anopheles darlingi",
+      "Anopheles vestitipennis",
+      "Anopheles pseudopunctipennis"
+    ],
+    "countries": [
+      "Guatemala",
+      "Bolivia",
+      "Nicaragua",
+      "Panama",
+      "Venezuela",
+      "Ecuador"
+    ],
+    "collection_years": [
+      1991,
+      1998,
+      1999,
+      2014,
+      2015,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 68,
+    "summary": "This study describes the development and testing of degenerate PCR primers and sequencing assays for VGSC (codon 995) and Ace-1 (codon 280) target-site resistance markers in Latin American malaria vectors (An. albimanus, An. darlingi, An. vestitipennis, and An. pseudopunctipennis). The paper is ineligible because all mosquito samples originate from Latin America rather than African field populations.",
+    "exclusion_reasons": [
+      "Study focuses on Latin American Anopheles species and field collections from Central/South America (Guatemala, Bolivia, Nicaragua, Panama, Venezuela, Ecuador) rather than African field populations."
+    ]
+  }
+}

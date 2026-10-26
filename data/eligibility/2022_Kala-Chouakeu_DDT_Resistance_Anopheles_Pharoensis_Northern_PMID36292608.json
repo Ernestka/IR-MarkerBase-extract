@@ -1,0 +1,67 @@
+{
+  "id": "2022_Kala-Chouakeu_DDT_Resistance_Anopheles_Pharoensis_Northern_PMID36292608",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'DDT Resistance in Anopheles pharoensis from Northern Cameroon Associated with High Cuticular Hydrocarbon Production.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 4, Section 2.7: 'Direct sequencing (Sanger) of the VGSC gene, including the area of the L1014F/S mutation, was applied to An. pharoensis samples to detect the presence of kdr mutations.'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5, Table 3: Reports sample sizes and L1014F/S kdr genotypes for 114 DDT-resistant An. pharoensis mosquitoes across Yangah (20 alleles/specimens), Simatou (20), and Maga (74), all being wild type."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 3, Section 2.2: 'Field sampling of anopheline larvae and processing was conducted during the rainy season from August to September 2021 in Maga, Simatou and Yangah' in Far-North region, Cameroon."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field collection, bioassay, and genotyping research paper."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2, Section 2.1: Precise coordinates given for villages: Simatou (10°52'24\" N, 14°58'48\" E), Yangah (14°44'23\" N, 14°58'35\" E), and Maga (10°50'36\" N, 14°56'23\" E) in Far-North Cameroon."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 3, Section 2.2: Field sampling conducted from August to September 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine field collection conducted in 2021 specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All main genotyping and bioassay counts are provided within the manuscript tables (Tables 2 and 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles pharoensis"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 114,
+    "summary": "This study evaluated DDT resistance and resistance mechanisms in field-collected Anopheles pharoensis from three sites (Maga, Simatou, Yangah) in northern Cameroon. Sanger sequencing of the VGSC gene covering L1014F/S in 114 DDT-resistant mosquitoes detected no kdr mutations (100% wild type), indicating resistance is associated with cuticular hydrocarbon thickening rather than kdr target-site mutations.",
+    "exclusion_reasons": []
+  }
+}

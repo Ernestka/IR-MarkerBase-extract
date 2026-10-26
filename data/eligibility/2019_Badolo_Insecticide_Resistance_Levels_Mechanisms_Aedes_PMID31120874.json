@@ -1,0 +1,67 @@
+{
+  "id": "2019_Badolo_Insecticide_Resistance_Levels_Mechanisms_Aedes_PMID31120874",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti (e.g. title: 'Insecticide resistance levels and mechanisms in Aedes aegypti populations in and around Ouagadougou, Burkina Faso')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotyped target-site mutations in Aedes aegypti (V1016I, F1534C, S989P, V1016G) and not any of the listed Anopheles target markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for any of the target Anopheles insecticide resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Aedes aegypti larvae were collected in 2016 from field breeding sites in 1200 Logements, Tabtenga, and Goundry in and around Ouagadougou, Burkina Faso (Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper presents original empirical field sampling, bioassays, target-site mutation genotyping, and qPCR gene expression analyses."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific localities with GPS coordinates are provided: 1200 Logements (12° 22' 3.569''N, 1° 29' 50.24''W), Tabtenga (12° 21' 58.039''N, 1° 26' 59.074''W), and Goundry (12° 31' 4.262''N, 1° 20' 25.771''W) (Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during the rainy season from August to October 2016 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine original collection of Aedes aegypti in Ouagadougou in 2016."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files S1-S5 are referenced in the main text as providing raw data, but the paper itself is ineligible based on species."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated insecticide susceptibility, kdr mutations (1016I, 1534C), and P450 candidate gene expression in Aedes aegypti populations from urban, semi-urban, and rural sites in and around Ouagadougou, Burkina Faso. It is ineligible for the database because it studies Aedes aegypti rather than Anopheles malaria vectors.",
+    "exclusion_reasons": [
+      "Study investigated Aedes aegypti, not Anopheles mosquitoes.",
+      "Does not report genotyping for any of the targeted Anopheles insecticide resistance markers."
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2022_Wondji_RNAseq_Based_Gene_Expression_Profiling_PMID34718535",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates gene expression profiling of the major malaria vector Anopheles funestus (Page 1, Abstract and Introduction)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study performs RNAseq on lab strains and identifies SNPs including CYP6P9b N384S, but does not genotype any of the specific target resistance markers listed (Page 1, Abstract; Page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype/allele counts or frequencies from field populations are reported; only comparative RNA-seq variant analyses between laboratory colonies are provided."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Only laboratory-adapted colonies (the resistant strain FUMOZ and susceptible strain FANG) were used: 'Two An. funestus laboratory colonies were used in this study. The FANG colony is a fully insecticide susceptible colony derived from Angola... The FUMOZ colony is a multi-insecticide resistant colony derived from southern Mozambique' (Page 2, Materials and methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper reports a primary empirical RNAseq transcription profiling investigation comparing FUMOZ and FANG strains."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field mosquito collections were conducted in this study."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates are reported for this study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Re-uses three previously published FANG RNAseq libraries from Weedall et al. 2015 alongside newly sequenced FUMOZ RNAseq libraries, but no field dataset overlap."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study does not analyze field populations in either the main text or supplementary material."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study performed RNAseq gene expression profiling and variant detection contrasting two Anopheles funestus laboratory colonies (the pyrethroid-resistant FUMOZ and susceptible FANG). It did not test African field populations or genotype eligible target resistance markers.",
+    "exclusion_reasons": [
+      "Only laboratory colonies were used (FUMOZ and FANG); no African field populations were tested.",
+      "Does not report genotyping for any of the target insecticide resistance markers.",
+      "Does not report extractable genotype data for mosquito populations."
+    ]
+  }
+}

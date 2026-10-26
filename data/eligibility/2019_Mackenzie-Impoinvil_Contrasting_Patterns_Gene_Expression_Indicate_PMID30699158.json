@@ -1,0 +1,70 @@
+{
+  "id": "2019_Mackenzie-Impoinvil_Contrasting_Patterns_Gene_Expression_Indicate_PMID30699158",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult female Anopheles albimanus were collected in October 2015 from Peru and November 2015 from Guatemala (p. 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for target site mutations in VGSC codon 1014 (Table 3, p. 17), detecting the 1014S (TCG) variant corresponding to Vgsc L995S."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Target site mutation counts at codon 1014 were derived from RNA-Seq reads from pooled transcript libraries (Table 3, p. 17). The authors explicitly state that these read counts cannot be directly translated into individual mosquito genotype counts or precise allele frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Field mosquitoes were collected in Puerto Pizarro, Tumbes, Peru and Escuintla, Guatemala (p. 3), which are located in South and Central America, not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research article reporting original transcriptome sequencing, target-site mutation screening, and bottle bioassays in field-caught An. albimanus."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Puerto Pizarro, Tumbes, Peru (3° 30' 10\" S, 80° 23' 38\" W) and El Terrero, La Gomera, Escuintla, Guatemala (14° 08' 31\" N, 91° 05' 54\" W) (p. 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in October 2015 (Peru) and November 2015 (Guatemala) (p. 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original collection and transcriptomic analysis of An. albimanus from Peru and Guatemala."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required bioassay results and target-site codon read counts are included in the main text figures and tables."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles albimanus"
+    ],
+    "countries": [
+      "Peru",
+      "Guatemala"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 441,
+    "summary": "This study evaluates pyrethroid resistance mechanisms in Anopheles albimanus field populations from Peru and Guatemala using CDC bottle bioassays, RNA-Seq transcriptomics, and target-site mutation screening at VGSC codon 1014. The paper is ineligible for inclusion because the field populations are from Central and South America rather than Africa.",
+    "exclusion_reasons": [
+      "Field populations are not from an African country (collected in Peru and Guatemala).",
+      "Genotype counts or extractable individual allele frequencies are not reported (only transcript read counts from pooled RNA-Seq samples are provided)."
+    ]
+  }
+}

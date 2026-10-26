@@ -1,0 +1,65 @@
+{
+  "id": "2022_Agyekum_Relationship_Temperature_Anopheles_Gambiae_Sensu_PMID35527275",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "This study evaluated the effects of temperature on the susceptibility of Anopheles gambiae sensu lato (s.l.) mosquitoes to pyrethroids and their expression of metabolic enzymes (p. 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study performed species identification PCR (An. gambiae s.s. and An. coluzzii) and biochemical enzyme assays (MFO, GST, alpha/beta esterase), but did not genotype any target resistance markers such as Vgsc or Ace-1."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No target resistance marker genotyping was performed, so no genotype counts or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study tested laboratory-established colonies (Tiassalé and Kisumu strains) maintained in an insectary at the Vestergaard-Noguchi Memorial Institute for Medical Research Vector Labs (p. 3, 'Mosquito colony'). No field-collected mosquitoes were used."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary laboratory experimental study examining rearing temperature, bioassay mortality, and metabolic enzyme levels."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection sites are reported as laboratory colony strains were used."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection timeframe is reported as laboratory colony strains were used."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Laboratory colony study; no field sample overlap."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files were not needed because the main text confirms no target resistance markers were genotyped."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory experiment evaluated the impact of rearing temperature (25 to 40 °C) on pyrethroid susceptibility (WHO tube tests using deltamethrin and permethrin) and metabolic enzyme expression (MFO, GST, alpha- and beta-esterase) in laboratory colonies of Anopheles gambiae s.l. (Tiassalé and Kisumu strains). The study did not genotype target insecticide-resistance markers and did not evaluate African field populations.",
+    "exclusion_reasons": [
+      "does_not_report_target_markers",
+      "no_african_field_population",
+      "no_extractable_genotype_data"
+    ]
+  }
+}

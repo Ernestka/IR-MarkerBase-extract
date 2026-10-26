@@ -1,0 +1,64 @@
+{
+  "id": "2023_Gnambani_Infection_Malaria_Vector_Anopheles_Coluzzii_PMID37055834",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated Anopheles coluzzii reared from larval collections at Kou Valley (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tracked the Vgsc L1014F (L995F) mutation: 'The level of kdr mutation within a subsample of mosquitoes (N=291) was performed... Only the mutation L1014F was tracked' (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports that '96.9% of the An. coluzzii used for bioassays carried the kdr resistance gene' (Page 3) out of a sample size of N=291 genotyped (Page 2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Used F1 progeny of An. coluzzii reared from larval field collections at Kou Valley (11°23' N, 4°24' W), Burkina Faso (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper investigating bacterial infection impacts on Anopheles coluzzii larvae and adults."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Kou Valley (11°23' N, 4°24' W), Burkina Faso (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact year of mosquito larval collection is not reported in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine new field collection of larvae from Kou Valley for laboratory bioassays."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The kdr genotype sample size (N=291) and overall frequency (96.9%) are reported in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 291,
+    "summary": "This study assessed the larvicidal and reproductive impacts of Chromobacterium anophelis IRSSSOUMB001 on field-derived Anopheles coluzzii from Kou Valley, Burkina Faso. Molecular characterization confirmed high pyrethroid resistance in the target population, with 96.9% carrying the Vgsc L1014F (L995F) kdr mutation (N=291).",
+    "exclusion_reasons": []
+  }
+}

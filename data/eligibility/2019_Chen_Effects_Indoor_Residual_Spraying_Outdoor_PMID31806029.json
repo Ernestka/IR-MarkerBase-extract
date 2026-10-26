@@ -1,0 +1,74 @@
+{
+  "id": "2019_Chen_Effects_Indoor_Residual_Spraying_Outdoor_PMID31806029",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles coluzzii (page 1, Title and Abstract; page 4, 'Polymerase chain reaction (PCR) and sequencing')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014F (L995F) across 1,923 mosquitoes, Vgsc N1575Y (N1570Y) across 30 mosquitoes, and ace-1 G119S (G280S) across 345 mosquitoes (page 5, 'Knockdown resistance genotyping and calculation of mutation frequency'; page 8, 'Spatial and temporal variations of kdr mutation')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports that in 2010 homozygous resistant allele (RR) was detected in 1/57 (1.75%) mosquitoes; screens showed 0/30 (0%) for N1575Y and 0/345 (0%) for ace-1 G119S (page 8); and reports detailed district- and year-specific L1014F frequencies for 1,923 mosquitoes in Additional file 2: Table S5."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as adults via human landing catches (HLC) and mosquito light traps (MLT) across 16 field sites in São Tomé and Príncipe from 2010 to 2016 (page 3, 'Mosquito collection'; page 4, Figure 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field collection and molecular analysis of malaria vectors in São Tomé and Príncipe (pages 1-5)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at 16 named sites within 7 districts: Água Grande, Mé-Zóchi, Lobata, Cantagalo, Lembá, Caué, and Príncipe (page 4, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 2010 to 2016, with data analyzed and reported on an annual and seasonal basis (page 3, page 7, Figure 3; page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field collections conducted specifically for this multi-year surveillance study by the Taiwanese research team and Centro Nacional de Endemias (page 3, page 13)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Detailed district-by-year genotype and allele frequencies for the 1,923 mosquitoes are placed in unpublished Additional file 2: 'Table S5. Frequency of kdr L1014F mutation in 1,923 An. coluzzii from 7 districts during 2010 to 2016' (page 14)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Sao Tome and Principe"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1923,
+    "summary": "This study monitored Anopheles coluzzii densities and insecticide-resistance markers in São Tomé and Príncipe from 2010 to 2016. A total of 1,923 mosquitoes were screened for Vgsc L1014F, alongside sub-samples screened for Vgsc N1575Y (n=30) and ace-1 G119S (n=345). Detailed district-by-year frequencies are provided in supplementary Table S5.",
+    "exclusion_reasons": []
+  }
+}

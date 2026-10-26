@@ -1,0 +1,71 @@
+{
+  "id": "2023_Ngufor_Community_Evaluation_VECTRONTM_T500_Broflanilide_PMID37857762",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of IRS against pyrethroid-resistant Anopheles gambiae s.l. in central Benin (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes L1014F (Vgsc L995F) and G119S (Ace-1 G280S) mutations (Page 5, Page 11 Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (RR, RS, SS) and the total number of mosquitoes tested for both L1014F and G119S markers (Page 11)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the Za-Kpota District in central Benin using human landing catches (Page 1, Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting the results of a two-arm non-inferiority cluster randomised trial (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in 15 villages of the Za-Kpota District, Zou Department, Benin (7.2169° N, 2.1843° E) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Entomological surveys were conducted between October 2020 and April 2021 (baseline) and for up to 18 months post-IRS (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the study involved the National Malaria Control Programme and PMI VectorLink Project Benin, it is a specific trial of VECTRON T500 and the genotype data appears unique to this study's sub-sampling (Page 5, Page 16)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and frequencies are provided in Table 4 of the main text (Page 11)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 902,
+    "summary": "This study is a cluster randomized trial in Benin evaluating the efficacy of VECTRON T500 (broflanilide) for IRS. It reports genotype frequencies (RR, RS, SS counts) for L1014F and G119S in Anopheles gambiae s.l. populations before and after the intervention, alongside bioassay data for pyrethroids, broflanilide, and clothianidin.",
+    "exclusion_reasons": []
+  }
+}

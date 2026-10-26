@@ -1,0 +1,66 @@
+{
+  "id": "2023_Zoh_Deltamethrin_Transfluthrin_Select_Distinct_Transcr_DOI_10_21203_rs_3_rs-2895272_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluates Anopheles gambiae s.s. (Page 5, 'A field-derived colony of An. gambiae s.s. (Tiassalé-S line)...')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Monitored the Vgsc L1014F (L995F) kdr west mutation using TaqMan qPCR (Page 6, 'The kdr west L1014F mutation was identified in the Tiassalé-S line prior to the start of the selection experiment and was then monitored for each selected line...')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies (RR, RS, SS) and sample sizes (N=30 per line/generation) for L1014F across generations G0, G2, G7, G9, and G17 are reported in Figure 3."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The genotyped mosquitoes were from a laboratory colony line (Tiassalé-S, created from a cross between Tiassalé and Kisumu) subjected to lab selection across 33 generations (Page 5). No field-caught (F0), field-reared, or direct F1 mosquitoes were genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical laboratory selection study comparing deltamethrin and transfluthrin selection dynamics in Anopheles gambiae."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions Tiassalé in southern Côte d'Ivoire as the origin of the ancestral Tiassalé line (Page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection years or collection window dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Controlled laboratory selection experiment; no overlap with field survey datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Target marker genotype frequencies across generations are presented in Figure 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 270,
+    "summary": "This study conducted a multigenerational laboratory selection experiment using an Anopheles gambiae line (Tiassalé-S) exposed to deltamethrin or transfluthrin for 33 generations. The authors monitored resistance levels and genotyped the Vgsc L1014F (L995F) kdr west mutation across generations (G0, G2, G7, G9, G17), showing rapid selection for 1014F under both insecticides alongside metabolic responses detected via RNA-seq. The study is ineligible because the genotyped mosquitoes were lab-selected colony lines rather than African field populations (F0/F1).",
+    "exclusion_reasons": [
+      "The genotyped mosquitoes were from a laboratory-reared colony line (Tiassalé-S, derived from a lab cross between Tiassalé and Kisumu) subjected to laboratory selection over multiple generations, failing the requirement for African field populations."
+    ]
+  }
+}
