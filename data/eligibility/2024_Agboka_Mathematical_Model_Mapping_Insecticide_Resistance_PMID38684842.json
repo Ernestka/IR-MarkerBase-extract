@@ -1,0 +1,63 @@
+{
+  "id": "2024_Agboka_Mathematical_Model_Mapping_Insecticide_Resistance_PMID38684842",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-26",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae populations across Africa (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not report genotyping for any target resistance markers; it relies on bioassay phenotypic resistance status data aggregated from the WHO Malaria Threat Map (page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts or frequencies are reported. The authors explicitly state they 'quantified the evolution of IR using a time-varying population R0 for female mosquitoes, ignoring differences in genotypes' (page 2)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No primary field collections or mosquito genotyping were conducted in this study. The authors used secondary bioassay data from the WHO Malaria Threat Map for model validation (page 9)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a mathematical modeling study (adapting an SIR framework) that re-analyses secondary WHO bioassay dataset points (page 1, page 9)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Validation points are mapped across African locations from the WHO Malaria Threat Map (page 6, Figure 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Secondary data spans 2000 to 2019 with specific observation years (page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper does not present new primary mosquito sample collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No primary genotyping data exists in the manuscript or supplementary materials."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper develops an SIR mathematical model to map and predict spatial/temporal trends of insecticide resistance in Anopheles gambiae under climate variability across Africa. The model is validated using secondary phenotypic bioassay data from the WHO Malaria Threat Map, but no target site marker genotyping is performed or reported.",
+    "exclusion_reasons": [
+      "Not a primary empirical genotyping study (pure mathematical modeling paper).",
+      "Does not report target marker genotyping or extractable genotype data."
+    ]
+  }
+}
