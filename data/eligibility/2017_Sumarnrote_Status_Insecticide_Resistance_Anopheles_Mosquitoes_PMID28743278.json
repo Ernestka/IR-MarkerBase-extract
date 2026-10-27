@@ -1,0 +1,78 @@
+{
+  "id": "2017_Sumarnrote_Status_Insecticide_Resistance_Anopheles_Mosquitoes_PMID28743278",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'Status of insecticide resistance in Anopheles mosquitoes in Ubon Ratchathani province, Northeastern Thailand'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 1 and Page 8: DNA sequencing was performed to detect Vgsc L1014F and L1014S substitutions in the voltage-gated sodium channel gene."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 8: DNA sequencing of VGSC gene was performed on 48 amplicons (37 An. hyrcanus s.l. and 12 An. barbirostris s.l.). None presented L1014F or L1014S mutations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Page 1 and Page 3: Mosquito collections were performed in Ubon Ratchathani province, Northeastern Thailand (Asia), not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field collection and laboratory susceptibility bioassays and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 3: Seven sites in five districts of Ubon Ratchathani province: Ban Pakla, Ban Talong, Ban Payaka, Ban Nongmek, Ban Sanghom, rubber plantation in Nachaluay district, Chong Ta Ou (with GPS coordinates given)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 3 and Table 1: Mosquitoes were collected between September 2013 and September 2015."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field collection data presented under the MALVEC research project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotyping and bioassay summary data are presented in the text, figures, and tables of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles hyrcanus",
+      "Anopheles barbirostris",
+      "Anopheles dirus",
+      "Anopheles maculatus",
+      "Anopheles nivipes",
+      "Anopheles philippinensis",
+      "Anopheles vagus",
+      "Anopheles karwari"
+    ],
+    "countries": [
+      "Thailand"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 48,
+    "summary": "This study evaluated insecticide susceptibility and target-site mutations (Vgsc 1014F/S) in Anopheles mosquitoes collected in Ubon Ratchathani province, Northeastern Thailand between 2013 and 2015. The paper is ineligible because the field populations are from Thailand, not Africa.",
+    "exclusion_reasons": [
+      "The study examined mosquito populations collected in Thailand (Asia), not an African field population."
+    ]
+  }
+}
