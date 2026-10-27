@@ -1,0 +1,66 @@
+{
+  "id": "2024_Karanu_Biochemistry_Transcriptomic_Analyses_Phthorimaea_A_PMID38575641",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper investigates the tomato leafminer, Phthorimaea absoluta (Lepidoptera: Gelechiidae), not Anopheles mosquitoes (Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not report any target insecticide-resistance markers in Anopheles species."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts or frequencies for target Anopheles resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study evaluates field-collected Phthorimaea absoluta moths from Mwea, Kenya, rather than Anopheles mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting transcriptomic and gene expression analyses of P. absoluta in response to insecticides."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Insect samples were obtained from Mwea (0° 36′ 31.3″ S 037° 22′ 29.7″ E), Kenya (Page 9, Insect samples)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Initial collection of P. absoluta occurred in June 2019 (Page 9, Insect samples)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "None"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable as the study does not evaluate Anopheles vectors."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates transcriptomic and RT-qPCR expression patterns of ace1 and para VGSG genes in response to diamides and avermectins in the tomato leafminer pest Phthorimaea absoluta collected from Mwea, Kenya. It does not study Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (investigates Phthorimaea absoluta, a moth pest).",
+      "Does not report target insecticide resistance markers for Anopheles.",
+      "Does not report extractable genotype data for Anopheles populations."
+    ]
+  }
+}

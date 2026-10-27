@@ -1,0 +1,71 @@
+{
+  "id": "2019_Safi_Status_Insecticide_Resistance_Biochemical_Molecula_PMID31349836",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles stephensi (Title: 'Status of insecticide resistance and its biochemical and molecular mechanisms in Anopheles stephensi (Diptera: Culicidae) from Afghanistan')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The authors tested for Vgsc L1014F (kdr west) and L1014S (kdr east) mutations (Page 4, 'Genotyping kdr alleles' and Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 on page 7 gives exact genotype counts (homozygote and heterozygote for kdr-west and kdr-east, and wild type homozygote) for field populations from Laghman, Kunar, and Nangarhar."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were collected from Kunar, Laghman, and Nangarhar provinces in Afghanistan (Page 2, 'Study area'), which is located in Asia, not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting original bioassay, biochemical, and molecular data from mosquito larvae collected from 2014 to 2017."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 provides district, village, and GPS coordinates (e.g. Nurgal, 34°36'45.70\"N, 70°46'31.76\"E; Babur, 34°41'26.04\"N, 67°30'42.61\"E)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The kdr genotyping was conducted on specimens collected in 2017 (Table 4 title: 'collected from Afghanistan in 2017')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field collections and data conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay counts are provided in the main article text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles stephensi"
+    ],
+    "countries": [
+      "Afghanistan"
+    ],
+    "collection_years": [
+      2014,
+      2015,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 180,
+    "summary": "This study evaluated insecticide susceptibility, biochemical enzyme levels, and kdr mutations (L1014F and L1014S) in Anopheles stephensi populations from Kunar, Laghman, and Nangarhar provinces in Afghanistan. While extractable genotype counts and genotype-phenotype data are reported, the paper is not eligible because the mosquito populations were sampled in Afghanistan, outside of Africa.",
+    "exclusion_reasons": [
+      "Mosquito samples are from Afghanistan, which is not an African country."
+    ]
+  }
+}

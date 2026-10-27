@@ -1,0 +1,67 @@
+{
+  "id": "2025_Kouadio_Innovative_Water_Management_Vector_Control_PMID41225572",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions previous studies that confirmed resistance and kdr-L1014F mutation frequencies in the area (page 3), but this study itself does not genotype any insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (counts or frequencies) are reported for the mosquitoes collected in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in the Vallée du Kou, Burkina Faso (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical field study evaluating water management and swarm control."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the villages of VK2 and VK3 in the Vallée du Kou, Burkina Faso (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from February 2024 to May 2024 (page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new field study conducted in 2024."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data were collected, so no supplementary data are needed for this purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the impact of water-saving techniques (minimal tillage and intermittent flooding) and swarm control on Anopheles larval and adult densities in the Vallée du Kou, Burkina Faso. It does not perform any insecticide-resistance marker genotyping.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

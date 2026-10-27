@@ -1,7 +1,7 @@
 {
   "id": "2017_Sumarnrote_Status_Insecticide_Resistance_Anopheles_Mosquitoes_PMID28743278",
   "source": "master",
-  "model": "gemini:gemini-3.5-flash",
+  "model": "gemini:gemini-3.8-flash",
   "spec_version": 1,
   "assessed": "2026-10-27",
   "assessment": {
@@ -10,40 +10,40 @@
     "checks": {
       "is_anopheles": {
         "met": true,
-        "evidence": "Page 1: 'Status of insecticide resistance in Anopheles mosquitoes in Ubon Ratchathani province, Northeastern Thailand'"
+        "evidence": "Studies Anopheles mosquitoes including An. hyrcanus s.l., An. barbirostris s.l., An. dirus s.l., and An. maculatus s.l. (page 1, Abstract)."
       },
       "reports_target_markers": {
         "met": true,
-        "evidence": "Page 1 and Page 8: DNA sequencing was performed to detect Vgsc L1014F and L1014S substitutions in the voltage-gated sodium channel gene."
+        "evidence": "Sequenced VGSC codon 1014 looking for L1014F and L1014S substitutions in An. hyrcanus s.l. and An. barbirostris s.l. (page 8, 'kdr detection')."
       },
       "reports_extractable_genotype_data": {
         "met": true,
-        "evidence": "Page 8: DNA sequencing of VGSC gene was performed on 48 amplicons (37 An. hyrcanus s.l. and 12 An. barbirostris s.l.). None presented L1014F or L1014S mutations."
+        "evidence": "Reports that 0 of 37 An. hyrcanus s.l. and 0 of 12 An. barbirostris s.l. had L1014F or L1014S mutations, with all showing wild-type TTG codon (page 8-9, Fig. 4)."
       },
       "african_field_population": {
         "met": false,
-        "evidence": "Page 1 and Page 3: Mosquito collections were performed in Ubon Ratchathani province, Northeastern Thailand (Asia), not in Africa."
+        "evidence": "Mosquitoes were collected in Ubon Ratchathani province, northeastern Thailand (Southeast Asia), not in Africa (page 1, Abstract and page 3, Methods)."
       },
       "is_primary_study": {
         "met": true,
-        "evidence": "Primary empirical field collection and laboratory susceptibility bioassays and molecular genotyping."
+        "evidence": "Primary field collection and bioassay/molecular study conducted in Thailand between 2013 and 2015 (page 1)."
       },
       "sub_country_location": {
         "met": true,
-        "evidence": "Page 3: Seven sites in five districts of Ubon Ratchathani province: Ban Pakla, Ban Talong, Ban Payaka, Ban Nongmek, Ban Sanghom, rubber plantation in Nachaluay district, Chong Ta Ou (with GPS coordinates given)."
+        "evidence": "Seven sites across five districts in Ubon Ratchathani province, Thailand, with GPS coordinates provided (page 3, Study site)."
       },
       "temporal_resolution_within_3y": {
         "met": true,
-        "evidence": "Page 3 and Table 1: Mosquitoes were collected between September 2013 and September 2015."
+        "evidence": "Mosquitoes were collected between September 2013 and September 2015 (page 3, Mosquito collections)."
       }
     },
     "duplicate_risk": {
       "level": "none",
-      "evidence": "Original field collection data presented under the MALVEC research project."
+      "evidence": "Routine field collections conducted under the MALVEC project."
     },
     "supplement": {
       "needed": false,
-      "evidence": "All relevant genotyping and bioassay summary data are presented in the text, figures, and tables of the main manuscript."
+      "evidence": "All relevant data reported in main text."
     },
     "markers_found": [
       "Vgsc L995F",
@@ -69,10 +69,10 @@
     ],
     "has_bioassays": true,
     "has_genotype_phenotype": true,
-    "sample_size": 48,
-    "summary": "This study evaluated insecticide susceptibility and target-site mutations (Vgsc 1014F/S) in Anopheles mosquitoes collected in Ubon Ratchathani province, Northeastern Thailand between 2013 and 2015. The paper is ineligible because the field populations are from Thailand, not Africa.",
+    "sample_size": 49,
+    "summary": "This study evaluated insecticide resistance and screened for VGSC codon 1014 mutations in Anopheles species from Ubon Ratchathani province, Thailand. The paper is ineligible because the mosquito populations were collected in Thailand, not in Africa.",
     "exclusion_reasons": [
-      "The study examined mosquito populations collected in Thailand (Asia), not an African field population."
+      "african_field_population"
     ]
   }
 }

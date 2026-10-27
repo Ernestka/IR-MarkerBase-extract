@@ -1,0 +1,65 @@
+{
+  "id": "2018_Wanjala_Malaria_Vectors_Insecticides_Resistance_Different_PMID29546039",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. and Anopheles arabiensis collected in western Kenya (page 1, Abstract; page 2, Study Sites)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014S (L995S) using real-time PCR: 'The genotyping of amino acid position 1014 of the VGSC was done using, following the methods of Bass et al (38) and its modification done by Mathias and others (39)' (page 3) and 'Homozyzygous kdr (L1014S) was high in An. gambiae s.s. populations' (page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives total genotyped sample size (N), genotype counts (LL, LS, SS), and allele frequencies for Anopheles gambiae and Anopheles arabiensis across seven study sites (page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-collected larvae from aquatic habitats in seven localities in western Kenya (Ahero, Kisian, Chulaimbo, Emutete, Emakakha, Iguhu, Kabula) were reared to adults in the insectary (page 2, Mosquito Larvae Sampling)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Original research article reporting primary empirical bioassay and molecular genotyping data (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific study sites with GPS coordinates are provided: Ahero (00.17259°S, 034.91983°E), Chulaimbo (00.03572°S, 034.62196°E), Kisian (00.02464°S, 033.60187°E), Emutete (34°64'E, 00°22'N), Emakakha (34°64'E, 0°22'N), Iguhu (0°17'N, 34°74'E), and Kabula (00.54057°N, 034.56410°E) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not state the month or year of mosquito collections anywhere in the text or tables."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes routine original field collections of mosquito larvae from seven sites in western Kenya."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 549,
+    "summary": "This study evaluated insecticide susceptibility and resistance mechanisms in Anopheles gambiae s.s. and Anopheles arabiensis from seven lowland and highland sites in western Kenya. WHO tube bioassays were conducted against pyrethroids, DDT, malathion, and bendiocarb, biochemical assays assessed detoxifying enzymes, and real-time PCR was used to determine Vgsc-1014S (L995S) genotype counts and allele frequencies, presented in Table 2.",
+    "exclusion_reasons": []
+  }
+}

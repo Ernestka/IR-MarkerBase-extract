@@ -1,0 +1,69 @@
+{
+  "id": "2022_Hearn_Multi_Omics_Analysis_Identifies_CYP9K1_PMID35546741",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the major malaria vector Anopheles funestus sampled in Cameroon, Malawi, and Uganda (p. 2-3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports the target marker Cyp9k1 G454A (page 9: 'Analysis of the coding region detected a non-synonymous polymorphism, substituting glycine for alanine at position 454...')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele/genotype counts for Cyp9k1 G454A are reported on page 9: 'a mutation which is present in all individuals from Uganda. This G454A change was detected at lower frequencies in Malawi (14/40) and in Cameroon (9/40)' with 20 mosquitoes (40 alleles) genotyped per country."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Mibellon, Cameroon (Feb 2015), Tororo, Uganda (March 2014), and Chikwawa, Malawi (Jan 2014), and tested as F1 adults (p. 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study combining multi-omics genomic analysis and functional validation in Anopheles funestus (p. 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites with geographical coordinates are given: Mibellon (6°46′N, 11°70′E), Cameroon; Tororo (0°45′N, 34°5′E), Uganda; Chikwawa (16°1′S, 34°47′E), Malawi (p. 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in February 2015 (Cameroon), March 2014 (Uganda), and January 2014 (Malawi) (p. 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Page 3 notes: 'Insecticide resistance bioassays on these samples have been previously described (Mulamba, Riveron, et al., 2014; Riveron et al., 2015, 2016).' The mosquito samples originate from these previously published field collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Allele counts and frequencies for the target marker Cyp9k1 G454A across Uganda, Malawi, and Cameroon are explicitly provided in the main text (p. 9)."
+    },
+    "markers_found": [
+      "Cyp9k1 G454A"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon",
+      "Malawi",
+      "Uganda"
+    ],
+    "collection_years": [
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 60,
+    "summary": "This study uses multi-omics and functional validation to investigate pyrethroid resistance in Anopheles funestus from Cameroon, Malawi, and Uganda. Target-enrichment sequencing identified the CYP9K1 G454A mutation, which was fixed in Ugandan mosquitoes (40/40 alleles) and present at lower frequencies in Malawi (14/40) and Cameroon (9/40). Recombinant CYP9K1 heterologously expressed in E. coli metabolised deltamethrin (64% depletion).",
+    "exclusion_reasons": []
+  }
+}

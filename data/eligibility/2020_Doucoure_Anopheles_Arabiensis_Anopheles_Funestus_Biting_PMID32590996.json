@@ -1,0 +1,70 @@
+{
+  "id": "2020_Doucoure_Anopheles_Arabiensis_Anopheles_Funestus_Biting_PMID32590996",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles species in Dielmo, Senegal: 'Anopheles arabiensis and Anopheles funestus sensu stricto were found to be the main vectors biting humans' (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No insecticide resistance markers were genotyped in this study. The paper only evaluated species identification (IMPs PCR) and Plasmodium sporozoite infection (ELISA-CSP); mention of kdr on page 6 is purely a discussion citation to previous literature (Thiaw et al. 2018 [33])."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotyping was performed, so no genotype or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using human landing catches in Dielmo, Fatick region, Senegal in 2015 (page 2, 'Study area' and 'Field study and laboratory processing of mosquitoes')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field study investigating vector biting patterns and malaria transmission dynamics in Dielmo in 2015."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Village of Dielmo, Fatick region, Senegal (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling conducted from January 2015 through December 2015 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard field entomological study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper does not conduct insecticide resistance marker assays."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated nocturnal and diurnal biting patterns, species composition, and Plasmodium falciparum sporozoite rates of Anopheles mosquitoes in Dielmo, Senegal in 2015. No insecticide resistance target-site markers were genotyped, rendering the paper ineligible.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped or reported (reports_target_markers is false).",
+      "No extractable resistance marker genotype data are reported (reports_extractable_genotype_data is false)."
+    ]
+  }
+}

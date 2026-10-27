@@ -1,0 +1,61 @@
+{
+  "id": "2022_Rants_o_Potential_Essential_Oil_Based_Anticholinesterase_PMID36296618",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper reviews essential oil-based insecticides against Anopheles malaria vectors (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The review conceptually mentions resistance markers such as kdr L1014F/L1014S and Ace-1 G280S (Page 3), but does not perform or report primary marker genotyping."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, sample sizes, or allele frequencies are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No primary mosquito field sampling or genotyping was performed."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The publication is explicitly a review paper titled 'Potential of Essential Oil-Based Anticholinesterase Insecticides against Anopheles Vectors: A Review' (Page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable because this is a literature review."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable because this is a literature review."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable; this is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed as the paper is an ineligible review."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a narrative review summarizing literature on essential oils and essential oil constituents with anticholinesterase and insecticidal properties against Anopheles mosquitoes. It does not present original empirical field collection or genotype data.",
+    "exclusion_reasons": [
+      "Not a primary study (it is a review paper).",
+      "Does not report extractable primary genotype data."
+    ]
+  }
+}

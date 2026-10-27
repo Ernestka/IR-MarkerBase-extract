@@ -1,0 +1,69 @@
+{
+  "id": "2026_Batume_Evaluating_Repellence_Properties_Catnip_Essential_PMID41832282",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Field trials identified collected mosquitoes including Anopheles gambiae s.s. and Anopheles coustani (page 5, 'persisting into the trial period... assigned them to one of six genus/species level classifications (Anopheles gambiae s.s., Anopheles coustani, Culex spp., Mansonia spp., Aedes aegypti and Aedes simpsoni)')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study evaluates the repellent efficacy of catnip essential oil and does not perform any molecular genotyping of insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No insecticide-resistance marker genotype or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected via human landing catch in Eastern Uganda (Mugiti and Kamonkoli subcounties of Budaka District) (page 3, 'Human landing catch field trial design and procedure')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study presents primary field trial research on repellent lotions."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Trials were conducted at Mugiti and Kamonkoli subcounties, Budaka District, Eastern Uganda (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place in June 2024 and May-June 2025 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field evaluation of a catnip essential oil repellent lotion."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary data contains landing count spreadsheets and GC-MS spectral traces; no resistance genotyping was conducted in this study."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coustani"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2024,
+      2025
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the mosquito repellent efficacy of a topical lotion containing catnip essential oil compared to DEET using human landing catches in Budaka District, Uganda. It does not perform any insecticide resistance marker genotyping or bioassays.",
+    "exclusion_reasons": [
+      "No target insecticide-resistance markers tested.",
+      "No extractable genotype data reported."
+    ]
+  }
+}

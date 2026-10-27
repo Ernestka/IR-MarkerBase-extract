@@ -1,0 +1,68 @@
+{
+  "id": "2020_Buxton_Spatial_Anopheles_Arabiensis_Diptera_Culicidae_PMID33213466",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adults were identified using gross morphology and confirmed as An. arabiensis following Bass et al. (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study only conducted WHO susceptibility bioassays to measure mortality and knockdown time (KDT50). No resistance marker genotyping (e.g. Vgsc, Ace-1, etc.) was conducted."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No insecticide-resistance marker genotypes, alleles, or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from stagnant pools across human settlements in Botswana: Okavango (Mohembo), Ngamiland (Shorobe), and Bobirwa (Mothabaneng) between February and March of 2016 and 2017 (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study is a primary research paper investigating insecticide susceptibility patterns of Anopheles arabiensis in Botswana."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific village coordinates and names are provided: Mohembo in Okavango (18.2876° S, 021.7898° E), Shorobe in Ngamiland (19.7625° S, 023.6774° E), and Mothabaneng in Bobirwa (22.1051° S, 028.5253° E) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections took place between February and March of 2016 and 2017 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field collections conducted specifically for this baseline assessment."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are required; the paper contains only phenotypic bioassays."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Botswana"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the susceptibility and knockdown time (KDT50) of Anopheles arabiensis from three districts in Botswana (Okavango, Ngamiland, and Bobirwa) to 11 insecticides across four chemical classes using standard WHO tube bioassays. Because no molecular genotyping of insecticide resistance markers was conducted, the study is not eligible.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (bioassay-only study).",
+      "No extractable genotype data reported."
+    ]
+  }
+}

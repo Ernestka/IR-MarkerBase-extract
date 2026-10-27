@@ -1,0 +1,70 @@
+{
+  "id": "2024_Sih_Efficacy_Chlorfenapyr_Pyrethroid_Piperonyl_Butoxid_PMID38419075",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles mosquitoes including An. gambiae s.s., An. coluzzii, and An. funestus in Côte d'Ivoire (pages 4, 8, 10)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "1014F (Vgsc L995F) and G119S (Ace-1 G280S) are mentioned only in the background text citing previous literature (page 4); no marker genotyping results are presented in this protocol."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a study protocol paper and presents no extractable genotype counts, sample sizes, or allele frequencies. Page 15 states: 'Participant recruitment has not begun.'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Protocol describes planned field collections in Tiebissou department, Côte d'Ivoire (pages 4, 10)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This manuscript is a study protocol ('STUDY PROTOCOL', page 1) and does not present primary empirical data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Tiebissou department, Gbeke region, Lacs district, central Côte d'Ivoire (page 4, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Planned trial period is 2023-2024 (pages 9, 15)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a protocol describing a new prospective trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed as the study is a protocol with no empirical data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a study protocol for a cluster-randomised trial in Tiebissou department, Côte d'Ivoire, evaluating chlorfenapyr-pyrethroid and PBO-pyrethroid LLINs. It does not contain primary empirical genotype or bioassay data.",
+    "exclusion_reasons": [
+      "Not a primary empirical study with results (study protocol).",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

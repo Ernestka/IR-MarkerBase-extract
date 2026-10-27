@@ -1,0 +1,66 @@
+{
+  "id": "2021_Talipouo_High_Insecticide_Resistance_Mediated_Different_PMID33795804",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on Culex quinquefasciatus collected from Yaoundé, Cameroon. Anopheles gambiae Kisumu was only used as a reference laboratory strain for WHO bioassays (page 2, 'Susceptibility status of Culex quinquefasciatus populations')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Target-site mutations (kdr L1014F and ace-1 G119S) were screened and reported exclusively in Culex quinquefasciatus, not in Anopheles (page 3, 5, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data are reported for Anopheles mosquitoes."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The field populations analyzed and genotyped belong exclusively to Culex quinquefasciatus. The only Anopheles mosquitoes tested were the laboratory colony Kisumu strain used as a bioassay control."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary empirical research study reporting original bioassay and molecular data from collections in Yaoundé in 2019."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Four districts of Yaoundé were sampled: Mendong, Nkolbisson, Tongolo, and Etam-Bafia (pages 3, 7-8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from September to November 2019 (page 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard field collections of Culex quinquefasciatus performed in Yaoundé in 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is not eligible because it investigates Culex quinquefasciatus rather than Anopheles."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates insecticide resistance, metabolic mechanisms, and target-site mutations (kdr L1014F and ace-1 G119S) in Culex quinquefasciatus populations from Yaoundé, Cameroon. Because the field populations and molecular analyses are restricted to Culex quinquefasciatus (with Anopheles gambiae Kisumu present only as an ungenotyped laboratory reference control for bioassays), the study is not eligible.",
+    "exclusion_reasons": [
+      "Studies Culex quinquefasciatus; no field-collected Anopheles mosquitoes were studied or genotyped for resistance markers."
+    ]
+  }
+}

@@ -8,12 +8,13 @@ countries:
 - Benin
 data_source: journal_article
 provenance:
-  source_text: Gnanguenon et al. BMC Public Health 2013, 13:751
+  source_text: Gnanguenon et al. Evidence of man-vector contact in torn long-lasting
+    insecticide-treated nets. BMC Public Health 2013, 13:751
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.7-flash
-extracted: '2026-10-18'
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-27'
 pmid_source: Europe PMC (from DOI)

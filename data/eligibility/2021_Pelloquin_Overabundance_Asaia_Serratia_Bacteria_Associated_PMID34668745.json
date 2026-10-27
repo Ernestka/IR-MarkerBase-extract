@@ -1,0 +1,68 @@
+{
+  "id": "2021_Pelloquin_Overabundance_Asaia_Serratia_Bacteria_Associated_PMID34668745",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study examined Anopheles coluzzii and Anopheles gambiae s.s. collected from Agboville, Côte d'Ivoire (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study focuses on bacterial microbiota profiling using 16S rRNA amplicon sequencing and qPCR, and does not genotype any target insecticide resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No target marker genotype counts or frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Blood-fed Anopheles gambiae s.l. were collected using human landing catches in Agboville, Côte d'Ivoire in July 2019, and F1 progeny were tested in bioassays (Page 3, 10)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study evaluating mosquito microbiota in relation to deltamethrin susceptibility."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Agboville (GPS: 5°55'21\"N 4°13'13\"W), Agnéby-Tiassa region, southeast Côte d'Ivoire (Page 10)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling was conducted between 5 July and 26 July 2019 (Page 10)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine field collection performed in July 2019 for microbiota profiling."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files contain metadata and sequencing metrics tables, but no target marker genotyping was conducted."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 380,
+    "summary": "This study evaluated the association between mosquito microbiota composition and deltamethrin resistance in Anopheles coluzzii F1 progeny from Agboville, Côte d'Ivoire. The study used 16S rRNA amplicon sequencing and qPCR, but did not genotype any target insecticide resistance markers.",
+    "exclusion_reasons": [
+      "Does not report target insecticide resistance markers",
+      "Does not report extractable genotype data"
+    ]
+  }
+}
