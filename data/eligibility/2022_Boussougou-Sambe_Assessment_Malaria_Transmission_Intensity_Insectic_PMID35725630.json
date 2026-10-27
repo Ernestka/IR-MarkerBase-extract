@@ -1,0 +1,72 @@
+{
+  "id": "2022_Boussougou-Sambe_Assessment_Malaria_Transmission_Intensity_Insectic_PMID35725630",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study identifies Anopheles gambiae s.l. (including An. gambiae s.s. and An. coluzzii), An. moucheti, and An. coustani (Abstract, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports on Vgsc L1014F (kdr-west), L1014S (kdr-east), and Ace-1 G119S (Abstract, Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts for L1014F and L1014S are provided for 117 successfully amplified mosquitoes: 67 RR (1014F), 10 RR (1014S), 39 RS (heterozygous for both mutations), and 1 SS (WT) (Page 8). Ace-1 G119S results are also reported as all homozygous WT (Page 9)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Bindo, Nombakélé, and Zilé, three villages in the Moyen Ogooué Province of Gabon (Abstract, Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for three specific villages: Zilé, Nombakélé, and Bindo, with coordinates provided (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from May 2017 to August 2018 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine new field collections for this specific assessment; no mention of overlap with larger surveillance networks or previously published genotype datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data for the markers screened are contained within the main text (Pages 8-9)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles moucheti",
+      "Anopheles coustani"
+    ],
+    "countries": [
+      "Gabon"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 118,
+    "summary": "This study assessed malaria transmission intensity and insecticide resistance markers in Anopheles populations from three rural villages (Bindo, Nombakélé, and Zilé) in the Moyen Ogooué Province of Gabon. Mosquitoes were collected via human landing catches between May 2017 and August 2018. Molecular analysis of An. gambiae s.l. revealed very high frequencies (>95%) of the Vgsc L1014F and L1014S mutations, while the Ace-1 G119S mutation was absent.",
+    "exclusion_reasons": []
+  }
+}

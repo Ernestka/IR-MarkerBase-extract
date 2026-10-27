@@ -1,0 +1,69 @@
+{
+  "id": "2020_Tamari_Protective_Effects_Olyset_Net_Plasmodium_PMID33076928",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study identifies and collects indoor resting anophelines, specifically mentioning Anopheles gambiae, Anopheles arabiensis, and Anopheles funestus (Abstract, Page 5, Page 9)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the kdr mutation (L1014S) in the discussion and background sections (Page 9) but does not report any new genotyping results for the mosquitoes collected during this study; it cites previous publications (e.g., references 8, 16, 17, 58) for the resistance status of the local vector population."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or any primary genotyping data for insecticide resistance markers are reported for the field-collected mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from rural villages in Gembe East Sub-location, Homabay County, western Kenya (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the protective effects of LLINs on malaria infection in children and the efficacy of the nets."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Gembe East Sub-location in Homabay County, Kenya (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections and the cross-sectional survey were conducted in December 2017 and February 2018 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study appears to be an independent evaluation of LLIN efficacy in a specific sub-location in Kenya, and the authors state that datasets are available upon request (Page 10)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplementary files mentioned (Additional files 1-4) contain variograms and credible interval plots for the regression models, not genotype data (Page 9)."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the protective effect of two LLIN brands (Olyset and DawaPlus 2.0) against Plasmodium falciparum infection in children in western Kenya. While the study identifies local Anopheles species and discusses their known insecticide resistance status (citing previous work regarding kdr L1014S), it does not report any new genotyping data for resistance markers in the mosquitoes collected. Bioassays (WHO cone and tunnel tests) were performed on the nets using a susceptible laboratory strain (Kisumu), but no phenotypic resistance testing was reported for the field-collected mosquitoes.",
+    "exclusion_reasons": [
+      "Does not report genotype data for the target insecticide-resistance markers. Mentions kdr (L1014S) in the discussion of the study area's vector population but cites previous studies for this information."
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "2023_Hadebe_Revolutionizing_Malaria_Vector_Control_Importance_PMID38257909",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses various Anopheles species including An. gambiae, An. arabiensis, and An. funestus (page 1, Introduction)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the Vgsc gene generally as a resistance marker (page 21) but does not report genotyping results for any of the specific target markers (e.g., L995F/S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a review paper, it summarizes existing literature and does not provide primary genotype counts or frequencies for specific populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper discusses malaria vectors in Africa but does not report on a primary field collection or study conducted by the authors."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The document is explicitly labeled as a 'Review' on page 1."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as it is a review paper."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as it is a review paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper and does not present original data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No primary data is expected in supplements for this review paper."
+    },
+    "markers_found": [
+      "Vgsc"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles coluzzii",
+      "Anopheles nili",
+      "Anopheles moucheti"
+    ],
+    "countries": [
+      "Nigeria",
+      "Democratic Republic of the Congo",
+      "Uganda",
+      "Mozambique",
+      "South Africa",
+      "Kenya",
+      "Cameroon",
+      "Burkina Faso",
+      "Ivory Coast",
+      "Senegal",
+      "Sudan",
+      "Ethiopia",
+      "Zimbabwe"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review paper that discusses the importance of accurate molecular identification of Anopheles species for effective malaria vector control, particularly in sub-Saharan Africa. It reviews various molecular techniques (PCR, NGS, etc.) and markers used for species identification but does not report primary empirical data on insecticide resistance marker frequencies.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "reports_target_markers"
+    ]
+  }
+}

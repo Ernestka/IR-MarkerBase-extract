@@ -1,0 +1,69 @@
+{
+  "id": "2022_Azizi_Laboratory_Semi_Field_Efficacy_Evaluation_DOI_10_21203_rs_3_rs-2032808_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of treated blankets against Anopheles gambiae sensu stricto (Abstract, Page 3) and mentions Anopheles arabiensis as the dominant local vector (Methods, Page 10)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the Vgsc L1014S (L995S) mutation: 'The Muleba-Kis strain... is resistant to permethrin with fixed L1014S kdr frequency' (Methods, Page 10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper only states that the L1014S mutation is 'fixed' in the Muleba-Kis laboratory colony. It does not provide genotype counts or frequencies for any field-collected populations, nor does it provide the number of mosquitoes genotyped to determine this 'fixed' status in the current study."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes used for all bioassays and the experimental hut trial were laboratory-reared strains: Kisumu (susceptible) and Muleba-Kis (resistant). Muleba-Kis is described as having been 'colonized for more than 8 years' (Methods, Page 10). No field-collected mosquitoes were genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the efficacy of permethrin-PBO treated blankets."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The experimental hut study was conducted at Mabogini village (S03˚22.764’ E03˚720.793’) in north-eastern Tanzania (Methods, Page 10)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The experimental hut trial was conducted from June to July 2021 (Methods, Page 14)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is a routine evaluation of a new vector control tool (treated blankets) using standard experimental hut protocols."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "There is no indication that genotype data for field populations is contained in supplementary files; the study design focused on laboratory strains."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study evaluates the efficacy of permethrin-PBO treated blankets against laboratory-reared Anopheles gambiae (Kisumu and Muleba-Kis strains) using WHO cylinder bioassays, tunnel tests, and experimental hut trials in Tanzania. While the paper notes that the Muleba-Kis colony has a fixed L1014S kdr mutation, it does not report any genotype data for field-collected mosquitoes.",
+    "exclusion_reasons": [
+      "The study only reports genotype information for laboratory-reared mosquito colonies (Muleba-Kis), which have been colonized for over 8 years. No genotype data for field-collected mosquitoes are provided."
+    ]
+  }
+}

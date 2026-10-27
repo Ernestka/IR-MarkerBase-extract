@@ -1,0 +1,81 @@
+{
+  "id": "2025_Tapsoba_Three_Year_Trends_Malaria_Transmission_DOI_10_21203_rs_3_rs-7013458_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles mosquitoes, collecting 73,101 specimens including An. gambiae s.l. and An. funestus s.l. (Page 3, 9)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions 'knockdown resistance (kdr) mutations' in the background (Page 4) and lists 'kdr' in the abbreviations (Page 16), but it does not report genotyping results for any of the target resistance markers (e.g., Vgsc L995F/S, Ace-1 G280S). It only performs molecular identification of species within the An. gambiae complex."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies for insecticide resistance markers are provided. The molecular data reported is limited to species identification (Table 1) and Plasmodium falciparum infection (Table 2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in three health districts (Banfora, Gaoua, and Orodara) in South-Western Burkina Faso between August 2019 and February 2022 (Page 6)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing a longitudinal entomological evaluation of ITN deployment (Page 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to specific villages: Tengrela, Tiéfora, and Panga in Banfora; Diéri, Kourinion, and Tin in Orodara; and Sibera, Holly, and Doudou in Gaoua (Page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports data annually for three years from August 2019 to February 2022 (Page 3, 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is part of the 'New Nets Project' (Page 5, 17), a large multi-country initiative, but this paper appears to be the primary report for the longitudinal entomological outcomes in these specific districts of Burkina Faso."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper reports its primary outcomes (density, species, SIR, EIR) in the main text and tables. There is no mention of supplementary files containing genotype data for resistance markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus s.l.",
+      "Anopheles nili",
+      "Anopheles pharoensis",
+      "Anopheles coustani",
+      "Anopheles rufipes",
+      "Anopheles ziemanni",
+      "Anopheles moucheti",
+      "Anopheles obscurus",
+      "Anopheles flavicosta",
+      "Anopheles wellcomei"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 73101,
+    "summary": "This longitudinal study assessed the impact of three types of insecticide-treated nets (Interceptor G1, Interceptor G2, and PermaNet 3.0) on malaria transmission indicators in South-Western Burkina Faso over three years. The authors report on vector density, species composition, sporozoite infection rates, and entomological inoculation rates. While the study provides detailed entomological data, it does not genotype or report frequencies for any of the target insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "Does not report genotype data for any of the target insecticide-resistance markers."
+    ]
+  }
+}

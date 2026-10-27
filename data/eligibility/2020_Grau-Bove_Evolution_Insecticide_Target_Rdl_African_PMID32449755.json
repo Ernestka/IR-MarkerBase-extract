@@ -1,0 +1,92 @@
+{
+  "id": "2020_Grau-Bove_Evolution_Insecticide_Target_Rdl_African_PMID32449755",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on African populations of the Anopheles gambiae species complex, including A. gambiae, A. coluzzii, A. arabiensis, A. quadriannulatus, A. melas, and A. merus (Abstract, Page 1; Results, Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the Rdl resistance mutations A296G and A296S (Abstract, Page 1; Results, Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 1B (Page 3) provides genotype counts (A/A, A/G, G/G, A/S, S/S, G/S) for multiple populations across Africa."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses 1,142 wild-caught mosquitoes from 33 sampling sites located in 13 sub-Saharan African countries (Materials and Methods, Page 13)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using genome sequence data to analyze the evolution of resistance mutations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to 33 specific sampling sites across 13 countries (Materials and Methods, Page 13; Figure 3B map)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Specimens were collected between 2009 and 2012, with specific exceptions for Gabon (2000) and Equatorial Guinea (2002) (Materials and Methods, Page 13)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The study explicitly states: 'We used genome variation data from... the Anopheles gambiae 1000 Genomes Phase 2-AR1' (Materials and Methods, Page 13), which is a widely used public dataset."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Figure 3 caption (Page 4) states: 'Detailed frequencies with absolute counts in supplementary material SM14'."
+    },
+    "markers_found": [
+      "Rdl A296G",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles quadriannulatus",
+      "Anopheles melas",
+      "Anopheles merus"
+    ],
+    "countries": [
+      "Angola",
+      "Burkina Faso",
+      "Cote d'Ivoire",
+      "Ghana",
+      "Guinea",
+      "Cameroon",
+      "Mayotte",
+      "Gabon",
+      "Equatorial Guinea",
+      "Uganda",
+      "Gambia",
+      "Guinea-Bissau",
+      "Kenya",
+      "Tanzania",
+      "Zambia",
+      "South Africa"
+    ],
+    "collection_years": [
+      2000,
+      2002,
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1178,
+    "summary": "This study utilizes the Ag1000G Phase 2 dataset to investigate the evolution and dissemination of Rdl resistance mutations (A296G and A296S) in African Anopheles populations. It identifies two independent hard selective sweeps and demonstrates that these mutations spread across species and chromosomal inversions via introgression. Genotype counts for multiple populations across 13 African countries are provided in the main text and figures.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2024_Pooda_Impact_Blood_Meals_Taken_Ivermectin_PMID39146278",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles coluzzii (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that the VK5 colony used has a 'proportion of 30–40% mosquitoes carrying the kdr-resistant allele' (Page 3), but it does not report the results of any genotyping performed specifically for this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts (RR/RS/SS) or allele frequencies with associated sample sizes (N) are reported for the mosquitoes used in the experiments."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses the VK5 laboratory colony, which was established in 2008 (Page 3). Although the colony is replenished with F1 progeny from wild-caught females, the study itself is a laboratory experiment on a colony and does not provide new field genotype data."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the effects of ivermectin on mosquito life history traits."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes for the colony were originally collected from Kou Valley (11° 23' 14\" N, 4° 24' 42\" W) near Bobo-Dioulasso, Burkina Faso (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The experiments were conducted in 2017 and 2018 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a routine laboratory study using a established colony (VK5)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The results section and the descriptions of the supporting information (S1-S5) indicate that no genotype data is present in the supplements."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 5590,
+    "summary": "The study investigates the impact of ivermectin-treated livestock (sheep, goats, and pigs) on the survival and egg production of Anopheles coluzzii using the VK5 laboratory colony in Burkina Faso. While the paper describes the general kdr (Vgsc L995F) resistance status of the colony, it does not report any extractable genotype data or frequencies for the mosquitoes used in the study.",
+    "exclusion_reasons": [
+      "No extractable genotype data (counts or frequencies with N) are reported for any target markers.",
+      "The study uses a laboratory colony (VK5) rather than a field population."
+    ]
+  }
+}

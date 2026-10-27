@@ -1,0 +1,86 @@
+{
+  "id": "2019_Itokawa_High_Throughput_Genotyping_Full_Voltage_PMID31738756",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study genotypes 56 mosquito samples belonging to Aedes albopictus, Aedes aegypti, and the Culex pipiens complex, as stated in the Results (page 3) and detailed in Table 1 (page 4). No Anopheles mosquitoes were included in the genotyping experiments."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotypes for Vgsc L1014F (in Culex quinquefasciatus and C. pipiens form molestus) and Vgsc V410L (in Aedes aegypti) in Table 2 (page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 8) provides the number of homozygous and heterozygous individuals for each detected amino-acid substitution across the sampled populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The only African samples mentioned are from the Cpip-JNA strain, which 'originated from Johannesburg, South Africa in 2001' but is classified as a 'Lab. Colony' in Table 1 (page 4). All other field-caught ('Wild') samples were from Japan (Aalb-Yona)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing the development and validation of a new genotyping method (MoNaS)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Locations such as Johannesburg (South Africa), Monterrey (Mexico), and various cities in Japan (Okayama, Tokyo, Ishigaki-zima, Yonaguni-zima) are specified in Table 1 (page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection or origin years are provided for all samples in Table 1 (page 4), with ranges or specific years (e.g., 2001, 2015, 2016, 2017) all within the 3-year threshold."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses specific laboratory strains and field collections for method validation; there is no indication that this genotype data is part of a larger surveillance database."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype data for the samples studied are contained within Table 2 of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L1014F",
+      "Vgsc V410L"
+    ],
+    "species": [
+      "Aedes albopictus",
+      "Aedes aegypti",
+      "Culex quinquefasciatus",
+      "Culex pipiens pallens",
+      "Culex pipiens form molestus"
+    ],
+    "countries": [
+      "South Africa",
+      "Singapore",
+      "Vietnam",
+      "Japan",
+      "Mexico",
+      "Saudi Arabia"
+    ],
+    "collection_years": [
+      2001,
+      2003,
+      2004,
+      2008,
+      2009,
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 56,
+    "summary": "The study presents a new high-throughput genotyping method (MoNaS) for the voltage-gated sodium channel (VGSC) gene. It validates the method using 56 samples from Aedes and Culex species. No Anopheles mosquitoes were genotyped, and the only African samples were from a Culex lab colony. Consequently, the paper does not meet the eligibility criteria for the Anopheles insecticide resistance database.",
+    "exclusion_reasons": [
+      "The study does not genotype Anopheles mosquitoes; it focuses on Aedes and Culex species (Table 1, Page 4).",
+      "The only African samples (from Johannesburg, South Africa) are from a laboratory colony (JHB strain), not a field population (Table 1, Page 4)."
+    ]
+  }
+}

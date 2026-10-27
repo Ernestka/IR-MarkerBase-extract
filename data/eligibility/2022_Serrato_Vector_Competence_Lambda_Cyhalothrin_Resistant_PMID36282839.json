@@ -1,0 +1,69 @@
+{
+  "id": "2022_Serrato_Vector_Competence_Lambda_Cyhalothrin_Resistant_PMID36282839",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti (Abstract, Page 1; Materials and methods, Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes kdr mutations V1016I and F1534C in Aedes aegypti (Abstract, Page 1; Table 1, Page 7), which are not among the target markers listed for Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies for V1016I and F1534C are reported for three strains in Table 1 (Page 7) and for survivor mosquitoes in Table 2 (Page 10)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected from the Casanare and Meta departments in Colombia (Materials and methods, Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating vector competence and kdr genotypes in Aedes aegypti."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Nunchia municipality (Casanare) and Villavicencio city (Meta) in Colombia (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during 2017 and 2018 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes routine new collections for the purpose of this specific research project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper states that all relevant data are within the paper and its Supporting Information files (Page 1)."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 857,
+    "summary": "This study evaluates the relationship between lambda-cyhalothrin resistance, kdr genotypes (V1016I and F1534C), and vector competence for DENV-2, ZIKV, and CHIKV in Aedes aegypti populations from Colombia. It is ineligible as it does not study Anopheles or African populations.",
+    "exclusion_reasons": [
+      "Not Anopheles (studies Aedes aegypti)",
+      "Not an African field population (Colombia)",
+      "Does not report target markers (genotypes Aedes markers V1016I and F1534C, not the Anopheles markers listed)"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2019_Traore_Anopheline_Species_Composition_1014F_Genotype_PMID31068189",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-27",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Overall 9212 anopheline mosquitoes were collected during the study period. Of those, 6767 mosquitoes were identified as Anopheles gambiae sensu lato (s.l.). (Abstract, page 1)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Anopheles gambiae complex mosquitoes were identified to species and genotyped for the L1014F kdr mutation by PCR using genomic DNA. (Abstract, page 1)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 7) provides counts of Resistant (RR) and Susceptible (RS/SS) genotypes for An. arabiensis, An. coluzzii, and An. gambiae. Table 3 (page 8) provides frequencies and sample sizes (n=98 for CSP-negative, n=66 for CSP-positive)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "A three-year longitudinal study was conducted in four sentinel sites from different ecological settings in Burkina Faso... Goundry... Koupela... Soumousso... and Kuinima. (Abstract, page 1; Methods, page 3)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The present study reports the diversity of malaria vectors and the 1014F-genotype from this adult collection and investigates the association between this 1014F-genotype and sporozoite rate. (Abstract, page 1)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "These sites include Goundry (rural Sahelian area), Koupela (Sahelian rural zone), Soumousso (Sudan Savannah rural zone) and Kuinima (urban area). (Methods, page 3)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Adult mosquitoes were collected... over 3 years (2008–2010) at four sites across the country. (Abstract, page 1)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions that results from larval collections in the same longitudinal study were published in Badolo et al. [10], but explicitly states that 'the present study reports... the 1014F-genotype from this adult collection'. (Abstract and Background, pages 1-2)"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The primary genotype counts and frequencies required for extraction are provided in Table 2 and Table 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2008,
+      2009,
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 164,
+    "summary": "This study reports the species composition and Vgsc L1014F (L995F) genotype frequencies in adult Anopheles gambiae s.l. collected from four sites in Burkina Faso (Goundry, Koupela, Soumousso, and Kuinima) between 2008 and 2010. Genotype data (RR vs RS/SS) is provided for An. arabiensis, An. coluzzii, and An. gambiae s.s. The study also investigates the relationship between kdr status and Plasmodium falciparum sporozoite infection, finding no significant association.",
+    "exclusion_reasons": []
+  }
+}
