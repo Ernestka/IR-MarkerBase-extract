@@ -1,0 +1,68 @@
+{
+  "id": "2021_Djiappi-Tchamen_Analyses_Insecticide_Resistance_Genes_Aedes_PMID34071214",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper focuses exclusively on Aedes aegypti and Aedes albopictus; no Anopheles mosquitoes were studied."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study screens for Aedes kdr mutations (F1534C, V1016G, V1016I, S989P) and does not genotype any of the target Anopheles resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for target Anopheles resistance markers are provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Aedes mosquitoes were collected from artificial breeding sites in three cities in Cameroon: Yaounde, Douala, and Dschang."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting bioassays, kdr genotyping, and gene expression analysis on field-collected mosquito populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling was conducted in specific districts within three Cameroonian cities: Yaounde (Mvan, Obili, Simbock), Douala (Bonaberi, Yassa, Village), and Dschang (Foreke, Tsinbing, Paidground)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Immature mosquitoes were collected between August and December 2020."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "New primary field collection conducted in 2020 without indication of overlap with previous datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary materials are not required because the study is clear and definitively ineligible due to non-Anopheles target species."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti",
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper evaluates insecticide susceptibility and underlying resistance mechanisms (kdr mutations and metabolic gene overexpression) in Aedes aegypti and Aedes albopictus populations collected from Yaounde, Douala, and Dschang in Cameroon in 2020. The study is ineligible for the database because it does not investigate Anopheles vector species or target Anopheles resistance markers.",
+    "exclusion_reasons": [
+      "Study does not evaluate Anopheles species (focuses on Aedes aegypti and Aedes albopictus).",
+      "Does not genotype any target Anopheles insecticide resistance markers."
+    ]
+  }
+}

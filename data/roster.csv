@@ -473,6 +473,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2021_Campos_Unravelling_Population_Structure_Heterogeneity_Gen_PMID34103015,master,INELIGIBLE,False,high,high,False,1,2026-10-26,2026-10-26,0,,gemini:gemini-3.1-flash-lite,9792,823,,,,
 2021_Chakraborty_Hidden_Genomic_Features_Invasive_Malaria_PMID33568145,master,INELIGIBLE,False,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.7-flash,10332,1209,,,,
 2021_Clegban_Evaluation_Yahe_Panda_2_0_PMID34210362,master,INELIGIBLE,False,high,low,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,7632,3093,,,,
+2021_Djiappi-Tchamen_Analyses_Insecticide_Resistance_Genes_Aedes_PMID34071214,master,INELIGIBLE,False,high,none,False,1,2026-10-28,2026-10-28,0,,gemini:gemini-3.5-flash,8608,2177,,,,
 2021_Fotoukkiaii_High_Resolution_Genetic_Mapping_Reveals_PMID34153029,master,INELIGIBLE,False,high,none,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3.7-flash,14692,1028,,,,
 2021_Furnival-Adams_House_Modifications_Preventing_Malaria_PMID33471371,master,INELIGIBLE,False,high,none,False,1,2026-10-18,2026-10-18,0,,gemini:gemini-3.1-flash-lite,33612,646,,,,
 2021_Gan_Dengue_Fever_Insecticide_Resistance_Aedes_PMID34112220,master,INELIGIBLE,,,,,1,2026-10-27,2026-10-27,0,,gemini:gemini-3-flash-preview,11952,7986,,,,model returned no structured result — re-run or check by hand
