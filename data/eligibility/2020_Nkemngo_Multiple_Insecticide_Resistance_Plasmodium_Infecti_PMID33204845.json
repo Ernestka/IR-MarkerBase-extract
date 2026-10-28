@@ -1,0 +1,72 @@
+{
+  "id": "2020_Nkemngo_Multiple_Insecticide_Resistance_Plasmodium_Infecti_PMID33204845",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus and Anopheles gambiae (Page 1, Title)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F, L1014S, and Ace-1 G119S in An. gambiae, and GSTe2 L119F, Rdl A296S, and Cyp6p9a in An. funestus (Page 2, Results; Page 7, Genotyping section)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and allele frequencies are provided for both species. For An. gambiae (n=39): L1014F (36 RR, 2 RS, 1 SS), L1014S (1 RS, 38 SS), and G119S (6 RR, 1 RS, 32 SS). For An. funestus (n=50): L119F-GSTe2 (4 RR, 40 RS, 6 SS), A296S-RDL (50 RR), and Cyp6p9a (50 SS) (Pages 9-10)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from houses in Elende, Cameroon, in April 2019 (Page 4, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original collection and molecular analysis data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Elende (3°41’57.27’’N, 11°33’28.46’’E), a locality near Yaoundé, Cameroon (Page 4, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in April 2019 (Page 4, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is a primary research article for a specific locality; while the authors are affiliated with major research centers (CRID, LSTM), there is no indication that this specific dataset is a subset of a larger published work."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and frequencies are provided in the main text and Figure 4."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "GSTe2 L119F",
+      "Rdl A296S",
+      "Cyp6p9a R"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 89,
+    "summary": "This study characterized malaria vectors in Elende, a peri-urban forested locality near Yaoundé, Cameroon, in April 2019. Both Anopheles funestus and Anopheles gambiae exhibited high resistance to pyrethroids and DDT. Molecular analysis of field-collected F0 mosquitoes revealed high frequencies of resistance markers: in An. gambiae, Vgsc L995F was nearly fixed (95% allele frequency) and Ace-1 G280S was present at 17% allele frequency; in An. funestus, GSTe2 L119F was found at 48% allele frequency and Rdl A296S was fixed (100% RR). Vgsc L995S was rare in An. gambiae (1.3%), and the Cyp6p9a resistant allele was absent in An. funestus.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2023_Kendie_Insecticide_Susceptibility_Status_Anopheles_Gambia_PMID36639818",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. as stated in the title: 'Insecticide susceptibility status of Anopheles gambiae (s.l.) in and surrounding areas of Lake Tana, northwest Ethiopia'."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study explicitly states in the conclusions on page 6: 'This study did not show the mechanisms of resistance due to a shortage of materials and chemicals as well as proper laboratory access both in our country and abroad.' It only reports phenotypic bioassay results."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data for resistance markers is reported for the mosquitoes collected in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and pupae from field sites in Ethiopia: 'The data were collected from one island (Debre Maryam), one peninsula (Zegie), and two surrounding mainland areas (Kunzila, and Robit)' (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting on original field collections and insecticide susceptibility tests conducted in 2021."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific sites: Debre Maryam, Zegie, Kunzila, and Robit (Page 2, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Susceptibility tests were carried out between September and December 2021 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes original field collections and bioassays conducted in 2021 by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper mentions 'Additional file 1: Table S1' which contains bioassay counts (dead and resistant mosquitoes), but no genotype data is mentioned as being in the supplement."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1300,
+    "summary": "This study evaluated the insecticide susceptibility of Anopheles gambiae s.l. populations in the Lake Tana region of Ethiopia using WHO tube bioassays for permethrin, deltamethrin, pirimiphos-methyl, and bendiocarb. While the study provides detailed phenotypic resistance data and knockdown times (KDT50/95), it did not perform any molecular genotyping to identify resistance markers (such as kdr or Ace-1) due to resource limitations.",
+    "exclusion_reasons": [
+      "The study does not report genotyping of any target insecticide-resistance markers. The authors explicitly state that they did not investigate resistance mechanisms due to a shortage of materials."
+    ]
+  }
+}

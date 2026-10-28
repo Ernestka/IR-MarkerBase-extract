@@ -1,0 +1,80 @@
+{
+  "id": "2022_Campos_High_Throughput_Barcoding_Method_Genetic_PMID35974073",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on four species from the Anopheles (An.) gambiae complex: An. gambiae sensu stricto, An. coluzzii, An. arabiensis and An. melas (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping of Vgsc L995F (L1014F), Vgsc N1570Y (N1575Y), Vgsc I1527T (I1532T), Vgsc V402L (V410L), Ace-1 G280S (G119S), and Rdl A296G (A282) (Page 3, Results; Page 5, Figure 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies and percentages are provided for several markers. For example, L995F was detected in Guinea (67% R/R; 33% R/S) and Ivory Coast (57% R/R; 36% R/S). Sample sizes (N) for each species and country are provided in Table 1 (Page 3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Guinea (Maferinyah), Ivory Coast (Aboudé), Cabo Verde (Praia), and Ghana (Dogo) (Page 7, Mosquito sampling)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing and validating a new high-throughput amplicon sequencing method for mosquito surveillance (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites are named, including Aboudé (Ivory Coast), Maferinyah (Guinea), Praia (Cabo Verde), and Dogo (Ghana) (Page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are specified for each country: Guinea (2017-2018), Ivory Coast (2019), Cabo Verde (2017), and Ghana (2015) (Page 7, Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states that 'Specimens were captured as part of ongoing studies in Guinea (n=24; years 2017–2018)42,48, Ivory Coast (n=46; 2019)47, Cabo Verde (n=24; 2017) and Ghana (n=2; 2015)50' (Page 7). These references (Collins et al. 2019, Stica et al. 2019, Meiwald et al. 2020, Orsborne et al. 2019) likely contain overlapping genotype data for these specific samples."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Supplementary Table 5 is cited as containing the detailed genotype data for the insecticide resistance markers across the different sites and species (Page 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Vgsc I1527T",
+      "Vgsc V402L",
+      "Ace-1 G280S",
+      "Rdl A296G"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Guinea",
+      "Ivory Coast",
+      "Cabo Verde",
+      "Ghana"
+    ],
+    "collection_years": [
+      2015,
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 110,
+    "summary": "The study presents a high-throughput amplicon sequencing method for species identification and insecticide resistance marker genotyping in the Anopheles gambiae complex. It reports genotype frequencies for Vgsc (L995F, N1570Y, I1527T, V402L), Ace-1 (G280S), and Rdl (A296G) in field populations from Guinea, Ivory Coast, Cabo Verde, and Ghana.",
+    "exclusion_reasons": []
+  }
+}

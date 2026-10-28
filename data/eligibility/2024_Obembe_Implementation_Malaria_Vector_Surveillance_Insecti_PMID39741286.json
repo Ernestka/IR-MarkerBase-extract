@@ -1,0 +1,69 @@
+{
+  "id": "2024_Obembe_Implementation_Malaria_Vector_Surveillance_Insecti_PMID39741286",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses malaria vector surveillance for Anopheles mosquitoes in Nigeria (e.g., Page 4, 'Anopheles attempting to feed')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "While the paper mentions 'kdr frequency' as a minimum indicator for the surveillance system (Table 2, page 6), it does not report any actual genotyping results or data for these markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper provides a framework and list of indicators but does not include any tables or figures with extractable genotype counts or frequencies for specific populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The paper describes a surveillance system implemented across sentinel sites in Nigeria (Page 2)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly labeled as a 'PERSPECTIVE' (Page 1) and describes the implementation of a surveillance framework rather than reporting primary empirical data from a specific study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper identifies 29 state-based sentinel sites and mentions specific states like Ebonyi, Oyo, Kebbi, and Cross River (Page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No specific collection dates for entomological data are provided as no primary data is reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "As a perspective paper describing a national system without reporting specific data, there is no risk of data duplication in this document."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a descriptive perspective; no primary data is expected in supplements for this specific publication type."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a perspective piece describing the implementation and framework of Nigeria's national malaria vector surveillance (MVS) and insecticide resistance monitoring (IRM) system. It details the organizational structure, the selection of sentinel sites, and the standardized indicators used (such as kdr frequency and sporozoite rates). However, it does not report any primary empirical data, genotype frequencies, or bioassay results, and is therefore ineligible for the database.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

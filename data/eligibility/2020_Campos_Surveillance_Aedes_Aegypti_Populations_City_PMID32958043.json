@@ -1,0 +1,68 @@
+{
+  "id": "2020_Campos_Surveillance_Aedes_Aegypti_Populations_City_PMID32958043",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study investigates Aedes aegypti mosquitoes: 'A total of 816 Ae. aegypti adult mosquitoes were collected across 27 locations in the capital city of Praia located in Santiago Island, Cape Verde' (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study investigated Aedes aegypti VGSC mutations V1016G/I, S989P, and F1534C (pages 4-5), none of which are target markers for Anopheles vectors."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for target Anopheles resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes were collected in Praia, Santiago Island, Cape Verde between August and October 2016 (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting surveillance and sequencing of field-caught mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected at specific sites with GPS coordinates in Praia, Santiago Island, Cape Verde (e.g., Tira Chapeu: 14° 55.207' N, 23° 32.323' W; Plateau: 14° 55.371' N, 23° 30.334' W; page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted 'for seven weeks from 17 August to 5 October 2016' (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard primary field collection of Aedes aegypti."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files describe primers and phylogenetic trees for Aedes aegypti and are not relevant to Anopheles resistance markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Cape Verde"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study monitored arbovirus infection (ZIKV, DENV), VGSC mutations (V1016G/I, S989P, F1534C), and mitochondrial nad4 haplotype diversity in Aedes aegypti mosquitoes collected in Praia, Cape Verde in 2016. No Anopheles mosquitoes were sampled or genotyped.",
+    "exclusion_reasons": [
+      "Study examines Aedes aegypti, not Anopheles mosquitoes.",
+      "Does not genotype any target Anopheles insecticide resistance markers.",
+      "No extractable genotype data for target Anopheles markers."
+    ]
+  }
+}

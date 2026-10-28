@@ -1,0 +1,67 @@
+{
+  "id": "2023_Soto_Ovary_Dissection_Sensitive_Measure_Sterility_PMID37367368",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae sensu stricto (s.s.) strains (page 2, section 2.1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the VGSC-1014S mutation in the RSP and Muleba-Kis strains used (page 2, section 2.1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states the presence of the VGSC-1014S mutation in the laboratory strains but does not provide genotype counts, allele counts, or frequencies with sample sizes for any population (page 2)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study only uses laboratory colonies (RSP and Muleba-Kis strains) obtained from the insectary at the Pan African Malaria Vector Research Consortium (PAMVERC) in Moshi, Tanzania (page 2, section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating ovary dissection as a measure of sterility (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the PAMVERC insectary in Moshi, Tanzania (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper was received in May 2023 and published in June 2023, implying recent work (page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses established laboratory strains (RSP, Muleba-Kis) and focuses on methodology rather than a field survey."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible based on the use of laboratory colonies; supplementary data would not change this status."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates ovary dissection as a method to measure sterility in Anopheles gambiae mosquitoes exposed to pyriproxyfen. It uses two laboratory-reared pyrethroid-resistant strains (RSP and Muleba-Kis) from an insectary in Tanzania. While it mentions the presence of the VGSC-1014S mutation in these strains, it does not report genotype frequencies for a field population, making it ineligible.",
+    "exclusion_reasons": [
+      "The study uses only laboratory colonies (RSP and Muleba-Kis strains) rather than African field populations.",
+      "The paper does not report extractable genotype data (counts or frequencies with sample sizes) for the target markers."
+    ]
+  }
+}

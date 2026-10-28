@@ -1,0 +1,71 @@
+{
+  "id": "2022_Fongnikin_Pirikool_300_CS_New_Long_PMID35436317",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 4: 'Anopheles coluzzii and An. gambiae sensu stricto (s.s.) occur in sympatry, with the latter present at lower densities and predominantly in the dry season.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page 4: 'Molecular genotyping and microarray studies have demonstrated a high frequency of the knockdown resistance L1014F allele (>90%) and overexpression of CYP6P3... [22]'. This is a citation of previous work (reference 22), not new genotyping data produced by this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports phenotypic resistance via WHO cylinder and cone bioassays (Table 2, Figures 1-7) but does not provide genotype or allele counts/frequencies for the mosquitoes collected or tested in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 4: 'The experimental hut study was performed at a Phase II experimental hut station in Covè, southern Benin (7˚14’N 2˚18’E)'."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper describes an original experimental hut trial and laboratory bioassays to evaluate a new insecticide formulation (Pirikool 300 CS)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 4: 'experimental hut station in Covè, southern Benin (7˚14’N 2˚18’E)'."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 4: 'The trial was carried out over 12 months between September 2019 and September 2020'."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses the well-characterized Covè field station population, which is frequently used in PAMVERC trials, but the data presented is for a specific new product evaluation."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The S1 Table is described as detailed experimental hut data, which typically contains mosquito counts and bioassay outcomes rather than genotype data, and the text does not indicate that genotyping was performed for this study."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of Pirikool 300 CS, a new capsule suspension formulation of pirimiphos-methyl, for indoor residual spraying (IRS) in Benin. The evaluation included laboratory bioassays and experimental hut trials against wild pyrethroid-resistant Anopheles gambiae s.l. from Covè. While the paper describes the vector population's resistance profile and mentions a high frequency of the Vgsc L1014F (L995F) mutation, this genotype information is cited from a previous study (Ngufor et al. 2015) rather than being a result of new genotyping conducted for this trial. Consequently, the paper does not provide extractable genotype data for the target markers.",
+    "exclusion_reasons": [
+      "The study does not report new genotype data for the target markers. It mentions the frequency of the L1014F mutation in the study area but cites a previous publication (reference 22) for this data."
+    ]
+  }
+}

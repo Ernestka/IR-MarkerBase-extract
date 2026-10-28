@@ -1,0 +1,72 @@
+{
+  "id": "2026_Ko_Evaluating_Impacts_Piperonyl_Butoxide_Treated_PMID42157279",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles malaria vectors in Kenya (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a study protocol and plans to measure kdr mutations as a secondary outcome, but does not report any genotyping results (Page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data is reported as this is a study protocol (Page 1)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study is planned for field populations in Homa Bay County, Kenya (Page 4)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The document is a study protocol, not a primary empirical study with results (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific sub-locations such as Gambe East, Gambe North, Gambe Central, and Lambwe West are identified (Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study is scheduled to start in 2025 (Page 12)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a protocol for a new trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "N/A"
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s.",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2025
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a study protocol for a household randomized controlled trial in Kenya. It describes the planned evaluation of PBO-treated ceiling nets and mentions that kdr mutation prevalence will be measured as a secondary outcome. However, as a protocol, it contains no empirical data, results, or mosquito genotypes.",
+    "exclusion_reasons": [
+      "The paper is a study protocol and does not report any empirical data.",
+      "No extractable genotype data is provided."
+    ]
+  }
+}

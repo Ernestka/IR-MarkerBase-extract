@@ -1,0 +1,71 @@
+{
+  "id": "2026_Danga_Knowledge_Attitudes_Practices_Malaria_Mosquitoes_PMID42432703",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on knowledge, attitudes, and practices regarding malaria and its mosquito vectors, specifically mentioning Anopheles species such as An. gambiae, An. arabiensis, An. coluzzii, An. funestus, An. nili and An. moucheti (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study is a Knowledge, Attitudes, and Practices (KAP) survey of human households and does not perform any genotyping of insecticide resistance markers. It mentions kdr in the discussion (Page 11) only as a citation of previous work."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No mosquito genotype data (counts or frequencies) are reported in the paper."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study surveyed human household members in Cameroon, not mosquito populations collected from the field."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary cross-sectional KAP survey conducted in 50 villages (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the Far-North region of Cameroon across 50 randomly selected villages (Page 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Data collection took place from August to September 2020 (Page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a routine KAP survey of human households with no indication of overlap with entomological datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplementary material mentioned (Page 4) contains the survey questionnaire, which would not contain the missing mosquito genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles funestus",
+      "Anopheles nili",
+      "Anopheles moucheti"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is a Knowledge, Attitudes, and Practices (KAP) survey conducted among 500 households in 50 villages in the Far-North region of Cameroon in 2020. It assesses community knowledge of malaria transmission, mosquito breeding sites, and the use of preventive measures like LLINs. It does not involve the collection or genotyping of Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "The study is a Knowledge, Attitudes, and Practices (KAP) survey of human households and does not report any genotyping of insecticide resistance markers in Anopheles mosquitoes."
+    ]
+  }
+}
