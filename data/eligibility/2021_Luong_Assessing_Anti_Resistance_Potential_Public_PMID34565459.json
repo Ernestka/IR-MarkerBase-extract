@@ -1,0 +1,65 @@
+{
+  "id": "2021_Luong_Assessing_Anti_Resistance_Potential_Public_PMID34565459",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study uses transgenic Drosophila melanogaster strains, not Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not genotype Anopheles mosquitoes for resistance markers; it uses genetically engineered Drosophila lines."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for field-collected Anopheles mosquitoes is reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-reared transgenic Drosophila melanogaster strains."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study testing insecticide formulations on transgenic Drosophila."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as no field populations were studied."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as no field populations were studied."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses laboratory-generated transgenic Drosophila strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study does not involve field-collected mosquito data."
+    },
+    "markers_found": [],
+    "species": [
+      "Drosophila melanogaster"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of insecticide mixtures (Fludora Fusion) and transfluthrin against transgenic Drosophila melanogaster strains engineered to express resistance mechanisms (target-site mutations and P450 enzymes) relevant to mosquitoes. It does not involve field-collected Anopheles mosquitoes or genotyping of field populations.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

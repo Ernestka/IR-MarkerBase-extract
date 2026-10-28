@@ -1,0 +1,71 @@
+{
+  "id": "2023_Govoetchan_Investigating_Discriminating_Concentrations_Monito_PMID36952515",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae sensu stricto (Kisumu), Anopheles coluzzii (Akron), and Anopheles gambiae sensu lato (Cov\u0000 and wild populations) (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that the lab strains used (Akron and Cov\u0000) are characterized by the presence of L1014F and Ace-1R mutations (Page 3), but it does not perform or report any new genotyping for these or any other target markers in the study populations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies are provided for any mosquito population. The results are limited to bioassay mortality rates and lethal dose estimates (Tables 1 and 2, Figures 1-5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild mosquitoes were collected as larvae from 5 villages in the sub-district of Za-Kpota Centre, Southern Benin (Page 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating discriminating concentrations for broflanilide (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to specific villages in Benin: Za-K\u0000k\u0000r\u0000, Dokpa, Za-Zounm\u0000, K\u0000mondji, and D\u0000t\u0000kpa, including coordinates (Page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Bioassays were performed between February 2020 and December 2021 (Page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses standard lab strains (Kisumu, Akron, Cov\u0000) and reports new field collections from Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "S1 Table is mentioned as containing 'Detailed bottle bioassay data with wild pyrethroid-resistant Anopheles gambiae sl from villages in southern Benin' (Page 12), which is unlikely to contain the missing genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 10617,
+    "summary": "This study investigates the discriminating concentrations of broflanilide for monitoring susceptibility in Anopheles gambiae s.l. vectors. It utilizes susceptible and resistant laboratory strains (Kisumu, Akron, Cov\u0000) and wild populations from five villages in Southern Benin. While the paper mentions that the resistant lab strains carry L1014F and Ace-1R mutations based on previous characterization, it does not report any primary genotype data (counts or frequencies) for any of the mosquitoes used in the study. The results are focused entirely on bioassay mortality and lethal dose calculations.",
+    "exclusion_reasons": [
+      "The study does not report extractable genotype data (counts or frequencies) for any of the target markers. It is a bioassay-only study that mentions the presence of resistance markers in lab strains based on previous characterization but does not perform or report new genotyping."
+    ]
+  }
+}

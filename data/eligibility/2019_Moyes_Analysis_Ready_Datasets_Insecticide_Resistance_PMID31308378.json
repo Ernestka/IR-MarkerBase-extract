@@ -1,0 +1,73 @@
+{
+  "id": "2019_Moyes_Analysis_Ready_Datasets_Insecticide_Resistance_PMID31308378",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on Anopheles malaria vectors (An. gambiae complex and An. funestus subgroup)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper describes the collation of Vgsc allele frequencies (L1014L, L1014F, L1014S) and mentions Ace-1 allele frequencies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a data descriptor paper that collates and releases datasets. It does not report primary genotype counts for specific field populations in the text or tables; it describes the structure of the datasets that are available for download elsewhere (Dryad)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The paper collates data from field-collected mosquitoes across Africa."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a data descriptor/meta-analysis paper that collates previously published and unpublished data from other sources."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper describes the geo-referencing of data to specific sites, districts, or administrative units."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper describes the collation of data with specific collection years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it is a compilation of hundreds of different sources and that it includes data provided to the WHO and other databases, creating a high risk of overlap with primary studies."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The actual genotype counts and bioassay data are not in the paper; they are in the Dryad repository linked in the paper."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae complex",
+      "Anopheles funestus subgroup"
+    ],
+    "countries": [
+      "Multiple African countries"
+    ],
+    "collection_years": [
+      1957,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This is a data descriptor paper that collates and standardizes existing insecticide resistance phenotype and genotype data for African malaria vectors. It does not present primary empirical data but rather describes the methodology for creating the released datasets.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (it is a data descriptor/compilation).",
+      "Does not report primary extractable genotype data (it describes datasets available elsewhere)."
+    ]
+  }
+}

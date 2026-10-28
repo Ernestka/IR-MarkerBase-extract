@@ -1,0 +1,68 @@
+{
+  "id": "2022_Wolie_Entomological_Indicators_Malaria_Transmission_Prio_PMID35705981",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.l. (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotype frequencies for Vgsc L995F (kdr-w) and Ace-1 G280S (G119S) (Page 10, Table 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 7 provides genotype counts (SS, RS, RR) and allelic frequencies for An. coluzzii and An. gambiae (Page 10)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Côte d'Ivoire (Page 1, Abstract; Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field data collected in 2016 (Page 3, Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in 40 villages across five health districts in the Gbêkê region, Côte d'Ivoire (Page 2, Methods; Page 6, Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study specifies collection occurred between November and December 2016 (Page 3, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a baseline study for a specific CRT trial conducted in 2016, and the authors state it is a descriptive analysis of entomological indicators."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and site-level information, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1374,
+    "summary": "This study reports the entomological indicators and insecticide resistance marker frequencies (kdr L1014F and ace-1 G119S) for Anopheles gambiae s.l. (specifically An. gambiae s.s. and An. coluzzii) collected in 40 villages in central Côte d'Ivoire in 2016.",
+    "exclusion_reasons": []
+  }
+}

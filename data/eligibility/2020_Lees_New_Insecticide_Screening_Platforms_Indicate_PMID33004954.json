@@ -1,0 +1,75 @@
+{
+  "id": "2020_Lees_New_Insecticide_Screening_Platforms_Indicate_PMID33004954",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae and An. funestus (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr (Vgsc L995F) and CYP6P9a/b as resistance mechanisms in the strains used but does not perform or report new genotyping results (Page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies for field populations are provided."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study only uses established laboratory colonies (Tiassalé 13, VK7 2014, FUMOZ-R, Kisumu) and transgenic lines (Page 4, Page 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper reports original empirical research on insecticide metabolism and bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The laboratory strains are named after their collection sites: Tiassalé (Cote d'Ivoire), VK7 (Vallee du Kou, Burkina Faso), and FUMOZ (Mozambique) (Page 4, Page 8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The strains are named with their collection years: Tiassalé 13 (2013) and VK7 2014 (2014) (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary study using established colonies for testing new insecticide compounds."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible because it only uses laboratory colonies; supplementary data would not change this status."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Cyp6p9a R",
+      "Cyp6p9b R"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cote d'Ivoire",
+      "Burkina Faso",
+      "Mozambique"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the susceptibility of Mitochondrial Complex I inhibitors (fenazaquin, pyridaben, tolfenpyrad, and fenpyroximate) to metabolism by P450 enzymes associated with pyrethroid resistance in Anopheles gambiae and An. funestus. The authors used in vitro assays with recombinant enzymes, tarsal bioassays with transgenic An. gambiae, and CDC bottle bioassays with established resistant laboratory colonies (Tiassalé 13, VK7 2014, and FUMOZ-R). The study found that these inhibitors are susceptible to metabolic cross-resistance. However, the paper is ineligible for the database as it does not report new genotyping data from African field populations, relying instead on previously characterized laboratory strains.",
+    "exclusion_reasons": [
+      "The study does not report new genotyping data for target markers in African field populations.",
+      "The study only uses established laboratory colonies (Tiassalé 13, VK7 2014, FUMOZ-R) and transgenic lines."
+    ]
+  }
+}

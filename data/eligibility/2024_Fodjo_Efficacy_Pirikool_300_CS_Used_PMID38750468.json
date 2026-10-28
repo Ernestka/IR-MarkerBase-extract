@@ -1,0 +1,69 @@
+{
+  "id": "2024_Fodjo_Efficacy_Pirikool_300_CS_Used_PMID38750468",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of Pirikool 300 CS against wild female Anopheles gambiae s.l. and Anopheles coluzzii (Abstract, Page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr (Vgsc L995F/S), ace-1R (Ace-1 G280S), and N1575Y (Vgsc N1570Y) in the study site description (Page 2), but does not perform any new genotyping of the mosquitoes collected during the trial."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No new genotype counts or frequencies with associated sample sizes are reported for the mosquitoes collected in this study. The frequencies mentioned for the site (kdr 0.8 and ace-1R 0.44 on Page 2) are cited from previous literature (references 21 and 23)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Tiassalé, Côte d'Ivoire (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting an experimental hut trial and cone bioassays (Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the Tiassalé experimental station (5°54ʹ N. 4°50ʹ W) in Southern Côte d’Ivoire (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study describes an 8-month trial (Abstract) and was received for publication in July 2023, implying a recent collection window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is a routine experimental hut trial at a well-established research station (Tiassalé)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper states that data are included in the article and additional files, but the methods do not describe any genotyping procedures, so no genotype data is expected in the supplements."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 10979,
+    "summary": "The study evaluates the efficacy and residual activity of Pirikool 300 CS (a pirimiphos-methyl formulation) compared to Actellic 300 CS in experimental huts in Tiassalé, Côte d'Ivoire. While it describes the study site as having high frequencies of kdr and ace-1R resistance markers based on previous research, it does not report any new genotyping data for the mosquitoes collected during this specific trial.",
+    "exclusion_reasons": [
+      "The paper does not report new genotype data for the mosquitoes collected. The genotype frequencies mentioned (kdr 0.8, ace-1R 0.44) are provided as background information for the study site and are cited from previous publications (references 21 and 23)."
+    ]
+  }
+}

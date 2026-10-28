@@ -1,0 +1,68 @@
+{
+  "id": "2019_Punchihewa_Insecticide_Resistance_Mechanisms_Novel_Kdr_PMID31227020",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on the tropical bed bug, Cimex hemipterus (Title, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports kdr mutations (including L1014F) in Cimex hemipterus, not in Anopheles (Abstract, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Genotype data is provided for bed bugs, not Anopheles (Results)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Kandy district, Sri Lanka (Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new collections and molecular analysis (Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Kandy district, Sri Lanka (Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "March to October 2016 (Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine new collection in Sri Lanka."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files mentioned as containing required data for Anopheles."
+    },
+    "markers_found": [],
+    "species": [
+      "Cimex hemipterus"
+    ],
+    "countries": [
+      "Sri Lanka"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 738,
+    "summary": "The study investigates insecticide resistance and kdr mutations in the tropical bed bug Cimex hemipterus in Sri Lanka. It is ineligible as it does not study Anopheles mosquitoes and is not conducted in Africa.",
+    "exclusion_reasons": [
+      "Not Anopheles",
+      "Not African field population",
+      "No target markers in Anopheles"
+    ]
+  }
+}

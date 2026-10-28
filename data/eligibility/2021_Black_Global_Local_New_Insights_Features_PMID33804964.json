@@ -1,0 +1,62 @@
+{
+  "id": "2021_Black_Global_Local_New_Insights_Features_PMID33804964",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper reviews insecticide resistance in Anopheles and other mosquito genera."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "This is a review paper and does not report primary genotype data for target markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a review paper and does not report primary genotype data."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "This is a review paper and does not report primary field data."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review paper."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "This is a review paper."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "This is a review paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "This is a review paper."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review paper on pyrethroid detoxification mechanisms in vector mosquitoes. It does not report primary empirical data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

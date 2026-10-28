@@ -1,0 +1,67 @@
+{
+  "id": "2023_Perugini_Interplay_Malaria_Vectors_Human_Activity_PMID36922855",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Host-seeking mosquitoes of the Anopheles gambiae s.l. complex (predominantly An. coluzzii and An. arabiensis) were sampled using human landing catches (page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyping was performed for the Vgsc L1014F (kdr-w) target-site mutation using real-time PCR (pages 3, 5, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 5) reports exact genotype counts (RR, RS, SS) and allele frequencies for L1014F in Anopheles coluzzii (n=199: 61 RR, 90 RS, 48 SS) and Anopheles arabiensis (n=127: 105 RR, 16 RS, 6 SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Goden village, central Burkina Faso (12°25' N, 1°21' W) by indoor and outdoor human landing catches in September 2020 (pages 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article detailing original field collections, human surveys, and molecular analyses conducted in 2020."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied specifically to Goden village (12°25' N, 1°21' W), located 35 km east of Ouagadougou in central Burkina Faso (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted over 8 nights between 9 and 25 September 2020 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Mosquitoes were collected de novo by the authors for this specific 2020 field study in Goden village."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Complete genotype numbers for both vector species are fully presented in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 326,
+    "summary": "This study evaluated mosquito biting rhythms, human behaviour, and residual malaria transmission in Goden village, Burkina Faso in September 2020. A subsample of 326 field-collected mosquitoes (199 An. coluzzii and 127 An. arabiensis) was genotyped for the Vgsc L1014F (L995F) resistance mutation, providing full RR/RS/SS genotype distributions for both species in Table 1. No insecticide bioassays were performed.",
+    "exclusion_reasons": []
+  }
+}

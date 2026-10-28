@@ -1,0 +1,79 @@
+{
+  "id": "2019_Lucas_High_Throughput_Multi_Locus_Insecticide_PMID31527637",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae, Anopheles coluzzii, and Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotypes for Vgsc L995F/S (kdr), Rdl A296G/S, Ace-1 G280S, and Gste2 L119F/114T."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts (AA, AG, GG) for Gste2-114T and Ace1-280S for multiple populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Burkina Faso, Ghana, DRC, and Kenya."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study presenting new genotyping data from field-collected samples."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides specific collection sites (e.g., Bakaridjan, Bounouba, Naniagara, Tiefora in Burkina Faso; Pambwa, Fiwa, Bassa in DRC; Keta in Ghana; Teso, Bondo, Rachuonyo, Nyando in Kenya)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are specified: 2013 (Burkina Faso), 2016 (DRC), 2016 (Ghana), and unspecified but recent (Kenya)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states that samples from the DRC were previously reported in Lynd et al. (2018), but the current study presents new genotyping data using a new panel of 28 markers."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype counts and bioassay results are provided in the main text tables and supplementary tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "Rdl A296S",
+      "Gste2 L119F",
+      "Gste2 L114T"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Ghana",
+      "Democratic Republic of Congo",
+      "Kenya"
+    ],
+    "collection_years": [
+      2013,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 713,
+    "summary": "This study developed a 28-SNP multiplex panel to screen Anopheles gambiae s.l. from four African countries. It identified a heterologous duplication in Gste2 in Ghana, confirmed the role of Gste2-119V in resistance, and mapped the diversity of kdr haplotypes across the study regions.",
+    "exclusion_reasons": []
+  }
+}

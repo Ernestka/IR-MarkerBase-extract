@@ -1,0 +1,68 @@
+{
+  "id": "2022_Tondossama_High_Levels_Admixture_Anopheles_Gambiae_PMID36555000",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-28",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. and Anopheles coluzzii (page 1, Abstract; page 3, 'Mosquitoes were collected during December 2018 and in March, May, and October 2019... identified as An. gambiae s.l')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper genotypes species-diagnostic markers (rDNA IGS) and a panel of 24 Ancestry Informative Markers (AIMs) to examine admixture and hybridization between An. gambiae and An. coluzzii. None of the database's target insecticide-resistance markers (such as Vgsc L995F/S, Ace-1, Rdl, GSTe2, etc.) were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequencies/counts for any target insecticide resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult mosquitoes were collected from houses in two sentinel villages in Côte d'Ivoire: Ayame and Pétessou (page 3, Section 2 'Materials and Methods')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field collection and amplicon sequencing data from Côte d'Ivoire."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at Ayame (5.60216° N, 3.09290° W) and Pétessou (7.55505° N, 5.06052° W) in Côte d'Ivoire (page 3, Section 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in December 2018 and in March, May, and October 2019 (page 3, Section 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The authors collected mosquitoes as part of field surveys in Côte d'Ivoire with no indication that this is an overlapping re-analysis of previously published resistance marker datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary tables S1–S3 provide details on AIM primers and individual AIM genotypes, confirming no resistance markers were genotyped."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 277,
+    "summary": "This study analyzes genomic admixture between Anopheles coluzzii and An. gambiae in two sentinel sites in Côte d'Ivoire (Ayame and Pétessou) using IGS PCR and amplicon sequencing of 24 Ancestry Informative Markers (AIMs). No insecticide resistance target-site markers or metabolic markers were genotyped.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped (the study only analyzes species-diagnostic IGS rDNA and 24 Ancestry Informative Markers)."
+    ]
+  }
+}
