@@ -1,0 +1,70 @@
+{
+  "id": "2023_Somda_High_Pyrethroid_Resistance_Associated_High_DOI_10_21203_rs_3_rs-2736263_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, Anopheles coluzzii, and Anopheles gambiae s.s. (Page 3, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes Vgsc L1014F (L995F), L1014S (L995S), and Ace-1 G119S (G280S) (Page 3, Abstract; Page 7, Frequency of target site mutations)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 8) provides genotype counts (LL, LF, LS, FS, SS, FF) and sample sizes (n) for the kdr locus across three sites. Ace-1 genotype data is provided in the text on Page 7."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from three districts (Zogona, Tampouy, Tanghin) in Ouagadougou, Burkina Faso, between July and September 2018 (Page 4, Study site; Page 5, Mosquito collection and rearing)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original collection and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for three specific districts in Ouagadougou: Zogona, Tampouy, and Tanghin (Page 4, Study site; Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from July to September 2018 (Page 5, Mosquito collection and rearing)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes routine new collections in 2018 and does not indicate that these samples are part of a larger previously published dataset or surveillance network."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay results are contained within the main text and tables (Table 2, Figure 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 151,
+    "summary": "This study reports on the insecticide resistance status and target-site mutation frequencies (Vgsc L1014F, L1014S, and Ace-1 G119S) in Anopheles gambiae s.l. populations from three urban districts of Ouagadougou, Burkina Faso. Collections were conducted in 2018, and results show high frequencies of kdr mutations in An. arabiensis, which was the dominant species.",
+    "exclusion_reasons": []
+  }
+}

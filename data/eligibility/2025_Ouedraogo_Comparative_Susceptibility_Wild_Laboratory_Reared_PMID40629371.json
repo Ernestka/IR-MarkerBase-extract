@@ -1,0 +1,69 @@
+{
+  "id": "2025_Ouedraogo_Comparative_Susceptibility_Wild_Laboratory_Reared_PMID40629371",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tested Anopheles gambiae (Kisumu strain) and Anopheles coluzzii (VK5 strain) larvae (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study evaluated larval susceptibility to ivermectin and conducted species-identification PCR, but did not genotype any target insecticide resistance markers. References to kdr in the discussion (Page 8) are purely speculative."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts, allele counts, or allele frequencies for target resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles coluzzii F1 larvae were derived from field-caught gravid females collected in December 2022 and February 2023 in Kou Valley, Bama, Burkina Faso (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting laboratory bioassay experiments on larval exposure to ivermectin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field mosquitoes were collected at Kou Valley, Bama, Burkina Faso (11° 23' 59\" N, 4° 25' 46\" W) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected in December 2022 and February 2023 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine new collections in Bama, Burkina Faso for laboratory bioassays."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files contain dilution diagrams and egg hatching rates, not target genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the comparative larval susceptibility and post-exposure effects of ivermectin on wild-derived (Anopheles coluzzii and Aedes aegypti) and laboratory-reared (Anopheles gambiae and Aedes aegypti) mosquito strains in Burkina Faso. No target insecticide-resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide-resistance markers (reports_target_markers = false).",
+      "Does not report extractable genotype data for target markers (reports_extractable_genotype_data = false)."
+    ]
+  }
+}

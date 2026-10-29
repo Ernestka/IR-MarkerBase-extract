@@ -1,0 +1,71 @@
+{
+  "id": "2021_Tungu_Efficacy_Interceptor_G2_Long_Lasting_PMID33836778",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted on Anopheles funestus s.s. and Anopheles gambiae s.s. (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Although the methods mention retaining mosquitoes for genotyping of L1014S and L1014F kdr alleles using TaqMan PCR (page 3), no genotyping results or data for these or any other target markers are reported in the results or discussion."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or genotype/allele frequencies are presented anywhere in the paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were evaluated in experimental hut trials in Zeneti village, Muheza district, Tanga region, Tanzania (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting experimental hut trials and supplementary bioassays of Interceptor G2 nets."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Zeneti (5°13′ S, 38°39′ E), Muheza district, Tanga region, Tanzania (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Trials were conducted between November and December 2015 and between May and July 2016 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary experimental hut evaluation at Zeneti field station."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The single mention of a supplementary file (page 10) refers to hut mortality counts for An. gambiae, not resistance marker genotyping."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of Interceptor G2 long-lasting insecticidal nets against wild pyrethroid-resistant Anopheles funestus (and An. gambiae) in experimental huts in Zeneti, Tanzania. Although the methods state that mosquitoes were retained for L1014S and L1014F genotyping, no genotype or allele data are reported.",
+    "exclusion_reasons": [
+      "No target resistance marker genotyping results or extractable genotype data are presented in the paper."
+    ]
+  }
+}

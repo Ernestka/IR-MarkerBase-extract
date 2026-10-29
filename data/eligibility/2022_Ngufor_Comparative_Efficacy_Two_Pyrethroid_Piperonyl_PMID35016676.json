@@ -1,0 +1,69 @@
+{
+  "id": "2022_Ngufor_Comparative_Efficacy_Two_Pyrethroid_Piperonyl_PMID35016676",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on wild pyrethroid-resistant Anopheles gambiae sensu lato (s.l.), specifically Anopheles coluzzii and Anopheles gambiae sensu stricto (s.s.) (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions a L1014F (Vgsc L995F) frequency of 89% on page 3, but this is a characterization of the study site cited from a previous study (Ngufor et al. 2015) rather than new genotyping results from the current trial."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies with associated sample sizes are provided for the mosquitoes collected in the 2017 trial. The 89% kdr frequency mentioned on page 3 lacks a sample size and is cited from previous work."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from breeding sites close to experimental huts in Cové, Southern Benin, and tested as adults (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting results from experimental hut trials and laboratory bioassays (Page 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Cové, Southern Benin (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The experimental hut trial was conducted between February and April of 2017 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses routine collections from a well-established field station in Cové, Benin, but does not report new genotype data that could overlap with other marker databases."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper describes its methods and results fully in the main text and tables; no supplementary files containing genotype data are mentioned or required."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of Olyset Plus and PermaNet 3.0 ITNs against pyrethroid-resistant Anopheles gambiae s.l. in experimental huts in Cové, Benin. While the paper characterizes the local population as having a high frequency (89%) of the L1014F (Vgsc L995F) mutation, this value is cited from a previous study (Ngufor et al. 2015). No new genotyping data or genotype-specific sample sizes are reported for the target markers.",
+    "exclusion_reasons": [
+      "The study does not report new genotyping data for the target insecticide resistance markers. The L1014F frequency mentioned is a citation of previous work (Ngufor et al. 2015) and lacks an associated sample size for the current study population."
+    ]
+  }
+}

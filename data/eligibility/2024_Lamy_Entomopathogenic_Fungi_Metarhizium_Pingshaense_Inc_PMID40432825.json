@@ -1,0 +1,66 @@
+{
+  "id": "2024_Lamy_Entomopathogenic_Fungi_Metarhizium_Pingshaense_Inc_PMID40432825",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 5: 'For the bioassays, we used pyrethroid-resistant laboratory An. coluzzii VKPER colony.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page 5 mentions that the VKPER colony was selected repeatedly to maintain the kdr west gene, but no target resistance markers were genotyped in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or allele frequencies are reported in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The bioassays were conducted exclusively using the laboratory colony Anopheles coluzzii VKPER. No field-collected mosquitoes were genotyped or tested in bioassays."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study examining the synergistic effect of Metarhizium pingshaense and deltamethrin on mosquito mortality."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 5 mentions Valley du Kou, Soumousso, and Bana in Burkina Faso regarding the origin of the colony and fungal isolates."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection window <=3 years is reported for field mosquito sampling or genotyping."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No genotype dataset reported."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary genotype data needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of combining native Metarhizium pingshaense fungal strains with deltamethrin against the pyrethroid-resistant laboratory colony Anopheles coluzzii VKPER. No field mosquito populations were genotyped, and no extractable marker genotype data were reported.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide resistance markers.",
+      "Does not report extractable genotype data.",
+      "Only tests a laboratory colony (VKPER); no African field population mosquitoes were genotyped."
+    ]
+  }
+}

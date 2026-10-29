@@ -1,0 +1,68 @@
+{
+  "id": "2022_Fotso-Toguem_Genetic_Diversity_Cytochrome_P450s_CYP6M2_PMID36672793",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles coluzzii and Anopheles gambiae from Yaounde, Cameroon."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotypes Vgsc L1014F (Vgsc L995F) using TaqMan assay (page 4, section 2.3.1; page 7, section 3.3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports L1014F allele frequencies in field F0 populations (fixed at 1.00 in An. gambiae from Nkolondom and 0.93 in An. coluzzii from Ngousso, with N=30 per batch; page 7, section 3.3) and genotype counts for F4 crosses."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field larval collections in Ngousso and Nkolondom, Yaounde, Cameroon between December 2018 and August 2019 (page 3, section 2.2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting mosquito sampling, bioassays, qPCR, and sequencing/genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ngousso (3 deg 54 min 22.36 sec N, 11 deg 32 min 20.36 sec E) and Nkolondom (3 deg 57 min 6.99 sec N, 11 deg 29 min 51.67 sec E), Yaounde, Cameroon (page 3, section 2.2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections carried out from December 2018 to March 2019 and July to August 2019 (page 3, section 2.2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field mosquito collections were conducted specifically for this primary study in Yaounde, Cameroon."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Main text provides frequency data for Vgsc L1014F and full genotype tables for other identified variants."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 180,
+    "summary": "This study evaluated pyrethroid resistance mechanisms and genetic diversity of CYP6M2 and CYP6P4 in Anopheles coluzzii and Anopheles gambiae from Ngousso and Nkolondom in Yaounde, Cameroon. Vgsc L1014F (L995F) kdr genotyping was performed, showing near-fixation or fixation in field populations, and significant association with permethrin resistance in F4 crossed progeny.",
+    "exclusion_reasons": []
+  }
+}

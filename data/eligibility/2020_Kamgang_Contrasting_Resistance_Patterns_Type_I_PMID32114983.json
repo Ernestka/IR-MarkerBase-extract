@@ -1,0 +1,65 @@
+{
+  "id": "2020_Kamgang_Contrasting_Resistance_Patterns_Type_I_PMID32114983",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on the arbovirus vectors Aedes aegypti and Aedes albopictus and does not include Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes the F1534C mutation in the voltage-gated sodium channel gene of Aedes species, which is not among the target resistance markers for Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for Anopheles target markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Immature stages of Ae. aegypti and Ae. albopictus were sampled in May 2017 in eight cities across the Republic of the Congo (e.g., Brazzaville, Lefini, Ngo, Gamboma, Owando, Makoua, Ouesso)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling sites are described with specific town names and geographic coordinates, e.g., Brazzaville (S 4°15'36\" E 15°17'23\")."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in May 2017."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary field study in the Republic of the Congo."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible as it does not study Anopheles mosquitoes."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Republic of the Congo"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates insecticide resistance profiles and the F1534C kdr mutation in field-caught Aedes aegypti and Aedes albopictus from eight localities in the Republic of the Congo. Because no Anopheles mosquitoes or Anopheles-relevant target markers are studied, the paper is ineligible.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (studies Aedes aegypti and Aedes albopictus).",
+      "Does not report target insecticide-resistance markers for Anopheles."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2025_Portwood_Improvement_East_African_Style_Experimental_PMID41272844",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles arabiensis and Anopheles gambiae s.s. (Kisumu strain) (p. 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Mentions that the Kisumu lab strain lacks kdr L1014S/F and Ace-1 G119S, but does not perform genotyping of target markers in this study (p. 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts, allele counts, or genotype frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild Anopheles arabiensis larvae were collected in Lower Moshi, Tanzania and tested as F0 adults (p. 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study evaluating experimental hut modifications in Moshi, Tanzania (p. 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Pasua field station, Lower Moshi, Tanzania (03°22.764′ S, 37°20.793 E) (p. 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Trial 1 was conducted in September 2021 (p. 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary study reporting original experimental hut trial data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary material needed as no genotype data were collected."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates modifications to East African style experimental huts (baffle exit hole size and exterior wall sticky traps) in Moshi, Tanzania using field-collected F0 Anopheles arabiensis and laboratory Anopheles gambiae Kisumu. The study does not perform or report genotyping of target insecticide resistance markers and is therefore ineligible.",
+    "exclusion_reasons": [
+      "Does not genotype target insecticide resistance markers in field mosquito populations.",
+      "Does not report extractable genotype data or allele frequencies."
+    ]
+  }
+}

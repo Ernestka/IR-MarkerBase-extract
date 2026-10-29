@@ -1,0 +1,66 @@
+{
+  "id": "2022_Zhou_Emerging_Mosquito_Resistance_Piperonyl_Butoxide_PMID35050361",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study was conducted exclusively on Culex quinquefasciatus: 'We used Culex quinquefasciatus as a model mosquito examined the insecticide resistance mechanisms of mosquitoes to PBO-synergized pyrethroid' (lines 20-21, page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Although L1014F kdr mutation is assayed (line 31-32, page 2; line 210, page 11), it is tested only in Culex quinquefasciatus, not in any Anopheles species."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Genotype/allele counts or sample sizes per genotype are not clearly reported; only an overall mutation rate (61.8%) from pooled mosquitoes is mentioned (lines 212-213, page 11; line 293, page 15) for Culex."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Field mosquitoes were collected in Southern California, USA: 'Field Cx. quinquefasciatus (OC-R strain) larvae were collected from multiple places in Irvine, Garden Grove and Orange cities of Orange County, Southern California' (lines 147-148, page 9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary research study evaluating bioassays and enzyme expressions in Culex mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Locations provided include 'Irvine, Garden Grove and Orange cities of Orange County, Southern California' (lines 147-148, page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Collection years are not specified in the manuscript text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original laboratory study using field collections from Orange County, California."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary tables S1 and S2 are present at the end of the document, but the study is not about Anopheles."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study examines the mechanisms of resistance to PBO-synergized pyrethroids in Culex quinquefasciatus collected from Orange County, California. It does not investigate African Anopheles vector populations.",
+    "exclusion_reasons": [
+      "Study does not focus on Anopheles mosquitoes (performed on Culex quinquefasciatus).",
+      "No target resistance markers evaluated in Anopheles malaria vectors.",
+      "Mosquito samples are not from an African field population (collected in California, USA)."
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "2021_Hancock_Modelling_Spatiotemporal_Trends_Frequency_Genetic_DOI_10_1101_2021_09_15_460499",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae, An. coluzzii, and An. arabiensis (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper models the frequency of Vgsc-995S and Vgsc-995F (Abstract, Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper presents model predictions and maps rather than extractable primary genotype counts or frequencies for specific field populations. It uses a database of 2418 observations from other sources (Page 3, Page 16)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The data used in the model comes from field sampled mosquitoes collected from 27 countries in Africa (Page 3)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a spatiotemporal modelling paper that re-analyses previously published and aggregated database data (Moyes et al. 2019b) rather than reporting new primary empirical genotype data (Abstract, Page 16)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The database used includes geographic coordinates of the sample collection locations (Page 16)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers the period 2005-2017 (Abstract, Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states: 'Our models are informed by a database... an updated version of a publicly available data set containing Vgsc allele frequencies (Moyes et al. 2019b)' (Page 16)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The primary genotype data is not reported in the paper or its supplements, but is sourced from an external database (Moyes et al. 2019b)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Benin",
+      "Cameroon",
+      "Equatorial Guinea",
+      "Sudan",
+      "Ethiopia",
+      "Kenya",
+      "Uganda",
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 2418,
+    "summary": "This study is a spatiotemporal modelling paper that uses a large database of previously published and unpublished Vgsc genotype frequencies (primarily from Moyes et al. 2019b) to predict trends across Africa. It does not report new primary genotype data.",
+    "exclusion_reasons": [
+      "is_primary_study: This is a spatiotemporal modelling paper that re-analyses previously published and aggregated database data (Moyes et al. 2019b) rather than reporting new primary empirical genotype data.",
+      "reports_extractable_genotype_data: The paper presents model predictions and maps rather than extractable primary genotype counts or frequencies for specific field populations."
+    ]
+  }
+}

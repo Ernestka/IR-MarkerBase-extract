@@ -1,0 +1,70 @@
+{
+  "id": "2019_Bamou_Status_Insecticide_Resistance_Mechanisms_Anopheles_PMID31554225",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles coluzzii (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on Vgsc L1014F (L995F), L1014S (L995S), N1575Y (N1570Y), and Ace-1 G119S (G280S) (Page 6, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 (Page 6) provides allelic frequencies for L1014F, L1014S, N1575Y, and G119S, along with the sample size (80 alleles, which corresponds to 40 mosquitoes) for each of the five field populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from five sites in Cameroon (Sangmelima, Nyabessan, Mbandjock, and two districts in Yaoundé) in 2018 (Page 3, Sections 2.1 and 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collections and laboratory analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific sites: Sangmelima, Nyabessan, Mbandjock, and Yaoundé (Bastos and Nkolondom) (Page 3, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field sampling was conducted from September to November 2018 (Page 3, Section 2.2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine new collections in 2018 and does not indicate that these samples are part of a larger previously published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype frequencies and sample sizes are provided in Table 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 200,
+    "summary": "This study characterizes insecticide resistance mechanisms in Anopheles gambiae s.l. populations from forest and urban settings in South Cameroon. It reports high frequencies of the Vgsc L1014F mutation and the first detection of the Ace-1 G119S mutation in An. gambiae from Cameroon. The study also provides data on L1014S and N1575Y mutations, metabolic resistance via gene expression (RT-qPCR), and WHO bioassay results for pyrethroids and carbamates.",
+    "exclusion_reasons": []
+  }
+}

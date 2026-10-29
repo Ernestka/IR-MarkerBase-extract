@@ -1,0 +1,66 @@
+{
+  "id": "2020_Ononamadu_Insecticide_Resistance_Profile_Anopheles_Gambiae_PMID31975780",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Mosquito larvae sampled were identified as Anopheles and confirmed molecularly: '100% of the randomly sampled population were found to be Anopheles coluzzii by PCR-based molecular technique' (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for knockdown resistance: 'Knock down resistance (L1014F) was detected by the methods of Martinez-Torez et al.' (page 4), reporting genotypes L1014F/L1014F, L1014L/L1014F, and L1014L/L1014L (Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 reports kdr genotype proportions for Sharada (n=18) and Wailari (n=17) as well as for susceptible (n=16) and resistant (n=19) mosquitoes: 'Genomic DNA was extracted from 35 A coluzzii (18 randomly sampled from Sharada and 17 from Wailari) mosquitoes... Table 4. Frequency distribution of kdr mutant alleles by breeding sites and resistance profile' (pages 4, 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from 3 ponds per site in Sharada and Wailari, Kano Metropolis, Kano State, Nigeria between June and September 2018 and reared to adult (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field research investigating insecticide resistance, kdr genotypes, and physicochemical breeding site characteristics in Kano, Nigeria."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific study sites with GPS coordinates provided: 'Wailari area of Kumbotso local government, which is located on longitude 8.503E, latitude 11.888N' and 'Sharada industrial area of Kano Municipal (KMC) local government, which is located on longitude 8.4897E and latitude 11.9490N' (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted 'within the months of June to September, 2018' (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original local university field collection with no indication of shared cohorts or third-party datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are fully reported in the main text and tables (Table 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 35,
+    "summary": "This study assesses insecticide resistance (bendiocarb, DDT, permethrin, malathion, permethrin+PBO) and Vgsc L995F (L1014F) kdr genotypes in field-collected Anopheles coluzzii from industrial (Sharada) and residential (Wailari) breeding sites in Kano Metropolis, Nigeria in 2018.",
+    "exclusion_reasons": []
+  }
+}

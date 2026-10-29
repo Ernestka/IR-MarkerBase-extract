@@ -1,0 +1,67 @@
+{
+  "id": "2023_N_Guessan_Attractive_Targeted_Sugar_Bait_Pyrrole_PMID37946208",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses 'wild pyrethroid-resistant Anopheles gambiae sensu stricto (s.s.) mosquitoes' (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions 'voltage-gated sodium channel (VGSC) point mutations' (Page 3) and 'kdr mechanisms' (Page 6) as being present in the M'Be G2 strain used, but it does not report genotyping results (counts or frequencies) for these markers in the study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study focuses on ATSB efficacy and Plasmodium development; it does not provide any extractable genotype data (counts or frequencies) for insecticide resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "'Anopheles gambiae sensu lato (s.l.) larvae were collected from breeding sites in rice fields around the experimental station of Mbe' in Côte d'Ivoire (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article evaluating the impact of ATSBs on vector competence."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The mosquitoes were collected from 'Mbe' (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not explicitly state the collection years for the mosquitoes used in this specific study."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The mosquitoes are from a well-studied site (Mbe), but the ATSB experiments appear to be original to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are mentioned as containing the missing genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study evaluates the effect of Attractive Targeted Sugar Baits (ATSBs) containing chlorfenapyr or artemether-lumefantrine on the development of Plasmodium falciparum in pyrethroid-resistant Anopheles gambiae s.s. from Mbe, Côte d'Ivoire. While the paper mentions that the mosquitoes carry VGSC (kdr) mutations, it does not provide any genotyping data or frequencies for these markers, making it ineligible for the database.",
+    "exclusion_reasons": [
+      "The study does not report extractable genotype data (counts or frequencies) for any target insecticide-resistance markers. It mentions the presence of VGSC mutations in the mosquito strain used by citing previous studies, but does not perform or report genotyping for the mosquitoes used in this study."
+    ]
+  }
+}

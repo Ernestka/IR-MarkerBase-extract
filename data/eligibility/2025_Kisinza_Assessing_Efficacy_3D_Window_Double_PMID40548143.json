@@ -1,0 +1,72 @@
+{
+  "id": "2025_Kisinza_Assessing_Efficacy_3D_Window_Double_PMID40548143",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study targets malaria vectors including Anopheles gambiae s.s., Anopheles arabiensis, and Anopheles funestus (page 4, section 2.1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The protocol mentions planning to test for the Vgsc L1014S (kdr-East) mutation (page 4, 11), but no actual genotyping results or marker data are presented in this study protocol paper."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a study protocol paper; sample analyses are ongoing and no genotype counts, allele frequencies, or mosquito sample sizes with genotype results are reported (page 2, 'Trial status')."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito collections are planned/conducted in Muheza District, Tanga Region, northeastern Tanzania (page 4, section 2.1)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This publication is a study protocol for a cluster-randomised controlled trial, not a completed primary empirical study reporting experimental findings."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific hamlets and villages across Muheza District, Tanga Region, northeastern Tanzania are mapped and named (e.g., Mseko, Mianzini, Kizinga, Potwe, etc.; page 5, Figure 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial and baseline surveys span June 2019 to June 2021 (page 2, 4, and Table 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a unique protocol description for trial ISRCTN87169034."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are omitted; the paper is purely a trial protocol."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a study protocol describing the design and methodology of a two-arm cluster-randomised controlled trial evaluating 3D window double screens (3D-WDS) combined with LLINs versus LLINs alone in Muheza District, northeastern Tanzania. No empirical genotype or bioassay outcome data are presented.",
+    "exclusion_reasons": [
+      "Study protocol only; does not present primary empirical results",
+      "No target marker genotyping results reported",
+      "No extractable genotype data (counts or frequencies) provided"
+    ]
+  }
+}
