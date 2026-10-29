@@ -1,0 +1,71 @@
+{
+  "id": "2023_Pazmino-Betancourth_Evaluation_Diffuse_Reflectance_Spectroscopy_Predic_PMID37898634",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae and Anopheles coluzzii (Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "While the paper mentions Vgsc L1014F (kdr) and Ace-1 G119S as being present in the Tiassale strain (Page 9), it does not report genotyping results for the mosquitoes used in this study; it refers to the known characteristics of these laboratory strains."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide genotype counts (RR/RS/SS) or allele frequencies for the target markers in the samples tested."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study exclusively uses laboratory colonies: Anopheles gambiae (Kisumu and Tiassale strains) and An. coluzzii (Ngousso strain) (Page 9). No field-collected mosquitoes were genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating a new spectroscopy method."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The origins of the laboratory strains are specified: Yaoundé (Cameroon), southern Cote d'Ivoire, and Kenya (Page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates are provided for the mosquitoes used, as they are from established laboratory colonies."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses standard laboratory colonies (Kisumu, Ngousso, Tiassale) for method development."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible based on the use of laboratory colonies and lack of genotype data; supplementary files would not change this status."
+    },
+    "markers_found": [
+      "Vgsc L1014F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon",
+      "Cote d'Ivoire",
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 344,
+    "summary": "This study evaluates the use of micro diffuse reflectance spectroscopy (µDRIFT) on mosquito legs to identify species, age, and cuticular insecticide resistance in laboratory-reared Anopheles gambiae s.l. The study used established laboratory colonies (Kisumu, Ngousso, and Tiassale) and did not report new genotype data for field populations.",
+    "exclusion_reasons": [
+      "Only laboratory colonies used (Kisumu, Ngousso, Tiassale), no field population genotyped.",
+      "No extractable genotype data (counts/frequencies) reported for the target markers; resistance status is based on known strain characteristics from previous studies."
+    ]
+  }
+}

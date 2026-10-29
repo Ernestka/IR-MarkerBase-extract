@@ -1,0 +1,67 @@
+{
+  "id": "2022_Kusimo_Pyrethroid_Resistance_New_World_Malaria_PMID35430064",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles albimanus (Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study focuses on CYP6P5 variants. While it mentions Vgsc L1014F/S/C in the introduction (Page 2), it does so by citing previous work (Mackenzie-Impoinvil et al., 2019) and does not report new genotype data for these markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data is provided for the required target markers (Vgsc, Ace-1, Rdl, etc.)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected in Puerto Pizzaro, Tumbes, Peru (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study characterizing the role of CYP6P5 in insecticide resistance (Page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies Puerto Pizzaro, Tumbes, Peru (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in 2015 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper states: 'The RNA utilized for amplification of CYP6P5 from cDNA was from field populations described from a previous study (Mackenzie-Impoinvil et al., 2019)' (Page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text provides sufficient information to determine ineligibility based on location and target markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles albimanus"
+    ],
+    "countries": [
+      "Peru"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 45,
+    "summary": "This study characterizes the role of cytochrome P450 CYP6P5 in pyrethroid resistance in Anopheles albimanus from Peru. Using in vitro metabolism assays and transgenic Drosophila expression, the authors demonstrate that CYP6P5 metabolizes type II pyrethroids and confers resistance. Genetic variability of CYP6P5 was also analyzed using field-collected samples from Tumbes, Peru, originally obtained in 2015.",
+    "exclusion_reasons": [
+      "The study focuses on Anopheles albimanus from Peru (South America), not African field populations.",
+      "The study does not report new genotype data for the required target markers; it focuses on CYP6P5 variants and refers to previous work for kdr frequencies."
+    ]
+  }
+}

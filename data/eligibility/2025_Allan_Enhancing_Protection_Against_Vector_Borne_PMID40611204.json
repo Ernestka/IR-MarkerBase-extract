@@ -1,0 +1,74 @@
+{
+  "id": "2025_Allan_Enhancing_Protection_Against_Vector_Borne_PMID40611204",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on phlebotomine sandflies (Phlebotomus and Sergentomyia species) as vectors of cutaneous leishmaniasis, as stated in the abstract and throughout the methods: 'Phlebotomine sandflies were morphologically identified; a subset were analysed for molecular species confirmation, blood-meal preferences and pyrethroid resistance.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "While the study genotypes the Vgsc L1014F mutation, it does so in sandflies, not Anopheles mosquitoes: 'To detect the presence of the knock-down resistance (kdr) mutation, L1014F... a ~360 bp region of the voltage-gated sodium channel (vgsc) that included the codon 1014 was amplified' (Page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Genotype data is only reported for sandflies, not Anopheles: 'The vgsc-L1014F-kdr mutation was not detected in any sandfly sample screened from any camp (n=25)' (Page 11)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Syria: 'This study was conducted between February 2021 and April 2022 in Ar-Raqqa governorate, an area of North-East Syria hosting IDPs' (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper describes a two-arm, non-randomised cluster trial evaluating the efficacy of a spatial repellent intervention."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific camps (Tawihena, Mahmoudli, Royan, Sahlat Al Banat, Tel Elsamen, Khayala) in the Ar-Raqqa governorate of Syria (Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections and epidemiological monitoring took place between February 2021 and April 2022 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary cluster trial conducted by the MENTOR Initiative in Syria; no evidence of overlap with larger Anopheles datasets is present."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary information to determine ineligibility is contained within the main text."
+    },
+    "markers_found": [
+      "Vgsc L1014F"
+    ],
+    "species": [
+      "Phlebotomus papatasi",
+      "Phlebotomus sergenti",
+      "Sergentomyia dentata",
+      "Sergentomyia dreyfussi",
+      "Sergentomyia clydei"
+    ],
+    "countries": [
+      "Syria"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 25,
+    "summary": "This study evaluates the efficacy of transfluthrin-based spatial repellents (Mosquito Shield) against cutaneous leishmaniasis and its sandfly vectors in IDP camps in North-East Syria. It includes molecular screening for the Vgsc L1014F mutation in sandflies, but does not study Anopheles mosquitoes or African populations.",
+    "exclusion_reasons": [
+      "not_anopheles",
+      "not_african_field_population"
+    ]
+  }
+}

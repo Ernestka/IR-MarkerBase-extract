@@ -1,0 +1,72 @@
+{
+  "id": "2021_Hamid-Adiamoh_Influence_Insecticide_Resistance_Biting_Resting_PMID34166376",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Indoor and outdoor-resting Anopheles gambiae mosquitoes were collected... (Page 1, Abstract)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The following markers were investigated: voltage-gated sodium (Vgsc)-1014F, Vgsc-1014S and Vgsc-1575Y... Acetylcholine esterase (Ace)-119S... (Page 4)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides allele frequencies and the number of mosquitoes (N) for each marker, species, region, and resting location (Page 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between July and October 2019 from ten villages in five regions in The Gambia (Page 1, Abstract)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new collection and genotyping data from 2019."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for five regions (URR, LRR, WCR, CRR, NBR) and ten specific villages are named and mapped in Figure 1 (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between July and October 2019 (Page 1, Abstract)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions that most villages are GNMCP surveillance sites, but the data appears to be from a specific study (PhD work of the first author) and not a subset of a larger published dataset like Ag1000G."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "S1 File is mentioned as containing 'Overall data including separate worksheets for genotypic resistance and species genotypes; host blood meal and sporozoite positivity data' (Page 9), which likely contains the per-village breakdown not fully detailed in Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "The Gambia"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 844,
+    "summary": "The study investigated the prevalence of insecticide resistance markers (Vgsc L995F, Vgsc L995S, Vgsc N1570Y, and Ace-1 G280S) in Anopheles gambiae s.l. populations across five regions in The Gambia. Mosquitoes were collected in 2019 from both indoor and outdoor resting sites. Allele frequencies are reported for An. arabiensis, An. coluzzii, An. gambiae s.s., and An. melas, showing high frequencies of kdr mutations and their association with resting behavior.",
+    "exclusion_reasons": []
+  }
+}

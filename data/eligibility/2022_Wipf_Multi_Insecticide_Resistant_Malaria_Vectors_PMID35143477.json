@@ -1,0 +1,69 @@
+{
+  "id": "2022_Wipf_Multi_Insecticide_Resistant_Malaria_Vectors_PMID35143477",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles coluzzii field populations from southern Côte d’Ivoire (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc-L995F/S, Vgsc-N1570Y and Ace1-G280S (Page 6, Page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele frequencies and genotype distributions are reported for 40 unexposed individuals per site (Page 15, Figure 6A-B) and for 55 individuals used in RNA-seq (Figure 6C)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from Agboville, Dabou and Tiassalé in southern Côte d’Ivoire in 2018 (Page 4, Page 10)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original bioassay and molecular genotyping data (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for three specific sites: Agboville, Dabou, and Tiassalé, with coordinates provided (Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were carried out in June and July 2018 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine new collections for this specific research project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Summary genotype frequencies and counts are provided in the main text and figures (Page 15, Figure 6)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 222,
+    "summary": "The study characterizes insecticide resistance in Anopheles coluzzii from three sites in southern Côte d'Ivoire (Agboville, Dabou, Tiassalé) collected in 2018. It reports high frequencies of Vgsc L995F and Ace-1 G280S mutations. Despite these mutations, the populations remained susceptible to malathion, which the authors suggest is due to negative cross-resistance mediated by the overexpression of certain P450 enzymes. Genotype data for Vgsc L995F/S, N1570Y, and Ace-1 G280S are provided for field-collected populations, including comparisons between survivors and unexposed controls.",
+    "exclusion_reasons": []
+  }
+}

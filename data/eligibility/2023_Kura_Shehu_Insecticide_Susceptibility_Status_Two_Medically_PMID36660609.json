@@ -1,0 +1,65 @@
+{
+  "id": "2023_Kura_Shehu_Insecticide_Susceptibility_Status_Two_Medically_PMID36660609",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae (along with Culex quinquefasciatus) collected from larval habitats (Page 1, Abstract; Page 3, Table 2.1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study evaluated insecticide susceptibility using CDC bottle bioassays only; no molecular genotyping of target resistance markers (e.g., Vgsc, Ace-1, GSTe2) was conducted."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or allele frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from field larval habitats in Bosso, Katcha, Lapai, and Shiroro LGAs in Niger State, Nigeria (Page 1, Abstract; Page 3, Table 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting field collections and CDC bottle bioassay susceptibility results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling sites are specified at LGA level: Bosso, Katcha, Lapai, and Shiroro in Niger State, Nigeria (Page 3, Table 2.1, Fig 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The specific year(s) of larval collection are not explicitly stated in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper describes a standard local field collection without mention of multi-center consortia or secondary dataset reuse."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary file is required; the study is entirely bioassay-focused and contains no molecular marker data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 500,
+    "summary": "This study assessed the insecticide susceptibility status of field-collected Anopheles gambiae and Culex quinquefasciatus from four local government areas in Niger State, Nigeria, using CDC bottle bioassays for permethrin, propoxur, and malathion. The study did not conduct any molecular genotyping for resistance markers.",
+    "exclusion_reasons": [
+      "Does not genotype target insecticide resistance markers",
+      "Does not report extractable genotype data"
+    ]
+  }
+}

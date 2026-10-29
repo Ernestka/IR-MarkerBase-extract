@@ -1,0 +1,71 @@
+{
+  "id": "2023_Syme_PermaNet_Dual_New_Deltamethrin_Chlorfenapyr_PMID37507423",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of ITNs against \"wild, free-flying pyrethroid-resistant Anopheles gambiae sensu lato in Covè, Benin\" (Page 1) and notes that \"An. coluzzii and An. gambiae sensu stricto (s.s.) occur sympatrically\" at the site (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not perform genotyping of the mosquitoes; it only cites previous work (Ref 35: Ngufor et al. 2015) regarding the presence of the Vgsc L1014F (L995F) mutation in the Covè population (Page 2, 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies are reported for the mosquitoes collected or tested during this study (2020-2021)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from breeding sites near the experimental hut station in Covè, southern Benin, or tested as wild free-flying adults in the huts (Page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting an experimental hut trial and associated bioassays (Page 1, 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Covè, southern Benin (7°14′N 2°18′E) (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial was conducted over 9 weeks between November 2020 and January 2021 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is a routine experimental hut trial at a well-established field station (CREC/LSHTM) and does not indicate overlap with larger genomic datasets like Ag1000G."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary material is mentioned (Tables S1-S3) but these contain detailed bioassay results (non-inferiority and superiority assessments), not genotype data (Page 8, 10)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 5967,
+    "summary": "This study evaluates the entomological efficacy of PermaNet Dual (a deltamethrin-chlorfenapyr mixture net) compared to other ITNs against pyrethroid-resistant Anopheles gambiae s.l. in experimental huts in Covè, Benin. While the paper identifies Vgsc L1014F (L995F) as a key resistance mechanism in the local population, it does so by citing previous literature (Ref 35) and does not report any new genotyping data for the mosquitoes collected during the 2020-2021 study period.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data (counts or frequencies) for the mosquitoes studied; it only cites previous genotyping work for the study site (Ref 35)."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2021_Rahman_Insecticide_Resistance_Underlying_Targets_Site_PMID33633183",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti and Aedes albopictus (Title, Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the V410L mutation (orthologous to V402L in Anopheles) in Aedes aegypti (Page 4, Page 10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies for kdr mutations in Aedes aegypti are reported for a sample size of 45 individuals (Page 4, Page 5, Figure 4)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquito populations were collected in Lahore, Pakistan (Title, Page 1, Page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies specific collection sites in Lahore, Pakistan, such as Mughulpura and airport areas (Page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact collection years for the mosquitoes used in the study are not explicitly stated in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "There is no indication that this data is part of a larger surveillance network or previously published dataset."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper refers to Supplementary Table S1 for detailed gene expression data and Supplementary Figure S2 for haplotype information (Page 4, Page 5)."
+    },
+    "markers_found": [
+      "Vgsc V410L",
+      "Vgsc S989P",
+      "Vgsc V1016G",
+      "Vgsc F1534C",
+      "Vgsc T1520I"
+    ],
+    "species": [
+      "Aedes aegypti",
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "Pakistan"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 90,
+    "summary": "This study evaluates insecticide resistance and underlying mechanisms in Aedes aegypti and Aedes albopictus from Lahore, Pakistan. It reports bioassay results for several insecticides and genotypes multiple kdr mutations, including V410L. The study is ineligible because it does not focus on Anopheles mosquitoes and the study area is in Pakistan, not Africa.",
+    "exclusion_reasons": [
+      "Not an Anopheles study (focuses on Aedes aegypti and Aedes albopictus).",
+      "Not an African field population (mosquitoes collected in Lahore, Pakistan)."
+    ]
+  }
+}

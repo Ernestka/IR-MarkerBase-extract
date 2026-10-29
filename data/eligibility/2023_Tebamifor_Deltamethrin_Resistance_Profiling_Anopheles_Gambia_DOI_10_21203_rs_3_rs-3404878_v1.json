@@ -1,0 +1,69 @@
+{
+  "id": "2023_Tebamifor_Deltamethrin_Resistance_Profiling_Anopheles_Gambia_DOI_10_21203_rs_3_rs-3404878_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (Page 2, Abstract; Page 8, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes kdr-L1014F (Vgsc L995F) and kdr-L1014S (Vgsc L995S) (Page 4, 6, 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 7 (Page 9) provides genotype counts (RR, RS, SS) for both kdr-W (L1014F) and kdr-E (L1014S) for two populations (Atan and Nestle)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from field sites in Ota, Ogun State, Nigeria (Atan and Nestle) and reared to adulthood (Page 2, 3, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original collection, bioassay, and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific sites in Ota, Nigeria: Atan and Nestle, with coordinates provided (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between November 2022 and March 2023 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is a preprint on Research Square; there is no indication that this data is part of a larger multi-country consortium or previously published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay results are contained within the main text and tables (Tables 5 and 7)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 127,
+    "summary": "The study investigates deltamethrin resistance and kdr mutations (L1014F and L1014S) in Anopheles gambiae s.l. populations from Ota, Nigeria. Larvae were collected from two sites (Atan and Nestle) between November 2022 and March 2023. High levels of resistance to deltamethrin were observed in WHO tube bioassays (mortality < 40%). Genotyping revealed high frequencies of the L1014F (kdr-w) mutation (0.86 in Atan, 0.79 in Nestle) and very low frequency of L1014S (kdr-e).",
+    "exclusion_reasons": []
+  }
+}

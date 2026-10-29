@@ -1,0 +1,71 @@
+{
+  "id": "2022_Soumaila_Countrywide_Insecticide_Resistance_Monitoring_Firs_DOI_10_21203_rs_3_rs-1614094_v2",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae sensu lato (s.l.), including An. coluzzii, An. gambiae s.s., and An. arabiensis (Page 3, Methods and Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes kdr-west (Vgsc L995F), kdr-east (Vgsc L995S), and ace-1 (Ace-1 G280S) (Page 3, 6, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 7) and Table 3 (Page 7) provide genotype counts (RR, RS, SS) and the number of mosquitoes tested for each marker across multiple sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and pupae from field habitats in sixteen sites across Niger in 2019 and 2020 (Page 4, Study sites)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original insecticide resistance monitoring data and the first report of kdr-east in Niger (Page 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for 16 specific localities including Agadez, Balleyara, Boboye, Gaya, Guidimouni, Keita, Madaoua, Madarounfa, Magaria, Matamey, Niamey V, Say, Tchintabaraden, Tessaoua, Tillabery, and Zindarou (Table 2 and 3, Page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 2019 and 2020 (Page 4, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is part of the PMI VectorLink project (Page 1), which conducts routine surveillance, but this appears to be the primary research publication of these specific 2019-2020 results."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "While a supplementary dataset is mentioned (Page 15), the essential genotype counts and sample sizes for the markers are fully provided in Tables 2 and 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Niger"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2764,
+    "summary": "This study reports on countrywide insecticide resistance monitoring in Niger during 2019 and 2020. It provides detailed genotype counts for Vgsc L995F (kdr-w), Vgsc L995S (kdr-e), and Ace-1 G280S across 16 sites. It also includes extensive bioassay data (WHO tube and CDC bottle) for pyrethroids, chlorfenapyr, and PBO synergism. This is the first report of the kdr-east mutation in Niger.",
+    "exclusion_reasons": []
+  }
+}
