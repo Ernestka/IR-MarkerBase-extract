@@ -1,0 +1,72 @@
+{
+  "id": "2023_Ghavami_Comprehensive_Survey_Permethrin_Resistance_Human_PMID36747269",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on human head lice, Pediculus humanus capitis."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports kdr mutations in Pediculus humanus capitis, not Anopheles mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study reports genotype data for Pediculus humanus capitis, not Anopheles mosquitoes."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Iran, which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection districts in Ardebil, East Azerbaijan, West Azerbaijan, and Zanjan Provinces, Iran."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The collection period is stated as 2016–2021, which is a 6-year window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new study of head lice in Iran."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [
+      "Iran"
+    ],
+    "collection_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1450,
+    "summary": "This study investigates permethrin resistance and kdr mutations in human head lice (Pediculus humanus capitis) collected in northwestern Iran. It is ineligible because it does not study Anopheles malaria vectors.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

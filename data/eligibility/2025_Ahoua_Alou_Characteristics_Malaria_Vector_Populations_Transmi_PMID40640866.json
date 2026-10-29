@@ -1,0 +1,69 @@
+{
+  "id": "2025_Ahoua_Alou_Characteristics_Malaria_Vector_Populations_Transmi_PMID40640866",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.l. (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that 'Intense pyrethroid resistance associated with the almost fixed (≥80%) 995F kdr mutation, and overexpression of cytochrome P450 genes have been found in An. gambiae s.l.' (Page 3), but this refers to previous studies [16, 24, 25]. The current study does not report new genotype data for these or any other resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any genotype counts or frequencies for insecticide resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in the Tiébissou district, Côte d’Ivoire (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting entomological data collected in 2023."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the Tiébissou district, Côte d’Ivoire (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between July and August 2023 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new entomological study conducted in 2023."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data, so no supplementary genotype data is needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Côte d’Ivoire"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study characterizes malaria vector populations (An. coluzzii, An. gambiae s.s., and An. funestus) in the Tiébissou district of Côte d’Ivoire prior to a randomized controlled trial of new ITNs. It reports entomological indicators (HBR, SIR, EIR) but does not perform or report any new insecticide resistance marker genotyping.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report any new genotype data for insecticide resistance markers.",
+      "reports_extractable_genotype_data: The paper does not report any genotype counts or frequencies for insecticide resistance markers."
+    ]
+  }
+}

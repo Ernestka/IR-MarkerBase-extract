@@ -1,0 +1,67 @@
+{
+  "id": "2021_Chanyalew_Composition_Mosquito_Fauna_Insecticide_Resistance_DOI_10_21203_rs_3_rs-739196_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the Anopheles gambiae complex, specifically identifying Anopheles arabiensis (page 2, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports on the knockdown resistance (kdr) L1014F mutation (page 2, Results; page 6, Table 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 6 provides genotype counts (SS, RS, RR) for An. arabiensis populations tested against deltamethrin and alpha-cypermethrin (page 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and adults from Itang special woreda, Gambella, southwestern Ethiopia (page 2, Materials and methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating mosquito fauna composition and insecticide resistance status (page 2, Introduction)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for Itang special woreda (district) in the Gambella region of Ethiopia (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were sampled from September 2020 to February 2021 (page 2, Materials and methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine new collections in a specific district of Ethiopia and does not mention being part of a larger consortium or previously published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are contained within the main text and tables (specifically Table 6)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 86,
+    "summary": "This study investigated the species composition and insecticide resistance status of Anopheles mosquitoes in Itang special woreda, Ethiopia, between September 2020 and February 2021. Anopheles arabiensis was the only member of the An. gambiae complex identified. WHO susceptibility tests showed resistance to deltamethrin and alpha-cypermethrin, but susceptibility to bendiocarb, propoxur, and pirimiphos-methyl. The Vgsc L1014F (kdr-west) mutation was detected at high frequencies (67-88%), and genotype counts (SS, RS, RR) were reported for both survivors and dead mosquitoes from the pyrethroid bioassays.",
+    "exclusion_reasons": []
+  }
+}

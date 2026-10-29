@@ -1,0 +1,67 @@
+{
+  "id": "2016_Samb_Investigating_Molecular_Basis_Lambda_Cyhalothrin_PMID27519696",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus (s.s.) populations."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping of the VGSC gene (specifically the 1014 codon) in Anopheles funestus."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper states that 10 field-collected female mosquitoes were sequenced and that 'Neither the L1014F kdr mutation nor the L1014S mutation was detected' and 'the VGSC gene sequencing analysis detected only the TTA 1014 codon'."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Gankette Balla, Senegal."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field collections and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study location is Gankette Balla, northern Senegal."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were made in November 2011."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection and analysis of Anopheles funestus from Gankette Balla, Senegal."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data regarding the absence of kdr mutations is provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 10,
+    "summary": "This study investigated insecticide resistance in Anopheles funestus from Gankette Balla, Senegal. Bioassays showed resistance to pyrethroids and DDT. Molecular analysis of the VGSC gene in 10 field-collected females confirmed the absence of L1014F and L1014S kdr mutations.",
+    "exclusion_reasons": []
+  }
+}

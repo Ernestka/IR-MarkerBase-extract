@@ -1,0 +1,74 @@
+{
+  "id": "2024_Raharinjatovo_Physical_Insecticidal_Durability_Interceptor_Inter_PMID38835017",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 5: 'Bioassays were conducted in line with the Innovation to Impact SOPs... using insecticide-susceptible Anopheles gambiae Kisumu mosquitoes and pyrethroid-resistant Anopheles coluzzii VKPER strain.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 11: 'PCR confirmed that the strain was An. coluzzii and had a high, but not fixed, frequency of knockdown resistance (KDR) west (L1014F) mutation but no presence of the kdr east (L1014S) mutation.'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable field population genotype data (counts or frequencies) are reported in the paper; PCR genotyping was only mentioned for characterization of the laboratory VKPER strain."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study evaluates long-lasting insecticidal net (LLIN) durability and only uses laboratory colony strains (Kisumu and VKPER) for bioassays. No field-collected mosquitoes were genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical prospective cohort study on ITN durability in Burkina Faso."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 3: 'Banfora health district in Comoé province... Gaoua health district in Poni province... Orodara health district in Kénédougou province'."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 4: Follow-up surveys took place between December 2019 and August 2022."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Standard prospective ITN durability monitoring study in Burkina Faso."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary materials are not needed as no field mosquito genotyping was performed."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study monitored the physical and insecticidal durability of three ITN brands (Interceptor, Interceptor G2, and PermaNet 3.0) in three health districts in Burkina Faso from 2019 to 2022. Bioassays on withdrawn nets were conducted exclusively using insectary-reared laboratory colony strains (An. gambiae Kisumu and An. coluzzii VKPER). Because no field-caught Anopheles populations were genotyped, the paper is ineligible.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data for field populations (reports_extractable_genotype_data)",
+      "Only laboratory colony mosquito strains were genotyped/tested (african_field_population)"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2023_Betancourth_Diffuse_Reflectance_Spectroscopy_Predicting_Age_DOI_10_21203_rs_3_rs-2677519_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae and Anopheles coluzzii."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the presence of kdr (L1014F) and Ace-1 (G119S) mutations in the Tiassale strain (page 11), but it does not report genotype counts or frequencies for these markers in any population. It is a spectroscopy study, not a genotyping study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are provided for any markers."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-reared strains (Kisumu, Ngousso, Tiassale) maintained at the University of Glasgow, not field-caught mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study on spectroscopy."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses laboratory colonies, not field-collected samples."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as no field data is collected."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses standard laboratory strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 344,
+    "summary": "This study evaluates the use of micro-diffuse reflectance spectroscopy (µDRIFT) on mosquito legs to predict species, age, and cuticular insecticide resistance in laboratory-reared Anopheles gambiae and An. coluzzii strains. It does not perform or report new genotype data for resistance markers.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

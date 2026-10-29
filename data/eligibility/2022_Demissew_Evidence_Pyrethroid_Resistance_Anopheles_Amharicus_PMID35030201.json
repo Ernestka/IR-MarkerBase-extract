@@ -1,0 +1,67 @@
+{
+  "id": "2022_Demissew_Evidence_Pyrethroid_Resistance_Anopheles_Amharicus_PMID35030201",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles amharicus and Anopheles arabiensis (Anopheles gambiae s.l. complex) in Ethiopia."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for the Vgsc L995F (kdr-west) marker (page 6, 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports the number of mosquitoes genotyped for kdr-west (n=141) and provides the results (none were positive for the mutation) on page 9."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in the Arjo-Didessa sugarcane irrigation area, Ethiopia (page 3, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical research article."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the Arjo-Didessa sugarcane irrigation area, Oromia Region, Ethiopia (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection period is explicitly stated as September to November 2019 (page 3, 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of mosquitoes in 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including sample sizes and results, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles amharicus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 141,
+    "summary": "This study investigated insecticide resistance in Anopheles amharicus and Anopheles arabiensis from the Arjo-Didessa sugarcane irrigation area in Ethiopia. The study performed WHO susceptibility tests and genotyped 141 mosquitoes for the kdr-west (L1014F) mutation. No kdr-west mutations were detected in the samples.",
+    "exclusion_reasons": []
+  }
+}

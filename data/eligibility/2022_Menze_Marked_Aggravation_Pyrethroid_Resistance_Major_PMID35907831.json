@@ -1,0 +1,77 @@
+{
+  "id": "2022_Menze_Marked_Aggravation_Pyrethroid_Resistance_Major_PMID35907831",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus group and Anopheles gambiae complex mosquitoes collected in Malawi (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for CYP6P9a, CYP6P9b, GSTe2, 6.5 kb structural variants, GABA-RDL A296S, and Ace-1 N485I in An. funestus, and L1014S-KdrE, L1014F-kdrW, N1575Y, and G119S-ace-1 in An. gambiae (page 4, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts (RR, RS, SS) are provided for An. funestus markers in Figure 4B and Figure 8 (page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Chikwawa, Malawi (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field collections and laboratory analyses (page 1, 4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites in Chikwawa district, Malawi, including Npangeni, Medrum I, and Medrum II (page 2, 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collections carried out in June 2021 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections from 2021, distinct from the 2009 and 2014 data mentioned for comparison (page 1, 3)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype counts and bioassay data are provided in the main text and figures."
+    },
+    "markers_found": [
+      "Cyp6p9a R",
+      "Cyp6p9b R",
+      "GSTe2 L119F",
+      "Cyp6p9a/b 6.5kb-SV",
+      "Rdl A296S",
+      "Ace-1 N485I",
+      "Vgsc L995S",
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Malawi"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 99,
+    "summary": "This study investigates the intensity of insecticide resistance in Anopheles funestus and Anopheles gambiae complex mosquitoes in Chikwawa, Malawi, collected in 2021. It reports high levels of pyrethroid and carbamate resistance, links this to P450 gene overexpression and specific resistance markers (CYP6P9a/b, 6.5kb SV, Ace-1 N485I, GSTe2), and evaluates the efficacy of various bed nets.",
+    "exclusion_reasons": []
+  }
+}

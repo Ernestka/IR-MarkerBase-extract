@@ -1,0 +1,76 @@
+{
+  "id": "2025_Vulu_Malaria_Entomological_Surveillance_Kinshasa_Provin_DOI_10_64898_2025_12_22_695884",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles mosquitoes (An. gambiae s.l., An. paludis, An. funestus) in Kinshasa Province, DRC (page 2, lines 35-37)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the Vgsc L1014F (kdr-west) mutation (page 2, line 41; page 18, lines 348-354)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports the total number of An. gambiae s.l. specimens genotyped (n=709) and the frequency of the L1014F mutation (0.944) (page 18, lines 349-351)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted on field-caught adult Anopheles mosquitoes in Kinshasa Province, DRC (page 2, lines 29-31)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a prospective observational cohort study (2018-2022) (page 2, line 29)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in three health areas (Bu, Kimpoko, and Voix du Peuple) in Kinshasa Province (page 5, lines 104-105)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study was conducted over a four-year period (2018-2022) (page 2, line 29)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is a new longitudinal cohort study (2018-2022) in Kinshasa, distinct from previous surveillance studies cited in the references."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data (total genotyped and frequency) is provided in the main text (page 18, lines 349-351)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles paludis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 709,
+    "summary": "This study conducted a four-year longitudinal entomological surveillance in Kinshasa, DRC, from 2018 to 2022. It characterized mosquito species composition, abundance, biting behavior, and insecticide resistance. The study found high resistance to pyrethroids and near-fixation of the L1014F kdr mutation in An. gambiae s.l. populations.",
+    "exclusion_reasons": [
+      "temporal_resolution_within_3y"
+    ]
+  }
+}

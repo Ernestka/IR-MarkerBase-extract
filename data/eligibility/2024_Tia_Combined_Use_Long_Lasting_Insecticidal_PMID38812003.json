@@ -1,0 +1,72 @@
+{
+  "id": "2024_Tia_Combined_Use_Long_Lasting_Insecticidal_PMID38812003",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and other Anopheles species in northern Côte d'Ivoire."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that the local An. gambiae complex has high frequencies of kdr mutations and moderate frequencies of the ace-1 allele (page 3), but it cites a previous study (Zogo et al. 2019) for these data. The current study does not report new genotype data for these or any other resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype counts or frequencies for resistance markers for the mosquitoes collected in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in four rural villages in the department of Napiélédougou, Côte d'Ivoire."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the impact of Bti larviciding combined with LLINs."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies four villages: Kakologo, Kolékaha, Lofinékaha, and Nambatiourkaha in the Napiélédougou department."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from March 2019 to February 2020."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new field trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any resistance marker genotype data, so no supplementary data is needed for this purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles funestus",
+      "Anopheles nili"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the impact of Bti larviciding combined with LLINs on malaria transmission in northern Côte d'Ivoire. While it mentions insecticide resistance (kdr and ace-1) in the background, it cites previous work for these data and does not perform or report any new genotyping of resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report new genotype data for resistance markers; it only cites previous studies for existing resistance data.",
+      "reports_extractable_genotype_data: No genotype data (counts or frequencies) for resistance markers are provided for the study population."
+    ]
+  }
+}

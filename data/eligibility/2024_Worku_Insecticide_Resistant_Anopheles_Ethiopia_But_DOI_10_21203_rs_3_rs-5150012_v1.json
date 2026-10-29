@@ -1,0 +1,70 @@
+{
+  "id": "2024_Worku_Insecticide_Resistant_Anopheles_Ethiopia_But_DOI_10_21203_rs_3_rs-5150012_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae, Anopheles coluzzii, and Anopheles arabiensis (page 3, 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotype frequencies for kdr-L995F and ACE-1 (page 6, Figure 1B)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 1B provides pie charts showing the frequency of kdr-L995F genotypes (LL, LF, FF) for different populations, with total sample sizes (e.g., Total=15, Total=16) provided under each chart."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-caught mosquitoes from Tiefora, Burkina Faso and Bahirdar, Ethiopia (page 5, 10)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research article reporting original 16S sequencing and RNAseq data (page 1, 4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites as Tiefora, Burkina Faso and Bahirdar, Ethiopia (page 10)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections were carried out from 7th July to 2nd August 2021 in Burkina Faso and from 28th July to 6th August 2021 in Ethiopia (page 10)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections and experiments."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in Figure 1B."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 441,
+    "summary": "This study investigates the microbiome composition and transcriptomic profiles of insecticide-resistant Anopheles mosquitoes from Burkina Faso and Ethiopia. It reports kdr-L995F and ACE-1 genotype frequencies in field-caught populations and links microbiome diversity to insecticide resistance in An. arabiensis from Ethiopia.",
+    "exclusion_reasons": []
+  }
+}

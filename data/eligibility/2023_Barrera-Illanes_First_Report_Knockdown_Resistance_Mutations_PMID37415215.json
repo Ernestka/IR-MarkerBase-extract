@@ -1,0 +1,71 @@
+{
+  "id": "2023_Barrera-Illanes_First_Report_Knockdown_Resistance_Mutations_PMID37415215",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper studies Aedes aegypti, which is not an Anopheles species."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Vgsc V1016I and F1534C mutations in Aedes aegypti."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides genotype frequencies and sample sizes for 11 populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study is conducted in Argentina, which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides specific locations (e.g., La Plata Zoo, Tartagal, Calilegua National Park)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling was performed in 2018 and 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new field collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc V1016I",
+      "Vgsc F1534C"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Argentina"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 287,
+    "summary": "This study reports the development of a multiplex high-resolution melting (mHRM) assay to genotype V1016I and F1534C mutations in Aedes aegypti populations from Argentina. The study is ineligible because it focuses on Aedes aegypti, not Anopheles, and is conducted in South America, not Africa.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "african_field_population"
+    ]
+  }
+}

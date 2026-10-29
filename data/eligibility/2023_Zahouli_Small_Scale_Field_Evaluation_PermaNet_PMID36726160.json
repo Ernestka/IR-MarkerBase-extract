@@ -1,0 +1,67 @@
+{
+  "id": "2023_Zahouli_Small_Scale_Field_Evaluation_PermaNet_PMID36726160",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-29",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of LLINs against Anopheles gambiae sensu lato (s.l.) (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the presence of kdr and ace-1R mutations in the Tiassalé population (page 3, page 5), but it does not report any new genotype data (counts or frequencies) for these markers in the study population. It only cites previous studies for these frequencies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype counts or frequencies for the mosquitoes used in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Anopheles gambiae s.l. from Tiassalé, Côte d'Ivoire (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial and laboratory bioassay study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the health district of Tiassalé, Côte d'Ivoire (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from March to August 2020 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data, so no supplementary data is needed for this purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the efficacy of PermaNet Dual (chlorfenapyr + deltamethrin) against pyrethroid-resistant Anopheles gambiae s.l. (specifically An. coluzzii) in experimental huts in Tiassalé, Côte d'Ivoire. While it mentions the presence of kdr and ace-1R resistance markers in the local population, it does not generate or report any new genotype data for these markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: No new genotype data reported.",
+      "reports_extractable_genotype_data: No genotype data provided."
+    ]
+  }
+}
