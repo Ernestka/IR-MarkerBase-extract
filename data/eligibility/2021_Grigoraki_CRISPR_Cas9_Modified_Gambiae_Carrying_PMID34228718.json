@@ -1,0 +1,65 @@
+{
+  "id": "2021_Grigoraki_CRISPR_Cas9_Modified_Gambiae_Carrying_PMID34228718",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated CRISPR/Cas9 genome-edited Anopheles gambiae mosquitoes (Kisumu strain)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper functionally characterizes the Vgsc L1014F (L995F) target-site mutation."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No field-collected mosquito populations were genotyped or reported with extractable allele/genotype frequencies."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted exclusively on laboratory-maintained and genetically modified lines (Kisumu strain and its derivatives). No field sampling in Africa was conducted."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study generating novel CRISPR-edited mosquito lines and bioassay data."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection sites exist in this study."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates exist."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study generated novel CRISPR/Cas9 edited laboratory mosquito lines."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are not needed because the paper is ineligible due to lack of field populations."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses CRISPR/Cas9 genome editing to functionally validate the Vgsc L1014F (L995F) resistance marker in an insecticide-susceptible Anopheles gambiae laboratory strain (Kisumu). Because the research was conducted entirely using laboratory strains and contains no African field population sampling or genotype data, it is ineligible.",
+    "exclusion_reasons": [
+      "Study evaluated laboratory strains/CRISPR-edited lines only (no African field populations).",
+      "Does not report extractable genotype frequency or count data for wild African field populations."
+    ]
+  }
+}
