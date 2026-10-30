@@ -1,0 +1,81 @@
+{
+  "id": "2024_Nagi_Parallel_Evolution_Mosquito_Vectors_Duplicated_PMID38352547",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae, Anopheles coluzzii, and Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper investigates copy number variants (CNVs) at the Coeae1f/2f locus and mentions Ace1, but it does not report genotype counts or frequencies for any of the specific tier 1 or tier 2 markers listed in the instructions (e.g., Vgsc SNPs, Ace-1 G280S, Rdl SNPs, etc.)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports CNV frequencies and associations with phenotype, but does not provide genotype counts (RR/RS/SS) or allele counts for the required resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses whole-genome sequence data from 2431 mosquitoes collected across eight countries in sub-Saharan Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using genomic data to identify resistance mechanisms."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper mentions specific locations such as Baguida (Togo), Obuasi (Ghana), Aboisso (Côte d'Ivoire), and Madina (Ghana)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study uses cohorts split into early (2012-2015) and late (2017-2018) periods, which are within 3-year windows."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states: 'These data are public through the MalariaGEN Vector Observatory (Clarkson et al., 2020) and GAARD projects (Lucas et al., 2023)' and 'We used a subset of whole genome sequence variation data from phase 3 of the Anopheles 1000 genomes project and a recent GWAS study in West Africa'."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper refers to 'Supplementary Table 3' for read counts and 'Supplementary Table 4' for diplotype cluster summaries, which are not provided in the PDF."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Mali",
+      "Burkina Faso",
+      "Benin",
+      "Togo",
+      "Ghana",
+      "Côte d'Ivoire",
+      "Guinea",
+      "Tanzania"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 2431,
+    "summary": "This study investigates copy number variation at the Coeae1f/2f locus in Anopheles gambiae s.l. as a potential mechanism for pirimiphos-methyl resistance, using whole-genome sequencing data from 2431 mosquitoes across eight African countries. It identifies associations between CNVs and resistance in West African populations but does not report genotype data for the standard insecticide resistance markers required for eligibility.",
+    "exclusion_reasons": [
+      "Does not report genotype counts or frequencies for any of the required insecticide-resistance markers (e.g., Vgsc SNPs, Ace-1 G280S, etc.)."
+    ]
+  }
+}

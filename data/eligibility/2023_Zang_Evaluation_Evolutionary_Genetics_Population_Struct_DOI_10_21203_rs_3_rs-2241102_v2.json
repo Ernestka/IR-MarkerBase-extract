@@ -1,0 +1,69 @@
+{
+  "id": "2023_Zang_Evaluation_Evolutionary_Genetics_Population_Struct_DOI_10_21203_rs_3_rs-2241102_v2",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Culex pipiens pallens, which is a Culicinae mosquito, not an Anopheles species."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports kdr mutations in Culex pipiens pallens, which are not among the required Anopheles-specific markers listed in the instructions."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts for L1014 mutations in Culex pipiens pallens."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Shandong province, China."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving field collection and genetic analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for specific cities/districts in Shandong province (e.g., Zibo, Linyi, Yantai, Qingdao, Rizhao, Heze, Liaocheng, Dezhou, Dongying)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection period is stated as 2021-2022."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections from 2021-2022."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex pipiens pallens"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 263,
+    "summary": "This study investigates kdr mutations and population structure in Culex pipiens pallens from Shandong province, China. It is ineligible because it does not study Anopheles mosquitoes and is not based in Africa.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "african_field_population"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+study_id: 2013_Witzig_Identifying_Permethrin_Resistance_Loci_Malaria_PMID23448678
+title: Identifying permethrin resistance loci in malaria vectors by genetic mapping
+first_author: Claudia Witzig
+doi: 10.1017/S0031182013000024
+pmid: '23448678'
+publication_year: 2013
+countries:
+- Benin
+data_source: pub_med
+provenance:
+  source_text: Identifying permethrin resistance loci in malaria vectors by genetic
+    mapping. Parasitology (2013), 140, 1468-1477.
+  page: '1468'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-10-30'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,69 @@
+{
+  "id": "2023_Agbevo_Community_Evaluation_Physical_Insecticidal_Durabil_PMID37986195",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l., Anopheles funestus, and Anopheles gambiae s.s. as malaria vectors."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a study protocol and does not report any genotype data for insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a protocol and does not contain any genotype data."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study involves field sites in Benin, Cameroon, and Tanzania."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study protocol."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies districts and villages in Benin, Cameroon, and Tanzania (Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study is a 3-year longitudinal trial."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new study protocol."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a protocol and does not contain data to be extracted."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon",
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a study protocol for a multi-country trial evaluating the physical and insecticidal durability of DuraNet Plus nets in Benin, Cameroon, and Tanzania. It does not report any empirical genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

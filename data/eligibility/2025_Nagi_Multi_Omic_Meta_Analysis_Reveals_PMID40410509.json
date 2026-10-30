@@ -1,0 +1,85 @@
+{
+  "id": "2025_Nagi_Multi_Omic_Meta_Analysis_Reveals_PMID40410509",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae, An. coluzzii, An. arabiensis, and An. funestus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a meta-analysis of transcriptomic (RNA-Seq) and whole-genome sequencing data. While it discusses resistance markers (e.g., Kdr, Ace-1) and integrates whole-genome sequence data from the Anopheles 1000 genomes project to identify selective sweeps, it does not report primary genotype counts or frequencies for specific resistance markers in the populations studied."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper performs a meta-analysis of gene expression data. It does not provide primary genotype counts (RR/RS/SS) or allele frequencies for resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses transcriptomic data from field-collected mosquitoes across sub-Saharan Africa."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a meta-analysis of previously published transcriptomic and genomic datasets."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper references specific collection locations (e.g., Burkina Faso, Cote D'Ivoire, Kenya, Uganda, Tanzania, etc.) for the datasets included in the meta-analysis."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The genomic cohorts were collected between 2012 and 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it is a meta-analysis of 28 individual experiments from previously published studies (e.g., 'We performed a differential expression meta-analysis on read count data from 28 RNA-sequencing datasets representing insecticide-resistant Anopheles populations from 11 countries in sub-Saharan Africa (34–40)')."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a meta-analysis and does not contain primary genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Democratic Republic of Congo",
+      "Uganda",
+      "Cote D'Ivoire",
+      "Kenya",
+      "Tanzania",
+      "Niger",
+      "Nigeria",
+      "Ghana"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a meta-analysis of transcriptomic and genomic data from previously published studies on insecticide resistance in African malaria vectors. It does not report primary genotype data for resistance markers.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (it is a meta-analysis of previously published data).",
+      "Does not report primary genotype counts or frequencies for insecticide-resistance markers."
+    ]
+  }
+}

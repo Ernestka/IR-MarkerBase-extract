@@ -1,0 +1,82 @@
+{
+  "id": "2025_Tapsoba_Three_Year_Trends_Malaria_Transmission_PMID41408283",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles mosquitoes (An. gambiae s.l. and An. funestus s.l.) in Burkina Faso."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report any genotype data for insecticide-resistance markers. It mentions resistance in the background and references previous studies on resistance, but does not perform or report new genotyping of markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies for resistance markers are provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted on field-collected mosquitoes in Burkina Faso."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating entomological outcomes of ITN deployment."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies three health districts (Banfora, Gaoua, Orodara) and nine specific villages (e.g., Tengrela, Tiéfora, Panga)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers a period from August 2019 to February 2022, which is approximately 2.5 years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new longitudinal study of ITN deployment."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not contain genotype data in the main text or supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles funestus s.l.",
+      "Anopheles arabiensis",
+      "Anopheles rufipes",
+      "Anopheles nili",
+      "Anopheles ziemanni",
+      "Anopheles pharoensis",
+      "Anopheles coustani",
+      "Anopheles moucheti",
+      "Anopheles obscurus",
+      "Anopheles flavicosta",
+      "Anopheles wellcomei"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 73101,
+    "summary": "This study evaluated the entomological impact of three different types of ITNs (Interceptor G1, Interceptor G2, and PermaNet 3.0) in three districts of Burkina Faso over 32 months. While it provides extensive data on vector density, HBR, SIR, and EIR, it does not report any insecticide-resistance marker genotype data.",
+    "exclusion_reasons": [
+      "reports_target_markers"
+    ]
+  }
+}

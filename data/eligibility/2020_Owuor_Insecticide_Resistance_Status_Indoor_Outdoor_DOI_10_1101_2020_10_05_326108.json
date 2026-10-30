@@ -1,0 +1,71 @@
+{
+  "id": "2020_Owuor_Insecticide_Resistance_Status_Indoor_Outdoor_DOI_10_1101_2020_10_05_326108",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated field-collected Anopheles gambiae s.s., Anopheles arabiensis, and Anopheles funestus s.s. from Western Kenya (page 2, lines 42-46; page 9, lines 218-225)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014S (L995S), Vgsc L1014F (L995F), Vgsc N1575Y (N1570Y), and Ace-1 G119S (G280S) using TaqMan assays (page 8, lines 191-193; page 27, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 27) reports allele frequencies for Vgsc L1014S, L1014F, 1575Y, and Ace-1 G119S along with sample size (n) for indoor and outdoor populations of An. gambiae s.s. and An. arabiensis."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Resting adult mosquitoes were collected from household indoor units and outdoor pit/pot shelters in Kisian (Kisumu county) and Kimaeti (Bungoma county), Western Kenya in 2019 (page 5, lines 120-136)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical field study investigating insecticide resistance status, metabolic enzyme levels, and marker frequencies in wild vector populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific study sites with GPS coordinates reported: Kisian (0.0749° S, 34.6663° E) in Kisumu county and Kimaeti (0.6029° N, 34.4073° E) in Bungoma county, Kenya (page 5, lines 120-122)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during the long (May-July) and short (October-November) rainy seasons of 2019 (page 5, lines 132-133)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No evidence that these sample collections overlap with previously published primary datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary genotype frequency data, sample sizes, and bioassay results are completely detailed in the main text and Tables 1-2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 176,
+    "summary": "This primary study examined phenotypic insecticide resistance, synergistic effect of PBO, detoxification enzyme levels, and resistance marker frequencies (Vgsc L1014S, L1014F, N1575Y, and Ace-1 G119S) in indoor vs. outdoor resting populations of An. gambiae s.s., An. arabiensis, and An. funestus from Kisian and Kimaeti in Western Kenya in 2019.",
+    "exclusion_reasons": []
+  }
+}

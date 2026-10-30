@@ -1,0 +1,81 @@
+{
+  "id": "2022_Santos_Phylogenetic_Relationships_Supercontig_Sodium_Chan_PMID36287479",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study analyzes 17 species of the genus Anopheles, including An. gambiae, An. coluzzii, and An. funestus (Abstract, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "While the paper discusses kdr mutations (L1014F/S) in the introduction (page 2), it does not genotype or report the status of these specific markers in the sequences used; it performs a phylogenetic analysis of the entire NaV subunit I scaffold."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts, allele counts, or frequencies for any population. It uses single representative sequences (accession numbers in Table 1) for phylogenetic inference."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses genomic sequences obtained from the VectorBase database (Table 1, page 3) rather than primary field collections. No new field samples were collected or genotyped for this study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a bioinformatic study that re-analyses previously published genomic data from VectorBase to infer phylogeny (Methods, page 2)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection sites are reported as the data is from a public database."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates are provided for the sequences used."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is an original phylogenetic analysis, though it uses publicly available genomic data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study is entirely based on the sequences listed in Table 1; no additional field data is missing."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles melas",
+      "Anopheles merus",
+      "Anopheles christyi",
+      "Anopheles epiroticus",
+      "Anopheles stephensi",
+      "Anopheles minimus",
+      "Anopheles culicifacies",
+      "Anopheles maculatus",
+      "Anopheles dirus",
+      "Anopheles atroparvus",
+      "Anopheles sinensis",
+      "Anopheles albimanus",
+      "Anopheles darlingi"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study presents a phylogenetic analysis of the voltage-gated sodium channel (NaV) subunit I scaffold across 17 Anopheles species. The researchers used orthologous sequences retrieved from VectorBase to construct a Bayesian phylogenetic tree. The study does not report insecticide resistance marker frequencies or genotype data from field populations, focusing instead on the evolutionary relationships and selection pressure on the NaV gene.",
+    "exclusion_reasons": [
+      "No extractable genotype data for target markers",
+      "Not a study of African field populations (uses database sequences)",
+      "Focus is phylogenetic analysis of genomic sequences, not insecticide resistance monitoring",
+      "Re-analysis of previously published genomic data"
+    ]
+  }
+}

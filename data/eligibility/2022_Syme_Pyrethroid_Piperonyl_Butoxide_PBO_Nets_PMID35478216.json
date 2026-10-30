@@ -1,0 +1,67 @@
+{
+  "id": "2022_Syme_Pyrethroid_Piperonyl_Butoxide_PBO_Nets_PMID35478216",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (specifically sympatric An. coluzzii and An. gambiae s.s.) in experimental huts and bioassays in Covè, Benin (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No resistance markers were genotyped in this study. The presence of the L1014F mutation (>90%) is merely cited from past literature (reference 33, Ngufor et al. 2015) in the study site description (page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies were determined or reported for this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild Anopheles gambiae s.l. entering experimental huts or collected as field larvae and tested as F1 adults were from Covè, southern Benin (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating experimental hut trials, tunnel tests, and WHO bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the CREC/LSHTM experimental hut station in Covè, southern Benin (7°14'N, 2°18'E) (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Experimental hut trials were performed over 4 months between April and July 2020 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard experimental hut trial and bioassay study conducted at a field station in Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary Table S1 only contains additional tunnel test bioassay data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy and potential antagonism of combining pyrethroid-PBO ITNs with pirimiphos-methyl IRS in experimental huts against wild pyrethroid-resistant An. gambiae s.l. in Covè, Benin. No target resistance markers were genotyped in the study (L1014F was only cited from previous work), rendering the paper ineligible.",
+    "exclusion_reasons": [
+      "No target insecticide resistance markers were genotyped in this study; previous findings of L1014F frequency were only cited from earlier literature."
+    ]
+  }
+}

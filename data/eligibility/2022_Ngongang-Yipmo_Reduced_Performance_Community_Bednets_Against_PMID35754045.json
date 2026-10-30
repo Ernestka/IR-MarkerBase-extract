@@ -1,0 +1,71 @@
+{
+  "id": "2022_Ngongang-Yipmo_Reduced_Performance_Community_Bednets_Against_PMID35754045",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus and Anopheles gambiae s.l. (page 1, 4, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for GSTe2 L119F, CYP6P9a, and Vgsc L1014F (kdr-west) and N1575Y (page 5, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts are provided for L119F-GSTe2 in An. funestus (page 8) and L1014F-kdr in An. gambiae (page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Elendé village and Yaoundé, Cameroon (page 3, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collections and laboratory bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for Yaoundé and Elendé village, Cameroon (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 2019 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and experiments conducted in 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in the main text."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Vgsc L995F",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 351,
+    "summary": "This study evaluated the efficacy of various LLINs against field-collected Anopheles funestus and Anopheles gambiae s.l. in Cameroon. It also assessed the impact of insecticide resistance markers (GSTe2 L119F, CYP6P9a, and kdr mutations) on mosquito longevity post-exposure to LLINs.",
+    "exclusion_reasons": []
+  }
+}

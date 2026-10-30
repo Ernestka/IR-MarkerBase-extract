@@ -1,0 +1,76 @@
+{
+  "id": "2023_NGUIFFO-NGUETE_Evidence_Intensification_Pyrethroid_Resistance_Maj_DOI_10_21203_rs_3_rs-2893935_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 3: 297 adult female Anopheles mosquitoes (55.5% An. gambiae s.l and 44.5% An. funestus s.s) were collected indoor in Ndjili-Brasserie."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 5: Genotyped L1014F-KdrW (Vgsc L995F), L1014S-KdrE (Vgsc L995S), N1575Y-kdr (Vgsc N1570Y), G119S-Ace1 (Ace-1 G280S) in An. gambiae s.l., and A296S-RDL (Rdl A296S), 119F-GSTe2 (GSTe2 L119F), Cyp6P9a_R, Cyp6P9b_R, and 6.5kb-SV in An. funestus s.s."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5 & Figures 4 and 5 report precise genotype frequencies for F0 females genotyped in 2021 (e.g. An. gambiae L1014F: 98.3% RR, 1.7% SS; L1014S: 89.9% SS, 8.4% RS, 1.7% RR; An. funestus GSTe2 119F: 70.5% RR, 19.6% RS, 9.8% SS; RDL 296S: 2% RR, 26.4% RS, 71.6% SS) with total sample sizes given (N=60 per species group)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 9: Mosquitoes were collected in July 2021 inside households at Ndjili-Brasserie, a suburb of Kinshasa, Democratic Republic of Congo."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting field collections and laboratory genotyping/bioassays conducted in 2021."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 9: Ndjili-Brasserie, Kinshasa (4°19′39″S, 15°18′48″E), Democratic Republic of Congo."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 9: Adult Anopheles female mosquitoes were collected in July 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study collects new primary data in 2021 and compares it to previously published 2015 baseline data from the same location."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype counts, frequencies, sample sizes, and bioassay data are reported in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S",
+      "Rdl A296S",
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Cyp6p9b R",
+      "Cyp6p9a/b 6.5kb-SV"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Democratic Republic of Congo"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 297,
+    "summary": "This study evaluated insecticide resistance escalation in An. gambiae s.l. and An. funestus s.s. collected in July 2021 in Ndjili-Brasserie, Kinshasa, Democratic Republic of Congo. Target site resistance markers (Vgsc L995F, L995S, N1570Y, Ace-1 G280S, Rdl A296S, GSTe2 L119F, Cyp6p9a_R, Cyp6p9b_R, and Cyp6p9a/b 6.5kb-SV) were genotyped in field-caught F0 females, showing high frequencies of L995F in An. gambiae (98.3% RR) and L119F in An. funestus (70.5% RR).",
+    "exclusion_reasons": []
+  }
+}

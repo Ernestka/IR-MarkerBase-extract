@@ -1,0 +1,71 @@
+{
+  "id": "2022_Pusawang_Insecticide_Susceptibility_Status_Anopheles_Aedes_PMID36354859",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study includes Anopheles minimus s.l. and Anopheles maculatus s.l."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper only reports Vgsc V1016G and F1534C mutations in Aedes aegypti. No markers are reported for the Anopheles species studied."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Genotype data is only provided for Aedes aegypti, not for the Anopheles species."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Thailand, which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducted by the authors."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies two villages: Suan Oi and Tala Oka in Tha Song Yang District, Tak Province, Thailand."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from December 2019 to April 2020."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study appears to be a new collection of mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles minimus s.l.",
+      "Anopheles maculatus s.l.",
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Thailand"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 5764,
+    "summary": "This study assessed the insecticide susceptibility of Anopheles minimus s.l., Anopheles maculatus s.l., and Aedes aegypti in two villages in Tak Province, Thailand. While bioassays were performed on all species, molecular genotyping for kdr markers was only performed on Aedes aegypti. The study is ineligible because it does not report resistance markers for the Anopheles vectors and is not based in Africa.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

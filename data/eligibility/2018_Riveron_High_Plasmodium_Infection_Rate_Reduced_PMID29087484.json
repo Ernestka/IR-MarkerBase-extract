@@ -1,0 +1,71 @@
+{
+  "id": "2018_Riveron_High_Plasmodium_Infection_Rate_Reduced_PMID29087484",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.s. (page 1, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F), Vgsc L995S (L1014S), GSTe2 L119F, and Rdl A296S (page 2, Methods; page 4, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies are provided for An. gambiae (1014F/S) and An. funestus (L119F, A296S) in the text and figures (e.g., page 4: 1014F frequency 87.8% [195/222]; page 6: Figure 5A/B showing genotype distributions)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Ndjili-Brasserie, Kinshasa, Democratic Republic of Congo (page 1, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study characterizing insecticide resistance and Plasmodium infection in field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collected at Ndjili-Brasserie, a suburb of Kinshasa (4°19′39″S, 15°18′48″E) (page 1, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in May 2015 (page 1, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific new collection in Kinshasa in 2015."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296S",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 222,
+    "summary": "This study characterizes insecticide resistance and Plasmodium infection in Anopheles gambiae and Anopheles funestus from Kinshasa, DRC, collected in 2015. It reports high frequencies of kdr mutations (L1014F/S) in An. gambiae and GSTe2 L119F in An. funestus, alongside bioassay results showing high resistance to pyrethroids and DDT.",
+    "exclusion_reasons": []
+  }
+}
