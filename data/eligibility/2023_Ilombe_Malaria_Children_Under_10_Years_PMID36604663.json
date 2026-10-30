@@ -1,0 +1,72 @@
+{
+  "id": "2023_Ilombe_Malaria_Children_Under_10_Years_PMID36604663",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study identifies and tests Anopheles funestus s.l., Anopheles gambiae s.l., Anopheles nili, Anopheles paludis, and Anopheles coustani (Table 3, Page 7)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports on Vgsc L1014F (kdr-west) and L1014S (kdr-east) mutations (Abstract, Page 1; Table 5, Page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies and counts for L1014F and L1014S are provided for 200 An. gambiae s.s. mosquitoes (Abstract, Page 1; Table 5, Page 9)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 30 villages in the Kisantu Health Zone, Kongo Central Province, Democratic Republic of the Congo (Page 4, Entomological survey)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing original entomological and epidemiological data collected in 2017 and 2018."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for the Kisantu Health Zone, with specific villages named such as Boko I, Kifua, and Kinkuanga (Table 3, Figure 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Entomological collections were conducted in June 2018 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes its own multi-stage sampling design and routine collection. While it mentions PMI VectorLink in the author affiliations and references, there is no indication that this specific dataset is a subset of a larger published surveillance database."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and frequencies are provided in Table 5 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles nili",
+      "Anopheles paludis",
+      "Anopheles coustani"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 200,
+    "summary": "This study investigates malaria epidemiology and transmission in the Kisantu Health Zone, Democratic Republic of the Congo. Entomological surveys conducted in June 2018 identified Anopheles funestus s.l. and Anopheles gambiae s.s. as the primary vectors. Insecticide susceptibility tests (WHO tube tests) revealed resistance to pyrethroids and DDT in An. gambiae s.l., with susceptibility partially restored by PBO. Genotyping of 200 An. gambiae s.s. mosquitoes showed high frequencies of Vgsc L1014F (84.4% homozygous) and L1014S (1% homozygous), with 14.6% of individuals being heterozygous for both resistance alleles.",
+    "exclusion_reasons": []
+  }
+}

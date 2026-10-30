@@ -1,0 +1,73 @@
+{
+  "id": "2026_Gunarathna_Multiple_Genomic_Approaches_Reveal_Geographic_PMID42410510",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the invasive malaria vector Anopheles stephensi (Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study identifies selective sweeps at various loci including esterases and cytochrome P450s (specifically 6a13 and 6a14), but does not report genotypes or frequencies for the specific target markers listed in the schema. It mentions the kdr (Vgsc) site only to state that no signal of selection was observed there (Page 14)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts (RR/RS/SS) or allele frequencies with associated sample sizes are provided for any of the target markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Ethiopia and Somaliland between 2018 and 2023 (Page 2, Fig 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original genomic data and analyses."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to specific sites including Dire Dawa, Jigjiga, Semera, and Bati (Fig 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred between 2018 and 2023 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The authors note that 'Additional ddRAD datasets previously published under a separate study are available in the SRA under Bioproject PRJNA888109 (10)' (Page 15)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text and figures provide a comprehensive overview of the genomic scans, confirming that specific target marker frequencies are not reported."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles stephensi"
+    ],
+    "countries": [
+      "Ethiopia",
+      "Somalia",
+      "Yemen"
+    ],
+    "collection_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 402,
+    "summary": "This study applies WGS and ddRAD sequencing to characterize the population structure and adaptive evolution of invasive Anopheles stephensi in Ethiopia, Somaliland, and Yemen. While the authors identify several genomic regions under selection (e.g., esterases in Ethiopia and P450 6a13/14 in Yemen), the paper does not report genotype or allele frequencies for the specific insecticide-resistance markers required for this database.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data (counts or frequencies) for any of the target insecticide-resistance markers."
+    ]
+  }
+}

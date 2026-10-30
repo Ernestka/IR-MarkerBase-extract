@@ -1,0 +1,82 @@
+{
+  "id": "2025_Poinsignon_Advances_Surveillance_Control_Methods_Aedes_PMID40481523",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles stephensi, Anopheles gambiae s.s., Anopheles arabiensis, and Anopheles funestus in the context of urban vector control and interspecific competition (e.g., pages 4, 10, 12, 13)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports on kdr mutations (F1534C, S989P, V1016G, V1016I, V410L), but these are specifically for Aedes aegypti (pages 5, 11, 12). No target markers for Anopheles species are reported."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper provides some frequency data for Aedes kdr mutations (e.g., 'nearly fixed (> 96%)' for F1534C in Cameroon, page 12), but no genotype or allele frequency data is provided for Anopheles mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The report summarizes studies conducted on field populations in several African countries, including Tanzania, Benin, Burkina Faso, Cameroon, Ethiopia, and Côte d'Ivoire (pages 3-12)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a 'MEETING REPORT' summarizing the outcomes and presentations of the 'International conference on advances in surveillance and control methods for Aedes-borne diseases and urban vectors' held in August 2024 (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific sites are mentioned for various summarized studies, such as Bobo-Dioulasso in Burkina Faso (page 4) and the Ilala, Kinondoni, and Temeke districts in Dar es Salaam, Tanzania (page 12)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection periods are stated for several studies, such as September 2021 to July 2024 in Burkina Faso (page 4) and 2021 to 2023 in Ethiopia (page 12)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "As a meeting report, it summarizes data from multiple studies, many of which are likely published as primary papers elsewhere or are part of ongoing surveillance networks like WAASuN (page 13)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible, so no supplementary data is required."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles stephensi",
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania",
+      "Benin",
+      "Burkina Faso",
+      "Kenya",
+      "Cameroon",
+      "Ethiopia",
+      "Democratic Republic of the Congo",
+      "Côte d'Ivoire",
+      "Ghana"
+    ],
+    "collection_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This document is a meeting report summarizing the 'International conference on advances in surveillance and control methods for Aedes-borne diseases and urban vectors' held in Dar es Salaam, Tanzania, in August 2024. While the report discusses the expansion of Anopheles stephensi in Africa and includes summaries of studies on Anopheles bionomics and competition, it does not report any of the target insecticide-resistance markers for Anopheles. The genotype data mentioned (kdr mutations F1534C, S989P, V1016G, etc.) pertains exclusively to Aedes aegypti. Additionally, as a meeting report, it is not a primary empirical study.",
+    "exclusion_reasons": [
+      "Not a primary study (meeting report).",
+      "Does not report target markers for Anopheles (only Aedes markers).",
+      "Does not report extractable genotype data for Anopheles."
+    ]
+  }
+}

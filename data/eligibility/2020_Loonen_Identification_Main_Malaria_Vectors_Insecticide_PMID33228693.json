@@ -1,0 +1,82 @@
+{
+  "id": "2020_Loonen_Identification_Main_Malaria_Vectors_Insecticide_PMID33228693",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Of 3517 Anopheles spp. mosquitoes collected, Anopheles gambiae sensu lato (s.l.) (29.6%) and Anopheles funestus (69.1%) were the main malaria vectors. (Page 1)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Both L1014F and L1014S kdr mutations were present in this study. (Page 8)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states: 'Overall, more than 90% of the mosquitoes had at least one of these mutations. However, because of the use of two separate assays in this study to type the different kdr mutations, many mosquito samples showed unresolved allele combinations... Therefore, these results were not discussed but have been included in Additional File 1.' (Page 8). No specific genotype counts or frequencies per site/species with a defined sample size are provided in the main text."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "This study was performed in 52 households in Shamwana (Katanga, 2014), 168 households in Baraka (South Kivu, 2015) and 269 households in Kashuga (North Kivu, 2017). (Page 1)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The current study evaluated the main vector species involved in malaria transmission and their resistance to insecticides... (Page 1)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Shamwana (Katanga, 2014), 168 households in Baraka (South Kivu, 2015) and 269 households in Kashuga (North Kivu, 2017). (Page 1)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Shamwana (Katanga, 2014), 168 households in Baraka (South Kivu, 2015) and 269 households in Kashuga (North Kivu, 2017). (Page 1)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study was conducted by Médecins Sans Frontières (MSF) as part of their operational research in DRC; no mention of larger surveillance networks like VectorLink or Ag1000G is made."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Additional file 1: Excel sheet with details of kdr genotypes from mosquito samples collected via CDC light traps and Excel sheet with details on kdr genotypes from mosquitoes exposed to different insecticides in the WHO insecticide susceptibility bioassay. (Page 9)"
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles arabiensis",
+      "Anopheles pharoensis",
+      "Anopheles rufipes",
+      "Anopheles coustani",
+      "Anopheles moucheti",
+      "Anopheles vinckei",
+      "Anopheles maculipalpis",
+      "Anopheles marshalli",
+      "Anopheles nili",
+      "Anopheles demeilloni"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2014,
+      2015,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 3517,
+    "summary": "The study identifies malaria vectors and their insecticide resistance profiles in three conflict-affected areas of Eastern DRC. While it confirms the presence of Vgsc L1014F and L1014S mutations in An. gambiae s.l., the specific genotype data required for extraction is only provided in a supplementary file (Additional File 1) and is not present in the main text.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

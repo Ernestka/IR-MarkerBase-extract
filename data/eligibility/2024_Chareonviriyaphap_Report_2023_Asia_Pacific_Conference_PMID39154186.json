@@ -1,0 +1,75 @@
+{
+  "id": "2024_Chareonviriyaphap_Report_2023_Asia_Pacific_Conference_PMID39154186",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The report summarizes presentations involving various Anopheles species including An. funestus, An. gambiae, and An. stephensi (Table 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The report mentions knockdown resistance (kdr) mutations in the context of Aedes aegypti but does not report genotyping results for target markers in Anopheles populations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a meeting report, it only provides brief summaries of conference presentations and lacks extractable genotype counts or frequencies."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The report summarizes studies conducted in African countries including Tanzania, Angola, and Cameroon (Table 1)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a 'MEETING REPORT' (as stated in the title and header) summarizing the 2023 Asia Pacific Conference on Mosquito and Vector Control."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions specific locations such as Ifakara (Tanzania) and the Balombo region (Angola) in the summaries of presentations."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The report does not provide specific collection dates for the field studies it summarizes."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a meeting report."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The document is a summary report and does not refer to supplementary data containing the required genotype frequencies."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae",
+      "Anopheles stephensi",
+      "Anopheles minimus",
+      "Anopheles dirus",
+      "Anopheles cracens",
+      "Anopheles maculatus",
+      "Anopheles sawadwongporni"
+    ],
+    "countries": [
+      "Tanzania",
+      "Angola",
+      "Cameroon"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a meeting report summarizing the 2023 Asia Pacific Conference on Mosquito and Vector Control. While it mentions several studies involving Anopheles vectors in Africa, it is not a primary empirical study and does not contain extractable insecticide resistance marker genotype data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "reports_target_markers"
+    ]
+  }
+}

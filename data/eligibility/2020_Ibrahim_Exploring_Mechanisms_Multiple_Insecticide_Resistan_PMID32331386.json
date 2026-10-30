@@ -1,0 +1,70 @@
+{
+  "id": "2020_Ibrahim_Exploring_Mechanisms_Multiple_Insecticide_Resistan_PMID32331386",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus sensu stricto (An. funestus) collected in northern Nigeria (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes GSTe2 L119F (Page 5, Section 2.8), Vgsc L1014F/S (Page 6, Section 2.10), Ace-1 G119S (Page 6, Section 2.9), and Ace-1 N485I (Page 6, Section 2.9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts are provided for GSTe2 L119F in F0 females (Page 8, Section 3.7: 13 RS, 14 RR, 7 SS) and for F1 survivors/dead (Page 9, Section 3.7). Absence of Vgsc 1014F/S (0/30, Page 10), Ace-1 G119S (0/24, Page 9), and Ace-1 N485I (0/24, Page 10) is also reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Gajerar Giwa, Katsina State, Nigeria (Page 2, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original collection and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Gajerar Giwa (13°11'57.1\" N 7°45'53.5\" E), Katsina State, Nigeria (Page 2, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between 17–20 November 2018 (Page 2, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes the study as primary data and notes that An. funestus in this region has been neglected for decades (Page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "While supplementary files (S1, Table S1-S3) are mentioned, the critical genotype counts and site information are provided in the main text and figures."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Vgsc L1014F",
+      "Vgsc L1014S",
+      "Ace-1 G119S",
+      "Ace-1 N485I"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 721,
+    "summary": "The study investigates insecticide resistance in Anopheles funestus from the Sahel region of northern Nigeria (Katsina State). It reports high resistance to pyrethroids, DDT, and bendiocarb. Molecular analysis identified a high frequency of the GSTe2 L119F mutation (allele frequency ~0.84), while Vgsc L1014F/S, Ace-1 G119S, and Ace-1 N485I mutations were absent in the tested population.",
+    "exclusion_reasons": []
+  }
+}

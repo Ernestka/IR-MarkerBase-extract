@@ -1,0 +1,81 @@
+{
+  "id": "2022_Njoroge_Identification_Rapidly_Spreading_Triple_Mutant_PMID35775282",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (Page 1, Abstract; Page 2, Introduction)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes Cyp6p4 I236M, the ZZB-TE insertion, and the Cyp6aa1 duplication (Cyp6aap-Dup1) (Page 1, Abstract; Page 3, Section 2.1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 9) provides genotype counts (RR/RS/SS) for the triple mutant haplotype in wild-caught mosquitoes from three locations in DRC. Figure 1 caption (Page 3) provides the frequency and sample size (n=84) for Tanzania."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in the Democratic Republic of Congo (2013-2018), Tanzania (2018), Uganda, and Kenya (Page 4, Section 2.4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article reporting new genotyping and bioassay data (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for specific sites: Fiwa, Bassa, and Pwamba in DRC; Geita, Bagamoyo, and Muleba in Tanzania (Page 4, Section 2.4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Data is tied to specific collection years, such as 2018 for Tanzania and specific years between 2013-2018 for DRC (Page 4; Table 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The paper states that DRC samples were obtained from the President's Malaria Initiative supported entomological surveillance project (Wat'senga et al., 2020) and from collections conducted by Lynd et al. (2018) (Page 4, Section 2.4.1). It also utilizes Ag1000g data for initial discovery."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype counts and bioassay results for the field populations are provided in Table 2 and the main text."
+    },
+    "markers_found": [
+      "Cyp6p4 I236M",
+      "Cyp6p4 ZZB-TE",
+      "Cyp6aa1 DUP",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Democratic Republic of Congo",
+      "Tanzania",
+      "Uganda",
+      "Kenya"
+    ],
+    "collection_years": [
+      2004,
+      2005,
+      2008,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 766,
+    "summary": "The study identifies a 'triple mutant' haplotype in Anopheles gambiae consisting of a Cyp6p4 I236M SNP, a ZZB-TE insertion, and a Cyp6aa1 duplication. It reports the rapid spread of this haplotype across East and Central Africa and provides genotype-phenotype association data from field collections in DRC and Tanzania, showing a strong link to pyrethroid resistance.",
+    "exclusion_reasons": []
+  }
+}

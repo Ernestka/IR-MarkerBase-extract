@@ -1,0 +1,72 @@
+{
+  "id": "2022_Forson_Resting_Behavior_Malaria_Vectors_Different_PMID35804461",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l., Anopheles rufipes, and Anopheles funestus s.l. (Page 4, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for kdr (L1014F) and ace1 (G119S) mutations (Page 4, Methods; Table 4 and Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (RS, RR) and frequencies for kdr L1014F, and Table 5 provides genotype counts (GS, GG) and frequencies for ace1 G119S."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from five field sites in Ghana (Anyakpor, Dwease/Konongo, Kpalsogou, Libga, Pagaza) (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical field study conducted by the authors (Page 2, Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific village names and GPS coordinates for the study sites (Page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling was conducted in 2019 (Page 3, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted in 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and frequencies, are provided in the main text tables (Table 4 and Table 5)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles melas",
+      "Anopheles funestus s.l.",
+      "Anopheles rufipes"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 538,
+    "summary": "This study investigated the resting behavior, species composition, and insecticide resistance (kdr L1014F and ace1 G119S) of Anopheles mosquitoes in five sites across three ecological zones in Ghana in 2019. It found high outdoor resting densities and provided genotype counts for resistance markers.",
+    "exclusion_reasons": []
+  }
+}

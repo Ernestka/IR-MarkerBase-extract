@@ -1,0 +1,67 @@
+{
+  "id": "2025_Poumachu_Trends_Insecticide_Resistance_Natural_Populations_PMID39888430",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-30",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on field populations of Culex quinquefasciatus, as stated in the title and abstract: 'We assessed the profile of insecticide resistance in field populations of Cx. quiquefasciatus...'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study does not perform molecular genotyping. It only mentions markers like kdr (1014F/S/C) and Ace-1 (G119S) in the discussion as potential mechanisms for the observed phenotypic resistance."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes (Culex quinquefasciatus) were collected as larvae/pupae from the field in Dschang, Cameroon, between April and June 2021 (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and fitness data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to specific sites in Dschang: For\u0003\u0002k\u0003\u0002, Foto, and Paidground (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from April to June 2021 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No evidence of overlap with larger datasets; this appears to be a localized study in Dschang."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not perform genotyping, so no supplementary genotype data exists."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1500,
+    "summary": "This study investigates the insecticide resistance profile and associated fitness costs in field-collected Culex quinquefasciatus from Dschang, Cameroon. While it reports high levels of phenotypic resistance to pyrethroids (deltamethrin and permethrin) using WHO tube bioassays, it does not conduct any molecular genotyping of resistance markers.",
+    "exclusion_reasons": [
+      "The study focuses on Culex quinquefasciatus field populations rather than Anopheles.",
+      "The study does not report molecular genotyping of any insecticide-resistance markers."
+    ]
+  }
+}
