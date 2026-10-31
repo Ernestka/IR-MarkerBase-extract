@@ -1,0 +1,67 @@
+{
+  "id": "2024_Omoke_Whole_Transcriptomic_Analysis_Reveals_Overexpressi_PMID38532318",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates insecticide resistance in Anopheles arabiensis (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotype frequencies for Vgsc L995S and L995F (page 15, 'Genetic variation analyses on Voltage-Gated Sodium Channel (Vgsc) and acetylcholinesterase (Ace-1) genes')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports allele frequencies for L995S and L995F in Migori and Siaya populations (page 15)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Migori and Siaya counties in Western Kenya (page 18, 'Larval sampling and rearing')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research paper reporting new RNA-Seq and SNP data (Abstract, page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected from Migori and Siaya counties, Kenya (page 18)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval sampling was conducted between August and October 2019 (page 18)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and RNA-Seq analysis of field-caught mosquitoes from 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data (allele frequencies) is provided in the main text (page 15)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2404,
+    "summary": "This study investigated the transcriptomic profiles and target-site resistance markers (Vgsc) in Anopheles arabiensis populations from Migori and Siaya, Kenya. The study found L995S and L995F mutations in the Vgsc gene and identified various overexpressed genes associated with metabolic resistance.",
+    "exclusion_reasons": []
+  }
+}

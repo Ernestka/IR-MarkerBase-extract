@@ -1,0 +1,74 @@
+{
+  "id": "2022_Williams_Sympatric_Populations_Anopheles_Gambiae_Complex_PMID35323544",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae s.s., An. coluzzii, and An. arabiensis) as stated in the abstract and Table 1."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F, L995S, N1570Y, Ace-1 G119S, Rdl A296S, and GSTe2 L114T (page 6, 10, 11)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 6 provides genotype frequency data for the markers mentioned."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study established laboratory colonies from larval collections in southwest Burkina Faso (page 3, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study establishing and characterizing new laboratory colonies."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific locations (districts and villages) for the collections (Table 1, page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study specifies collection years 2015 and 2018 (Table 1, page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes the establishment of new colonies from field collections in 2015 and 2018, distinct from previously established colonies mentioned in the text."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is presented in Figure 6 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G119S",
+      "Rdl A296S",
+      "GSTe2 L114T"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2015,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 48,
+    "summary": "This study established and characterized five laboratory colonies of Anopheles gambiae s.l. (An. gambiae s.s., An. coluzzii, and An. arabiensis) from larval collections in southwest Burkina Faso. The study performed insecticide resistance profiling (bioassays), target-site mutation genotyping, and RNAseq transcriptomic analysis to investigate resistance mechanisms.",
+    "exclusion_reasons": []
+  }
+}

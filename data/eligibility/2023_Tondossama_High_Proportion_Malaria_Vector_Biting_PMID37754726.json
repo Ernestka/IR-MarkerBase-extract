@@ -1,0 +1,73 @@
+{
+  "id": "2023_Tondossama_High_Proportion_Malaria_Vector_Biting_PMID37754726",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and other Anopheles species (page 5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports genotyping for species identification (IGS-rDNA) but does not report genotyping for any of the specified insecticide-resistance markers (e.g., kdr, ace-1, etc.)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts or frequencies for any insecticide-resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in two villages in Côte d’Ivoire (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical entomological survey."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Piste 4 (coastal) and Pétessou (inland) villages (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 2018–2019 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new entomological survey."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any insecticide-resistance marker data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles funestus",
+      "Anopheles nili",
+      "Anopheles coustani",
+      "Anopheles salbaii"
+    ],
+    "countries": [
+      "Côte d’Ivoire"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 617,
+    "summary": "This study investigated the biting and resting behavior of Anopheles gambiae s.l. in two villages in Côte d’Ivoire in relation to LLIN usage. While it performed species identification using IGS-rDNA, it did not genotype for any insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers"
+    ]
+  }
+}

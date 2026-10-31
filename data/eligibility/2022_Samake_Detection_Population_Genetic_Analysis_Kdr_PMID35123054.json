@@ -1,0 +1,66 @@
+{
+  "id": "2022_Samake_Detection_Population_Genetic_Analysis_Kdr_PMID35123054",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles stephensi."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping of the Vgsc L1014F (kdr-west) marker."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides the number of mosquitoes genotyped (N) and the number/frequency of the kdr L1014F mutation for each site."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquitoes were collected from ten urban sites in eastern Ethiopia."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study analyzing field-collected mosquito samples."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides data for ten specific urban sites (e.g., Awash Sebat Kilo, Bati, Dire Dawa, etc.)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection period is stated as August to November 2018."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states that the DNA samples were extracted from mosquitoes collected in a previous study (Balkew et al., 2020), but this paper presents new molecular analysis (kdr genotyping) on those samples."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and frequencies, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles stephensi"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 159,
+    "summary": "This study analyzed the kdr L1014F mutation in 159 Anopheles stephensi mosquitoes collected from ten sites in eastern Ethiopia in 2018. The mutation was found at a low frequency (5.7%), and no association was found between the kdr mutation and permethrin resistance in a subset of 40 mosquitoes from Dire Dawa.",
+    "exclusion_reasons": []
+  }
+}

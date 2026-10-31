@@ -1,0 +1,70 @@
+{
+  "id": "2022_Cosme_Genome_Wide_Association_Study_Reveals_PMID35480313",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper exclusively studies Aedes aegypti mosquitoes (e.g., title, abstract, and methods section 'Mosquito Collections')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping of kdr mutations (V1016I and F1534C) in Aedes aegypti, which are voltage-gated sodium channel markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype frequencies and counts for kdr alleles in Figures 4, 10, and 11, and Supplementary Table S7/S8."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected in Macapa and Oiapoque, Brazil (South America), not in an African country."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research paper conducting GWAS and bioassays on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites as Macapa and Oiapoque, Amapa, Brazil."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The mosquitoes were collected in January 2015."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of mosquitoes in 2015 for this specific GWAS analysis."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided within the main figures and tables of the paper."
+    },
+    "markers_found": [
+      "Vgsc V1016I",
+      "Vgsc F1534C"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Brazil"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 95,
+    "summary": "This study performs a GWAS on Aedes aegypti mosquitoes collected from two cities in Brazil (Macapa and Oiapoque) to identify loci associated with pyrethroid resistance, while also genotyping kdr mutations (V1016I and F1534C). The paper is ineligible because it studies Aedes aegypti, not Anopheles malaria vectors, and the collection site is in Brazil, not Africa.",
+    "exclusion_reasons": [
+      "is_anopheles: The study focuses on Aedes aegypti, not Anopheles.",
+      "african_field_population: The study was conducted in Brazil, not in an African country."
+    ]
+  }
+}

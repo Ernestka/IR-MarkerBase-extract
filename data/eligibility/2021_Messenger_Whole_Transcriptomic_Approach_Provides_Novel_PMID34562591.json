@@ -1,0 +1,74 @@
+{
+  "id": "2021_Messenger_Whole_Transcriptomic_Approach_Provides_Novel_PMID34562591",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc L1014F, L1014S, Ace-1 G119S, GSTe2 L119F, and screens for others including N1575Y, P1874L/S, V402L, and I1527T (Pages 3, 5, 9, 10, 15)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 10, Section 3.2: 'The L1014F-kdr mutation was identified in 52% (30/58) of An. arabiensis exposed to the diagnostic dose of permethrin... homozygous for L1014F-kdr (46%; 6/13) compared to those that died (9%; 4/45), and 38.5% of survivors (5/13) and 33% of dead individuals (15/45) were heterozygous.' This provides genotype counts for survivors and dead mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Asendabo, Oromia region, Ethiopia in 2017 (Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collections, bioassays, and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for Asendabo, Oromia region, Ethiopia (7°40′31″ N, 36°52′56″ E) (Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between 3rd September-10th October 2017 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Adult mosquitoes were collected from Asendabo... between 3rd September-10th October 2017... where organophosphate and pyrethroid resistance had been previously reported... (Messenger et al., 2017) (Page 4). This is a new collection for a transcriptomic study."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Table S8 and S9 are mentioned for allele frequencies in different groups (Page 15). Supplementary data to this article can be found online at https://doi.org/10.1016/j.ibmb.2021.103655."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc I1527T",
+      "Vgsc V402L",
+      "Vgsc P1874S",
+      "Vgsc P1874L",
+      "Ace-1 G280S",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 231,
+    "summary": "This study investigates the molecular basis of insecticide resistance in Anopheles arabiensis from Asendabo, Ethiopia, using a whole transcriptomic approach. Field-collected mosquitoes (2017) were tested for resistance to multiple insecticides. The paper reports genotype counts for the Vgsc L1014F (L995F) marker in survivors and dead mosquitoes from permethrin bioassays, and screens for several other target site mutations (L1014S, G119S, L119F, N1575Y, etc.).",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2021_Nolden_Towards_Understanding_Transfluthrin_Efficacy_Pyret_PMID35284893",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles funestus strains FANG and FUMOZ-R."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not genotype any of the listed insecticide-resistance markers. It explicitly states on page 2: 'Interestingly, despite high levels of pyrethroid resistance in An. funestus VGSC mutations known to confer kdr have not yet been described'."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data is reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-maintained strains (FUMOZ-R and FANG), not field-collected populations."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating cross-resistance and P450-mediated detoxification."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses laboratory strains, not field-collected samples."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study uses laboratory strains, not field-collected samples."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses established laboratory strains FUMOZ-R and FANG."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study examines the cross-resistance pattern of the pyrethroid-resistant Anopheles funestus strain FUMOZ-R and the susceptible strain FANG to transfluthrin and other pyrethroids. It uses bioassays and biochemical assays to investigate P450-mediated detoxification. No insecticide-resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

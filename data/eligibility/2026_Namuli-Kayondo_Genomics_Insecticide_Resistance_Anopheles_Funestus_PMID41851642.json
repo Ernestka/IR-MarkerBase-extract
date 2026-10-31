@@ -1,0 +1,74 @@
+{
+  "id": "2026_Namuli-Kayondo_Genomics_Insecticide_Resistance_Anopheles_Funestus_PMID41851642",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus and Anopheles gambiae s.l. (Page 2, Introduction)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on markers including GSTe2 L119F (Page 6, 7), Cyp9k1 G454A (Page 6, 7), and Cyp6p9a (Page 5, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper performs genome-wide selection scans (H12, delta H12) and GWAS, but does not provide raw genotype counts (RR/RS/SS) or allele frequencies for specific markers in a way that allows extraction of genotype data for populations. It focuses on haplotype frequencies and selection signals."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses mosquitoes collected in Uganda as part of the LLINEUP trial (Page 2, 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using WGS data from the LLINEUP trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study mentions Eastern and Western Uganda regions and 48 districts (Page 8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial was conducted between 2017 and 2020 (Page 2, 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper states: 'We present the analysis of the An. funestus sample genomic data is from the “1288-VO-UG-DONNELLY-VMF00219”. The LLINEUP genomic data is publicly available through the malariagen_data python API' (Page 9, Data availability). This indicates the data is part of the MalariaGEN Vector Observatory project."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper relies on supplementary tables and figures for key data (e.g., Supplementary Table 5, 6, Supplementary Fig. 3, 4, 5), which are not provided in the document."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Cyp9k1 G454A",
+      "Cyp6p9a"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1149,
+    "summary": "This study analyzes whole-genome sequencing data from Anopheles funestus collected during the LLINEUP cluster-randomized trial in Uganda (2017-2020). It investigates population structure and selective sweeps associated with insecticide resistance, identifying signals at loci including Cyp9k1, Gste2, and novel loci like TMC and Dgk. The study does not report individual-level genotype counts for resistance markers.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

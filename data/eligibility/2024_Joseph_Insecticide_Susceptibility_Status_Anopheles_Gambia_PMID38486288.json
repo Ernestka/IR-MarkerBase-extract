@@ -1,0 +1,71 @@
+{
+  "id": "2024_Joseph_Insecticide_Susceptibility_Status_Anopheles_Gambia_PMID38486288",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "This study assessed the susceptibility of Anopheles gambiae sensu lato (s.l.) mosquitoes to WHO tube bioassays with 4% DDT and 0.05% deltamethrin insecticides (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Molecular diagnostics were performed solely for species identification within the Anopheles gambiae complex (page 4). No target insecticide resistance markers (such as Vgsc kdr or Ace-1 mutations) were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No target resistance marker genotype counts, frequencies, or allele data are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae and pupae were collected from study sentinel sites across northern Namibia from 2018 to 2021 and reared to adulthood (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research article reporting field collections and bioassays conducted in Namibia."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sentinel village sites are specified across regions: Oshana (Onamutai), Oshikoto (Oniimwandi), Otjozondjupa (Otjituuo), Ohangwena (Okanghudi), Kunene (Otjimuhaka), Omusati (Omiindaba), Kavango West (Mukekete), Kavango East (Shadikongoro), Zambezi (Sibbinda) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae collections took place in March-April 2018, March-May 2020, and March-April 2021 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine annual entomological surveillance conducted by the Namibian National Vector-borne Disease Control Programme (NVDCP)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All species identification and bioassay results are reported in the main text, Table 1, and figures."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles quadriannulatus"
+    ],
+    "countries": [
+      "Namibia"
+    ],
+    "collection_years": [
+      2018,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2100,
+    "summary": "This primary study evaluated the susceptibility of Anopheles gambiae s.l. to DDT and deltamethrin, as well as the restoring effect of PBO pre-exposure, across multiple regions in northern Namibia during 2018, 2020, and 2021. PCR was used exclusively for species identification (distinguishing An. gambiae s.s., An. arabiensis, and An. quadriannulatus). Because no target resistance markers were genotyped, the study is ineligible.",
+    "exclusion_reasons": [
+      "Does not report any target insecticide resistance markers.",
+      "Does not report extractable marker genotype data."
+    ]
+  }
+}

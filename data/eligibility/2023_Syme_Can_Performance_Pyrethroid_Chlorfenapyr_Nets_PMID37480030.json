@@ -1,0 +1,68 @@
+{
+  "id": "2023_Syme_Can_Performance_Pyrethroid_Chlorfenapyr_Nets_PMID37480030",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the impact of ITNs against 'wild, pyrethroid-resistant Anopheles gambiae s.l.' (Table 1) and specifically mentions 'Anopheles coluzzii and An. gambiae sensu stricto (s.s.)' (page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the L1014F mutation on page 3, stating it is at high frequency (≥90%) in the Covè population, but cites reference [25] (Ngufor et al. 2015) for this data rather than reporting new genotyping results."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies derived from primary genotyping are provided in the text or tables. The study focuses on phenotypic resistance via bioassays and experimental hut trials."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the CREC/LSHTM field station in Covè, southern Benin (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing original experimental hut trials and laboratory bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the CREC/LSHTM field station in Covè, southern Benin (7°14′N 2°18′E) (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Trial 1 was conducted between October 2021 and March 2022, and Trial 2 between May and October 2022 (page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study was conducted at the CREC/LSHTM field station in Covè, Benin, which is a well-known site for vector control evaluations, but the data presented is from specific experimental hut trials conducted for this research."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary tables S1-S6 are described in the text and contain chemical analysis and bioassay results, not the missing genotype data required for eligibility."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 8834,
+    "summary": "This study evaluates the entomological impact of combining pyrethroid-chlorfenapyr and pyrethroid-PBO ITNs in experimental huts in Covè, Benin. The vector population is described as having a high frequency of the Vgsc L1014F mutation based on a citation of previous work (Ngufor et al. 2015), but no new genotyping was performed. The study reports phenotypic resistance data from WHO bioassays and experimental hut trials.",
+    "exclusion_reasons": [
+      "No primary genotyping of target markers reported. The study cites the frequency of the L1014F mutation from a previous publication (ref 25) and uses bioassays to characterize the population's resistance profile."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2024_Syme_Laboratory_Evaluation_Contact_Irritancy_Clothianid_PMID38600549",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae sensu lato and Anopheles gambiae sensu stricto."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the presence of the kdr L1014F mutation in the Covè strain (page 3), but it does not report any genotype counts, allele frequencies, or specific marker data for the mosquitoes used in this study. It only characterizes the strain's resistance profile based on prior studies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (counts or frequencies) for the markers are reported in the paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The Covè strain is an F1 progeny of mosquitoes collected from a field station in Covè, southern Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical laboratory study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was performed at the CREC/LSHTM bioassay laboratory in Cotonou, Benin, using mosquitoes from Covè, Benin."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was performed in July 2022."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new laboratory study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data in the main text or supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae sensu lato",
+      "Anopheles gambiae sensu stricto"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the contact irritancy of clothianidin solo and clothianidin-deltamethrin mixture IRS formulations against a pyrethroid-resistant Anopheles gambiae s.l. strain from Benin. While it mentions the strain has the kdr L1014F mutation, it does not provide any genotype data for the mosquitoes used.",
+    "exclusion_reasons": [
+      "reports_target_markers: No genotype data (counts or frequencies) for the markers are reported in the paper.",
+      "reports_extractable_genotype_data: No genotype data (counts or frequencies) for the markers are reported in the paper."
+    ]
+  }
+}

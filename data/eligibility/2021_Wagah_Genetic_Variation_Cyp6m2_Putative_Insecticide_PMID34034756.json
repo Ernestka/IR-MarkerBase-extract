@@ -1,0 +1,91 @@
+{
+  "id": "2021_Wagah_Genetic_Variation_Cyp6m2_Putative_Insecticide_PMID34034756",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles coluzzii."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports on genetic variation (missense variants) within the Cyp6m2 gene, which is not among the required insecticide-resistance markers listed in the instructions."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides population allele frequencies for 15 non-synonymous variants in the Cyp6m2 gene across 16 populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses Ag1000G Phase 2 data, which consists of wild-caught mosquitoes from 13 African countries."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study analyzing genomic data from the Ag1000G project."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study uses data from 33 sampling sites across 16 populations in 13 countries (Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The mosquitoes were collected between 2000 and 2012, which is a defined collection period."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it uses data from the Ag1000G Phase 2 data resource (e.g., page 5, 'Short-read whole-genome sequence data from the Ag1000G phase 2 data resource [47] were used...')."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data (allele frequencies) is provided in Table 1 of the main text."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Angola",
+      "Ghana",
+      "Burkina Faso",
+      "Côte d’Ivoire",
+      "Guinea",
+      "Guinea Bissau",
+      "The Gambia",
+      "Cameroon",
+      "Gabon",
+      "Uganda",
+      "Equatorial Guinea",
+      "Mayotte",
+      "Kenya"
+    ],
+    "collection_years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1142,
+    "summary": "This study analyzes genetic variation in the Cyp6m2 gene using whole-genome sequence data from 1142 wild-caught Anopheles gambiae and An. coluzzii mosquitoes from 13 African countries (Ag1000G Phase 2). It identifies 15 high-frequency missense variants but finds no evidence of directional selection on these variants, suggesting that Cyp6m2-associated resistance may be driven by regulatory mechanisms rather than missense mutations.",
+    "exclusion_reasons": [
+      "The paper does not report on any of the required insecticide-resistance markers (e.g., kdr, Ace-1, Rdl, GSTe2, etc.)."
+    ]
+  }
+}

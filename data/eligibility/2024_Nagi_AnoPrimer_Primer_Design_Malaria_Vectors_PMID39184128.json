@@ -1,0 +1,68 @@
+{
+  "id": "2024_Nagi_AnoPrimer_Primer_Design_Malaria_Vectors_PMID39184128",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae s.l. and Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions Vgsc-V402L and Vgsc-I1527T as targets for primer design."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a software tool article describing the AnoPrimer package. It does not report primary genotype counts or frequencies for field-collected mosquito populations; it uses existing, previously published datasets (Ag1000G) to demonstrate the tool's functionality."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper does not present new field-collected data; it uses existing, previously published genomic datasets (Ag1000G) for software demonstration."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing a new software tool."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The paper does not report new field data with specific locations."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not report new field data with collection years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it uses data from the Ag1000G project (e.g., page 4: 'The malariagen_data python package pulls in Ag1000g or Af1000 data from the cloud...')."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a software tool article and does not require supplementary genotype data."
+    },
+    "markers_found": [
+      "Vgsc V402L",
+      "Vgsc I1527T"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper introduces AnoPrimer, a Python package for designing primers and probes for Anopheles gambiae and Anopheles funestus, utilizing existing genomic data from the Ag1000G and Af1000 projects. It is a software tool article and does not report new field-collected genotype data.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

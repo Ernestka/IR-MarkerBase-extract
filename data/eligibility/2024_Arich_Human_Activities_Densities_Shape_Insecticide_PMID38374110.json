@@ -1,0 +1,73 @@
+{
+  "id": "2024_Arich_Human_Activities_Densities_Shape_Insecticide_PMID38374110",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper explicitly states it studies the Culex pipiens complex (Culex pipiens s.s.), which is not an Anopheles species."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for vgsc (kdr L1014F), ace-1 (G119S and F290V), and Ester2."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides resistance allele frequencies and 95% confidence intervals for multiple populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study collected Culex pipiens s.s. larvae from field sites in Morocco."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides specific GPS coordinates for 18 sampling sites in Table 1."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers a period from 2018 to 2021, with specific sampling years provided."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper notes that some sites were previously sampled in Arich et al. (2021), but this study represents a new, extended longitudinal survey (2019-2021)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data for the analysis is presented in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S",
+      "Ace-1 F290V"
+    ],
+    "species": [
+      "Culex pipiens"
+    ],
+    "countries": [
+      "Morocco"
+    ],
+    "collection_years": [
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 540,
+    "summary": "This study investigates the impact of anthropization on insecticide resistance in Culex pipiens s.s. in Morocco. It is excluded because it focuses on Culex pipiens, not Anopheles.",
+    "exclusion_reasons": [
+      "is_anopheles"
+    ]
+  }
+}
