@@ -1,0 +1,71 @@
+{
+  "id": "2024_Odero_Genetic_Markers_Associated_Widespread_Insecticide_PMID38760849",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus, a malaria vector (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes CYP6P9a, CYP6P9b, L119F-GSTe2, and structural variants SV4.3 kb and SV6.5 kb (Methods, page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 4 (page 8) provides genotype frequency data (RR, RS, SS) for the markers across nine districts."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Tanzania (Methods, page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical research study (Abstract, page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for nine specific districts in Tanzania (Methods, page 3; Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from November 2021 to December 2022 (Methods, page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new, large-scale survey of insecticide resistance in Tanzania."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype frequencies and bioassay results, are presented in the main figures and text."
+    },
+    "markers_found": [
+      "Cyp6p9a R",
+      "Cyp6p9b R",
+      "GSTe2 L119F",
+      "Cyp6p9a/b 6.5kb-SV",
+      "Cyp4j5 L43F"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 6724,
+    "summary": "This study conducted a large-scale survey of insecticide resistance in Anopheles funestus across nine districts in Tanzania. It combined phenotypic bioassays (pyrethroids, carbamates, organochlorines, organophosphates) with genotyping of metabolic resistance markers (CYP6P9a, CYP6P9b, L119F-GSTe2, and structural variants SV4.3 kb and SV6.5 kb). The study found widespread pyrethroid resistance, which was reversible by PBO, and identified distinct geographical patterns in resistance markers.",
+    "exclusion_reasons": []
+  }
+}

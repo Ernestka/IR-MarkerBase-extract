@@ -1,0 +1,70 @@
+{
+  "id": "2024_Lucas_Copy_Number_Variants_Underlie_Major_PMID38559088",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis and Anopheles gambiae s.s. (page 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotypes for Vgsc L995F (page 8), Ace-1 (page 8), and various CNVs including Cyp6aa/Cyp6p and Coeae clusters (page 5-6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides sample sizes for resistant/susceptible groups. Page 8 provides specific counts for Vgsc-995F haplotypes (2 out of 564 in Moshi, 0 out of 324 in Muleba)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Moshi and Muleba, Tanzania (page 4, 13)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting GWAS and bioassays on field-collected samples."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected from Moshi and Muleba, Tanzania, with specific coordinates provided (page 13)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected from June to August 2018 (page 13)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states samples were sequenced as part of the MalariaGEN Vector Observatory release Ag3.7, but this is a primary analysis of these specific samples for resistance phenotypes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The provided PDF contains the necessary information, and supplementary data is referenced as being available."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Cyp6aa1 DUP",
+      "Cyp6p4 ZZB-TE",
+      "Ace-1 DUP"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 467,
+    "summary": "This study performs a genome-wide association study (GWAS) on Anopheles arabiensis from two regions in Tanzania (Moshi and Muleba) to investigate the molecular mechanisms of resistance to deltamethrin and pirimiphos-methyl. The study identifies new copy number variants (CNVs) in carboxylesterase gene clusters (Coeae2g-Coeae6g) associated with resistance, while finding that target-site resistance mutations (Vgsc) are rare.",
+    "exclusion_reasons": []
+  }
+}

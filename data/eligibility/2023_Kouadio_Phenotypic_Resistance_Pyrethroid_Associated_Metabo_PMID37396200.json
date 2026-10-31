@@ -1,0 +1,66 @@
+{
+  "id": "2023_Kouadio_Phenotypic_Resistance_Pyrethroid_Associated_Metabo_PMID37396200",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. (page 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc-L995F (kdr-west) and Vgsc-L995S (kdr-east) using TaqMan RT-PCR (page 5, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 3 (page 9) provides the number of mosquitoes genotyped and the frequency of the Vgsc-L995F mutation for each group (LS, AS, LAS, NS) at generations G0, G10, and G20."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquito colony was derived from field-collected Anopheles gambiae s.l. from Tiassalé, Côte d'Ivoire (page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical laboratory selection study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The mosquitoes were collected from Tiassalé, Côte d'Ivoire (page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study describes a 20-generation selection experiment conducted in a laboratory setting, with the parent population (G0) established from a colony maintained since 2010 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a laboratory-reared colony derived from a previously established strain (Tiassalé). While the strain is known, this specific 20-generation selection experiment is a new, primary empirical study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data (counts and frequencies) are provided in Figure 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 360,
+    "summary": "This study investigated the metabolic response in a Vgsc-L995F resistant Anopheles gambiae Tiassalé strain after 20 generations of selection with deltamethrin (larval, adult, and combined). The study found that while the Vgsc-L995F mutation remained at high frequency, metabolic resistance (overexpression of P450 genes like CYP6P4) was induced, leading to increased phenotypic resistance.",
+    "exclusion_reasons": []
+  }
+}

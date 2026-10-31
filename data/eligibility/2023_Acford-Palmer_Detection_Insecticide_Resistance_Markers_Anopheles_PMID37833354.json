@@ -1,0 +1,85 @@
+{
+  "id": "2023_Acford-Palmer_Detection_Insecticide_Resistance_Markers_Anopheles_PMID37833354",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus field isolates from the DRC (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Ace-1 N485I (N643I in the paper), and various SNPs in CYP6P4, GSTe2, and vgsc (Table 1, page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides allele frequencies (Reference/Non-reference) and sample numbers for non-synonymous variants (page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from households in two sites in Sud-Kivu province, DRC (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study developing and applying an amplicon sequencing panel to field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected from Tchonka and Tushunguti in Sud-Kivu province, DRC (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection dates are specified as Tchonka: April–June 2018; Tushunguti: December 2017–February 2018 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new amplicon sequencing panel and reports new data from 80 field-collected mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Ace-1 N485I",
+      "Cyp6p4 I288N",
+      "Cyp6p4 G289R",
+      "Cyp6p4 N291S",
+      "Cyp6p4 N291T",
+      "Cyp6p4 L294V",
+      "Cyp6p4 K295E",
+      "Cyp6p4 E297K",
+      "Cyp6p4 D404N",
+      "Cyp6p4 I414L",
+      "GSTe2 G80A",
+      "GSTe2 V134M",
+      "GSTe2 K146T",
+      "Vgsc F763L",
+      "Vgsc I768L",
+      "Vgsc I768M",
+      "Vgsc L788F",
+      "Vgsc G793C",
+      "Cyp6p9a/b 6.5kb-SV"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 80,
+    "summary": "This study developed a targeted amplicon sequencing panel to screen 80 Anopheles funestus field isolates from the DRC for insecticide resistance markers. It identified the Ace-1 N485I mutation and several novel SNPs in CYP6P4, GSTe2, and vgsc genes, along with a previously known 2bp insertion in the CYP6P9a promoter.",
+    "exclusion_reasons": []
+  }
+}

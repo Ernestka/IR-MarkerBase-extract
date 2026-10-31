@@ -1,0 +1,66 @@
+{
+  "id": "2026_Ikuzwe_Bromide_Surprisingly_Potent_Larvicide_Anopheles_PMID42259852",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae and Anopheles stephensi."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the AKDR strain of An. gambiae carries the L1014F kdr mutation (page 2, Materials and methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper mentions the AKDR strain carries the L1014F mutation, but it does not report genotype counts, allele counts, or frequencies for any field-collected populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-maintained colonies (Keele colony, AKDR strain) obtained from insectaries/BEI Resources, not field-collected mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical laboratory study on bromide toxicity."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses standard laboratory colonies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report field genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles stephensi"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the larvicidal effects of bromide on laboratory colonies of Anopheles gambiae and other mosquito species. It is not a field study and does not report genotype frequencies for field populations.",
+    "exclusion_reasons": [
+      "No field-collected populations used (only laboratory colonies).",
+      "No extractable genotype data for field populations reported."
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "2024_Mugenzi_Association_Rapidly_Selected_4_3kb_PMID39074161",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates field-collected populations and laboratory strains of the malaria vector Anopheles funestus s.s. (Page 3, 'Mosquito samples')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper identifies and genotypes a novel 4.3kb transposon-containing structural variant (SV) located in the intergenic region between CYP6P5 and CYP6P9b. It does not genotype any of the specified target markers (e.g., Cyp6p9a/b 6.5kb-SV, GSTe2 L119F, Vgsc, or Ace-1 variants)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "While extractable genotype counts and frequencies are presented across multiple populations, these are exclusively for the non-target 4.3kb SV insertion between CYP6P5 and CYP6P9b."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites across several African countries including Cameroon (Gounougou, Elende, Mibellon, Tibati, Elon, Obout), Uganda (Tororo, Mayuge), Ghana, Benin, Mozambique, Kenya, and Tanzania (Page 3, 'Mosquito samples')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field sampling, diagnostic PCR design, bioassay, expression, and genotyping analyses."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Fine-scale sub-country collection locations are provided with geographical coordinates (e.g., Gounougou 9°03'00\"N, 13°43'59\"E; Elende 3°41'57.27\"N, 11°33'28.46\"E; Mibellon 6°46'N, 11°70'E; Tibati 6°28'N, 12°37'E; Elon 4°13'49\"N, 11°36'04\"E) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are explicitly recorded per sample location (e.g., Gounougou 2014, 2017, 2020, 2021; Mibellon 2016, 2018, 2020; Tibati 2018, 2020, 2021; Benin 2022; Ghana 2014, 2021, 2022) (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Some DNA samples were sourced from previously published collections (e.g., Menze et al., 2018; Weedall et al., 2020) to perform temporal monitoring, but new field collections (2020-2022) and original genotyping assays for the 4.3kb SV were conducted."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All core results relevant to evaluating eligibility are provided within the main text."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon",
+      "Ghana",
+      "Kenya",
+      "Mozambique",
+      "Tanzania",
+      "Uganda"
+    ],
+    "collection_years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study characterizes a novel 4.3kb structural variant (SV) insertion between CYP6P5 and CYP6P9b in African Anopheles funestus populations, demonstrating its rapid selection in Central/East Africa and strong association with pyrethroid resistance. However, because the study genotypes this novel 4.3kb SV rather than any of the predefined target resistance markers (such as the distinct Cyp6p9a/b 6.5kb-SV or GSTe2 L119F), it does not meet the marker criterion for inclusion.",
+    "exclusion_reasons": [
+      "Does not report genotype data for any of the eligible target markers specified in the inclusion criteria (genotypes a 4.3kb SV between CYP6P5 and CYP6P9b)."
+    ]
+  }
+}

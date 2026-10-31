@@ -1,0 +1,69 @@
+{
+  "id": "2025_Ilombe_Effectiveness_Pyrethroid_Piperonyl_Butoxide_Nets_PMID40559739",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.l. (page 5, 2.4.3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions that a subset of Anopheles gambiae mosquitoes were assessed for the presence of the kdr mutation (page 5, 2.4.3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "While the paper mentions that a subset of Anopheles gambiae were assessed for kdr, it does not report the actual genotype counts or frequencies in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in the Kisantu Health Zone, Democratic Republic of the Congo (page 3, 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a quasi-experimental field study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the Kisantu Health Zone, Kongo-Central province (page 3, 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from January to December 2018 (page 1, Abstract)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new field study conducted in 2018."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper mentions that kdr mutation assessment was performed, but no data is provided in the main text or the provided supplementary file (which only contains abdominal stage distribution)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus s.l."
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1790,
+    "summary": "A quasi-experimental study in Kisantu Health Zone, DRC, comparing PBO-treated LLINs and standard pyrethroid-only LLINs. While the study mentions kdr mutation testing for Anopheles gambiae, no genotype data is reported.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data: The paper mentions that a subset of Anopheles gambiae were assessed for the kdr mutation, but it does not provide the resulting genotype counts or frequencies."
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "2023_Lucas_Genome_Wide_Association_Studies_Reveal_PMID37587104",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles coluzzii."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotype frequencies for Vgsc L995F, Vgsc V402L, Vgsc I1527T, Vgsc N1570Y, Ace-1 G280S, Rdl A296G, Rdl A296S, Cyp4j5 L43F, Gste2 L119F, and Gste2 114T (Fig. 2 and Fig. 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 2 provides allele frequencies for SNPs in known resistance loci for multiple populations, and Table 1 provides sample sizes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in 2017 and 2018 as larvae from six locations in West Africa (Benin, Côte d’Ivoire, Ghana, Togo)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study performing GWAS on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites: Aboisso, Avrankou, Baguida, Korle-Bu, Madina, and Obuasi."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study states mosquitoes were collected in 2017 and 2018."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states that 1258 samples were sequenced as part of the Ag1000G project, but this is a primary analysis of these specific samples for insecticide resistance phenotypes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data (genotype frequencies, sample sizes, locations) are provided in the main text figures and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Vgsc N1570Y",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "Rdl A296S",
+      "Cyp4j5 L43F",
+      "Gste2 L119F",
+      "Gste2 114T"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin",
+      "Côte d’Ivoire",
+      "Ghana",
+      "Togo"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 969,
+    "summary": "This study performed a genome-wide association study (GWAS) on 969 field-collected Anopheles gambiae and Anopheles coluzzii from West Africa to identify genomic loci associated with deltamethrin and pirimiphos-methyl resistance. The study identified associations with known resistance markers (e.g., Vgsc, Ace-1) and novel loci, highlighting the multi-allelic and population-specific nature of metabolic resistance.",
+    "exclusion_reasons": []
+  }
+}

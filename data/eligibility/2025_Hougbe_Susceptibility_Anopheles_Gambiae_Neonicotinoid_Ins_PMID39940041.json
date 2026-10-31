@@ -1,0 +1,69 @@
+{
+  "id": "2025_Hougbe_Susceptibility_Anopheles_Gambiae_Neonicotinoid_Ins_PMID39940041",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. coluzzii, An. gambiae s.s., and An. arabiensis) in Benin."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for kdr (West African) and Ace-1R mutations (page 1, 4, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides mean frequencies and 95% confidence intervals for kdr and Ace-1R mutations across study sites (page 5, Table S3 and S4 in supplementary files)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and pupae from 18 field sites in Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field data collected in 2021."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies 18 specific sites (e.g., Ladji, Houeyiho, Ifangni, etc.) along a north-south transect in Benin (page 2, Fig 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was carried out from January to December 2021 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new field collections conducted in 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper states that details about the number of tested and dead mosquitoes are in the Supplementary Files, Tables S1 and S2, and mutation frequencies are in Tables S3 and S4."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 996,
+    "summary": "This study assessed the susceptibility of Anopheles gambiae s.l. to clothianidin in 18 sites across Benin in 2021. It also genotyped the populations for kdr and Ace-1R mutations. The results showed high susceptibility to clothianidin and high frequencies of kdr mutations.",
+    "exclusion_reasons": []
+  }
+}

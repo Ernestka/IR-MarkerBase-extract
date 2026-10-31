@@ -1,0 +1,67 @@
+{
+  "id": "2025_Balaska_Predictive_Chemoproteomics_Functional_Validation_R_PMID41315252",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae and Anopheles coluzzii laboratory strains."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not genotype any of the specified insecticide-resistance markers (SNPs, CNVs, or SVs) in field populations. It focuses on proteomic profiling and functional validation of the Coeae6g gene in laboratory strains."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data (counts or frequencies) for resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory strains (Kisumu, NGousso) and transgenic lines derived from them, not field-caught mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses established laboratory strains and does not involve field sampling."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report field genotype data, so no supplementary data of this type is needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses activity-based protein profiling (ABPP) to identify serine hydrolase targets of pirimiphos-methyl in laboratory-susceptible Anopheles gambiae (Kisumu) and Anopheles coluzzii (NGousso) strains. It functionally validates the role of the carboxylesterase Coeae6g in insecticide resistance using transgenic lines. It does not report field-based genotyping of resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population",
+      "sub_country_location",
+      "temporal_resolution_within_3y"
+    ]
+  }
+}
