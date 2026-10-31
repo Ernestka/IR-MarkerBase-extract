@@ -1,0 +1,11 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_aberdeen_col,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,14,12,0,2,12,24,,,"Aberdeen An. coluzzii RR 85.7% (12), SS 14.3% (2), RS -",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_aberdeen_gam,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,12,12,0,0,12,24,,,"Aberdeen An. gambiae s.s 100% (12), SS -, RS -",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_gbedembu_col,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,44,41,0,3,41,82,,,"Gbedembu An. coluzzii RR 93.2% (41), SS 6.8% (3), RS -",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_gbedembu_gam,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,76,74,2,0,76,150,,,"Gbedembu An. gambiae s.s RR 97.4% (74), SS -, RS 2.6% (2)",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_george_brook_col,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,3,2,0,1,2,4,,,"George Brook An. coluzzii RR 66.7% (2), SS 33.3% (1), RS -",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_george_brook_gam,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,17,15,1,1,16,31,,,"George Brook An. gambiae s.s RR 88.2% (15), SS 5.9% (1), RS 5.9% (1)",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_kissi_col,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,4,4,0,0,4,8,,,"Kissi An. coluzzii RR 100% (4), SS -, RS -",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_kissi_gam,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,7,7,0,0,7,14,,,"Kissi An. gambiae s.s RR 100% (7), SS -, RS -",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_york_col,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,2,2,0,0,2,4,,,"York An. coluzzii RR 100% (2), SS -, RS -",4,Table 2,,
+2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429_york_gam,Vgsc,1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,PCR,False,3,3,0,0,3,6,,,"York An. gambiae s.s RR 100% (3), SS -, RS -",4,Table 2,,

@@ -1,0 +1,67 @@
+{
+  "id": "2024_Syme_Laboratory_Evaluation_Regeneration_Time_Efficacy_PMID39208123",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Tests were performed with susceptible and pyrethroid-resistant strains of Anopheles gambiae to assess the pyrethroid and chlorfenapyr components separately. (Abstract)"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions that resistance in the Covè strain is mediated by the Vgsc L1014F mutation, but it cites a previous study (citation 23: Ngufor et al. 2015) for this characterisation rather than reporting new genotyping data in this study. (Page 4)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper reports bioassay results (mortality, knockdown, blood-feeding inhibition) and chemical analysis of insecticide content in nets, but does not provide genotype counts, allele counts, or frequencies for any markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "An. gambiae s.l. Covè strain is an insecticide-resistant field strain, which is the first filial (F1) progeny of mosquitoes collected from the CREC/LSHTM field station in Covè, southern Benin. (Page 3)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the regeneration time, efficacy, and wash-resistance of a new insecticide-treated net (PermaNet Dual)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The mosquitoes were collected from the CREC/LSHTM field station in Covè, southern Benin. (Page 3)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not specify the collection years for the field mosquitoes used to establish the F1 progeny."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses the Covè strain, a well-characterised strain from a specific field station in Benin frequently used in PAMVERC evaluations, but the data reported here (net efficacy) is specific to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supporting information files (S1-S5 Tables) are described as containing bioassay results and chemical analysis data, not genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the laboratory performance (regeneration time, efficacy, and wash-resistance) of PermaNet Dual, a deltamethrin-chlorfenapyr net, against susceptible (Kisumu) and resistant (Covè) strains of Anopheles gambiae. While the paper identifies the Vgsc L1014F (L995F) mutation as a mechanism of resistance in the Covè strain, it does so by citing previous characterisation work (Ngufor et al. 2015) and does not report any new genotype data.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data for target markers (mentions L1014F but cites a previous study for the characterisation of the strain used)."
+    ]
+  }
+}

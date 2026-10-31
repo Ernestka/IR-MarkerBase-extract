@@ -1,0 +1,83 @@
+{
+  "id": "2023_Suh_Impact_Insecticide_Resistance_Malaria_Vector_PMID36650503",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles mosquitoes, specifically An. gambiae, An. coluzzii, An. funestus, and An. arabiensis (Page 1, Background)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "As a literature review, the paper discusses various markers (Vgsc L1014F/S, Ace-1 G119S, GSTe2 L119F) but does not perform genotyping or report new genotype data (Page 2, Search strategy)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper summarizes findings from other studies in tables (Table 1, Table 2) but does not provide extractable genotype counts or frequencies for any specific population (Page 4, 7)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper reviews studies involving African field populations but does not report on a new field collection conducted by the authors (Page 2, Search strategy)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The title and abstract explicitly state that this is a 'literature review' (Page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable for a review paper."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable for a review paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a literature review and does not present original data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No original data is presented; the 'Availability of data and materials' section states 'Not applicable' (Page 8)."
+    },
+    "markers_found": [
+      "Vgsc L1014F",
+      "Vgsc L1014S",
+      "Ace-1 G119S",
+      "GSTe2 L119F",
+      "Cyp6p9a",
+      "Cyp6p9b"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Cameroon",
+      "Guinea",
+      "Senegal",
+      "Kenya",
+      "Mali",
+      "Ghana",
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a literature review summarizing the impact of insecticide resistance on malaria vector competence in Anopheles mosquitoes. It synthesizes evidence from 28 selected articles regarding Plasmodium infection rates, sialome composition, immunity, microbiota, and longevity in resistant vs. susceptible vectors. It does not report any primary empirical data or new genotyping results.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "reports_target_markers",
+      "african_field_population"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2025_Qureshi_Machine_Learning_Reveals_Immediate_Disruption_PMID40534707",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 2, Section 2.1: 'Four Anopheles gambaie (sensu lato) mosquito strains were used, two insecticide-susceptible (Kisumu and N’Gousso) and two insecticide-resistant (VK7 and Banfora).'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "Page 2, Section 2.1 mentions kdr mutations (995F, 402L, 1527) as known genetic backgrounds of laboratory colony strains, but no target resistance markers are genotyped for field populations in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study reports no genotype counts, allele counts, or genotype frequencies for any mosquito population."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Page 2, Section 2.1: Mosquitoes tested were long-established laboratory strains (Kisumu collected 1975, N'Gousso 2006, VK7 2014, Banfora 2015) maintained and tested at the Liverpool School of Tropical Medicine (LSTM), UK."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Secondary analysis and machine learning modelling of experimental flight trajectory data collected at LSTM."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Experiments took place in a laboratory in the UK using laboratory strains originally sourced years prior from Kenya, Cameroon, and Burkina Faso."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2, Section 2.1: 'Experiments, referred to as trials, were conducted between June 2019 and February 2020'."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "Page 2, Section 2.1: 'The dataset used was generated within laboratory experiments at the Liverpool School of Tropical Medicine (LSTM), UK (Gleave et al., 2023).'"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; paper is ineligible based on laboratory colony scope and lack of field genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc V402L",
+      "Vgsc I1527T"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study applies machine learning to analyze 2D video-tracked flight trajectories of four laboratory mosquito strains (Anopheles gambiae s.s. Kisumu, Anopheles coluzzii N'Gousso, VK7, and Banfora) around Olyset and untreated bednets at the Liverpool School of Tropical Medicine. The dataset is derived from previously published laboratory experiments (Gleave et al., 2023). It does not involve field mosquito collections or report genotype frequency data.",
+    "exclusion_reasons": [
+      "The study tested laboratory colony mosquito strains (Kisumu, N'Gousso, VK7, Banfora) rather than African field populations (F0/F1).",
+      "No extractable genotype counts or frequencies for target resistance markers are reported."
+    ]
+  }
+}

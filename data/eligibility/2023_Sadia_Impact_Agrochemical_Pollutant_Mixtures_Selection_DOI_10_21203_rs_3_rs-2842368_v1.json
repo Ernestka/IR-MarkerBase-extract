@@ -1,0 +1,69 @@
+{
+  "id": "2023_Sadia_Impact_Agrochemical_Pollutant_Mixtures_Selection_DOI_10_21203_rs_3_rs-2842368_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "\"Anopheles gambiae (S form) colony originating from Tiassalé, southern Côte d’Ivoire was used as a parental strain\" (p. 5)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "\"The frequencies of the kdr west (L1014F) and Ace1 (G119S) target-site mutations were monitored\" (p. 3)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "\"genotype frequencies, as assayed from 30 individuals... Blue: 1014FF kdr (resistant) homozygotes; Orange: 1014FL heterozygotes; Grey: 1014LL (wildtype) homozygotes\" (p. 27, Figure 2)"
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "\"This colony has been maintained since 2015 in the Centre Suisse de Recherches Scientifiques (CSRS) in Côte d'Ivoire without selection... Mosquitoes were reared under standard tropical rearing conditions\" (p. 5). The study genotypes generations G0 to G30 of this long-established lab colony."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "\"experimental selection with different agrochemical mixtures was conducted in An. gambiae and the impact on insecticide resistance was evaluated by phenotypic and molecular approaches\" (p. 3)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "\"Tiassalé, southern Côte d’Ivoire\" (p. 5)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "\"colony originating from Tiassalé... maintained since 2015\" (p. 5). The source is a single collection event in 2015."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "\"A field-derived An. gambiae (S form) colony originating from Tiassalé... maintained since 2015\" (p. 5). This is a specific experimental study using a known strain."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "\"The target marker genotype data (L1014F and G119S) is provided in Figures 2 and 3 of the main text.\""
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 30,
+    "summary": "The study investigates the impact of agrochemical mixtures on the selection of insecticide resistance in Anopheles gambiae using experimental evolution. A colony derived from Tiassalé, Côte d'Ivoire in 2015 was subjected to 30 generations of selection. Frequencies of Vgsc L1014F and Ace-1 G280S were tracked. However, because the study uses a long-established laboratory colony rather than field-caught or F1 mosquitoes, it is ineligible.",
+    "exclusion_reasons": [
+      "The study uses a laboratory colony (Tiassalé strain) maintained since 2015 for experimental evolution (G0-G30), which does not meet the requirement for field-caught (F0), larvae-reared, or F1 progeny."
+    ]
+  }
+}

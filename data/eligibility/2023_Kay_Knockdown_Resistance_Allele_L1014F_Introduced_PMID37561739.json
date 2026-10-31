@@ -1,0 +1,64 @@
+{
+  "id": "2023_Kay_Knockdown_Resistance_Allele_L1014F_Introduced_PMID37561739",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses the laboratory Anopheles gambiae Kisumu strain (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes and compares the Vgsc L1014F (kdr) mutation (Page 1, Title and Abstract)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype data is provided for the laboratory strains: Kisumu (wildtype) and Kisumu-kdr (homozygous L1014F) (Page 3, Methods)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study only uses laboratory colonies: the Kisumu strain and a CRISPR/Cas9-engineered Kisumu-kdr line. No field-collected mosquitoes were used (Page 1, Abstract; Page 3, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating vector competence (Page 1, Research Article)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as the study uses laboratory strains."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as the study uses laboratory strains and does not report field collection dates."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The Kisumu-kdr line used was previously developed and described in Grigoraki et al. (2021) [Reference 28 in the paper]."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data for the laboratory strains is contained within the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L1014F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 100,
+    "summary": "This study investigates the impact of the Vgsc L1014F mutation on the vector competence of Anopheles gambiae for o'nyong nyong virus (ONNV). It compares the laboratory Kisumu strain with a CRISPR/Cas9-engineered homozygous L1014F mutant line. The study found no significant association between the kdr L1014F allele and ONNV infection prevalence. The paper is ineligible because it exclusively uses laboratory colonies and does not include any African field populations.",
+    "exclusion_reasons": [
+      "No African field population (only laboratory strains used)."
+    ]
+  }
+}

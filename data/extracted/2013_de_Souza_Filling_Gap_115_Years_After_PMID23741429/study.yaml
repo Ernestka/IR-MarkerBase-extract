@@ -1,0 +1,23 @@
+study_id: 2013_de_Souza_Filling_Gap_115_Years_After_PMID23741429
+title: 'Filling the Gap 115 Years after Ronald Ross: The Distribution of the Anopheles
+  coluzzii and Anopheles gambiae s.s from Freetown and Monrovia, West Africa'
+first_author: Dziedzom K. de Souza
+doi: 10.1371/journal.pone.0064939
+pmid: '23741429'
+publication_year: 2013
+countries:
+- Sierra Leone
+- Liberia
+data_source: pub_reader
+provenance:
+  source_text: 'Filling the Gap 115 Years after Ronald Ross: The Distribution of the
+    Anopheles coluzzii and Anopheles gambiae s.s from Freetown and Monrovia, West
+    Africa'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-10-31'
+pmid_source: Europe PMC (from DOI)

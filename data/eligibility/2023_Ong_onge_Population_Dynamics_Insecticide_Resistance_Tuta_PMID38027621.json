@@ -1,0 +1,69 @@
+{
+  "id": "2023_Ong_onge_Population_Dynamics_Insecticide_Resistance_Tuta_PMID38027621",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on Tuta absoluta (Lepidoptera: Gelechiidae), which is an invasive pest on tomato, not Anopheles mosquitoes (Title, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes markers in Tuta absoluta (ace1, vgsc, kdr), not the specific insecticide-resistance markers required for Anopheles species (Page 2, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "While genotype frequencies are reported for Tuta absoluta, no genotype data is provided for Anopheles mosquitoes (Page 2, Supplementary Fig. S2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Tuta absoluta samples were collected from field sites in Kenya, including Mwea, Meru, Naivasha, Loitoktok, and Taita Taveta (Page 6)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating population dynamics and insecticide resistance in Tuta absoluta (Page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies specific regions in Kenya: Mwea, Meru, Naivasha, Loitoktok, and Taita Taveta (Page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected in two batches: 2015-2016 and March-November 2020 (Page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes original field collections and modeling specific to this paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper states that all relevant data are within the paper and supplementary materials (Page 6)."
+    },
+    "markers_found": [],
+    "species": [
+      "Tuta absoluta"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "This study investigates the population dynamics and insecticide resistance of the tomato leaf miner, Tuta absoluta, in Kenya. It uses genetic markers (ace1, vgsc, and kdr) to analyze population structure and models the development of resistance over time. The study is ineligible for the database as it does not study Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "Not Anopheles (studies Tuta absoluta)",
+      "Does not report target markers for Anopheles"
+    ]
+  }
+}

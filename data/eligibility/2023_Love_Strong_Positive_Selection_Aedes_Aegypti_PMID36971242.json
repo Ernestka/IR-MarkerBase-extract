@@ -1,0 +1,73 @@
+{
+  "id": "2023_Love_Strong_Positive_Selection_Aedes_Aegypti_PMID36971242",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti: \"Aedes aegypti vectors the pathogens that cause dengue, yellow fever, Zika virus, and chikungunya and is a serious threat to public health in tropical regions.\" (Abstract)"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper genotypes markers in Aedes aegypti (F1534C, V1016I, I915K, S723T, V410L), not the specified Anopheles markers. While V410L is mentioned, it is in the context of Aedes aegypti: \"Table 1. Genotypes at Selected Loci Previously Identified as Associated with Pyrethroid Resistance in Vgsc\" (Page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts for Vgsc mutations in Aedes aegypti are provided in Table 1 on page 9."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study includes Aedes aegypti samples from \"Franceville, Gabon (n = 13), Kaya Bomu, Kenya (n = 19), and Ngoye, Senegal (n = 20)\" (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary empirical study reporting new whole-genome sequences and analysis: \"Combining new whole genome sequences from Colombia with publicly available data from Africa and the Americas...\" (Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites are named: \"Franceville, Gabon\", \"Kaya Bomu, Kenya\", and \"Ngoye, Senegal\" (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The African samples are from Rose et al. (2020), which collected them in 2017. The Brazilian sample is from 2012. (Page 3, Page 12)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states that the African and some American data are from previous studies: \"In addition, we examined publicly available sequence data from the United States (US) (n = 27) from Lee et al. (2019), and from Santarém, Brazil (n = 18), Franceville, Gabon (n = 13), Kaya Bomu, Kenya (n = 19), and Ngoye, Senegal (n = 20), from Rose et al. (2020)\" (Page 3)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data for the markers discussed is provided in Table 1 of the main text."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Colombia",
+      "Brazil",
+      "USA",
+      "Gabon",
+      "Kenya",
+      "Senegal"
+    ],
+    "collection_years": [
+      2012,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 131,
+    "summary": "This study uses whole-genome sequencing to investigate selective sweeps in Aedes aegypti populations from Colombia, Brazil, the USA, Gabon, Kenya, and Senegal. It identifies several sweeps associated with insecticide resistance genes, particularly the Vgsc gene, and provides genotype frequencies for several kdr mutations in these populations.",
+    "exclusion_reasons": [
+      "The study focuses on Aedes aegypti, not Anopheles mosquitoes.",
+      "The paper does not report any of the specified target insecticide-resistance markers for Anopheles."
+    ]
+  }
+}

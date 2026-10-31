@@ -1,0 +1,65 @@
+{
+  "id": "2024_Ojianwuna_Susceptibility_Status_Synergistic_Activity_DDT_PMID39208076",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates the susceptibility status of male Anopheles gambiae in Delta State, Nigeria (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports bioassay results (mortality and knockdown times) but does not perform genotyping for any insecticide resistance markers. The authors explicitly state that 'molecular-based studies on the resistant gene in male mosquitoes... are required to establish this focus' (Abstract, Page 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data is reported. The results are limited to bioassay mortality percentages and knockdown time models (Tables 1 and 2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Ogwashi-uku, Nsukwa, Ejeme, and Ubulu-uku in the Aniocha South Local Government Area of Delta State, Nigeria (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay data from field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites are named with coordinates: Ogwashi-uku (6.181614, 6.530310), Nsukwa (6.13968, 6.479910), Ejeme (6.017726, 6.357176) and Ubulu-uku (6.23327, 6.44843) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not specify the year(s) in which the mosquito collections took place."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study appears to be an independent investigation of male mosquito resistance in Delta State, Nigeria, with no mention of external surveillance networks or previously published datasets for these specific samples."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper states 'All relevant data are within the manuscript' and the results tables (1 and 2) contain the bioassay data described."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 400,
+    "summary": "This study investigates the insecticide susceptibility status of male Anopheles gambiae and Aedes aegypti in Delta State, Nigeria, using WHO bioassays and PBO synergist tests for DDT and lambda-cyhalothrin. While it reports significant resistance in An. gambiae, it does not perform any molecular genotyping of resistance markers, focusing instead on phenotypic resistance and knockdown dynamics.",
+    "exclusion_reasons": [
+      "Does not report genotyping of target insecticide resistance markers.",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

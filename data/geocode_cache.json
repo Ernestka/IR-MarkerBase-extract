@@ -1961,6 +1961,81 @@
    "name": "سنار Sennar, السودان"
   }
  ],
+ "sl|Aberdeen": [
+  {
+   "lat": 8.49552,
+   "level": "village",
+   "lon": -13.28671,
+   "name": "Aberdeen, Freetown, Western Area Urban, Western Area, Sierra Leone"
+  },
+  {
+   "lat": 8.48407,
+   "level": "residential",
+   "lon": -13.28627,
+   "name": "Aberdeen, Freetown, Western Area Urban, Western Area, Sierra Leone"
+  }
+ ],
+ "sl|Gbedembu": [],
+ "sl|George Brook": [
+  {
+   "lat": 8.46144,
+   "level": "stream",
+   "lon": -13.22547,
+   "name": "Upper George Brook, New England, Sami, Western Area Urban, Western Area, Sierra Leone"
+  },
+  {
+   "lat": 8.46931,
+   "level": "unclassified",
+   "lon": -13.23618,
+   "name": "George Brook Road, Loko Town, New England, Sumalia Town, Western Area Urban, Western Area, Sierra Leone"
+  },
+  {
+   "lat": 8.46548,
+   "level": "residential",
+   "lon": -13.23119,
+   "name": "George Brook Road, Dwarzark, New England, Sami, Western Area Urban, Western Area, Sierra Leone"
+  }
+ ],
+ "sl|Kissi": [
+  {
+   "lat": 8.40348,
+   "level": "village",
+   "lon": -12.97894,
+   "name": "Kisi, Koya Chiefdom, Port Loko District, North Western Province, Sierra Leone"
+  },
+  {
+   "lat": 7.97053,
+   "level": "village",
+   "lon": -11.73898,
+   "name": "Kissi Town, Bo, Bo District, Southern Province, Sierra Leone"
+  },
+  {
+   "lat": 8.20534,
+   "level": "village",
+   "lon": -13.10967,
+   "name": "Kissi Town, Western Area Rural, Western Area, Sierra Leone"
+  }
+ ],
+ "sl|York": [
+  {
+   "lat": 7.54264,
+   "level": "village",
+   "lon": -12.4625,
+   "name": "York, Bonthe District, Southern Province, Sierra Leone"
+  },
+  {
+   "lat": 8.28574,
+   "level": "village",
+   "lon": -13.17887,
+   "name": "York, Western Area Rural, Western Area, Sierra Leone"
+  },
+  {
+   "lat": 7.53285,
+   "level": "island",
+   "lon": -12.46789,
+   "name": "York Island, York, Bonthe District, Southern Province, Sierra Leone"
+  }
+ ],
  "sn|Middle Senegal River basin": [],
  "sn|Senegal River basin": [],
  "tz|Lower Moshi, Kilimanjaro": [

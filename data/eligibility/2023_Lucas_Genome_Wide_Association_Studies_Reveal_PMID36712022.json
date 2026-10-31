@@ -1,0 +1,78 @@
+{
+  "id": "2023_Lucas_Genome_Wide_Association_Studies_Reveal_PMID36712022",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1, Abstract: 'we sequenced 969 phenotyped female An. gambiae and An. coluzzii from ten locations across four countries in West Africa'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 5, Figure 2 reports allele frequencies for target markers including Ace1-280S, Vgsc-402L, Vgsc-995F, Vgsc-1527T, Vgsc-1570Y, Rdl-296G, Rdl-296S, and Cyp4j5-43F. Ace1 CNV duplication is also reported in Figure 3."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 4, Table 1 provides exact sample sizes for each collection site and species, and Page 5, Figure 2 provides exact numerical allele frequencies for all evaluated resistance SNPs."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 15, Section 4.1: 'Mosquitoes were collected in 2017 as larvae from six locations in West Africa (Benin: Avrankou, Côte d’Ivoire: Aboisso, Ghana: Madina, Korle-Bu and Obuasi; Togo: Baguida, Fig. 1). Larvae were raised to adulthood in the laboratory'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Page 1-3: Primary empirical study generating whole-genome sequencing and bioassay data from field-collected mosquitoes under the GAARD project."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 4, Figure 1 and Table 1 specify collection locations: Avrankou (Benin), Aboisso (Côte d'Ivoire), Madina, Korle-Bu, Obuasi (Ghana), and Baguida (Togo)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 15, Section 4.1: 'Mosquitoes were collected in 2017 as larvae'"
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "Page 15, Section 4.2: 'Overall, 1258 samples from this study were whole-genome sequenced as part of the Anopheles gambiae 1000 genomes project (Ag1000G) release v3.2.'"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Main text, Table 1, and Figure 2 present sample sizes and allele frequencies for target markers across populations."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Vgsc N1570Y",
+      "Ace-1 G280S",
+      "Ace-1 DUP",
+      "Rdl A296G",
+      "Rdl A296S",
+      "Cyp4j5 L43F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin",
+      "Côte d'Ivoire",
+      "Ghana",
+      "Togo"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 969,
+    "summary": "This study performed genome-wide sequencing and association analyses on 969 female Anopheles gambiae and Anopheles coluzzii collected as larvae in 2017 across six West African sites in Benin, Côte d'Ivoire, Ghana, and Togo. Mosquitoes were phenotyped for susceptibility/resistance to deltamethrin and pirimiphos-methyl using WHO tube bioassays. Allele frequencies and CNVs were quantified across sites for target markers including Vgsc L995F, Vgsc V402L/I1527T, Vgsc N1570Y, Ace-1 G280S, Ace-1 CNV, Rdl A296G/S, and Cyp4j5 L43F.",
+    "exclusion_reasons": []
+  }
+}

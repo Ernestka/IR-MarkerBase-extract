@@ -1,0 +1,74 @@
+{
+  "id": "2019_Orjuela_Absence_Knockdown_Mutations_Pyrethroid_DDT_PMID31791331",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study examines Anopheles darlingi, Anopheles nuneztovari s.l., and Anopheles albimanus (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotyped the VGSC gene at codons 1010, 1013, and 1014 (Page 1, Abstract)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides the number of sequenced specimens (n=129) and the results section states that no kdr mutations were detected in any of the samples (Page 1, Results)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected from six localities in Colombia (Valle del Cauca, Chocó, and Norte de Santander Departments), which is in South America, not Africa (Page 2, Mosquito populations)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating kdr mutations in field-collected mosquitoes (Page 2, Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to specific localities such as Panguí (Nuquí-Chocó), Bocas de Puné (Medio Atrato-Chocó), and Santa Rosa (El Zulia-Norte de Santander) (Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not explicitly state the collection years for the samples, referring instead to a previous study [21] for sampling details (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper states that 'A detailed description of the sampling sites and the results of the biological tests are provided in a previous paper [21]' and that the mosquitoes were 'previously characterized as resistant populations', indicating these samples are a subset of those described in Orjuela et al. 2018 (Page 2-3)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype data (the absence of mutations in the 129 sequenced samples) is contained within the main text and Table 1."
+    },
+    "markers_found": [
+      "Vgsc L1014F",
+      "Vgsc L1014S",
+      "Vgsc L1014C",
+      "Vgsc L1014W",
+      "Vgsc V1010L",
+      "Vgsc N1013S"
+    ],
+    "species": [
+      "Anopheles darlingi",
+      "Anopheles nuneztovari",
+      "Anopheles albimanus",
+      "Anopheles albitarsis"
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 129,
+    "summary": "This study investigated the presence of knockdown resistance (kdr) mutations in the voltage-gated sodium channel (VGSC) of major malaria vectors in Colombia (An. darlingi, An. nuneztovari s.l., and An. albimanus). Despite phenotypic resistance to pyrethroids and DDT, no mutations were found at codons 1010, 1013, or 1014 in the 129 mosquitoes sequenced.",
+    "exclusion_reasons": [
+      "The study was conducted on mosquito populations from Colombia, which is not an African country."
+    ]
+  }
+}

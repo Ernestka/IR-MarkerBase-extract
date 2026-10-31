@@ -1,0 +1,71 @@
+{
+  "id": "2025_Kiuru_Multiple_Insecticide_Resistance_Anopheles_Funestus_PMID40087723",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles funestus sensu lato (including An. funestus s.s., An. rivulorum, and An. leesoni) in Mopeia, Mozambique (page 1, 3, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study assays Rdl A296S (A296S-Rdl), Cyp6p9a/b 6.5kb-SV (6.5 kb SV insertion), and GSTe2 L119F (L119F-GSTe2) (page 4-7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts (SS=9, RR=7, RS=108) and allele frequencies for Rdl in An. funestus s.s. and other species. Page 7 reports exact genotype counts for the 6.5 kb SV insertion (69 SV+/SV+, 1 SV-/SV-, 11 SV+/SV-) and L119F-GSTe2 (37 homozygous susceptible, 4 heterozygous)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adults and larvae were collected from 15 sentinel sites across Mopeia District, Zambezia Province, Mozambique between October 2021 and September 2022 (pages 1, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original entomological field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field samples were collected from Mopeia District, Zambezia Province, Mozambique across 15 sentinel clusters shown on a map (pages 1, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between October 2021 and September 2022 (page 1, 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study was conducted in the context of the BOHEMIA clinical trial (page 3), but the mosquito collections and insecticide resistance genotyping data represent primary reporting."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype counts, allele frequencies, and bioassay data are fully reported in the main text and Table 2."
+    },
+    "markers_found": [
+      "Rdl A296S",
+      "Cyp6p9a/b 6.5kb-SV",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles rivulorum",
+      "Anopheles leesoni"
+    ],
+    "countries": [
+      "Mozambique"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 210,
+    "summary": "This study evaluated phenotypic resistance to bendiocarb, DDT, deltamethrin, and pirimiphos-methyl using WHO tube bioassays with PBO synergism in Anopheles funestus s.l. from Mopeia District, Zambezia Province, Mozambique (collected October 2021 - September 2022). Genotyping of 210 mosquitoes provided extractable genotype counts and allele frequencies for Rdl A296S, Cyp6p9a/b 6.5kb-SV, and GSTe2 L119F.",
+    "exclusion_reasons": []
+  }
+}
