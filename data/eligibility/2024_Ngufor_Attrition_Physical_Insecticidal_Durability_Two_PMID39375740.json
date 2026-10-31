@@ -1,0 +1,71 @@
+{
+  "id": "2024_Ngufor_Attrition_Physical_Insecticidal_Durability_Two_PMID39375740",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study monitors Anopheles gambiae and Anopheles coluzzii."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report genotype data for any of the listed insecticide-resistance markers. It mentions that the Akron strain has resistance mediated by L1014F kdr and Ace-1R (page 6), but this is a description of the strain's known characteristics, not new genotype data generated in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported for any field-collected mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in the Zou region of Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating ITN durability."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was performed in the Cove, Zagnanado and Ouinhi Districts (COZO) of the Zou Department of central Benin."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between March 2020 and November 2023."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary durability study embedded in a cRCT."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data, so no supplementary genotype data is missing."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the attrition, physical integrity, and insecticidal durability of two dual-active ingredient ITNs (Interceptor G2 and Royal Guard) compared to a pyrethroid-only ITN (Interceptor) in Benin. The study did not perform any genotyping of insecticide-resistance markers in field populations.",
+    "exclusion_reasons": [
+      "reports_target_markers: No new genotype data for resistance markers is reported.",
+      "reports_extractable_genotype_data: No genotype counts or frequencies are provided."
+    ]
+  }
+}

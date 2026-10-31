@@ -1,0 +1,74 @@
+{
+  "id": "2023_Reid_Molecular_Surveillance_Insecticide_Resistance_Phle_PMID37939123",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on Phlebotomus argentipes, which is a sand fly (Diptera: Psychodidae), not an Anopheles mosquito."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Vgsc L1014F and L1014S mutations in Phlebotomus argentipes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype frequencies and statistical analyses of genotype data."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in India."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study reports data at the district and village level."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers the period 2017-2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new study reporting on collections from 2017-2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data is provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L1014F",
+      "Vgsc L1014S"
+    ],
+    "species": [
+      "Phlebotomus argentipes"
+    ],
+    "countries": [
+      "India"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 17680,
+    "summary": "This study monitors kdr mutations (L1014F and L1014S) in Phlebotomus argentipes sand flies in India from 2017 to 2021. It is ineligible because the vector studied is a sand fly, not an Anopheles mosquito, and the study was conducted in India, not Africa.",
+    "exclusion_reasons": [
+      "is_anopheles: The study focuses on Phlebotomus argentipes, a sand fly, not an Anopheles mosquito.",
+      "african_field_population: The study was conducted in India."
+    ]
+  }
+}

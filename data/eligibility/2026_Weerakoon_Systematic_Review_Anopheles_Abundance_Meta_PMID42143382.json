@@ -1,0 +1,89 @@
+{
+  "id": "2026_Weerakoon_Systematic_Review_Anopheles_Abundance_Meta_PMID42143382",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper is a systematic review of Anopheles mosquitoes in Thailand."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a review article and does not report primary genotype data for the specified insecticide-resistance markers. It mentions that kdr mutations were absent in sampled populations in previous studies (page 5, 19), but does not provide the required genotype counts or frequencies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review and meta-analysis of existing literature; it does not report primary genotype counts or frequencies for the specified markers."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study focuses on Anopheles mosquitoes in Thailand, which is not in Africa."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a systematic review and meta-analysis, not a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides data at the province and district level within Thailand."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The review covers studies from 2013–2025."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a systematic review and meta-analysis of previously published studies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a review and does not contain primary genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles dirus",
+      "Anopheles minimus",
+      "Anopheles maculatus",
+      "Anopheles baimaii",
+      "Anopheles harrisoni",
+      "Anopheles epiroticus",
+      "Anopheles barbirostris",
+      "Anopheles campestris",
+      "Anopheles wejchoochotei",
+      "Anopheles peditaeniatus"
+    ],
+    "countries": [
+      "Thailand"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a systematic review and meta-analysis of Anopheles mosquito distribution, bionomics, and Plasmodium infectivity in Thailand. It is not a primary study and does not report primary genotype data for insecticide-resistance markers. Furthermore, the study is based in Thailand, not Africa.",
+    "exclusion_reasons": [
+      "Not an African field population",
+      "Not a primary empirical study",
+      "Does not report extractable genotype data for the specified markers"
+    ]
+  }
+}

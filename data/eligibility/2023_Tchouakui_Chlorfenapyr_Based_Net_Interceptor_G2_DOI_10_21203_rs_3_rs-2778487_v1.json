@@ -1,0 +1,70 @@
+{
+  "id": "2023_Tchouakui_Chlorfenapyr_Based_Net_Interceptor_G2_DOI_10_21203_rs_3_rs-2778487_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The mosquitoes strains used in this study include Anopheles funestus from Mibellon (Adamaoua) and Elende (Centre), Anopheles gambiae from Mangoum (West) and Nkolondom, (Centre), and Anopheles coluzzii from Gounougou (North) (Page 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Furthermore, pyrethroid-resistant markers were genotyped... (Page 3). An. funestus mosquitoes... were genotyped for L119F-GSTe2 marker (Page 7). In An. gambiae... the alive and dead mosquitoes were genotyped for the L1014F-kdr mutation (Page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype distribution of L119F mutation between alive and dead mosquitoes after exposure to Interceptor G2 (A), Royal Guard (B), Permanet 3.0 (C), and the standard net Royal Sentry (D) (Figure 5, Page 23). Genotype counts (n) are provided for each group."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from five sites across Cameroon: Mibellon, Elende, Mangoum, Nkolondom, and Gounougou (Page 5). An. funestus mosquitoes from the experimental hut trials (EHT) in Elende were genotyped (Page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the performance of new generation nets (Interceptor G2, PermaNet 3.0, Royal Guard) against field-collected malaria vectors in Cameroon (Page 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Experimental hut trials in Elende (3°41'57.27''N, 11°33'28.46''E) (Page 5). Other sites include Mibellon, Mangoum, Nkolondom, and Gounougou (Page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected over six weeks between December 2021 and January 2022 (Page 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study was conducted in collaboration with the Cameroon NMCP and CRID to guide the 2022-2023 nationwide bednet distribution campaign (Page 4, 5). While it mentions previous reports, the data presented appears to be from new collections in 2021-2022."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant datasets supporting the conclusions, including genotype counts and frequencies, are included within the article figures (Figures 5-8) (Page 14)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 707,
+    "summary": "This study evaluates the efficacy of Interceptor G2 (chlorfenapyr + alpha-cypermethrin), PermaNet 3.0 (deltamethrin + PBO), and Royal Guard (alpha-cypermethrin + pyriproxyfen) against pyrethroid-resistant Anopheles funestus and Anopheles gambiae s.l. in Cameroon. Experimental hut trials were conducted in Elende, and cone/tunnel assays were performed across five sites. The study reports genotype frequencies for the GSTe2 L119F marker in field-collected An. funestus, comparing survivors vs. dead and blood-fed vs. unfed mosquitoes. It also examines the Vgsc L1014F marker in a hybrid An. gambiae strain.",
+    "exclusion_reasons": []
+  }
+}

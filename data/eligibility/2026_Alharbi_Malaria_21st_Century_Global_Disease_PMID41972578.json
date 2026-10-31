@@ -1,0 +1,67 @@
+{
+  "id": "2026_Alharbi_Malaria_21st_Century_Global_Disease_PMID41972578",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles mosquitoes as malaria vectors throughout the text."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions kdr-west (L1014F) and kdr-east (L1014S) alleles in Nigeria and Kenya (page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review article and does not report primary genotype counts or frequencies for specific mosquito populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review article and does not contain primary data from field-caught mosquitoes."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review article."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No primary data reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary data reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable as it is a review article."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article on malaria burden, epidemiology, and control strategies. It does not report primary empirical data on insecticide-resistance markers in African Anopheles populations.",
+    "exclusion_reasons": [
+      "Not a primary empirical study",
+      "Does not report extractable genotype data",
+      "Does not report primary field-collected mosquito data"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2025_Debrah_Metabolic_Resistance_Pyrethroids_Possible_Involvem_PMID39849377",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus, a major malaria vector in western Kenya (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports gene expression levels (transcriptomics) via RNA-seq for genes such as Cyp6p9a, Cyp6p9b, and Cyp9k1, but it does not genotype the specific DNA markers (SNPs, CNVs, or SVs) required by the database (Page 6, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts (RR/RS/SS) or allele frequencies are provided; the paper only reports fold changes in gene expression and bioassay mortality rates (Table 1, Table 3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Bungoma, Teso, Siaya, Port Victoria, and Kombewa in western Kenya (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and transcriptomic data (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to specific sites: Bungoma, Teso, Siaya, Port Victoria, and Kombewa (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The specific years of mosquito collection are not explicitly stated in the text, although the study was received in 2024 and published in 2025 (Page 15)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study appears to be an original transcriptomic analysis of new field collections in western Kenya."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text and tables clearly indicate that the molecular data is transcriptomic (RNA-seq) rather than genotyping of specific markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 3290,
+    "summary": "This study investigates the molecular basis of pyrethroid resistance in Anopheles funestus from western Kenya using WHO tube bioassays and RNA-seq transcriptomics. While it identifies the overexpression of several metabolic genes (e.g., Cyp6p9a, Cyp6p9b, Cyp9k1), it does not report the frequency of specific resistance markers (SNPs, CNVs, or SVs) and thus does not meet the eligibility criteria for the database.",
+    "exclusion_reasons": [
+      "Does not report genotyping of target markers (reports gene expression/transcriptomics instead)",
+      "Does not report extractable genotype data (RR/RS/SS counts or allele frequencies)"
+    ]
+  }
+}

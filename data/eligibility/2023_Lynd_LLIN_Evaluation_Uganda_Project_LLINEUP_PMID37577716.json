@@ -1,0 +1,74 @@
+{
+  "id": "2023_Lynd_LLIN_Evaluation_Uganda_Project_LLINEUP_PMID37577716",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. and Anopheles funestus vectors in Uganda (page 3, 7)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc-995F, Vgsc-995S, Vgsc-1570Y, Cyp6aap-Dup1, Cyp6p4-236M, ZZB-TE, Cyp4j5-43F, Coeae1d, and 2La (page 7, 10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Supplementary Figure 1 (page 30) provides genotype counts (N) for Vgsc-995, Cyp6p4-236M, Coeae1d, Cyp4j5-43F, and 2La inversion."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 48 districts in Uganda (page 3, 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting on the LLINEUP trial entomological surveillance (page 3, 8)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported by health sub-districts (HSDs) across 48 districts in Uganda (page 7, 26)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted over a 2-year follow-up period from 2017-2019 (page 3, 12)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states that while abundance data were reported previously, the molecular data from the 6, 12, 18, and 25-month collection rounds are novel to this manuscript (page 8)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype counts are provided in Supplementary Figure 1 on page 30 of the provided document."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Cyp6aa1 DUP",
+      "Cyp6p4 I236M",
+      "Cyp6p4 ZZB-TE",
+      "Cyp4j5 L43F"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 5395,
+    "summary": "This study analyzed the frequency of insecticide resistance markers in Anopheles gambiae s.s. collected across 48 districts in Uganda during a 2-year cluster-randomized trial of PBO-LLINs versus conventional LLINs. The study found significant increases in several resistance markers over time, with Vgsc-995F spreading and replacing Vgsc-995S.",
+    "exclusion_reasons": []
+  }
+}

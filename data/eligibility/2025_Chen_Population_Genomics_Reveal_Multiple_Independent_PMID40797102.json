@@ -1,0 +1,67 @@
+{
+  "id": "2025_Chen_Population_Genomics_Reveal_Multiple_Independent_PMID40797102",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper studies the spider mite Tetranychus urticae, not Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports resistance markers in Tetranychus urticae, not Anopheles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype data for Anopheles mosquitoes."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study focuses on populations from China and global reference data, not African field populations of Anopheles."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides specific sampling locations in China (e.g., cities, provinces)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not explicitly state the collection years for the 258 Chinese samples."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections of 258 spider mites."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible regardless of supplementary data."
+    },
+    "markers_found": [],
+    "species": [
+      "Tetranychus urticae"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 258,
+    "summary": "This paper investigates the population genomics and pesticide resistance of the spider mite Tetranychus urticae in China. It is not eligible for the database as it does not study Anopheles malaria vectors.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

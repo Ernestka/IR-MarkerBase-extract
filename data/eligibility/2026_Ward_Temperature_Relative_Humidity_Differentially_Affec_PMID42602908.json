@@ -1,0 +1,67 @@
+{
+  "id": "2026_Ward_Temperature_Relative_Humidity_Differentially_Affec_PMID42602908",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on the mosquito Culex quinquefasciatus (Title, Abstract, and Page 5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study uses a pyrethroid-susceptible laboratory strain and does not report genotyping for any resistance markers (Page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data is reported; the study only reports mortality results from bioassays (Results section)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes used are from the CMAVE laboratory strain, which was isolated from Gainesville, Florida, USA, in 1995 (Page 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting experimental bioassay results (Materials & Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The origin of the laboratory strain is specified as Gainesville, Florida (Page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports experimental results conducted under controlled conditions, likely within a short timeframe prior to publication (2026)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is an independent laboratory study using a standard reference strain."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is expected in the supplement as the study uses a susceptible laboratory strain."
+    },
+    "markers_found": [],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "United States of America"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 3434,
+    "summary": "This study investigates how temperature and relative humidity influence the toxicity of deltamethrin and malathion against a laboratory strain of Culex quinquefasciatus from the USA. It does not study Anopheles mosquitoes, does not report genotype data for resistance markers, and does not use African field populations.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

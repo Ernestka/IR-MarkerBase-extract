@@ -1,0 +1,65 @@
+{
+  "id": "2021_Medjigbodo_Putative_Pleiotropic_Effects_Knockdown_Resistance_PMID34930272",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-10-31",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae s.s. (page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study uses laboratory strains with known kdr (L1014F) genotypes (page 2, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The study uses established laboratory strains (Kisumu and KisKdr) and their crosses. It does not report genotype data for field-collected populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory reference strains (Kisumu and KisKdr) maintained in an insectary, not field-collected populations (page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical laboratory study."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses laboratory strains, not field-collected samples from specific locations."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study uses laboratory strains, not field-collected samples with a collection date."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a laboratory study using established reference strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study investigates the fitness costs (fecundity, fertility, larval survivorship, blood-feeding success, and longevity) of the kdr (L1014F) mutation in laboratory strains of Anopheles gambiae s.s. (Kisumu and KisKdr). It is not eligible because it does not involve field-collected mosquito populations.",
+    "exclusion_reasons": [
+      "The study uses laboratory reference strains, not field-collected populations.",
+      "No field-collected genotype data is reported."
+    ]
+  }
+}
