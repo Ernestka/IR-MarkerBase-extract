@@ -1,0 +1,61 @@
+{
+  "id": "2024_Charamis_Comparative_Genomics_Uncovers_Evolutionary_Dynamic_PMID39224065",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study investigates 11 phlebotomine sand fly species (page 1). Anopheles gambiae is used solely as a comparative reference species."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target markers were genotyped in Anopheles field populations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype frequency or count data for Anopheles vectors are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper does not analyze field-collected African Anopheles mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary comparative transcriptomics and genomics study in sand flies."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as no Anopheles field populations were sampled."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as no Anopheles field collections were conducted."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "None"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "None"
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper presents transcriptome assemblies and comparative genomics of detoxification gene families in 11 phlebotomine sand fly species. It does not study Anopheles mosquitoes or genotype field populations of malaria vectors.",
+    "exclusion_reasons": [
+      "Study focuses on phlebotomine sand flies rather than Anopheles mosquitoes.",
+      "Does not report target insecticide resistance markers or extractable genotype data for African field Anopheles populations."
+    ]
+  }
+}

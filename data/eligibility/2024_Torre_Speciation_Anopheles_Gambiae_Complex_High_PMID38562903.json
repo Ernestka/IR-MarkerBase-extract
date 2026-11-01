@@ -1,0 +1,79 @@
+{
+  "id": "2024_Torre_Speciation_Anopheles_Gambiae_Complex_High_PMID38562903",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the Anopheles gambiae complex (page 3, abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper discusses target-site insecticide resistance markers including Vgsc, Rdl, and Ace-1 (page 10, section 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper uses whole genome sequencing data from the MalariaGEN Ag1000G project (page 6, section 1). It reports frequencies and genomic analyses but does not provide the raw genotype counts (RR/RS/SS) for the populations studied in the main text or tables."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected mosquitoes from West Africa (The Gambia, Guinea-Bissau, etc.) (page 6, section 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study analyzing genomic data to identify a new cryptic taxon."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies specific sampling sites such as Leibala, Safim, and Antula (page 6, section 1; page 13, Figure 1A)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The samples were collected between 2004 and 2014 (page 6, section 1), but the specific Far-West populations were collected in 2010-2012 (page 6, section 1), which is a 3-year window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it uses data from the 'MalariaGEN Anopheles gambiae 1000 Genomes Project Phase-3 data resource' (page 6, section 1)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper refers to supplementary tables (e.g., Table S1, Table S6) for metadata and specific SNP details, which are not included in the provided PDF."
+    },
+    "markers_found": [
+      "Vgsc",
+      "Rdl",
+      "Ace-1"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Ghana",
+      "Côte d’Ivoire",
+      "Guinea",
+      "The Gambia",
+      "Mali",
+      "Guinea-Bissau"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1190,
+    "summary": "This study analyzes whole genome sequencing data from 1,190 Anopheles gambiae complex mosquitoes from West Africa to identify a novel cryptic taxon in the 'far-west' region, provisionally named the Bissau molecular form. The study finds that this taxon is genetically distinct and lacks common insecticide resistance mechanisms found in An. coluzzii and An. gambiae.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

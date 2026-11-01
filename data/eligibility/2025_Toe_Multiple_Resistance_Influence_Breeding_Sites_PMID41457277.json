@@ -1,0 +1,70 @@
+{
+  "id": "2025_Toe_Multiple_Resistance_Influence_Breeding_Sites_PMID41457277",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper exclusively studies Aedes aegypti mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports F1534C, V1016I, and V410L mutations in Aedes aegypti."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 and Table 2 provide genotype counts (RR, RS, SS) for the genotyped mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Aedes aegypti larvae from Ouagadougou, Burkina Faso."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies districts (Kalgondin, Paspanga, Kossodo) within Ouagadougou."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from September to November 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections from 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc F1534C",
+      "Vgsc V1016I",
+      "Vgsc V410L"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 186,
+    "summary": "This study investigates insecticide resistance and kdr mutations (F1534C, V1016I, V410L) in Aedes aegypti from Ouagadougou, Burkina Faso, comparing mosquitoes from domestic containers and car tires. The paper is ineligible because it does not study Anopheles mosquitoes.",
+    "exclusion_reasons": [
+      "is_anopheles"
+    ]
+  }
+}

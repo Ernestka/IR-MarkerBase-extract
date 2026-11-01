@@ -1,0 +1,67 @@
+{
+  "id": "2025_Syme_Does_Washing_Insecticide_Treated_Nets_PMID40259380",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles coluzzii."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr L995F and ace-1 G119S as resistance markers in the vector population (page 3, 5), but these are cited from previous studies (references 21, 33, 34) to characterize the population. The current study does not report new genotype data for these markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report any new genotype counts or frequencies for insecticide-resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Covè, Benin."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Covè, Zou Department, southern Benin."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between May and July 2023."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is a new experimental hut trial, although it uses field-aged nets from a previously described durability monitoring study (reference 29)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study compares the entomological efficacy of new (unwashed and 20-washed) ITNs against field-aged ITNs (3 years post-distribution) in experimental huts in Benin. While it characterizes the resistance profile of the local vector population using previously published marker data, it does not generate or report new genotype data for resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report new genotype data for any of the required markers; it only cites previous studies for the resistance profile of the population."
+    ]
+  }
+}

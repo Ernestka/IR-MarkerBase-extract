@@ -1,0 +1,84 @@
+{
+  "id": "2025_Djoko_Tagne_Single_Mutation_G454A_P450_CYP9K1_PMID39509710",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the major malaria vector Anopheles funestus (Page 1, Title & Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping and functional validation of the Cyp9k1 G454A mutation (G1361C substitution in CYP9K1 CDS) in An. funestus (Page 1, Abstract; Page 4, AS-PCR and LNA assay design)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 9 reports extractable genotype counts (RR, RS, SS) for bioassays and experimental hut trials (e.g., Royal sentry hut alive: 7/50 RR, 23/50 RS, 20/50 SS; dead: 2/49 RR, 23/49 RS, 24/49 SS; PermaNet 3.0 hut alive: 5/73 RR, 55/73 RS, 13/73 SS; dead: 5/50 RR, 25/50 RS, 20/50 SS; WHO tube bioassay deltamethrin alive: 6/37 RR, 24/37 RS; dead: 1/37 RR, 19/37 RS, 17/37 SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes were collected from multiple African countries including Cameroon (Mibellon, Elende, Gounougou, Tibati, Penja), Uganda (Tororo, Mayuge), Malawi (Chikwawa), Ghana (Atatam/Obuasi), Benin, DRC, Tanzania, Zambia, and Mozambique (Page 3, Methods; Page 9, Results)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study presenting new diagnostic PCR assays, recombinant enzyme metabolism assays, transgenic Drosophila bioassays, WHO tube bioassays, cone bioassays, experimental hut trials, and field population genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific locations provided with geographic coordinates (e.g., Mibellon 6°46'N, 11°70'E; Elende 3°41'57.27\"N, 11°33'28.46\"E; Mayuge 0°23'10.8\"N, 33°37'16.5\"E; Chikwawa 12°19'S, 34°01'E; Atatam 06°17.377'N, 001°27.545'W) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections are dated to specific months/years, e.g., March 2014, September 2020, January 2014, June 2021, February 2015, October 2020, April 2019, July/October 2021, 2022, 2023 (Page 3 & Page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Some DNA samples used for temporal frequency tracking were archived from previously published vector collections across Africa, but the Cyp9k1 G454A genotyping and linked phenotype data (experimental hut trials and WHO/cone bioassays from Elende 2022/2023) are primary and novel to this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Extractable genotype counts for bioassays, cone tests, experimental hut trials, and population sample sizes (n=40 per population) are fully reported in the main text and figures."
+    },
+    "markers_found": [
+      "Cyp9k1 G454A"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon",
+      "Democratic Republic of the Congo",
+      "Ghana",
+      "Malawi",
+      "Mozambique",
+      "Tanzania",
+      "Uganda",
+      "Zambia"
+    ],
+    "collection_years": [
+      2010,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 980,
+    "summary": "This study demonstrates that the single amino acid mutation G454A in the P450 CYP9K1 gene drives pyrethroid resistance in Anopheles funestus across East and Central Africa. The authors developed allele-specific PCR and LNA diagnostic assays to track the spread of 454A-CYP9K1, functionally validated the mutation in vitro and in vivo (transgenic Drosophila), and evaluated its impact on bed net efficacy via cone bioassays and field experimental hut trials in Elende, Cameroon.",
+    "exclusion_reasons": []
+  }
+}

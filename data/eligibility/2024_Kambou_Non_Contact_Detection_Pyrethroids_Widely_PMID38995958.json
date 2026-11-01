@@ -1,0 +1,69 @@
+{
+  "id": "2024_Kambou_Non_Contact_Detection_Pyrethroids_Widely_PMID38995958",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae, An. coluzzii, An. arabiensis)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for kdr-west (L1014F) and Ace-1(R) (G119S) (page 3, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides counts of field-collected mosquitoes categorized by kdr phenotype (RR=63, RS=38, SS=87) on page 8."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-collected mosquitoes were obtained from Soumousso, Burkina Faso (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting behavioral assays and genotyping on field-collected and laboratory-reared mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the collection site as Soumousso, Burkina Faso (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2024 and describes recent field collections for the experiments."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new behavioral assays and genotyping performed on field-collected mosquitoes from Soumousso."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype counts for the field-collected mosquitoes are provided in the main text (page 8)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": true,
+    "sample_size": 188,
+    "summary": "This study investigated the non-contact detection of pyrethroids (permethrin, deltamethrin, alpha-cypermethrin) in Anopheles gambiae s.l. mosquitoes. It included both laboratory strains and field-collected mosquitoes from Burkina Faso. The study genotyped field-collected mosquitoes for kdr and Ace-1 mutations and analyzed their behavioral response (takeoff) to insecticide headspace.",
+    "exclusion_reasons": []
+  }
+}

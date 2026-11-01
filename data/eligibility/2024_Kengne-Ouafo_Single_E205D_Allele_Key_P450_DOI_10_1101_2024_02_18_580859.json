@@ -1,0 +1,76 @@
+{
+  "id": "2024_Kengne-Ouafo_Single_E205D_Allele_Key_P450_DOI_10_1101_2024_02_18_580859",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles coluzzii (e.g., page 2, abstract; page 16, geographic distribution)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-1014F) and identifies a new marker, CYP6P3 E205D (page 4, 7, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies are provided for various populations, e.g., page 4 (F4 hybrid proportions), page 7 (kdr frequencies), page 8 (E205D frequencies), and page 16 (genotype proportions in Cameroon)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study includes field-collected mosquitoes from Cameroon (Mangoum, Nyabessang, Santchou, Nkolondom, Gounougou), Sierra Leone, Ghana, Uganda, Malawi, and DRC (page 16, 41, 59)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collections, hybrid crosses, sequencing, and functional validation."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific locations such as Mangoum, Nyabessang, Santchou, Nkolondom, Gounougou (Cameroon), Kono (Sierra Leone), and Obuasi (Ghana) (page 16, 41)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study specifies collection years, e.g., Mangoum 2018 and 2022, and samples from 2021-2022 (page 5, 16, 59)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and hybrid crosses specifically for this research."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The provided PDF includes all necessary supplementary figures and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Cyp6p3 E205D"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon",
+      "Sierra Leone",
+      "Ghana",
+      "Uganda",
+      "Malawi",
+      "Democratic Republic of Congo"
+    ],
+    "collection_years": [
+      2010,
+      2018,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 150,
+    "summary": "This study identifies a novel E205D mutation in the CYP6P3 gene of Anopheles gambiae, which is associated with metabolic pyrethroid resistance. The study uses hybrid crosses, whole-genome sequencing, functional validation (transgenic flies, in vitro metabolism), and diagnostic tool development to demonstrate that this marker, in combination with kdr, significantly reduces the efficacy of insecticide-treated bednets.",
+    "exclusion_reasons": []
+  }
+}

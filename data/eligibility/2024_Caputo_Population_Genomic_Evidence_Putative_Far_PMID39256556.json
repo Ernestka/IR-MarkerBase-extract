@@ -1,0 +1,93 @@
+{
+  "id": "2024_Caputo_Population_Genomic_Evidence_Putative_Far_PMID39256556",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae complex species (An. coluzzii, An. gambiae, and a putative far-west taxon)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on Vgsc (L995F/S), Rdl, and Ace-1 target-site resistance markers (page 5, 7, 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides sample sizes for populations, and the paper discusses allele frequencies and genotype-related data (e.g., Fig 5, page 5, 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses 1190 mosquito females collected in the field from 7 different countries in West Africa (page 7, 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using Ag1000G Phase-3 data to perform new population genomic analyses."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides specific sampling locations (e.g., Sare Samba Sowe, Tankular, Njambakunda, Antula, Safim, Leibala) shown in Fig 1A."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study aggregates data collected over long periods (e.g., 2004-2014, 2006-2011, 2006-2012) which exceeds the 3-year window requirement."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it uses the 'Ag1000G Phase-3 data resource (Ag3.0)' which is a large, previously published multi-country consortium dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data for the study's conclusions are provided within the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Cyp6p9b R",
+      "Cyp6aa1 DUP",
+      "Cyp9k1 G454A"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Côte d’Ivoire",
+      "Ghana",
+      "Guinea",
+      "Mali",
+      "Guinea-Bissau",
+      "The Gambia"
+    ],
+    "collection_years": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1190,
+    "summary": "This study analyzes 1190 Anopheles gambiae s.l. specimens from West Africa to investigate the genomic structure of 'far-west' populations. It identifies a putative cryptic taxon (Bissau molecular form) and assesses its genomic divergence, demographic history, and insecticide resistance markers compared to An. coluzzii and An. gambiae.",
+    "exclusion_reasons": [
+      "temporal_resolution_within_3y"
+    ]
+  }
+}

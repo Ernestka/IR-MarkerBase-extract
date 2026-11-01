@@ -1,0 +1,69 @@
+{
+  "id": "2024_Saizonou_Transcriptomic_Analysis_Anopheles_Gambiae_Benin_PMID38582836",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. collected from Bassila and Djougou in Benin (Page 1, Abstract; Page 13, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports allele frequencies for Vgsc L995F (kdr-west), Vgsc L995S (kdr-east), Vgsc P1874L, and Ace-1 G280S (Page 8, Results; Page 9, Figure 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele frequencies are provided in Figure 8 for seven different groups (survivors and unexposed). The sample size is specified as three replicates of pools of seven mosquitoes each per group, totaling 21 mosquitoes per group (Page 8, 9, 13)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae in August and October 2019 from Djougou and Bassila, Benin, and reared to adulthood for testing (Page 13, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study using RNA-Seq and bioassays to characterize insecticide resistance mechanisms (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for two specific sites in Benin: Djougou (9° 42′ 29.1312″ N, 1° 39′ 58.8672″ E) and Bassila (9° 0′ 23.0148″ N, 1° 39′ 50.1264″ E) (Page 13)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in August and October 2019 (Page 13)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The dataset is available in the Sequence Read Archive (SRA) under accession PRJNA982704, but there is no indication that these specific samples are part of a larger previously published dataset like Ag1000G (Page 16)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype frequency data and sample sizes are contained within the main text and Figure 8."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc P1874L",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 147,
+    "summary": "The study investigates the molecular basis of insecticide resistance in Anopheles gambiae s.s. from two locations in Benin (Djougou and Bassila) using transcriptomics and target-site mutation analysis. It reports allele frequencies for Vgsc (L995F, L995S, P1874L) and Ace-1 (G280S) markers across different phenotypic groups (survivors of deltamethrin, alphacypermethrin, and pirimiphos-methyl, plus unexposed controls).",
+    "exclusion_reasons": []
+  }
+}
