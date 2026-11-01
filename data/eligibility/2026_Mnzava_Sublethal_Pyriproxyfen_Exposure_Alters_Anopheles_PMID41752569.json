@@ -1,0 +1,68 @@
+{
+  "id": "2026_Mnzava_Sublethal_Pyriproxyfen_Exposure_Alters_Anopheles_PMID41752569",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles arabiensis (page 1, Abstract and Section 2.1 Study Area)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not genotype any target resistance markers; it only mentions in Section 2.2 that the insectary colony used 'exhibits established resistance mechanisms, including kdr mutations' without testing or specifying individual alleles."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular genotyping was performed and no genotype counts, allele counts, or frequencies are presented in the study."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study tested only an insectary-reared colony maintained since 2011 ('Third-instar larvae of pyrethroid-resistant An. arabiensis were obtained from the IHI insectary. This colony originated from field collections in Sakamaganga village, Ifakara, southern Tanzania, and has been maintained since 2011', Section 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary experimental laboratory/semi-field study evaluating the effects of sublethal pyriproxyfen exposure across three generations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The semi-field experiments were conducted at Kinin'gina village (8.11417° S, 36.67484° E), rural southeastern Tanzania, and the colony originated from Sakamaganga village, Ifakara (page 3, Sections 2.1 and 2.2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Experiments were carried out between March and November 2024 (page 3, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original bioassay and life history data generated in a semi-field study using an established colony."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No external supplementary files are required as no molecular genotyping was conducted."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the multi-generational effects of sublethal pyriproxyfen exposure on fitness traits and pyrethroid susceptibility in a colonized strain of Anopheles arabiensis in Tanzania. It performed standard WHO tube bioassays and fitness assays, but did not perform any molecular marker genotyping.",
+    "exclusion_reasons": [
+      "No target insecticide-resistance markers were genotyped.",
+      "No extractable genotype data (counts or frequencies) are reported.",
+      "Mosquitoes tested were strictly from a long-established laboratory insectary colony (maintained since 2011), rather than field-collected populations."
+    ]
+  }
+}

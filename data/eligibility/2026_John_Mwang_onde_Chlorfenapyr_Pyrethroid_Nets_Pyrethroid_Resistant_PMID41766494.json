@@ -1,0 +1,67 @@
+{
+  "id": "2026_John_Mwang_onde_Chlorfenapyr_Pyrethroid_Nets_Pyrethroid_Resistant_PMID41766494",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The review focuses on Anopheles malaria vectors including Anopheles gambiae and Anopheles funestus (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The review mentions kdr and CYP6P4 overexpression in general literature context, but does not test or report specific target resistance marker genotypes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies with sample sizes are presented."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper does not collect or test any field mosquitoes; it is a systematic literature review."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly a 'REVIEW ARTICLE' conducting a systematic review and meta-analysis of literature from 2010 to 2024 (page 1 and page 2 under 'Materials and methods')."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as this is a review article without primary field collections."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as this is a review article synthesizing studies from 2010 to 2024."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable for a review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplemental files contain primary field genotyping data for target markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles arabiensis"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a systematic review and meta-analysis evaluating the efficacy, resistance risks, and policy implications of chlorfenapyr-pyrethroid combination nets against pyrethroid-resistant malaria vectors across sub-Saharan Africa. It contains no primary empirical mosquito collections or marker genotyping data.",
+    "exclusion_reasons": [
+      "Study is a review / meta-analysis rather than a primary empirical study (not is_primary_study).",
+      "Does not report target marker genotyping (not reports_target_markers).",
+      "Does not report extractable genotype data (not reports_extractable_genotype_data).",
+      "Does not test field populations directly (not african_field_population)."
+    ]
+  }
+}

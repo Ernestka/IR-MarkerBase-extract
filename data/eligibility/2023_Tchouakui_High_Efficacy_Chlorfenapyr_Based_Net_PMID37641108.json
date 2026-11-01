@@ -1,0 +1,69 @@
+{
+  "id": "2023_Tchouakui_High_Efficacy_Chlorfenapyr_Based_Net_PMID37641108",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles funestus s.l. and Anopheles gambiae s.l. from Cameroon (page 1, Abstract; page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of GSTe2 L119F in An. funestus (page 5, 8, 9-11, Fig. 7-9) and Vgsc L995F (L1014F-kdr) (page 4-5, 7, Fig. 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Fig. 7A-D reports GSTe2 L119F genotype frequencies (RR, RS, SS) for alive and dead An. funestus with sample sizes provided on the x-axis for each net treatment (e.g., IG2 alive n=45, dead n=82; RG alive n=76, dead n=43; P3.0 alive n=42, dead n=43; RS alive n=69, dead n=36). Additional breakdowns by blood-feeding (Fig. 8) and hut location (Fig. 9) with exact n are also given."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles funestus mosquitoes were collected as free-flying wild adults entering experimental huts in Elende, Cameroon (3°41'57.27\"N, 11°33'28.46\"E) between December 2021 and January 2022 (page 3, 4-5, 6)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article evaluating bed net efficacy and resistance marker association via cone/tunnel tests and experimental hut trials."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Elende village, Centre region, Cameroon (coordinates: 3°41'57.27\"N, 11°33'28.46\"E) (page 3, 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Experimental hut collections were conducted over six weeks between December 2021 and January 2022 (page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary study conducted in collaboration between CRID and the Cameroon National Malaria Control Programme with newly collected field data from 2021-2022."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency and sample size data for GSTe2 L119F are presented in the main text Figures 7, 8, and 9."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 678,
+    "summary": "This study evaluated the efficacy of standard, PBO-based (PermaNet 3.0), and dual-AI (Interceptor G2 and Royal Guard) nets in laboratory cone/tunnel assays and experimental hut trials in Elende, Cameroon. Free-flying wild An. funestus from experimental huts were genotyped for the GSTe2 L119F marker, with genotype frequencies reported for dead vs alive, blood-fed vs unfed, and room vs veranda/net.",
+    "exclusion_reasons": []
+  }
+}
