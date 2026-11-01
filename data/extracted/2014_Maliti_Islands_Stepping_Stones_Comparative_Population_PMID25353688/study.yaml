@@ -1,0 +1,23 @@
+study_id: 2014_Maliti_Islands_Stepping_Stones_Comparative_Population_PMID25353688
+title: 'Islands and Stepping-Stones: Comparative Population Structure of Anopheles
+  gambiae sensu stricto and Anopheles arabiensis in Tanzania and Implications for
+  the Spread of Insecticide Resistance'
+first_author: Deodatus Maliti
+doi: 10.1371/journal.pone.0110910
+pmid: '25353688'
+publication_year: 2014
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: 'Maliti et al. (2014) Islands and Stepping-Stones: Comparative Population
+    Structure of Anopheles gambiae sensu stricto and Anopheles arabiensis in Tanzania
+    and Implications for the Spread of Insecticide Resistance. PLoS ONE 9(10): e110910.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

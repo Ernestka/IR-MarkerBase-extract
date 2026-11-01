@@ -1,0 +1,2 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2014_Ngufor_Zeneti_2011_wild_gambiae,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,real-time TaqMan PCR,False,47,,,,,,0.22,,The genotyping results revealed a kdr allele (L1014S) frequency of 0.22 in a random sample of 47 An. gambiae s.l. mosquitoes collected from the experimental huts.,3,,,

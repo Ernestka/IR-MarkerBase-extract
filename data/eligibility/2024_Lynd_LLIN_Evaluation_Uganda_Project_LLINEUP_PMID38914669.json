@@ -1,0 +1,76 @@
+{
+  "id": "2024_Lynd_LLIN_Evaluation_Uganda_Project_LLINEUP_PMID38914669",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Overall, 5395 female Anopheles mosquitoes were collected from 5046 households in 48 districts of Uganda (Page 1, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "An. gambiae s.s. females were screened for pyrethroid resistance mutations: Vgsc-995F, Vgsc-995S, Vgsc-1570Y, Cyp6aap-Dup1 triple mutant haplotype (consisting of Cyp6aap-Dup1 itself, Cyp6p4-236M and the transposable element insertion ZZB), and Cyp4J5-43F (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 lists mosquito sample sizes per species per round (e.g. 1,284 An. gambiae s.s. at baseline, 815 in round 5). Figure 3 and Table 3 report precise allele frequencies across rounds 1 to 5 for all target markers, and text notes specific frequencies (e.g., Vgsc-995S dropped from 94% to 79%/91%) (Pages 4, 6, 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquito collections were conducted across 104 health sub-districts (HSDs) in 48 districts of Uganda from 2017 to 2019 using indoor resting Prokopack aspirator collections (Pages 1, 3, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary cluster-randomized trial entomological surveillance study. Data from collection rounds 2 to 5 (6, 12, 18, and 25 months post-bednet distribution) are unique to this manuscript (Page 4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 104 health sub-districts (HSDs) across 48 districts in Uganda, with latitude/longitude spatial modeling presented (Pages 2, 4, 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Surveys were conducted across 5 six-monthly rounds between 2017 and 2019 (25-month follow-up period) (Pages 1, 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Baseline (Round 1) molecular data were previously published in Lynd et al. 2019 (Ref 10). However, rounds 2–5 (6, 12, 18, and 25 months) and longitudinal analyses are unique to this paper (Page 4)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary allele frequency, species identification, and sample size data are provided in the main text, figures (Figure 3), and tables (Tables 1 and 3), with complete raw data available on GitHub."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Cyp6aap DUP",
+      "Cyp6p4 I236M",
+      "Cyp6p4 ZZB-TE",
+      "Cyp4j5 L43F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 2987,
+    "summary": "This study evaluated longitudinal changes in Plasmodium infection rates and insecticide resistance marker frequencies (Vgsc-995F, Vgsc-995S, Vgsc-1570Y, Cyp4j5-43F, and the Cyp6aap-Dup1 / Cyp6p4-236M / ZZB-TE triple mutant haplotype) in Anopheles gambiae s.s. across 5 collection rounds over 25 months (2017–2019) in 48 districts of Uganda as part of the LLINEUP cluster-randomized trial.",
+    "exclusion_reasons": []
+  }
+}

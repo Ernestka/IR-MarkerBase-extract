@@ -1,0 +1,28 @@
+study_id: 2014_Riveron_Single_Mutation_GSTe2_Gene_Allows_PMID24565444
+title: A single mutation in the GSTe2 gene allows tracking of metabolically based
+  insecticide resistance in a major malaria vector
+first_author: Jacob M Riveron
+doi: 10.1186/gb-2014-15-2-r27
+pmid: '24565444'
+publication_year: 2014
+countries:
+- Benin
+- Burkina Faso
+- Cameroon
+- Ghana
+- Kenya
+- Malawi
+- Mozambique
+- Uganda
+- Zambia
+data_source: journal_article
+provenance:
+  source_text: Riveron et al. Genome Biology 2014, 15:R27
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

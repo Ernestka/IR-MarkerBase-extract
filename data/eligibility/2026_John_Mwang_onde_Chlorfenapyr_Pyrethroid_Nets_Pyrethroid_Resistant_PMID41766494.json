@@ -10,40 +10,40 @@
     "checks": {
       "is_anopheles": {
         "met": true,
-        "evidence": "The review focuses on Anopheles malaria vectors including Anopheles gambiae and Anopheles funestus (page 1, Abstract)."
+        "evidence": "The review focuses on African malaria vectors, specifically Anopheles gambiae sensu lato, Anopheles funestus, and Anopheles arabiensis (page 1, Abstract; page 4, Table 1)."
       },
       "reports_target_markers": {
         "met": false,
-        "evidence": "The review mentions kdr and CYP6P4 overexpression in general literature context, but does not test or report specific target resistance marker genotypes."
+        "evidence": "The paper is a review discussing pyrethroid and chlorfenapyr resistance, mentioning kdr and CYP6P4 overexpression in general terms, but does not test or report specific target resistance marker genotypes or alleles."
       },
       "reports_extractable_genotype_data": {
         "met": false,
-        "evidence": "No primary genotype counts, allele counts, or frequencies with sample sizes are presented."
+        "evidence": "No primary mosquito genotype counts, sample sizes, or allele frequencies are reported."
       },
       "african_field_population": {
         "met": false,
-        "evidence": "The paper does not collect or test any field mosquitoes; it is a systematic literature review."
+        "evidence": "No field mosquito collections or testing were conducted by this study; it is a desk review of published literature."
       },
       "is_primary_study": {
         "met": false,
-        "evidence": "The paper is explicitly a 'REVIEW ARTICLE' conducting a systematic review and meta-analysis of literature from 2010 to 2024 (page 1 and page 2 under 'Materials and methods')."
+        "evidence": "The article is explicitly labeled as a 'REVIEW ARTICLE' and describes itself as 'conducted as a systematic review with a quantitative synthesis (meta-analysis)' (page 1 and page 2, Materials and methods)."
       },
       "sub_country_location": {
         "met": false,
-        "evidence": "Not applicable as this is a review article without primary field collections."
+        "evidence": "No primary field collection sites are sampled in this study."
       },
       "temporal_resolution_within_3y": {
         "met": false,
-        "evidence": "Not applicable as this is a review article synthesizing studies from 2010 to 2024."
+        "evidence": "No primary collection dates exist; the review surveys literature published between 2010 and 2024."
       }
     },
     "duplicate_risk": {
       "level": "none",
-      "evidence": "Not applicable for a review article."
+      "evidence": "Not applicable as this is a secondary literature review."
     },
     "supplement": {
       "needed": false,
-      "evidence": "No supplemental files contain primary field genotyping data for target markers."
+      "evidence": "No supplementary data needed because the manuscript is an excluded review paper."
     },
     "markers_found": [],
     "species": [
@@ -56,12 +56,12 @@
     "has_bioassays": false,
     "has_genotype_phenotype": false,
     "sample_size": null,
-    "summary": "This article is a systematic review and meta-analysis evaluating the efficacy, resistance risks, and policy implications of chlorfenapyr-pyrethroid combination nets against pyrethroid-resistant malaria vectors across sub-Saharan Africa. It contains no primary empirical mosquito collections or marker genotyping data.",
+    "summary": "This article is a systematic review and meta-analysis evaluating the efficacy, resistance dynamics (including CYP6P4-linked chlorfenapyr reduced susceptibility), and policy implications of chlorfenapyr-pyrethroid dual-active ingredient ITNs in sub-Saharan Africa across 31 included publications from 2010 to 2024.",
     "exclusion_reasons": [
-      "Study is a review / meta-analysis rather than a primary empirical study (not is_primary_study).",
-      "Does not report target marker genotyping (not reports_target_markers).",
-      "Does not report extractable genotype data (not reports_extractable_genotype_data).",
-      "Does not test field populations directly (not african_field_population)."
+      "not_a_primary_study",
+      "no_target_markers",
+      "no_extractable_genotype_data",
+      "no_african_field_population"
     ]
   }
 }

@@ -1,0 +1,69 @@
+{
+  "id": "2024_Yameogo_Three_Years_Insecticide_Resistance_Evolution_PMID39621769",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses entirely on Aedes aegypti ('The study involves only Aedes aegypti, no human subject was involved', page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study assays Aedes aegypti V410L, V1016I, and F1534C kdr mutations, not target markers in African Anopheles species."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for Anopheles species are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "While mosquito collections were conducted in Burkina Faso, the field samples were Aedes aegypti, not Anopheles."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original surveillance and molecular assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected in Ouagadougou at Tabtenga (N12˚22'05.7\", W001˚27'35.0\") and 1200 Logements (N12˚22'31.4\", W001˚29'51.3\") (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place across 2016 to 2018 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary field study with no indication of overlap with external Anopheles genomic consortia."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not needed; the study is fundamentally ineligible based on mosquito genus."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study assesses longitudinal insecticide resistance and kdr mutations (V410L, V1016I, F1534C) across three years in Aedes aegypti populations from Ouagadougou, Burkina Faso. No Anopheles species were investigated.",
+    "exclusion_reasons": [
+      "Studies only Aedes aegypti, not Anopheles mosquitoes",
+      "Does not genotype any target Anopheles resistance markers"
+    ]
+  }
+}

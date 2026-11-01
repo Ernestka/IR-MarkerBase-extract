@@ -1,0 +1,67 @@
+{
+  "id": "2021_Moyes_Assessing_Cross_Resistance_Pyrethroids_Terms_PMID33602297",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae (s.l.) and Anopheles funestus (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study evaluates in vitro cytochrome P450 enzyme interactions (IC50 and depletion) and re-analyses previously published WHO susceptibility test data; it does not report genotyping of any target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or genotype frequencies are reported in the paper."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "While the bioassay data re-analysed in the study originates from African field populations, no field mosquito samples were genotyped for target resistance markers in this study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "For vector susceptibility and resistance data, this paper re-analyses a previously published database of vector susceptibility tests (Moyes et al. 2019, Sci Data)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No specific field collection site genotype data are presented."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field genotyping temporal collection windows are presented."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The susceptibility test data analysed in this paper was accessed directly from a published database of insecticide resistance in African malaria vectors (Moyes et al. 2019, Sci Data 6:121 [ref 14])."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files do not contain primary marker genotyping data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles arabiensis",
+      "Anopheles coluzzii"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper combines in vitro recombinant cytochrome P450 enzyme inhibition/depletion assays with a re-analysis of a previously published WHO susceptibility bioassay database to assess cross-resistance patterns among pyrethroids. It does not perform or report genotyping of target insecticide resistance markers.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide-resistance markers.",
+      "Does not report extractable genotype data.",
+      "Re-analyses existing published bioassay datasets rather than presenting primary field marker genotype data."
+    ]
+  }
+}

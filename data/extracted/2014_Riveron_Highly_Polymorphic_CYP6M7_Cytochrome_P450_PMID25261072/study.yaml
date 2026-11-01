@@ -1,0 +1,25 @@
+study_id: 2014_Riveron_Highly_Polymorphic_CYP6M7_Cytochrome_P450_PMID25261072
+title: The highly polymorphic CYP6M7 cytochrome P450 gene partners with the directionally
+  selected CYP6P9a and CYP6P9b genes to expand the pyrethroid resistance front in
+  the malaria vector Anopheles funestus in Africa
+first_author: Jacob M Riveron
+doi: 10.1186/1471-2164-15-817
+pmid: '25261072'
+publication_year: 2014
+countries:
+- Zambia
+- Malawi
+- Mozambique
+data_source: journal_article
+provenance:
+  source_text: The highly polymorphic CYP6M7 cytochrome P450 gene partners with the
+    directionally selected CYP6P9a and CYP6P9b genes to expand the pyrethroid resistance
+    front in the malaria vector Anopheles funestus in Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

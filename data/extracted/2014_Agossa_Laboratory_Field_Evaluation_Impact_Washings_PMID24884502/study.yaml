@@ -1,0 +1,21 @@
+study_id: 2014_Agossa_Laboratory_Field_Evaluation_Impact_Washings_PMID24884502
+title: Laboratory and field evaluation of the impact of washings on the effectiveness
+  of LifeNet®, Olyset® and PermaNet® 2.0 in two areas, where there is a high level
+  of resistance of Anopheles gambiae to pyrethroids, Benin, West Africa
+first_author: Fiacre R Agossa
+doi: 10.1186/1475-2875-13-193
+pmid: '24884502'
+publication_year: 2014
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Agossa et al. Malaria Journal 2014, 13:193; doi:10.1186/1475-2875-13-193
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

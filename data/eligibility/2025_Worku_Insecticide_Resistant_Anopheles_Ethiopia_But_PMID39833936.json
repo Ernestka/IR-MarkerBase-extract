@@ -1,0 +1,70 @@
+{
+  "id": "2025_Worku_Insecticide_Resistant_Anopheles_Ethiopia_But_PMID39833936",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies field and laboratory populations of Anopheles gambiae, An. coluzzii, and An. arabiensis (Page 1, 3, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L995F (kdr-L995F) and Ace-1 G280S (ACE-1 G119S) using PCR assays (Page 3, 4, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports kdr-L995F genotype counts/frequencies (LL, LF, FF) with exact sample sizes for survivors and dead mosquitoes of An. arabiensis, An. gambiae, and An. coluzzii in Figure 1B and text (Page 4, 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquito larvae were collected in Tiefora, Burkina Faso, and Bahir Dar, Ethiopia, in July–August 2021 and reared to adults for bioassays and genotyping (Page 3, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research study reporting original field collections, bioassays, target-site genotyping, 16S microbiome sequencing, and transcriptomics."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Tiefora (10.62411667, -4.55335) in Burkina Faso and Bahir Dar (11.588790, 37.3888119) in Ethiopia (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections were carried out from 7 July to 2 August 2021 in Burkina Faso and 28 July to 6 August 2021 in Ethiopia (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field sampling and primary genotyping conducted in 2021 by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Genotype proportions and sample sizes for kdr-L995F across species and bioassay phenotypes are fully presented in Figure 1B and text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 441,
+    "summary": "This study evaluated pyrethroid (deltamethrin) resistance, Vgsc L995F and Ace-1 G119S marker frequencies, microbiota composition, and transcriptomic profiles in field-collected Anopheles gambiae s.l. (An. gambiae, An. coluzzii, An. arabiensis) from Burkina Faso and Ethiopia in 2021. Genotype frequencies of kdr-L995F were reported for alive and dead mosquitoes post-bioassay exposure.",
+    "exclusion_reasons": []
+  }
+}

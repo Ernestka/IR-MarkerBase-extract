@@ -1,0 +1,69 @@
+{
+  "id": "2023_Ekra_Can_Neonicotinoid_Pyrrole_Insecticides_Manage_DOI_10_21203_rs_3_rs-3591846_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae larvae were collected from several larval habitats, pooled and reared to adulthood in each site (page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "TaqMan assays with two labelled Fluorochromes probes FAM and HEX were used to screen for the L995F/S (previously referred to as L1014F/S) kdr mutations and, the ace-1R G280S (previously referred to as Ace1-G119S) mutation (page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives total genotyped, RR, RS, SS counts and allele frequencies for L995F, L995S, and G280S in Abengourou, Daloa, and Gagnoa (page 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles gambiae larvae were collected from several larval habitats in Gagnoa, Daloa and Abengourou in Côte d'Ivoire in July 2020 (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article presenting original field bioassay and molecular genotyping data (page 1-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Abengourou (6° 43' 47\" north, 3° 29' 47\" west), Daloa (6° 27' 00\" north, 5° 56' 00\" west), Gagnoa (6° 08' 00\" north, 5° 56' 00\" west) (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected... in July 2020 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Supported by the PMI VectorLink Project, but reports original field collection data from July 2020."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All species identification and target marker genotype counts and frequencies are fully presented in Table 1 and Table 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 73,
+    "summary": "This study evaluated the susceptibility of field-collected Anopheles gambiae s.l. (An. gambiae s.s. and An. coluzzii) from Abengourou, Daloa, and Gagnoa in Côte d'Ivoire to classic and newer insecticides (clothianidin, chlorfenapyr) in July 2020. Subsamples were genotyped for Vgsc L995F, Vgsc L995S, and Ace-1 G280S, with complete genotype counts (RR, RS, SS) and allele frequencies reported.",
+    "exclusion_reasons": []
+  }
+}

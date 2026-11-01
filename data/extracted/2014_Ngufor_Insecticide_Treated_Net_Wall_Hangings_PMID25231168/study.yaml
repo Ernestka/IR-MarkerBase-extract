@@ -1,0 +1,20 @@
+study_id: 2014_Ngufor_Insecticide_Treated_Net_Wall_Hangings_PMID25231168
+title: 'Insecticide-treated net wall hangings for malaria vector control: an experimental
+  hut study in north-eastern Tanzania'
+first_author: Corine Ngufor
+doi: 10.1186/1475-2875-13-366
+pmid: '25231168'
+publication_year: 2014
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: Ngufor et al. Malaria Journal 2014, 13:366 http://www.malariajournal.com/content/13/1/366
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

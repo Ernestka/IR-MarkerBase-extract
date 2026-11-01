@@ -7,6 +7,14 @@
    "name": "Bobo-Dioulasso, Houet, Hauts-Bassins, Burkina Faso"
   }
  ],
+ "bf|Bobo-Dioulasso, Hauts-Bassins": [
+  {
+   "lat": 11.17658,
+   "level": "town",
+   "lon": -4.29614,
+   "name": "Bobo-Dioulasso, Houet, Hauts-Bassins, Burkina Faso"
+  }
+ ],
  "bf|Nazoanga, Nanoro, Centre-West": [
   {
    "lat": 12.62265,
@@ -100,6 +108,14 @@
    "name": "EPP AYERE AGBAROU, RN 3, Pobè, Okôffin, Adja-Ouèrè, Plateau, Bénin"
   }
  ],
+ "bj|Akron": [
+  {
+   "lat": 6.46837,
+   "level": "amenity",
+   "lon": 2.63157,
+   "name": "PASE DROP PPN 18 Akron, Avenue Liotard, Avassa, Gbedji, Porto-Novo, Porto Novo, Ouémé, Bénin"
+  }
+ ],
  "bj|Atacora": [
   {
    "lat": 10.71605,
@@ -144,6 +160,14 @@
    "name": "Bembèrèkè, Borgou, Bénin"
   }
  ],
+ "bj|Bohicon": [
+  {
+   "lat": 7.18163,
+   "level": "town",
+   "lon": 2.06957,
+   "name": "Bohicon, Zou, Bénin"
+  }
+ ],
  "bj|Bohicon, Zou": [
   {
    "lat": 7.18163,
@@ -178,6 +202,14 @@
    "level": "town",
    "lon": 1.54675,
    "name": "Copargo, Donga, Bénin"
+  }
+ ],
+ "bj|Cotonou": [
+  {
+   "lat": 6.3677,
+   "level": "town",
+   "lon": 2.42525,
+   "name": "Cotonou, Littoral, Bénin"
   }
  ],
  "bj|Cotonou (Ladji, Fifadji, Abomey Calavi)": [],
@@ -431,6 +463,14 @@
    "name": "Tanguieta, Tanguièta, Atakora, Bénin"
   }
  ],
+ "bj|Tori-Bossito": [
+  {
+   "lat": 6.50248,
+   "level": "town",
+   "lon": 2.14417,
+   "name": "Tori-Bossito, Atlantique, Bénin"
+  }
+ ],
  "et|Gilgel-Gibe dam area": [],
  "et|Gilgel-Gibe dam area ('high risk' villages)": [],
  "et|Gilgel-Gibe dam area ('high risk' villages), Jimma": [],
@@ -544,6 +584,20 @@
   }
  ],
  "gh|Obuasi": [
+  {
+   "lat": 6.21154,
+   "level": "town",
+   "lon": -1.6894,
+   "name": "Obuasi, Obuasi Municipal District, Ashanti Region, Ghana"
+  },
+  {
+   "lat": 6.92509,
+   "level": "village",
+   "lon": -1.68011,
+   "name": "Obuasi, Offinso Municipal District, Ashanti Region, Ghana"
+  }
+ ],
+ "gh|Obuasi, Ashanti": [
   {
    "lat": 6.21154,
    "level": "town",
@@ -833,11 +887,52 @@
    "name": "Homa Bay, Homa Bay Town, Homa Bay, Kenya"
   }
  ],
+ "ke|Homabay county": [
+  {
+   "lat": -0.60275,
+   "level": "trunk",
+   "lon": 34.48569,
+   "name": "Homabay-Rongo, Rodi, Homa Bay Town, Homa Bay, Kenya"
+  },
+  {
+   "lat": -0.57038,
+   "level": "trunk",
+   "lon": 34.46522,
+   "name": "Homabay-Rongo, Homa Bay, Homa Bay Town, Homa Bay, Kenya"
+  },
+  {
+   "lat": -0.6477,
+   "level": "trunk",
+   "lon": 34.52106,
+   "name": "Homabay-Rongo, Marindi, Homa Bay East ward, Homa Bay Town, Homa Bay, Kenya"
+  },
+  {
+   "lat": -0.67968,
+   "level": "trunk",
+   "lon": 34.53735,
+   "name": "Homabay-Rongo, Magina, Kabuoch North ward, Ndhiwa, Homa Bay, Kenya"
+  },
+  {
+   "lat": -0.72943,
+   "level": "trunk",
+   "lon": 34.57732,
+   "name": "Homabay-Rongo, Ayugis, East Kamagambo ward, Rongo, Migori, Kenya"
+  }
+ ],
+ "ke|Homabay county, Nyanza Province": [],
  "ke|Kidomaya and Marigiza": [],
  "ke|Kidomaya and Marigiza, Kwale County": [],
  "ke|Kidomaya and Marigiza, Kwale County, Kwale": [],
  "ke|Kimira-Oluch irrigated area": [],
  "ke|Kimira-Oluch irrigated area, Homa Bay": [],
+ "ke|Kisumu, Kisumu County": [
+  {
+   "lat": -0.10291,
+   "level": "town",
+   "lon": 34.75418,
+   "name": "Kisumu, City of Kisumu, Kisumu, Kenya"
+  }
+ ],
  "ke|Kwale": [
   {
    "lat": -4.18361,
@@ -915,8 +1010,68 @@
  "ke|Marigiza and Kidomaya, Coast": [],
  "ke|Marigiza and Kidomaya, Kwale": [],
  "ke|Marigiza and Kidomaya, Kwale, Coast": [],
+ "ke|Mbita District": [
+  {
+   "lat": -0.42672,
+   "level": "office",
+   "lon": 34.208,
+   "name": "District Agricultural Office, PO Box 70-40305, Homa Bay-Mbita Road, Mbita, Kasgunga ward, Mbita, Homa Bay, 40305, Kenya"
+  },
+  {
+   "lat": -0.42557,
+   "level": "office",
+   "lon": 34.20795,
+   "name": "Office of Births and Deaths, Department of Civil Registration, Ministry of State fir Immigration and Registration of Persons (Mbita and Suba District), Homa Bay-Mbita Road, Mbita, Kasgunga ward, Mbita, Homa Bay, 40305, Kenya"
+  },
+  {
+   "lat": -0.42529,
+   "level": "office",
+   "lon": 34.20795,
+   "name": "Ministry of Cooperative Development and Marketing, District Cooperative Office, Suba District, Homa Bay-Mbita Road, Mbita, Kasgunga ward, Mbita, Homa Bay, 40305, Kenya"
+  },
+  {
+   "lat": -0.42511,
+   "level": "office",
+   "lon": 34.20809,
+   "name": "District Adult and Continuing Education Office, Suba, Homa Bay-Mbita Road, Mbita, Kasgunga ward, Mbita, Homa Bay, 40305, Kenya"
+  },
+  {
+   "lat": -0.4266,
+   "level": "office",
+   "lon": 34.20813,
+   "name": "District Gender and Social Development Office, Homa Bay-Mbita Road, Mbita, Kasgunga ward, Mbita, Homa Bay, 40305, Kenya"
+  }
+ ],
+ "ke|Mbita District, Nyanza Province": [],
+ "ke|Mbita and Suba districts": [],
+ "ke|Mbita and Suba districts, Mbita District, Nyanza Province": [],
+ "ke|Mbita and Suba districts, Nyanza Province": [],
+ "ke|Mfangano Island": [
+  {
+   "lat": -0.45965,
+   "level": "island",
+   "lon": 34.00969,
+   "name": "Mfangano Island, Mfangano Island ward, Mbita, Homa Bay, Kenya"
+  }
+ ],
+ "ke|Mfangano Island, Nyanza Province": [],
+ "ke|Mfangano Island, Suba District, Nyanza Province": [],
  "ke|Non-irrigated area": [],
  "ke|Non-irrigated area, Homa Bay": [],
+ "ke|Nyanza Province": [],
+ "ke|Nyaroya Village": [],
+ "ke|Nyaroya Village, Mbita District, Nyanza Province": [],
+ "ke|Nyaroya Village, Nyanza Province": [],
+ "ke|Ragwe": [
+  {
+   "lat": -0.52188,
+   "level": "amenity",
+   "lon": 34.66246,
+   "name": "Ragwe Market, Awach Bridge, West Kasipul ward, Kasipul, Homa Bay, Kenya"
+  }
+ ],
+ "ke|Ragwe, Homabay county, Nyanza Province": [],
+ "ke|Ragwe, Nyanza Province": [],
  "ke|Siaya": [
   {
    "lat": -0.0604,
@@ -933,6 +1088,36 @@
    "name": "Western Kenya school supplies, Ugunja Primary Road, Ugunja, Ugunja ward, Ugunja, Siaya, 40606, Kenya"
   }
  ],
+ "ke|Suba District": [
+  {
+   "lat": -0.42511,
+   "level": "office",
+   "lon": 34.20809,
+   "name": "District Adult and Continuing Education Office, Suba, Homa Bay-Mbita Road, Mbita, Kasgunga ward, Mbita, Homa Bay, 40305, Kenya"
+  },
+  {
+   "lat": -0.42557,
+   "level": "office",
+   "lon": 34.20795,
+   "name": "Office of Births and Deaths, Department of Civil Registration, Ministry of State fir Immigration and Registration of Persons (Mbita and Suba District), Homa Bay-Mbita Road, Mbita, Kasgunga ward, Mbita, Homa Bay, 40305, Kenya"
+  },
+  {
+   "lat": -0.42529,
+   "level": "office",
+   "lon": 34.20795,
+   "name": "Ministry of Cooperative Development and Marketing, District Cooperative Office, Suba District, Homa Bay-Mbita Road, Mbita, Kasgunga ward, Mbita, Homa Bay, 40305, Kenya"
+  },
+  {
+   "lat": -0.75501,
+   "level": "amenity",
+   "lon": 34.09486,
+   "name": "Lwanda district hospital, lwanda church road, Kaibuya, Gwassi South ward, Suba, Homa Bay, 40307, Kenya"
+  }
+ ],
+ "ke|Suba District, Nyanza Province": [],
+ "ke|Ungoe Village": [],
+ "ke|Ungoe Village, Nyanza Province": [],
+ "ke|Ungoe Village, Suba District, Nyanza Province": [],
  "ke|four villages approximately 50 km north-west of Kisumu": [],
  "lr|Bomi": [
   {
@@ -986,6 +1171,109 @@
    "level": "town",
    "lon": -15.97801,
    "name": "Nouakchott نواكشوط, تفرغ زينة, Nouakchott Ouest نواكشوط الغربية, Mauritanie موريتانيا"
+  }
+ ],
+ "mw|Chikwawa": [
+  {
+   "lat": -16.21538,
+   "level": "admin1",
+   "lon": 34.72284,
+   "name": "Chikwawa, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.02713,
+   "level": "town",
+   "lon": 34.79122,
+   "name": "Chikwawa, Southern Region, Malawi"
+  }
+ ],
+ "mw|Chikwawa District": [
+  {
+   "lat": -16.02345,
+   "level": "building",
+   "lon": 34.7903,
+   "name": "Chikwawa District Education Office, T416, Kapichira, Chikwawa, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.03293,
+   "level": "amenity",
+   "lon": 34.78907,
+   "name": "District Forestry Office, T416, Kapichira, Chikwawa, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.02396,
+   "level": "amenity",
+   "lon": 34.79056,
+   "name": "Chikwawa District Council, T416, Kapichira, Chikwawa, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.02342,
+   "level": "amenity",
+   "lon": 34.79228,
+   "name": "Chikwawa District Hospital, T416, Kapichira, Chikwawa, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.02518,
+   "level": "amenity",
+   "lon": 34.78948,
+   "name": "District Water Office, T416, Kapichira, Chikwawa, Southern Region, Malawi"
+  }
+ ],
+ "mw|Chikwawa District, Southern Region": [
+  {
+   "lat": -16.02345,
+   "level": "building",
+   "lon": 34.7903,
+   "name": "Chikwawa District Education Office, T416, Kapichira, Chikwawa, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.02396,
+   "level": "amenity",
+   "lon": 34.79056,
+   "name": "Chikwawa District Council, T416, Kapichira, Chikwawa, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.02342,
+   "level": "amenity",
+   "lon": 34.79228,
+   "name": "Chikwawa District Hospital, T416, Kapichira, Chikwawa, Southern Region, Malawi"
+  }
+ ],
+ "mw|Chikwawa, Chikwawa District, Southern Region": [],
+ "mw|Chikwawa, Southern Region": [
+  {
+   "lat": -16.21538,
+   "level": "admin1",
+   "lon": 34.72284,
+   "name": "Chikwawa, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.02713,
+   "level": "town",
+   "lon": 34.79122,
+   "name": "Chikwawa, Southern Region, Malawi"
+  }
+ ],
+ "mw|Southern Region": [
+  {
+   "lat": -15.30629,
+   "level": "admin1",
+   "lon": 35.32832,
+   "name": "Southern Region, Malawi"
+  }
+ ],
+ "mz|Chokwe, Gaza Province": [
+  {
+   "lat": -24.48846,
+   "level": "admin2",
+   "lon": 32.85998,
+   "name": "Chókwè, Gaza, Zona Sul, 1204, Moçambique"
+  },
+  {
+   "lat": -24.52493,
+   "level": "town",
+   "lon": 33.00368,
+   "name": "Chókwè, Gaza, Zona Sul, 1204, Moçambique"
   }
  ],
  "ng|Ado-ekiti": [
@@ -2052,5 +2340,103 @@
    "name": "Lower Mweka Hut, Moshi Rural, Kilimanjaro, Northern Zone, Tanzania"
   }
  ],
- "yt|Dzoumogné": []
+ "ug|Tororo": [
+  {
+   "lat": 0.74076,
+   "level": "admin1",
+   "lon": 34.10268,
+   "name": "Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.69179,
+   "level": "town",
+   "lon": 34.17907,
+   "name": "Tororo, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Tororo, Tororo District": [
+  {
+   "lat": 0.68807,
+   "level": "amenity",
+   "lon": 34.18863,
+   "name": "Tororo District Headquarters, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.68879,
+   "level": "amenity",
+   "lon": 34.18703,
+   "name": "Tororo East Division Headquarters, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.68918,
+   "level": "amenity",
+   "lon": 34.18798,
+   "name": "Tororo Police, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  }
+ ],
+ "yt|Dzoumogné": [],
+ "zm|Copperbelt": [
+  {
+   "lat": -13.02142,
+   "level": "admin1",
+   "lon": 27.88762,
+   "name": "Copperbelt Province, Zambia"
+  }
+ ],
+ "zm|Kasama": [
+  {
+   "lat": -10.20449,
+   "level": "town",
+   "lon": 31.18772,
+   "name": "Kasama, Kasama District, Northern Province, Zambia"
+  }
+ ],
+ "zm|Kasama, Northern": [
+  {
+   "lat": -10.20449,
+   "level": "town",
+   "lon": 31.18772,
+   "name": "Kasama, Kasama District, Northern Province, Zambia"
+  }
+ ],
+ "zm|Katete district, Eastern Province": [
+  {
+   "lat": -14.04743,
+   "level": "admin2",
+   "lon": 32.02238,
+   "name": "Katete District, Eastern Province, Zambia"
+  }
+ ],
+ "zm|Katete district, Katete District, Eastern Province": [
+  {
+   "lat": -14.0979,
+   "level": "office",
+   "lon": 32.076,
+   "name": "District Administration Office Katete, Katete-Chadiza Road, Katete Boma, Katete, Katete District, Eastern Province, Zambia"
+  }
+ ],
+ "zm|Kitwe": [
+  {
+   "lat": -12.82037,
+   "level": "town",
+   "lon": 28.2156,
+   "name": "Kitwe, Kitwe District, Copperbelt Province, 1001, Zambia"
+  }
+ ],
+ "zm|Kitwe, Copperbelt": [
+  {
+   "lat": -12.82037,
+   "level": "town",
+   "lon": 28.2156,
+   "name": "Kitwe, Kitwe District, Copperbelt Province, 1001, Zambia"
+  }
+ ],
+ "zm|Northern": [
+  {
+   "lat": -9.45142,
+   "level": "admin1",
+   "lon": 30.8881,
+   "name": "Northern Province, Zambia"
+  }
+ ]
 }

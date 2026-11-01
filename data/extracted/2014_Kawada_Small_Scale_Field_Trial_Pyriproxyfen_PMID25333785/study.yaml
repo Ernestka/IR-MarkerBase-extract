@@ -1,0 +1,21 @@
+study_id: 2014_Kawada_Small_Scale_Field_Trial_Pyriproxyfen_PMID25333785
+title: A Small-Scale Field Trial of Pyriproxyfen-Impregnated Bed Nets against Pyrethroid-Resistant
+  Anopheles gambiae s.s. in Western Kenya
+first_author: Hitoshi Kawada
+doi: 10.1371/journal.pone.0111195
+pmid: '25333785'
+publication_year: 2014
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: A Small-Scale Field Trial of Pyriproxyfen-Impregnated Bed Nets against
+    Pyrethroid-Resistant Anopheles gambiae s.s. in Western Kenya
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

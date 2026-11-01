@@ -10,40 +10,40 @@
     "checks": {
       "is_anopheles": {
         "met": true,
-        "evidence": "Studies Anopheles funestus s.l. and Anopheles gambiae s.l. from Cameroon (page 1, Abstract; page 2, Methods)."
+        "evidence": "Studies Anopheles funestus s.l. and Anopheles gambiae s.l. collected across multiple sites in Cameroon (Page 2-3)."
       },
       "reports_target_markers": {
         "met": true,
-        "evidence": "Reports genotyping of GSTe2 L119F in An. funestus (page 5, 8, 9-11, Fig. 7-9) and Vgsc L995F (L1014F-kdr) (page 4-5, 7, Fig. 3)."
+        "evidence": "Genotyped GSTe2 L119F in Anopheles funestus (Page 5, 8-11, Figures 7-9) and Vgsc L1014F (L995F) in Anopheles gambiae s.l. (Page 4-7, Figure 3)."
       },
       "reports_extractable_genotype_data": {
         "met": true,
-        "evidence": "Fig. 7A-D reports GSTe2 L119F genotype frequencies (RR, RS, SS) for alive and dead An. funestus with sample sizes provided on the x-axis for each net treatment (e.g., IG2 alive n=45, dead n=82; RG alive n=76, dead n=43; P3.0 alive n=42, dead n=43; RS alive n=69, dead n=36). Additional breakdowns by blood-feeding (Fig. 8) and hut location (Fig. 9) with exact n are also given."
+        "evidence": "Figure 7 provides genotype frequency distributions (RR, RS, SS) of L119F-GSTe2 in An. funestus with exact sample numbers for alive and dead mosquitoes exposed to Interceptor G2 (n=45 alive, n=82 dead), Royal Guard (n=76 alive, n=43 dead), PermaNet 3.0 (n=42 alive, n=43 dead), and Royal Sentry (n=69 alive, n=36 dead). Figures 8 and 9 provide further breakdown with sample sizes for blood-feeding status and hut exophily."
       },
       "african_field_population": {
         "met": true,
-        "evidence": "Anopheles funestus mosquitoes were collected as free-flying wild adults entering experimental huts in Elende, Cameroon (3°41'57.27\"N, 11°33'28.46\"E) between December 2021 and January 2022 (page 3, 4-5, 6)."
+        "evidence": "Free-flying wild Anopheles funestus mosquitoes entering experimental huts in Elende, Centre region, Cameroon (3°41'57.27\"N, 11°33'28.46\"E) (Page 3-4)."
       },
       "is_primary_study": {
         "met": true,
-        "evidence": "This is a primary research article evaluating bed net efficacy and resistance marker association via cone/tunnel tests and experimental hut trials."
+        "evidence": "Primary empirical study evaluating LLINs and dual-AI nets in cone/tunnel assays and experimental hut trials, testing association with resistance markers."
       },
       "sub_country_location": {
         "met": true,
-        "evidence": "Elende village, Centre region, Cameroon (coordinates: 3°41'57.27\"N, 11°33'28.46\"E) (page 3, 4)."
+        "evidence": "Elende (3°41'57.27\"N, 11°33'28.46\"E), Centre region, Cameroon (Page 3)."
       },
       "temporal_resolution_within_3y": {
         "met": true,
-        "evidence": "Experimental hut collections were conducted over six weeks between December 2021 and January 2022 (page 5)."
+        "evidence": "Mosquitoes for experimental hut trials were collected over six weeks between December 2021 and January 2022 (Page 5)."
       }
     },
     "duplicate_risk": {
-      "level": "none",
-      "evidence": "Primary study conducted in collaboration between CRID and the Cameroon National Malaria Control Programme with newly collected field data from 2021-2022."
+      "level": "low",
+      "evidence": "Primary experimental hut trial conducted in Elende, Cameroon between December 2021 and January 2022."
     },
     "supplement": {
       "needed": false,
-      "evidence": "All necessary genotype frequency and sample size data for GSTe2 L119F are presented in the main text Figures 7, 8, and 9."
+      "evidence": "The required genotype data and sample sizes for GSTe2 L119F are presented in Figures 7, 8, and 9 of the main text."
     },
     "markers_found": [
       "GSTe2 L119F",
@@ -62,8 +62,8 @@
     ],
     "has_bioassays": true,
     "has_genotype_phenotype": true,
-    "sample_size": 678,
-    "summary": "This study evaluated the efficacy of standard, PBO-based (PermaNet 3.0), and dual-AI (Interceptor G2 and Royal Guard) nets in laboratory cone/tunnel assays and experimental hut trials in Elende, Cameroon. Free-flying wild An. funestus from experimental huts were genotyped for the GSTe2 L119F marker, with genotype frequencies reported for dead vs alive, blood-fed vs unfed, and room vs veranda/net.",
+    "sample_size": 707,
+    "summary": "This study evaluated the efficacy of dual-active ingredient LLINs (Interceptor G2 and Royal Guard) and PBO nets (PermaNet 3.0) compared to pyrethroid-only nets against pyrethroid-resistant malaria vectors in Cameroon. In experimental hut trials in Elende, wild An. funestus were exposed to different nets and genotyped for the L119F-GSTe2 marker (n=707 across exophily/mortality/blood-feeding categories), finding no significant difference in mortality across L119F genotypes, though resistant genotypes were significantly associated with blood-feeding under PermaNet 3.0.",
     "exclusion_reasons": []
   }
 }

@@ -1,0 +1,21 @@
+study_id: 2014_Kawada_Preventive_Effect_Permethrin_Impregnated_Long_PMID25141947
+title: Preventive effect of permethrin-impregnated long-lasting insecticidal nets
+  on the blood feeding of three major pyrethroid-resistant malaria vectors in western
+  Kenya
+first_author: Hitoshi Kawada
+doi: 10.1186/1756-3305-7-383
+pmid: '25141947'
+publication_year: 2014
+countries:
+- Kenya
+data_source: PubMed
+provenance:
+  source_text: Kawada et al. Parasites & Vectors 2014, 7:383
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

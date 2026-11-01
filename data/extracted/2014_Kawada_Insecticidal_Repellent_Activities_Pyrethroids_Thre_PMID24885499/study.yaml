@@ -1,0 +1,20 @@
+study_id: 2014_Kawada_Insecticidal_Repellent_Activities_Pyrethroids_Thre_PMID24885499
+title: Insecticidal and repellent activities of pyrethroids to the three major pyrethroid-resistant
+  malaria vectors in western Kenya
+first_author: Hitoshi Kawada
+doi: 10.1186/1756-3305-7-208
+pmid: '24885499'
+publication_year: 2014
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: Kawada et al. Parasites & Vectors 2014, 7:208 http://www.parasitesandvectors.com/content/7/1/208
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

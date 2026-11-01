@@ -1,0 +1,68 @@
+{
+  "id": "2026_Govoetchan_Control_Pyrethroid_Resistant_Anopheles_Gambiae_PMID41761322",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies wild pyrethroid-resistant Anopheles gambiae s.l. (comprising An. coluzzii and An. gambiae s.s.) and the Kisumu strain of An. gambiae s.s. (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr L1014F mutation present at >=90% frequency in the Covè site description, but this is a citation of previous literature (references 21 and 22, Page 3). No genotyping of target markers was performed in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies were measured or reported in this paper."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild free-flying An. gambiae s.l. mosquitoes were collected in experimental huts in Covè, Southern Benin (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study evaluating the efficacy and residual activity of Sovrenta 15WP IRS insecticide in laboratory bioassays and experimental huts (Page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Experimental hut station in Covè, Southern Benin (7.21°N, 2.34°E) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "IRS treatments were applied in April 2022 and the trial lasted 12 months (2022–2023) (Page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is an independent GLP-compliant experimental hut study testing a novel insecticide formulation (Sovrenta 15WP)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed as no marker genotyping was conducted."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy and 12-month residual activity of Sovrenta 15WP (isocycloseram), a novel isoxazoline insecticide, for indoor residual spraying against susceptible and pyrethroid-resistant Anopheles gambiae s.l. in laboratory cone bioassays and experimental huts in Covè, Benin. The paper does not report any marker genotyping data.",
+    "exclusion_reasons": [
+      "Does not report genotyping or extractable genotype data for target insecticide resistance markers (L1014F mention in Covè site description is cited from previously published studies)."
+    ]
+  }
+}

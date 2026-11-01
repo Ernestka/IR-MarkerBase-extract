@@ -1,0 +1,65 @@
+{
+  "id": "2024_Spadar_Uncovering_Genetic_Diversity_Aedes_Aegypti_PMID38862628",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper focuses on Aedes aegypti (and Aedes mascarensis), as stated in the title: 'Uncovering the genetic diversity in Aedes aegypti insecticide resistance genes through global comparative genomics'."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study examines mutations in Aedes aegypti (e.g., Vgsc F1534C, V1016I, V410L, Rdl A301S) and does not genotype target markers in Anopheles species."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype frequency or count data is reported for Anopheles mosquitoes."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study analyzes publicly available genomic data of Aedes aegypti mosquitoes, not Anopheles field populations."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper re-analyses publicly available whole-genome sequencing dataset from NCBI SRA ('We searched the NCBI SRA database for Aedes aegypti sample data... We obtained a total of 703 WGS Ae. aegypti...')."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as no field Anopheles populations were studied."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as no field Anopheles populations were studied."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable because the study is ineligible."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No additional supplementary files are needed as the study is ineligible based on mosquito species and re-analysis of public data."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti",
+      "Aedes mascarensis"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper performs a comparative genomic analysis of 729 publicly available Aedes aegypti whole-genome sequencing samples from 15 countries to catalogue genetic variation across four insecticide-resistance linked genes (ace-1, GSTe2, rdl, and vgsc). The study does not evaluate Anopheles vectors or report target resistance markers for malaria vectors.",
+    "exclusion_reasons": [
+      "Study examines Aedes aegypti, not Anopheles species.",
+      "Does not report target insecticide resistance markers for Anopheles.",
+      "Re-analysis of publicly available sequencing data rather than primary field study on Anopheles."
+    ]
+  }
+}

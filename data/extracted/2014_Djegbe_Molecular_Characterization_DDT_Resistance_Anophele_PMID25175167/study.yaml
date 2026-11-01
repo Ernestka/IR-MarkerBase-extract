@@ -1,0 +1,20 @@
+study_id: 2014_Djegbe_Molecular_Characterization_DDT_Resistance_Anophele_PMID25175167
+title: Molecular characterization of DDT resistance in Anopheles gambiae from Benin
+first_author: Innocent Djègbè
+doi: 10.1186/1756-3305-7-409
+pmid: '25175167'
+publication_year: 2014
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Molecular characterization of DDT resistance in Anopheles gambiae from
+    Benin
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)

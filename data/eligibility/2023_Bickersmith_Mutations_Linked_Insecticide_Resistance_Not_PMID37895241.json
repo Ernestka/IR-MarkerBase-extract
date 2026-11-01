@@ -1,0 +1,76 @@
+{
+  "id": "2023_Bickersmith_Mutations_Linked_Insecticide_Resistance_Not_PMID37895241",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-01",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study screens wild-caught specimens of Nyssorhynchus darlingi (Anopheles darlingi) (page 1, Abstract; page 3, Section 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Target markers investigated include Vgsc codon 995 (L1014) and Ace-1 codon 280 (G119) (page 1, Abstract; page 5, Section 3.1; page 6, Section 3.2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype results are reported for 495 specimens for VGSC (all homozygous susceptible TTA / leucine at codon 995) and 493 specimens for Ace-1 (all homozygous susceptible GGG/GGG or GGG/GGC / glycine at codon 280), with sample sizes broken down by site in Table 1 (pages 4-6)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "All mosquito collections were conducted in South America: three localities in Amazonian Peru (Gamitanacocha, Zungarococha, Cahuide) and four localities in Amazonian Brazil (Cruzeiro do Sul, Humaitá, Machadinho d'Oeste, Mâncio Lima) (page 1, Abstract; page 4, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article performing molecular sequencing of field-collected mosquito specimens."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific municipalities/villages with coordinates are provided in Table 1 (page 4), e.g., Cruzeiro do Sul, Acre, Brazil (-7.631889, -72.688722)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Most sites report specific collection years (e.g., 2015, 2016, 2018; Table 1, page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Samples were collected as part of NIH-NIAID funded studies (ICEMR) and sequenced directly for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotypic findings and sample numbers per site are fully described in the main manuscript text and Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles darlingi"
+    ],
+    "countries": [
+      "Brazil",
+      "Peru"
+    ],
+    "collection_years": [
+      2014,
+      2015,
+      2016,
+      2018,
+      2019,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 495,
+    "summary": "This study evaluated Ace-1 and VGSC target-site mutations in 495 Nyssorhynchus darlingi collected between 2014 and 2021 across seven localities in Amazonian Brazil and Peru. No resistance alleles were detected at Vgsc codon 995 or Ace-1 codon 280. The paper is ineligible because the mosquito populations are South American, not African.",
+    "exclusion_reasons": [
+      "african_field_population"
+    ]
+  }
+}

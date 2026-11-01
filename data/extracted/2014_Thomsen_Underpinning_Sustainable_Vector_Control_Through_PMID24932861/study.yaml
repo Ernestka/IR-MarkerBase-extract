@@ -1,0 +1,22 @@
+study_id: 2014_Thomsen_Underpinning_Sustainable_Vector_Control_Through_PMID24932861
+title: Underpinning Sustainable Vector Control through Informed Insecticide Resistance
+  Management
+first_author: Edward K. Thomsen
+doi: 10.1371/journal.pone.0099822
+pmid: '24932861'
+publication_year: 2014
+countries:
+- Zambia
+data_source: journal_article
+provenance:
+  source_text: 'Citation: Thomsen EK, Strode C, Hemmings K, Hughes AJ, Chanda E, et
+    al. (2014) Underpinning Sustainable Vector Control through Informed Insecticide
+    Resistance Management. PLoS ONE 9(6): e99822.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-11-01'
+pmid_source: Europe PMC (from DOI)
