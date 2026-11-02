@@ -1,0 +1,69 @@
+{
+  "id": "2024_Sadia_Impact_Agrochemical_Pollutant_Mixtures_Selection_PMID38443984",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the malaria vector Anopheles gambiae (Page 1, Title)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the Vgsc L995F (kdr West) and Ace-1 G119S mutations (Page 4, Methods; Page 6, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies (RR, RS, SS) are provided for 30 individuals per line at generations G0, G10, G20, and G30 (Figures 2 and 3)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses a laboratory colony (Tiassalé-S) established in 2015 and maintained for 30 generations of experimental selection, rather than field-caught (F0), field-reared, or F1 progeny (Page 3, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving experimental evolution and transcriptomics (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The mosquitoes originated from Tiassalé in southern Côte d’Ivoire (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The colony was established in 2015 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a specific laboratory colony (Tiassalé-S) for an experimental evolution study; while the colony is used in other research, the multi-generational genotype data presented here is unique to this experiment."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The target marker genotype data is presented within the main text figures (Figures 2 and 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G119S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 390,
+    "summary": "This study investigates the impact of agrochemical mixtures on the selection of insecticide resistance in Anopheles gambiae. Using a laboratory colony (Tiassalé-S) established in 2015, the authors performed larval selection over 30 generations with various mixtures of insecticides, fungicides, and herbicides. They monitored the frequencies of Vgsc L995F and Ace-1 G119S mutations and performed transcriptomic analysis. While the study provides detailed genotype frequency data, it is ineligible for the database because it relies on a long-term laboratory colony rather than field-caught or recently field-derived mosquitoes.",
+    "exclusion_reasons": [
+      "The study genotypes mosquitoes from a laboratory colony (Tiassalé-S, established in 2015) over 30 generations of experimental selection, rather than field-caught (F0), field-reared, or F1 progeny of field-caught mosquitoes."
+    ]
+  }
+}

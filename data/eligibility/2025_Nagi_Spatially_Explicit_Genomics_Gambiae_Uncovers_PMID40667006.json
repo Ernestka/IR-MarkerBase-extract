@@ -1,0 +1,76 @@
+{
+  "id": "2025_Nagi_Spatially_Explicit_Genomics_Gambiae_Uncovers_PMID40667006",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on An. gambiae s.l. mosquitoes, specifically An. coluzzii and An. gambiae s.s. (Page 1, Abstract; Page 4, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on Vgsc L995F (Page 9), N1570Y (Page 10), V402L and I1527T (Page 9), P1874S and P1874L (Page 10), Ace-1 G280S (Page 10), Ace-1 CNV (Page 10), Rdl A296G (Page 13), and Cyp6aa1 CNV (Page 11)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele frequencies are provided for major markers: Vgsc 995F (76-94% in An. coluzzii, fixed in An. gambiae s.s., Page 9), Ace1-G280S (37% in An. gambiae, 1% in An. coluzzii, Page 10), and Ace1 amplifications (62% in An. gambiae, Page 10). Sample sizes are 422 An. coluzzii and 63 An. gambiae s.s. (Page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 30 villages in the Obuasi region of central Ghana (Page 1, Abstract; Page 3, Results)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary study reporting new whole-genome sequencing data and analysis of field-collected mosquitoes (Page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to the Obuasi region and specific villages such as Odumto, Nkotumso, and Domenase (Page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place from October to December 2018 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a sampling framework from a previous study (Sedda et al. 2019) but the whole-genome sequencing data for the 485 specimens appears to be newly generated for this study (Page 1, Page 18)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Supplementary Figure 6 contains village-level allele frequencies for Vgsc, Ace1, and Gste2; Supplementary Table 3 reports specific CNV alleles; and Supplementary Table 1 contains sample accession codes (Page 9, Page 18)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Vgsc I1527T",
+      "Vgsc V402L",
+      "Vgsc P1874S",
+      "Vgsc P1874L",
+      "Ace-1 G280S",
+      "Ace-1 DUP",
+      "Rdl A296G",
+      "Cyp6aa1 DUP"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 485,
+    "summary": "The study applies a spatially explicit sampling framework to perform whole-genome sequencing on 485 Anopheles gambiae s.l. (422 An. coluzzii and 63 An. gambiae s.s.) collected from 30 villages in the Obuasi region of Ghana in late 2018. It reports frequencies for multiple insecticide resistance markers including Vgsc (L995F, N1570Y, V402L, I1527T, P1874S/L), Ace-1 (G280S and CNV), Rdl (A296G), and Cyp6aa1 (CNV). The research also identifies novel resistance-associated mutations in Gste2 (F120L) and Cyp9k1 (N224I) and investigates the impact of artisanal gold mining on the distribution of resistance alleles.",
+    "exclusion_reasons": []
+  }
+}

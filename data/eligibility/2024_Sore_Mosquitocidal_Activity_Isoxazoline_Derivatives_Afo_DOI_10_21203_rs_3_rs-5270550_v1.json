@@ -1,0 +1,68 @@
+{
+  "id": "2024_Sore_Mosquitocidal_Activity_Isoxazoline_Derivatives_Afo_DOI_10_21203_rs_3_rs-5270550_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the activity of isoxazolines against Anopheles gambiae s.s, Anopheles coluzzii, and Anopheles funestus (Abstract, Page 3; Methods, Page 7)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr, rdl, and ace-1 mutations in the introduction (Page 4) as markers that do not affect isoxazoline activity, but it does not perform genotyping on the mosquito strains used in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies for any resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory colonies: the insecticide-susceptible Kisumu strain, the local Anopheles coluzzii strain Goden (maintained in insectary), and an Anopheles funestus s.s. strain established since 2004 (Methods, Page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing membrane feeding assays and the effects of sugar/antibiotics on insecticide activity."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study uses the Goden strain from Burkina Faso and was conducted at the CNRFP in Burkina Faso (Page 7-8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not specify the years in which the experiments were conducted, although it was posted in 2024."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses standard laboratory colonies maintained at CNRFP."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is expected to be in the supplement as the study focus is on bioassays of new compounds."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the mosquitocidal activity of three isoxazoline derivatives (fluralaner, afoxolaner, and lotilaner) against laboratory colonies of Anopheles gambiae s.s., Anopheles coluzzii, and Anopheles funestus in Burkina Faso. It specifically examines whether sugar feeding or antibiotic treatment (to alter the microbiome) affects the efficacy of these systemic insecticides. While it mentions that these drugs are effective against mosquitoes with kdr or rdl mutations, it does not report any genotyping data for the mosquitoes used in the experiments.",
+    "exclusion_reasons": [
+      "Does not report genotype data for target markers (reports_target_markers)",
+      "No extractable genotype data (reports_extractable_genotype_data)",
+      "Uses only laboratory colonies (african_field_population)"
+    ]
+  }
+}

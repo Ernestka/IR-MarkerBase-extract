@@ -1,0 +1,70 @@
+{
+  "id": "2025_Odero_Genomic_Evidence_Spatially_Structured_Gene_PMID40620209",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus, as stated in the title and throughout the text (e.g., page 1: 'Genomic evidence of... the malaria vector Anopheles funestus in Tanzania')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the Cyp9k1 G454A mutation (page 6) and variants in the Cyp6p9a/b gene cluster (page 6), which are target markers for An. funestus."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele frequencies for the Cyp9k1 G454A mutation are reported for specific cohorts in the text (page 6: 'G454A was at near fixation (98%) in samples collected from the West cohort... Two East populations, Dodoma and Morogoro... also had at least 80% frequency of G454A'). The total sample size (344) and some cohort sizes (e.g., 64 for Morogoro, page 4) are provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 31 villages across 11 regions in Tanzania between 2021 and 2023 (page 2: 'The 344 female An. funestus specimens analyzed in this study were collected from 31 villages spanning the eco-geography of Tanzania')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study presenting new genomic analysis of field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to 11 regions and 31 villages in Tanzania (page 2 and Figure 1a)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between 2021 and 2023 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper states: 'The 344 female An. funestus specimens analyzed in this study were collected from 31 villages... as previously described in Odero et al. (2024a)' and notes they are part of the MalariaGEN Anopheles funestus genomic surveillance project (page 2)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Supplementary Table 1 contains cohort sampling locations and likely sample sizes, and Supplementary Fig. 6b contains the full allele frequency data for G454A (page 3, 6)."
+    },
+    "markers_found": [
+      "Cyp9k1 G454A",
+      "Cyp6p9a R",
+      "Cyp6p9b R"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2021,
+      2022,
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 344,
+    "summary": "This study provides a comprehensive population genomic description of Anopheles funestus in Tanzania using whole-genome sequencing of 344 individuals from 11 regions. It reports the frequencies of key metabolic resistance markers, including Cyp9k1 G454A and variants in the Cyp6p9a/b gene cluster, revealing significant geographic structure and divergent resistance backgrounds between eastern and western populations.",
+    "exclusion_reasons": []
+  }
+}

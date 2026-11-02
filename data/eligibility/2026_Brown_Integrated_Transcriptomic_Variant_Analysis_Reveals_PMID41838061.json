@@ -1,0 +1,69 @@
+{
+  "id": "2026_Brown_Integrated_Transcriptomic_Variant_Analysis_Reveals_PMID41838061",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti (Page 1, Abstract; Page 2, Mosquito populations)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports resistance markers for Aedes aegypti, such as V1016I and F1534C, rather than the target markers for Anopheles (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for target Anopheles markers is reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquito strains used are laboratory-maintained or collected from Puerto Rico (PR strain) and Florida (ORL strain) (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing transcriptomic and variant analysis of Aedes aegypti strains (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The PR strain was collected in San Juan, Puerto Rico (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The PR strain was collected in 2008 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a specific laboratory study generating a new strain (PRCas9)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is ineligible based on the main text."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Puerto Rico",
+      "USA"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study investigates pyrethroid resistance mechanisms in Aedes aegypti using transcriptomic and variant analysis of laboratory and Puerto Rican strains. It is ineligible as it does not study Anopheles mosquitoes, does not report target markers, and does not involve African field populations.",
+    "exclusion_reasons": [
+      "Not Anopheles",
+      "Does not report target markers",
+      "Not an African field population"
+    ]
+  }
+}

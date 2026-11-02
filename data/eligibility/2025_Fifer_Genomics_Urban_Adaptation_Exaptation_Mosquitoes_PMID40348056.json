@@ -1,0 +1,82 @@
+{
+  "id": "2025_Fifer_Genomics_Urban_Adaptation_Exaptation_Mosquitoes_PMID40348056",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles gambiae, An. stephensi, An. coluzzii, and others (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions Vgsc, Ace-1, and Rdl markers in the context of reviewing other studies but does not report any new genotyping results (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype data or counts are provided; the Data Availability section confirms no data were used for the research (Page 6)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper discusses African mosquito populations by citing existing literature but does not describe a new field collection or study."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The article is explicitly identified as a review in the abstract and introduction (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions specific locations like 'Yaoundé, Cameroon' and 'Kisumu City, Western Kenya' in the context of cited studies (Page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary collection dates are provided as this is a review."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Review paper summarizing existing literature."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No primary data reported."
+    },
+    "markers_found": [
+      "Vgsc",
+      "Ace-1 G280S",
+      "Ace-1 DUP",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles stephensi",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon",
+      "Somalia",
+      "Ethiopia",
+      "Guinea-Bissau",
+      "Benin",
+      "Burkina Faso",
+      "Gabon"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This is a review article (Current Opinion in Insect Science, 2025) summarizing recent research on the genomics of urban adaptation in mosquitoes, including Anopheles gambiae, An. coluzzii, An. arabiensis, An. stephensi, and An. funestus. It discusses insecticide resistance mechanisms and target-site markers such as Vgsc, Ace-1, and Rdl, but does not present any new empirical genotype data or field collections.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "african_field_population",
+      "reports_target_markers"
+    ]
+  }
+}

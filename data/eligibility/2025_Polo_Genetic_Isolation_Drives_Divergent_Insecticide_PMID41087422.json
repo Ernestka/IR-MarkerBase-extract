@@ -1,0 +1,70 @@
+{
+  "id": "2025_Polo_Genetic_Isolation_Drives_Divergent_Insecticide_PMID41087422",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study analyzed 103 whole-genome sequences from Anopheles funestus s.s. mosquitoes (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports the frequency of the G454A SNP mutation in the cytochrome P450 Cyp9k1 gene (Page 6, Results; Fig. 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele frequencies for the Cyp9k1 G454A marker are provided in Figure 5 for four populations: Bungoma (97.62%), Kilifi (18.18%), Kisumu (100.00%), and Migori (100.00%). Sample sizes for these populations (n=21, 22, 37, 23 respectively) are provided on Page 2."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Kenya: Bungoma, Migori, Kisumu, and Kilifi Counties (Page 1, Abstract; Page 9, Materials and Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study analyzing genomic data from field-collected mosquitoes to identify insecticide resistance markers and population structure."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported at the county level (Bungoma, Migori, Kisumu, and Kilifi) and specific coordinates are provided for each (Page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The mosquitoes were collected between 2012 and 2016, which is a five-year range (Page 2, Page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The paper states that the 103 whole-genome sequences were obtained from the MalariaGEN vector observatory project and are available under ENA BioProjects PRJEB1670 and PRJEB2141 (Page 2, Page 11). This dataset is part of a larger genomic survey (Af1.0) which may be reported in other consortium publications."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "While supplementary files exist (e.g., Supplementary Table 1 for accessions, Supplementary Fig 4 for other SNPs), the primary data for the target marker Cyp9k1 G454A and population metadata are contained within the main text and figures."
+    },
+    "markers_found": [
+      "Cyp9k1 G454A"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 103,
+    "summary": "This study analyzed 103 whole-genome sequences of Anopheles funestus s.s. collected from four counties in Kenya (Bungoma, Migori, Kisumu, and Kilifi) between 2012 and 2016. The study reports the frequency of the Cyp9k1 G454A insecticide resistance marker, which was found at near-fixation in western Kenya (97.6-100%) but at a lower frequency in the coastal region (18.2%). The data is part of the MalariaGEN Vector Observatory project.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2024_Akuoko_Biting_Behaviour_Spatio_Temporal_Dynamics_PMID38195546",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles mosquitoes, specifically Anopheles gambiae s.l. and Anopheles funestus (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Vgsc-1014F, Vgsc-1014S, and Ace1-119S (Page 4, Genotyping for insecticide resistance mutations)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 (Page 10) provides genotype counts (RR, RS, SS) for Vgsc L1014F and Ace-1 G119S for indoor and outdoor populations, as well as by species."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from five field sites in Ghana: Anyakpor, Dodowa, Dwease, Pagaza, and Kpalsogu (Page 2, Study sites)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original data on mosquito collections, species identification, and resistance genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for five specific sites in Ghana: Anyakpor, Dodowa, Dwease, Pagaza, and Kpalsogu (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in 2017 and 2018 (Page 2, Study sites)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes original field collections in 2017 and 2018. While it mentions a previous study by Hinne et al. [29] at the same sites, these appear to be new samples."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data (counts and frequencies) is provided in Table 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1670,
+    "summary": "This study investigated the biting behavior, spatio-temporal dynamics, and insecticide resistance status of Anopheles gambiae s.l. and An. funestus in four ecological zones in Ghana. Genotyping of Vgsc (L1014F/S) and Ace-1 (G119S) was performed on a subsample of 1670 An. gambiae s.l. collected in 2017 and 2018. High frequencies of both kdr and Ace-1 mutations were found across species and collection locations (indoor vs outdoor).",
+    "exclusion_reasons": []
+  }
+}

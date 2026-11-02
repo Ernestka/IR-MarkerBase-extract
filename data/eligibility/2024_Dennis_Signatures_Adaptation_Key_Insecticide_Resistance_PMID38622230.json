@@ -1,0 +1,69 @@
+{
+  "id": "2024_Dennis_Signatures_Adaptation_Key_Insecticide_Resistance_PMID38622230",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. larvae were sampled from across the four main ecoregions of southern Ghana (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study identifies selection at loci containing insecticide resistance genes (Vgsc, Ace1, Rdl, Gste2, Cyp6, Cyp9k1) but does not genotype or report frequencies for the specific target SNPs or CNVs listed in the requirements (e.g., Vgsc L995F, Ace-1 G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Page 8: \"Reduced sequencing coverage in this study (~10× per-sample) prevented us from calling individual genotypes with confidence. A lack of robustly called genotypes precluded us from investigating the frequency and environmental association of specific genotypes...\"."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected using dippers from 34 study sites spanning the four major agro-climatic zones in southern Ghana (Page 9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study using low-coverage whole-genome sequencing (lcWGS) to investigate population genetics and selection in Anopheles mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "34 study sites spanning the four major agro-climatic zones in southern Ghana (Table S1, Fig. 1) (Page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The sampled larvae were collected between April 2016 and October 2017 (Page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes original collections and sequencing for this specific analysis, though it compares results to previous datasets like Ag1000G."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Supplementary Table S1 (sample counts), Table S2 (list of genes in outlier regions), and Table S3 (polymorphic sites at the Cyp9k1 locus) are mentioned but not provided in the main text (Page 2, 4, 6, 9)."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 314,
+    "summary": "This study uses low-coverage whole-genome sequencing (lcWGS) to investigate population structure and signatures of selection in Anopheles gambiae and Anopheles coluzzii across four ecoregions in southern Ghana. While the authors identify genomic regions under selection that coincide with known insecticide resistance loci (including Vgsc, Ace-1, Rdl, Gste2, and Cyp9k1), they explicitly state that the low coverage prevented them from calling individual genotypes or determining the frequencies of specific resistance alleles. Consequently, the paper does not provide extractable genotype data for the target markers required for the database.",
+    "exclusion_reasons": [
+      "Does not report genotypes or frequencies for specific target insecticide-resistance markers (e.g., Vgsc L995F, Ace-1 G280S).",
+      "No extractable genotype data; the study uses genotype likelihoods for population-level scans and explicitly states that individual genotypes were not called with confidence."
+    ]
+  }
+}

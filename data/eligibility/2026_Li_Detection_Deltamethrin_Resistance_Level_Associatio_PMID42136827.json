@@ -1,0 +1,68 @@
+{
+  "id": "2026_Li_Detection_Deltamethrin_Resistance_Level_Associatio_PMID42136827",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on Rhipicephalus microplus, which is a species of tick, not Anopheles mosquitoes (Abstract, Introduction)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper investigates mutations in the sodium channel domain III of ticks, not the specific markers required for Anopheles (e.g., Vgsc L995F/S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for Anopheles mosquitoes is reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study population was collected in Huaihua City, Hunan Province, China (Abstract, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original data on insecticide resistance in ticks."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Huaihua City, Hunan Province (Abstract)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Ticks were sampled from June to September 2022 (Abstract)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "N/A"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "N/A"
+    },
+    "markers_found": [],
+    "species": [
+      "Rhipicephalus microplus"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 942,
+    "summary": "This study investigates deltamethrin resistance and sodium channel mutations in Rhipicephalus microplus ticks collected from cattle farms in China. It is ineligible for the database as it does not study Anopheles mosquitoes and the study was conducted outside of Africa.",
+    "exclusion_reasons": [
+      "Not Anopheles",
+      "Not an African field population",
+      "Does not report target markers"
+    ]
+  }
+}

@@ -3,34 +3,34 @@
   "source": "master",
   "model": "gemini:gemini-3.5-flash",
   "spec_version": 1,
-  "assessed": "2026-11-01",
+  "assessed": "2026-11-02",
   "assessment": {
     "eligible": true,
     "confidence": "high",
     "checks": {
       "is_anopheles": {
         "met": true,
-        "evidence": "The study evaluated 755 Anopheles gambiae (s.l.) mosquitoes (specifically An. coluzzii and An. gambiae s.s.) from southern Côte d'Ivoire (Page 1, Abstract)."
+        "evidence": "The study evaluated Anopheles gambiae (s.l.) mosquitoes (specifically Anopheles coluzzii and Anopheles gambiae s.s.) collected from Agboville, Cote d'Ivoire (Page 3, Section 2.1)."
       },
       "reports_target_markers": {
         "met": true,
-        "evidence": "The study genotyped target site markers Vgsc-995F (L995F), Vgsc-995S (L995S), Vgsc-402L (V402L), Vgsc-1570Y (N1570Y), Ace1-280S (G280S), and the Ace1_AgDup CNV (Page 1, Abstract; Page 3-5)."
+        "evidence": "The study genotyped target site mutations including Vgsc L995F, Vgsc L995S, Vgsc V402L, Vgsc N1570Y, Ace-1 G280S (Ace1-280S), as well as Ace-1 duplication (Ace1_AgDup) (Page 3, Sections 2.4 and 2.5)."
       },
       "reports_extractable_genotype_data": {
         "met": true,
-        "evidence": "Genotype counts broken down by species, phenotypic status (alive/dead), and collection locality are presented in Table 2 (Vgsc-995F and Vgsc-402L, n=168) and Table 3 (Ace1-280S, n=182) on pages 5-6."
+        "evidence": "Page 5, Table 2 and Table 3 provide exact sample sizes and genotype counts for Vgsc-995F, Vgsc-402L, and Ace1-280S broken down by species, locality, and bioassay phenotype (alive vs dead)."
       },
       "african_field_population": {
         "met": true,
-        "evidence": "Mosquito larvae and pupae were collected from natural breeding sites in four rural localities in the department of Agboville, southern Côte d'Ivoire from September to October 2019 (Page 3, Section 2.1)."
+        "evidence": "Larvae and pupae of Anopheles gambiae (s.l.) were collected from natural breeding sites in four rural villages in the department of Agboville, southern Cote d'Ivoire between September and October 2019 (Page 3, Section 2.1)."
       },
       "is_primary_study": {
         "met": true,
-        "evidence": "This is a primary empirical field study involving mosquito sampling, WHO tube bioassays, and molecular genotyping."
+        "evidence": "This is an original primary research article reporting field mosquito collections, WHO tube bioassays, and molecular genotyping."
       },
       "sub_country_location": {
         "met": true,
-        "evidence": "Collections were conducted at four specific sites in Agboville department with exact geographic coordinates: Boa Vincent (5°53'41.1\"N, 4°35'32.136\"E), Ango (5°51'50.364\"N, 4°22'54.624\"E), Gbalekro (5°56'57.408\"N, 4°16'41.34\"E), and Ouanguié (5°51'59.112\"N, 4°13'42.888\"E) (Page 3, Section 2.1)."
+        "evidence": "Mosquitoes were collected from four specific villages in Agboville department, southern Cote d'Ivoire: Boa Vincent (5 53'41.1\"N, 4 35'32.136\"E), Ango (5 51'50.364\"N, 4 22'54.624\"E), Gbalekro (5 56'57.408\"N, 4 16'41.34\"E), and Ouanguie (5 51'59.112\"N, 4 13'42.888\"E) (Page 3, Section 2.1)."
       },
       "temporal_resolution_within_3y": {
         "met": true,
@@ -38,18 +38,18 @@
       }
     },
     "duplicate_risk": {
-      "level": "low",
-      "evidence": "Primary field collections conducted independently in 2019 in Agboville, Côte d'Ivoire."
+      "level": "none",
+      "evidence": "The study reports original mosquito field collections carried out in late 2019 by the authors."
     },
     "supplement": {
       "needed": false,
-      "evidence": "Main text tables (Tables 2 and 3) contain complete extractable genotype counts by phenotype and location for the primary target site markers."
+      "evidence": "All necessary genotype counts, sample sizes, species breakdown, and bioassay phenotypic data are fully reported in the main text tables (Table 1, Table 2, Table 3)."
     },
     "markers_found": [
       "Vgsc L995F",
       "Vgsc L995S",
-      "Vgsc V402L",
       "Vgsc N1570Y",
+      "Vgsc V402L",
       "Ace-1 G280S",
       "Ace-1 DUP"
     ],
@@ -66,7 +66,7 @@
     "has_bioassays": true,
     "has_genotype_phenotype": true,
     "sample_size": 755,
-    "summary": "This study evaluated insecticide susceptibility and target-site / CNV resistance mechanisms in Anopheles gambiae (s.l.) collected from four rural sites in Agboville, Côte d'Ivoire in late 2019. Genotyping was performed for Vgsc (L995F, L995S, V402L, N1570Y), Ace-1 (G280S, Ace1_AgDup), and Cyp6aa/Cyp6p CNVs, with genotype frequencies linked to deltamethrin and pirimiphos-methyl bioassay outcomes.",
+    "summary": "This study evaluated insecticide susceptibility and target-site / CNV resistance markers in Anopheles coluzzii and Anopheles gambiae (s.s.) field-collected as larvae/pupae in late 2019 across four villages in Agboville department, southern Côte d'Ivoire. Genotyping revealed high frequencies of Vgsc-995F, Vgsc-402L, Ace1-280S, and Ace1_AgDup, with genotypes provided separately by bioassay survival status.",
     "exclusion_reasons": []
   }
 }
