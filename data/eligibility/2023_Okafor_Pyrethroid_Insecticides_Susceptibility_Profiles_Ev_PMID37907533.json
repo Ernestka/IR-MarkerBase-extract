@@ -1,0 +1,68 @@
+{
+  "id": "2023_Okafor_Pyrethroid_Insecticides_Susceptibility_Profiles_Ev_PMID37907533",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper investigates insecticide susceptibility and target-site mutations in Culex quinquefasciatus mosquitoes (Title, Page 3 'assessing the susceptibility of Culex quinquefasciatus vectors...'). Although the abstract contains a typographical error mentioning 'Female Anopheles mosquitoes', the entire study methodology, species identification PCR (Page 4), and results focus exclusively on Culex quinquefasciatus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes the L1014F kdr mutation in Culex quinquefasciatus, not in Anopheles malaria vectors."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies for L1014F (FF, LF, LL) across 113 genotyped Culex quinquefasciatus mosquitoes from three study sites are presented in Table 4 and Table 5."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from breeding sites in Uruan Local Government Area, Akwa Ibom State, Southern Nigeria between March and November 2021 (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting field collections, CDC bottle bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling was conducted in Emman Uruan, Idu Uruan, and Ituk Mbang in Uruan LGA, Akwa Ibom State, Nigeria (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling took place between March and November 2021 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field sampling carried out in Uruan LGA, Akwa Ibom State, Nigeria."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant bioassay and genotyping results are provided in the main text tables."
+    },
+    "markers_found": [
+      "Vgsc L1014F"
+    ],
+    "species": [
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 113,
+    "summary": "This study evaluated pyrethroid resistance profiles and the frequency of the L1014F kdr mutation in Culex quinquefasciatus mosquitoes collected from Uruan LGA, Akwa Ibom State, Nigeria in 2021. Because the study focuses on Culex quinquefasciatus rather than Anopheles malaria vectors, it fails the eligibility criteria.",
+    "exclusion_reasons": [
+      "Does not study Anopheles mosquitoes (studies Culex quinquefasciatus)."
+    ]
+  }
+}

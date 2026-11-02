@@ -1,0 +1,71 @@
+{
+  "id": "2024_Perugini_Longitudinal_Survey_Insecticide_Resistance_Village_DOI_10_21203_rs_3_rs-4184604_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Longitudinal survey of insecticide resistance in a village of Central Region of Burkina Faso reveals co-occurrence of 1014F, 1014S and 402L mutations in Anopheles coluzzii and Anopheles arabiensis (Title)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "We here monitored the evolution of target-site resistance mutations L1014F/S and V402L in A. coluzzii and A. arabiensis specimens (Abstract)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 Anopheles coluzzii L1014F and V402L genotype... Table 2 Anopheles arabiensis L1014F/S and V402L genotype. (Page 4)"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "A. coluzzii (N = 300) and A. arabiensis (N = 362) specimens collected in 2011, 2015 and 2020 at Goden village (Abstract) in Burkina Faso."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Research Article... A total of 300 A. coluzzii and 362 A. arabiensis specimens were successfully genotyped (Page 1, 4)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Goden, a rural village (12°25′ N, 1° 21′ W) located in the central region of Burkina Faso (Page 3)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "specimens collected in 2011, 2015 and 2020 (Abstract)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Mosquitoes analysed in the context of the current study were part of larger entomological collections conducted in years 2011, 2015 and 2020 (45, 47, 48). ... A subsample of mosquitoes, already identified as A. coluzzii and A. arabiensis in previous studies (45, 47, 48), was randomly chosen for each sampling year and processed for insecticide resistance allele genotyping. (Page 3)"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Genotype frequencies and sample sizes are provided in Table 1 and Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc V402L"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2011,
+      2015,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 662,
+    "summary": "This study reports the longitudinal monitoring (2011, 2015, 2020) of Vgsc mutations (L1014F, L1014S, and V402L) in Anopheles coluzzii and Anopheles arabiensis from Goden village, Burkina Faso. It provides genotype frequencies for all three markers, showing a significant increase in 402L in A. coluzzii and the first report of 402L in A. arabiensis.",
+    "exclusion_reasons": []
+  }
+}

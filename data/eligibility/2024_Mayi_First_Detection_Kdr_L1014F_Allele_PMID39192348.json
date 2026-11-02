@@ -1,0 +1,72 @@
+{
+  "id": "2024_Mayi_First_Detection_Kdr_L1014F_Allele_PMID39192348",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study examined Anopheles gambiae s.l. (An. gambiae, An. coluzzii, An. arabiensis), An. pharoensis, and An. ziemanni (Page 1, Abstract; Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for kdr L1014F (Vgsc L995F) and L1014S (Vgsc L995S) alleles by AS-PCR and Sanger sequencing (Page 2, Methods; Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides sample size (N), genotype counts/percentages (RR, RS, SS), and allele frequencies for L1014F and L1014S for all studied species across 9 sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult mosquitoes collected in the field across 9 locations in Cameroon during September-November 2022 and June-August 2023 (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research report presenting original field data and laboratory genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 9 specific sites: Yangah, Djohong, Dschang, Santchou, Douala, Yaound\u0000, Mbandjock, Mbalmayo, and Kribi (Table 1, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place from September to November 2022 and June to August 2023 (Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field sampling described with specific collection dates (2022-2023) across Cameroon sites."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency and count data are presented directly in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles pharoensis",
+      "Anopheles ziemanni"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 392,
+    "summary": "This study evaluated the prevalence of kdr L1014F and L1014S mutations in 392 Anopheles mosquitoes (An. gambiae, An. coluzzii, An. arabiensis, An. pharoensis, and An. ziemanni) collected from 9 sites across Cameroon in 2022 and 2023. L1014F was detected at high frequencies in An. gambiae and An. coluzzii, and detected for the first time in Cameroon in An. ziemanni and An. pharoensis.",
+    "exclusion_reasons": []
+  }
+}

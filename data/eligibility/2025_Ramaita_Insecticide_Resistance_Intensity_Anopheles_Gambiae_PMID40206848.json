@@ -1,0 +1,70 @@
+{
+  "id": "2025_Ramaita_Insecticide_Resistance_Intensity_Anopheles_Gambiae_PMID40206848",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study tested field-collected Anopheles gambiae (s.l.), identified as An. gambiae (s.s.) and An. arabiensis via PCR (Page 2, Section 2.2; Page 4, Section 3.1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study conducted PCR only for species identification within the Anopheles gambiae complex (Scott et al., 1994). No target resistance markers (e.g., Vgsc kdr, Ace-1, GSTe2) were genotyped."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No resistance marker genotyping data or allele/genotype frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae/pupae were collected from five sites across Kenya (Teso in Busia, Kwale, Kakuma in Turkana, Mwea in Kirinyaga, Thika in Kiambu) between December 2019 and February 2021 and reared to adults for bioassays (Page 2, Section 2.1 and 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting field bioassays and species composition across Kenya."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Exact coordinates and sub-country locations are provided for all five sites: Teso (0.621957, 34.346326), Kwale (-4.174522, 39.452643), Kakuma (3.746796, 34.837593), Mwea (-0.382893, 37.515671), and Thika (-1.248716, 36.657150) (Page 2, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling was conducted between December 2019 and February 2021 (Page 2, Section 2.2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine field collections conducted specifically for this study across five epidemiological zones in Kenya between December 2019 and February 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No target marker genotyping was conducted in the study or supplementary materials."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 6102,
+    "summary": "This study evaluated insecticide resistance intensity in Anopheles gambiae (s.l.) collected across five epidemiological zones in Kenya between December 2019 and February 2021 using CDC bottle bioassays. PCR was used solely for species identification (An. gambiae s.s. vs An. arabiensis). No target site resistance mutations were genotyped.",
+    "exclusion_reasons": [
+      "Does not genotype or report target insecticide resistance markers (PCR was only used for species identification).",
+      "No extractable genotype data available."
+    ]
+  }
+}

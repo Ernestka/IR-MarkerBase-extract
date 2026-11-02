@@ -1,0 +1,66 @@
+{
+  "id": "2026_Eneli_Use_Generative_Models_Demographic_Inference_PMID42132223",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on demographic inference in Anopheles gambiae mosquitoes from Guinea and Burkina Faso."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions target-site mutations (kdr-east and kdr-west) in the introduction as background, but does not genotype or report frequencies for any target insecticide resistance markers; resistance loci were explicitly filtered out for neutral demographic modeling."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or marker frequencies for target insecticide resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Analyses genomic data from Anopheles gambiae samples collected in Guinea (GN) and Burkina Faso (BF) from the MalariaGEN Ag1000G Phase 2 dataset."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The study is a computational methodology paper that re-analyses previously published genomic data from MalariaGEN Ag1000G Phase 2 to train generative models for demographic inference."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Samples are grouped and analyzed at the country level (Guinea and Burkina Faso) as retrieved from MalariaGEN Phase 2."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Collection dates/years for the re-analyzed MalariaGEN samples are not specified in the text."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The dataset analyzed consists entirely of previously published genomic data from the MalariaGEN Ag1000G Phase 2 open access dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are needed as the paper does not report target marker genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Guinea"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 112,
+    "summary": "This study adapts a generative adversarial network model (pg-gan-mosquito) to infer joint demographic history and migration rates between Anopheles gambiae populations in Guinea and Burkina Faso using genomic data from MalariaGEN Ag1000G Phase 2. The paper does not report genotype or allele frequency data for target insecticide resistance markers.",
+    "exclusion_reasons": [
+      "Does not report genotype data or allele frequencies for target insecticide-resistance markers.",
+      "Re-analyses previously published genomic data (MalariaGEN Ag1000G Phase 2) for demographic history modeling."
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "2024_Kamau_Anopheles_Coluzzii_Range_Extends_Kenya_PMID38410447",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 5: 'For both sets of mosquitoes, Anopheles gambiae s.l. larvae identified based on morphology (26) were collected...'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 9: 'We found that An. coluzzii in Kenya have the Vgsc-L995F substitution associated with resistance to DDT and pyrethroids, at 62% frequency (Fig. 3a)... In addition, Kenyan An. coluzzii displayed the double mutant Vgsc-V402L + I1527T substitution at 38% frequency... Ace1-G280S... was not present in An. coluzzii from Kenya.'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 7 (Table) gives sample counts by species/location/year (e.g. 26 An. coluzzii in Turkana across 2006 and 2019 collections) and Page 9/Figure 3 gives exact allele frequencies for Vgsc L995F (62%), V402L (38%), I1527T (38%), and Ace-1 G280S (0%)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 5: 'Mosquitoes were sampled as larvae from Busia, Kwale, Turkana, Kirinyaga and Kiambu counties... in Kenya, in 2019 and 2021 and emergent adults analysed...'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Page 4: 'The current study used whole genome sequence (WGS) data to investigate the taxonomic relationship of samples collected across five counties in Kenya...'"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 7 (Table): Sampling locations with precise GPS coordinates provided (e.g., Turkana: Latitude 3.717, Longitude 34.857; Kwale: -4.572, 39.257)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 7 (Table): Breakdown of samples by year and month (e.g., 2006-02, 2019-01, 2019-09, 2020-02, 2021-01)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Page 5 states archived mosquitoes from previous studies were combined with new 2019-2021 collections for sequencing via the MalariaGEN Vector Observatory, but this is the first analysis reporting WGS and resistance profiles for Kenyan An. coluzzii."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary species identification counts and resistance marker frequencies (Vgsc, Ace-1, Rdl, Gste2) are provided in Table on page 7 and Figure 3 on page 18 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles quadriannulatus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2006,
+      2007,
+      2013,
+      2014,
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 564,
+    "summary": "This study reports the first detection of Anopheles coluzzii in Kenya (Turkana County) through whole-genome sequencing of larval collections from 2006 to 2021 across five counties. Resistance profiling of Kenyan An. coluzzii revealed target-site pyrethroid/DDT resistance marker Vgsc L995F at 62% frequency, the Vgsc V402L + I1527T double mutant at 38%, Gste2 I114T at 67%, low frequencies (~5%) of Rdl 296 mutations, and absence of Ace-1 G280S.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2026_Cisse-Niambele_Effects_Caffeine_Based_Diet_Insecticide_PMID41689162",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted using Anopheles coluzzii mosquitoes (page 2, 'The Anopheles coluzzii strain from the Kou Valley (11°24′N, 4°24′59′′W) was used in all experiments')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers were genotyped. The knockdown resistance gene (kdr) is only mentioned as a known characteristic of the laboratory colony citing previous literature (page 2, 'This mosquito strain exhibits metabolic resistance mediated by cytochrome P450 and target-site resistance mediated by the knockdown resistance gene (kdr) [40]')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts or frequencies for any insecticide resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study only evaluated an established colonized laboratory strain, not field-caught mosquitoes or F1 progeny (page 2 and page 6: 'First, the mosquitoes used originated from a single laboratory strain with a high level of insecticide resistance and were reared under controlled conditions')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original primary laboratory experimental study testing the effect of caffeine diets on insecticide resistance and malaria infection."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Origin of the colony strain is noted as Kou Valley, Burkina Faso (11°24′N, 4°24′59′′W; page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates or years are provided for when the laboratory strain was maintained or established, only submission dates in 2025."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No mosquito resistance surveillance dataset overlap; this is a laboratory experimental study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files consist of raw mortality and knockdown data and statistical analysis scripts; no marker genotyping was performed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory study investigates the effect of caffeine-supplemented diet on deltamethrin resistance and longevity in Plasmodium falciparum-infected and uninfected Anopheles coluzzii using a colonized laboratory strain (VK5/Kou Valley). No insecticide resistance marker genotyping was performed.",
+    "exclusion_reasons": [
+      "No target resistance markers were genotyped.",
+      "No extractable resistance marker genotype data are reported.",
+      "Mosquitoes tested were from an established laboratory colony rather than an African field population."
+    ]
+  }
+}

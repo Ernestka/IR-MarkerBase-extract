@@ -1,0 +1,71 @@
+{
+  "id": "2023_Kouadio_Association_Insecticide_Resistance_Profiles_Anophe_DOI_10_21203_rs_3_rs-2912725_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. larvae were collected in six study sites in Cote d'Ivoire (Page 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "We determined the frequency of target-site mutations, including Vgsc-L995F/S and Vgsc-N1570Y, and Ace1-G280S (Page 3, Page 10, Figure 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and allele frequencies for Vgsc-L995F, Vgsc-N1570Y, and Ace1-G280S across six field sites (N=50 per site) are presented in Figure 4 and main text (Page 10, Page 22)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field sites in Agboville, Tiassale, Azaguie, Dabou, Issia, and Soubre in Cote d'Ivoire in 2018 and 2019 and reared to adult (Page 5-6)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper presents primary empirical field sampling, WHO susceptibility bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Exact coordinates and town names provided: Agboville, Tiassale, Azaguie, Dabou, Issia, and Soubre (Page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae were collected in June-July 2018 in Agboville, Azaguie, Dabou, and Tiassale, and in June 2019 in Issia and Soubre (Page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Primary field collections conducted specifically for this study in 2018 and 2019 across six agricultural sites."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary genotype frequencies and sample counts are fully presented in Figure 4 and the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "This study evaluated insecticide susceptibility and target-site resistance marker frequencies (Vgsc-L995F, Vgsc-L995S, Vgsc-N1570Y, Ace1-G280S) along with gene expression in field-collected Anopheles gambiae s.l. across six agricultural sites in Cote d'Ivoire in 2018 and 2019.",
+    "exclusion_reasons": []
+  }
+}

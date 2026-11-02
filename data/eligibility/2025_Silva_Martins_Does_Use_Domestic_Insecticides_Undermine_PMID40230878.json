@@ -1,0 +1,66 @@
+{
+  "id": "2025_Silva_Martins_Does_Use_Domestic_Insecticides_Undermine_PMID40230878",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-02",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper mentions Anopheles species (An. stephensi, An. funestus, An. gambiae) in text references, but the experimental case study focuses exclusively on Aedes aegypti (page 1, 5)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers for Anopheles are genotyped. The study genotypes Vgsc mutations (V410L, V1016I, F1534C) in Aedes aegypti (page 4, Fig 3; page 5, Panel 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts or frequency data are reported for Anopheles populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquito field samples analyzed in the case study were collected in Brazil (Americas). No African field populations of Anopheles were genotyped (page 4, Fig 3; page 5, Panel 2)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This article is a Viewpoint / opinion paper discussing the policy and evolutionary impacts of domestic insecticide use, presenting a case study on Brazilian Aedes aegypti (page 1, 5)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mentions Campina Grande, João Pessoa, and Umbuzeiro in Paraíba State, Brazil (page 4, Fig 3a)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mentions annual sampling/market data from 2011 to 2016 for the case study (page 4, Fig 3b)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as the study is ineligible."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary file needed for this ineligible study."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "Brazil"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This viewpoint article discusses how the unregulated use of domestic (household) insecticides contributes to pyrethroid resistance in mosquito vectors. It presents a case study examining WHO tube/Peet Grady bioassays and Vgsc kdr mutations in Aedes aegypti from Brazil, but contains no genotype data for African Anopheles vectors.",
+    "exclusion_reasons": [
+      "The paper is a Viewpoint article, not a primary field study of Anopheles vectors.",
+      "No target resistance markers listed in the protocol were genotyped in Anopheles.",
+      "The experimental case study focuses on Aedes aegypti from Brazil, not an African field population."
+    ]
+  }
+}
