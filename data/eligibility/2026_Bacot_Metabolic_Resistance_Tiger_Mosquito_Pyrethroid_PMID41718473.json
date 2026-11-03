@@ -1,0 +1,67 @@
+{
+  "id": "2026_Bacot_Metabolic_Resistance_Tiger_Mosquito_Pyrethroid_PMID41718473",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The paper exclusively studies Aedes albopictus, which is a culicine mosquito, not an Anopheles species."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper screens for Kdr mutations in Aedes albopictus (VGSC gene), but these are not the Anopheles-specific markers listed in the criteria."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts or frequencies for the markers listed in the criteria."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Aedes albopictus from La Réunion Island."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper specifies collection localities such as Saint-Paul, Saint-Louis, and Sainte-Suzanne on La Réunion Island."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field populations were collected in 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and laboratory-selected lines."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper provides sufficient information for the assessment."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "La Réunion"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates metabolic resistance to deltamethrin in Aedes albopictus from La Réunion Island. It uses RNA-seq and whole-genome Pool-seq to identify over-transcribed detoxification genes and genomic variants. The study concludes that resistance is driven by metabolic mechanisms rather than target-site mutations (Kdr). As the study focuses on Aedes albopictus and does not genotype the specified Anopheles-specific markers, it is ineligible.",
+    "exclusion_reasons": [
+      "is_anopheles: The study focuses on Aedes albopictus, not Anopheles.",
+      "reports_target_markers: The study does not report any of the required Anopheles-specific insecticide-resistance markers."
+    ]
+  }
+}

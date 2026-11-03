@@ -1,0 +1,101 @@
+{
+  "id": "2025_Nagi_Atlas_Positive_Selection_Genomes_Major_PMID40791362",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper analyzes whole-genome sequence data from Anopheles gambiae species complex and Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper discusses and analyzes selection signals at known resistance loci including Vgsc, Rdl, Ace1, Gste2, Cyp6p, and Cyp9k1."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a meta-analysis of previously generated whole-genome sequence data (Ag1000G, An. funestus 1000 genomes project, Vector Observatory). It reports selection statistics (H12, G123, iHS) and selection signals, but does not provide the raw genotype counts (RR/RS/SS) or allele counts for the populations analyzed."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study analyzes 4,306 mosquitoes collected across twenty-one African countries."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a secondary analysis/meta-analysis of existing genomic datasets (Ag1000G, An. funestus 1000 genomes project, Vector Observatory) to identify selection signals."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper mentions grouping mosquitoes into cohorts based on geographic district (administrative level 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper states that mosquitoes were collected between 1994 and 2018 and aggregated into cohorts based on the quarter of the year."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it analyzes data from the 'Anopheles gambiae 1000 Genomes Project (Ag1000G), the An. funestus 1000 genomes project, and the Vector Observatory'."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper refers to 'Supplementary Table 1' and 'Supplementary Data 2' for sample details and signals detected, which are not provided in the document."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc I1527T",
+      "Vgsc V402L",
+      "Vgsc P1874S",
+      "Vgsc P1874L",
+      "Ace-1 G280S",
+      "Ace-1 N485I",
+      "Rdl A296G",
+      "Rdl A296S",
+      "GSTe2 L119F",
+      "Cyp9k1 G454A"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Cameroon",
+      "Central African Republic",
+      "Cote d'Ivoire",
+      "Democratic Republic of the Congo",
+      "Ghana",
+      "Guinea",
+      "Kenya",
+      "Mali",
+      "Malawi",
+      "Mozambique",
+      "Nigeria",
+      "Tanzania",
+      "The Gambia",
+      "Uganda",
+      "Zambia"
+    ],
+    "collection_years": [
+      1994,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 4306,
+    "summary": "This paper presents a selection atlas based on a meta-analysis of whole-genome sequence data from 4,306 mosquitoes across 21 African countries. It identifies genomic regions under positive selection, including known insecticide resistance loci (Vgsc, Rdl, Ace1, Gste2, Cyp6p, Cyp9k1) and novel candidates (Keap1, diacylglycerol kinase).",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data",
+      "is_primary_study"
+    ]
+  }
+}

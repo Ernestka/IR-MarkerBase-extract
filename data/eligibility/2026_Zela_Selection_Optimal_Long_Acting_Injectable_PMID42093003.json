@@ -1,0 +1,68 @@
+{
+  "id": "2026_Zela_Selection_Optimal_Long_Acting_Injectable_PMID42093003",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae Kisumu (KIS) and Anopheles coluzzii VK5 (VK5) colonies (page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping of the KDR-W (L1014F) mutation in the VK5 colony (page 4, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The study reports the percentage of individuals exhibiting pyrethroid-resistant phenotypes (homozygous or heterozygous for the KDR-W allele) for the VK5 colony (page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The VK5 colony was established from 150 blood-fed females collected from the village of VK5 in the Kou Valley, Burkina Faso (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating long-acting injectable ivermectin formulations in a cattle-mosquito model."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the collection site as the village of VK5 in the Kou Valley, Burkina Faso (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The VK5 colony was established in November 2020 and experiments began in January 2021 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new experimental setup using specific long-acting injectable formulations (LAIFs) developed for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data (KDR-W status) is reported in the main text (page 8) and referenced as being detailed in Additional file 1: Table S6."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 150,
+    "summary": "This study evaluated the mosquitocidal efficacy of three long-acting injectable ivermectin formulations (LAIFs) in cattle using a cattle-mosquito model. The study used two mosquito colonies: the susceptible Anopheles gambiae Kisumu (KIS) and the resistant Anopheles coluzzii VK5. The VK5 colony was collected from the Kou Valley, Burkina Faso, and was genotyped for the KDR-W (L1014F) mutation.",
+    "exclusion_reasons": []
+  }
+}

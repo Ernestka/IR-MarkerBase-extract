@@ -1,0 +1,71 @@
+{
+  "id": "2026_Njoroge_Genetic_Surveillance_Reveals_Differential_Evolutio_PMID41773559",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 3, section 2.1.3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on Vgsc L995F/S (kdr), Cyp9k1 copy number variants, and Cyp6aa1 duplication (page 6-7, Figure 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports frequency changes for Cyp9k1_Dup8 (e.g., East 43% to 51%, West 84% to 93%) and Vgsc-995F haplotypes (e.g., 2% to 8.3% in Western Uganda) (page 6, 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Uganda during the LLINEUP trial (page 2, section 2.1.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article reporting on genomic surveillance of field-collected mosquitoes (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study reports data from 104 health sub-districts in Eastern and Western Uganda (page 2, section 2.1.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study compares baseline (2017-2018) and 25-month post-intervention populations (page 2, 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses samples from the LLINEUP trial, which is a standard, large-scale clinical trial. While the samples are part of a larger project (MalariaGEN), this paper presents a specific genomic analysis of these samples."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data regarding genotype frequencies and study results are provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Cyp9k1 G454A",
+      "Cyp6aa1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1013,
+    "summary": "This study investigates the genomic impact of pyrethroid-only vs. PBO-pyrethroid bed nets on Anopheles gambiae populations in Uganda. It finds no significant decline in effective population size but identifies net-specific selective sweeps at loci including Cyp9k1, 2La, and a novel X-chromosome locus containing the Dgk gene.",
+    "exclusion_reasons": []
+  }
+}

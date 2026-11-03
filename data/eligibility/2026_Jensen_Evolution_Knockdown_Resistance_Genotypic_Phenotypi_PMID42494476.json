@@ -1,0 +1,71 @@
+{
+  "id": "2026_Jensen_Evolution_Knockdown_Resistance_Genotypic_Phenotypi_PMID42494476",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes aegypti mosquitoes (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes kdr mutations V410L, V1016I, and F1534C in Aedes aegypti (Abstract, page 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The study reports genotype-specific dose-response data and resistance ratios for laboratory-generated strains (Table 1, page 5)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes used in this study are laboratory-reared strains derived from field collections in Florida, USA (Materials and Methods, page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study involving genetic crosses and bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The parental strains were collected in St. Augustine, Florida, USA (Materials and Methods, page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The parental strains were collected in June 2016 (Materials and Methods, page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new experimental study using laboratory-reared strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data for the study's conclusions are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc V410L",
+      "Vgsc V1016I",
+      "Vgsc F1534C"
+    ],
+    "species": [
+      "Aedes aegypti"
+    ],
+    "countries": [
+      "USA"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 574,
+    "summary": "This study investigates the resistance profiles of six Aedes aegypti genotypes (with kdr mutations V410L, V1016I, and F1534C) using topical application bioassays with deltamethrin. The study is ineligible because it focuses on Aedes aegypti, not Anopheles, and uses laboratory-reared strains from the USA rather than African field populations.",
+    "exclusion_reasons": [
+      "is_anopheles: Study focuses on Aedes aegypti.",
+      "african_field_population: Study uses laboratory-reared strains from the USA."
+    ]
+  }
+}

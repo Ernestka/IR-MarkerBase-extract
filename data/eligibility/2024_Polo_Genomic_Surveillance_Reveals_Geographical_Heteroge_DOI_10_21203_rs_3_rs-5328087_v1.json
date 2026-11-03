@@ -1,0 +1,75 @@
+{
+  "id": "2024_Polo_Genomic_Surveillance_Reveals_Geographical_Heteroge_DOI_10_21203_rs_3_rs-5328087_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis (page 5, abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports Vgsc-L995F (page 5, 17), Ace-1 CNVs (page 18), and various metabolic resistance markers including Cyp6aa/p CNVs and Cyp9k1 CNVs (page 19, 20)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 3 (page 19) provides specific amino acid substitution frequencies for Vgsc and CNV frequencies for Ace-1 across different cohorts. Figure 4 (page 21) provides CNV frequencies for metabolic resistance genes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study analyzes 498 An. arabiensis specimens collected from five regions in Kenya (page 5, 9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study analyzing whole-genome sequencing data from field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for specific locations: Kakuma (Turkana), Teso (Busia), Mwea (Kirinyaga), Thika (Kiambu), and Kwale (page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection years for specific cohorts (e.g., 2019, 2020, 2021) in Table 1 (page 14)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses new collections alongside some previously available data from the Ag1000G project (page 9, 15), but it is a primary analysis of these specific cohorts."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data is provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 DUP",
+      "Cyp6aa1 DUP",
+      "Cyp9k1 G454A"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2006,
+      2007,
+      2013,
+      2014,
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 498,
+    "summary": "This study analyzed whole-genome sequencing data from 498 Anopheles arabiensis mosquitoes collected across five regions in Kenya between 2006 and 2021. It investigated population structure and insecticide resistance mechanisms, identifying geographical heterogeneity in resistance profiles. Key findings include the presence of Vgsc-L995F in northwestern Kenya, high frequencies of metabolic resistance-associated CNVs (Cyp6aa/p, Cyp9k1, carboxylesterases) in central Kenya, and a novel candidate gene (Keap1) under selection in central populations.",
+    "exclusion_reasons": []
+  }
+}

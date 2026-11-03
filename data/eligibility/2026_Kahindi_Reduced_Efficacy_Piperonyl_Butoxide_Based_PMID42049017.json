@@ -1,0 +1,72 @@
+{
+  "id": "2026_Kahindi_Reduced_Efficacy_Piperonyl_Butoxide_Based_PMID42049017",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Wild-collected Anopheles larvae were collected and tested, including members of the Anopheles gambiae complex (An. arabiensis, An. gambiae s.s.), An. squamosus, An. rufipes, and An. coustani (Page 1, Abstract & Materials and Methods; Page 2, Figure 1B/C)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper performs PCR for species identification within the An. gambiae complex (reference 20, Wilkins et al. 2006), but does not genotype any target insecticide resistance markers (e.g., Vgsc 995F/S, Ace-1, GSTe2, Cyp6, etc.)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies for insecticide-resistance target markers are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild Anopheles larvae/pupae were collected from aquatic habitats across four villages in Bungoma County, Kenya between June 2023 and February 2024 and reared to adults for bioassays (Page 1, Materials and Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay data and species composition of mosquito collections in Bungoma County, Kenya."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling took place across four villages in Bungoma County / Webuye, Kenya (Page 1, Materials and Methods; Page 3, header)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were conducted between June 2023 and February 2024 (Page 1, Materials and Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes fresh field collections carried out between June 2023 and February 2024 for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No missing target marker data; the paper did not conduct resistance marker genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles squamosus",
+      "Anopheles rufipes",
+      "Anopheles coustani"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1480,
+    "summary": "This study evaluated the efficacy of PBO-LLINs (Olyset Plus) and WHO tube bioassays against wild-collected malaria vectors (An. gambiae s.l. and secondary vectors) across four villages in Bungoma County, Kenya in 2023-2024. While species identification PCR was performed on survived vs. succumbed mosquitoes, no target insecticide-resistance markers were genotyped, making the study ineligible.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide-resistance markers (reports_target_markers = false).",
+      "Does not report extractable genotype data for target resistance markers (reports_extractable_genotype_data = false)."
+    ]
+  }
+}
