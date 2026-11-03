@@ -1,0 +1,67 @@
+{
+  "id": "2026_Sovi_L1014F_Kdr_Mutation_Associated_Higher_PMID41639761",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l., specifically An. coluzzii and An. gambiae s.s. (Page 1, Abstract; Page 5, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the L1014F kdr mutation (Vgsc L995F) (Page 1, Abstract; Page 4, Molecular analyses)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 (Page 6) provides genotype counts (RR, RS, SS) for An. coluzzii (N=974), An. gambiae s.s. (N=46), and hybrids (N=2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected using human landing catches (HLCs) across 60 villages in the Covè, Ouinhi, and Zangnanado communes of southern Benin (Page 1, Abstract; Page 2, Study area)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collection and molecular analysis data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to 60 villages within the Covè, Ouinhi, and Zangnanado communes of the Zou department in Benin (Page 2, Study area; Figure 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between March and May 2023 (Page 2, Study area)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is part of a larger randomized controlled trial ('The New Nets Project'), but the mosquitoes were collected in 2023 and the specific analysis of L1014F genotypes in relation to Microsporidia MB infection appears to be a primary report of these data (Page 2, Study area)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All extractable genotype counts required for the database are provided in Table 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1022,
+    "summary": "This study investigates the association between the Vgsc L1014F (kdr-west) mutation and the prevalence of the endosymbiont Microsporidia MB in field populations of Anopheles coluzzii and Anopheles gambiae s.s. in southern Benin. Collections were conducted in 60 villages across three communes in 2023. The study reports high frequencies of the L1014F mutation and provides full genotype counts for over 1,000 mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

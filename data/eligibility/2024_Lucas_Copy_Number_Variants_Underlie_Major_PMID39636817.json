@@ -1,0 +1,69 @@
+{
+  "id": "2024_Lucas_Copy_Number_Variants_Underlie_Major_PMID39636817",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles arabiensis collected in Tanzania (page 3: 'Molecular species identification performed on a subset of these confirmed that all samples in Muleba (196 out of 196) and nearly all in Moshi (382 out of 384) were An. arabiensis')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of target markers including Vgsc L995F (Vgsc-995F), Ace-1 G280S (Ace1-280S), Rdl A296S (Rdl-296S), and Cyp4j5 L43F (Cyp4j5-43F) on page 7."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 7 reports exact allele counts/frequencies: 'The only recognised resistance SNP present in Vgsc (target site of deltamethrin) was Vgsc-995F (2 out of 564 haplotypes in Moshi, 0 out of 324 haplotypes in Muleba).' It also notes on page 11 that 'only 2 samples in Moshi carrying the Vgsc-995F mutation', Ace1-280S was completely absent, Rdl-296S was found in 2% of haplotypes from Moshi, and Cyp4j5-43F was fixed for the mutant allele."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 12: 'Mosquito larvae were collected from June to August 2018 from 2 locations in Tanzania, Moshi [-3.384, 37.349] and Muleba [-2.092, 31.574]'."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary study reporting field collections from Tanzania in 2018, dose-response bioassays, and whole-genome sequencing via MalariaGEN Vector Observatory release Ag3.7."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 12 provides exact locations and coordinates: 'Moshi [-3.384, 37.349] and Muleba [-2.092, 31.574]' (and page 13 specifies Kyamyorwa village in Muleba)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 12: 'Mosquito larvae were collected from June to August 2018'."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "Page 3: 'Samples for this study were sequenced as part of the MalariaGEN Vector Observatory release Ag3.7 (https://www.malariagen.net/data), which produces SNP and CNV calls, as well as phased haplotype calls.' Samples also belong to the GAARD project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Extractable marker frequencies/haplotype counts (e.g. Vgsc-995F in Moshi and Muleba), sample sizes, and GPS coordinates are reported directly in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S",
+      "Rdl A296S",
+      "Cyp4j5 L43F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 444,
+    "summary": "The authors conducted GWAS and whole-genome sequencing (Ag1000G release 3.7) on Anopheles arabiensis collected in 2018 from Moshi and Muleba, Tanzania, following deltamethrin and pirimiphos-methyl bioassays. They identified metabolic resistance driven by CNVs in carboxylesterases (Coeae2g-Coeae6g) and cytochrome P450s (Cyp6aa/Cyp6p). Target-site mutations were rare: Vgsc L995F was present in only 2 of 564 haplotypes in Moshi and 0 of 324 haplotypes in Muleba, Ace-1 280S was absent, Rdl 296S was found in 2% of haplotypes in Moshi, and Cyp4j5 43F was fixed.",
+    "exclusion_reasons": []
+  }
+}

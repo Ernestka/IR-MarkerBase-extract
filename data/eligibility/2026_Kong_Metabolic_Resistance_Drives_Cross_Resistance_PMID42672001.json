@@ -1,0 +1,67 @@
+{
+  "id": "2026_Kong_Metabolic_Resistance_Drives_Cross_Resistance_PMID42672001",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Aedes albopictus, not Anopheles (Title, Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study genotypes the F1534 site of the kdr gene in Aedes albopictus, which is not among the specified target markers for Anopheles (Page 5, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for the specified target Anopheles markers is reported (Page 9)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes used were a laboratory strain (Lab-S) obtained from the Chinese Center for Disease Control and Prevention and maintained in Guizhou, China (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving laboratory selection and characterization of insecticide resistance (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study mentions the Guizhou Provincial Center for Disease Control and Prevention in Guiyang, China (Page 1, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not specify the original collection date of the Lab-S strain, only that it has been maintained long-term (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a specific laboratory selection study using a strain maintained by the Chinese CDC."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The study is ineligible based on species and location; no further data is required."
+    },
+    "markers_found": [],
+    "species": [
+      "Aedes albopictus"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 80,
+    "summary": "The study investigates metabolic resistance and cross-resistance between pyriproxyfen and pyrethroids in a laboratory-selected strain of Aedes albopictus from China. It is ineligible because it does not study Anopheles mosquitoes, does not use African field populations, and does not genotype the target resistance markers.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

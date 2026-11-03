@@ -1,0 +1,67 @@
+{
+  "id": "2025_Bedasso_Mosquito_Feeding_Preference_Infectivity_Rates_PMID41150375",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex, as stated in the title and abstract."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports on the L1014F (West African kdr) mutation in the voltage-gated sodium channel (VGSC), which corresponds to Vgsc L995F (Section 3.4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides genotype counts for An. arabiensis: 38 homozygous resistant (RR), 3 heterozygous resistant (RS), and 171 homozygous susceptible (SS) out of 212 successfully amplified samples."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from five villages in Jabi Tehnan District, Northwest Ethiopia, between September 2016 and August 2017 (Section 2.1 and 2.3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collection and molecular analysis data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for Jabi Tehnan District, with specific villages named: Jiga Yelimodar, Hodanshe Gatagon, Abasimo Zegay, Mender Meter, and Mebesh (Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted over a one-year period from September 2016 to August 2017 (Section 2.3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes original field collections in a district where data were previously scarce, and there is no indication that this is a subset of a larger published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and location details are contained within the main text and tables of the provided document."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 212,
+    "summary": "This study reports the frequency of the Vgsc L995F (L1014F) mutation in field-collected Anopheles arabiensis from Jabi Tehnan District, Ethiopia. Mosquitoes were collected between September 2016 and August 2017 using various methods (HLC, CDC-LT, PSC, PS). Genotyping of 212 successfully amplified specimens revealed 38 RR, 3 RS, and 171 SS genotypes. No phenotypic insecticide susceptibility bioassays were conducted.",
+    "exclusion_reasons": []
+  }
+}

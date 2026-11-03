@@ -1,0 +1,75 @@
+{
+  "id": "2025_Lissenden_Meta_Analysis_Entomological_Effects_Differentially_PMID39905437",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae, Anopheles coluzzii, Anopheles arabiensis, and Anopheles funestus (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr and Ace-1 frequencies in the site descriptions (Pages 2-3) but these are cited from previous studies (e.g., refs 13, 14, 23-25). Page 5 explicitly states: \"No molecular identification was conducted for these trials.\""
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts/frequencies are reported for the mosquitoes collected in the described trials."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in experimental hut trials in Burkina Faso, Cameroon, Côte d'Ivoire, and Tanzania between 2020 and 2022 (Table 1, Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary report/meta-analysis of nine experimental hut trials conducted by the authors (Page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to specific locations: Vallée du Kou (Burkina Faso), Mibellon and Elende (Cameroon), Tiassalé and M’bé (Côte d’Ivoire), Pasua and Misungwi (Tanzania) (Table 1, Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Trials were conducted between 2020 and 2022 (Table 1, Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The paper is a meta-analysis of nine trials, some of which may have been published previously (e.g., Mbewe et al. 2022, ref 10)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is expected in the supplement as the authors state no molecular identification was performed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Cameroon",
+      "Côte d'Ivoire",
+      "Tanzania"
+    ],
+    "collection_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 33926,
+    "summary": "This study is a meta-analysis of nine experimental hut trials conducted in four African countries to evaluate the efficacy of partially-treated insecticide-treated nets (ITNs). While it provides extensive phenotypic data (mortality and blood-feeding) for several Anopheles species, it does not report any new genotype data for insecticide resistance markers. Marker frequencies mentioned in the site descriptions are cited from previous literature.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype data for target markers.",
+      "Explicitly states that no molecular identification (which includes genotyping) was conducted for the trials (Page 5)."
+    ]
+  }
+}

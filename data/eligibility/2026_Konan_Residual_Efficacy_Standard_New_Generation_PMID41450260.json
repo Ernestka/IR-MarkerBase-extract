@@ -1,0 +1,66 @@
+{
+  "id": "2026_Konan_Residual_Efficacy_Standard_New_Generation_PMID41450260",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the residual efficacy of LLINs against Anopheles gambiae (Kisumu strain and a local resistant strain from Tiassalé) (page 360)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions Kdr and Ace-1 in the discussion (page 365) as known resistance mechanisms in Côte d'Ivoire, citing previous studies (refs 14, 15), but does not report any genotyping results or marker frequencies from the current study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies for resistance markers are reported in the text, tables, or figures."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes (Tiassalé strain) were collected from rice-growing lowlands in Tiassalé, Côte d'Ivoire (page 360)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article reporting on LLIN durability and efficacy 3 years post-distribution."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to 10 health districts: Abengourou, San Pédro, Yopougon Ouest–Songon, Odienné, Aboisso, Abobo-Ouest, Bouna, Man, Katiola, and Soubré (page 360)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted in 2024, 3 years after the 2021 mass distribution campaign (page 360)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a routine durability monitoring study of a specific national LLIN distribution campaign."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not mention any supplementary files containing genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the physical integrity and residual bioefficacy of standard and new-generation LLINs in Côte d'Ivoire three years after a 2021 mass distribution campaign. While it reports extensive bioassay data (WHO cone tests) using a resistant Anopheles gambiae strain from Tiassalé, it does not report any molecular genotyping data for insecticide resistance markers.",
+    "exclusion_reasons": [
+      "Does not report genotype data for target markers. The study focuses on bioassays (phenotype) of LLINs using a known resistant strain (Tiassalé), but does not provide marker frequencies or genotype counts for the mosquitoes used."
+    ]
+  }
+}

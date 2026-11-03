@@ -1,0 +1,69 @@
+{
+  "id": "2026_Worku_Seasonal_Variation_Species_Composition_Deltamethri_PMID42247393",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles mosquitoes are the main vectors of malaria. (Page 1)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Species identification and detection of knockdown resistance (kdr) mutations (L1014F and L1014S) were performed using PCR. (Page 1)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 5 provides genotype distributions (RR, RS, SS) for L1014F and L1014S across species (An. arabiensis, An. pharoensis, An. stephensi) and phenotypic groups (FCA, Susceptible, Resistant) with sample sizes (N). (Page 9)"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles larvae and pupae were collected from breeding sites... in Maksegnit and Gendawuha, Northwest Ethiopia. (Page 1)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original empirical data. (Page 1)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Maksegnit and Gendawuha towns of Northwest Ethiopia. (Page 3)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between June and December 2023. (Page 3)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study appears to be an independent local collection; no mention of larger surveillance networks or previously published datasets for these specific samples. (Page 3)"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data, including genotype frequencies and sample sizes, are provided in the main text and figures (specifically Figures 4 and 5). (Page 2)"
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles pharoensis",
+      "Anopheles stephensi"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 480,
+    "summary": "This study investigated Anopheles species composition, deltamethrin susceptibility, and kdr mutations (L1014F and L1014S) in Maksegnit and Gendawuha, Northwest Ethiopia, during 2023. Genotype data is provided for An. arabiensis, An. pharoensis, and An. stephensi, including comparisons between survivors and dead mosquitoes from WHO deltamethrin bioassays.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2024_Real-Jaramillo_Phenotypic_Resistance_Not_Associated_Knockdown_PMID38217047",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles albimanus (Title, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the voltage-gated sodium channel (VGSC) at codons 1010, 1013, and 1014 (Abstract, Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies and sample sizes (n=109) are reported for codon 1014 on page 5."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in the province of El Oro, Ecuador, which is in South America (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new bioassay and molecular data (Methods, Results)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for Santa Rosa and Huaquillas (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between March and August 2019 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes original field collections and analysis for this specific research project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype frequencies and sample sizes are provided in the main text (Page 5)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles albimanus"
+    ],
+    "countries": [
+      "Ecuador"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 115,
+    "summary": "This study investigates deltamethrin resistance and VGSC mutations in Anopheles albimanus populations from southern coastal Ecuador. While it reports extractable genotype data for target markers, it is ineligible for the database because the study was conducted in South America, not Africa.",
+    "exclusion_reasons": [
+      "The study was conducted in Ecuador (South America), failing the requirement for an African field population."
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2026_Nematchoua_Weyou_Physical_Integrity_Bioefficacy_Long_Lasting_PMID42181934",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae sensu lato mosquitoes were identified to species level using polymerase chain reaction (PCR). (Abstract)"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports species identification (An. gambiae and An. coluzzii) and bioefficacy (WHO cone tests) but does not genotype any of the target insecticide resistance markers. It mentions kdr L1014F and N1575Y in the discussion (page 8) only as a plausible explanation for the observed resistance, citing previous studies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data for resistance markers is provided."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Gado-Badzere refugee camp is located in the Garoua-Boulai Sub-division, Lom and Djerem Division, East Region of Cameroon (Section 2.1)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "A cross-sectional study was conducted 18 months after LLINs distribution... (Abstract)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Gado-Badzere refugee camp... Garoua-Boulai Sub-division (Section 2.1)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "A descriptive cross-sectional survey was carried out in the Gado-Badzere refugee camp 18 months after the January 2023 LLINs mass distribution campaign. (Section 2.2)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study mentions a previous publication (Nematchoua Weyou et al., 2024) describing the camp's characteristics and malaria prevalence, but this appears to be a new cross-sectional survey focused on LLIN durability."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not mention any supplementary files containing genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 582,
+    "summary": "The study evaluates the physical integrity and bioefficacy of LLINs in a refugee camp in Cameroon 18 months after distribution. It identifies the vector species as An. gambiae and An. coluzzii but does not genotype resistance markers.",
+    "exclusion_reasons": [
+      "Does not report genotyping of target insecticide-resistance markers (only species identification and bioassays)."
+    ]
+  }
+}

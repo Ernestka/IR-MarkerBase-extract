@@ -1,0 +1,76 @@
+{
+  "id": "2025_Tabue_Managing_Insecticide_Resistance_Malaria_Vectors_PMID41194077",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on malaria vectors including Anopheles gambiae s.s., An. coluzzii, An. arabiensis, and An. funestus (e.g., page 4-6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mentions target markers from secondary literature review on page 6: 'The kdr-West L1014F mutation is highly prevalent in Côte d’Ivoire and Cameroon, while the kdr-East L1014S variant appears at low frequencies... The G119S Ace1 mutation... The A296S-RDL mutation...'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies with sample sizes are presented. The paper only qualitatively summarizes previously published findings."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "No mosquitoes were collected or genotyped for this paper; it is a policy review and situational analysis of national IRM plans."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a mixed-methods programmatic evaluation and review of national insecticide resistance management (IRM) plans and secondary literature (page 1-3), not a primary empirical entomology/genotyping study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific districts and regions are referenced in the literature review (e.g., Kakonko and Kibondo in Tanzania; page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No primary mosquito sampling was conducted."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Not applicable as this is a policy review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data contains primary mosquito genotype counts."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon",
+      "Côte d'Ivoire",
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study is a programmatic and situational review evaluating the national insecticide resistance management (IRM) plans of Cameroon, Côte d'Ivoire, and mainland Tanzania. It does not report primary empirical mosquito collection or extractable resistance marker genotype data.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (review/evaluation of national IRM plans)",
+      "No extractable genotype data reported",
+      "No primary field mosquito collections conducted or genotyped"
+    ]
+  }
+}
