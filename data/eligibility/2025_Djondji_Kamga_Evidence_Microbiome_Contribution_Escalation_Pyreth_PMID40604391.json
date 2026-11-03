@@ -1,0 +1,67 @@
+{
+  "id": "2025_Djondji_Kamga_Evidence_Microbiome_Contribution_Escalation_Pyreth_PMID40604391",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. and Anopheles funestus s.s. (Page 1, Abstract; Page 2, Materials and methods)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study focuses on 16S rRNA bacterial microbiome sequencing, P450 gene expression (qRT-PCR), and WHO susceptibility bioassays. It does not genotype any target insecticide resistance markers; references to kdr L995F or N1570Y in Nkolondom on page 13 are citations of prior literature."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype data for target resistance markers is reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquitoes were collected from Nkolondom village, Yaoundé, Cameroon from September to November 2022 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study investigating the contribution of the mosquito microbiome to pyrethroid resistance escalation."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Nkolondom village, Yaoundé, Cameroon (3°57'18\" N, 11°29'36\" E) (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place from September to November 2022 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field sampling conducted in Nkolondom in late 2022 alongside laboratory strain bioassays and metagenomic sequencing."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files are not required as the study does not perform target resistance marker genotyping."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the role of the mosquito gut microbiome in pyrethroid resistance escalation in field-collected Anopheles gambiae s.s. from Cameroon and laboratory strains of Anopheles funestus s.s. While the authors conducted WHO tube bioassays and 16S rRNA sequencing to characterise bacterial taxa, no target insecticide resistance markers were genotyped.",
+    "exclusion_reasons": [
+      "Does not report genotyping data for any of the target insecticide resistance markers (focuses on 16S rRNA bacterial microbiome sequencing, P450 expression by qRT-PCR, and WHO bioassays)."
+    ]
+  }
+}

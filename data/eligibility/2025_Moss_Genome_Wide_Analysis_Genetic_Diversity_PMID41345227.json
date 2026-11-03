@@ -1,0 +1,68 @@
+{
+  "id": "2025_Moss_Genome_Wide_Analysis_Genetic_Diversity_PMID41345227",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study analyzed whole-genome sequencing data of Anopheles darlingi mosquitoes from Brazil (Page 1, Title and Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper screened for target-site mutations in ace-1, gste2, rdl, and vgsc, but found none of the canonical target-site resistance markers listed in the inclusion criteria (Page 2, 'No SNPs previously associated with insecticide resistance were detected')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype/allele frequencies for any listed target resistance markers were reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes were collected from Candeias do Jamari and Porto Velho in Rondônia State, Brazil, South America (Page 2, Results)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting novel whole-genome sequencing data of wild-caught and colony An. darlingi mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected in Candeias do Jamari and Porto Velho, Rondônia State, Brazil (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Wild-caught mosquitoes were collected during 2018–2019 (Page 8, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study presents novel whole-genome sequencing data generated for this study (NCBI BioProject PRJEB66076)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files were not required as the study is ineligible based on study region."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles darlingi"
+    ],
+    "countries": [
+      "Brazil"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 28,
+    "summary": "This study performed whole-genome sequencing on 20 wild-caught and 8 colony Anopheles darlingi mosquitoes from Rondônia State, Brazil, to investigate genetic diversity, population structure, and potential insecticide resistance mechanisms. No known target-site resistance mutations were detected.",
+    "exclusion_reasons": [
+      "Not an African field population (study conducted on Anopheles darlingi in Rondônia State, Brazil).",
+      "Does not report genotype data for any of the required target resistance markers."
+    ]
+  }
+}

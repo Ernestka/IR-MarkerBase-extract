@@ -1,0 +1,67 @@
+{
+  "id": "2025_Adesoye_Pyrethroid_Resistance_Anopheles_Gambiae_Focus_PMID41370620",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper explicitly states in the Discussion (Page 5) that 'the study did not evaluate the specific resistance mechanisms, such as metabolic resistance, target-site mutations, or behavioral avoidance'."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies for resistance markers are reported; the study only provides phenotypic mortality data from CDC bottle bioassays."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected in June 2024 from Zuba, FCT, Nigeria (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting new bioassay data from field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are tied to Zuba (latitude 9.1023, longitude 7.1952) in the Gwagwalada Area Council of Abuja, Nigeria (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in June 2024 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors state this is the first phenotypic assessment of pyrethroid susceptibility in the An. gambiae s.l. population in Zuba (Page 5)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplementary materials mentioned (Supplementary Material 1 and 2) are included in the main text on pages 2 and 3 and contain only insecticide dilution protocols, not genotype data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study reports phenotypic resistance to permethrin and deltamethrin in field-collected Anopheles gambiae s.l. from Zuba, Nigeria, using CDC bottle bioassays. However, it does not perform any molecular genotyping of insecticide-resistance markers and explicitly notes this as a limitation.",
+    "exclusion_reasons": [
+      "Does not report any of the target insecticide-resistance markers.",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

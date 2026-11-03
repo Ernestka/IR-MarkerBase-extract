@@ -1,0 +1,69 @@
+{
+  "id": "2025_Dortey_Exploring_Metabolic_Cuticular_Mechanisms_Increased_PMID40442265",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions KDR mutations (L1014F, L1014S, N1570Y) in the introduction (page 1) as background information, but the study itself only performs gene expression analysis (qRT-PCR) for metabolic and cuticular genes, not genotyping of target-site resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts or frequencies for any target-site resistance markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from eight field sites in Ghana (page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study investigating resistance mechanisms in field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific locations (Opeibea, Tuba, Teshie, Nima, Kpalsogu, Libga, Tamale, Kulaa) and coordinates (page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were made from June 2023 to September 2023 (page 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections from 2023."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any target-site marker genotype data, so no supplement is needed for that purpose."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 400,
+    "summary": "This study investigated phenotypic resistance and metabolic/cuticular gene expression in Anopheles gambiae s.l. from eight sites in Ghana. While it mentions KDR mutations in the introduction, it does not genotype them. The study focuses on gene expression profiles of metabolic (CYP6P3, CYP6M2, CYP9K1, GSTE2) and cuticular (CYP4G16, CPR124, CPR129, CPLCG3) genes.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report genotyping data for any of the required target-site resistance markers.",
+      "reports_extractable_genotype_data: No genotype data for resistance markers is provided."
+    ]
+  }
+}

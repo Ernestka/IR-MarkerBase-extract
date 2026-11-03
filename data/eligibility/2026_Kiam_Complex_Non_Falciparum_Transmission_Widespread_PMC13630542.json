@@ -1,0 +1,76 @@
+{
+  "id": "2026_Kiam_Complex_Non_Falciparum_Transmission_Widespread_PMC13630542",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles funestus, Anopheles gambiae, and Anopheles ziemanni (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes L1014F, N1575Y, G119S-Ace1, L119F-GSTe2, CYP6P9a, and CYP6P9b (Table 1, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (RR, RS, SS) for all markers across the studied species."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Penka-Michel, Western Highlands of Cameroon, using human landing catches (Methods, Page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original entomological and molecular data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for Penka-Michel, specifically the sites Bazinza and Quartier lac (Methods, Page 3; Fig 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted over a 12-month period from September 2023 to August 2024 (Abstract, Page 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is part of the ReMA project, but presents a specific longitudinal dataset for Penka-Michel (Ethics, Page 15)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The primary genotype data required is provided in Table 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Ace-1 G280S",
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Cyp6p9b R"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles leesoni",
+      "Anopheles ziemanni"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 2290,
+    "summary": "This longitudinal study (2023-2024) in Penka-Michel, Cameroon, characterizes malaria transmission and insecticide resistance in An. funestus, An. gambiae, and An. ziemanni. It reports high frequencies of target-site (L1014F, N1575Y, G119S-Ace1) and metabolic (L119F-GSTe2, CYP6P9a/b) resistance markers, with genotype counts provided for each.",
+    "exclusion_reasons": []
+  }
+}

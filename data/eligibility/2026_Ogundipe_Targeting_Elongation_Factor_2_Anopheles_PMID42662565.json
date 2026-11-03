@@ -1,0 +1,68 @@
+{
+  "id": "2026_Ogundipe_Targeting_Elongation_Factor_2_Anopheles_PMID42662565",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on 'Anopheles gambiae serving as the principal vector across sub-Saharan Africa' (page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions Vgsc L1014F (kdr-W) in the introduction as background information (page 2), but does not report any new genotyping data for this or any other target marker."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a review paper, it does not provide primary genotype counts, allele counts, or frequencies for specific populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study does not involve primary field collections or testing of African mosquito populations; it is a literature review and computational analysis."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The document is explicitly labeled as a 'Mini Review' (page 1)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No specific field collection sites are reported."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No specific collection dates for field samples are provided."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper and does not present original field data that could overlap with other studies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data is required as the paper is ineligible."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles stephensi",
+      "Anopheles funestus",
+      "Anopheles minimus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a mini-review exploring Eukaryotic Elongation Factor 2 (EF-2) as a potential novel molecular target for malaria vector control in Anopheles gambiae. It discusses the biological role of EF-2, its evolutionary conservation across Anopheles species, and potential intervention strategies like RNA interference and small-molecule inhibitors. It does not contain primary data on insecticide resistance marker frequencies.",
+    "exclusion_reasons": [
+      "Not a primary study (Mini Review).",
+      "Does not report extractable genotype data for target markers.",
+      "Does not report data from an African field population."
+    ]
+  }
+}

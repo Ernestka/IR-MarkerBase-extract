@@ -1,0 +1,69 @@
+{
+  "id": "2026_Gadji_PoolSeq_Genome_Wide_Association_Studies_PMID41491590",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult F0 Anopheles mosquitoes were collected in Mibellon... An. funestus s.s. was the main malaria vector in the area (Page 2, Section 2.1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports allele frequencies and PCR genotyping for Cyp9k1 G454A (CYP9K1 G454A) and GSTe2 L119F (Page 11, Section 4.6; Page 14, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports PoolSeq allele frequencies with pool sample sizes (N=40 mosquitoes per pool) in field populations (e.g. CYP9K1 G454A allele frequency 10% in 2014 vs 95% in 2021; Page 11, Section 4.6) as well as PCR genotype counts/frequencies in genetic cross progeny (N=88 hybrids; Page 14, Table 2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Mibellon, Cameroon in 2014 and between November 2020 and 2021 (Page 2, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting original PoolSeq GWAS, bioassay profiling, genetic crosses, and marker genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mibellon (6°46'N, 11°70'E), Adamawa region, Mayo Banyo Division, Bankim Sub-division, Cameroon (Page 2, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections took place in 2014 and between November 2020 and 2021 (Page 2, Section 2.1). formulation within <=3 years per sampling period."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The 2014 temporal reference sample was previously published (Weedall et al. 2020a, Figure 1), but the 2020-2021 Mibellon field samples, crosses, and PoolSeq datasets were generated for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Target marker genotype and allele frequency data are fully provided in the main text and Table 2."
+    },
+    "markers_found": [
+      "Cyp9k1 G454A",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2014,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 88,
+    "summary": "This study used PoolSeq genome-wide association mapping, bioassays, genetic crosses, and molecular genotyping to investigate pyrethroid resistance evolution in Anopheles funestus from Mibellon, Cameroon. It documented temporal selection of key resistance markers including Cyp9k1 G454A (increasing from 10% in 2014 to 95% in 2021) and evaluated genotype-phenotype associations for Cyp9k1 G454A and GSTe2 L119F in hybrid crosses.",
+    "exclusion_reasons": []
+  }
+}

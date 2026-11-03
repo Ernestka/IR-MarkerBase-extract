@@ -1,0 +1,71 @@
+{
+  "id": "2024_Machani_Insecticide_Resistance_Intensity_Urban_Anopheles_PMID39536003",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles arabiensis and Anopheles gambiae (s.s.) in Kisumu County, Kenya (Title, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study screened for mutations at Vgsc-1014F, Vgsc-1014S, Vgsc-1575Y, and Ace1-119S (Abstract, Page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides allele frequencies for L1014F and L1014S along with the number of mosquitoes genotyped (N) for each species and ecological zone."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field sites in Kisumu County, Kenya, in 2022–2023 (Abstract, Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original empirical data on insecticide resistance and target-site mutations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Thirteen specific sites were surveyed in Kisumu County, including Nyalenda, Gesoko, Migosi, Mamboleo, Bandani, Kotetni, Kandalo, Tiengre, Kisian, Ojola, Mainga, Chulaimbo, and Marera (Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected and tested between August 2022 and December 2023 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine field collections supported by NIH grants (R01 AI123074, etc.) and does not indicate that the data is a subset of a larger previously published dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency and sample size data are provided in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1067,
+    "summary": "This study investigated insecticide resistance levels and underlying mechanisms in Anopheles arabiensis and Anopheles gambiae across an urban-to-rural continuum in Kisumu County, Kenya. Field-collected larvae from 2022-2023 were reared to adults and tested using WHO bioassays. Genotyping for Vgsc (L1014F, L1014S, N1575Y) and Ace-1 (G119S) mutations was performed on 1,067 mosquitoes, with allele frequencies reported by species and ecological zone. High pyrethroid resistance and elevated L1014F frequencies were observed in urban An. arabiensis populations.",
+    "exclusion_reasons": []
+  }
+}

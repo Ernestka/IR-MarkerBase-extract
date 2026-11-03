@@ -1,0 +1,68 @@
+{
+  "id": "2025_Lamy_Metarhizium_Pingshaense_Infection_Reverses_Insecti_PMID41316457",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-03",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles coluzzii and Anopheles gambiae s.l. (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study measures gene expression (mRNA levels) of CYP6P3, CYP6Z1, GSTe2, and defensin using RT-qPCR, but does not genotype the mosquitoes for the specific target SNPs, CNVs, or SVs (e.g., Vgsc L995F, GSTe2 L119F) listed in the requirements. It mentions that the VKPER colony has the kdr gene fixed, but does not perform genotyping on the field-collected mosquitoes."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts (RR/RS/SS), allele counts, or frequencies with sample sizes are reported for any target markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild An. gambiae s.l. larvae were collected in October and November 2023 from Soumousso and Valley du Kou, Burkina Faso (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the effects of Metarhizium infection on mosquito resistance and physiology."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Soumousso and Valley du Kou (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in October and November 2023 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine new collections in Burkina Faso for specific experimental purposes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper focuses on gene expression and metabolites; there is no indication that genotype data for target markers is provided in the supplementary materials."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates how infection with the fungus Metarhizium pingshaense affects insecticide resistance, energy reserves, and gene expression in Anopheles gambiae s.l. from Burkina Faso. While the authors report WHO susceptibility bioassay results and the expression levels of metabolic genes (GSTe2, CYP6P3, CYP6Z1), they do not genotype the field-collected mosquitoes for any of the target resistance markers (SNPs/CNVs/SVs) required for the database.",
+    "exclusion_reasons": [
+      "Does not report genotype data for target markers (only gene expression and metabolites).",
+      "No extractable genotype counts or frequencies for field populations."
+    ]
+  }
+}
