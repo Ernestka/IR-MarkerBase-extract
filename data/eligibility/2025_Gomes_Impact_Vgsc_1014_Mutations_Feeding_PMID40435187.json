@@ -1,0 +1,70 @@
+{
+  "id": "2025_Gomes_Impact_Vgsc_1014_Mutations_Feeding_PMID40435187",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": false,
+        "evidence": "The study focuses on Phlebotomus argentipes, which is a sand fly (Diptera: Psychodidae), not an Anopheles mosquito."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports Vgsc-1014 mutations in Phlebotomus argentipes, which are not among the specified Anopheles markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 and Table 2 provide genotype counts for Vgsc-1014."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study was conducted in Bangladesh, which is in Asia, not Africa."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations within the Mymensingh district, Bangladesh (e.g., Trishal upazila, KANIHARI, KHUSTIA-2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers collections from September 2013 to August 2015."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection and analysis of sand flies in Bangladesh."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Phlebotomus argentipes"
+    ],
+    "countries": [
+      "Bangladesh"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 648,
+    "summary": "This study investigates Vgsc-1014 mutations and blood meal origins in Phlebotomus argentipes sand flies collected in Bangladesh. It is ineligible because it studies sand flies (Phlebotomus) rather than Anopheles mosquitoes and is located in Asia rather than Africa.",
+    "exclusion_reasons": [
+      "is_anopheles",
+      "reports_target_markers",
+      "african_field_population"
+    ]
+  }
+}

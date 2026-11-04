@@ -1,0 +1,83 @@
+{
+  "id": "2025_Amoako_Genomic_Population_Structure_Insecticide_Resistanc_PMID41282101",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii, a major malaria vector in the Anopheles gambiae s.l. complex (Page 3, 7)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports frequencies for Vgsc L995F, V402L, I1527T, N1570Y, P1874S, Ace-1 G280S, Ace-1 CNV, Rdl A296G, Rdl A296S, and Cyp6aa1 CNV (Page 12-14, Figures 5 and 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele and CNV frequencies are provided in Figures 5 and 6 (with readable percentage values in the heatmap cells), and corresponding sample sizes for each cohort are provided in Table 1 (Page 9, 31, 32)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Ghana (Upper East, Ashanti, Central, Eastern, Greater Accra, and Western regions) between 2016 and 2018 (Page 5, 7, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using whole-genome sequencing to analyze mosquito populations (Page 5)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for specific administrative districts and regions in Ghana, such as Navrongo (Upper East), Adansi (Ashanti), and Madina (Greater Accra) (Page 5, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection years are specified for each cohort, with the primary new data collected between 2016 and 2018 (Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The study explicitly includes 486 genomes from a previous study in Ghana (Lucas et al. 2023) and uses publicly available data from the MalariaGEN Ag1000G Phase 3 resource for comparison (Page 7-8, Table 1)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "While supplementary files like 'Table1samplecollection.csv' and 'TableS1samplingtable.csv' are mentioned, the necessary frequencies and sample sizes are readable directly from the main text, Table 1, and Figures 5 and 6."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Vgsc N1570Y",
+      "Vgsc P1874S",
+      "Ace-1 G280S",
+      "Ace-1 DUP",
+      "Rdl A296G",
+      "Rdl A296S",
+      "Cyp6aa1 DUP"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana",
+      "Burkina Faso",
+      "Mali",
+      "Cote d'Ivoire"
+    ],
+    "collection_years": [
+      2004,
+      2012,
+      2014,
+      2016,
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 2104,
+    "summary": "This study investigates the genomic population structure and insecticide resistance mechanisms of Anopheles coluzzii across different bioclimatic zones in West Africa, primarily focusing on Ghana. Using whole-genome sequencing of 1,324 new samples from northern Ghana (2016-2018) and integrating data from previous studies (MalariaGEN Ag1000G and Lucas et al. 2023), the authors identified restricted gene flow between northern savannah and southern forest populations. They report frequencies for multiple resistance markers, including Vgsc (L995F, V402L, I1527T, N1570Y, P1874S), Ace-1 (G280S and CNV), Rdl (A296G/S), and metabolic resistance markers like Cyp6aa1 CNV. The study highlights distinct resistance profiles and selection signals associated with different ecological regions and urban environments like Greater Accra.",
+    "exclusion_reasons": []
+  }
+}

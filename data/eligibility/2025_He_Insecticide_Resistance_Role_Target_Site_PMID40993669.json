@@ -1,0 +1,88 @@
+{
+  "id": "2025_He_Insecticide_Resistance_Role_Target_Site_PMID40993669",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper is a systematic review and meta-analysis of insecticide resistance in Anopheles mosquitoes in China."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on kdr and ace-1 mutations in Anopheles sinensis."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a meta-analysis paper. While it reports pooled frequencies and forest plots of data from other studies, it does not provide primary, extractable genotype counts (RR/RS/SS) for individual field populations as a primary empirical study would."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study focuses exclusively on Anopheles mosquitoes in China."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a systematic review and meta-analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper lists various provinces and municipalities in China where the included studies were conducted (e.g., Henan, Jiangsu, Liaoning, etc.)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The meta-analysis covers studies from 2010 to 2024."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper is a meta-analysis that aggregates data from 30 previously published studies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a meta-analysis and does not contain primary field data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles sinensis",
+      "Anopheles minimus",
+      "Anopheles dirus",
+      "Anopheles vagus"
+    ],
+    "countries": [
+      "China"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 30065,
+    "summary": "This is a systematic review and meta-analysis of insecticide resistance in Anopheles mosquitoes in China. It is not a primary empirical study and does not involve African field populations.",
+    "exclusion_reasons": [
+      "Not an African field population",
+      "Not a primary empirical study",
+      "Does not report primary extractable genotype data (it is a meta-analysis)"
+    ]
+  }
+}

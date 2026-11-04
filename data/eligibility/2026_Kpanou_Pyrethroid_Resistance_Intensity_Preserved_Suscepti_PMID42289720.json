@@ -1,0 +1,68 @@
+{
+  "id": "2026_Kpanou_Pyrethroid_Resistance_Intensity_Preserved_Suscepti_PMID42289720",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper explicitly states in the limitations section: 'the absence of molecular analyses, including genotyping of resistance markers such as kdr and ace-1, prevents identification of the underlying mechanisms driving the observed phenotypes' (page 11)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data is reported; the study is purely phenotypic (bioassays)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted on wild Anopheles gambiae s.l. populations collected in Benin (page 2, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting bioassays on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for 13 specific municipalities in Benin (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from September 2022 to September 2023 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections conducted between 2022 and 2023."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant phenotypic data is presented in the main figures."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the phenotypic resistance intensity of Anopheles gambiae s.l. to various insecticides (pyrethroids, bendiocarb, chlorfenapyr, and clothianidin) across 13 municipalities in Benin using WHO tube tests and CDC bottle bioassays. No molecular genotyping of resistance markers was performed.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper explicitly states that no molecular genotyping was performed.",
+      "reports_extractable_genotype_data: No genotype data is reported."
+    ]
+  }
+}

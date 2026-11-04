@@ -1,0 +1,72 @@
+{
+  "id": "2025_Tchouassi_Signature_Resistance_Gene_Evolution_Pyrethroid_DOI_10_21203_rs_3_rs-8224847_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus s.s. (page 3, 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for GSTe2 L119F, Cyp9k1 G454A, and 4.3kb-SV (page 6, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies are provided in Figure 3 and Figure 4 (page 20, 21)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Kenya (page 5, 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research article reporting new field data (page 1, 5)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations including Kapluk, Kapnarok, Ahero, Busia, Bungoma, Taveta, Marigiza, and Sihu/Jaribuni (page 5, 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between February 2021 and September 2022 (page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted in 2021-2022 and 2024."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in the main figures (Figure 3, Figure 4)."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Cyp9k1 G454A",
+      "Cyp6p9a R",
+      "Cyp6p9a/b 6.5kb-SV",
+      "Cyp6aa1 DUP",
+      "4.3kb-SV"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1967,
+    "summary": "This study investigated insecticide resistance markers and phenotypic resistance in Anopheles funestus populations across different ecological regions in Kenya (Western, Rift Valley, and Coast). It found significant regional variation in the frequency of resistance markers (GSTe2 L119F, G454A-Cyp9k1, and 4.3kb-SV) and high levels of pyrethroid resistance, with intensity varying by region.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2025_Hoyochi_Mechanism_Metabolic_Resistance_Anopheles_Coluzzii_PMID41088069",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Larvae and pupae of An. gambiae s.l. were collected and species belonging to the An. gambiae complex (An. coluzzii and An. gambiae s.s.) were identified by PCR."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study conducted species identification PCR (SINE insertion PCR) and biochemical enzyme activity assays (oxidase, GST, esterases), but did not genotype any target-site resistance markers (e.g., Vgsc L995F/S, Ace-1 G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No target-site resistance marker genotype data were reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae and pupae of An. gambiae s.l. were collected in the municipalities of Cotonou and Porto-Novo, southern Benin, between May and August 2021."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical research study reporting field collections, WHO bioassays, species identification, and biochemical enzyme assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections took place at specific localities: Akron, Tokpota, and Djègan Daho in Porto-Novo, and Agla, Yenawa, Houeyiho, Ladji, Suru Lere, and Avotrou in Cotonou."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collection was conducted between May and August 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field collections appear to be primary empirical data collected by the study team."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No missing target marker data expected in supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study examined susceptibility status (WHO tube bioassays for deltamethrin, permethrin, and bendiocarb), species composition (An. coluzzii vs An. gambiae s.s.), and biochemical metabolic enzyme activity (oxidase, GST, esterases) in Anopheles gambiae s.l. collected in Cotonou and Porto-Novo, southern Benin in 2021. The study is ineligible because it did not genotype any target-site insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "Does not genotype any target insecticide-resistance markers (reports only species identification PCR and biochemical enzyme activity assays).",
+      "Does not report extractable target marker genotype data."
+    ]
+  }
+}

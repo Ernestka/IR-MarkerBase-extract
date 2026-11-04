@@ -1,0 +1,72 @@
+{
+  "id": "2025_Fonkou_Escalating_Pyrethroid_Resistance_Anopheles_Funestu_DOI_10_21203_rs_3_rs-8136033_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus s.l. and Anopheles gambiae complex mosquitoes (page 2, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for GSTe2 L119F and G454A-CYP9K1 (page 6, 8, 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (RR, RS, SS) for L119F-GSTe2 and G454A-CYP9K1 in infected and non-infected mosquitoes (page 12)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Wild Anopheles funestus s.l. mosquitoes were sampled from households in Adamaoua and Centre regions of Cameroon (page 2, 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and laboratory analysis of mosquitoes (page 2, 5, 6)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites as Mibellon and Elende in Cameroon (page 4, 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between February and September 2021 (page 2, 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections in 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in Table 2 (page 12)."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Cyp9k1 G454A"
+    ],
+    "species": [
+      "Anopheles funestus s.s.",
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles leesoni",
+      "Anopheles rivulorum"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 4250,
+    "summary": "This study investigated the impact of pyrethroid resistance escalation on the vectorial capacity of wild-caught Anopheles funestus s.l. in Cameroon. It found that resistance to pyrethroids is associated with the L119F-GSTe2 and G454A-CYP9K1 mutations and that these markers, particularly L119F-GSTe2, influence Plasmodium infection rates in the vectors.",
+    "exclusion_reasons": []
+  }
+}

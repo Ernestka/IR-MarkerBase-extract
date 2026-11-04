@@ -1,0 +1,69 @@
+{
+  "id": "2026_Kouame_Sublethal_Effects_Insecticides_Reproduction_Traits_PMID42249498",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study examines Anopheles gambiae s.l. (Tiassalé strain) and Anopheles gambiae s.s. (Kisumu strain)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report new genotype data for any of the listed insecticide-resistance markers. It only mentions previously published resistance frequencies (kdr, Ace-1R) in the Tiassalé population as background information (page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported for the mosquitoes used in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The Tiassalé strain was collected as larvae from rice fields in Tiassalé, Côte d'Ivoire."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating the sublethal effects of insecticides on mosquito life-history traits."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Tiassalé, Côte d'Ivoire (5° 54′ N, 4° 50′ W)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from October 2023 to September 2024."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new experimental work on sublethal effects."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data for the study's conclusions are included in the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the sublethal effects of broflanilide, chlorfenapyr, and deltamethrin on the longevity, blood-feeding success, and reproductive traits of insecticide-resistant Anopheles gambiae s.l. from Tiassalé, Côte d'Ivoire, compared to the susceptible Kisumu strain. The study did not perform any new genotyping of resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report new genotype data for any of the listed insecticide-resistance markers.",
+      "reports_extractable_genotype_data: No genotype counts or frequencies are reported for the mosquitoes used in this study."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2025_Nounagnon_Efficacy_Vector_Guard_Mosaic_Alpha_PMID41053824",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of ITNs against wild, free-flying Anopheles gambiae s.l. (page 2)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the presence of the L1014F kdr mutation (page 2) but does not report any genotype counts, allele frequencies, or specific marker data for the mosquitoes collected in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype data (counts or frequencies) for the mosquitoes collected."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Covè, Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the CREC/LSHTM experimental hut station in Covè, southern Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The hut trial was conducted between February and April 2022 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or its supplements."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 6799,
+    "summary": "This study evaluates the entomological efficacy of Vector Guard ITNs in experimental huts in Covè, Benin. While it mentions the high frequency of the L1014F kdr mutation in the local population, it does not report any primary genotype data for the mosquitoes collected.",
+    "exclusion_reasons": [
+      "reports_target_markers: No genotype data reported.",
+      "reports_extractable_genotype_data: No genotype data reported."
+    ]
+  }
+}

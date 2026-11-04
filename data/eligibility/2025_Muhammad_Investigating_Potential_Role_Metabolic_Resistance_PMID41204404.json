@@ -1,0 +1,69 @@
+{
+  "id": "2025_Muhammad_Investigating_Potential_Role_Metabolic_Resistance_PMID41204404",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles coluzzii and Anopheles gambiae complex."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper does not report genotype data for any of the specified insecticide-resistance markers. It mentions kdr mutations in the background (e.g., page 2, 3), but does not provide genotype counts or frequencies for the current study's samples."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are provided for the mosquitoes used in the study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-caught Anopheles coluzzii from Auyo, Nigeria."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study investigating PAH metabolism by microsomes and recombinant P450s."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies Auyo town, Auyo Local Government, Jigawa State, Nigeria (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The mosquitoes were collected in September 2019 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a new collection from 2019, although it references previous work on the same Auyo population."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data for the study's findings (metabolism assays) are presented in the main figures."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the metabolic activity of microsomes from field-collected Anopheles coluzzii (Auyo, Nigeria) and recombinant P450s towards PAHs (fluorene, fluoranthene, naphthalene). It does not report genotype data for resistance markers.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report genotype data for any of the specified insecticide-resistance markers.",
+      "reports_extractable_genotype_data: No genotype counts or frequencies are provided for the mosquitoes used in the study."
+    ]
+  }
+}
