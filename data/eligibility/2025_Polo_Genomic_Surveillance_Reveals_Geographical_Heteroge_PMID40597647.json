@@ -1,0 +1,74 @@
+{
+  "id": "2025_Polo_Genomic_Surveillance_Reveals_Geographical_Heteroge_PMID40597647",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'In Anopheles mosquitoes, resistance has jeopardized gains... Although Anopheles arabiensis is a major malaria vector...' Page 3: 'We analyzed whole-genome data from 498 An. arabiensis specimens collected across five regions in Kenya.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 7, Figure 3 and Page 7 text: 'Among the target site mutations that confer insecticide resistance, only the Vgsc-L995F substitution was observed at appreciable frequencies in Turkana, northwestern Kenya (13–44%) (Fig. 3).' Also reports Ace-1 CNVs (AGAP001356) and Cyp6aa1 CNVs (AGAP002862)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 gives exact numbers of sequenced mosquitoes per site, collection year, and bioassay phenotype (alive vs dead). Figure 3 provides exact percentage frequencies of Vgsc amino acid mutations (including L995F) across these exact sample groups."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 3: 'Mosquito larvae were collected from across multiple oviposition sites using standard dippers... Locations... Kakuma in... Turkana County, Teso District... Mwea... Thika... Kwale County'."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting original whole-genome sequencing and CDC bottle bioassay data for field-collected mosquitoes in Kenya."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 and Page 3 list specific collection sites with geographical coordinates: Kwale (-4.572, 39.257), Mwea (-0.717, 37.382), Teso (0.626, 34.236), Thika (-1.061, 37.181), Turkana (3.717, 34.857), and Kilifi."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Table 1 specifies exact collection years for each sample group: 2006, 2007, 2013, 2014, 2019, 2020, and 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Page 4 notes that mosquito samples and methods overlap with Kamau et al. 2024 (ref 21) and were sequenced as part of the MalariaGEN Vector Observatory dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Genotype frequencies and sample sizes per site/phenotype cohort are fully reported in Table 1 and Figure 3/4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 DUP",
+      "Cyp6aa1 DUP"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2006,
+      2007,
+      2013,
+      2014,
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 498,
+    "summary": "This study performed whole-genome sequencing on 498 Anopheles arabiensis specimens collected across five regions in Kenya between 2006 and 2021. Mosquitoes were phenotyped using CDC bottle bioassays with deltamethrin, alpha-cypermethrin, and pirimiphos-methyl. Vgsc L995F was detected in Turkana at frequencies of 13% to 44% and significantly associated with survival in alpha-cypermethrin bioassays. Copy number variants at Ace-1, Cyp6aa1, and Cyp9k1 were also mapped and tested for association with bioassay phenotypes.",
+    "exclusion_reasons": []
+  }
+}

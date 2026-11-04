@@ -1,0 +1,66 @@
+{
+  "id": "2026_Djova_Metabolomic_Changes_Underpinning_Permethrin_Resist_PMID42631101",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses field-derived Anopheles gambiae vectors collected from Cameroon (Page 1, Abstract; Page 7, Mosquito Sample Collections)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper discusses kdr (L1014F) as a known resistance mechanism and relates metabolomic findings to it, but it does not perform genotyping of this or any other target marker in the study mosquitoes (Page 3, Results; Page 7, Materials and Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies for insecticide resistance markers are reported. The study focuses on metabolomic profiles (Page 3, Results)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from Nkolondom, Cameroon, in July 2023 and reared to adult F0 (Page 7, Mosquito Sample Collections)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study using UHPLC-HRMS/MS to analyze the metabolome of resistant and susceptible mosquitoes (Page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were made in Nkolondom (3°57′05″ N and 11°29′24″ E), a peri-urban area near Yaoundé, Cameroon (Page 7, Mosquito Sample Collections)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection was conducted in July 2023 (Page 7, Mosquito Sample Collections)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific metabolomic analysis of samples collected in 2023. While it references previous work in the same area, there is no indication that the genotype data (which is absent anyway) or the specific metabolomic dataset is a duplicate of a larger published study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supporting information is described as containing metabolomic feature lists (CSV) and summaries of significant features, which are consistent with the study's focus and do not suggest missing genotype data (Page 8, Associated Content)."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses untargeted metabolomics (UHPLC-HRMS/MS) to compare permethrin-resistant and susceptible Anopheles gambiae mosquitoes from Nkolondom, Cameroon. While it provides bioassay data (WHO tube tests) to define the phenotypes, it does not report any genotyping data for insecticide resistance markers like kdr or Ace-1. It is therefore ineligible for the database.",
+    "exclusion_reasons": [
+      "does_not_report_genotype_data_for_target_markers"
+    ]
+  }
+}

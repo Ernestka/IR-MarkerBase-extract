@@ -1,0 +1,70 @@
+{
+  "id": "2026_SANOU_Site_Specific_Bio_Efficacy_Interceptor_DOI_10_21203_rs_3_rs-9258699_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l., including An. coluzzii, An. gambiae s.s., and An. arabiensis (Page 1, 3, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes the Vgsc L995F (kdr-995F) mutation (Page 8, 9, 23)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 8) and Table 2 (Page 9) provide the frequency of the L995F allele along with the number of mosquitoes genotyped for each species and site."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field sites (Tengrela and Tiefora) in Burkina Faso and reared to adults (F0), or collected as adults in experimental huts (Page 3, 6, 20, 21)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting experimental hut trials and bioassay results (Page 6, 22)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for two specific villages: Tengrela and Tiefora in southwestern Burkina Faso (Page 3, 6, 20)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted over three years from 2019 to 2021 (Page 3, 6, 22)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is part of the ESSENTIALS consortium (Page 26), but it appears to be the primary report for these specific experimental hut trials in Burkina Faso."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype frequencies and sample sizes are provided in Table 1 and Table 2 of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1840,
+    "summary": "This study evaluated the efficacy of Interceptor G2 and Royal Guard ITNs against pyrethroid-resistant Anopheles gambiae s.l. in experimental huts in Tengrela and Tiefora, Burkina Faso, between 2019 and 2021. The authors reported the frequency of the Vgsc L995F mutation in An. gambiae s.s., An. coluzzii, and An. arabiensis using samples from both larval bioassays (N=455) and experimental hut collections (N=1385).",
+    "exclusion_reasons": []
+  }
+}

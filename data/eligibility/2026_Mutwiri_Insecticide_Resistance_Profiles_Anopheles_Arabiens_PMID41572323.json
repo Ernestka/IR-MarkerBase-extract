@@ -1,0 +1,66 @@
+{
+  "id": "2026_Mutwiri_Insecticide_Resistance_Profiles_Anopheles_Arabiens_PMID41572323",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study assessed the susceptibility of Anopheles arabiensis populations from Mwea and Ahero, Kenya (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study reports phenotypic resistance and Microsporidia MB infection but does not genotype any of the target markers listed in the schema (e.g., Vgsc, Ace-1). The authors explicitly state they are 'currently conducting genomic-level studies to identify the target-site mutations' (page 10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype data for target markers is provided in the text or tables."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from selected villages surrounding two major rice irrigation schemes in Kenya: Mwea and Ahero (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and symbiont infection data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to specific sites: Mwea (0°40′S, 37°18′E) and Ahero (0°9′24″S, 35°11′54″E) (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling was conducted during 2024 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine new collections conducted in 2024."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The supplementary table mentioned (Table S1) contains resistance intensity data (mortality rates), not genotype data for target markers."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 3120,
+    "summary": "The study investigates insecticide resistance in Anopheles arabiensis from two rice-growing regions in Kenya (Mwea and Ahero) and its association with Microsporidia MB infection. While it reports extensive phenotypic resistance data (CDC bottle bioassays, intensity, and synergists), it does not report genotyping of any target resistance markers, noting that such genomic studies are ongoing.",
+    "exclusion_reasons": [
+      "Does not report genotyping of target insecticide-resistance markers (e.g., Vgsc, Ace-1, Rdl, GSTe2)."
+    ]
+  }
+}

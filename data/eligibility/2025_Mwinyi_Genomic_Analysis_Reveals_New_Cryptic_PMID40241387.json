@@ -1,0 +1,73 @@
+{
+  "id": "2025_Mwinyi_Genomic_Analysis_Reveals_New_Cryptic_PMID40241387",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae complex mosquitoes including An. gambiae s.s., An. arabiensis, and a newly identified Pwani molecular form (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports target-site mutations Vgsc L995S (L1014S) and Rdl A296S in Figure 5, Cyp6p4 I236M on page 9, and Cyp6aa1 CNV (Dup1) on pages 9-10 and Figure 6A. Also screened Ace-1 G280S (reported as G289S/G119S, 0% observed across cohorts, Figure 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides sample numbers per species and location (e.g., Moshi An. arabiensis N=40; Tarime An. arabiensis N=47; Muleba An. arabiensis N=137; Muleba An. gambiae N=32; Muheza An. gambiae N=32; Muheza Pwani form N=10), and Figure 5 gives exact allele frequencies across cohorts (e.g., Vgsc L995S: 98% in Muleba An. gambiae, 41% in Muheza An. gambiae; Rdl A296S: 15% in Moshi An. arabiensis)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected in Tanzania across four locations: Zeneti village in Muheza, Mabogini in Moshi, Komaswa village in Tarime, and Muleba district (page 3, section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary population genomic research article analyzing whole-genome sequence data of wild Tanzanian Anopheles gambiae complex mosquitoes to characterize population structure, cryptic taxa, and insecticide resistance markers."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific sub-country sites and coordinates are reported: Zeneti village in Muheza (-5.217 S, 38.650 E), lower Mabogini in Moshi (-3.400 S, 37.350 E), Komaswa village in Tarime (-1.417 S, 34.183 E), and Muleba district (1.750 S, 31.667 E) (page 3, section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Specific collection windows are reported per site: Moshi (August-September 2012), Tarime (August 2012), Muheza (November 2012 to May 2013), and Muleba (2015) (page 3, section 2.1; Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The authors explicitly note that 'This study used data from the An. gambiae 1000 Genomes Project (Ag1000G) Phase 3 (3.0 release), comprising mosquitoes from Tanzania that were collected in four regions, Muheza and Moshi in north east, and Muleba and Tarime in the north-western regions' (page 3, section 2.1)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Key genotype frequencies and sample sizes per cohort are presented directly within the main text (Table 1, Figure 5, Figure 6A, and Results section 3.3)."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Rdl A296S",
+      "Cyp6p4 I236M",
+      "Cyp6aa1 DUP",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2015
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "This study analyzed whole-genome sequencing data of 300 Anopheles gambiae s.l. mosquitoes from four regions in northern Tanzania (Moshi, Tarime, Muheza, and Muleba) generated as part of Ag1000G Phase 3. It identified a new cryptic coastal taxon ('Pwani molecular form') and reported frequencies for key resistance markers including Vgsc L995S, Rdl A296S, Cyp6p4 I236M, and Cyp6aa1 Dup1 across cohorts.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2026_N_dombidje_Experimental_Hut_Evaluation_Mosquito_Shield_PMID42000851",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated the efficacy of Mosquito Shield™ in preventing landing and blood-feeding of wild, free-flying, pyrethroid-resistant Anopheles gambiae s.l. (Page 2)"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the Vgsc L1014F (kdr) mutation on page 2, but this is a citation of previous work (reference 15: Ngufor et al. 2015) to characterize the study site. No new genotyping of resistance markers was performed or reported in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies for resistance markers are provided for the mosquitoes collected or tested in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The experimental hut trial was conducted at a field station in Covè, southern Benin (7°14′N; 2°18′E). (Page 2)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the entomological efficacy of a transfluthrin spatial emanator under experimental hut conditions. (Page 1)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the Covè field station in southern Benin (7°14′N; 2°18′E). (Page 2)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial was conducted in two rounds in 2024: July 10th to August 10th and November 11th to December 10th. (Page 3)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is a standard experimental hut trial at a well-known field station (Covè) and does not indicate overlap with larger genomic datasets like Ag1000G."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary Table S2 is mentioned in the text (Page 8) but likely contains additional bioassay or hut collection data, not the missing genotype data, as molecular methods were not described."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 7118,
+    "summary": "This study evaluates the entomological efficacy of Mosquito Shield™, a transfluthrin-based spatial emanator, against pyrethroid-resistant Anopheles gambiae s.l. in experimental huts in Covè, Benin. The study reports significant reductions in mosquito landing, entry, and blood-feeding, as well as induced mortality. While it characterizes the local population as having a high frequency of the L1014F kdr mutation, it does so by citing previous literature and does not report any new genotyping data for the mosquitoes collected during this trial.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

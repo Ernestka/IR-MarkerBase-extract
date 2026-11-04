@@ -1,0 +1,68 @@
+{
+  "id": "2026_KOUAMO_Panel_CYP6Z_Genes_Drives_Broad_DOI_10_21203_rs_3_rs-8734342_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.s. mosquitoes were collected in Mangoum, Cameroon (Page 5, Section 2.1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study investigates expression and sequence polymorphism of the CYP6Z gene cluster (CYP6Z1, CYP6Z2, CYP6Z3, CYP6Z4). It does not genotype any of the required target markers (e.g., Vgsc L995F/S, Ace-1 G280S, GSTe2 L119F, etc.)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele counts or frequencies are reported for any of the required target markers."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae and adult female Anopheles gambiae s.s. were collected between August 2022 and December 2023 in Mangoum, West Region of Cameroon (Page 5, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study integrating transcriptomics, polymorphism analysis, functional genomics (RNAi), recombinant protein metabolism, and transgenic Drosophila assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mangoum, West Region of Cameroon (5°29′09.2″ N, 10°35′20.8″ E) (Page 5, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between August 2022 and December 2023 (Page 5, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Primary field collection in Mangoum, Cameroon between August 2022 and December 2023."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files exist for CYP6Z gene expression and primers, but no target marker genotype data is missing or expected in supplements."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the role of the CYP6Z gene subfamily (CYP6Z1, CYP6Z2, CYP6Z3, CYP6Z4) in conferring multi- and cross-resistance to public health insecticides in Anopheles gambiae s.s. from Mangoum, Cameroon. Using RNA-seq, qRT-PCR, cDNA sequencing, molecular docking, in vitro metabolism assays, RNAi knockdown, and transgenic Drosophila melanogaster bioassays, the authors show that CYP6Z genes confer resistance to pyrethroids, organophosphates, carbamates, and neonicotinoids while increasing susceptibility to chlorfenapyr. The study does not genotype or report frequency data for any target markers in the database schema.",
+    "exclusion_reasons": [
+      "reports_target_markers: The study focuses on CYP6Z gene expression and polymorphism and does not genotype any of the required target markers.",
+      "reports_extractable_genotype_data: No extractable genotype frequency or count data for target markers."
+    ]
+  }
+}

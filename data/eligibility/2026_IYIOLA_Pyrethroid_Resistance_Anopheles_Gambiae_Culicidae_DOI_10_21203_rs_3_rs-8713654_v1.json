@@ -1,0 +1,66 @@
+{
+  "id": "2026_IYIOLA_Pyrethroid_Resistance_Anopheles_Gambiae_Culicidae_DOI_10_21203_rs_3_rs-8713654_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. populations (Abstract, Page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports the knockdown resistance (kdr) mutation L1014F (Page 4, Introduction; Page 6, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 9) provides genotype counts for the kdr mutation: Homozygous resistant (RR) = 104, Heterozygous resistant (Rr) = 0, Homozygous susceptible (rr) = 146, for a total of 250 samples."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from three locations in Kwara State, Nigeria: Post Office area (Ilorin West LGA), Oyun (Ilorin East LGA), and Amoyo (Ifelodun LGA) (Page 5, Sampling Methodology)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is reported for three specific LGAs in Kwara State, Nigeria: Ilorin West, Ilorin East, and Ifelodun (Page 5, Study area)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper is a preprint from February 2026 and cites references from 2024 and 2025 (e.g., Obembe et al. 2025), indicating recent collection (Page 1, Page 13)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper cites a 2025 study by Obembe et al. (Ref 23) on pyrethroid resistance in Ilorin, but presents its own dataset of 250 genotyped mosquitoes across three LGAs."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper states that 'All data supporting the findings of this study are available within the paper' (Page 11), and the necessary genotype and bioassay data are provided in Tables 1 and 2."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 250,
+    "summary": "This study assessed pyrethroid resistance and the frequency of the Vgsc L1014F (kdr-west) mutation in Anopheles gambiae s.l. populations from three local government areas (LGAs) in Kwara State, Nigeria (Ilorin West, Ilorin East, and Ifelodun). Bioassays using WHO tube tests revealed resistance to permethrin, deltamethrin, and alphacypermethrin across all sites. Molecular identification of 250 mosquitoes confirmed the presence of An. coluzzii (31.2%), An. gambiae s.s. (16.8%), and An. arabiensis (13.6%). Genotyping for the L1014F mutation showed a frequency of 41.6%, with 104 individuals being homozygous resistant (RR) and 146 being homozygous susceptible (rr).",
+    "exclusion_reasons": []
+  }
+}

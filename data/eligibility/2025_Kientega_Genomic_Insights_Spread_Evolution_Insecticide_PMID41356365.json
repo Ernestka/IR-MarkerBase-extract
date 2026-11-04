@@ -1,0 +1,77 @@
+{
+  "id": "2025_Kientega_Genomic_Insights_Spread_Evolution_Insecticide_PMID41356365",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. populations, including An. arabiensis, An. coluzzii, and An. gambiae s.s. (Page 3, Background)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on Vgsc mutations L995F, L995S, V402L, I1527T, N1570Y, P1874S, and P1874L (Page 5, 6, 24), as well as Ace-1 G280S and Ace-1 amplification (Page 10, 28), and Cyp6aa1 duplication (Page 11)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele frequencies for Vgsc markers are provided in Figure 2 (Page 24) with numerical values in the heatmap. Ace-1 frequencies are in Figure 6 (Page 28). Sample sizes for each species and site are provided in Figure 1A (Page 23)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from eight villages in Burkina Faso from September to November 2022 (Page 15, Mosquito collection)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting new genomic data and analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for eight specific villages: Bana, Souroukoudinga, Sideradougou, Po-Dongo, Nagaré, Gama, Nassan, and Ouro-Hesso, with coordinates provided (Page 15)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected in 2022 (Page 15)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions that the sequencing was done as part of the MalariaGEN Vector Observatory release 3.11 (Page 15), but this appears to be the primary publication of the 2022 collection data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "While supplementary tables (e.g., Table S1) are mentioned, the necessary allele frequencies and sample sizes are extractable from the figures (Figures 1A, 2, and 6) provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc I1527T",
+      "Vgsc V402L",
+      "Vgsc P1874S",
+      "Vgsc P1874L",
+      "Ace-1 G280S",
+      "Ace-1 DUP",
+      "Cyp6aa1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2022
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 665,
+    "summary": "This study provides a comprehensive genomic analysis of insecticide resistance in Anopheles gambiae s.l. from Burkina Faso. Using whole-genome sequencing of 665 mosquitoes collected in 2022 across eight sites, the authors report the frequencies and geographical distribution of several target-site resistance markers (Vgsc and Ace-1) and metabolic resistance variants (CNVs in Ace-1, Cyp6aa1, and other genes).",
+    "exclusion_reasons": []
+  }
+}
