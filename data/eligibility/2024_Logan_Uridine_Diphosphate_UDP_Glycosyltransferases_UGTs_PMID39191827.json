@@ -1,0 +1,71 @@
+{
+  "id": "2024_Logan_Uridine_Diphosphate_UDP_Glycosyltransferases_UGTs_PMID39191827",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l., Anopheles coluzzii, Anopheles arabiensis, and Anopheles funestus (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study focuses on UGT expression and inhibition. While it mentions kdr (L1014F/S, V402L-I1527T) and Ace-1 (G119S) in the introduction (Pages 1-2), it does not genotype these or any other target markers in the results."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype or allele frequency data for target markers is provided in the paper."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses established laboratory colonies (Kisumu, Tiassalé, Tiefora, Banfora, Gaoua, FuMOZ) rather than field-collected mosquitoes (Page 10)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating the role of UGTs in insecticide resistance."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The colonies are identified by their origin sites: Tiassalé, Tiefora, Banfora, Gaoua (Page 10)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Collection dates for the original field samples used to establish the colonies are not provided, and the experiments use lab-reared generations (Page 10)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses standard laboratory colonies (Kisumu, Tiassalé, Tiefora, Banfora, Gaoua, FuMOZ) which are common in research but the specific experiments are new."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the main text or indicated to be in the supplement; the supplement contains transcriptomic and bioassay data."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Côte d'Ivoire",
+      "Mozambique",
+      "Kenya"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigates the role of Uridine diphosphate-glycosyltransferases (UGTs) in insecticide resistance in African Anopheles vectors. It uses transcriptomic mining, qPCR, RNAi, and synergist bioassays with sulfinpyrazone. However, it does not genotype any of the target resistance markers (like kdr or Ace-1) and relies on laboratory colonies.",
+    "exclusion_reasons": [
+      "Does not report genotyping of target insecticide-resistance markers (e.g., Vgsc, Ace-1, Rdl, GSTe2, etc.).",
+      "The study uses laboratory colonies (Kisumu, Tiassalé, Tiefora, Banfora, Gaoua, FuMOZ) rather than field populations."
+    ]
+  }
+}

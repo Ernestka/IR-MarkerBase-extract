@@ -1,0 +1,23 @@
+study_id: 2015_Abeku_Monitoring_Changes_Malaria_Epidemiology_Effectiven_PMID26337671
+title: 'Monitoring changes in malaria epidemiology and effectiveness of interventions
+  in Ethiopia and Uganda: Beyond Garki Project baseline survey'
+first_author: Tarekegn A. Abeku
+doi: 10.1186/s12936-015-0852-7
+pmid: '26337671'
+publication_year: 2015
+countries:
+- Ethiopia
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: 'Abeku et al. Monitoring changes in malaria epidemiology and effectiveness
+    of interventions in Ethiopia and Uganda: Beyond Garki Project baseline survey.
+    Malar J (2015) 14:337'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-04'
+pmid_source: Europe PMC (from DOI)

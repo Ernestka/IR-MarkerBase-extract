@@ -1,0 +1,67 @@
+{
+  "id": "2026_Nourdine_Establishment_Stable_Anopheles_Melas_Laboratory_PMID42652418",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles melas."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper reports bioassay results and mentions previous studies that identified kdr mutations, but it does not report any new genotype data for insecticide-resistance markers for the mosquitoes in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype counts or frequencies for the mosquitoes tested."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The mosquitoes were collected in Mbine Coly, Senegal."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study on the colonization and bioassay characterization of Anopheles melas."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the location as Mbine Coly, Mbour District, Senegal."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval surveys were conducted on 26 September 2024."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new study describing the establishment of a laboratory colony from field-collected mosquitoes."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data (bioassay results) are presented in the main text tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1314,
+    "summary": "This study reports the successful laboratory colonization of Anopheles melas from Mbine Coly, Senegal. The researchers performed WHO tube bioassays on F2-F9 generations to assess susceptibility to pyrethroids, organophosphates, and carbamates, and conducted synergist tests with PBO. No insecticide-resistance marker genotyping was performed on the study population.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper does not report any new genotype data for insecticide-resistance markers.",
+      "reports_extractable_genotype_data: The paper does not provide any genotype counts or frequencies."
+    ]
+  }
+}

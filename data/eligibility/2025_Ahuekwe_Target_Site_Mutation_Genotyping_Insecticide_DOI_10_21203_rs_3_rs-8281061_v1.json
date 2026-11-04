@@ -1,0 +1,67 @@
+{
+  "id": "2025_Ahuekwe_Target_Site_Mutation_Genotyping_Insecticide_DOI_10_21203_rs_3_rs-8281061_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae complex mosquitoes collected in Ota, Nigeria (page 2, 3, 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (Kdr-W) and Vgsc L995S (Kdr-E) (page 2, 7, 8, 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 6 and 8 provide genotype counts (RR, RS, SS) for Kdr-W and Kdr-E across five breeding sites (page 8, 9)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from five field breeding sites in Ado Odo Ota, Ogun State, Nigeria (page 3, 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collection and genotyping data (page 3, 5)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for five specific breeding sites: Nestle, Chelsea, Canaan City, Atan, and Iju Ota (page 3, 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from January 2025 to July 2025 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study is a new, independent collection of mosquitoes from 2025."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay data are provided in the main text tables (Tables 3, 4, 6, 8)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2025
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 478,
+    "summary": "This study investigated insecticide resistance in Anopheles gambiae complex mosquitoes from five sites in Ota, Nigeria, in 2025. It reports high pyrethroid resistance (permethrin) and susceptibility to carbamates (bendiocarb). Genotyping confirmed the presence of Kdr-W (L1014F) and Kdr-E (L1014S) mutations, with Kdr-W being the predominant resistance marker.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2026_Eukubay_Spatial_Temporal_Signatures_Genomic_Insecticide_PMID41727628",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a major malaria vector in Ethiopia (Abstract, page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports on Vgsc-L995F (page 2, 8), Ace-1 G280S (page 8), and Rdl-A296S (page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides allele frequencies for various markers across multiple sites and seasons (Figure 2, Figure 3, Figure 4, and Table 1 for sample sizes)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from fifteen field sites across Ethiopia (Methods, page 3; Table 1, page 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study using whole-genome sequencing of field-collected samples."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific sampling sites (e.g., Agnuak, Asossa, Arbaminch, Dilla, etc.) and coordinates (Table 1, page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection years 2020-2023 (Table 1, page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses new collections from 2020-2023 as part of the Malaria Vector Genome Observatory."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The provided PDF includes all necessary tables and figures, including the supplementary tables (Table S1-S4) and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S",
+      "Rdl A296S",
+      "Cyp6aa/p CNV",
+      "Cyp9k1 CNV",
+      "Gste2 CNV",
+      "Coeae2-7g CNV",
+      "Cyp6z2 CNV"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2020,
+      2021,
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1272,
+    "summary": "This study performed whole-genome sequencing on 1272 Anopheles arabiensis mosquitoes collected from 15 sites across Ethiopia between 2020 and 2023. It analyzed the spatial and temporal distribution of known insecticide resistance markers (Vgsc-L995F, Ace-1 G280S, Rdl-A296S) and metabolic resistance-associated CNVs (Cyp6aa/p, Cyp9k1, Gste2, Coeae2-7g, Cyp6z2). The study found significant geographic and seasonal variation in these markers and identified novel selection signals using genome-wide scans.",
+    "exclusion_reasons": []
+  }
+}

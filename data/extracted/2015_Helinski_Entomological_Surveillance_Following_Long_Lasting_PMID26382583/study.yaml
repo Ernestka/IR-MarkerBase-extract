@@ -1,0 +1,20 @@
+study_id: 2015_Helinski_Entomological_Surveillance_Following_Long_Lasting_PMID26382583
+title: Entomological surveillance following a long-lasting insecticidal net universal
+  coverage campaign in Midwestern Uganda
+first_author: MEH Helinski
+doi: 10.1186/s13071-015-1060-6
+pmid: '26382583'
+publication_year: 2015
+countries:
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: Helinski et al. Parasites & Vectors (2015) 8:458 DOI 10.1186/s13071-015-1060-6
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-04'
+pmid_source: Europe PMC (from DOI)

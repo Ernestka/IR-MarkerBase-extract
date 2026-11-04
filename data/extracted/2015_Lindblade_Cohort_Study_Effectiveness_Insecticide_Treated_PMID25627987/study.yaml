@@ -1,0 +1,20 @@
+study_id: 2015_Lindblade_Cohort_Study_Effectiveness_Insecticide_Treated_PMID25627987
+title: A cohort study of the effectiveness of insecticide-treated bed nets to prevent
+  malaria in an area of moderate pyrethroid resistance, Malawi
+first_author: Kim A Lindblade
+doi: 10.1186/s12936-015-0554-1
+pmid: '25627987'
+publication_year: 2015
+countries:
+- Malawi
+data_source: journal_article
+provenance:
+  source_text: Lindblade et al. Malaria Journal (2015) 14:31 DOI 10.1186/s12936-015-0554-1
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-11-04'
+pmid_source: Europe PMC (from DOI)

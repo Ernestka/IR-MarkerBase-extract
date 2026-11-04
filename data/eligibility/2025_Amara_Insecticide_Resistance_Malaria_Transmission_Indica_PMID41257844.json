@@ -1,0 +1,70 @@
+{
+  "id": "2025_Amara_Insecticide_Resistance_Malaria_Transmission_Indica_PMID41257844",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated Anopheles gambiae s.l. (An. arabiensis, An. gambiae s.s., and An. coluzzii) collected from Bobo-Dioulasso, Burkina Faso (Page 1, Abstract; Page 4, Molecular processing)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Paper reports genotyping for Vgsc L995F (kdr-West) and L995S (kdr-East) mutations (Page 4, 'Detection of kdr mutation (Kdr-West and Kdr-East)'; Page 8, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 on page 8 provides sample sizes (N) and explicit counts for genotypes (995L 995L, 995L 995F, 995F 995F for kdr-West; 995L 995L, 995L 995S, 995S 995S for kdr-East) as well as allele frequencies for An. arabiensis and An. gambiae s.s. across six sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from natural breeding sites in six neighborhoods of Bobo-Dioulasso, Burkina Faso in 2025 and reared to adults (F0) for bioassays and molecular characterization (Page 3, 'Collection and rearing mosquito larvae')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper reporting original field collections, WHO bioassays, molecular species identification, kdr genotyping, and sporozoite infection testing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections took place in six distinct neighborhoods in Bobo-Dioulasso (Kua, Sarfalao, Sabaribougou, Dogona, Farakan, Kodeni) with geographic coordinates given (11°10'37\" N, 4°17'52\" W; Page 2, Study area)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were conducted during the rainy season from May to July 2025, and HLCs were performed between July and September 2024 (Page 3, 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary field study reporting original mosquito collections in Bobo-Dioulasso."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, sample sizes, species breakdowns, and bioassay mortality rates are provided in full within the main paper text and tables (Tables 1-3, Figs 2-4)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2024,
+      2025
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 360,
+    "summary": "This study evaluated insecticide susceptibility, kdr target-site mutations (L995F and L995S), species composition, and malaria transmission metrics in Anopheles gambiae s.l. across six neighborhoods of Bobo-Dioulasso, Burkina Faso. PCR genotyping of 360 bioassay-tested mosquitoes revealed high frequencies of Vgsc L995F (0.533-0.745 in An. arabiensis) and presence of L995S (up to 0.421 in An. arabiensis), with complete extractable genotype counts supplied per site in Table 1.",
+    "exclusion_reasons": []
+  }
+}

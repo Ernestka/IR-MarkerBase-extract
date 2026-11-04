@@ -1,0 +1,62 @@
+{
+  "id": "2025_Barik_Impact_Insecticide_Resistance_Controlling_Mosquito_PMID41351153",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1, Background section mentions 'Malaria is transmitted by female Anopheles spp.'"
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions mechanisms like kdr conceptually in the review text, but does not genotype or report data for specific target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No primary genotype counts, allele counts, or frequencies with sample sizes are presented in this review."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "This is a review article and does not present primary field population collection or testing data."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "Page 1 explicitly labels the article as a 'REVIEW'."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable because this is a review paper with no primary field study locations."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable because this is a review paper with no primary sampling dates."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Review paper without primary mosquito sampling data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary datasets are needed or referenced for primary genotype data."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This article is a review summarizing the impact of insecticide resistance on vector control, mosquito behaviour, longevity, and midgut microbiota. Because it is a secondary review paper without primary empirical genotype or bioassay data, it is not eligible.",
+    "exclusion_reasons": [
+      "Not a primary study (it is a review article).",
+      "Does not report extractable genotype data for target resistance markers.",
+      "Does not report primary data from African field mosquito populations."
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2026_Abdulrahman_Temperature_Extremes_Constrain_Climate_Sensitive_DOI_10_21203_rs_3_rs-10993899_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii (page 1, 3, 11)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the 2La chromosomal inversion (page 15, 26) and the Vgsc L1014F (kdr-west) mutation (page 16, 29)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 27) provides genotype counts for 2La inversion (39/7/4 for alive, 15/9/26 for dead). Table 2 (page 30) provides genotype counts for 1014F kdr (10/34/6 for alive, 24/8/17 for dead)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from rice paddies in Auyo town, Jigawa state, Nigeria (page 11)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study investigating thermal tolerance and its genetic correlates in field-derived mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies Auyo town, Jigawa state, Nigeria (page 11)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection occurred in June, July, and August 2025 (page 11)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and experiments conducted in 2025."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype counts are provided in the main text tables (Table 1 and Table 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "2La inversion"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2025
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": true,
+    "sample_size": 100,
+    "summary": "This study investigated the thermal tolerance of field-derived Anopheles coluzzii from Nigeria. It measured survival and development across temperature gradients and genotyped larvae and pupae to assess associations between heat tolerance and the 2La chromosomal inversion and the 1014F kdr mutation.",
+    "exclusion_reasons": []
+  }
+}

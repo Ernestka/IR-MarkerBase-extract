@@ -1,0 +1,88 @@
+{
+  "id": "2025_Ahuekwe_Performance_Assessment_Bayesian_Meta_Analytic_PMID41214799",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper is a systematic review of Anopheles mosquito populations."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on L1014F and L1014S mutations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "This is a meta-analysis paper that aggregates data from other studies. It does not report primary genotype counts for new field populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review/meta-analysis, not a primary empirical study of field-collected mosquitoes."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a systematic review and meta-analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper lists locations for the included studies in Table 3."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper specifies the search period as 2015-2025."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it is a meta-analysis of previously published studies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a meta-analysis and does not contain primary data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Sierra Leone",
+      "Senegal",
+      "Niger",
+      "Burkina Faso",
+      "Kenya",
+      "Sudan",
+      "Uganda"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This paper is a systematic review and Bayesian meta-analysis of existing studies on L1014F and L1014S kdr mutations in African Anopheles mosquitoes. As it is a secondary study (meta-analysis) and not a primary empirical study, it is ineligible for the database.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (it is a meta-analysis)",
+      "Does not report primary genotype counts for new field populations"
+    ]
+  }
+}

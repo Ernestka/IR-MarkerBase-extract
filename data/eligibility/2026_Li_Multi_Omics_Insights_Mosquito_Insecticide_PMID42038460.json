@@ -1,0 +1,63 @@
+{
+  "id": "2026_Li_Multi_Omics_Insights_Mosquito_Insecticide_PMID42038460",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-04",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper discusses Anopheles malaria vectors throughout, e.g., page 2, 'breadth of the problem in Anopheles vectors'."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "This is a review paper and does not report original genotyping data for any of the specified markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review and does not contain original genotype counts or frequencies for any population."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review and does not report on any specific field-collected mosquito populations."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a review article, as stated in the abstract and the data availability section on page 35."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as it is a review paper."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as it is a review paper."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "This is a review paper."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a review article titled 'Multi-omics insights into mosquito insecticide resistance for integrated vector management'. It does not report original empirical data or genotype frequencies for any mosquito populations.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "reports_target_markers",
+      "african_field_population"
+    ]
+  }
+}
