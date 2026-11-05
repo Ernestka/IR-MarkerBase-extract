@@ -1,0 +1,81 @@
+{
+  "id": "2026_Gemechu_Genomic_Connectivity_Adaptive_Gene_Flow_PMID42856709",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on Anopheles gambiae s.s. (page 4, line 41)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on Vgsc-L995F, Vgsc-L995S, Cyp6aa/p gene cluster CNVs, Cyp9k1 CNVs, and Gste2 (page 4, lines 48-54; page 15, lines 281-295; page 16, lines 304-316; page 17, lines 329-337; page 17, lines 348-351)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides diplotype clustering figures (Figures 5, 6, 7, 9) and discusses allele sharing and CNV frequencies across populations, with sample sizes provided in Table S1 (page 34)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses 913 field-collected Anopheles gambiae s.s. mosquitoes from Ethiopia, Kenya, Uganda, Tanzania, and the DRC (page 6, lines 133-136; page 7, lines 137-141; Table S1, page 34)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study analyzing whole-genome sequence data of field-collected mosquitoes (page 6, lines 125-129)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data at the regional/district level, e.g., Benishangul-Gumuz and Gambella in Ethiopia, and various regions in Kenya, Uganda, Tanzania, and the DRC (Table S1, page 34)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study provides specific collection years and months for all cohorts in Table S1 (page 34)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states it uses data from the Ag1000G project and new collections from 2023 (page 6, lines 133-136; page 7, lines 137-142). While it uses public data, it is a primary analysis of these combined datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including sample sizes and locations, are provided in the main text and supplementary tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Cyp6aa1 DUP",
+      "Cyp9k1 G454A",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Ethiopia",
+      "Kenya",
+      "Uganda",
+      "Tanzania",
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2000,
+      2006,
+      2012,
+      2013,
+      2015,
+      2019,
+      2020,
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 913,
+    "summary": "This study analyzes the genomic connectivity and adaptive gene flow of Anopheles gambiae s.s. across East and Central Africa using whole-genome sequencing data from 913 field-collected mosquitoes. It investigates insecticide resistance markers (Vgsc, Cyp6aa/p, Cyp9k1, Gste2) and finds that while metabolic resistance markers mirror genome-wide connectivity, target-site mutations like Vgsc-L995F show restricted geographical patterns, highlighting Ethiopia as a potential 'melting pot' for resistance alleles.",
+    "exclusion_reasons": []
+  }
+}

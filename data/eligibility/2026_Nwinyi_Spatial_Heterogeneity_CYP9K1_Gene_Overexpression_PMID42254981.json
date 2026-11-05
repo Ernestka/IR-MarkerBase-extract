@@ -1,0 +1,63 @@
+{
+  "id": "2026_Nwinyi_Spatial_Heterogeneity_CYP9K1_Gene_Overexpression_PMID42254981",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper is a systematic review and meta-analysis of insecticide resistance in Anopheles mosquitoes."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper is a meta-analysis of gene expression (transcriptomics/qPCR) data, not a primary study reporting genotype data for the specified insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts or frequencies for resistance markers; it reports log2 fold change values for gene expression."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "This is a meta-analysis, not a primary study of field-collected mosquitoes."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a systematic review and meta-analysis."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as the paper is a meta-analysis."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as the paper is a meta-analysis."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a meta-analysis of previously published studies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a meta-analysis and does not contain primary genotype data."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a systematic review and meta-analysis of CYP9K1 gene overexpression in Anopheles mosquitoes across sub-Saharan Africa. It does not report primary genotype data for insecticide-resistance markers.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_target_markers",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

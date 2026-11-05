@@ -1,0 +1,62 @@
+{
+  "id": "2025_Orogun_Impact_Omics_Studies_Understanding_Insecticide_PMID42211667",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper is a systematic review of omics studies on Anopheles malaria vectors."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "This is a review article, not a primary empirical study reporting new genotype data."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a systematic review and does not report primary genotype counts or frequencies for specific field populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper is a review article and does not contain primary field-collected mosquito data."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is explicitly titled 'Impact of Omics Studies on Understanding Insecticide Resistance Mechanisms in Sub-Saharan Malaria Vectors: A Systematic Review'."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "As a review article, it does not report primary data tied to specific sub-country locations."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "As a review article, it does not report primary data with a specific collection window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a review article."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Not applicable as it is a review."
+    },
+    "markers_found": [],
+    "species": [],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a systematic review of omics studies on insecticide resistance in African malaria vectors. It is not a primary empirical study and does not report original genotype data.",
+    "exclusion_reasons": [
+      "is_primary_study",
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

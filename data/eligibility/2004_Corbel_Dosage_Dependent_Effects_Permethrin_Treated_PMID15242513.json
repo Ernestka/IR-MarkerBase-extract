@@ -1,0 +1,66 @@
+{
+  "id": "2004_Corbel_Dosage_Dependent_Effects_Permethrin_Treated_PMID15242513",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the kdr mutation (Vgsc L995F) (page 2, Materials and Methods; page 5, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 5) provides genotype frequencies (RR, RS, SS) and total sample sizes (N) for Anopheles gambiae populations in experimental huts."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in experimental huts in Cotonou, Benin (page 2, Materials and Methods; page 5, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original experimental hut and tunnel test data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted at the Centre de Recherches Entomologiques de Cotonou (CREC), Cotonou, Benin (page 2, Materials and Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted over a 2-month period (June to July) in 2004 (page 3, Materials and Methods; page 1, Published date)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific experimental hut trial conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and frequencies, are provided in the tables within the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2004
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 569,
+    "summary": "This study evaluated the impact of different permethrin concentrations on the selection of kdr (Vgsc L995F) in Anopheles gambiae using experimental huts in Cotonou, Benin. Genotype frequencies were reported for mosquitoes entering huts, exiting huts, and in relation to blood-feeding and mortality.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2026_Gemechu_Genomic_Analysis_Reveals_Emergence_Molecular_DOI_10_21203_rs_3_rs-8867942_v1",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 3, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports Vgsc L995F, Vgsc L995S, and Gste2 CNVs (page 2, 4, 14, 15)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figures 3 and 4 provide allele/CNV frequencies for specific cohorts (page 14, 15)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in western Ethiopia (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study presenting original whole-genome sequencing data (page 3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for Gambella and Benishangul-Gumuz regions (page 3, 12)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were performed in 2023 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new study presenting original data from 2023 collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main figures provide the necessary frequency data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "GSTe2 CNV"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses whole-genome sequencing to characterize Anopheles gambiae s.s. populations in western Ethiopia, reporting frequencies of insecticide resistance markers including Vgsc-L995F/S and Gste2 CNVs.",
+    "exclusion_reasons": []
+  }
+}

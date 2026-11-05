@@ -1,0 +1,69 @@
+{
+  "id": "2005_Lynd_Simplified_High_Throughput_Method_Pyrethroid_PMID15766386",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on Anopheles gambiae (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-west) and Vgsc L995S (kdr-east) (page 2, Background; Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides individual genotype results (SS, RR, RS) for 12 wild-caught specimens."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Specimens were collected from Asembo, Kenya (field-caught) and Odumasi, Ghana (field-caught) (page 2, Methods; page 4, Table 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study developing and testing a new genotyping method on field and laboratory specimens."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper specifies Asembo, Kenya and Odumasi, Ghana (page 2, Methods; page 4, Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection dates are specified as May 2004 for Kenya and June 2003 for Ghana (page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new methodology and uses specific samples for validation; there is no indication these samples were previously published as a dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is contained within the provided PDF."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya",
+      "Ghana"
+    ],
+    "collection_years": [
+      2003,
+      2004
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 12,
+    "summary": "This paper presents a new Hot Ligation Oligonucleotide Assay (HOLA) for detecting kdr mutations (L995F and L995S) in Anopheles gambiae. It validates the method using field-collected samples from Kenya and Ghana, comparing results against conventional multiplex PCR.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2026_Agbevo_Multi_Country_Non_Inferiority_Experimental_PMID42443912",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of insecticide-treated nets against Anopheles gambiae s.l. and Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the presence of kdr (L1014F) and Ace-1 mutations in the study populations (page 3), but it does not report any new genotype data (counts or frequencies) for these markers in the current study. It only cites previous studies (references 16, 17, 18) for the resistance status."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not provide any genotype counts or frequencies for the mosquitoes used in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Benin, Cameroon, and Côte d’Ivoire using wild-caught mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study locations are specified as Covè (Benin), Mibellon (Cameroon), and M’bé (Côte d’Ivoire)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between September 2018 and March 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new experimental hut trial study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not report any genotype data, so no supplementary genotype data is missing."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin",
+      "Cameroon",
+      "Côte d’Ivoire"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the entomological efficacy of DuraNet Plus (alpha-cypermethrin + PBO) compared to Olyset Plus and DuraNet in experimental hut trials in Benin, Cameroon, and Côte d’Ivoire. While it mentions the presence of resistance markers (kdr, Ace-1) in the study populations, it does not generate or report any new genotype data for these markers.",
+    "exclusion_reasons": [
+      "reports_target_markers",
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

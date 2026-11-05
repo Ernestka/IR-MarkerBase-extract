@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**994 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-04
+**1009 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-05
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -42,7 +42,10 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 1756-3305-7-450 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-13 | 2026-10-13 | 0 |  | gemini:gemini-3-flash-preview | 9252 | 3201 |  |  |  |  | 0.0000 |
 | 1998_Brogdon_Insecticide_Resistance_Vector_Control_PMID9866736 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.7-flash | 6372 | 943 |  |  |  |  | 0.0000 |
 | 2001_Reiter_Climate_Change_Mosquito_Borne_Disease_PMID11250812 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.5-flash | 12612 | 1346 |  |  |  |  | 0.0000 |
+| 2004_Corbel_Dosage_Dependent_Effects_Permethrin_Treated_PMID15242513 | master | ELIGIBLE | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.1-flash-lite | 6372 | 690 |  |  |  |  | 0.0000 |
 | 2004_Etang_Reduced_Bio_Efficacy_Permethrin_EC_PMID15569394 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3-flash-preview | 5332 | 2748 |  |  |  |  | 0.0000 |
+| 2005_Asidi_Experimental_Hut_Evaluation_Bednets_Treated_PMID15918909 | master | ELIGIBLE | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.1-flash-lite | 6372 | 743 |  |  |  |  | 0.0000 |
+| 2005_Lynd_Simplified_High_Throughput_Method_Pyrethroid_PMID15766386 | master | ELIGIBLE | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.1-flash-lite | 4292 | 705 |  |  |  |  | 0.0000 |
 | 2006_Adams_Abstracts_Fifth_International_Symposium_Molecular_PMC2990333 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.5-flash | 40692 | 2008 |  |  |  |  | 0.0000 |
 | 2006_Akogbeto_Screening_Pesticide_Residues_Soil_Water_PMID16563153 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.5-flash | 6372 | 3116 | gemini:gemini-3.5-flash | 19581 | 20500 | 2 survey(s), 2 genotype, 6 bioassay, 0 geno-pheno rows; 2 warning(s) | 0.0000 |
 | 2006_Anyanwu_Health_Effects_Long_Term_Exposure_PMID17173181 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.7-flash | 7412 | 928 |  |  |  |  | 0.0000 |
@@ -83,10 +86,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2010_Akogbeto_Bendiocarb_Potential_Alternative_Against_Pyrethroi_PMID20630056 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-19 | 2026-10-19 | 0 |  | gemini:gemini-3-flash-preview | 6552 | 3701 |  |  |  |  | 0.0000 |
 | 2010_Balkew_Insecticide_Resistance_Anopheles_Arabiensis_Dipter_PMID20416109 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-19 | 2026-10-19 | 0 |  | gemini:gemini-3.1-flash-lite | 4932 | 796 | gemini:gemini-3.8-flash | 6588 | 19585 | 3 survey(s), 0 genotype, 9 bioassay, 10 geno-pheno rows | 0.0000 |
 | 2010_Bass_Vector_Population_Monitoring_Tool_VPMT_PMID22347668 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.8-flash | 6012 | 1762 |  |  |  |  | 0.0000 |
-| 2010_Brooke_Larval_Time_Hatch_Insecticide_Resistance_PMC2963243 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 2772 | 1196 |  |  |  |  | 0.0000 |
-| 2010_Brooke_Major_Effect_Genes_Or_Loose_PMID20716346 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.5-flash | 6012 | 1506 |  |  |  |  | 0.0000 |
-| 2010_Chandre_Field_Efficacy_Pyrethroid_Treated_Plastic_PMID20682050 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.8-flash | 4932 | 1861 | gemini:gemini-3.8-flash | 19309 | 45496 | 2 survey(s), 0 genotype, 0 bioassay, 19 geno-pheno rows; 19 warning(s) | 0.0000 |
-| … 934 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| … 949 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

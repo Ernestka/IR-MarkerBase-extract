@@ -1,0 +1,65 @@
+{
+  "id": "2026_Chen_Synergistic_Action_Different_Molecular_Mechanisms_PMID42475583",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the malaria vector Anopheles gambiae."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the VGSC L995F (kdr) mutation."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a functional genetics study using transgenic laboratory strains. It does not report genotype counts or frequencies from field-collected mosquito populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses transgenic laboratory strains (e.g., A11, G3) and does not analyze field-collected mosquito populations."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving transgenic mosquito experiments."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Not applicable as no field populations were studied."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "Not applicable as no field populations were studied."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a laboratory-based functional genetics study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper provides all necessary data for its functional experiments."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study uses transgenic Anopheles gambiae strains to functionally validate the synergistic effects of metabolic resistance (overexpression of P450s, GSTs, and transporters) and target-site resistance (kdr L995F) on insecticide resistance levels. It does not analyze field-collected mosquito populations.",
+    "exclusion_reasons": [
+      "No field-collected mosquito populations were analyzed; the study uses transgenic laboratory strains.",
+      "No extractable genotype data from field populations is reported."
+    ]
+  }
+}

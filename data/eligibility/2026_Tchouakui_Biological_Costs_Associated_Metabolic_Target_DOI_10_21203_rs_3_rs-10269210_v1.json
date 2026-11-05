@@ -1,0 +1,68 @@
+{
+  "id": "2026_Tchouakui_Biological_Costs_Associated_Metabolic_Target_DOI_10_21203_rs_3_rs-10269210_v1",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae field populations from Cameroon (Page 1, Page 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the L995F-kdr target-site mutation (Page 1, Page 2, Page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies and sample sizes for L995F are provided in Figure 1B (fecundity), Figure 2C-D (larval/pupal stages), Figure 3C (longevity), and Figure 4C (multi-generational dynamics)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Mangoum, a village in the West Region of Cameroon, in October 2024 (Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing empirical experiments on fitness costs (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Mangoum village, West Region, Cameroon (5°29'09.2\", 10°35'20.8\") (Page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in October 2024, and experiments were conducted through 2025-2026 (Page 4, Page 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses a specific collection from 2024 for fitness cost experiments; while the site has been studied previously (e.g., Tepa et al., 2022), this appears to be a distinct primary dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype frequencies and sample sizes are contained within the main figures of the paper."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2024,
+      2025,
+      2026
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 754,
+    "summary": "This study evaluates the biological costs of metabolic (E205D-CYP6P3) and target-site (L995F-kdr) insecticide resistance in Anopheles gambiae from Mangoum, Cameroon. The authors measured various life-history traits, including fecundity, larval development, and adult longevity, and tracked genotype frequencies across these stages. They also monitored the restoration of insecticide susceptibility and the decline of resistance markers over 14 generations in a hybrid colony under relaxed selection pressure.",
+    "exclusion_reasons": []
+  }
+}
