@@ -1,0 +1,68 @@
+{
+  "id": "2006_Chouaibou_Efficacy_Bifenthrin_Impregnated_Bednets_Against_PMID16961938",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus (Page 1, Title)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr and metabolic resistance in the background and discussion but does not report genotyping results for any of the target markers (e.g., Vgsc, Ace-1) for the mosquitoes collected in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies for target resistance markers are provided. The study only reports species identification and bioassay results (Table 1)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Pitoa, North Cameroon (Page 2, 'Study area and mosquito populations')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating bednet efficacy in experimental huts (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Pitoa, North Cameroon (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from July to October 2004 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine experimental hut trial in a known study site (Pitoa)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not indicate that genotype data for target markers is available in supplementary files."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2004
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 660,
+    "summary": "This study evaluates the efficacy of bifenthrin-impregnated bednets against Anopheles funestus and pyrethroid-resistant Anopheles gambiae in Pitoa, North Cameroon. While the study identifies species within the An. gambiae complex (An. arabiensis and An. gambiae s.s. S-form) and references metabolic resistance, it does not report genotype data for any of the target insecticide resistance markers such as Vgsc or Ace-1.",
+    "exclusion_reasons": [
+      "Does not report genotype data for target insecticide resistance markers (e.g., Vgsc, Ace-1)."
+    ]
+  }
+}

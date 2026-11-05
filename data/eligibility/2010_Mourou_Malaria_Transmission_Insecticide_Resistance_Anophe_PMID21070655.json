@@ -1,0 +1,70 @@
+{
+  "id": "2010_Mourou_Malaria_Transmission_Insecticide_Resistance_Anophe_PMID21070655",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae s.s. and An. melas) in Gabon."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotypes for Vgsc L995F/S (kdr-w/kdr-e) and Ace-1 G280S (ace1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts for kdr (S/S, S/Rw, S/Re, Rw/Rw, Re/Re, Rw/Re) and AChE (S/S, S/R, RR) for An. gambiae s.s. in Libreville and Port-Gentil."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Libreville and Port-Gentil, Gabon."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original entomological study conducted by the authors."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations as 'camp de Gaulle' in Libreville and 'camp N’tchorere' in Port-Gentil, including coordinates."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from December 2006 to April 2007."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new, specific entomological survey conducted by the authors in 2006-2007."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts, are provided in Table 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Gabon"
+    ],
+    "collection_years": [
+      2006,
+      2007
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "This study reports on malaria transmission and insecticide resistance markers (kdr and ace1) in Anopheles gambiae s.s. and Anopheles melas collected from two French military camps in Libreville and Port-Gentil, Gabon, between 2006 and 2007.",
+    "exclusion_reasons": []
+  }
+}

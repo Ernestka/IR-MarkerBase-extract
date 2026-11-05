@@ -1,0 +1,69 @@
+{
+  "id": "2010_Weetman_Association_Mapping_Insecticide_Resistance_Wild_PMID20976111",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the 'African malaria vector Anopheles gambiae' (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the 'known insecticide target site mutation kdr L1014F' (Page 1, Abstract) and also mentions 'kdr L1014S' (Page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 8) provides minor allele frequencies (MAF) for the L1014F mutation in three populations: Cameroon M, Cameroon S, and Ghana S. Sample sizes for these populations are provided in Table 1 (Page 6) and Figure 2 (Page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Cameroon (Yaoundé) and Ghana (Dodowa) in 2006 (Page 10, Materials and Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing the first large-scale association mapping of insecticide resistance in wild Anopheles populations (Page 6, Discussion)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites are named: 'Yaoundé (03° 52' 00'' N 11° 31' 00'' E)' in Cameroon and 'Dodowa, Greater Accra (05° 53' 00'' N 00° 00' 00'' W)' in Ghana (Page 10)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 2006: 'July-August 2006' in Cameroon and 'October-November 2006' in Ghana (Page 10)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The paper states that 'Classification of permethrin resistance phenotypes is described in detail elsewhere [11]', referring to Müller et al. (2008), indicating that the mosquito samples and phenotypes overlap with that previous study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "While supplementary tables (e.g., Table S3) contain more extensive association results, the primary target marker data (L1014F) is extractable from the main text and Table 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon",
+      "Ghana"
+    ],
+    "collection_years": [
+      2006
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1500,
+    "summary": "This study uses a 1536-SNP array to perform association mapping for permethrin resistance in wild Anopheles gambiae s.l. populations from Cameroon and Ghana. It identifies the Vgsc L1014F (L995F) mutation as a major resistance variant and provides allele frequencies and association statistics for this marker across different molecular forms (M and S, now An. coluzzii and An. gambiae s.s.).",
+    "exclusion_reasons": []
+  }
+}

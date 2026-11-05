@@ -1,0 +1,67 @@
+{
+  "id": "2010_Cuamba_High_Level_Pyrethroid_Resistance_Anopheles_PMID20544036",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus (e.g., page 1, Abstract: 'In this study we carried out a large-scale field collection and rearing of An. funestus from Mozambique')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports sequencing of the acetylcholinesterase (AChE) gene to detect the G119S mutation (page 2, 'spanning the G119S and F455W mutations'). G119S is equivalent to G280S in the schema."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The study provides genotype results for the G119S mutation in 15 mosquitoes from Mozambique and 5 from Cameroon (page 3, 'We sequenced a 1290 bp fragment of the AChE gene in twenty mosquitoes, fifteen from Mozambique (8 bendiocarb resistant and 7 susceptible) and five from Cameroon... The G119S mutation... was not observed in these samples'). This indicates all 20 were wild-type (SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from the field in Mozambique (page 2, 'Blood fed An. funestus adult females resting indoor were collected in houses... in Tihuquine (Chokwe District)... in southern Mozambique')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections, bioassays, and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the village of Tihuquine in the Chokwe District of Mozambique, including coordinates (24°33'37\"S, 33°19'20\"E) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in February 2009 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The Mozambique collection is described as a specific new field collection for this study ('carried out over two week period in February 2009')."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype data (absence of G119S in the sequenced samples) is reported in the main text."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Mozambique",
+      "Cameroon"
+    ],
+    "collection_years": [
+      2009
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 20,
+    "summary": "The study investigates insecticide resistance in a field population of Anopheles funestus from Tihuquine, Mozambique, collected in 2009. WHO susceptibility assays revealed high pyrethroid resistance and moderate carbamate resistance, but full susceptibility to DDT and malathion. Sequencing of the Ace-1 (AChE) gene in 15 mosquitoes from Mozambique (8 bendiocarb-resistant survivors and 7 susceptibles) and 5 from Cameroon found no G119S (G280S) mutations. Metabolic resistance, specifically the over-expression of P450 genes (CYP6P9a/b), was identified as the primary resistance mechanism.",
+    "exclusion_reasons": []
+  }
+}

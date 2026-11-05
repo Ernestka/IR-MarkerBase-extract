@@ -1,0 +1,71 @@
+{
+  "id": "2009_Nwane_Trends_DDT_Pyrethroid_Resistance_Anopheles_PMID19793389",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. populations (Page 1, Title)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on Vgsc L1014F (kdr-west) and L1014S (kdr-east) mutations (Page 2, Background; Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 (Page 8) provides allele frequencies and sample sizes (N) for multiple sites and years. Table 4 (Page 8) provides detailed genotype counts (RR/RS/SS) for survivors and dead mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from four sites in Southern Cameroon: Ipono, Bonanloka, Nkolondom, and Mangoum (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original longitudinal data (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for four specific localities: Ipono, Bonanloka, Nkolondom, and Mangoum, with coordinates provided (Page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in specific years: 2001, 2003, 2005, and 2007 (Page 3, Mosquito collections)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors mention previous cross-sectional surveys in the same sites (e.g., Etang et al. 2003, 2007; Reimer et al. 2008), but this paper presents a longitudinal analysis including new data points (Page 2, Background)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype and bioassay data are contained within the main text and tables (Tables 2, 3, and 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2001,
+      2003,
+      2005,
+      2007
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 601,
+    "summary": "This study investigates the trends in insecticide resistance and the frequency of Vgsc L1014F and L1014S mutations in Anopheles gambiae s.s. (M and S molecular forms) in southern Cameroon. Collections were conducted between 2001 and 2007 across four sites representing urban and agro-industrial settings. The paper provides longitudinal genotype frequency data and correlates kdr genotypes with phenotypes (survivors vs. dead) from WHO susceptibility tests.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "2010_Tungu_Evaluation_PermaNet_3_0_Deltamethrin_PMID20085631",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates the efficacy of mosquito nets against Anopheles gambiae and Anopheles funestus (Page 4)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions kdr as a resistance mechanism in Culex quinquefasciatus and generally in Anopheles (Page 2, 4), but it does not perform genotyping of the Anopheles mosquitoes collected in the study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or molecular data for resistance markers are reported for Anopheles. Resistance status was determined by WHO bioassays (Page 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Zeneti village, Muheza district, NE Tanzania (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting an experimental hut trial (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Zeneti village, Muheza district, NE Tanzania (5°13’S and 38°39’E) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial took place between 7 July and 4 October 2008 (Page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This is a standard experimental hut trial conducted by the Pan-African Malaria Vector Research Consortium (PAMVERC) in Tanzania."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not mention any supplementary files containing genotype data; the study focus is on bioassays."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "The study evaluates the efficacy of PermaNet 3.0 (deltamethrin-PBO) against Anopheles gambiae and Culex quinquefasciatus in experimental huts in NE Tanzania. While it provides detailed bioassay results (mortality, blood-feeding inhibition, and deterrence), it does not report any molecular genotyping data for insecticide resistance markers in Anopheles.",
+    "exclusion_reasons": [
+      "Does not report genotype data for target markers (Vgsc, Ace-1, Rdl, etc.) in Anopheles mosquitoes. The study characterizes resistance using WHO bioassays and experimental hut trials, but does not perform molecular genotyping of the field populations."
+    ]
+  }
+}

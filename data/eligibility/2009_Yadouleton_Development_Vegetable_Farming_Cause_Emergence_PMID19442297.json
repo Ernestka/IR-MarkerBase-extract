@@ -1,0 +1,70 @@
+{
+  "id": "2009_Yadouleton_Development_Vegetable_Farming_Cause_Emergence_PMID19442297",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "\"populations of Anopheles gambiae in urban areas of Benin\" (Page 1, Title)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "\"The kdr west mutation recorded in samples from the three sites\" (Page 1, Abstract) and \"kdr mutations (Leu-phe)\" (Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "\"Table 5: PCR characterization of kdr gene in An. gambiae collected from the three study sites\" (Page 7) provides RR, RS, SS counts for survivors and dead mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "\"The study was conducted in the Republic of Benin... in three vegetable farms: Houeyiho in Cotonou... Acron in Porto-Novo... and Azèrèkè near Parakou\" (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "\"This study aims to assess the rapid expansion of urban agriculture especially, its contribution to the emergence of insecticide resistance in populations of Anopheles gambiae.\" (Page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "\"Houeyiho in Cotonou (6° 45'N and 2°31'E), Acron in Porto-Novo (6° 30'N and 2°47'E), and Azèrèkè near Parakou (9° 22'N and 2°40'E)\" (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "\"from July 2005 to February 2007\" (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine collection by local researchers (CREC) with no mention of larger surveillance networks or previously published genotype datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required data, including site coordinates, bioassay results, and genotype counts (RR/RS/SS), are contained within the main text and Tables 1-5."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles melas",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2005,
+      2006,
+      2007
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 900,
+    "summary": "This study investigates the link between urban vegetable farming and insecticide resistance in Anopheles gambiae s.l. populations in Benin. Field-collected larvae from Cotonou, Porto-Novo, and Parakou (2005-2007) were reared and tested for susceptibility to permethrin, deltamethrin, and DDT. The study provides genotype counts for the Vgsc L995F (kdr-west) mutation, stratified by bioassay outcome (survivors vs. dead), showing high resistance allele frequencies associated with agricultural pesticide use.",
+    "exclusion_reasons": []
+  }
+}

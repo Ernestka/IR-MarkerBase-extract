@@ -1,0 +1,69 @@
+{
+  "id": "2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (M molecular form) as stated in the title and throughout the text (e.g., page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the target site mutations West kdr (Vgsc L995F) and East kdr (Vgsc L995S) in Table 1 (page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 3) provides the frequency of West kdr and East kdr alleles along with the sample size (N=30) for each of the four collection sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae or pupae from field sites in Southern Benin (Akron, Gbedjromede) and Nigeria (Orogun, Ojoo) between December 2006 and January 2007 (page 6, 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing original field collections, bioassays, genotyping, and microarray analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific collection sites are named (Orogun, Ojoo, Akron, Gbedjromede) and their coordinates are provided in Figure 2 (page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during a single dry season from December 2006 to January 2007 (page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the authors have published on these sites before (e.g., Djouaka 2007, Akogbeto 2006), this paper presents a new dataset focusing on gene expression and kdr genotyping from a specific 2006-2007 collection."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency and bioassay data are contained within the main text and tables (specifically Table 1)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin",
+      "Nigeria"
+    ],
+    "collection_years": [
+      2006,
+      2007
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 120,
+    "summary": "The study investigated permethrin resistance mechanisms in Anopheles gambiae (M form) from four sites in Benin and Nigeria. It reports the frequency of the Vgsc L995F (kdr-west) mutation, which was high in Akron (0.86) and Gbedjromede (0.83) but absent in Orogun and Ojoo. The study also used microarrays to identify upregulated metabolic genes, specifically CYP6P3 and CYP6M2, across the resistant populations.",
+    "exclusion_reasons": []
+  }
+}

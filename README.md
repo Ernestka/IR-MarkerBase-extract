@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**1024 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-05
+**1039 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-05
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -49,7 +49,9 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2006_Adams_Abstracts_Fifth_International_Symposium_Molecular_PMC2990333 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.5-flash | 40692 | 2008 |  |  |  |  | 0.0000 |
 | 2006_Akogbeto_Screening_Pesticide_Residues_Soil_Water_PMID16563153 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.5-flash | 6372 | 3116 | gemini:gemini-3.5-flash | 19581 | 20500 | 2 survey(s), 2 genotype, 6 bioassay, 0 geno-pheno rows; 2 warning(s) | 0.0000 |
 | 2006_Anyanwu_Health_Effects_Long_Term_Exposure_PMID17173181 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.7-flash | 7412 | 928 |  |  |  |  | 0.0000 |
+| 2006_Chouaibou_Efficacy_Bifenthrin_Impregnated_Bednets_Against_PMID16961938 | master | INELIGIBLE | False | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 4812 | 4111 |  |  |  |  | 0.0000 |
 | 2006_Cuamba_Malaria_Vectors_Angola_Distribution_Species_PMID16420701 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.5-flash | 4812 | 2565 |  |  |  |  | 0.0000 |
+| 2006_Dabire_Personal_Protection_Long_Lasting_Insecticide_PMID16472385 | master | INELIGIBLE | False | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.5-flash | 5852 | 3117 |  |  |  |  | 0.0000 |
 | 2006_Kamau_Status_Insecticide_Susceptibility_Anopheles_Arabie_PMID16756645 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-19 | 2026-10-19 | 0 |  | gemini:gemini-3.1-flash-lite | 4812 | 682 |  |  |  |  | 0.0000 |
 | 2006_Kulkarni_Occurrence_Leucine_Phenylalanine_Knockdown_Resista_PMID16820067 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.8-flash | 5332 | 1794 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
 | 2006_Mazzoni_Molecular_Polymorphism_Differentiation_Introgressi_PMID17069656 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.5-flash | 7412 | 1339 |  |  |  |  | 0.0000 |
@@ -72,6 +74,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2008_Casimiro_Monitoring_Operational_Impact_Insecticide_Usage_PMC2248594 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3.5-flash | 2732 | 1603 |  |  |  |  | 0.0000 |
 | 2008_Czeher_Evidence_Increasing_Leu_Phe_Knockdown_PMID18817574 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.1-flash-lite | 7932 | 801 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
 | 2008_Dabire_Dynamics_Multiple_Insecticide_Resistance_Malaria_PMID18817564 | master | INELIGIBLE |  |  |  |  | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 6372 | 7985 |  |  |  | model returned no structured result — re-run or check by hand | 0.0000 |
+| 2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 6892 | 3722 |  |  |  |  | 0.0000 |
 | 2008_Esnault_High_Genetic_Differentiation_M_Molecular_PMID18414665 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 5332 | 1457 |  |  |  |  | 0.0000 |
 | 2008_Greenwood_Malaria_Progress_Perils_Prospects_Eradication_PMID18382739 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 7632 | 858 |  |  |  |  | 0.0000 |
 | 2008_Irish_Loss_Protection_Insecticide_Treated_Nets_PMID18564409 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.8-flash | 4292 | 1200 |  |  |  |  | 0.0000 |
@@ -83,10 +86,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2008_Pages_Malaria_Transmission_Dakar_Two_Year_PMID18796138 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 7412 | 2970 |  |  |  |  | 0.0000 |
 | 2008_Pennetier_Mixture_Controlling_Insecticide_Resistant_Malaria_PMID18976553 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 3144 |  |  |  |  | 0.0000 |
 | 2008_Ridl_Pre_Intervention_Study_Malaria_Vector_PMID18823554 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.7-flash | 5852 | 2082 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
-| 2008_Santolamazza_Distribution_Knock_Down_Resistance_Mutations_PMID18445265 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 5472 |  |  |  |  | 0.0000 |
-| 2008_Sogoba_Spatial_Distribution_Chromosomal_Forms_Anopheles_PMID18847463 | master | INELIGIBLE | False | high | high | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.7-flash | 7932 | 1860 |  |  |  |  | 0.0000 |
-| 2009_Anto_Insecticide_Resistance_Profiles_Malaria_Vectors_PMID19389257 | master | ELIGIBLE | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 4589 |  |  |  |  | 0.0000 |
-| … 964 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| … 979 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 
