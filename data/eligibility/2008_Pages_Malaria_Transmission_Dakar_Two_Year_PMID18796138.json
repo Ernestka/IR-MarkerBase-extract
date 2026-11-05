@@ -1,0 +1,70 @@
+{
+  "id": "2008_Pages_Malaria_Transmission_Dakar_Two_Year_PMID18796138",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "From May 2005 to October 2006, 4,117 and 797 Anopheles gambiae s.l. respectively were caught in Bel-air and Ouakam. (Page 1, Abstract)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Molecular assessments of pyrethroid knock down resistance (Kdr) and of insensitive acetylcholinesterase resistance were conducted. (Page 1, Abstract). All CSP-positive mosquitoes per site and a random sample of 100 PCR-identified mosquitoes were tested for the Kd-wr and Ace1 mutations. (Page 7)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3: Genotypic frequencies for Kdr loci of two samples of An. arabiensis collected in the French military camps of Bel air and Ouakam from May 2005 to May 2006. (Page 7). The table provides RR, RS, and SS counts for both sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in two districts of Dakar: Bel-air in the east of the city and Ouakam in the west (Figure 1). (Page 2)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper is a primary research article reporting on an entomological survey conducted in Dakar, Senegal. (Page 1)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in two districts of Dakar: Bel-air in the east of the city and Ouakam in the west (Figure 1). (Page 2)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "An entomological evaluation of malaria transmission was conducted from May 2005 to October 2006 in two areas of Dakar. (Page 1, Abstract)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine entomological survey conducted at French military bases in Dakar; no mention of larger surveillance networks or shared datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype data for the target markers is provided in Table 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles melas",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2005,
+      2006
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 213,
+    "summary": "This study reports on the transmission of malaria and the frequency of insecticide resistance markers (Vgsc L995F and Ace-1 G280S) in Anopheles gambiae s.l. populations in Dakar, Senegal. Genotyping was performed on An. arabiensis collected from two districts, Bel-air and Ouakam, between 2005 and 2006. Genotype counts for the kdr-w mutation are provided, while the Ace-1 mutation was not detected in the samples tested.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "2007_Bass_Detection_Knockdown_Resistance_Kdr_Mutations_PMID17697325",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s., An. arabiensis, An. quadriannulatus, An. melas, An. merus, and An. funestus (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of Vgsc L1014F (kdr-west / L995F) and Vgsc L1014S (kdr-east / L995S) (Page 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a methodological study comparing seven kdr genotyping methods on a 96-sample reference panel. It does not report population-level genotype counts or frequencies for field populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The 96-sample reference plate contains lab colonies (Kisumu, RSP) and pre-selected individuals from Burkina Faso, Ghana, Kenya, Cameroon, and South Africa, rather than a representative field population sample (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study developing and comparing TaqMan and HRM assays with existing kdr detection methods."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "Main text only provides country names (Burkina Faso, Ghana, Kenya, Cameroon) without specific sub-country collection sites for field specimens."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection dates or sampling years are reported in the text for the field-caught mosquitoes."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Reference samples were compiled from existing laboratory strains and archived field samples."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Additional file 1 contains raw assay validation results for the 96 reference samples, not population field surveillance data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles quadriannulatus",
+      "Anopheles melas",
+      "Anopheles merus",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Ghana",
+      "Kenya",
+      "Cameroon",
+      "South Africa"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 96,
+    "summary": "This paper describes the development and validation of TaqMan and High Resolution Melt (HRM) assays for detecting pyrethroid knockdown resistance (kdr) mutations (L1014F and L1014S) in Anopheles gambiae. The performance of seven assays is evaluated using a blind reference panel of 96 mosquitoes comprising lab strains and selected field specimens. Because it is a method development study and does not report field population genotype frequencies, it is not eligible for inclusion.",
+    "exclusion_reasons": [
+      "Does not report extractable genotype counts or frequencies for a defined African field population (evaluates assay performance on a pre-selected 96-sample reference panel including laboratory strains).",
+      "Lacks temporal resolution (no collection years reported for field specimens).",
+      "Lacks sub-country location information in the main text."
+    ]
+  }
+}

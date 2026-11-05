@@ -1,0 +1,66 @@
+{
+  "id": "2007_N_Guessan_Reduced_Efficacy_Insecticide_Treated_Nets_PMID17479880",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated Anopheles gambiae field populations from Ladji and Malanville in Benin (Page 2, Material and Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reported kdr (Vgsc L995F/L1014F) mutation frequency in Anopheles gambiae (Page 5, Biochemical Assays and kdr Genotyping, Table 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 6 (page 7) reports kdr allele frequency (F[kdr] = 83% at Ladji, n=45; F[kdr] = 6% at Malanville, n=45)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Benin (Ladji, near Cotonou, and Malanville in northern Benin) as larvae and reared to adults (Page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field trial evaluating experimental huts, bioassays, biochemical activity, and kdr marker frequency."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field collections were conducted in Ladji (Cotonou) and Malanville, Benin (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections and trials took place from April to November 2005 (Page 2, Sleepers and Mosquito Collections). "
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original primary field study conducted in 2005 at Ladji and Malanville, Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype frequency data and sample sizes are fully presented in Table 6 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2005
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 90,
+    "summary": "This study evaluated the efficacy of lambdacyhalothrin ITNs and IRS against pyrethroid-resistant Anopheles gambiae in Ladji (southern Benin) and pyrethroid-susceptible An. gambiae in Malanville (northern Benin). Genotyping confirmed high kdr (Vgsc L995F) frequency at Ladji (83%, n=45) and low frequency at Malanville (6%, n=45).",
+    "exclusion_reasons": []
+  }
+}

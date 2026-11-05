@@ -1,0 +1,85 @@
+{
+  "id": "2008_Santolamazza_Distribution_Knock_Down_Resistance_Mutations_PMID18445265",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu stricto (M and S molecular forms), as stated in the title and abstract."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes the Vgsc L1014F (L995F) and L1014S (L995S) mutations (Abstract, Page 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 4) provides sample sizes (N) and allele frequencies with 95% CIs for S-form populations. Page 4 text provides allele frequencies and sample sizes for M-form populations (e.g., Benin N=5, 40% L1014F; Nigeria N=41, 19.5% L1014F; Cameroon N=48, 6.3% L1014F)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 19 sites across 11 African countries: Senegal, The Gambia, Burkina Faso, Ghana, Ivory Coast, Benin, Nigeria, Cameroon, Gabon, Angola, and São Tomé and Príncipe (Table 1, Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article describing original field collections and molecular genotyping of kdr mutations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 (Page 3) lists 19 specific sampling sites including Kedougou, Bobo Dioulasso, Accra area, and others with coordinates."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Table 1 (Page 3) provides specific collection years for each site, ranging from 1998 to 2006, with most sites tied to a single year or a two-year range (e.g., Luanda area 2002-2003)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions that a sub-sample of the HOLA-analysed sample had been previously genotyped by PCR for the L1014F allele in a 1998 study (Ref 2), but the current study presents a much larger, comprehensive dataset including new collections and L1014S genotyping."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequencies and sample sizes are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Senegal",
+      "Gambia",
+      "Burkina Faso",
+      "Ghana",
+      "Cote d'Ivoire",
+      "Benin",
+      "Nigeria",
+      "Cameroon",
+      "Gabon",
+      "Angola",
+      "Sao Tome and Principe"
+    ],
+    "collection_years": [
+      1998,
+      1999,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 982,
+    "summary": "This study maps the distribution and frequency of Vgsc L1014F and L1014S kdr mutations in Anopheles gambiae (M and S molecular forms) across 11 countries in West and West-Central Africa. Samples were collected from 19 sites between 1998 and 2006 and genotyped using Hot Oligonucleotide Ligation Assay (HOLA) and allele-specific PCR (AS-PCR). The study provides baseline data on the spread of these resistance alleles across a wide geographical range.",
+    "exclusion_reasons": []
+  }
+}

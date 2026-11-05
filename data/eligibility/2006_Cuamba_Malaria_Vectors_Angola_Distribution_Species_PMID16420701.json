@@ -1,0 +1,70 @@
+{
+  "id": "2006_Cuamba_Malaria_Vectors_Angola_Distribution_Species_PMID16420701",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies field collections of Anopheles gambiae s.l. and Anopheles funestus in Angola (Page 1, Abstract; Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Assessed West African kdr (Vgsc L995F / kdr-west) in An. gambiae using the PCR protocol of Martinez-Torres et al. 1998 (Page 3, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on Page 4 details sample sizes and kdr genotypes for 218 An. gambiae s.s. (195 M-form, 23 S-form) across 5 sites; all were homozygous susceptible (+/+)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were sampled by indoor pyrethrum spray collections and larval collections in seven localities in Angola (Luanda, Benguela, Lobito, Huambo) in April 2001 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field research report describing species composition, sporozoite rates, and kdr genotype frequencies."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Coordinates and specific site names provided for seven localities (e.g., Funda: 08°51' S, 13° 34' E; São Pedro: 12° 20' S, 13° 34' E; Cawango: 12° 34' S, 13° 24' E; São Jose: 12° 47' S, 15° 44' E) on Page 2."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling took place between 11 and 19 April 2001 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine primary field survey conducted in 2001 in Angola."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All site coordinates, sample sizes, molecular form distributions, and kdr genotype data are provided in the main text and tables (Tables 1-4)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles melas",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Angola"
+    ],
+    "collection_years": [
+      2001
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 218,
+    "summary": "This primary study examined malaria vector species composition, molecular forms, Plasmodium falciparum sporozoite rates, and kdr resistance status in Angola. Mosquitoes were collected in April 2001 across seven localities. A total of 218 An. gambiae s.s. (195 M-form and 23 S-form) were genotyped for the West African kdr-west (Vgsc L995F) mutation. All genotyped mosquitoes were homozygous susceptible (+/+). No bioassays were conducted.",
+    "exclusion_reasons": []
+  }
+}

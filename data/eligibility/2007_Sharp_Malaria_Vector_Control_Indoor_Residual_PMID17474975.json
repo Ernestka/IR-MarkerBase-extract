@@ -1,0 +1,68 @@
+{
+  "id": "2007_Sharp_Malaria_Vector_Control_Indoor_Residual_PMID17474975",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study focuses on Anopheles gambiae s.l. (An. gambiae s.s., An. melas) and Anopheles funestus collected on Bioko Island (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped the west African Leu-Phe kdr mutation (Vgsc L995F / L1014F) using the PCR method of Martinez-Torres et al. (Page 3, Methods; Page 4, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 4) provides explicit sample sizes and genotype counts (kdr/kdr, +/kdr, +/+) for M-form An. gambiae s.s. across pre-spray and three post-spray rounds."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field collections of wild mosquitoes using window traps at 16 sentinel sites on Bioko Island, Equatorial Guinea between December 2003 and December 2005 (Page 1, Abstract; Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting original entomological monitoring and kdr genotyping data for the BIMCP IRS program on Bioko Island."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples collected at 16 sentinel sites on Bioko Island, including Punta Europa, Baney, Batete, Bilelipa, Luba, Rebola, Sacriba, Sampaka, Semu, etc. (Page 2, Figure 1; Page 4, Text)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place from December 2003 to December 2005 (2-year window; Page 1, Abstract)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Mosquitoes were collected specifically for the entomological evaluation of the BIMCP IRS initiative during 2003-2005."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts (kdr/kdr, +/kdr, +/+) by spray round are provided in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "collection_years": [
+      2003,
+      2004,
+      2005
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 369,
+    "summary": "This study evaluated vector density, sporozoite rates, and Vgsc L995F (kdr-west) mutation frequencies in Anopheles gambiae s.s. M-forms collected from 16 sentinel sites on Bioko Island, Equatorial Guinea, across pre-spray and three post-spray IRS rounds (2003–2005). Table 2 provides exact genotype counts (RR, RS, SS) for 369 M-form An. gambiae s.s.",
+    "exclusion_reasons": []
+  }
+}

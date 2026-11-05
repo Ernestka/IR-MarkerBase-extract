@@ -1,0 +1,72 @@
+{
+  "id": "2008_Kamau_Status_Insecticide_Susceptibility_Anopheles_Gambia_PMID20345290",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae sensu lato and Anopheles funestus (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports on the East African kdr mutation (L1014S) and the West African kdr mutation (L1014F) (page 3, Knockdown resistance (kdr) gene analysis)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (SS, SR, RR) and sample sizes (n*) for the L1014S mutation across multiple sites and species."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Kenya: Ahero, Rota, Kisii, Mwea, and Kwale (page 2, Study sites)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original bioassay and genotyping results."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for specific sites: Ahero, Rota, Kisii, Mwea, and Kwale (Table 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between 2003 and 2005 for some sites, and specifically in 2005 and 2006 for others (page 2, Specimen collection, identification and rearing)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study describes routine collections by KEMRI staff; while KEMRI has long-term study sites, these appear to be new primary data for the stated years."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype and bioassay data are contained within the main text and tables (Table 1 and Table 2)."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 538,
+    "summary": "This study assessed insecticide susceptibility and the prevalence of kdr mutations (L1014S and L1014F) in Anopheles gambiae s.l. and An. funestus populations across five sites in Kenya (Rota, Kisii, Kwale, Ahero, and Mwea) between 2003 and 2006. While bioassays showed high susceptibility to most insecticides, the L1014S mutation was detected at varying frequencies in An. gambiae and An. arabiensis, particularly in Western Kenya. The L1014F mutation was not detected in any of the samples tested.",
+    "exclusion_reasons": []
+  }
+}

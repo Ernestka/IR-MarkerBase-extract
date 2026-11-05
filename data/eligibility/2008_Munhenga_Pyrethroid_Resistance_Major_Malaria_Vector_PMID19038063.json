@@ -1,0 +1,69 @@
+{
+  "id": "2008_Munhenga_Pyrethroid_Resistance_Major_Malaria_Vector_PMID19038063",
+  "source": "master",
+  "model": "gemini:gemini-3-flash-preview",
+  "spec_version": 1,
+  "assessed": "2026-11-05",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex (Abstract, Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on knockdown resistance (kdr) mutations (Vgsc L995F/S) and the ace-1 G119S mutation (Abstract, Page 4, Page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports that kdr mutations were not detected in 38 sequenced individuals and the ace-1R mutation was not detected in 7 sequenced individuals (Page 6). This provides a count of 0 for a specified sample size."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Gwave village in Zimbabwe in 2006 and 2008 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting original field collections and laboratory analyses."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is tied to Gwave village (17°55' S; 28°41' E) in Gokwe South District, Zimbabwe (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in February 2006 and January 2008 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study mentions previous reports of resistance in the same area (e.g., Masendu et al. 2005), but describes these as new collections (Page 2)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data for the study's findings are contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Zimbabwe"
+    ],
+    "collection_years": [
+      2006,
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 54,
+    "summary": "This study investigated insecticide resistance mechanisms in Anopheles arabiensis from Gwave, Zimbabwe, following reports of DDT resistance. Bioassays conducted in 2006 and 2008 revealed resistance to permethrin and DDT. Molecular assays for kdr (Vgsc L995F/S) and ace-1 (G119S) mutations were performed; although PCR initially suggested their presence, sequencing of 38 (for kdr) and 7 (for ace-1) individuals confirmed the absence of these mutations. Biochemical assays indicated elevated levels of monooxygenases and glutathione S-transferases, suggesting metabolic resistance as the primary mechanism.",
+    "exclusion_reasons": []
+  }
+}
