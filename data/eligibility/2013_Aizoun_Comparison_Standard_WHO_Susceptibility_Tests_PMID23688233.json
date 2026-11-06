@@ -1,0 +1,67 @@
+{
+  "id": "2013_Aizoun_Comparison_Standard_WHO_Susceptibility_Tests_PMID23688233",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates Anopheles gambiae s.l. (identified by PCR as 100% Anopheles gambiae s.s.) collected from breeding sites in southern Benin."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR was performed to detect the Vgsc L995F (kdr 'Leu-phe') mutation and the Ace-1 G280S (G119S) mutation (page 4, Methods section; page 6, Tables 2 and 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 2 and 3 on page 6 report exact genotype counts (RR, RS, SS) and sample sizes for both surviving and dead Anopheles gambiae s.s. across 4 study locations (Adjara, Dangbo, Misserete, Seme) for Kdr (L995F) and Ace-1 (G280S)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae and pupae of Anopheles gambiae s.l. were collected from field breeding sites in Dangbo, Misserete, Seme, and Adjara districts of Ouemé province in southern Benin during 2010 and reared to adults for testing."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collections, susceptibility bioassays, synergist assays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections took place in specific districts/villages (Dangbo, Misserete, Seme, Adjara, Katagon, Vakon, etc.) in Ouemé province, Benin (page 2 and Figure 1 map on page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during the rainy seasons (March-July and September-November 2010) (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field collections were conducted specifically for this study in 2010 by CREC."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, sample sizes, and bioassay data are completely presented in the main text and tables (Tables 2, 3, and 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 198,
+    "summary": "This study evaluated insecticide resistance status using WHO tube bioassays and CDC bottle bioassays in Anopheles gambiae s.s. from four districts in Ouemé province, southern Benin. Genotyping confirmed high frequencies of the Vgsc L995F (kdr-west) mutation (allele frequency 0.72-0.91) across all populations, whereas Ace-1 G280S was absent (frequency 0.00). Complete genotype counts are provided separately for survivors and dead mosquitoes post-exposure.",
+    "exclusion_reasons": []
+  }
+}

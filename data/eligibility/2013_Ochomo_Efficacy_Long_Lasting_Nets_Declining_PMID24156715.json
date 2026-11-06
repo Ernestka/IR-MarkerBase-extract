@@ -1,0 +1,66 @@
+{
+  "id": "2013_Ochomo_Efficacy_Long_Lasting_Nets_Declining_PMID24156715",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Collected and tested Anopheles gambiae s.l. and Anopheles funestus s.l. in western Kenya (page 1, page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for the presence of the 1014S kdr genotype (Vgsc L995S) in Anopheles gambiae s.s. (page 3, page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5: 'All the An. gambiae s.s. samples collected from inside the nets were homozygous for kdr 1014S (N = 343)'."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field collections carried out in seven villages in Gem district and four villages in Bungoma district, Kenya (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field study reporting cross-sectional surveys, bioassays, and molecular genotyping carried out in May 2013 (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific district locations and GPS coordinates provided for Gem district (0°07'30.06\"N, 34°24'32.56\"E) and Bungoma district (0°35'20.85\"N, 34°29'13.23\"E) (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Bed net surveys and mosquito collections conducted in May 2013 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary cross-sectional entomological field study with newly collected samples in May 2013."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary genotype frequency and sample size data are provided in full in the text."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 343,
+    "summary": "This study evaluated physical integrity of bed nets and pyrethroid resistance in Anopheles mosquitoes in Gem and Bungoma districts, western Kenya in May 2013. Genotyping of 343 Anopheles gambiae s.s. collected inside bed nets in Bungoma showed 100% homozygosity for the Vgsc 1014S (L995S) mutation. Standard WHO tube bioassays and net cone assays confirmed high pyrethroid resistance in Bungoma.",
+    "exclusion_reasons": []
+  }
+}

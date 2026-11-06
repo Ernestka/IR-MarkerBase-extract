@@ -1,0 +1,69 @@
+{
+  "id": "2013_Tangena_Alternative_Treatments_Indoor_Residual_Spraying_PMID24058551",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study conducted on Anopheles gambiae s.l. (An. gambiae s.s. M and S forms, and An. arabiensis) collected in The Gambia (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped kdr 1014 (1014F and 1014S, corresponding to Vgsc L995F and L995S) in An. gambiae s.l. (Page 2-4, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 4) reports full counts of 1014 genotypes (LL, LS, LF, SF, FF, SS) for An. arabiensis, An. gambiae M form, and An. gambiae S form across two villages (Sare Alpha and Sare Juldeh)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Immature and adult Anopheles gambiae s.l. were collected from August to November 2011 in Sare Alpha and Sare Juldeh, Upper River Region, The Gambia (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field trial evaluating IRS and vector insecticide resistance in The Gambia."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sare Alpha village (13°21' 38 N, 13°58' 50 W) and Sare Juldeh village (13°19' 32 N, 14°3' 36 W), Upper River Region, The Gambia (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between August and November 2011 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine primary field study and IRS evaluation in The Gambia with original collections in 2011."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype counts by species and location are fully present in Table 1 of the main article text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "The Gambia"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 257,
+    "summary": "This primary field study evaluated insecticide resistance, kdr frequencies (Vgsc 1014F and 1014S), and IRS efficacy in Sare Alpha and Sare Juldeh, Upper River Region, The Gambia in 2011. Table 1 provides extractable 1014 genotype counts (LL, LS, LF, SF, FF, SS) for An. arabiensis, An. gambiae M form (An. coluzzii), and An. gambiae S form (An. gambiae s.s.).",
+    "exclusion_reasons": []
+  }
+}

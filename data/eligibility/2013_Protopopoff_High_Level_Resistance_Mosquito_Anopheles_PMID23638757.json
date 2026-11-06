@@ -1,0 +1,68 @@
+{
+  "id": "2013_Protopopoff_High_Level_Resistance_Mosquito_Anopheles_PMID23638757",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated field-caught Anopheles gambiae s.s. and Anopheles arabiensis mosquitoes in Muleba district, Tanzania (Page 1-2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Real-time PCR TaqMan assays were used to detect Vgsc L995S (kdr east) and Vgsc L995F (kdr west) mutations in An. gambiae s.l. (Page 3, 'Mosquito species identification and genotyping for kdr mutations')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Detailed genotype counts and allele frequencies are provided: for light-trap An. gambiae s.s. (n=2,049), 96.8% (n=1,983) were RR, 3% (n=62) were RS, and 0.2% (n=4) were SS for kdr-east (Page 5). Table 1 provides per-village kdr allele frequencies and sample sizes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in 40 villages in Muleba district, Kagera region, north-western Tanzania between April and December 2011 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting field collections and laboratory genotyping/bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported by village (e.g. Kikagate, Kyamyorwa, Kishuro, Ngenge, Rwigembe, Buhuma, Kangoma, Kiteme, Nyakahama, Buhanga, Kimbuga) in Muleba district, Kagera region, Tanzania (Page 3, Figure 1; Page 4, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted from April to December 2011 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Collections were conducted as baseline entomological monitoring for a cluster randomized trial in Muleba district (clinical trials identifier # NCT01697852)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype counts, allele frequencies, sample sizes, and bioassay data are fully contained within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 3149,
+    "summary": "This primary field study assessed pyrethroid, DDT, and bendiocarb resistance and kdr mutation frequencies in Anopheles gambiae s.s. and Anopheles arabiensis in Muleba district, north-western Tanzania in 2011. Vgsc L995S (kdr-east) was found near fixation in An. gambiae s.s. (96.8% homozygous in light trap samples and 96.9% in indoor resting samples), whereas Vgsc L995F (kdr-west) was absent. All tested An. arabiensis carried the wild-type susceptible allele.",
+    "exclusion_reasons": []
+  }
+}

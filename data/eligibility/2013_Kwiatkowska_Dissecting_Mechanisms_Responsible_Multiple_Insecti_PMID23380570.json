@@ -1,0 +1,69 @@
+{
+  "id": "2013_Kwiatkowska_Dissecting_Mechanisms_Responsible_Multiple_Insecti_PMID23380570",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study focuses on Anopheles gambiae s.s., M form, collected in Vallée du Kou, Burkina Faso (Page 1, Title and Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014F (L995F), Vgsc L1014S (L995S), Ace-1 G119S (G280S), and Rdl A296S (Page 2-3, Sections 2.2.1, 2.2.2, 2.2.3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports allele and genotype frequencies with sample sizes for F0 field females: L1014F frequency 75%, 53% T/T, 43% A/T, 4% A/A (n=100) (Page 2); Ace-1 119S frequency 4.2% (n=124) (Page 2); Rdl A296S frequency 87%, 77.7% T/T, 19.1% G/T, 3.2% G/G (n=94) (Page 3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected indoors as blood-fed/gravid females in April 2010 from villages (VK1 to VK7) in Vallée du Kou, Burkina Faso (Page 8, Section 5.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study conducting field collections, WHO bioassays, target-site mutation genotyping, microarrays, and qRT-PCR."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections took place across seven villages (VK1 to VK7) in Vallée du Kou, South-West Burkina Faso (4° 24' 42\" W, 11° 23' 14\" N) (Page 8, Section 5.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted in mid- to late April 2010 (Page 8, Section 5.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine primary field survey conducted in April 2010 in Burkina Faso."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Main text provides extractable genotype frequencies and sample sizes for field F0 mosquitoes."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 124,
+    "summary": "This study evaluated insecticide susceptibility and underlying resistance mechanisms in Anopheles gambiae s.s. (M form) from Vallée du Kou, Burkina Faso, collected in April 2010. High pyrethroid, DDT, and dieldrin resistance were recorded alongside high frequencies of Vgsc L1014F (75%) and Rdl A296S (87%), while Ace-1 G119S was present at low frequency (4.2%). Genotype-phenotype associations and metabolic resistance mechanisms via microarrays and qRT-PCR were also detailed.",
+    "exclusion_reasons": []
+  }
+}

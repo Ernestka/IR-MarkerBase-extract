@@ -1,0 +1,69 @@
+{
+  "id": "2012_Namountougou_Multiple_Insecticide_Resistance_Anopheles_Gambiae_PMID23189131",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "An. gambiae larvae were collected in August and September 2010... Mosquitoes were analyzed by PCR for identification of sibling species within the An. gambiae complex (Page 2, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped kdr L1014F (Vgsc L995F) and Ace-1 G119S (Ace-1 G280S) mutations using PCR and PCR-RFLP (Page 3, Tables 1 and 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 1 and 2 provide extractable genotype counts (homozygous wild-type, heterozygous, homozygous resistant) and sample sizes (N) for kdr 1014F and Ace-1 119S across 10 localities by species/molecular form."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected in August and September 2010 from 10 field localities in Burkina Faso (Banfora, Dédougou, Houndé, Koupéla, Nouna, Orodara, Samblatoukoro, Soumousso, Tiéfora, and Valley of Kou 7) and reared to adulthood (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing field collection, WHO bioassays, molecular species identification, marker genotyping, and enzyme activity assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ten named localities in Burkina Faso: Banfora, Dédougou, Houndé, Koupéla, Nouna, Orodara, Samblatoukoro, Soumousso, Tiéfora, and Valley of Kou 7 (Page 2, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in August and September 2010 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field samples were collected during a specific sampling effort in August-September 2010 across 10 sites in Burkina Faso."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary genotype count data, sample sizes, species breakdowns, and bioassay mortality results are fully presented in the main text, Tables 1-2, and Figures 2-3."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "This study evaluated insecticide susceptibility and resistance mechanisms in Anopheles gambiae s.l. (An. gambiae s.s. S and M forms, and An. arabiensis) collected in August-September 2010 from 10 localities across Burkina Faso. Bioassays were conducted for permethrin, deltamethrin, DDT, bendiocarb, and fenitrothion. Target-site markers Vgsc L1014F (L995F) and Ace-1 G119S (G280S) were genotyped in 30 mosquitoes per locality (N=300 total), providing full extractable genotype counts by species and form in Tables 1 and 2.",
+    "exclusion_reasons": []
+  }
+}

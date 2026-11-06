@@ -1,0 +1,66 @@
+{
+  "id": "2013_Aizoun_Status_Organophosphate_Carbamate_Resistance_Anophe_PMID24330550",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. mosquitoes collected from breeding sites in Benin (Page 1, Abstract; Page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Assays the Ace-1 G119S (G280S) mutation using PCR-RFLP (Page 2, Methods; Page 4, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 4) provides counts of RR, RS, and SS genotypes for the Ace-1 G119S mutation for Anopheles gambiae s.s. from Kandi (N=48: 0 RR, 0 RS, 48 SS) and Malanville (N=48: 0 RR, 1 RS, 47 SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae and pupae were collected from field breeding sites in Ouemé, Atacora, and Alibori departments in Benin in 2012 and reared to adults (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper presenting original bioassay and molecular marker data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Field sampling locations are specified at the district level: Seme, Tanguieta, Kandi, and Malanville districts in Benin (Page 2, Methods; Page 3, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling took place during rainy seasons in 2012 (March-July and September-November 2012 in Seme; May to October 2012 in Tanguieta, Kandi, and Malanville) (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine new field collections conducted in 2012 by CREC in Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency and count data are presented in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 96,
+    "summary": "This study evaluated organophosphate (fenitrothion) and carbamate (bendiocarb) susceptibility using CDC bottle bioassays and genotyped the Ace-1 G119S (G280S) target-site mutation in Anopheles gambiae s.s. collected in 2012 across four districts (Seme, Tanguieta, Kandi, Malanville) in Benin.",
+    "exclusion_reasons": []
+  }
+}

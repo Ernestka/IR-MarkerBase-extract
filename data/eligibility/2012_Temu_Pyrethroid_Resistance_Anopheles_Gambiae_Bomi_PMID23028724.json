@@ -1,0 +1,67 @@
+{
+  "id": "2012_Temu_Pyrethroid_Resistance_Anopheles_Gambiae_Bomi_PMID23028724",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated Anopheles gambiae s.l. collected in Bomi County, Liberia (Page 1, Abstract; Page 3, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for Vgsc 1014F (L995F) and 1014S (L995S) kdr mutations using TaqMan assays (Page 3, Methods; Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 (Page 6) reports exact genotype counts (LL, LF, FF) for 169 An. gambiae mosquitoes tested in IRS and DL cone bioassays."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from four field sites in Bomi County, Liberia between July and September 2011 and reared to adults (Page 3, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting original bioassay and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Detailed collection site locations and UTM X-Y coordinates in Bomi County, Liberia are provided in Table 1 (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larval collections took place weekly from July to September 2011 (Page 3, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No evidence of sample overlap with external datasets; reports novel primary field survey data from 2011."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary genotype frequency and counts data are present in Table 5 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Liberia"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 169,
+    "summary": "This primary study reports on pyrethroid susceptibility and Vgsc 1014F/1014S kdr allele frequencies in field-derived Anopheles gambiae from Bomi County, Liberia collected in 2011. Genotype counts (LL, LF, FF) are provided for 169 mosquitoes stratified by survival status in deltamethrin cone bioassays.",
+    "exclusion_reasons": []
+  }
+}

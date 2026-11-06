@@ -1,0 +1,68 @@
+{
+  "id": "2013_Okia_Bioefficacy_Long_Lasting_Insecticidal_Nets_PMID23634798",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult An. gambiae from Lira, Tororo, Wakiso and Kanungu districts were collected and evaluated (Page 1, Abstract; Page 2, Mosquito collections)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The kdr mutation L1014S was assayed and detected in An. gambiae s.s., while L1014F was also screened for (Page 3, Methods; Page 4, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 on Page 4 provides the number of An. gambiae s.s. genotyped and L1014S allele frequencies for each site (Kanungu: 94 genotyped, 36.7%; Lira: 97 genotyped, 33.5%; Tororo: 79 genotyped, 35.4%; Wakiso: 93 genotyped, 36.6%), and text notes overall genotype counts (29.2% SS, 70.5% RS, 1 RR)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in April and October 2011 as resting adults or larvae from field sites in Lira, Tororo, Wakiso and Kanungu districts, Uganda (Page 2, Mosquito collections)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting novel field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections took place in four specific districts in Uganda: Lira, Tororo, Wakiso, and Kanungu (Page 2, Mosquito collections)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted in April and October 2011 (Page 2, Mosquito collections)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No indication of dataset reuse or overlap with larger consortium data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All species composition, kdr genotyping counts/frequencies, and bioassay results are fully reported in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 363,
+    "summary": "This study evaluated the bioefficacy of long-lasting insecticidal nets and characterized resistance mechanisms in Anopheles gambiae s.l. field populations from four districts in Uganda (Kanungu, Lira, Tororo, and Wakiso) collected in 2011. Molecular identification confirmed An. gambiae s.s. predominated across sites, and allele-specific PCR for kdr L1014S in 363 An. gambiae s.s. revealed moderate allelic frequencies ranging from 33.5% to 36.7%.",
+    "exclusion_reasons": []
+  }
+}

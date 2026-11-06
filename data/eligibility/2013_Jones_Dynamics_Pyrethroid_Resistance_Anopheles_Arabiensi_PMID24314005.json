@@ -1,0 +1,72 @@
+{
+  "id": "2013_Jones_Dynamics_Pyrethroid_Resistance_Anopheles_Arabiensi_PMID24314005",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study analyzed field populations of Anopheles arabiensis, Anopheles gambiae s.s., and Anopheles merus collected across Zanzibar (page 1, Abstract; page 5, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened sub-samples for kdr target site mutations (1014F and 1014S) and ace-1R (G119S/G280S) using TaqMan allelic discrimination assays and sodium channel sequencing (page 3, Methods; page 7, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports that none of the resistance alleles (1014F, 1014S, ace-1R) were detected among tested mosquitoes (Unguja N = 120; Pemba N = 251; total N = 371), establishing 100% wild-type / 0% resistant allele frequency across 371 genotyped mosquitoes (page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from breeding pools on Unguja and Pemba islands, Zanzibar, Tanzania, between 2011 and 2013 and reared to adults (page 2, Insect collections)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical research article presenting original field bioassays, molecular species identification, genotyping, and transcriptomic analyses."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were made from named sites on Unguja (Mwera, Chuini, Kilimani, Cheju) and Pemba (Pujini, Kiungoni, Uwandani, Mangwena, Tumbe, Chwale) with geographic map shown in Figure 1 (pages 2, 3, 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected during the main rainy season (April/May) in 2011, 2012, and 2013 (page 2, Insect collections)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper reports original field larval collections and bioassay/genotyping work conducted specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency summary data (0% resistant allele frequency across 120 Unguja and 251 Pemba mosquitoes) are reported directly in the main text on page 7."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae",
+      "Anopheles merus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 371,
+    "summary": "This study monitored pyrethroid, DDT, and bendiocarb resistance in Anopheles arabiensis (and sympatric complex species) across Unguja and Pemba islands in Zanzibar between 2011 and 2013. Target-site genotyping for Vgsc 1014F, 1014S, and Ace-1 G280S showed complete absence of these mutations (0% frequency in 120 Unguja and 251 Pemba samples). Resistance was found to be mediated by metabolic mechanisms, particularly over-expression of P450 monooxygenases (CYP4G16).",
+    "exclusion_reasons": []
+  }
+}

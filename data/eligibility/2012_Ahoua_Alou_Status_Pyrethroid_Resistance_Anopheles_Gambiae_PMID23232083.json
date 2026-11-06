@@ -1,0 +1,66 @@
+{
+  "id": "2012_Ahoua_Alou_Status_Pyrethroid_Resistance_Anopheles_Gambiae_PMID23232083",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. (M form) collected in Adzope, Cote d'Ivoire (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Assayed the Vgsc L1014F (L995F) kdr-w mutation using allele-specific PCR (page 2, Molecular assays; page 4, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 4) provides exact SS, RS, and RR genotype counts and allele frequencies for L1014F for Port-Bouet (N=56) and Tsassodji (N=34), split by alive/dead phenotypes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from breeding sites in Port-Bouet and Tsassodji (Adzope district, Eastern Cote d'Ivoire) between May and June 2007 and reared to adults (page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field collection, bioassay, and genotyping study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling sites specified at sub-district level: Port-Bouet (6 deg 10 N, 3 deg 85 W) and Tsassodji in Adzope city, Eastern Cote d'Ivoire (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place between May and June 2007 (page 2, Pyrethroid susceptibility tests)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary empirical research reporting original field collections in Adzope in 2007."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All bioassay results and marker genotype counts are fully reported in Table 1 and Table 2 in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2007
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 90,
+    "summary": "This study evaluated pyrethroid resistance and Vgsc L1014F (L995F) kdr frequencies in Anopheles gambiae s.s. (M form) from two sites in Adzope, Eastern Cote d'Ivoire, collected in May-June 2007. Genotype counts for L1014F were scored separately for bioassay survivors and dead mosquitoes.",
+    "exclusion_reasons": []
+  }
+}
