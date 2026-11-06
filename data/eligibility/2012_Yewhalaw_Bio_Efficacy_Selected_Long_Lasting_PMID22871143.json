@@ -1,0 +1,68 @@
+{
+  "id": "2012_Yewhalaw_Bio_Efficacy_Selected_Long_Lasting_PMID22871143",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "We investigated pyrethroid resistance in four populations of An. arabiensis from south-western Ethiopia (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper refers to kdr-L1014F and ace-1R as previously identified mutations from prior published studies (references 11 and 12 on Page 2 and 3). No genotyping of target markers was conducted in this study."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele counts, or frequencies were generated or presented for the sampled mosquitoes in this study."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from villages located in Jimma, TiroAfeta, OmoNada and Kerssa districts (weredas) in south-western Ethiopia, from November 2011 to January 2012 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary study evaluating the bio-efficacy of LLINs and synergistic CDC bottle bioassays on field-caught/reared mosquitoes (Page 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling took place in Jimma, TiroAfeta, OmoNada and Kerssa districts in south-western Ethiopia (latitudes 7°42'50\"N to 07°53'50\"N, longitudes 037°11'22\"E to 037°20'36\"E) (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from November 2011 to January 2012 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field collection and bioassay data are newly presented for the Nov 2011 - Jan 2012 study period."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; no genotyping was conducted in this study."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated pyrethroid susceptibility and the bio-efficacy of six WHO-recommended long-lasting insecticidal nets (LLINs) using CDC bottle bioassays (with and without PBO) and WHO cone bioassays on field-collected Anopheles arabiensis from four districts in south-western Ethiopia. No molecular genotyping of resistance markers was performed in this study (bioassay-only paper).",
+    "exclusion_reasons": [
+      "No target insecticide-resistance markers were genotyped in this study (bioassay-only paper).",
+      "No extractable genotype data reported."
+    ]
+  }
+}

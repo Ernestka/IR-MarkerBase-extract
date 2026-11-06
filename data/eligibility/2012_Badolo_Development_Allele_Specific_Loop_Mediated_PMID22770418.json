@@ -1,0 +1,65 @@
+{
+  "id": "2012_Badolo_Development_Allele_Specific_Loop_Mediated_PMID22770418",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 4: 'A total of 120 mosquitoes were tested using RLFP-PCR [31] to identify the An. gambiae species and the molecular form of An. gambiae s.s. Of these mosquitoes, 47% were identified as Anopheles arabiensis and 53% as An. gambiae s.s.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 1: 'detect the L1014F kdr-w mutation in Anopheles gambiae s. l.'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5, Table 1: Reports genotype breakdown for 120 mosquitoes genotyped by sequencing (20 kdr-w/kdr-w, 26 kdr-w/+, 70 +/+, and 4 unidentified)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 4: 'The AS-LAMP method was next applied to assess the genotype of Anopheles mosquito with respect to the kdr-w mutation in samples collected from Burkina Faso.'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary methodological and empirical study reporting novel assay development and validation on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The paper reports field collections only at country level ('Burkina Faso') without specifying towns, villages, or coordinates."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No collection year or sampling timeframe is specified for the field-collected mosquitoes."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No textual evidence suggests sample overlap with external databases or previously published collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All extractable genotype comparison data are presented within the main text and Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 120,
+    "summary": "This study developed and evaluated an allele-specific loop-mediated isothermal amplification (AS-LAMP) assay for detecting the Vgsc L1014F (kdr-w) mutation in Anopheles gambiae s.l. The assay was validated against direct sequencing using 120 field-collected mosquitoes from Burkina Faso comprising An. arabiensis and An. gambiae s.s.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2013_Koffi_Re_Visiting_Insecticide_Resistance_Status_PMID24358177",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 4, Results section)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F) and Ace-1 G280S (G119S) (page 4, Methods; Tables 2 and 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 2 and 3 provide genotype counts (SS, RS, RR) and allele frequencies for L1014F and Ace-1 mutations across multiple sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from six sentinel sites in Côte d’Ivoire (page 2, Study sites)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field data collected in 2012."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for specific localities including Korhogo, Kaforo, Yamoussoukro, Man, Zele, Abengourou, San-Pedro, Bingerville, Port-Bouët, and Yopougon (Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection period is explicitly stated as June and July 2012 (page 2, Mosquito collection)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new nation-wide survey conducted in 2012 to generate baseline data for the NMCP."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay data are provided in the main text tables (Tables 1-4) and figures (Figures 2-3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S",
+      "Ace-1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Côte d’Ivoire"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 318,
+    "summary": "A nation-wide survey of insecticide resistance in Anopheles gambiae s.s. in Côte d’Ivoire, characterizing resistance phenotypes and genotypes (kdr L1014F and Ace-1 G119S) across six sentinel sites.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2014_Ibrahim_High_Frequency_Kdr_L1014F_Associated_PMID25127882",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. coluzzii and An. arabiensis) in northern Nigeria."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L1014F (kdr-west), Vgsc L1014S (kdr-east), and Ace-1 G119S (ace-1R)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (TTT, TTA) for An. coluzzii and An. arabiensis, stratified by phenotype (Alive/Dead)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Auyo and Bunkure, Nigeria."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research article reporting original field collection and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection locations as Auyo (Jigawa State) and Bunkure (Kano State)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study states collection occurred between 2009 and 2011."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new, independent collection of mosquitoes from northern Nigeria."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and sample sizes, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 115,
+    "summary": "This study investigated insecticide resistance in Anopheles coluzzii and An. arabiensis from Auyo and Bunkure, Nigeria. It reports high resistance to pyrethroids and DDT, and susceptibility to malathion. Genotyping revealed a high frequency of the L1014F kdr mutation in An. coluzzii, which was significantly associated with pyrethroid resistance, while the L1014S mutation was rare and found only in An. arabiensis. No Ace-1 G119S mutation was detected.",
+    "exclusion_reasons": []
+  }
+}

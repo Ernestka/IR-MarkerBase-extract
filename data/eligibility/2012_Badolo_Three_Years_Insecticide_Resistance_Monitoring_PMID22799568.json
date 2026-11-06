@@ -1,0 +1,72 @@
+{
+  "id": "2012_Badolo_Three_Years_Insecticide_Resistance_Monitoring_PMID22799568",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l., including An. arabiensis and An. gambiae s.s. (M and S molecular forms) (p. 2-5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of Vgsc 1014F (L995F), 1014S (L995S), and ace-1R (G280S/G119S) (p. 6-8, Tables 2, 3, 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives sample sizes (N) and allele frequencies for 1014F and 1014S across sites, years (2008, 2009, 2010), and species. Table 3 provides explicit genotype counts (LL, LF, FF) for bioassay survivors and dead. Table 4 provides sample sizes and ace-1R allele frequencies."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from four sentinel sites in Burkina Faso (Goundry, Koupela, Kuinima, and Soumousso) from 2008 to 2010 and reared to adults (p. 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article presenting longitudinal 3-year surveillance data from Burkina Faso (p. 1-2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Four specific localities with geographic coordinates: Goundry (12° 30' N, 01° 20' W), Koupela (12° 10' N, 00° 21' W), Kuinima (11° 09' N, 04° 17' W), and Soumousso (11° 00' N, 04° 03' W) (p. 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections took place twice per year between 2008 and 2010, and data are reported separately by year (2008, 2009, 2010) (p. 2, Table 2, Table 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states that 'data from 2008 have been published previously [6], but are included here for comparison' referring to Ranson et al. 2009 from the WHO/TDR network (p. 2, 4)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, allele frequencies, and sample sizes by site, year, and species are provided in Tables 2, 3, and 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2008,
+      2009,
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1719,
+    "summary": "This study reports 3-year longitudinal monitoring (2008-2010) of insecticide resistance and resistance marker dynamics (Vgsc 1014F, 1014S, and Ace-1 G119S) across four sentinel sites in Burkina Faso. Genotype frequencies and sample sizes are reported by species, site, and year, along with genotype-phenotype associations for WHO bioassays.",
+    "exclusion_reasons": []
+  }
+}

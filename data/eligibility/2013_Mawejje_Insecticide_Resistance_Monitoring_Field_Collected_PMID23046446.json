@@ -1,0 +1,68 @@
+{
+  "id": "2013_Mawejje_Insecticide_Resistance_Monitoring_Field_Collected_PMID23046446",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae s.s. and Anopheles arabiensis (page 1, abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Vgsc L995S (kdr-east, 1014S) and Vgsc L995F (kdr-west, 1014F) (page 1, abstract; page 4, molecular analysis)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 14) provides genotype counts (LL, LS, SS, FS) for An. gambiae and An. arabiensis for various insecticides."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field sites in Jinja, Uganda (page 3, study site and mosquito collection)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field data and bioassays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Walukuba sub-county, Jinja district, Uganda (page 3, study site)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between July and October 2011 (page 3, study site)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections from 2011."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 7202,
+    "summary": "This study assessed insecticide resistance in field-collected Anopheles gambiae s.l. from Jinja, Uganda, in 2011. It reports high levels of pyrethroid resistance in An. gambiae s.s. and An. arabiensis, with kdr 1014S approaching fixation in An. gambiae s.s. and present at low frequency in An. arabiensis. Synergist bioassays with PBO suggest P450-mediated resistance.",
+    "exclusion_reasons": []
+  }
+}

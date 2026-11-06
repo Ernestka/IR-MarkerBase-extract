@@ -1,0 +1,69 @@
+{
+  "id": "2014_Abdalla_Insecticide_Resistance_Anopheles_Arabiensis_Sudan_PMID24886129",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex (page 2, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (referred to as 1014F) and L995S (referred to as 1014S) (page 3, 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (FF, LF, LL) for survivors and dead mosquitoes for permethrin, deltamethrin, and DDT (page 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from four sentinel sites in Gezira state, Sudan (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collections and laboratory analyses (page 2-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study identifies four specific sentinel sites: Wad Medani, Elmanagil, Wad Elhadad, and Rufaa (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between October 2008 and January 2011 (page 2, 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analyses conducted between 2008 and 2011."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in Table 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "collection_years": [
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 2270,
+    "summary": "This study monitored insecticide resistance in Anopheles arabiensis in Gezira state, Sudan, over three years (2008-2011). It found resistance to DDT and pyrethroids, which was significantly associated with the 1014F kdr mutation. Metabolic resistance mechanisms were also investigated via microarray analysis.",
+    "exclusion_reasons": []
+  }
+}

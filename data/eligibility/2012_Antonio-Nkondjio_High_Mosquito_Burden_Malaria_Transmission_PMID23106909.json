@@ -1,0 +1,68 @@
+{
+  "id": "2012_Antonio-Nkondjio_High_Mosquito_Burden_Malaria_Transmission_PMID23106909",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles ziemanni (page 3, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-west, L1014F) and Vgsc L995S (kdr-east, L1014S) (page 4, Insecticide susceptibility assays)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports that 38 of 61 An. gambiae analyzed carried the L1014F allele, with 27 homozygous and 11 heterozygous (page 4, Insecticide susceptibility assays)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the Ndogpassi district of Douala, Cameroon (page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original entomological study conducted from January to December 2011."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the Ndogpassi district of Douala, Cameroon (page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted over a 12-month period from January to December 2011 (page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific 12-month collection in Ndogpassi, Douala, in 2011."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles ziemanni"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 61,
+    "summary": "This study investigated malaria transmission and insecticide resistance in Anopheles gambiae in the Ndogpassi district of Douala, Cameroon, in 2011. It reports bioassay results for DDT, permethrin, and deltamethrin, and kdr genotyping (L1014F/S) for 61 specimens.",
+    "exclusion_reasons": []
+  }
+}

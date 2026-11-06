@@ -1,0 +1,75 @@
+{
+  "id": "2014_Ndiath_How_Malaria_Vector_Anopheles_Gambiae_PMID24892677",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L1014F (kdr-west) and L1014S (kdr-east) mutations."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides allele frequencies and genotype data (SS, RS, RR) for An. gambiae s.l. in the text and figures (e.g., Figure 1, Figure 2, Figure 3, Figure 4, Figure 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Dielmo, Senegal, from 2006 to 2011."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field data collected as part of the Dielmo Project."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study location is specified as Dielmo village, Senegal (13°43'N, 16°24'W)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers a longitudinal period from 2006 to 2011, with data analyzed by year."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is part of the long-term Dielmo Project. While it uses data from this ongoing project, it is a primary empirical analysis of specific insecticide resistance and behavioral markers."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data and bioassay-related information are provided within the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": true,
+    "sample_size": 1494,
+    "summary": "This study investigates the impact of universal LLIN coverage in Dielmo, Senegal, on Anopheles gambiae s.l. populations. It reports on kdr (L1014F/S) genotype frequencies, feeding behavior, parity, and infection rates from 2006 to 2011, demonstrating a shift in vector behavior and an increase in kdr-resistant genotypes following LLIN implementation.",
+    "exclusion_reasons": []
+  }
+}

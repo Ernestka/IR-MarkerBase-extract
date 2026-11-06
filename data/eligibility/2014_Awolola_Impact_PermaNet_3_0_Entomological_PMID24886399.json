@@ -1,0 +1,71 @@
+{
+  "id": "2014_Awolola_Impact_PermaNet_3_0_Entomological_PMID24886399",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 1, abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the presence of kdr mutations (page 3, 5, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper mentions kdr frequencies (55-78% at baseline, 52-72% after intervention) but does not provide the raw genotype counts (RR/RS/SS) or the specific number of mosquitoes genotyped for the kdr marker itself, only the total number of mosquitoes collected."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-caught mosquitoes from Remo North LGA, Ogun State, Nigeria (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original field trial study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Villages of Ilara, Irolu, and Ijesa in Remo North LGA, Ogun State, Nigeria (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Study conducted from March 2012 to March 2013 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is a new field trial in specific villages in Nigeria."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data for the study's conclusions are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 13030,
+    "summary": "A field trial in three villages in Nigeria comparing the efficacy of PermaNet 3.0, PermaNet 2.0, and untreated nets. The study confirms the presence of kdr and metabolic resistance in local Anopheles gambiae s.l. populations and evaluates the impact of the nets on entomological indices.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data",
+      "(code) model said eligible=True but required checks give False; using the checks."
+    ]
+  }
+}
