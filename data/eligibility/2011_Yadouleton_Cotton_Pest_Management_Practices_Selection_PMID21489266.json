@@ -1,0 +1,68 @@
+{
+  "id": "2011_Yadouleton_Cotton_Pest_Management_Practices_Selection_PMID21489266",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study focuses on Anopheles gambiae s.l. (An. gambiae s.s. and An. arabiensis) collected in northern Benin (Page 1, Abstract; Page 3, Mosquito collections)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for the Vgsc L995F mutation (kdr Leu-Phe, Martinez-Torres et al. 1998) and Ace-1 G280S mutation (G119S, Weill et al. 2004) (Page 3-4, Molecular characterization)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 8) provides sample sizes (N) and exact genotype counts (SS, RS, RR) and allele frequencies F(R) for both Kdr and Ace-1 across 8 study sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from field breeding sites in cotton-growing areas around Parakou, N'dali, Kandi, and Banikoara in northern Benin (Page 3, Study sites)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study investigating agricultural pesticide practices and selection of resistance in An. gambiae field populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific coordinates and locations provided for Parakou (2°62 E, 9°33 N), Kandi (2°95 E, 11°16 N; 3°08 E, 11°27 N; 2°92 E, 11°09 N), Banikoara (2°59 E, 11°31 N; 2°41 E, 11°31 N; 2°52 E, 11°29 N), and N'dali (2°70 E, 9°84 N) (Page 3, Study sites)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections and KAP surveys were conducted from June to September 2008 (Page 5, Results)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field collections in northern Benin for this study, no indication of overlap with external consortia or public repositories."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All species identification, molecular form, bioassay, and target marker genotype counts are completely presented in Table 1 and Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1400,
+    "summary": "This study evaluated the impact of cotton pest management practices (CCP, TICP, and BP programs) on pyrethroid and organophosphate resistance in Anopheles gambiae s.l. in northern Benin. Mosquito larvae were collected in 2008 across 8 locations, reared to adults, and tested via WHO discriminating dose bioassays against permethrin, deltamethrin, DDT, and bendiocarb. Molecular assays identified species, M/S forms, Vgsc L995F (kdr), and Ace-1 G280S (G119S) genotypes, showing high kdr frequencies in pesticide-treated areas and low ace-1R frequencies.",
+    "exclusion_reasons": []
+  }
+}

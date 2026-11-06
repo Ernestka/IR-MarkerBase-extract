@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**1039 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-05
+**1054 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-06
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -86,7 +86,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2008_Pages_Malaria_Transmission_Dakar_Two_Year_PMID18796138 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 7412 | 2970 |  |  |  |  | 0.0000 |
 | 2008_Pennetier_Mixture_Controlling_Insecticide_Resistant_Malaria_PMID18976553 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 3144 |  |  |  |  | 0.0000 |
 | 2008_Ridl_Pre_Intervention_Study_Malaria_Vector_PMID18823554 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.7-flash | 5852 | 2082 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
-| … 979 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| … 994 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

@@ -1,0 +1,68 @@
+{
+  "id": "2012_Dabire_Population_Dynamics_Anopheles_Gambiae_Bobo_PMID22721002",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae s.s. and An. arabiensis) in Bobo-Dioulasso, Burkina Faso."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-west) and Ace-1 G280S (ace-1R) in Tables 4 and 5."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 4 and 5 provide genotype counts (SS, RS, RR) for kdr and ace-1R mutations by species and location."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Bobo-Dioulasso, Burkina Faso (Dioulassoba and Kodeni)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical field study conducted in 2008."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies two districts in Bobo-Dioulasso: Dioulassoba and Kodeni."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was carried out from May to December 2008."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific entomological survey conducted in 2008."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay data are provided in the main text tables (Tables 2, 3, 4, and 5)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1166,
+    "summary": "This study investigated the population dynamics, Plasmodium infection rates, and insecticide resistance of Anopheles gambiae s.l. in two districts of Bobo-Dioulasso, Burkina Faso, in 2008. It reports the prevalence of An. arabiensis and An. gambiae s.s., and provides genotype frequencies for the L1014F kdr and G119S ace-1R mutations.",
+    "exclusion_reasons": []
+  }
+}

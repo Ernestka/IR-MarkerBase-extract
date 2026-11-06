@@ -1,0 +1,69 @@
+{
+  "id": "2011_Antonio-Nkondjio_Anopheles_Gambiae_Distribution_Insecticide_Resista_PMID21651761",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 5: 'Anopheles gambiae s.s. was the only anopheline species collected in both sites. Of the 495 Douala specimens successfully identified to molecular forms, 494 were of the M molecular form and one of the S molecular form. In Yaounde, out of the 382 specimens analysed 379 were of the M molecular form and 3 of the S molecular form.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 4 and 9: Screened for Vgsc 1014 kdr (L1014F and L1014S) using HOLA and TaqMan assays, and Ace-1 G119S using TaqMan assay (page 9: 'A sample of 74 anopheline tested against bendiocarb were screened for the presence of the ace-1R mutation')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 (page 11) reports Kdr genotype counts (Kdrw/Kdrw, Kdrw/KdrE, Kdrw/S, S/S) for Douala and Yaounde M and S forms (total N=781). Table 5 reports RR, RS, SS counts by breeding site type and for bioassay deaths/survivors."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: Mosquito larvae were collected from October 2009 to December 2010 in field breeding sites across ten districts of Yaounde and thirteen districts of Douala, Cameroon, and reared to adults for testing."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field collection, bioassay, and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: Collections were done in specified urban and suburban districts of Douala (e.g., Bonaberi, Bessengue, Akwa, New-Bell) and Yaounde (e.g., Mokolo, Messa, Etoug-Ebe, Ngousso, Nkolbisson) as well as rural control sites."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2: Field collections were carried out quarterly from October 2009 to December 2010 (a 15-month collection period)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study reports original sampling conducted specifically for this project between October 2009 and December 2010."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype breakdown, sample sizes, and bioassay phenotype data are present within the main text figures and tables (Tables 4, 5, 6)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2009,
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 781,
+    "summary": "Primary field study investigating Anopheles gambiae s.s. larval breeding site characteristics, WHO insecticide susceptibility (DDT, permethrin, deltamethrin, bendiocarb, malathion), and target-site mutations (Vgsc L1014F, L1014S, and Ace-1 G119S) in Douala and Yaounde, Cameroon, collected between October 2009 and December 2010.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2011_Ngufor_Combining_Indoor_Residual_Spraying_Chlorfenapyr_PMID22087506",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 4, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for the kdr gene (Vgsc L995F/S) in Anopheles gambiae (page 3, Molecular assays; page 6, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 6 provides the number of kdr alleles and total alleles for both alive and dead mosquitoes across different treatments."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted in Akron, Benin, using field-collected mosquitoes (page 2, Study site and experimental huts)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an experimental hut trial conducted by the authors (page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Akron, a village on the periphery of Porto Novo, Benin (page 2, Study site and experimental huts)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between June and September 2010 (page 3, Insecticide treatments)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a specific experimental hut trial conducted in 2010."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F/S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 100,
+    "summary": "This study evaluated the efficacy of combining chlorfenapyr IRS with pyrethroid-treated LLINs against pyrethroid-resistant Anopheles gambiae in experimental huts in Benin. It also genotyped mosquitoes for kdr resistance to assess if the combination treatment selected for resistance.",
+    "exclusion_reasons": []
+  }
+}

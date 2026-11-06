@@ -1,0 +1,67 @@
+{
+  "id": "2011_Norris_Efficacy_Long_Lasting_Insecticidal_Nets_PMID21880143",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis (page 1, abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotyped for kdr L1014F and L1014S (page 5, 'kdr genotyping')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports that 50 colony, 50 archived field, and 170 F1 field mosquitoes were genotyped and all were homozygous wild-type (page 5, 'kdr genotyping')."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from villages in Macha, Zambia (page 3, 'Study area')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting bioassays and genotyping on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for Chidakwa and Lupata villages in Macha, Zambia (page 3, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in January 2010 (page 3, 'Study area')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, independent collection of mosquitoes and LLINs in 2009-2010."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Zambia"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 270,
+    "summary": "This study evaluated the efficacy of LLINs in Macha, Zambia, and assessed insecticide resistance in the local Anopheles arabiensis population. The study found no kdr mutations (L1014F/S) in the population and high susceptibility to pyrethroids in bottle bioassays, though some reduced mortality was observed in ITN bioassays.",
+    "exclusion_reasons": []
+  }
+}

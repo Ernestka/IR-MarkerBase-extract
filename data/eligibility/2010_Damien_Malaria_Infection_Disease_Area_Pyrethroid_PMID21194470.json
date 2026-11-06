@@ -1,0 +1,69 @@
+{
+  "id": "2010_Damien_Malaria_Infection_Disease_Area_Pyrethroid_PMID21194470",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": " Mosquitoes collected by human landing catches were identified as Anopheles gambiae s.l. and Anopheles funestus (Page 3, Entomological measurements; Page 5, Entomological indexes)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The authors genotyped the L1014F kdr allele using the Martinez-Torres method (Page 3, Laboratory examination) and reported its frequency in M and S molecular forms of An. gambiae s.s. (Page 5, Entomological indexes)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5 reports that a total of 115 An. gambiae s.l. mosquitoes were collected and analyzed, with L1014F kdr allele frequencies of 0.47 (95% CI: 0.37-0.57) in the M form and 0.61 (95% CI: 0.43-0.80) in the S form."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult mosquitoes were collected using human landing catches between December 2007 and November 2008 in seven villages in the Ouidah-Kpomassè-Tori Bossito health district, southern Benin (Page 2, Site description & Sampling; Page 3, Entomological measurements)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical epidemiological and entomological field study conducted in southern Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 (Page 3) lists 7 specific villages (Aïdjèdo, Dokanmè, Kindjitokpa, Guézohoué, Hèkandji, Satré, Wanho) along with their spatial coordinates in the Ouidah-Kpomassè-Tori Bossito health district."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collection and clinical monitoring took place from December 2007 to November 2008 (Page 2, Site description)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper describes a standard primary field study carried out in southern Benin without indication of dataset duplication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary entomological and kdr genotype frequency data mentioned in the study are reported directly within the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2007,
+      2008
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 115,
+    "summary": "This longitudinal epidemiological and entomological study evaluated malaria infection, disease, and vector control in seven villages of the Ouidah-Kpomassè-Tori Bossito health district in southern Benin from December 2007 to November 2008. Field-caught Anopheles gambiae s.l. (115 specimens) were molecularly identified to M and S forms and genotyped for the Vgsc L1014F (kdr-west) mutation, yielding allele frequencies of 0.47 in the M form and 0.61 in the S form.",
+    "exclusion_reasons": []
+  }
+}

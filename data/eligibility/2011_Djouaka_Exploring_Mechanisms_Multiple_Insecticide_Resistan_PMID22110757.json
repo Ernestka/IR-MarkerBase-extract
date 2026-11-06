@@ -1,0 +1,69 @@
+{
+  "id": "2011_Djouaka_Exploring_Mechanisms_Multiple_Insecticide_Resistan_PMID22110757",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus, a malaria vector."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F) and Ace-1 G280S (G119S) using pyrosequencing (page 2, 5, 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports genotyping results for 50 field-collected mosquitoes for kdr and Ace-1 (page 5, 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Pahou, Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field and laboratory data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study location is specified as Pahou, Southern Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were carried out between July 2009 and April 2011 (page 2, 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection and analysis of Anopheles funestus from Pahou, Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including primer sequences, bioassay results, and genotyping summaries, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2009,
+      2010,
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 50,
+    "summary": "This study investigates insecticide resistance mechanisms in an Anopheles funestus population from Pahou, Benin. It reports high resistance to DDT, permethrin, and bendiocarb, but susceptibility to malathion. Genotyping for kdr (L1014F) and Ace-1 (G119S) mutations in 50 field-collected mosquitoes showed no presence of these mutations. Metabolic resistance mechanisms were explored via biochemical assays and qPCR, identifying overexpression of GSTe2, CYP6P9a, and CYP6P9b.",
+    "exclusion_reasons": []
+  }
+}

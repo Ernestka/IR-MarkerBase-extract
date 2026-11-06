@@ -1,0 +1,67 @@
+{
+  "id": "2012_Oduola_Evidence_Carbamate_Resistance_Urban_Populations_PMID22686575",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 1, abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (kdr-w) and Ace-1 G280S (Ace-1R) (page 4, methods; page 6, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 6 provides genotype counts (SS, RS, RR) for the kdr mutation across 11 study localities."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from 11 field sites in Lagos, Nigeria (page 2, methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study reporting new field data (page 1, abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for 11 specific communities/localities in Lagos State (Table 1, page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae were collected from June to August 2010 (page 2, methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of mosquitoes in 2010."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and study locations, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 220,
+    "summary": "This study investigated insecticide resistance in Anopheles gambiae s.s. populations from 11 urban localities in Lagos, Nigeria. It reports resistance to DDT, deltamethrin, and propoxur, and provides genotype counts for the kdr-w (L995F) mutation.",
+    "exclusion_reasons": []
+  }
+}

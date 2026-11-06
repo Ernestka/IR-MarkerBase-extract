@@ -1,0 +1,69 @@
+{
+  "id": "2011_Kawada_Distribution_Knockdown_Resistance_Mutation_L1014S_PMID21931682",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-06",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. and Anopheles arabiensis."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports the L1014S (kdr) mutation in the voltage-gated sodium channel."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides counts of sites where mutations were found and frequencies (e.g., page 2, Results: 'Among the 99 sites where An. gambiae s.s. larvae were collected, L1014S mutations were found in 72 sites (72.7%), and allelic and homozygous frequencies were >50% at 57 (57.6%) and 44 (44.4%) sites, respectively.')"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from field breeding habitats in southern and western Kenya."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and DNA sequencing of mosquito larvae."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites by district (e.g., Busia, Butere Mumias, Bungoma, Lugari, Kakamega, Bondo, Kisumu, Nyando, Rachuonyo, Homa Bay, and Suba)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection dates are specified as May 12, 2008 to December 11, 2010."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of larvae across southern and western Kenya."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data regarding genotype frequencies and site distributions are provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2008,
+      2009,
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study investigated the distribution of the L1014S kdr mutation in Anopheles gambiae s.s. and Anopheles arabiensis larvae collected from 376 breeding sites in southern and western Kenya between 2008 and 2010. The study found high allelic and homozygous frequencies of the L1014S mutation in An. gambiae s.s. and confirmed its presence in An. arabiensis, suggesting introgression via hybridization.",
+    "exclusion_reasons": []
+  }
+}
