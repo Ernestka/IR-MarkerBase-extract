@@ -1,0 +1,65 @@
+{
+  "id": "2017_Porciani_Influence_Pyrethroid_Treated_Bed_Net_PMID28759566",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae sensu stricto laboratory strains."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the kdr (L1014F) mutation."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper uses laboratory-reared strains (Kisumu, kdr-kis, and their F1 progeny) with known genotypes. It does not report genotype counts or frequencies for field-collected populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory reference strains (Kisumu and kdr-kis) and their crosses, not field-caught mosquitoes."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study using a dual-choice olfactometer."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses laboratory strains; no field collection location is relevant."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study uses laboratory strains; no field collection date is relevant."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses established laboratory strains."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data is presented in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 6286,
+    "summary": "This study investigates the host-seeking behavior of laboratory-reared Anopheles gambiae s.s. strains (susceptible Kisumu and resistant kdr-kis) in a dual-choice olfactometer. It does not involve field-collected mosquitoes or report genotype frequencies for wild populations.",
+    "exclusion_reasons": [
+      "The study uses laboratory-reared strains, not field-collected mosquitoes.",
+      "The study does not report genotype counts or frequencies for field-collected populations."
+    ]
+  }
+}

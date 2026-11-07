@@ -1,0 +1,68 @@
+{
+  "id": "2017_Chouaibou_First_Report_East_African_Kdr_PMID28317032",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995S (East-kdr) and Vgsc L995F (West-kdr) (page 3, 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper states that 30 mosquitoes were genotyped for East-kdr, and one was found to be heterozygous (page 3, 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field breeding sites in Yamoussoukro, Côte d'Ivoire (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research note reporting new field data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the location as rice fields at the outskirts of the city of Yamoussoukro (6°49′13″ N/5°16′36″ W) (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection occurred in October 2015 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes a specific, small-scale monitoring event in 2015. While it mentions being part of a larger monitoring study, the data presented is specific to this collection."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data (sample size and results) is provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 30,
+    "summary": "This study reports the first detection of the East-African kdr mutation (Vgsc L995S) in a single heterozygous Anopheles gambiae s.l. specimen collected in Yamoussoukro, Côte d'Ivoire, in 2015. The study also includes insecticide susceptibility bioassays for deltamethrin, malathion, bendiocarb, and DDT.",
+    "exclusion_reasons": []
+  }
+}

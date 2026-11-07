@@ -1,0 +1,76 @@
+{
+  "id": "2017_Irving_Investigating_Knockdown_Resistance_Kdr_Mechanism_PMID28793859",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper investigates Anopheles funestus s.s. (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F) and L995S (L1014S) (page 4), and identifies other mutations like L928R, L802S, and T1008M (pages 4, 6, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 7) provides summary statistics for polymorphism including number of sequences (N) and number of haplotypes (h) for populations in Benin, Uganda, Kenya, and Malawi."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Zambia, Malawi, Mozambique, Uganda, and Benin (Methods, page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection, sequencing, and pyrosequencing of mosquito samples."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper specifies locations such as Mbinga (Katete District), Chikwawa District, Tihuquine (Chokwe District), Tororo, and Pahou (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection dates are provided for specific sites, e.g., Zambia (2010), Malawi (2009-2010), Mozambique (2009) (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analyses of Anopheles funestus populations."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data for the assessment is contained within the main text and tables of the provided PDF."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc L928R",
+      "Vgsc L802S",
+      "Vgsc T1008M"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Zambia",
+      "Malawi",
+      "Mozambique",
+      "Uganda",
+      "Benin",
+      "Kenya"
+    ],
+    "collection_years": [
+      2009,
+      2010
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 100,
+    "summary": "This study investigated the role of knockdown resistance (kdr) in Anopheles funestus across Africa. The authors genotyped the VGSC gene in field-collected mosquitoes from Zambia, Malawi, Mozambique, Uganda, and Benin. They found no evidence of the common L1014F/S mutations but identified other rare mutations (L928R, L802S, T1008M) and high polymorphism, concluding that kdr plays a limited role in pyrethroid resistance in this species compared to metabolic resistance.",
+    "exclusion_reasons": []
+  }
+}

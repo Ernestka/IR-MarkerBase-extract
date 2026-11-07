@@ -1,0 +1,66 @@
+{
+  "id": "2016_Baffour-Awuah_Insecticide_Resistance_Malaria_Vectors_Kumasi_PMID27927238",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 3: 'PCR for species identification of An. coluzzii, An. gambiae (s.s.) and An. arabiensis was performed...'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 3: 'The allele specific PCR procedure for kdr genotyping was intended to detect the West African kdr allele, L1014F... Similarly, PCR to detect ace-1 G119S mutation as described by Weill et al. was carried out...'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 4 Table 2 reports total counts and kdr-resistant/sensitive counts for An. gambiae (s.s.) (329/537 resistant) and An. coluzzii (75/82 resistant). Table 3 provides detailed breakdown by bioassay status (dead vs alive)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: 'Anopheles larvae and pupae were sampled from major open-spaced irrigated vegetable farms in the submetropolis [Asokwa submetropolis, Kumasi, Ghana] and reared to adults in an insectary.'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study presents original empirical research on insecticide susceptibility and target-site resistance markers in field-collected vector populations from Kumasi, Ghana."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: 'Asokwa submetropolis in Kumasi Metropolis', Ashanti Region, Ghana."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The manuscript specifies sampling locations and ethics approval year (2014, Ref CHRPE/AP/343/14), but does not explicitly state the exact year(s) of larval collection."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary study conducted by KCCR and KNUST researchers; no indication of overlap with external genomic consortia or published datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All species identification, bioassay, and genotype data are fully reported in Tables 1-3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 619,
+    "summary": "This study evaluated insecticide susceptibility and target-site resistance markers (Vgsc L1014F and Ace-1 G119S) in Anopheles gambiae s.s. and Anopheles coluzzii reared from larval collections in irrigated vegetable farms in Asokwa submetropolis, Kumasi, Ghana. High frequencies of the Vgsc L1014F (L995F) mutation were detected in both species (61% in An. gambiae s.s., 91% in An. coluzzii), while the Ace-1 G119S (G280S) mutation was absent.",
+    "exclusion_reasons": []
+  }
+}

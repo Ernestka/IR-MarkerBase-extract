@@ -1,0 +1,71 @@
+{
+  "id": "2017_Alemayehu_Mapping_Insecticide_Resistance_Characterization_Re_PMID28865490",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (kdr L1014F), Vgsc L995S (kdr L1014S), Vgsc N1575Y (N1570Y), and Ace-1 G119S (G280S) (Page 4, Methods; Page 5, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (SS, RS, RR) and allele frequencies for kdr L1014F in multiple populations (Page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Anopheles arabiensis from nine sites in Ethiopia (Page 2, Methods; Page 3, Fig 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research paper reporting original field and laboratory data (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for nine specific study sites: Mankush, Chewaka, Tolay, Asendabo, Bako, Sodore, Shellemele, Goro, and Guba Hora (Page 2, Methods; Page 3, Fig 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection years from 2013 to 2015 (Page 3, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and primary data analysis."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1575Y",
+      "Ace-1 G119S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 320,
+    "summary": "This study monitored insecticide resistance in Anopheles arabiensis across nine sites in Ethiopia from 2013 to 2015. It performed WHO bioassays and genotyped for kdr (L1014F, L1014S, N1575Y) and Ace-1 (G119S) mutations. It also assessed metabolic resistance mechanisms (GSTs, esterases, P450s). High kdr L1014F frequency was found, and elevated GST activity was detected in some populations.",
+    "exclusion_reasons": []
+  }
+}

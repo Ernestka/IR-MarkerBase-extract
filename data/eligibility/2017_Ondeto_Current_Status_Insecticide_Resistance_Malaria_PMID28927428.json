@@ -1,0 +1,93 @@
+{
+  "id": "2017_Ondeto_Current_Status_Insecticide_Resistance_Malaria_PMID28927428",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper focuses on Anopheles malaria vectors in Kenya."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on kdr mutations (L1014S and L1014F) and metabolic resistance mechanisms (monooxygenases, carboxylesterase, GST)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper is a review/compilation of previously published and unpublished data. It does not provide primary genotype counts (RR/RS/SS) or allele frequencies for specific populations in the text or tables; it only summarizes findings from other sources."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study compiles data from field-collected mosquitoes in Kenya."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a review/compilation paper that assembles a database from existing literature and reports, rather than a primary empirical study generating new genotype data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 lists study sites at the district/village level."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study compiles data from various years, and the methodology specifies extracting data by collection period."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it is a compilation of previously published literature and unpublished reports to create a database (IRBase)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper is a review/compilation and does not contain the primary data required for the database."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a review and compilation of existing insecticide resistance data (susceptibility and mechanisms) in Kenya from 1994 to 2015 to create a national database (IRBase). It does not report primary genotype data.",
+    "exclusion_reasons": [
+      "Not a primary empirical study (it is a review/compilation of existing data).",
+      "Does not report extractable primary genotype data (counts/frequencies)."
+    ]
+  }
+}

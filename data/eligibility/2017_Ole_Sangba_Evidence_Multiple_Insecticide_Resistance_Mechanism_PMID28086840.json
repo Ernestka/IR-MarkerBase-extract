@@ -1,0 +1,68 @@
+{
+  "id": "2017_Ole_Sangba_Evidence_Multiple_Insecticide_Resistance_Mechanism_PMID28086840",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Immature stages of mosquitoes were collected in 7 districts of Bangui and adult Anopheles gambiae were identified morphologically and by PCR-RFLP (page 3-4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014F (kdr-w), Vgsc L1014S (kdr-e), and Ace-1 G119S (page 4, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides exact genotype counts (RwRw, RwS, ReRe, ReS, SS) and sample size (n = 30 per district, total n = 210) for 7 districts in Bangui (page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from 7 districts in Bangui, Central African Republic between September and November 2014 and reared to adults (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collections, WHO susceptibility bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples are broken down by 7 districts of Bangui: Gbanikola, Pk 10, Ouango, Cattin, Centre-ville, Yapele, and Petevo (page 2, 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval sampling was carried out between September to November 2014 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The samples represent routine field collections performed in Bangui in 2014 specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and sample sizes are fully presented in Table 1 in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Central African Republic"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 210,
+    "summary": "This study evaluated insecticide susceptibility and resistance mechanisms in Anopheles gambiae across seven districts of Bangui, Central African Republic in 2014. High resistance to pyrethroids and DDT was observed along with emerging resistance to bendiocarb. Genotyping of 210 An. gambiae revealed high frequencies of Vgsc L995F (L1014F) (93.3-100%), whereas Vgsc L995S (L1014S) and Ace-1 G280S (G119S) were completely absent.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2017_Allossogbe_WHO_Cone_Bio_Assays_Classical_PMID28202024",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. larvae were collected from field sites in Benin and reared to adults for bioassays and molecular testing (page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study evaluated the kdr L1014F (Vgsc L995F) mutation by PCR (page 3, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Table 1 presents kdr allele frequencies for 10 field sites in Benin (ranging from 0.03 to 0.93), but does not state the number of mosquitoes genotyped by PCR or provide raw genotype counts (RR, RS, SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from 10 field locations across 7 departments in Benin (Abomey-Calavi, Cotonou [Houeyiho, Vossa, Ladji], Porto-Novo [Akron, Agblangandan], Zangnanado [Bame], Parakou, Malanville, Tanguieta) between June 2015 and March 2016 (pages 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical research study evaluating bio-efficacy of LLINs and characterising resistance mechanisms in field populations of An. gambiae s.l. in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred in specific locations in Benin including Malanville, Tanguieta, Abomey-Calavi, Cotonou (Houeyiho, Vossa, Ladji), Porto-Novo (Akron, Agblangandan), Parakou, and Zangnanado (Bame) (page 3, Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito samples were collected from June 2015 to March 2016 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The field collections were conducted specifically for this study in Benin from June 2015 to March 2016."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Page 10 states 'Data collected during this study are included in the published article and its additional files.' Additional file 1 or supplementary tables may contain the sample sizes or genotype counts for PCR assays."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the bio-efficacy of five LLIN types (LifeNet, Olyset Net, Olyset Plus, PermaNet 2.0, PermaNet 3.0) using WHO cone assays on field-collected Anopheles gambiae s.l. from 10 locations in Benin. While biochemical enzyme activities and kdr (L1014F) allele frequencies were reported for each population in Table 1, the number of mosquitoes genotyped for kdr was not reported, rendering the genotype data unextractable.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data is not met because the paper reports kdr (L1014F) allele frequencies in Table 1 without providing the number of mosquitoes genotyped by PCR or raw genotype counts (RR/RS/SS)."
+    ]
+  }
+}

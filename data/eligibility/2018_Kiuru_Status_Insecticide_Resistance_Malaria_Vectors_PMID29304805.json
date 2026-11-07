@@ -1,0 +1,73 @@
+{
+  "id": "2018_Kiuru_Status_Insecticide_Resistance_Malaria_Vectors_PMID29304805",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.l. (Page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (kdr-west) and Vgsc L995S (kdr-east) (Page 3, Detection of kdr mutations; Page 5, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (RR, RS, SS) for L1014S in An. gambiae s.s. (Page 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Kwale County, Kenya (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collection and laboratory analysis (Page 2-3, Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for two specific villages: Marigiza and Kidomaya in Kwale County (Page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in July and August 2015 (Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of mosquitoes in 2015."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is included in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis",
+      "Anopheles funestus s.s.",
+      "Anopheles leesoni",
+      "Anopheles parensis",
+      "Anopheles rivulorum",
+      "Anopheles vaneedeni"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 300,
+    "summary": "This study investigated insecticide resistance in malaria vectors in Kwale County, Kenya, in 2015. It reports phenotypic resistance to pyrethroids and low frequency of the L1014S kdr mutation in An. gambiae s.s.",
+    "exclusion_reasons": []
+  }
+}

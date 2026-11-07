@@ -1,0 +1,69 @@
+{
+  "id": "2017_Abeku_Insecticide_Resistance_Patterns_Uganda_Effect_PMID28427415",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. and Anopheles arabiensis (page 4, 6, 7)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotype data for Vgsc L995S (kdr L1014S), Vgsc L995F (kdr L1014F), and Ace-1 G280S (ace-1 G119S) (page 4, 7, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (SS, RS, RR) for kdr L1014S in An. gambiae s.s. and An. arabiensis by district (page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in nine districts of Uganda (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and molecular analysis of mosquitoes (page 2, 3, 4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided at the district level (e.g., Apac, Gulu, Pader, etc.) and study sites are mapped in Figure 1 (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The entomological survey was carried out during September–October 2012 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, new entomological survey conducted in 2012."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts are provided in Table 2."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2548,
+    "summary": "This study investigated the effect of bendiocarb IRS on kdr L1014S frequencies in Anopheles gambiae s.s. and Anopheles arabiensis in nine districts of Uganda. Genotype data for kdr L1014S is provided in Table 2, and Ace-1 G119S was also screened.",
+    "exclusion_reasons": []
+  }
+}
