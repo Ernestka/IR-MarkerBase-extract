@@ -1,0 +1,68 @@
+{
+  "id": "2018_Mint_Mohamed_Lemine_Pyrethroid_Resistance_Major_Malaria_Vector_PMID29895314",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles arabiensis, a member of the Anopheles gambiae complex (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (West African kdr) and Vgsc L995S (East African kdr) (page 4, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 2 and the text on page 5 provide the specific counts for genotypes: RwRw (38), SS (16), ReRe (15), and RwS (1) out of 70 genotyped mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from breeding sites in Nouakchott, Mauritania (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study presenting original field collection and laboratory analysis data (page 3, 4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies two collection sites in Nouakchott: Lycée de Teyarett and Carrefour Ould Badou, with coordinates provided (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers collections from 2015 and 2016 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted in 2015 and 2016."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Mauritania"
+    ],
+    "collection_years": [
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 70,
+    "summary": "This study evaluated insecticide resistance in Anopheles arabiensis in Nouakchott, Mauritania, using WHO bioassays and molecular genotyping for kdr mutations. The study found high levels of pyrethroid resistance and the presence of both West (L1014F) and East (L1014S) African kdr alleles.",
+    "exclusion_reasons": []
+  }
+}

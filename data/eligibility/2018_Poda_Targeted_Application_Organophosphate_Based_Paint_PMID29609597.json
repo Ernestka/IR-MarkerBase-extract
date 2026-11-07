@@ -1,0 +1,67 @@
+{
+  "id": "2018_Poda_Targeted_Application_Organophosphate_Based_Paint_PMID29609597",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii (formerly Anopheles gambiae form M) in the Kou Valley, Burkina Faso (page 2, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F) and Ace-1 G280S (G119S) (page 4, 7, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (SS, RS, RR) and allele frequencies for L1014F and G119S for two study arms (page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted on field-collected Anopheles coluzzii from VK3 village, Burkina Faso (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical field study evaluating an insecticide paint intervention."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in VK3 village, Kou Valley, Burkina Faso (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from August to December 2013 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper describes a new field study in VK3 village, distinct from previous studies in VK1 and VK7 (page 2, 7)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 101,
+    "summary": "This study evaluated the efficacy of an organophosphate-based insecticide paint (Inesfly 5A IGR) applied to doors and windows in VK3 village, Burkina Faso. The study monitored mortality rates of field-collected Anopheles coluzzii and genotyped for kdr (L1014F) and ace-1 (G119S) mutations. Results showed high kdr frequency and low ace-1 frequency in the population.",
+    "exclusion_reasons": []
+  }
+}

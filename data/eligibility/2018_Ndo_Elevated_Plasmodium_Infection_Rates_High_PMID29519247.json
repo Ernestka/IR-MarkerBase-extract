@@ -1,0 +1,70 @@
+{
+  "id": "2018_Ndo_Elevated_Plasmodium_Infection_Rates_High_PMID29519247",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus and Anopheles gambiae (s.l.) in Cameroon."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F) and Vgsc L995S (L1014S) in An. gambiae (page 3, 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports the frequency of L1014F (98.72%) and L1014S (7.95%) mutations in An. gambiae (page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Obout, Cameroon (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical field study conducted between 2014 and 2016."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Obout, a village near Mfou, Cameroon (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study period was from July 2014 to May 2016 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific, localized collection effort in Obout, Cameroon, between 2014 and 2016."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2014,
+      2015,
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 50,
+    "summary": "This study evaluated entomological indices and insecticide resistance in Anopheles funestus and Anopheles gambiae in Obout, Cameroon. It reports high Plasmodium infection rates and high pyrethroid resistance. Kdr mutations (L1014F and L1014S) were genotyped in 50 F0 An. gambiae mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

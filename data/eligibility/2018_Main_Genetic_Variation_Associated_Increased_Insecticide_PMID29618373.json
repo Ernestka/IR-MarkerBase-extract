@@ -1,0 +1,69 @@
+{
+  "id": "2018_Main_Genetic_Variation_Associated_Increased_Insecticide_PMID29618373",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles coluzzii and Anopheles gambiae."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for kdr (Vgsc L995F/S) on page 4, Figure 2."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 2 on page 6 provides sample sizes and resistance proportions for specific kdr and cyp-1/cyp-2 genotypes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses An. coluzzii colonies from Mali (MOPTI, Selenkenyi) and An. gambiae from Mali (pimperena)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study performing bioassays, RNA-seq, and genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies southern Mali and named colonies (MOPTI, Selenkenyi, pimperena)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study compares a 1995 colony and a 2014 colony, with specific collection years provided."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new bioassays and RNA-seq experiments on specific laboratory colonies."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data is provided in Figure 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Mali"
+    ],
+    "collection_years": [
+      1995,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 263,
+    "summary": "This study investigates insecticide resistance in Anopheles coluzzii from Mali by comparing a 1995 susceptible colony and a 2014 resistant colony. It uses bottle bioassays, RNA-seq, and genotyping of kdr and cyp-1/cyp-2 haplotypes to link genetic variation to permethrin resistance.",
+    "exclusion_reasons": []
+  }
+}

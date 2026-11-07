@@ -1,0 +1,70 @@
+{
+  "id": "2017_Nardini_Malaria_Vectors_Democratic_Republic_Congo_PMID29115954",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. and Anopheles funestus (page 3, 'Entomological surveys and mosquito collections' and 'Species identification')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotypes Vgsc L995F (L1014F), Vgsc L995S (L1014S), Ace-1 G280S (G119S), and Rdl A296G (page 4, 'Molecular evaluation of resistance mechanisms in Anopheles gambiae s.s.')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 2 and page 8 report exact genotype counts: for kdr (N=55): RS (east) = 3, RR (east) = 29, RR (west) = 5, ReRw = 13, and 5 failed to amplify. For rdl (N=33): 1 RS, 32 SS. For ace-1 (N=47): 0 mutants detected (all SS, page 9)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected at the Kibali Gold Mine in the Moto goldfields, north-eastern DRC in March/April 2011 and July 2012 (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field research article measuring insecticide resistance and mechanisms in field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Kibali Gold Mine in the Moto goldfields, north-eastern DRC (N03°08.846' E29°36.548') (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Surveys were conducted in March/April 2011 and July 2012, with molecular evaluations performed on the 2012 collections (pages 3-4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field collections conducted specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary target-site genotype counts, bioassay results, and collection site coordinates are fully provided in the main article text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296G"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 55,
+    "summary": "This study collected Anopheles gambiae s.s. and Anopheles funestus in 2011 and 2012 from Kibali Gold Mine, DRC. Standard WHO bioassays and synergist tests were performed, alongside qPCR and microarray expression analyses. Target-site mutations (Vgsc L1014F, L1014S, Rdl A296G, and Ace-1 G119S) were genotyped in An. gambiae s.s. with extractable genotype counts and linked bioassay phenotypes.",
+    "exclusion_reasons": []
+  }
+}

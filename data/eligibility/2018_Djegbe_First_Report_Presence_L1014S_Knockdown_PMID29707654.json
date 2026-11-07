@@ -1,0 +1,72 @@
+{
+  "id": "2018_Djegbe_First_Report_Presence_L1014S_Knockdown_PMID29707654",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae s.s. and An. coluzzii) in Togo."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F), Vgsc L995S (L1014S), Vgsc N1575Y (N1575Y), and Ace-1 G119S (G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides sample sizes (N) and allelic frequencies for L1014F, L1014S, N1575Y, and G119S for both An. coluzzii and An. gambiae s.s. across the study sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study collected field-caught indoor-resting female Anopheles mosquitoes from three rural sites in Togo."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical research article reporting new field data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific locations (Kovié, Nangbéto, Mango) and geographic coordinates in Table 1."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection dates from December 2013 to April 2015, which is within a 3-year window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted between 2013 and 2015."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including sample sizes and allele frequencies, are provided in the main text tables (Table 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1575Y",
+      "Ace-1 G119S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Togo"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 216,
+    "summary": "This study investigated insecticide resistance in Anopheles gambiae s.l. populations from three rural sites in Togo. It reports the presence of kdr mutations (L1014F, L1014S, N1575Y) and the Ace-1 G119S mutation, providing allele frequencies for both An. gambiae s.s. and An. coluzzii.",
+    "exclusion_reasons": []
+  }
+}

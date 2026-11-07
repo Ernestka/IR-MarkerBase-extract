@@ -1,0 +1,70 @@
+{
+  "id": "2018_Camara_Mapping_Insecticide_Resistance_Anopheles_Gambiae_PMID29310704",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae (s.l.), specifically An. gambiae (s.s.) and An. coluzzii collected across Côte d'Ivoire (Page 1, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014F (L995F) and Ace-1 G119S (G280S) by PCR and PCR-RFLP (Page 3, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 reports sample sizes (n) and allele frequencies for kdr L1014F and ace-1R G119S across 29 localities by species (An. coluzzii, An. gambiae s.s., and An. gambiae s.l. combined)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected between June 2013 and December 2015 from breeding sites across 35 localities in Côte d'Ivoire and reared to adult stage for testing (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field study reporting original bioassay, biochemical, and molecular marker frequency data collected from 35 sentinel sites between 2013 and 2015, alongside a literature synthesis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data reported for 35 specific sampling localities across Côte d'Ivoire (e.g., Abengourou, Agboville, Agnibilekro, Bondoukou, Daloa, Korhogo, Tiassalé, Yopougon, etc.; Fig. 1, Tables 1-4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field sampling was conducted between June 2013 and December 2015 (Page 2), a 2.5-year collection window."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper includes primary data from 2013-2015 collected under the NMCP initiative, along with references to published literature for a complete national mapping."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All site-specific genotype frequencies, sample sizes, bioassay results, and enzyme activities are fully presented in main text Tables 1, 2, 3, and 4."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1420,
+    "summary": "This study maps insecticide resistance and underlying mechanisms in Anopheles gambiae (s.l.) across Côte d'Ivoire. Primary field surveys conducted between 2013 and 2015 in 35 sentinel sites evaluated WHO susceptibility to pyrethroids, organochlorines, carbamates, and organophosphates. Genotyping of unexposed control mosquitoes identified high frequencies of Vgsc L1014F (0.40-1.00) and low-to-moderate frequencies of Ace-1 G119S (0.00-0.50) across vector populations.",
+    "exclusion_reasons": []
+  }
+}

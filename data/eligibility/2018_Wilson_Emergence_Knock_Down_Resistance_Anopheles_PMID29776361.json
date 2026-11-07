@@ -1,0 +1,70 @@
+{
+  "id": "2018_Wilson_Emergence_Knock_Down_Resistance_Anopheles_PMID29776361",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the Anopheles gambiae complex (An. arabiensis, An. gambiae s.s., An. coluzzii) in The Gambia."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotypes for Vgsc-1014F (kdr-west) and Vgsc-1014S (kdr-east) in Table 1."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts (wild type, heterozygous 1014F, homozygous 1014F, heterozygous 1014S, homozygous 1014S) for each species and year."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the Upper River Region of The Gambia."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study analyzing entomological and epidemiological data collected during a 2-year trial."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for 32 entomological sampling sites in the Upper River Region of The Gambia (Fig. 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers the 2010 and 2011 transmission seasons."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states it is a secondary analysis of a cluster-randomised controlled trial (Pinder et al. 2014), but the entomological data and kdr genotyping presented here are specific to this study's analysis of resistance and malaria infection."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts are provided in Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "The Gambia"
+    ],
+    "collection_years": [
+      2010,
+      2011
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 6828,
+    "summary": "This study analyzed the temporal and spatial distribution of Vgsc-1014 mutations in the Anopheles gambiae complex in the Upper River Region of The Gambia during 2010 and 2011. It found that the Vgsc-1014F mutation increased significantly in An. gambiae s.s. over the study period and was associated with increased childhood malaria infection, although this was confounded by the colinearity between the mutation and the species composition.",
+    "exclusion_reasons": []
+  }
+}
