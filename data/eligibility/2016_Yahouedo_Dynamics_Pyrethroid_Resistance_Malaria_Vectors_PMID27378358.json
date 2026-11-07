@@ -1,0 +1,70 @@
+{
+  "id": "2016_Yahouedo_Dynamics_Pyrethroid_Resistance_Malaria_Vectors_PMID27378358",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Abstract (page 1): 'Sibling species within Anopheles gambiae complex were identified by PCR techniques... in both An. gambiae and An. coluzzii.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Methods (page 3): 'The 1014 F and 1014S kdr mutations were detected by allelic discrimination Taqman assays as described by Bass [17] on field non-exposed females.' Results (page 4 and Table 4, page 7): reports 1014F frequencies."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 (page 7): 'Kdr allelic frequencies in An. coluzzi and An. gambiae. f(1014)F was determined by qPCR. N represents the number of alleles tested' gives the frequency and N of alleles tested across 13 villages for 5 collection timepoints between 2012 and 2014."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Methods (page 2): 'The thirteen villages, selected on the basis of entomological and epidemiological criteria, were located in southeast Benin. They belonged to four districts: Ifangni, Sakete, Pobe, Ketou and were visited for mosquito collection (Table 1).'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study is a primary field trial monitoring mosquito resistance and allele frequencies twice a year from 2012 to 2014 across 13 villages in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 (page 2) lists districts (Ifangni, Sakete, Pobe, Ketou) with coordinates; Table 4 (page 7) details results by individual villages: Adjozoume, Agbarou, Alabansa, Djohounkole, Idena3, Igbo-abikou, Itasumba, Ketougbekon, Ko-aidjedo, Ko-Dogba, Kokoumolou, Tchaada, and Zihan."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Methods (page 2): 'The larval sampling periods were June to August 2012 (termed June 2012), October to November 2012 (termed October 2012), May to July 2013 (termed June 2013), October to November 2013 (termed October 2013) and June to August 2014 (termed June 2014).'"
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Funding (page 8): 'This research forms part of a multi-country study coordinated by the Global Malaria Program of the World Health Organization.' Also page 8: 'The present study was part of a multidisciplinary project funded by the Bill & Melinda Gates Foundation that aims at addressing whether insecticide resistance can impact on the effectiveness of malaria vector control tools in Africa.'"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All kdr allelic frequency data and sample counts (N of alleles) per village, species, and sampling period are reported in Table 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study monitored phenotypic deltamethrin resistance and Vgsc L995F (1014F) and L995S (1014S) kdr frequencies longitudinally across 13 villages in Plateau Department, southern Benin, from 2012 to 2014. Table 4 provides extractable 1014F allele frequencies and total allele counts by village, species (An. coluzzii and An. gambiae), and survey period.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2016_Opondo_Does_Insecticide_Resistance_Contribute_Heterogenei_PMID26980461",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studied Anopheles gambiae s.l. (An. arabiensis, An. gambiae s.s., An. coluzzii, and hybrids) collected across 12 villages in The Gambia (Page 1, Abstract; Page 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc-1014F (Vgsc L995F), Vgsc-1014S (Vgsc L995S), Vgsc-1575Y (Vgsc N1570Y), and Ace1-119S (Ace-1 G280S) using TaqMan assays (Page 4, Laboratory processing; Page 6, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 6) provides allele frequencies with 95% CIs per species for Vgsc-1014F, Vgsc-1014S, Vgsc-1575Y, Gste2-114T, and Ace1-119S, for a total sample of 1,005 genotyped mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between July and October 2013 as larvae or blood-fed females from 12 villages across six geographic regions in The Gambia (Page 3, Study design)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field research study investigating vector species composition, insecticide resistance bioassays, and molecular resistance markers."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data reported at specific village level across six regions (Bessi, Ndemban Tenda, Chogen Wellingara, Yallal Ba, Sinchu Njengudi, Dongoro Ba, Sare Seedy, Ngedden, Madina Samako, Njaiyel, Sare Wuro, Gunjur Koto) with coordinates provided for Wali Kunda insectary (Page 3, Fig 1 and Study design)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito sampling conducted between July and October 2013 (Page 3, Study design)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Mentions being part of a larger study investigating malaria transmission dynamics in The Gambia, but bioassay and genotyping samples were collected specifically during the 2013 season for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Main text and Table 2 provide species-level allele frequencies and total genotyped sample sizes."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "The Gambia"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1005,
+    "summary": "This study evaluated species composition, insecticide resistance phenotypes (DDT and deltamethrin), and resistance markers (Vgsc-1014F, Vgsc-1014S, Vgsc-1575Y, Ace1-119S, Gste2-114T) in 1,005 field-collected Anopheles gambiae s.l. mosquitoes from 12 villages across The Gambia in 2013. Significant associations were found between Vgsc-1014F, Vgsc-1575Y, Gste2-114T and survival to DDT and deltamethrin.",
+    "exclusion_reasons": []
+  }
+}

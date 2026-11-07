@@ -1,0 +1,69 @@
+{
+  "id": "2016_Menze_Multiple_Insecticide_Resistance_Malaria_Vector_PMID27723825",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus s.s. (page 5, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for GSTe2 L119F (page 4, 8) and Rdl A296S (page 4, 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts/statistics for VGSC. Page 8 states: 'genotyping of the L119F-GSTe2 mutation in 35 susceptible and 35 DDT resistant mosquitoes'. Page 9 states: 'Genotyping of the A296S mutation in 30 dieldrin resistant and 30 susceptible mosquitoes'."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Gounougou, northern Cameroon (page 3, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field collections and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the locality of Gounougou (9° 03' 00\"N, 13°43' 59\" E) in northern Cameroon (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collections from 2012 and 2015 (page 3, 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions using 2006 samples previously described in [10], but the 2012 and 2015 collections are new primary data."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Rdl A296S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2006,
+      2012,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 3410,
+    "summary": "This study characterizes insecticide resistance in Anopheles funestus from Gounougou, Cameroon. It reports resistance to pyrethroids, carbamates, and organochlorines (DDT and dieldrin). It identifies the L119F-GSTe2 and A296S-RDL resistance markers and analyzes their correlation with resistance phenotypes, alongside VGSC polymorphism analysis.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "2016_Horstmann_Contact_Bioassays_Phenoxybenzyl_Tetrafluorobenzyl_PMID26930058",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tested Anopheles gambiae (strain RSP-H) and Anopheles funestus (strain FUMOZ-R) alongside Aedes aegypti (Page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Refers to the Vgsc L1014S (kdr-east / L995S) mutation in the Anopheles gambiae RSP-H laboratory strain (Page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts, allele counts, or frequencies from a genotyped field population are reported; the paper only notes that the RSP-H laboratory colony is routinely screened to maintain 100% kdr frequency (Page 4)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes tested were strictly from permanent laboratory colonies (RSP-H, FUMOZ-R, Aedes aegypti) maintained in the Bayer CropScience insectary in Monheim, Germany (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical laboratory bioassay study evaluating active ingredients against mosquito strains (Page 3-4)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No sub-country field locations exist because only laboratory strains were tested."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection years are reported."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No field collections involved."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; study is ineligible due to laboratory colony usage."
+    },
+    "markers_found": [
+      "Vgsc L1014S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study conducted surface contact bioassays testing transfluthrin and other pyrethroids with/without PBO against standard laboratory strains (Anopheles gambiae RSP-H, Anopheles funestus FUMOZ-R, and Aedes aegypti). It did not sample or genotype any African field populations.",
+    "exclusion_reasons": [
+      "No field-collected mosquito populations from Africa were studied (only permanent laboratory colonies RSP-H and FUMOZ-R were used).",
+      "No extractable genotype data for field populations are reported."
+    ]
+  }
+}

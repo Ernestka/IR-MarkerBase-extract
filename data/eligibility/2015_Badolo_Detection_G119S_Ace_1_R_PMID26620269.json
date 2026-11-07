@@ -1,0 +1,66 @@
+{
+  "id": "2015_Badolo_Detection_G119S_Ace_1_R_PMID26620269",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 2: 'Mosquitoes were collected as larvae and reared to adults for morphological classification of species and sex. Only the female An. gambiae complex mosquitoes were used for analysis.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 1-2: Evaluates the G119S ace-1R mutation (Ace-1 G280S) in Anopheles gambiae."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 6, Table 1: Reports counts for Ace-1 G119S genotypes across 104 mosquitoes by Sequencing (Ace1RR = 1, Ace1RS = 9, Ace1SS = 94), PCR-RFLP, RT-PCR, and AS-LAMP."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: 'All mosquitoes used in this study were collected during the rainy season of 2008 in the village of Soumousso (N 11°00, W 04°03) located in the Sudan Savannah zone, 380 km from Ouagadougou and 38 km from Bobo-Dioulasso [Burkina Faso]... Mosquitoes were collected as larvae and reared to adults'."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Page 2-6: Primary research study reporting field collections, development of AS-LAMP, and validation by sequencing and PCR-RFLP."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: Soumousso (11°00'N, 04°03'W), Burkina Faso."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 2: 'All mosquitoes used in this study were collected during the rainy season of 2008'."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Mosquitoes were collected during the rainy season of 2008 in Soumousso and kept in silica gel until DNA extraction. While CNRFP conducts routine monitoring in Soumousso, there is no explicit indication that these exact 104 specimens were previously published elsewhere."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency and count data are presented in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2008
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 104,
+    "summary": "This study develops an allele-specific loop-mediated isothermal amplification (AS-LAMP) method to detect the Ace-1 G119S (G280S) mutation in Anopheles gambiae. It validates the method against PCR-RFLP, real-time PCR, and Sanger sequencing using 104 field-collected mosquitoes from Soumousso, Burkina Faso sampled in 2008.",
+    "exclusion_reasons": []
+  }
+}

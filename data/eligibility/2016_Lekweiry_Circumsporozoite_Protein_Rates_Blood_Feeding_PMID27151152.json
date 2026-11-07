@@ -1,0 +1,70 @@
+{
+  "id": "2016_Lekweiry_Circumsporozoite_Protein_Rates_Blood_Feeding_PMID27151152",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult Anopheles spp. mosquitoes (An. arabiensis, An. gambiae, An. rufipes, An. pharoensis, An. funestus) were collected using pyrethrum spray catch (Page 1, Abstract; Page 5, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Assessed Vgsc L1014F (kdr-w / L995F), Vgsc L1014S (kdr-e / L995S) and Ace-1 G119S (G280S) by PCR assays (Page 4, Methods; Page 5-6, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on Page 6 reports counts and percentages of L1014 wild-type, L1014F, and L1014S for An. gambiae s.l. from Nouakchott (N=145) and Hodh Elgharbi (N=40)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from indoor resting sites in five locations across Nouakchott and Hodh Elgharbi region in Mauritania between January 2009 and December 2010 (Page 2-3, Study areas)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study presenting original field collection and laboratory analysis data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections took place at sub-country districts: Teyarett, Dar Naim, Sebkha (Nouakchott), and Kobeni, Tintane (Hodh Elgharbi) with GPS coordinates provided (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted between January 2009 and December 2010 (Page 3, Mosquito sampling)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study presents novel field sample collections and genotype analyses conducted directly by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype frequency data by site are fully reported in Table 3 of the main article."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Mauritania"
+    ],
+    "collection_years": [
+      2009,
+      2010
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 185,
+    "summary": "This study evaluated mosquito species diversity, host-feeding patterns, sporozoite rates, and insecticide resistance marker frequencies (Vgsc L1014F, L1014S, Ace-1 G119S) in Anopheles gambiae s.l. collected from Nouakchott and Hodh Elgharbi, Mauritania in 2009-2010. High frequency of L1014S was observed in An. arabiensis from Nouakchott, while both L1014F and L1014S were detected at low frequencies in Hodh Elgharbi.",
+    "exclusion_reasons": []
+  }
+}

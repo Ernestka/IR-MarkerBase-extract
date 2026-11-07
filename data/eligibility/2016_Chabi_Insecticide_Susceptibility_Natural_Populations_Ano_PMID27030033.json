@@ -1,0 +1,66 @@
+{
+  "id": "2016_Chabi_Insecticide_Susceptibility_Natural_Populations_Ano_PMID27030033",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 4: 'Two hundred mosquitoes were identified as An. gambiae (s.l.) of which 193 were An. coluzzii, representing 96.5 % and the remaining seven were identified as An. gambiae (s.s.)'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 4-5: Characterizes kdr L1014F (Vgsc L995F) and ace-1 G119S (Ace-1 G280S) mutations using diagnostic PCR assays."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5, Table 1: Reports genotype counts (RR, RS, SS) and allele frequencies for kdr L1014F and ace-1 G119S for 193 An. coluzzii and 7 An. gambiae s.s. (total N=200). Table 2 reports counts broken down by bioassay outcome (alive/dead)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: Mosquito larvae were collected from water pools around rice irrigated fields in Okyereko, Ghana, and reared to F1 adults for testing."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Page 1-2: Primary research study conducting field sampling, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: 'Okyereko is a village located about 50 km west of Accra, the capital city of Ghana (05°24’57.68”N, 00°35’53.99”W)'"
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The exact collection year(s) are not explicitly stated in the manuscript text (paper submitted November 2015)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Mosquito larvae were collected directly from Okyereko field sites by the authors for this specific study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, bioassay results, and species identification data are included in the main manuscript text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 200,
+    "summary": "This study evaluated insecticide resistance and characterized kdr L1014F and ace-1 G119S mutations in F1 progeny of Anopheles coluzzii (96.5%) and Anopheles gambiae s.s. (3.5%) collected from an irrigated rice field area in Okyereko, Ghana. High frequencies of kdr L1014F (0.90) and low frequencies of ace-1 G119S (0.02) were observed. Genotype frequencies for both markers are reported by species and by WHO bioassay phenotype (alive vs dead).",
+    "exclusion_reasons": []
+  }
+}

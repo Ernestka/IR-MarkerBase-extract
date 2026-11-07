@@ -1,0 +1,70 @@
+{
+  "id": "2016_Kristan_Exposure_Deltamethrin_Affects_Development_Plasmodi_PMID26911550",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. larvae were collected from breeding sites in villages around Butemba Health Centre III, Uganda (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped kdr-L1014S (Vgsc L995S), kdr-L1014F (Vgsc L995F), and Ace-1 G119S (Ace-1 G280S) using TaqMan qPCR assays (Page 2, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 4) reports exact genotype counts (SS, RS, RR) for kdr-L1014S in 732 An. gambiae s.s. and 73 An. arabiensis mosquitoes. Page 4 also notes all specimens were homozygous susceptible at the ace-1 locus."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from breeding sites in villages in Butemba, Kyankwanzi District, mid-western Uganda (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field and laboratory experimental study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Butemba, Kyankwanzi District, mid-western Uganda (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes and parasite samples were collected between August 2013 and June 2014 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary field study and experimental research in Butemba, Uganda."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype counts, species identification, and bioassay results are fully reported in the main text and Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 805,
+    "summary": "This study investigated the effects of sub-lethal deltamethrin exposure on Plasmodium falciparum sporogonic development in wild pyrethroid-resistant Anopheles gambiae s.s. from Butemba, Kyankwanzi District, Uganda. Mosquitoes were collected as larvae between August 2013 and June 2014. Target resistance markers Vgsc L995S, Vgsc L995F, and Ace-1 G280S were genotyped, with full genotype counts provided for 732 An. gambiae s.s. and 73 An. arabiensis in Table 1. Standard WHO susceptibility tests for deltamethrin were also reported.",
+    "exclusion_reasons": []
+  }
+}

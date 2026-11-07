@@ -1,0 +1,69 @@
+{
+  "id": "2016_Etang_When_Intensity_Deltamethrin_Resistance_Anopheles_PMID26951758",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studied field-collected Anopheles gambiae s.l. mosquitoes (An. arabiensis, An. coluzzii, An. gambiae s.s.) from Pitoa, Cameroon."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped the Vgsc L1014F (L995F) and L1014S (L995S) mutations using hot oligonucleotide ligation assay (HOLA) (Page 4, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 reports full kdr 1014 genotype counts (1014 L/L, 1014 L/F, 1014 S/S) for 154 mosquitoes broken down by species (An. coluzzii, An. gambiae s.s., An. arabiensis)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae and pupae were collected from breeding sites in Pitoa, North region, Cameroon between June and August 2011 and reared to adults for testing (Page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field and laboratory study reporting original bioassay and marker genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Pitoa health district, North Cameroon (09°23′31″N, 13°30′09″E) (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito samples were collected from June to August 2011 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original field collection performed by the authors in Pitoa in 2011."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, bioassay results, and location details are provided in the main text and tables (Table 1, Table 2, Table 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 154,
+    "summary": "This study evaluated deltamethrin resistance intensity and LifeNet LLIN bio-efficacy in Anopheles gambiae s.l. from Pitoa, North Cameroon, collected in June-August 2011. Species identification revealed An. arabiensis (86%), An. coluzzii (12%), and An. gambiae s.s. (2%). Genotyping of the Vgsc kdr 1014 locus in 154 unexposed control mosquitoes identified the L1014F (L995F) allele at 34% frequency in An. coluzzii (13/19, all heterozygous) and 0% in other species, while L1014S was absent.",
+    "exclusion_reasons": []
+  }
+}

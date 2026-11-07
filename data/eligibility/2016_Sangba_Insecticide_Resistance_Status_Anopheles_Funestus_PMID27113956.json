@@ -1,0 +1,67 @@
+{
+  "id": "2016_Sangba_Insecticide_Resistance_Status_Anopheles_Funestus_PMID27113956",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Mosquitoes collected were morphologically and molecularly confirmed as Anopheles funestus (Page 2, 'Mosquito collection and molecular identification')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study performed species identification PCR and biochemical enzyme assays (P450, GST, esterases), but did not report genotyping of any target resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable genotype counts, allele counts, or genotype frequencies are reported for any target marker."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Blood-fed An. funestus females were collected in October 2014 from living rooms in Gbanikola District, Bangui, Central African Republic (Page 2, 'Mosquito collection and molecular identification')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting bioassay and biochemical assay results from field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are reported for Gbanikola District, Bangui (N 04°20.436'; E 018°32.213') (Page 2, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted in October 2014 (Page 2, 'Mosquito collection and molecular identification')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary study with field sampling conducted specifically for this investigation in Bangui, CAR."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No external supplementary files are needed as no target marker genotyping was performed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Central African Republic"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study reports insecticide susceptibility bioassays (WHO tube assays with permethrin, deltamethrin, lambda-cyhalothrin, DDT, malathion, bendiocarb, and PBO synergist) and biochemical enzyme assays (P450, esterases, GST) for an Anopheles funestus population collected in Gbanikola, Bangui, Central African Republic in October 2014. No target-site mutation genotyping was performed.",
+    "exclusion_reasons": [
+      "Does not report target insecticide resistance markers.",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

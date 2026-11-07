@@ -1,0 +1,68 @@
+{
+  "id": "2016_Hakizimana_Susceptibility_Anopheles_Gambiae_Insecticides_Used_PMID27905919",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Larvae of Anopheles gambiae sensu lato mosquitoes were collected in 12 sentinel sites throughout Rwanda (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Seven hundred and twenty-five (134 An. gambiae s.s. and 591 An. arabiensis) mosquitoes collected in 2011 and 2013 were genotyped for kdr-east (L1014S) (Page 5, kdr Genotypes)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 7 lists exact genotype counts (SS, RS, RR) for An. gambiae s.s. and An. arabiensis across seven sentinel sites, with 725 total specimens genotyped."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from field breeding sites in 12 sentinel sites across Rwanda in 2011 and 2013 and reared to adults (Page 2, Mosquito collection)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research paper describing nationwide field surveys of vector composition, insecticide resistance, and kdr genotype frequencies in Rwanda (Page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling took place in 12 specific sentinel sites across Rwanda: Busoro, Mbuga, Karambi, Rukara, Mimuri, Bukora, Mareba, Mashesha, Kivumu, Mubuga, Kibogora, and Kicukiro (Page 2, Study area and Fig. 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field surveys and mosquito collections took place in 2011 and 2013 (Page 1, Abstract)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine nationwide IR monitoring conducted by the National Malaria Control Programme of Rwanda; original dataset published in this paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, sample sizes, and bioassay results are provided in full within Tables 1-5 of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Rwanda"
+    ],
+    "collection_years": [
+      2011,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 725,
+    "summary": "This primary study reports on insecticide susceptibility and kdr-east (Vgsc L995S) frequencies in Anopheles gambiae s.s. and Anopheles arabiensis collected across sentinel sites in Rwanda in 2011 and 2013. A total of 725 mosquitoes (134 An. gambiae s.s. and 591 An. arabiensis) were genotyped for the L1014S mutation, with complete genotype counts (SS, RS, RR) provided per site.",
+    "exclusion_reasons": []
+  }
+}
