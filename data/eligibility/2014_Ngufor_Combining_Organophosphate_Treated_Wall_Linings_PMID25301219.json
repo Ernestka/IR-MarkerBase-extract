@@ -1,0 +1,65 @@
+{
+  "id": "2014_Ngufor_Combining_Organophosphate_Treated_Wall_Linings_PMID25301219",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study was conducted on wild Anopheles gambiae s.s. collected in experimental huts and as larvae in Côte d'Ivoire (e.g. Page 1, Abstract; Page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "TaqMan PCR was used for 'Molecular detection of the kdr (L1014F) and ace-1R (G119S) mutation alleles in live and dead samples from the hut treatments' (Page 4, Selection of insecticide resistance genes)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 lists allele frequencies and sample sizes (n) for kdr and ace-1R across treatments for live and dead mosquitoes; Table 5 presents detailed genotype counts (SS, RS, RR live/total) for both markers across all experimental hut treatments."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Experimental hut trials and larval collections were conducted in Tiassalé (5°54' N, 4°50' W), southern Côte d’Ivoire (Page 2, Study site)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original experimental hut research trial reporting primary phenotypic and genotypic resistance data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Tiassalé (5°54′ N, 4°50′W), southern Côte d’Ivoire (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper describes two six-week experimental hut trials, but does not state the calendar year(s) or dates during which the collections took place."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The mosquito collections were primary experimental hut collections specific to this study conducted under the AvecNet project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant bioassay results, genotype counts, and allele frequencies are provided in Tables 1-5 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study evaluated the efficacy of pirimiphos-methyl-treated plastic wall linings and net hangings alone and in combination with LLINs in experimental huts in Tiassalé, Côte d'Ivoire. Genotyping of Vgsc L1014F (L995F) and Ace-1 G119S (G280S) was performed on Anopheles gambiae s.s. collected from huts, with complete genotype and allele data reported for survivors and non-survivors across treatments.",
+    "exclusion_reasons": []
+  }
+}

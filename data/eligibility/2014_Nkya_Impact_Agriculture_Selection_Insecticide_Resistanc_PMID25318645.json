@@ -1,0 +1,69 @@
+{
+  "id": "2014_Nkya_Impact_Agriculture_Selection_Insecticide_Resistanc_PMID25318645",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. collected in Dar es Salaam, Tanzania (page 3: 'An An. gambiae population collected in summer 2011 from an urban site of Dar es Salaam... Only An. gambiae s.s. were used to constitute the parental strain used for selection experiments.')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014S (kdr east) and L1014F (kdr west) using TaqMan assays (page 3: 'The detection of East kdr (L1014S) and West kdr (L1014F) mutations was performed using the TaqMan PCR diagnostic assays...'; Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts (LL, LS, SS, LF, FF) and sample sizes for the Parental strain (N=30), Non-selected strain (N=30), and Selected G20 strain (N=36)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Mosquitoes were not tested as field-collected adults (F0) or F1 progeny. Instead, field-collected larvae from summer 2011 were 'stabilized in the laboratory for 3 generations and then used as a parental strain for the selection experiment (generation G0)' and selected across 20 laboratory generations (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study performing multi-generational laboratory selection experiments using an agrochemical mixture."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ilala district, Dar es Salaam, Tanzania (coordinates S6.84643, E39.18285) reported on page 3."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes collected in summer 2011 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The parental strain was derived from field collections in Dar es Salaam already analyzed and reported in Nkya et al. 2014 Malaria Journal (reference [32]: 'An An. gambiae population collected in summer 2011 from an urban site of Dar es Salaam (Ilala district, GPS coordinates S6.84643, E39.18285 as described in [32])')."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All kdr genotyping counts and bioassay summary metrics are provided in the main text (Table 2 and Figure 1)."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2011
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 96,
+    "summary": "This laboratory selection study investigates the impact of exposure to an agricultural pesticide mixture across 20 generations on insecticide resistance and kdr mutation frequencies in Anopheles gambiae s.s. originally sourced from Dar es Salaam, Tanzania. Because mosquitoes were stabilized in the insectary for three generations before experiment initiation (G0 = F3) and subsequently selected up to generation 20, no field-caught F0 or F1 mosquitoes were genotyped.",
+    "exclusion_reasons": [
+      "african_field_population: Mosquitoes genotyped were from multi-generational laboratory-colonized and selected strains (F3+ and F23) rather than field-collected F0 or F1 generations."
+    ]
+  }
+}

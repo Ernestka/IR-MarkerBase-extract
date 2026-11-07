@@ -1,0 +1,24 @@
+study_id: 2005_Asidi_Experimental_Hut_Evaluation_Bednets_Treated_PMID15918909
+title: Experimental hut evaluation of bednets treated with an organophosphate (chlorpyrifos-methyl)
+  or a pyrethroid (lambdacyhalothrin) alone and in combination against insecticide-resistant
+  Anopheles gambiae and Culex quinquefasciatus mosquitoes
+first_author: Alex N Asidi
+doi: 10.1186/1475-2875-4-25
+pmid: '15918909'
+publication_year: 2005
+countries:
+- Côte d'Ivoire
+data_source: journal_article
+provenance:
+  source_text: Experimental hut evaluation of bednets treated with an organophosphate
+    (chlorpyrifos-methyl) or a pyrethroid (lambdacyhalothrin) alone and in combination
+    against insecticide-resistant Anopheles gambiae and Culex quinquefasciatus mosquitoes.
+    Malaria Journal 2005, 4:25
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-07'
+pmid_source: Europe PMC (from DOI)

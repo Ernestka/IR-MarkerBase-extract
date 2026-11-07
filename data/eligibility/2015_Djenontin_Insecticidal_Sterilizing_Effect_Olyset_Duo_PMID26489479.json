@@ -1,0 +1,67 @@
+{
+  "id": "2015_Djenontin_Insecticidal_Sterilizing_Effect_Olyset_Duo_PMID26489479",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae s.s. strains (Kisumu and VK-Per)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the VK-Per strain is homozygous for the kdr mutation (L1014F), but it does not report new genotype data or frequencies for this marker in the study population; it only states the strain's fixed status is checked monthly as part of laboratory maintenance."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported for the mosquitoes used in the experiment."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-reared strains (Kisumu and VK-Per) in experimental huts, not field-collected populations."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving a release-recapture assay in experimental huts."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was carried out in Akron, a village on the periphery of Porto Novo, Benin."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The trial was carried out between June 21, 2012 and August 2, 2012."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a specific experimental hut trial."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant data is contained within the main text and tables."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the insecticidal and sterilizing effects of Olyset Duo nets against two laboratory strains of Anopheles gambiae s.s. (Kisumu and VK-Per) in experimental huts in Benin. It does not report genotype data for the mosquitoes used.",
+    "exclusion_reasons": [
+      "Does not report target marker genotype data.",
+      "Does not use field-collected mosquito populations (uses laboratory strains)."
+    ]
+  }
+}

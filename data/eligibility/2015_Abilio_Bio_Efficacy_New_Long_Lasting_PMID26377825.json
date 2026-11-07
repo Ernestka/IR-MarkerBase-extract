@@ -1,0 +1,68 @@
+{
+  "id": "2015_Abilio_Bio_Efficacy_New_Long_Lasting_PMID26377825",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus and Anopheles gambiae s.l. (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports screening for kdr (East and West) mutations in Anopheles gambiae s.l. (page 4, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper states: 'There were no kdr mutants found in the sample of 256 A. gambiae tested' (page 1, Abstract; page 6, Results)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Balama, Mocuba, and Milange districts in Mozambique (page 3, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating insecticide susceptibility and bio-efficacy of LLINs."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific district and village locations, e.g., Balama district (13°20.914′S, 38°34.183′E) (page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted during the dry season, from June to August 2012 (page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections and bioassays conducted in 2012."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data (sample size and result) is provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Mozambique"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 256,
+    "summary": "This study evaluated the insecticide susceptibility and bio-efficacy of various LLINs against wild populations of Anopheles funestus and Anopheles gambiae s.l. from Northern and Central Mozambique. While phenotypic resistance was observed, no kdr mutations were detected in the 256 A. gambiae specimens tested.",
+    "exclusion_reasons": []
+  }
+}

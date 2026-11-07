@@ -1,0 +1,66 @@
+{
+  "id": "2014_Assogba_Phenotypic_Effects_Concomitant_Insensitive_Acetylc_PMID25471264",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study tests four laboratory strains of Anopheles gambiae s.s. (Page 2, 'Mosquito strains')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014F (Vgsc L995F / kdrR) and Ace-1 G119S (Ace-1 G280S / ace-1R) using molecular PCR assays (Page 3, 'Mosquito strains')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No extractable field population genotype frequency data; only fixed laboratory strains (KISUMU, ACERKIS, KISKDR, ACERKDRKIS) were used (Page 2-3)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study exclusively used laboratory reference strains (KISUMU, ACERKIS, KISKDR) and a laboratory-crossed homozygous strain (ACERKDRKIS). No wild field-collected mosquitoes from Africa were evaluated (Page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical laboratory study evaluating bioassay and biochemical phenotypic effects of resistance alleles (Page 1-3)."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "No field collection locations because only laboratory strains were tested."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "No field collection dates or years reported as only laboratory strains were used."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Laboratory strain study with no field sample dataset overlap."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data needed; all laboratory bioassay results are reported in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This laboratory study evaluated the phenotypic and biochemical effects of concomitant kdr-west (Vgsc L995F) and ace-1R (Ace-1 G280S) resistance mutations using four homozygous reference/derived strains of Anopheles gambiae s.s. (KISUMU, ACERKIS, KISKDR, and ACERKDRKIS). Because the study relied entirely on laboratory colony strains and contains no field-collected African mosquito populations, it does not meet the eligibility criteria.",
+    "exclusion_reasons": [
+      "african_field_population: Only laboratory strains (KISUMU, ACERKIS, KISKDR, ACERKDRKIS) were tested; no field-collected African mosquito populations were evaluated.",
+      "reports_extractable_genotype_data: No extractable field population genotype counts or frequencies are reported."
+    ]
+  }
+}

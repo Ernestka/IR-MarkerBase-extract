@@ -1,0 +1,23 @@
+study_id: 2005_Lynd_Simplified_High_Throughput_Method_Pyrethroid_PMID15766386
+title: A simplified high-throughput method for pyrethroid knock-down resistance (kdr)
+  detection in Anopheles gambiae
+first_author: Amy Lynd
+doi: 10.1186/1475-2875-4-16
+pmid: '15766386'
+publication_year: 2005
+countries:
+- Kenya
+- Malawi
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: A simplified high-throughput method for pyrethroid knock-down resistance
+    (kdr) detection in Anopheles gambiae. Malaria Journal 2005, 4:16
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-07'
+pmid_source: Europe PMC (from DOI)

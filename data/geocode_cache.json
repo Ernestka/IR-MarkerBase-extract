@@ -471,6 +471,15 @@
    "name": "Tori-Bossito, Atlantique, Bénin"
   }
  ],
+ "ci|Yaokoffikro": [
+  {
+   "lat": 6.09765,
+   "level": "village",
+   "lon": -6.61165,
+   "name": "Yaokoffikro, Nawa, Bas-Sassandra, Côte d’Ivoire"
+  }
+ ],
+ "ci|Yaokoffikro, Bouaké": [],
  "et|Gilgel-Gibe dam area": [],
  "et|Gilgel-Gibe dam area ('high risk' villages)": [],
  "et|Gilgel-Gibe dam area ('high risk' villages), Jimma": [],
@@ -873,6 +882,26 @@
    "name": "Aeroporto de Bafatá, N1, Mafanco, Sector de Bafatá, Região de Bafatá, Província Leste, Guiné-Bissau"
   }
  ],
+ "ke|Asembo": [
+  {
+   "lat": -0.18334,
+   "level": "village",
+   "lon": 34.38571,
+   "name": "Asembo, East Asembo ward, Rarieda, Siaya, Kenya"
+  },
+  {
+   "lat": -0.1486,
+   "level": "town",
+   "lon": 34.33805,
+   "name": "West Asembo ward, Rarieda, Siaya, Kenya"
+  },
+  {
+   "lat": -0.12937,
+   "level": "town",
+   "lon": 34.40941,
+   "name": "East Asembo ward, Rarieda, Siaya, Kenya"
+  }
+ ],
  "ke|Homa Bay": [
   {
    "lat": -0.56396,
@@ -1260,6 +1289,20 @@
    "level": "admin1",
    "lon": 35.32832,
    "name": "Southern Region, Malawi"
+  }
+ ],
+ "mw|Thyolo": [
+  {
+   "lat": -16.12877,
+   "level": "admin1",
+   "lon": 35.14491,
+   "name": "Thyolo, Southern Region, Malawi"
+  },
+  {
+   "lat": -16.06688,
+   "level": "town",
+   "lon": 35.14858,
+   "name": "Thyolo, Southern Region, Malawi"
   }
  ],
  "mz|Chokwe, Gaza Province": [

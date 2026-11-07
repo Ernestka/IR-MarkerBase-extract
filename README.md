@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**1084 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-06
+**1099 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-07
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -44,8 +44,8 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2001_Reiter_Climate_Change_Mosquito_Borne_Disease_PMID11250812 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.5-flash | 12612 | 1346 |  |  |  |  | 0.0000 |
 | 2004_Corbel_Dosage_Dependent_Effects_Permethrin_Treated_PMID15242513 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.1-flash-lite | 6372 | 690 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
 | 2004_Etang_Reduced_Bio_Efficacy_Permethrin_EC_PMID15569394 | master | INELIGIBLE | False | high | low | False | 1 | 2026-10-18 | 2026-10-18 | 0 |  | gemini:gemini-3-flash-preview | 5332 | 2748 |  |  |  |  | 0.0000 |
-| 2005_Asidi_Experimental_Hut_Evaluation_Bednets_Treated_PMID15918909 | master | ELIGIBLE | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.1-flash-lite | 6372 | 743 |  |  |  |  | 0.0000 |
-| 2005_Lynd_Simplified_High_Throughput_Method_Pyrethroid_PMID15766386 | master | ELIGIBLE | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.1-flash-lite | 4292 | 705 |  |  |  |  | 0.0000 |
+| 2005_Asidi_Experimental_Hut_Evaluation_Bednets_Treated_PMID15918909 | master | EXTRACTED | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.1-flash-lite | 6372 | 743 | gemini:gemini-3.5-flash | 7971 | 13184 | 1 survey(s), 0 genotype, 0 bioassay, 8 geno-pheno rows; 8 warning(s) | 0.0000 |
+| 2005_Lynd_Simplified_High_Throughput_Method_Pyrethroid_PMID15766386 | master | EXTRACTED | True | high | none | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3.1-flash-lite | 4292 | 705 | gemini:gemini-3.5-flash | 5850 | 8586 | 2 survey(s), 2 genotype, 0 bioassay, 0 geno-pheno rows; 1 warning(s) | 0.0000 |
 | 2006_Adams_Abstracts_Fifth_International_Symposium_Molecular_PMC2990333 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-16 | 2026-10-16 | 0 |  | gemini:gemini-3.5-flash | 40692 | 2008 |  |  |  |  | 0.0000 |
 | 2006_Akogbeto_Screening_Pesticide_Residues_Soil_Water_PMID16563153 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.5-flash | 6372 | 3116 | gemini:gemini-3.5-flash | 19581 | 20500 | 2 survey(s), 2 genotype, 6 bioassay, 0 geno-pheno rows; 2 warning(s) | 0.0000 |
 | 2006_Anyanwu_Health_Effects_Long_Term_Exposure_PMID17173181 | master | INELIGIBLE | False | high | none | False | 1 | 2026-10-17 | 2026-10-17 | 0 |  | gemini:gemini-3.7-flash | 7412 | 928 |  |  |  |  | 0.0000 |
@@ -86,7 +86,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2008_Pages_Malaria_Transmission_Dakar_Two_Year_PMID18796138 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 7412 | 2970 |  |  |  |  | 0.0000 |
 | 2008_Pennetier_Mixture_Controlling_Insecticide_Resistant_Malaria_PMID18976553 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 3144 |  |  |  |  | 0.0000 |
 | 2008_Ridl_Pre_Intervention_Study_Malaria_Vector_PMID18823554 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.7-flash | 5852 | 2082 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
-| … 1024 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| … 1039 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

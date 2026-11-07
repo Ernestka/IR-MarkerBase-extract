@@ -1,0 +1,71 @@
+{
+  "id": "2015_Antonio-Nkondjio_Rapid_Evolution_Pyrethroid_Resistance_Prevalence_PMID25879950",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. coluzzii and An. gambiae) in Cameroon."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F) and Vgsc L995S (L1014S) (page 3, 4, 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts for intron-1 haplotypes and kdr alleles (L1014L, L1014F, L1014S) for different breeding habitats."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field breeding sites in the cities of Douala and Yaoundé, Cameroon (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study presenting original field and laboratory data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations as the cities of Douala and Yaoundé, Cameroon (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study covers the period from 2010 to 2013 (page 1, 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states that data from 2010 were previously published (page 3), but the study presents new data for 2011-2013 and new molecular analyses."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1688,
+    "summary": "This study investigates the evolution of pyrethroid resistance and kdr allele frequencies (L1014F and L1014S) in Anopheles coluzzii and Anopheles gambiae populations in Douala and Yaoundé, Cameroon, between 2010 and 2013. It combines WHO susceptibility bioassays with molecular identification and sequencing of the voltage-gated sodium channel intron-1.",
+    "exclusion_reasons": []
+  }
+}

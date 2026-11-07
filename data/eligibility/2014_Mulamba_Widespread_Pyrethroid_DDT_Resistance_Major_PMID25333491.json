@@ -1,0 +1,68 @@
+{
+  "id": "2014_Mulamba_Widespread_Pyrethroid_DDT_Resistance_Major_PMID25333491",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Female An. funestus collected throughout Uganda and western Kenya... (Page 1, Abstract)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The L119F-GSTe2 mutation was recently shown to play a major role in the DDT resistance in West Africa [27]. To assess the role of this mutation in the DDT resistance in Uganda a Taqman assay [27] was used to genotype 30 mosquitoes dead after 1 h exposure to 4% DDT (susceptible) and 30 mosquitoes alive (resistant) from Jinja. (Page 3, Role of the L119F-GSTe2 mutation in the DDT resistance in Uganda)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "30 mosquitoes dead after 1 h exposure to 4% DDT (susceptible) and 30 mosquitoes alive (resistant) from Jinja were genotyped for L119F-GSTe2 (Page 3). Genotyping detected the 119F allele at 10% frequency, with 73.3% of resistant mosquitoes being L119/L119 homozygotes (Page 5, Figure 6B and 6C)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult Anopheles mosquitoes were collected from six districts in Uganda (Bulambuli, Lira, Masindi, Jinja, Arua, Tororo) and Kisumu-Siaya in West Kenya between December 2011 and June 2012 (Page 2, Study sites / Mosquito collections)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting field collections, WHO bioassays, molecular species ID, Plasmodium infection rates, qRT-PCR expression analysis, and GSTe2/VGSC genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific districts and coordinates provided: Bulambuli (1°10'N, 34°23'E), Lira (2°14'N, 32°54'E), Masindi (1°40'N, 31°42'E), Jinja (0°26'N, 33°12'E), Arua (3°1'N, 30°54'E), Tororo (0°41'N, 34°10'E) in Uganda and Kisumu-Siaya (0°05'S, 34°15'E) in Kenya (Page 2, Study sites)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were carried out between December 2011 and June 2012 (Page 2, Mosquito collections)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "New primary field collections carried out between Dec 2011 and June 2012 specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant genotype data for L119F-GSTe2 (30 dead and 30 alive mosquitoes from Jinja, genotype frequencies) are detailed in the main text and Figure 6."
+    },
+    "markers_found": [
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda",
+      "Kenya"
+    ],
+    "collection_years": [
+      2011,
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 60,
+    "summary": "This study reports widespread pyrethroid and DDT resistance in Anopheles funestus across 6 districts in Uganda and western Kenya. Target-site mutation analysis confirmed absence of kdr mutations (L1014F/S) in VGSC, while metabolic resistance via cytochrome P450s is the main driver. The GSTe2 L119F mutation was genotyped in 60 mosquitoes (30 DDT-resistant and 30 DDT-susceptible) from Jinja, Uganda, showing low allele frequency (10%) but a significant association with DDT resistance.",
+    "exclusion_reasons": []
+  }
+}

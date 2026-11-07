@@ -1,0 +1,67 @@
+{
+  "id": "2015_Bonizzoni_RNA_Seq_Analyses_Changes_Anopheles_PMID26381877",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-07",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae (page 3, Methods section)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995S (kdr-east/L1014S) and N1575Y (page 5, Results section)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports genotyping of 324 An. gambiae adults at the para gene (page 5, Results section) and 54 resistant and 54 susceptible mosquitoes for other candidate genes (page 5, Methods section)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the Western Province of Kenya (Bungoma, Busia, Emutete) in 2012 (page 3, Methods section)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study using RNA-seq and PCR genotyping on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection localities: Bungoma, Busia, and Emutete in the Western Province of Kenya (page 3, Methods section)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection year is explicitly stated as 2012 (page 3, Methods section)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and RNA-seq analysis of mosquitoes from 2012."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data and methodology are sufficiently described in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc N1575Y"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 324,
+    "summary": "This study investigates the transcriptome of deltamethrin-resistant and susceptible Anopheles gambiae from Western Kenya (2012). It identifies candidate resistance genes and genotypes para gene mutations (L1014S and N1575Y) and a novel sulfotransferase SNP (A101G in AGAP009551) in field-collected mosquitoes.",
+    "exclusion_reasons": []
+  }
+}
