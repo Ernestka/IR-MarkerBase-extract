@@ -1,0 +1,70 @@
+{
+  "id": "2019_Koukpo_Current_Distribution_Characterization_L1014F_Resis_PMID31113418",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s., Anopheles coluzzii, and Anopheles arabiensis (page 1, Abstract; page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped the Vgsc L1014F (L995F) kdr mutation using PCR according to Martinez-Torres et al. (page 3, 'Determination of the L1014F mutation of the kdr gene in the three species')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 gives exact genotype counts (1014F/1014F, 1014F/1014L, 1014L/1014L) and allelic frequencies across seven agro-ecological zones for both An. gambiae and An. coluzzii."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from natural breeding sites in 18 localities across Benin from May 2015 to December 2017 and reared to adulthood (page 3, 'Larvae collections and mosquito rearing')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting original field collections, species PCR, and kdr genotyping in Benin."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 1 provides specific localities and geographic coordinates (e.g., Malanville 11°51'48\"N 3°23'3,29\"E; Kandi 11°7'49,869\"N 2°55'57,282\"E, etc.) across seven agro-ecological zones."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were conducted between May 2015 and December 2017 (<= 3 years; page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine field surveys conducted by CREC across Benin with no indication of overlap with external consortia or published datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and allelic frequencies by agro-ecological zone and species are fully reported in Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 677,
+    "summary": "This study surveyed 18 localities in seven agro-ecological zones of Benin from May 2015 to December 2017, identifying Anopheles coluzzii, An. gambiae s.s., and An. arabiensis. A total of 677 mosquitoes were analysed, with complete genotype counts (RR, RS, SS) and allelic frequencies for the Vgsc L1014F (L995F) kdr mutation presented across agro-ecological zones.",
+    "exclusion_reasons": []
+  }
+}

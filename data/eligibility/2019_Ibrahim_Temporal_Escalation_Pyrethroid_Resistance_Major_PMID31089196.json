@@ -1,0 +1,67 @@
+{
+  "id": "2019_Ibrahim_Temporal_Escalation_Pyrethroid_Resistance_Major_PMID31089196",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study focuses on Anopheles coluzzii collected from three localities in northern Nigeria (Page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped the Vgsc L1014F (L995F) and L1014S (L995S) kdr mutations using TaqMan assays (Page 4, 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 on page 8 provides genotype counts for 1014F in permethrin-resistant (29 TTT, 46 TTT/A, 16 TTA; n=91) and susceptible (3 TTT, 5 TTT/A, 8 TTA; n=16) F1 An. coluzzii. Page 7 also gives F0 wild population genotype numbers (10 T/T, 15 T/A, 5 A/A out of 30)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in August 2017 from three field sites in northern Nigeria: Hadiyau (Jigawa State), Ladanai (Kano State), and Batagarawa (Katsina State) (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field collection, bioassay, and molecular genotyping study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Hadiyau village (12°21'38\"N, 9°59'15\"E), Ladanai in Kano City (11°58'17\"N, 8°35'9\"E), and Batagarawa town (12°54'17\"N, 7°37'11\"E) (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections were conducted in August 2017 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a new field survey conducted in August 2017."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All main genotype frequency data and counts for L1014F are available in the main text and Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 137,
+    "summary": "This study evaluated insecticide resistance and transmission potential of Anopheles coluzzii from three sites in northern Nigeria (Hadiyau, Ladanai, Batagarawa) collected in August 2017. High pyrethroid resistance and reduced LLIN efficacy were documented. TaqMan genotyping of Vgsc L1014F in Hadiyau revealed a high kdr frequency (0.83 in F0, 0.78 overall in F1) with significant correlation to permethrin survival (OR = 4.69). No 1014S mutations were detected.",
+    "exclusion_reasons": []
+  }
+}

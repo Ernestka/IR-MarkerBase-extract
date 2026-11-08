@@ -1,0 +1,70 @@
+{
+  "id": "2019_Pwalia_High_Insecticide_Resistance_Intensity_Anopheles_PMID31196222",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'This study investigated the intensity of insecticide resistance of An. gambiae (s.l.) found in a vegetable growing area in Accra, Ghana'."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 4: 'The voltage-gated sodium channel mutation (Vgsc-1014F) and acetylcholinesterase (ace-1) characterized using the protocols of Martinez-Torres et al. [28] and Weill et al. [29], respectively.'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 6: 'One hundred and seventy one An. gambiae (s.l.) mosquitoes from Opeibea were randomly selected... The average Vgsc-L1014F frequency over the years was equal to 0.99, both species included. The ace-1 also showed a high average frequency of 0.76 for the three consecutive years (Fig. 3).'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 2: 'Anopheles gambiae (s.l.) mosquito larvae and pupae were collected from the site [Opeibea, Accra, Ghana], brought to the insectary and reared to adults...'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field research paper reporting original sample collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 2: 'Opeibea is an urban residential area located within Accra metropolis (5°35′46.42″N, 0°11′01.43″W), the capital of Ghana'."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 4: Mosquitoes collected and characterized in 'July 2015, September 2016 and October 2017' (3-year window 2015–2017)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper reports original local field collections and monitoring from Opeibea, Accra, Ghana."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Main text and figures provide total genotyped sample size (N=171), species identification, and average/yearly allele frequencies for Vgsc-1014F and ace-1."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 171,
+    "summary": "This study monitored insecticide resistance intensity and target-site mutations (Vgsc-L1014F and Ace-1 G119S) in Anopheles gambiae (s.l.) collected from Opeibea, Accra, Ghana between 2015 and 2017. A total of 171 mosquitoes (169 An. gambiae s.s. and 2 An. coluzzii) were genotyped, showing average allele frequencies of 0.99 for Vgsc-1014F and 0.76 for Ace-1 G119S.",
+    "exclusion_reasons": []
+  }
+}

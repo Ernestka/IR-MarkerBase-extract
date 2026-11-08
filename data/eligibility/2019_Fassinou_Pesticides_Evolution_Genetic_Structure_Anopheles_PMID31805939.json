@@ -1,0 +1,69 @@
+{
+  "id": "2019_Fassinou_Pesticides_Evolution_Genetic_Structure_Anopheles_PMID31805939",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated populations of Anopheles coluzzii and Anopheles gambiae s.l. collected in Benin (Page 1, 4, 8 Table 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped the Vgsc L1014F (L995F) kdr mutation using PCR-PASA (Page 5, Page 9 Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on Page 9 reports exact counts and percentages of L1014F/L1014F, L1014L/L1014F, and L1014L/L1014L genotypes for An. coluzzii in four localities (Cotonou, Sô-Ava, Zagnanado, Kétou)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were sampled in four localities in southern Benin between May 2015 and October 2017 and reared to adults for molecular analysis (Page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study involving field mosquito collection, pesticide surveys, and laboratory molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Table 2 on Page 8 provides collection sites/villages with exact GPS coordinates (latitude and longitude) across Cotonou, Sô-Ava, Kétou, and Zagnanado."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from May 2015 to October 2017 (Page 4), spanning a window of 2.5 years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper describes original field sampling and genotyping conducted by CREC between 2015 and 2017."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary genotype counts, species identification results, and site GPS coordinates are included in Tables 2 and 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 404,
+    "summary": "This study evaluated pesticide usage and the genetic structure of Anopheles coluzzii populations across four localities in southern Benin (Cotonou, Sô-Ava, Kétou, Zagnanado). Mosquito larvae were collected between May 2015 and October 2017. A total of 404 An. coluzzii were genotyped for the Vgsc L1014F kdr mutation, showing high frequencies of the resistant L1014F allele across all sites.",
+    "exclusion_reasons": []
+  }
+}

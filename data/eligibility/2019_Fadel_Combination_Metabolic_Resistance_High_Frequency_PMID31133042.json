@@ -1,0 +1,68 @@
+{
+  "id": "2019_Fadel_Combination_Metabolic_Resistance_High_Frequency_PMID31133042",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Identified Anopheles coluzzii and Anopheles arabiensis from indoor resting collections in Gounougou, Cameroon (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014F (L995F) via TaqMan and identified L1014S (L995S) by sequencing VGSC exon 20 (Pages 1, 7, 9, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 7) provides exact genotype counts (SS, RR, RS) for 1014F in An. coluzzii (SS=7, RR=25, RS=27, total=59) and An. arabiensis (SS=18, RR=0, RS=0, total=18)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Blood-fed indoor-resting female mosquitoes were collected in August 2017 in Gounougou, northern Cameroon (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article reporting original empirical field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Gounougou (9°03'00\"N, 13°43'59\"E), Lagdo, northern Cameroon (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes collected in August 2017 (Page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original collection conducted in August 2017 specifically for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All main genotype count data and bioassay results are fully contained in Table 1 and main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 77,
+    "summary": "Primary empirical study evaluating pyrethroid and DDT resistance in Anopheles coluzzii and Anopheles arabiensis collected in Gounougou, Cameroon in August 2017. Genotyping of Vgsc L1014F (L995F) showed a frequency of 65.25% in An. coluzzii (N=59), while sequencing identified a single An. arabiensis carrying the Vgsc 1014S (L995S) mutation.",
+    "exclusion_reasons": []
+  }
+}

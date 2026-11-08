@@ -1,0 +1,84 @@
+{
+  "id": "2019_Williams_Characterisation_Anopheles_Strains_Used_Laboratory_PMID31690332",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper characterizes seven Anopheles strains (An. gambiae s.s., An. coluzzii, An. arabiensis, An. funestus s.s.) maintained in the Liverpool Insect Testing Establishment (LITE)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-west/1014F), Vgsc N1575Y, and Ace-1 G119S (G280S)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype frequency data in Figures 3 and 10, and mentions that data is available in Additional file 3: Table S1."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The paper describes laboratory-maintained mosquito strains (colonies) established from field collections in Africa, but it does not report data from field-caught mosquitoes (F0) or their immediate progeny (F1) collected during the study period. The study is a characterization of established laboratory colonies."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing the characterization of laboratory strains."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides the origin of the strains, e.g., 'Banfora M district' in Burkina Faso, 'Valley de Kou 7' in Burkina Faso, and 'Colueque, Southern Angola'."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper provides longitudinal data for the laboratory colonies over several years."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes the characterization of laboratory colonies maintained at the Liverpool School of Tropical Medicine."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper provides the necessary data in the main figures and text, and supplementary files are included."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1575Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya",
+      "Mozambique",
+      "Côte d’Ivoire",
+      "Burkina Faso",
+      "Angola"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper characterizes seven laboratory-maintained Anopheles mosquito strains (An. gambiae s.s., An. coluzzii, An. arabiensis, and An. funestus) used for screening new vector control products. It reports on their resistance phenotypes (via bioassays) and genotypes (kdr and ace-1 mutations) over time. The study is ineligible because it does not report data from field-collected populations, but rather from established laboratory colonies.",
+    "exclusion_reasons": [
+      "The study does not report data from field-caught mosquitoes (F0) or their immediate progeny (F1) collected during the study period; it characterizes established laboratory colonies."
+    ]
+  }
+}

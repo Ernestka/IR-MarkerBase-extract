@@ -1,0 +1,68 @@
+{
+  "id": "2019_da_Cruz_Detection_Alleles_Associated_Resistance_Chemical_PMID30953531",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles arabiensis from the Anopheles gambiae complex: 'The molecular analysis identified 100% of the 230 individuals from the An. gambiae complex as An. arabiensis' (page 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for Ace-1 G119S (G280S), Vgsc L1014F (L995F), and Vgsc L1014S (L995S) (pages 4-6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 6 provides genotype counts (RR, RS, SS) and allelic frequencies for L1014S across three localities (Fontom, Caiada, AGT) with total N=192. Text on page 5 also states 230 individuals were genotyped for Ace-1 G119S and all were SS."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae collected in September 2015 from three neighborhoods of the City of Praia, Santiago Island, Cabo Verde: Caiada, Achada Grande Trás, and Fontom (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study surveying field-collected Anopheles mosquitoes for insecticide resistance markers."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data reported at neighborhood level with GPS coordinates: Caiada (W023°33′33.40″, N14°55′41.24″), Achada Grande Trás (W023°29′13.53″, N14°55′5.94″), and Fontom (W023°31′16.64″, N14°54′22.61″) in Praia, Santiago, Cabo Verde (page 2, Table 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected during September 2015 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine original field collection undertaken by the authors in September 2015."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and site-specific frequency data are presented directly in the main text and Table 3."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Cabo Verde"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 230,
+    "summary": "This study investigated insecticide resistance markers in Anopheles arabiensis from three neighborhoods in Praia, Santiago Island, Cabo Verde, collected in September 2015. It reports complete genotype counts for Vgsc L1014S (L995S) (N=192), finding an overall resistant allele frequency of 7.3%, and confirms the absence of Vgsc L1014F (L995F) (N=192) and Ace-1 G119S (G280S) (N=230).",
+    "exclusion_reasons": []
+  }
+}

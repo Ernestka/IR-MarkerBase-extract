@@ -1,0 +1,72 @@
+{
+  "id": "2019_Lynd_LLIN_Evaluation_Uganda_Project_LLINEUP_PMID30867018",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study collected and analysed Anopheles mosquitoes including Anopheles gambiae (s.s.), An. arabiensis, and An. funestus (s.s.) in Uganda (Page 1, Abstract; Page 4, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc-L1014S (Vgsc L995S), Vgsc-L1014F (Vgsc L995F), Vgsc-N1575Y (Vgsc N1570Y), and Cyp4j5-L43F (Page 4, Molecular analysis; Page 5, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 5 reports total genotyped numbers (1368 An. gambiae s.s. and 88 An. arabiensis) along with overall allele frequencies (e.g. In An. gambiae s.s., L1014S frequency = 0.94, L1014F = 0.06, Cyp4j5-L43F = 0.60; in An. arabiensis, wild-type = 0.96, L1014S = 0.01, L1014F = 0.03)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field mosquito collections were conducted in 1029 houses across 104 health sub-districts (48 districts) in eastern and western Uganda in 2017–2018 (Page 2, Background; Page 4, Results)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original baseline entomological surveillance data for the LLINEUP cluster randomised trial in Uganda (Page 1-2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquito collections are specified by health sub-districts (HSDs) and administrative districts across Eastern and Western regions of Uganda (Page 2, Fig 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted during the baseline survey in 2017–2018 (Page 2, Background)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "This paper presents the primary baseline entomological dataset collected for the LLINEUP trial in Uganda."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Overall allele frequencies and species-specific sample sizes are reported directly in the main text (Page 5)."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Cyp4j5 L43F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1456,
+    "summary": "This primary study reports baseline entomological surveillance for the LLINEUP trial in 48 districts (104 health sub-districts) of Uganda in 2017–2018. Molecular diagnostics were performed on 1368 An. gambiae s.s. and 88 An. arabiensis to evaluate pyrethroid resistance markers including Vgsc-L1014S, Vgsc-L1014F, Vgsc-N1575Y, and Cyp4j5-L43F.",
+    "exclusion_reasons": []
+  }
+}

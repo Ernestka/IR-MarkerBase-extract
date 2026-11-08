@@ -1,0 +1,67 @@
+{
+  "id": "2019_Ibrahim_High_Plasmodium_Infection_Multiple_Insecticide_PMID31126311",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studied Anopheles coluzzii collected from Takatsaba village, Tessaoua Department, Niger (Page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped Vgsc L1014F (L995F) and L1014S (L995S) mutations using TaqMan assay (Page 5, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 7) reports exact genotype counts (RR, RS, SS) for L1014F in permethrin-alive (n=55) and permethrin-dead (n=19) An. coluzzii."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Indoor-resting blood-fed Anopheles females collected in Takatsaba village, Tessaoua Department, Maradi State, Niger in September 2017 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical field collection, bioassay, and molecular genotyping study."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Takatsaba village, Tessaoua Department, Maradi State, Niger (13.7559°N, 7.9865°E) (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place 12-14 September 2017 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field sampling conducted specifically for this study in September 2017."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay data are reported in Table 1 and Figure 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Niger"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 74,
+    "summary": "This study collected indoor-resting Anopheles coluzzii in Takatsaba, Niger in September 2017. Bioassays revealed high resistance to pyrethroids and DDT, and TaqMan genotyping of 74 F1 females (55 permethrin-resistant survivors and 19 dead) showed a high frequency of the Vgsc L1014F (L995F) mutation (81.8% in survivors vs 36.8% in dead), significantly associated with permethrin resistance.",
+    "exclusion_reasons": []
+  }
+}
