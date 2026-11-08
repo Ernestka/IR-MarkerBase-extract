@@ -1,0 +1,68 @@
+{
+  "id": "2018_Akogbeto_Blood_Feeding_Behaviour_Comparison_Contribution_PMID30134912",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigated vector populations of Anopheles coluzzii and Anopheles gambiae in northern Benin (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Polymerase chain reaction was used to estimate the frequency of the knockdown resistance (kdr) L1014F and the ace-1 (G119S) mutations (page 4, PCR detection section)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 on page 10 provides exact genotype counts (RR, RS, SS) for both kdr L1014F and Ace-1 (G119S) for An. gambiae and An. coluzzii broken down by region (Alibori and Donga)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected using human landing catches (HLC) and pyrethrum spray captures (PSC) during 2016 in 6 districts of northern Benin (page 2, Study area & Mosquito sampling)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical field study reporting mosquito collection, species identification, sporozoite rates, blood feeding behavior, and resistance marker genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in 6 districts across two regions of northern Benin: Kandi, Gogounou, and Segbana in Alibori region, and Djougou, Copargo, and Ouake in Donga region (page 2, Study area)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito sampling took place during the rainy (June–October 2016) and dry (November–May 2016) seasons (page 2, Mosquito sampling)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study reports original baseline entomological surveillance data collected in 2016 prior to IRS implementation."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype count data (RR, RS, SS) are fully reported in Table 5 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 980,
+    "summary": "This study evaluated vector density, species composition, malaria transmission dynamics, and insecticide resistance markers (kdr L1014F and ace-1 G119S) in Anopheles gambiae s.s. and Anopheles coluzzii across six districts in Alibori and Donga regions of northern Benin in 2016. Genotyping revealed high frequencies of kdr L1014F (0.73–0.82) and low frequencies of ace-1 G119S (0.01–0.03) in both species.",
+    "exclusion_reasons": []
+  }
+}

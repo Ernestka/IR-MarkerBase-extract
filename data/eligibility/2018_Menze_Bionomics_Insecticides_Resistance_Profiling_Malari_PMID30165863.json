@@ -1,0 +1,71 @@
+{
+  "id": "2018_Menze_Bionomics_Insecticides_Resistance_Profiling_Malari_PMID30165863",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Indoor resting blood-fed Anopheles mosquitoes (An. funestus s.s. and An. gambiae s.s.) were collected in Mibellon, Cameroon (Page 1 & 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped GSTe2 L119F and RDL A296S in An. funestus s.s., as well as Vgsc L1014F (L995F), Vgsc L1014S (L995S), and Ace-1 G119S (G280S) in An. gambiae s.s. (Page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 6 reports exact genotype counts/frequencies: GSTe2 L119F (N=110: 7 RR, 48 RS, 55 SS), RDL A296S (N=92: 3 RR, 12 RS, 75 SS), Vgsc L1014F (N=72: 22 RR, 48 RS, 2 SS), Vgsc L1014S (N=76: 0 RR, 3 RS, 73 SS), and Ace-1 G119S (N=50: 0 RR, 0 RS, 50 SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Adult blood-fed mosquitoes collected from houses in Mibellon, Cameroon in January 2017 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing vector bionomics, insecticide susceptibility bioassays, and resistance marker genotyping at a field site in Cameroon."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mibellon village (6°46'N, 11°70'E), Adamawa region, Mayo Banyo Division, Bankim Sub-division, Cameroon (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in January 2017 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field sampling conducted specifically for characterising the Mibellon experimental hut site in January 2017."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary genotype frequency counts and sample sizes are fully described in the main text of the article (Page 6)."
+    },
+    "markers_found": [
+      "GSTe2 L119F",
+      "Rdl A296S",
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 722,
+    "summary": "This study characterizes malaria vectors at Mibellon in central Cameroon. Field-collected F0 blood-fed Anopheles funestus s.s. and Anopheles gambiae s.s. were genotyped for key insecticide resistance markers including GSTe2 L119F, RDL A296S, Vgsc L1014F/S, and Ace-1 G119S. Susceptibility bioassays and PBO synergist tests were conducted on F1 offspring.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "2018_Gross_Characterizing_Permethrin_Etofenprox_Resistance_Tw_PMID30360362",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae laboratory strains (G3 and Akdr)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The paper mentions the L1014F mutation is present in the Akdr strain (page 1, 2), but it does not report new genotyping data for this marker in the study; it merely states the strain is known to carry it."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or frequencies are reported for any mosquito populations."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study uses laboratory-maintained colonies (G3 and Akdr) obtained from the Malaria Research and Reference Reagent Resource Center (MR4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study characterizing insecticide resistance in laboratory strains."
+      },
+      "sub_country_location": {
+        "met": false,
+        "evidence": "The study uses laboratory colonies, not field-collected samples."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study uses laboratory colonies, not field-collected samples."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study uses standard laboratory strains (G3 and Akdr) from a repository (MR4)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No genotype data is reported in the paper or needed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study characterizes the toxicity of permethrin and etofenprox against two laboratory strains of Anopheles gambiae (G3 and Akdr). It does not report any new field-collected mosquito data or genotype frequencies.",
+    "exclusion_reasons": [
+      "No field-collected mosquitoes (only laboratory strains used).",
+      "No new genotype data reported.",
+      "Does not report extractable genotype data."
+    ]
+  }
+}

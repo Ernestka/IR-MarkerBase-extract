@@ -1,0 +1,67 @@
+{
+  "id": "2018_Ketoh_Efficacy_Two_PBO_Long_Lasting_PMID29995894",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (specifically Anopheles gambiae s.s. and Anopheles coluzzii) collected in Kolokope, Togo (page 1, Abstract; page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of kdr L1014F (Vgsc L995F) using PCR and real-time PCR (page 3, 'Species identification and kdr L1014F detection'; page 7, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 7) provides exact genotype counts (RR, RS, SS) for kdr L1014F in An. coluzzii (RR=83, RS=1, SS=49; total N=133) and An. gambiae s.s. (RR=131, RS=1, SS=5; total N=137)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. larvae were collected from the field in Kolokope, Togo and reared to adults for bioassays and molecular testing (page 2, 'Study site'; page 3, 'WHO susceptibility Test')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article detailing an experimental hut trial, WHO susceptibility tube tests, and molecular characterisation performed in 2013."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Kolokope, Togo (07°47'59''N, 01°18'00''E) (page 2, 'Study site')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections and experimental hut evaluations took place between June and December 2013 (page 2, 'Study site')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Mosquitoes were collected as part of a standard primary field evaluation in Kolokope, Togo in 2013, with no mention of shared consortium datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay data are reported directly in the main text tables (Tables 1, 2, 4, 5)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Togo"
+    ],
+    "collection_years": [
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 270,
+    "summary": "This study evaluated two PBO LLINs (PermaNet 3.0 and Olyset Plus) alongside a standard pyrethroid net (Yorkool) against wild An. gambiae s.l. in experimental huts in Kolokope, Togo in 2013. The wild population was identified as sympatric An. coluzzii and An. gambiae s.s., with Vgsc L1014F (L995F) genotype counts (RR, RS, SS) presented for both species.",
+    "exclusion_reasons": []
+  }
+}

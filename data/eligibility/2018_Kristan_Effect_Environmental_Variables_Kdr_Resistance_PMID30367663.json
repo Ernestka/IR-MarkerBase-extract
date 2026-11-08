@@ -1,0 +1,70 @@
+{
+  "id": "2018_Kristan_Effect_Environmental_Variables_Kdr_Resistance_PMID30367663",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae (s.s.) and Anopheles arabiensis (page 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-L1014F), Vgsc L995S (kdr-L1014S), and Ace-1 G280S (G119S) (page 3, 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides the total number of mosquitoes genotyped (n=692 for kdr-L1014S homozygous, page 5; n=837 for mortality analysis, page 7) and discusses the presence/absence of genotypes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from breeding sites in villages around Butemba, Uganda (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting membrane feeding experiments and molecular analysis on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Butemba, Kyankwanzi District, Uganda (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between August 2013 and June 2014 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific set of experiments conducted by the authors in 2013-2014."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided within the main text and tables of the paper."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae (s.s.)",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Uganda"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1196,
+    "summary": "This study investigated the impact of environmental variables and kdr resistance genotypes on the survival and Plasmodium infection rates of wild Anopheles gambiae (s.s.) in Uganda. The study found that temperature and humidity, along with insecticide exposure, significantly affected mosquito survival and infection prevalence.",
+    "exclusion_reasons": []
+  }
+}

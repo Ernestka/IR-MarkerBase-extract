@@ -1,0 +1,68 @@
+{
+  "id": "2018_Tchigossou_Molecular_Basis_Permethrin_DDT_Resistance_PMID30458849",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus (s.s.) (page 2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the investigation of the voltage-gated sodium channel (VGSC) gene, specifically looking for L1014F and L1014S mutations (page 3, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides summary statistics for polymorphism in the VGSC gene, including the number of sequences (N=22 for Kpome), number of polymorphic sites (S=12), and number of haplotypes (h=12)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Kpome, Benin (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study using microarray and sequencing analysis on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the location as Kpome (6°23'N, 2°13'E), a southern inland region of Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection period is stated as December 2013 to February 2014 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states: 'In this study, we used the same mosquitoes from the previously published research results [10] to further describe the molecular basis of the observed resistance in this malaria vector population.' While the samples are the same as in Djouaka et al. (2016), this paper provides new molecular data (microarray and VGSC sequencing) not present in the previous publication."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required data (genotype counts/statistics) are provided in Table 4."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 22,
+    "summary": "This study investigates the molecular basis of permethrin and DDT resistance in Anopheles funestus from Kpome, Benin, using microarray-based transcriptional profiling and sequencing of the VGSC gene. The study confirms metabolic resistance (overexpression of P450s and GSTs) and the absence of kdr mutations.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "2018_Kamgang_Exploring_Insecticide_Resistance_Mechanisms_Three_PMID30433868",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.s. (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-w), Vgsc L995S (kdr-e), Ace-1 G280S (G119S), GSTe2 L119F, and Rdl A296S (Page 4, Table 1; Page 6, Section 3.6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts (RR, RS, SS) for kdr-w, kdr-e, and Ace-1 in An. coluzzii and An. gambiae s.s. (Page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Bangui, Central African Republic (Page 2, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article reporting new field data (Page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected in two neighborhoods: Gbanikola and Taoka St Paul in Bangui (Page 2, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection occurred in July 2016 (Page 2, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection in 2016."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in Table 1 and Table 2."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S",
+      "Rdl A296S",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Central African Republic"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 74,
+    "summary": "This study characterizes insecticide resistance in Anopheles gambiae s.l. and Anopheles funestus s.s. from Bangui, Central African Republic. It reports high resistance to pyrethroids and DDT, and genotypes kdr (L1014F/S), Ace-1, GSTe2 L119F, and Rdl A296S markers.",
+    "exclusion_reasons": []
+  }
+}

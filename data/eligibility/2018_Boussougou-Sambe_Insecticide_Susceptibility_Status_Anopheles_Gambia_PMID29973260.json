@@ -1,0 +1,68 @@
+{
+  "id": "2018_Boussougou-Sambe_Insecticide_Susceptibility_Status_Anopheles_Gambia_PMID29973260",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Anopheles larvae were collected from Limbe, Tiko and Buea... identified as belonging to the Anopheles gambiae (s.l.) complex (An. coluzzii and An. gambiae (s.s.)) (Page 1, Abstract & Page 2, Methods)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The kdr alleles (L1014F and L1014S) were genotyped using the hot ligation oligonucleotide assay (HOLA) (Page 1, Abstract & Page 3, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 5 details exact SS, SR, and RR genotype counts for L1014F kdr mutation by species (An. coluzzii, An. gambiae s.s.) across Limbe, Tiko, and Buea (total n=134)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae of An. gambiae (s.l.) were collected from field developmental sites in Limbe, Tiko and Buea in South-West Cameroon between November and December 2015 and reared to adults (Page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field collection, susceptibility bioassay, and kdr genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Coordinates provided: Limbe (4°1'30.4\"N, 9°11'40.5\"E), Tiko (4°4'32.6\"N, 9°21'28.9\"E) and Buea (4°10'2.4\"N, 9°18'27.3\"E) in Fako division, South-West Region, Cameroon (Page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred between November and December 2015 (Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field collections conducted specifically for this study in late 2015."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Genotype numbers (SS, SR, RR) per site and species are fully present in Table 3 in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 134,
+    "summary": "This study evaluated pyrethroid (deltamethrin, permethrin) and organophosphate (malathion) susceptibility and Vgsc L1014F / L1014S kdr frequencies in An. coluzzii and An. gambiae (s.s.) populations from three sites in South-West Cameroon (Limbe, Tiko, Buea) collected in late 2015. High resistance to pyrethroids and high L1014F frequencies (66-94%) were detected, with complete susceptibility to malathion.",
+    "exclusion_reasons": []
+  }
+}

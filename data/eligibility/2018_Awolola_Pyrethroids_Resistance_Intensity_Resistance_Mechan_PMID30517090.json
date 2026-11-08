@@ -1,0 +1,68 @@
+{
+  "id": "2018_Awolola_Pyrethroids_Resistance_Intensity_Resistance_Mechan_PMID30517090",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae, Anopheles coluzzii, and Anopheles arabiensis (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports on the West Africa knock down resistance (kdr-w) mutation (Abstract, page 1; page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper mentions S3 Table contains genotype count and frequency of the West Africa kdr mutation (page 11). While the table itself is in the supplementary file, the paper states it contains the data."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from natural breeding sites in six states in Nigeria (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study presenting new data on pyrethroid resistance intensity and mechanisms in Nigeria (Abstract, page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies six surveillance sites: Lagos (Ikorodu-Badagry), Ogun (Ipokia-Irolu), Edo (Igara), Anambra (Achalla), Niger (New Bussa), and Kwara (Ayede) (Table 1, page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was carried out from May to July 2016 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections from 2016 as part of a newly established vector surveillance program."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "The paper states that S3 Table contains the genotype count and frequency data, but this supplementary file is not included in the provided document."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 2038,
+    "summary": "This study investigated pyrethroid resistance intensity and mechanisms in Anopheles gambiae s.l. populations from six sites in Nigeria in 2016. It utilized WHO bioassays (1x, 5x, 10x concentrations) and molecular analysis for kdr-w mutations and metabolic enzyme activities (P450, GST, esterases). High resistance was associated with kdr-w and elevated metabolic enzyme levels.",
+    "exclusion_reasons": []
+  }
+}

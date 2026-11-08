@@ -1,0 +1,68 @@
+{
+  "id": "2019_Fagbohun_Cytochrome_P450_Mono_Oxygenase_Resistance_PMID30753574",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. (page 1, 2, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports kdr (Vgsc L995F) genotypes in Anopheles gambiae s.s. (Table 2, page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (RR, RS) and allele frequencies for Anopheles gambiae s.s. (page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Kosofe LGA, Lagos State, Nigeria (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original bioassay and molecular data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Kosofe LGA, Lagos State, Nigeria (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were obtained between June 2017 and May 2018 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of mosquitoes in Kosofe LGA, Lagos State, between 2017 and 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Culex quinquefasciatus"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 72,
+    "summary": "This study investigated insecticide resistance in Anopheles gambiae s.s. and Culex quinquefasciatus from Kosofe, Lagos, Nigeria. It reports bioassay results (DDT and deltamethrin, with and without PBO) and kdr (Vgsc L995F) genotype frequencies for An. gambiae s.s.",
+    "exclusion_reasons": []
+  }
+}
