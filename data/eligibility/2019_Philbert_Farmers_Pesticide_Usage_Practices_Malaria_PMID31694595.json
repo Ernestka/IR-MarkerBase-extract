@@ -1,0 +1,69 @@
+{
+  "id": "2019_Philbert_Farmers_Pesticide_Usage_Practices_Malaria_PMID31694595",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (specifically An. arabiensis and An. gambiae s.s.) collected from vegetable farms in Magu district, Tanzania (page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for both western and eastern kdr mutations (Vgsc L995F and L995S) using PCR following Martinez-Torres et al. and Ranson et al. (page 3-4, 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 6 states: 'A total of 130 mosquitoes that survived insecticide exposure were further subjected for kdr genotyping (both eastern and western variants). Kdr mutation alleles were not detected in all the samples that were tested...' and page 7 confirms 'failure to detect the knock down resistance (kdr) gene', giving N=130 with 0 resistant alleles (130 SS)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae and pupae were sampled from vegetable farms in Sola, Ijitu, Kiloleli, and Ilumya villages in Magu district, Mwanza region, Tanzania (page 2-3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field collection, bioassays, and molecular study conducted in 2014 (page 3-4)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Farms located in Sola, Ijitu, Kiloleli, and Ilumya villages, Magu district (02°35'S, 033°26'E), Mwanza region, Tanzania (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field sampling was conducted between January and September 2014 (page 2-3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine primary entomological collection by the authors in 2014."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Key genotype and bioassay summary data are contained in the main text; additional files 2-4 only cover bioassay replicates."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles arabiensis",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 130,
+    "summary": "This study evaluated farmers' pesticide usage practices and insecticide susceptibility of An. gambiae s.l. from Magu district, Tanzania, in 2014. WHO susceptibility tests showed phenotypic resistance to permethrin, cyfluthrin, deltamethrin, and lambdacyhalothrin. A total of 130 bioassay survivors were genotyped for both kdr-w (Vgsc L995F) and kdr-e (Vgsc L995S), and neither kdr mutation was detected in any specimen (0/130).",
+    "exclusion_reasons": []
+  }
+}

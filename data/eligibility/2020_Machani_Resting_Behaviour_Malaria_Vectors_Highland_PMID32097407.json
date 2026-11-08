@@ -1,0 +1,68 @@
+{
+  "id": "2020_Machani_Resting_Behaviour_Malaria_Vectors_Highland_PMID32097407",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.l. (page 1, 5, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995S (1014S) and Vgsc L995F (1014F) (page 8, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides the number of mosquitoes tested and the counts of 1014S and 1014F alleles for An. gambiae s.s. and An. arabiensis by site and location (indoor/outdoor)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Kisian and Bungoma, western Kenya (page 3, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical field study reporting original data on resting behavior, bioassays, and genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for specific sites: Kisian (lowland) and Bungoma (highland) in western Kenya (page 3, 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were sampled in 2018 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections made in 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 693,
+    "summary": "This study investigated the resting behavior, host preference, and insecticide resistance of malaria vectors in two ecological settings in western Kenya (Kisian and Bungoma). It reports phenotypic resistance to deltamethrin and genotypes for Vgsc 1014S and 1014F mutations in An. gambiae s.s. and An. arabiensis.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "2020_Assogba_Dynamic_Resistance_Alleles_Two_Major_PMID32171326",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae (s.l.) populations in Benin (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for L1014F-VGSC and G119S-ace-1 (page 1, Abstract)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (pages 7-9) provides genotype counts (SS, RS, RR) for L1014F-VGSC and G119S-ace-1 for multiple populations and years."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected Anopheles gambiae (s.l.) larvae from 13 localities in Benin (page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting new field data collected between 2013 and 2015 (page 2, Methods)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for 13 specific localities in Benin (Table 1, page 4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports data from a 3-year survey (2013-2015) (page 1, Abstract)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study reports new data collected between 2013 and 2015. While it compares these to previously published data (2006-2010), the 2013-2015 data are presented as new empirical findings."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts are provided in Table 2 (pages 7-9)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 2263,
+    "summary": "This study reports on the insecticide resistance status and resistance marker frequencies (L1014F-VGSC and G119S-ace-1) of Anopheles gambiae (s.l.) populations in 13 localities across Benin, collected between 2013 and 2015. It compares these findings with historical data (2006-2010) to assess evolutionary trends.",
+    "exclusion_reasons": []
+  }
+}

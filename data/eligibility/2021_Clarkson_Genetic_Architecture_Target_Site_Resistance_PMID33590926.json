@@ -1,0 +1,90 @@
+{
+  "id": "2021_Clarkson_Genetic_Architecture_Target_Site_Resistance_PMID33590926",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae and Anopheles coluzzii (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotypes for Vgsc L995F, L995S, N1570Y, V402L, I1527T, P1874S, P1874L, and others (Table 1, page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides population allele frequencies for 16 populations (page 3)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses whole-genome sequence data from 1,142 wild-caught mosquitoes sampled from 13 African countries (Introduction, page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study analyzing Ag1000G phase 2 data (Introduction, page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper mentions 33 collection sites across 13 countries (Methods, page 12)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The paper states collections took place between 2000 and 2012 (Results, page 7), but the data is analyzed as a consolidated resource (Ag1000G phase 2). However, the study itself is a primary analysis of this resource."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The paper explicitly states it uses data from the Ag1000G phase 2 resource (Introduction, page 2), which is a large, multi-country consortium dataset."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data (allele frequencies) is provided in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Vgsc P1874S",
+      "Vgsc P1874L",
+      "Vgsc M490I"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Angola",
+      "Bioko",
+      "Burkina Faso",
+      "Cameroon",
+      "Côte d'Ivoire",
+      "Gabon",
+      "The Gambia",
+      "Ghana",
+      "Guinea",
+      "Guinea-Bissau",
+      "Kenya",
+      "Mayotte",
+      "Uganda"
+    ],
+    "collection_years": [
+      2000,
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1142,
+    "summary": "This study analyzes whole-genome sequence data from 1,142 wild-caught Anopheles gambiae and Anopheles coluzzii mosquitoes from 13 African countries to investigate genetic variation in the Vgsc gene, identifying known and novel resistance-associated mutations and their haplotype backgrounds.",
+    "exclusion_reasons": []
+  }
+}

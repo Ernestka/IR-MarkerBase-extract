@@ -1,0 +1,69 @@
+{
+  "id": "2020_Sovi_Resistance_Status_Anopheles_Gambiae_Insecticides_PMID31941494",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigated Anopheles gambiae s.l. (specifically An. coluzzii and An. gambiae s.s.) collected from breeding sites in Plateau department, Benin (Page 1-2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study characterized the Vgsc kdr L1014F mutation (Vgsc L995F) using PCR (Page 2, 'Molecular analysis')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 6) reports exact kdr L1014F genotype counts (RR, RS, SS) and sample sizes for Ifangni, Sakété, Pobè, and Kétou districts pre- (2009) and post-intervention (2012–2013). Table 3 and Table 5 also give genotype counts for bioassay dead/live and species-specific subsets."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from natural breeding sites in 4 districts (Ifangni, Sakété, Pobè and Kétou) in Plateau department, South-East Benin in 2009 and 2012–2013, and reared to adulthood (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting new field collection, bioassay, and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling was conducted in four specific districts (Ifangni, Sakété, Pobè, and Kétou) in the Plateau Department, Benin (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling periods are explicitly specified: pre-intervention in May–July 2009 and post-intervention in May–July 2012–2013 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study reports original field collections conducted by CREC in four districts of Plateau department, Benin."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay data are reported in full within the main text tables (Tables 1–5)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2009,
+      2012,
+      2013
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 450,
+    "summary": "This study evaluated insecticide susceptibility and the frequency of the Vgsc L1014F (kdr-west) mutation in Anopheles gambiae s.l. (An. coluzzii and An. gambiae s.s.) across four districts in Plateau Department, south-eastern Benin, before (2009) and after (2012–2013) a 2011 mass LLIN distribution campaign. Detailed kdr L1014F genotype counts (RR, RS, SS) are presented per district, as well as broken down by bioassay outcome (dead vs live post-deltamethrin exposure) and species.",
+    "exclusion_reasons": []
+  }
+}

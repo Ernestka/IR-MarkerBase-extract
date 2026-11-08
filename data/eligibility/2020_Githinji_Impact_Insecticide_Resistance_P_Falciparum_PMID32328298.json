@@ -1,0 +1,71 @@
+{
+  "id": "2020_Githinji_Impact_Insecticide_Resistance_P_Falciparum_PMID32328298",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and An. funestus (page 3, section 2.3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for the Vgsc L995S (kdr-east) mutation (page 5, section 2.6 and Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts (SS, LS, LL) for five clusters in Busia County."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Teso North and Teso South, Busia County, Kenya (page 3, section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research article reporting original field data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for specific clusters: Kaliwa, Odioi, Akiriamasit, Kengatunyi, and Rwatama (Table 1, page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports collection from 2012 to 2014 (page 3, section 2.3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper mentions it is a nested study within a wider study (SSC no: 1677) and references a related paper (Githinji et al., 2019 [32]), but the data presented in Table 1 appears to be specific to this study's analysis of biting and resting behavior."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and site locations, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2012,
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1016,
+    "summary": "This study investigated the impact of insecticide resistance (specifically kdr L995S) on the biting, feeding, and resting behavior of Anopheles mosquitoes in Busia County, Kenya. It found that resistant populations (higher SS genotype frequency) exhibited different biting peaks and resting behaviors compared to susceptible populations.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2020_Atoyebi_Investigating_Molecular_Basis_Multiple_Insecticide_PMID32811561",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus (s.s.) (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports sequencing of the VGSC gene to screen for kdr mutations (L1014F and L1014S) (Page 4, Methods; Page 9, Results)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genetic parameters for the VGSC gene, including the number of sequences (N=10 for Akaka-Remo) and number of haplotypes (h=8) (Page 11)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Akaka-Remo, Ogun State, Nigeria (Page 1, Abstract)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study investigating molecular mechanisms of insecticide resistance in a specific field population."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the location as Akaka-Remo, Ogun State, Nigeria (Page 1, Abstract)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field mosquito samples were collected from October 2014 to April 2015 (Page 2, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper is a follow-up to a previous study (Djouaka et al. 2016) but presents new molecular data (microarray, RT-PCR, and sequencing) on the same population."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided within the main text and tables of the paper."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2014,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 11,
+    "summary": "This study investigates the molecular basis of insecticide resistance in Anopheles funestus (s.s.) from Akaka-Remo, Nigeria. It uses microarray and RT-PCR to identify metabolic resistance mechanisms (GSTe2, P450s, trypsin, cuticle proteins) and sequences the VGSC gene to check for kdr mutations. The study concludes that kdr mutations are absent and that resistance is driven by metabolic and cuticular mechanisms.",
+    "exclusion_reasons": []
+  }
+}

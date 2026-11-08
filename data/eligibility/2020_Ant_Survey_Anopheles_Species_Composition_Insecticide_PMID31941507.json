@@ -1,0 +1,69 @@
+{
+  "id": "2020_Ant_Survey_Anopheles_Species_Composition_Insecticide_PMID31941507",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-08",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae, An. coluzzii, An. melas) on Bubaque island."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-west) and Vgsc L995S (kdr-east) (page 4, 5, 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides genotype counts (SS, RS, RR) for An. gambiae and An. gambiae/coluzzii hybrids in resistant and susceptible groups."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field on Bubaque island, Guinea-Bissau (page 2, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study describing a survey of mosquito species composition and insecticide resistance."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for Bubaque island, with specific village locations (Anbanha, Ancadona, Bijante, Brus) mentioned (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling was performed in June/July 2017 and November/December 2017 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new, specific entomological investigation on Bubaque island in 2017."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay data are provided in the main text tables (Table 1, 2, 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles melas"
+    ],
+    "countries": [
+      "Guinea-Bissau"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1869,
+    "summary": "This study surveyed Anopheles gambiae s.l. on Bubaque island, Guinea-Bissau, in 2017. It identified An. gambiae, An. coluzzii, and An. melas, assessed sporozoite rates, and measured insecticide resistance via CDC bottle bioassays and kdr genotyping. It found moderate resistance to alpha-cypermethrin, which was reversed by PBO, and moderate frequencies of the kdr-west (L995F) mutation.",
+    "exclusion_reasons": []
+  }
+}
