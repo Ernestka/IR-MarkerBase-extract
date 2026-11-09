@@ -1,0 +1,71 @@
+{
+  "id": "2020_Gueye_Insecticide_Resistance_Profiling_Anopheles_Coluzzi_PMID33255805",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-09",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles coluzzii (Anopheles gambiae complex) in Senegal."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F), Vgsc L995S (L1014S), Vgsc N1575Y (N1575Y), and Ace-1 G280S (G119S) (Page 4, Section 2.7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype counts and frequencies for the markers in Figures 3A, 3B, and 3C, and in the text (e.g., Page 7, Section 3.6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Senegal (Tambacounda, Kedougou, Fatick) (Page 3, Section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study conducting field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies three health districts: Tambacounda, Kedougou, and Fatick (Page 3, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted during the 2017 and 2018 rainy seasons (Page 3, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections from 2017 and 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1575Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2017,
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 2141,
+    "summary": "This study characterizes insecticide resistance in Anopheles gambiae and An. coluzzii populations from three districts in Senegal (Tambacounda, Kedougou, Fatick) collected in 2017-2018. It reports high resistance to pyrethroids and DDT, susceptibility to organophosphates and carbamates (with suspected bendiocarb resistance in Kedougou), and genotypes for kdr (L1014F, L1014S, N1575Y) and Ace-1 (G119S) markers. Metabolic resistance was also investigated via gene expression profiling.",
+    "exclusion_reasons": []
+  }
+}

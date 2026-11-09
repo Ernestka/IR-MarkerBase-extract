@@ -1,0 +1,70 @@
+{
+  "id": "2021_Owuor_Insecticide_Resistance_Status_Indoor_Outdoor_PMID33647049",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-09",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.l. (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L1014S, Vgsc L1014F, Vgsc N1575Y, and Ace-1 G119S (Page 5, Molecular identification and genotyping of resistance alleles; Table 2, Page 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (Page 9) provides the number of mosquitoes genotyped (n) and the frequency of resistant alleles for each site, location, and species."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Kisian and Kimaeti, Western Kenya (Page 3, Study sites)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research article reporting original field collections and laboratory analyses."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies locations as Kisian (Kisumu county) and Kimaeti (Bungoma county) in Western Kenya (Page 3, Study sites)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study states collections were made in 2019 (Page 3, Mosquito sampling)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted in 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and frequencies, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1094,
+    "summary": "This study compared insecticide resistance (phenotypic, metabolic, and genotypic) in indoor and outdoor resting Anopheles gambiae s.l. and An. funestus s.l. populations from two sites in Western Kenya. It found higher resistance in indoor-resting populations and provides genotype frequencies for kdr (L1014S, L1014F, N1575Y) and Ace-1 (G119S) mutations.",
+    "exclusion_reasons": []
+  }
+}

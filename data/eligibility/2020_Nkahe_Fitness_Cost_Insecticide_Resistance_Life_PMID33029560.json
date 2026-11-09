@@ -1,0 +1,69 @@
+{
+  "id": "2020_Nkahe_Fitness_Cost_Insecticide_Resistance_Life_PMID33029560",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-09",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated Anopheles coluzzii and Anopheles gambiae collected from Yaoundé, Cameroon (Page 3, 'Methods')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened for Vgsc L1014F (Vgsc L995F) and L1014S (Vgsc L995S) using Real-Time PCR TaqMan assays (Page 4, 'Detection of knockdown resistance (kdr)')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on Page 8 reports extractable genotype counts for field-collected F0 mosquitoes (N=119: RR=24, RS=90, SS=5, f(R)=0.58) and F12 generation (N=111: RR=111, RS=0, SS=0, f(R)=1.0)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheline larvae were collected in standing water from several districts in Yaoundé, Cameroon (Tsinga, Nsam, Nkolbisson, Obobogo, Mvog-beti, Bastos, Tam-Tam, Nkoldongo) between September 2018 and September 2019 (Page 3, 'Study site')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article investigating the fitness cost of insecticide resistance in Anopheles coluzzii."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from specific districts in Yaoundé, Cameroon (3° 52' 12 N; 11° 31' 12 E) (Page 3, 'Study site')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collections took place from September 2018 to September 2019 (Page 3, 'Study site')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary field collections conducted specifically for this study in Yaoundé between 2018 and 2019."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All main genotype frequencies, counts, and bioassay data are reported in the main text and tables (e.g. Table 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 119,
+    "summary": "This study evaluated the fitness costs of insecticide resistance in Anopheles coluzzii from Yaoundé, Cameroon. Field-collected F0 larvae (92.5% An. coluzzii, 7.5% An. gambiae) were screened for kdr Vgsc 1014F and 1014S mutations, showing an F0 L1014F allele frequency of 58% (N=119: 24 RR, 90 RS, 5 SS). The selection of a resistant line over 12 generations resulted in 100% L1014F fixed frequency.",
+    "exclusion_reasons": []
+  }
+}

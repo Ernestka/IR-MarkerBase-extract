@@ -1,0 +1,67 @@
+{
+  "id": "2021_Muhammad_High_Pyrethroid_DDT_Resistance_Major_PMID33705436",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-09",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii, a member of the Anopheles gambiae complex (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (1014F), Vgsc L995S (1014S), and Vgsc N1570Y (1575Y) (page 1, 5, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies for 1014F are provided in Figure 4a and described in the text (page 8). The sample size for genotyping is 32 F0 females (page 5, 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from field sites in Port Harcourt, Nigeria (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical research article (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites in Obio/Akpor Government Area, Port Harcourt, Rivers State, Nigeria (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collection was conducted in October and November 2019 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new, specific collection of larvae in 2019 for this research."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and frequencies, are provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 32,
+    "summary": "This study characterizes insecticide resistance in Anopheles coluzzii from Port Harcourt, Nigeria. It reports high resistance to pyrethroids and DDT, with evidence of metabolic resistance (P450s/GSTs) and high frequency of the 1014F kdr mutation, alongside the first detection of the 1575Y mutation in this region.",
+    "exclusion_reasons": []
+  }
+}

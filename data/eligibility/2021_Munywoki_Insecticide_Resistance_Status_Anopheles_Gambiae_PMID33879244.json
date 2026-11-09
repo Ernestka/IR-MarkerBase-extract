@@ -1,0 +1,68 @@
+{
+  "id": "2021_Munywoki_Insecticide_Resistance_Status_Anopheles_Gambiae_PMID33879244",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-09",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates insecticide resistance in Anopheles gambiae (s.l.) mosquitoes (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotypes Anopheles gambiae (s.l.) for L1014S and L1014F kdr mutations (page 4, 'Detection of kdr genotype mutations')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 (page 6) provides genotype counts (RR, RS, SS) for Anopheles gambiae (s.s.) populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from eight study sites in Kilifi county, coastal Kenya (page 2, 'Study area' and 'Larval mosquito collection')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research study conducted by the authors (page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific coordinates for eight study sites in Kilifi and Malindi subcounties (page 2, 'Larval mosquito sampling')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in 2013 and 2014 (page 2, 'Larval mosquito collection')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections from 2013-2014."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts in Table 3, are provided in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae (s.s.)",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2013,
+      2014
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 192,
+    "summary": "This study investigated insecticide resistance in Anopheles gambiae (s.l.) from eight sites in coastal Kenya. It reports phenotypic resistance to pyrethroids and organophosphates, and genotypes mosquitoes for L1014S and L1014F kdr mutations. The L1014S mutation was found at a low frequency in An. gambiae (s.s.).",
+    "exclusion_reasons": []
+  }
+}

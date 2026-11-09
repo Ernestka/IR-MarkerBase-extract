@@ -1,0 +1,67 @@
+{
+  "id": "2020_Machani_Phenotypic_Genotypic_Biochemical_Changes_During_PMID33149227",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-09",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotype frequencies for Vgsc L1014F (L995F) and L1014S (L995S) in Table 1 (page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides sample sizes and allele frequencies for Vgsc L1014, L1014S, and L1014F for the parent population and selected/unselected lineages (page 6)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Bungoma county, western Kenya (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving laboratory selection of field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies Bungoma county, western Kenya (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study describes a multi-generational experiment conducted over a defined period, and the paper was published in 2020."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a specific laboratory selection experiment using field-collected mosquitoes from Bungoma, Kenya."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype frequencies and bioassay results, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 727,
+    "summary": "This study investigated the phenotypic, genotypic, and biochemical changes in Anopheles gambiae mosquitoes from western Kenya during laboratory selection for pyrethroid resistance and subsequent resistance decay. The study found that metabolic detoxification (monooxygenases) played a major role in resistance, while Vgsc mutations (L1014F/S) were already near fixation in the parent population and did not change significantly during selection.",
+    "exclusion_reasons": []
+  }
+}

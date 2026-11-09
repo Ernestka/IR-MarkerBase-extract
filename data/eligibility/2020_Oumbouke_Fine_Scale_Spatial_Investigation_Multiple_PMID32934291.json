@@ -1,0 +1,70 @@
+{
+  "id": "2020_Oumbouke_Fine_Scale_Spatial_Investigation_Multiple_PMID32934291",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-09",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. and Anopheles coluzzii in central Côte d'Ivoire (Page 1-2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports Vgsc L1014F (L995F), Vgsc L1014S (L995S), Vgsc N1575Y (N1570Y), and Ace-1 G119S (G280S) (Page 2, Table 5, Figure 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 provides extractable genotype counts (LL, LF, FF for 1014F and NN, NY, YY for 1575Y) and sample sizes per village. Text states 367 samples were screened for 1014S (all wild-type)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from 8 study villages in central Côte d'Ivoire between September and November 2016 and reared to adulthood for testing (Page 8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting baseline field vector monitoring data (Page 2, 8)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Eight specific study villages (Akanzakro, Kologonouan, Konzo, Kouakro, N'Guessan Pokoukro, Saoundi, Seoule, Sessenouan) in central Côte d'Ivoire are reported with exact geographic coordinates in Table 6 (Page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae collections took place between September 2016 and November 2016 (Page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "New empirical baseline study data collected specifically for a cluster randomized controlled trial evaluation in central Côte d'Ivoire."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Extractable target-site genotype counts, species composition, and sample sizes are provided in tables in the main text (Table 4 and Table 5)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2016
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 975,
+    "summary": "This primary field study evaluated insecticide resistance status, target-site resistance marker frequencies (Vgsc 1014F, 1014S, 1575Y and Ace-1 G119S), and metabolic expression profiles in Anopheles gambiae s.s. and An. coluzzii populations across eight villages in central Côte d'Ivoire during late 2016.",
+    "exclusion_reasons": []
+  }
+}
