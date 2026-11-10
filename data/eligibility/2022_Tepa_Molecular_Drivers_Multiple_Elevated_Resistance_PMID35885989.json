@@ -1,0 +1,70 @@
+{
+  "id": "2022_Tepa_Molecular_Drivers_Multiple_Elevated_Resistance_PMID35885989",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 6, section 3.1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (1014F), Vgsc L995S (1014S), Vgsc N1575Y (N1570Y), and Ace-1 G119S (G280S) (page 5, section 2.8; page 9, section 3.5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype counts and frequencies are provided for 1014F (fixed), 1014S (all SS), N1575Y (11 heterozygotes, 33 homozygous susceptible), and G119S (23 RR, 22 SS) (page 9, section 3.5; page 10, Table 2)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Mangoum, Cameroon (page 3, section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting field collections, bioassays, and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study location is Mangoum, Cameroon (page 3, section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in November 2020 and May 2021 (page 3, section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analysis for the Mangoum site."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1575Y",
+      "Ace-1 G119S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 48,
+    "summary": "This study investigates insecticide resistance in Anopheles gambiae s.s. from Mangoum, Cameroon. It reports high resistance to multiple insecticide classes, including pyrethroids, carbamates, and organophosphates. Genotyping revealed fixed 1014F-kdr, moderate frequencies of 1575Y-kdr and G119S-Ace-1, and overexpression of several metabolic and cuticular resistance genes.",
+    "exclusion_reasons": []
+  }
+}

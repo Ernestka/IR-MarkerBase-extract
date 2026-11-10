@@ -1,0 +1,71 @@
+{
+  "id": "2023_N_Dri_Species_Composition_Insecticide_Resistance_Malaria_PMID36915098",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (including An. arabiensis, An. coluzzii, An. gambiae s.s.) and Anopheles funestus s.l. (page 6, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-L995F), Vgsc L995S (kdr-L995S), Vgsc N1570Y (kdr-N1570Y), and Ace-1 G280S (ace1-G280S) (page 8, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (SS, RS, RR) and allele frequencies for the specified markers in different species (page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in Ellibou, Côte d’Ivoire (page 2, Methods section)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study conducting entomological surveys and molecular analysis (page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the village of Ellibou, Agneby-Tiassa region, Côte d’Ivoire (page 2, Methods section)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from January to December 2015 (page 2, Methods section)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study is a new entomological survey in a previously unstudied location (Ellibou) (page 2, Background)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in Table 4 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Côte d’Ivoire"
+    ],
+    "collection_years": [
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 141,
+    "summary": "This study characterized the malaria vector population in Ellibou, Côte d’Ivoire, in 2015. It reports the first finding of An. arabiensis in the country. The study performed WHO insecticide susceptibility tests and genotyped kdr (L995F, L995S, N1570Y) and ace1 (G280S) markers in field-collected Anopheles gambiae s.l. populations.",
+    "exclusion_reasons": []
+  }
+}

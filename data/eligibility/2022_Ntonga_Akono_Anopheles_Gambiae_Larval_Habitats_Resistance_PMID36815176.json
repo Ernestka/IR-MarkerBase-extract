@@ -1,0 +1,68 @@
+{
+  "id": "2022_Ntonga_Akono_Anopheles_Gambiae_Larval_Habitats_Resistance_PMID36815176",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae s.l. (page 1, title and abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports Kdr West and Kdr East mutations (Table IV, page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table IV (page 7) provides the number of individuals analyzed (N) and the allelic frequencies for Kdr West and Kdr East in Kribi urban and Kribi rural."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted on field-collected larvae from Kribi, Cameroon (page 4, 'Écologie larvaire et identification morphologique des adultes')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies Kribi urban and Kribi rural, and provides coordinates for sampling sites in Table I (page 6)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections occurred in June and October 2020, and January and April 2021 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections in Kribi, Cameroon, conducted in 2020-2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype frequencies and sample sizes, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 350,
+    "summary": "This study investigated the larval ecology and insecticide resistance of Anopheles gambiae s.l. in Kribi, Cameroon. It reports resistance to DDT, deltamethrin, and permethrin, and provides allelic frequencies for Kdr West and Kdr East mutations in both urban and rural populations.",
+    "exclusion_reasons": []
+  }
+}

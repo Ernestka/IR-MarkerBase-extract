@@ -1,0 +1,70 @@
+{
+  "id": "2022_Tene-Fossog_Temporal_Variation_High_Level_Pyrethroid_PMID35521949",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.s. and Anopheles coluzzii (page 247, Abstract; page 250, 'Vector species composition')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "TaqMan assays were used to genotype Vgsc mutations L1014F (L995F), L1014S (L995S), and N1575Y (N1570Y) (page 250, 'Genotyping of KDR mutations' and Table 3, page 253)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 253 provides sample counts and frequencies for RR, RS, and SS genotypes for L1014F, L1014S, and N1575Y in both An. coluzzii and An. gambiae."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from breeding sites in Etoa-Meki (urban) and Nkolondom (peri-urban) in Yaoundé, Cameroon, between March 2019 and December 2020 and reared to adults (F0) (page 248-249)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field collections, bioassays, and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at specific sites in Yaoundé, Cameroon: Etoa-Meki (3°52'56''N, 11°31'49''E) and Nkolondom (3°57'05''N, 11°29'24''E) (pages 248-249)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval collections were conducted over 2 years, from March 2019 to December 2020, with genotyping performed on samples from March to December 2019 (pages 249, 253)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Field collections were primary sampling conducted specifically for this study by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype counts, sample sizes, and frequencies are presented directly in Table 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 180,
+    "summary": "This study assesses insecticide resistance dynamics and mechanisms in Anopheles coluzzii and Anopheles gambiae collected across multiple seasons in Yaoundé, Cameroon, between 2019 and 2020. The authors report high resistance to pyrethroids and DDT, evaluate resistance intensity and synergism, and report exact genotype counts for Vgsc L1014F, L1014S, and N1575Y.",
+    "exclusion_reasons": []
+  }
+}

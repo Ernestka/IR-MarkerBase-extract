@@ -1,0 +1,76 @@
+{
+  "id": "2022_Mugenzi_Escalating_Pyrethroid_Resistance_Two_Major_PMID36284278",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles funestus s.s. and Anopheles gambiae s.l. collected in Atatam, southern Ghana (Page 1-2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped target resistance markers including Vgsc-L1014F (L995F), Vgsc-L1014S (L995S), Vgsc-N1575Y (N1570Y), Ace-1 G119S (G280S), Rdl A296S, GSTe2 L119F, Ace-1 N485I, CYP6P9a, and CYP6P9b in field populations (Page 4, 7-8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports sample sizes and exact genotype/allele frequencies for F0 mosquitoes: e.g. RDL 296S in An. funestus (50 genotyped: 36 RR, 12 RS, 2 SS), GSTe2 L119F (53 genotyped: 16 RR, 25 RS, 12 SS), Ace-1 G119S in An. gambiae s.l. (35 genotyped: 16 RR, 3 RS, 16 SS), and Vgsc-1014F (38 F0 genotyped, allele frequency 90.79%) (Page 7-8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Indoor blood-fed resting female Anopheles were collected in the village of Atatam, Ashanti Region, Southern Ghana in July and October 2021 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting field mosquito collections, susceptibility bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Atatam (06° 17.377″ N, 001° 27.545″ W), Adansi Asokwa District, Ashanti Region, Ghana (Page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in July and October 2021 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Fresh field collections conducted specifically for this study in 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Sufficient extractable genotype counts and frequencies are reported directly in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S",
+      "Rdl A296S",
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Cyp6p9b R",
+      "Ace-1 N485I"
+    ],
+    "species": [
+      "Anopheles funestus",
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1177,
+    "summary": "This study evaluated insecticide susceptibility, LLIN bio-efficacy, and resistance mechanisms in Anopheles funestus s.s. and Anopheles gambiae s.l. from Atatam, Southern Ghana collected in 2021. Target-site markers (Vgsc-1014F, 1014S, 1575Y, Ace-1 G119S, Rdl A296S, Ace-1 N485I) and metabolic markers (GSTe2 L119F, CYP6P9a, CYP6P9b) were genotyped, providing extractable genotype frequencies and genotype-phenotype association data for survivors and dead mosquitoes post-exposure.",
+    "exclusion_reasons": []
+  }
+}

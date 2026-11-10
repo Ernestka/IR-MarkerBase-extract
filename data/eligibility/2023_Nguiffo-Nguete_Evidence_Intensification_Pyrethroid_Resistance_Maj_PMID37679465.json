@@ -1,0 +1,76 @@
+{
+  "id": "2023_Nguiffo-Nguete_Evidence_Intensification_Pyrethroid_Resistance_Maj_PMID37679465",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. and Anopheles funestus s.s. (Page 2, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (L1014F), Vgsc L995S (L1014S), Vgsc N1570Y (N1575Y), Ace-1 G280S (G119S), Rdl A296G (A296S), GSTe2 L119F, Cyp6p9a R, Cyp6p9b R, and Cyp6p9a/b 6.5kb-SV (Page 4, 7, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies and counts are provided in Figures 4 and 5, and in the text (e.g., Page 4: 'The 296S-resistant allele (R) frequency was low (16.7%) with genotype frequency of 26.4% RS and 71.6% SS and 2% RR')."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Ndjili-Brasserie, Kinshasa, Democratic Republic of Congo (Page 7, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study characterizing resistance profiles and molecular markers in 2021 field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collected in Ndjili-Brasserie, a suburb of Kinshasa (4° 19′ 39″ S, 15° 18′ 48″ E) (Page 7, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study explicitly states the collection occurred in July 2021 (Page 7, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is a new collection (2021) comparing results to a previous 2015 study (Riveron et al. 2018) in the same location."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data is present in the manuscript figures and text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S",
+      "Rdl A296G",
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Cyp6p9b R",
+      "Cyp6p9a/b 6.5kb-SV"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles funestus s.s."
+    ],
+    "countries": [
+      "Democratic Republic of Congo"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 297,
+    "summary": "This study characterizes the insecticide resistance profile and molecular markers of Anopheles gambiae s.l. and Anopheles funestus s.s. collected in Kinshasa, DRC, in 2021, comparing findings to a 2015 baseline. It reports high pyrethroid resistance, near-fixation of kdr-w in A. gambiae, and increased frequency of GSTe2 in A. funestus.",
+    "exclusion_reasons": []
+  }
+}

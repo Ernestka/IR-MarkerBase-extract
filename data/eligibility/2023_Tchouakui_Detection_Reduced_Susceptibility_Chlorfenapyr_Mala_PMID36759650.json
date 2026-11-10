@@ -1,0 +1,76 @@
+{
+  "id": "2023_Tchouakui_Detection_Reduced_Susceptibility_Chlorfenapyr_Mala_PMID36759650",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae and Anopheles funestus."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F), Ace-1 G280S (I114T-GSTe2 is mentioned, but L1014F and L119F-GSTe2 are the primary markers genotyped)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 6 and Figure 7 provide genotype counts (RR, RS, SS) for L1014F and L119F-GSTe2 in alive and dead mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Cameroon, DR Congo, Ghana, Uganda, and Malawi."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting bioassays and genotyping on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The paper provides specific locations such as Mangoum, Nkolondom, Njombe-pendja, Mibellon, Elende (Cameroon), Ndjili Brasserie (DRC), Mayuge (Uganda), Atatem (Ghana), and Chikwawa (Malawi)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted from May to July 2021."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and bioassays performed by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype counts are provided in the main figures (Figure 6 and Figure 7)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis",
+      "Anopheles funestus",
+      "Anopheles rivulorum",
+      "Anopheles parensis"
+    ],
+    "countries": [
+      "Cameroon",
+      "Democratic Republic of the Congo",
+      "Ghana",
+      "Uganda",
+      "Malawi"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 182,
+    "summary": "This study assessed the susceptibility of An. gambiae and An. funestus to chlorfenapyr across several African countries. It found resistance in An. gambiae but not in An. funestus. It also investigated the association between pyrethroid resistance markers (L1014F and L119F-GSTe2) and chlorfenapyr susceptibility, finding a negative association between L1014F and chlorfenapyr resistance in An. gambiae.",
+    "exclusion_reasons": []
+  }
+}

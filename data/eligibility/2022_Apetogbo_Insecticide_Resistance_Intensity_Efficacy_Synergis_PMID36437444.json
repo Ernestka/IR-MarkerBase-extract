@@ -1,0 +1,68 @@
+{
+  "id": "2022_Apetogbo_Insecticide_Resistance_Intensity_Efficacy_Synergis_PMID36437444",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu lato (s.l.), specifically An. gambiae sensu stricto (s.s.) and An. coluzzii (Page 1, Abstract; Page 5, Species composition section)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-west) and Vgsc L995S (kdr-east) (Page 3, Molecular analysis section; Page 7, Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 on page 7 provides genotype counts (SS, RS, RR) for both kdr-west (1014F) and kdr-east (1014S) for An. gambiae s.s. and An. coluzzii across five study sites."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study was conducted on field-collected Anopheles larvae from five sentinel sites in Southern Togo (Page 2, Study area section; Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research paper reporting original field and laboratory data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for five specific sentinel sites: Lomé, Baguida, Kovié, Anié, and Kpèlè Toutou (Page 2, Study area; Table 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted from June to September 2021 (Page 2, Study area section)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections from 2021 at NMCP sentinel sites."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and site information, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae sensu stricto",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Togo"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 250,
+    "summary": "This study assessed insecticide resistance in Anopheles gambiae s.l. populations from five sites in Southern Togo in 2021. It reports high resistance to pyrethroids, DDT, and carbamates, and identifies detoxification enzymes (oxidases, esterases, GSTs) as contributing mechanisms. Genotyping revealed high frequencies of the kdr-west (L1014F) mutation and low frequencies of the kdr-east (L1014S) mutation in An. gambiae s.s. and An. coluzzii.",
+    "exclusion_reasons": []
+  }
+}
