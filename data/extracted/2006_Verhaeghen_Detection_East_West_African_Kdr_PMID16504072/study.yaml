@@ -1,0 +1,22 @@
+study_id: 2006_Verhaeghen_Detection_East_West_African_Kdr_PMID16504072
+title: Detection of the East and West African kdr mutation in Anopheles gambiae and
+  Anopheles arabiensis from Uganda using a new assay based on FRET/Melt Curve analysis
+first_author: Katrijn Verhaeghen
+doi: 10.1186/1475-2875-5-16
+pmid: '16504072'
+publication_year: 2006
+countries:
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: Detection of the East and West African kdr mutation in Anopheles gambiae
+    and Anopheles arabiensis from Uganda using a new assay based on FRET/Melt Curve
+    analysis
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-10'
+pmid_source: Europe PMC (from DOI)

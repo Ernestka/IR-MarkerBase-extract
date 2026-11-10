@@ -1,0 +1,92 @@
+{
+  "id": "2022_Hancock_Modelling_Spatiotemporal_Trends_Frequency_Genetic_PMID35164747",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies three major malaria vector species: Anopheles gambiae, An. coluzzii, and An. arabiensis (Page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Models spatiotemporal trends in Vgsc-995F and Vgsc-995S target-site resistance mutations (Page 1-2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report raw, site-specific genotype counts or extractable sample frequencies from new empirical collections; it uses a collated database of 2418 previously published/contributed observations to fit geostatistical models (Page 1, 12)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Data encompasses field sampled mosquitoes collected from 27 African countries spanning western and eastern regions (Page 1)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "This is a secondary geostatistical modelling study re-analysing collated database and literature observations rather than a primary empirical field study (Page 1, 12)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Predictions and collated sampling locations are tied to specific sub-country geographic locations and spatial grids (~5 km resolution) across 9 focal countries (Page 1, 12)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Models spatiotemporal trends over the period 2005-2017 with annual resolution (Page 1, 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The dataset used is an updated version of a publicly available dataset collating data from multiple published and unpublished contributors (Moyes et al. 2019 [47]) (Page 12)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary data extraction needed because the study itself is an ineligible secondary modelling study."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Cameroon",
+      "Democratic Republic of the Congo",
+      "Equatorial Guinea",
+      "Ethiopia",
+      "Kenya",
+      "Sudan",
+      "Uganda"
+    ],
+    "collection_years": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper presents a Bayesian statistical spatiotemporal model ensemble to map annual species-specific frequencies of Vgsc-995F and Vgsc-995S across nine sub-Saharan African countries between 2005 and 2017. Because it relies on a collated database of previously published/contributed sample observations for secondary geospatial modelling rather than presenting primary field genotyping data, it is not eligible for primary data extraction.",
+    "exclusion_reasons": [
+      "is_primary_study: Paper is a geostatistical modelling study re-analysing collated/published datasets rather than reporting new empirical primary data.",
+      "reports_extractable_genotype_data: Does not report raw extractable site-level genotype counts or sample frequencies from primary empirical collections."
+    ]
+  }
+}

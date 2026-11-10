@@ -1,0 +1,69 @@
+{
+  "id": "2021_Azizi_Colonization_Authentication_Pyrethroid_Resistant_A_PMID34442276",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (Muleba-Kis strain, outcrossed with An. gambiae Kisumu) (Page 1, Abstract; Page 5, Section 2.4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes Vgsc L1014S (kdr-east / L995S) and Ace-1 G119S (G280S) (Page 6, Section 2.6.2; Page 9, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 on Page 9 provides percentage frequencies of homozygous mutant (%RRe), heterozygous (%RSe), and homozygous susceptible (%SSe) alongside sample sizes for multiple generations (G43 to G204)."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "Genotyping data in the paper are solely reported for laboratory-maintained generations (G43 to G204) of an artificial outcrossed colony (Muleba wild males crossed with Kisumu laboratory females) under lab insecticide selection. No field-caught adults (F0), wild larvae reared to adult, or F1 field progeny were genotyped in this paper (Page 5, Section 2.4; Page 9, Table 1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing the establishment, maintenance, and molecular/phenotypic characterization of the Muleba-Kis colony."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Original wild parent mosquitoes were collected in Kyamyorwa (02°04′27.5″ S, 31°34′10.8″ E) and Kiteme (02°03′20.9″ S, 31°27′16.8″ E) in Muleba district, northwest Tanzania (Page 4, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The colony was established in 2012–2013 and maintained/monitored across generations from 2013 through 2020 (Page 4, Section 2.1; Page 5, Section 2.4; Page 10, Table 2), spanning >7 years without specific collection years given for each tested generation in Table 1."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The paper characterizes a locally established reference colony at the KCMUCo-PAMVERC insectary."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All colony genotyping and bioassay results are reported within the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2012
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study describes the colonization, outcrossing with the susceptible Kisumu strain, pyrethroid selection, and long-term authentication of the Anopheles gambiae s.s. Muleba-Kis colony over 200 generations. Because all extractable genotype data are derived from advanced generations (G43–G204) of a laboratory colony rather than African field populations (F0/F1), the study does not meet inclusion criteria.",
+    "exclusion_reasons": [
+      "african_field_population"
+    ]
+  }
+}

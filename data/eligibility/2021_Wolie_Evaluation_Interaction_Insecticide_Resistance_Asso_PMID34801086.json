@@ -1,0 +1,70 @@
+{
+  "id": "2021_Wolie_Evaluation_Interaction_Insecticide_Resistance_Asso_PMID34801086",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles coluzzii and Anopheles gambiae mosquitoes collected in central Côte d'Ivoire (Page 1, Abstract; Page 3, 'Species identification')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Mosquitoes were genotyped for Vgsc L1014F (L995F) and Ace-1 G119S (G280S) mutations using TaqMan qPCR assays (Page 4, 'Detection of Kdr L1014F mutation in An. gambiae s.l.' and 'Detection of Ace-1R G119S mutation in An. gambiae s.l.')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotypic (RR, RS, SS) and allelic counts and frequencies are reported in Table 1 (page 5), Table 2 (page 6), and Table 3 (page 7) for both An. coluzzii and An. gambiae."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were field-collected as adults by human landing catches (HLC) from 40 villages around Bouaké in central Côte d'Ivoire between May 2017 and April 2019 (Page 1, Abstract; Page 3, 'Study area' and 'Mosquito collection and processing')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical research article testing field-caught An. gambiae s.l. mosquitoes for Plasmodium infection and insecticide resistance markers."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collected in 40 villages within a 60-km radius in the district of Bouaké, central Côte d'Ivoire (Page 3, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected over a 2-year window from May 2017 to April 2019 (Page 1, Abstract; Page 3, 'Study area')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Mosquitoes were sampled as part of a larger cluster-randomized controlled trial: 'The methodology used in this study has been well described by Sternberg et al. [25]. Briefly, 40 villages within a 60-km radius in the district of Bouaké were identified for inclusion in the study' (Page 3)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Full genotype and allele count data per species, trial arm, and infection status are provided in Tables 1, 2, and 3 in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2017,
+      2018,
+      2019
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1255,
+    "summary": "This study evaluated wild Anopheles gambiae and An. coluzzii collected across 40 villages around Bouaké, Côte d'Ivoire between May 2017 and April 2019. A total of 1255 mosquitoes were successfully identified to sibling species and genotyped for Vgsc L1014F and Ace-1 G119S, with genotype counts provided overall, by trial arm, and by Plasmodium infection status.",
+    "exclusion_reasons": []
+  }
+}

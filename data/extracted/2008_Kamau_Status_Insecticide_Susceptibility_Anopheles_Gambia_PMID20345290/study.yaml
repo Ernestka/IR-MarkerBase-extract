@@ -1,0 +1,21 @@
+study_id: 2008_Kamau_Status_Insecticide_Susceptibility_Anopheles_Gambia_PMID20345290
+title: Status of insecticide susceptibility in Anopheles gambiae sensu lato and Anopheles
+  funestus mosquitoes from Western Kenya
+first_author: Luna Kamau
+doi: null
+pmid: '20345290'
+publication_year: 2007
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: Kamau L, Agai D, Matoke D, Wachira L, Gikandi G, Vulule JM. 2007. Status
+    of insecticide susceptibility in Anopheles gambiae sensu lato and Anopheles funestus
+    mosquitoes from Western Kenya. Journal of Insect Science 8:11
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-10'

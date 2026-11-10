@@ -1,0 +1,70 @@
+{
+  "id": "2022_Etang_Patterns_Kdr_L995F_Allele_Emergence_PMID35215196",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Section 2.1: 'three species of the An. gambiae complex, namely An. arabiensis, An. coluzzii and An. gambiae were recorded in field mosquito samples'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Section 5: 'The Kdr L995F and L995S alleles were genotyped using hot oligonucleotide ligation assay (HOLA) as described by Lynd et al.'"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 gives sample sizes (N) and allelic frequencies (Fs L995F and Fc L995F) by site, year, and species. Figure 3 additionally illustrates genotype proportions (Leu-Leu, Leu-Phe, Phe-Phe)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Section 4.1 & 4.2: Mosquitoes were collected as larvae and pupae in Ouro-Housso/Kanadi, Be-Centre, and Bala in North Cameroon in 2011 and 2015 and reared to adult females."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The study is a primary empirical research study monitoring insecticide resistance and resistance alleles in field populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Section 4.1: 'Ouro-Housso/Kanadi (9°18′ N; 13°24′ E) in the Garoua HD, Be-Centre (9°24′ N; 13°31′ E) in the Pitoa HD and Bala (9°46′ N; 13°44′ E) in the Mayo Oulo HD'."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred during two distinct time points: September-October 2011 and September-October 2015, with data presented disaggregated by year."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Section 1: 'This study is part of a multi-country project that assessed the impact of insecticide resistance on the effectiveness of LLINs or IRS interventions [29]' and cites Mandeng et al. 2019 (ref [28]) for earlier reporting of resistance in the same area."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant sample sizes, allelic frequencies, and bioassay data are reported in the main text, Table 1, Table 2, Table 3, and Figure 3."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2011,
+      2015
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 352,
+    "summary": "This study evaluated deltamethrin susceptibility (with and without synergists PBO and DEF) and genotyped Vgsc L995F and L995S mutations in Anopheles gambiae s.l. (An. arabiensis, An. coluzzii, and An. gambiae s.s.) across three sites (Ouro-Housso/Kanadi, Be-Centre, and Bala) in North Cameroon in 2011 and 2015. Kdr L995F allele frequencies and genotype proportions are provided for 352 field-caught individuals.",
+    "exclusion_reasons": []
+  }
+}

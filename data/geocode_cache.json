@@ -339,6 +339,14 @@
    "name": "Kouandé, Atakora, Bénin"
   }
  ],
+ "bj|Ladji, Cotonou": [
+  {
+   "lat": 6.39075,
+   "level": "village",
+   "lon": 2.43061,
+   "name": "Ladji, Cotonou, Littoral, Bénin"
+  }
+ ],
  "bj|Malanville": [
   {
    "lat": 11.86181,
@@ -766,6 +774,15 @@
  "gq|Bakake Grande, Bioko Norte": [],
  "gq|Biabia": [],
  "gq|Biabia, Bioko Norte": [],
+ "gq|Bioko Island": [
+  {
+   "lat": 3.49865,
+   "level": "island",
+   "lon": 8.71361,
+   "name": "Bioko, Bioko Sur, Región Insular, Guinea Ecuatorial"
+  }
+ ],
+ "gq|Bioko Island, Bioko Norte / Bioko Sur": [],
  "gq|Bioko Norte": [
   {
    "lat": 3.64846,
@@ -774,6 +791,7 @@
    "name": "Bioko Norte, Región Insular, Guinea Ecuatorial"
   }
  ],
+ "gq|Bioko Norte / Bioko Sur": [],
  "gq|Bioko Sur": [
   {
    "lat": 3.42453,

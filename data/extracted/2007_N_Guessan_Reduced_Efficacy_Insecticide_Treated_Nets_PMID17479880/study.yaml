@@ -1,0 +1,20 @@
+study_id: 2007_N_Guessan_Reduced_Efficacy_Insecticide_Treated_Nets_PMID17479880
+title: Reduced Efficacy of Insecticide-treated Nets and Indoor Residual Spraying for
+  Malaria Control in Pyrethroid Resistance Area, Benin
+first_author: Raphael N'Guessan
+doi: null
+pmid: '17479880'
+publication_year: 2007
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Emerging Infectious Diseases • www.cdc.gov/eid • Vol. 13, No. 2, February
+    2007
+  page: '199'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-10'

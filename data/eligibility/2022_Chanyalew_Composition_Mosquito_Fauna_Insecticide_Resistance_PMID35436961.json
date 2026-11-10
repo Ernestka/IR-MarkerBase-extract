@@ -1,0 +1,67 @@
+{
+  "id": "2022_Chanyalew_Composition_Mosquito_Fauna_Insecticide_Resistance_PMID35436961",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l., identified molecularly as Anopheles arabiensis (Page 1, Abstract; Page 6, Table 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study screens for Vgsc L1014F (West Africa kdr / Vgsc L995F) allele in Anopheles arabiensis (Page 5, Methods; Page 6, Table 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 on Page 6 reports exact genotype counts (SS, RS, RR) and allele frequencies for Vgsc L1014F in An. arabiensis stratified by bioassay outcome (deltamethrin and alpha-cypermethrin bioassay survivors and dead)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae from field breeding sites in Itang special district, Gambella, Southwestern Ethiopia, and reared to adults (Page 4, Mosquito rearing)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field sampling and laboratory bioassay/molecular data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling took place in Itang special district (woreda), Gambella region, southwestern Ethiopia (Page 3, Study area and Fig. 1 map)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito sampling was conducted between September 2020 and February 2021 (Page 3, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study presents novel empirical data collected directly by the authors from September 2020 to February 2021 without indication of overlapping external datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All required genotype counts, sample sizes, and bioassay results are included directly in the main text and tables (Tables 3 and 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 79,
+    "summary": "This study evaluated mosquito species composition, insecticide resistance status, and kdr genotype frequencies in Anopheles arabiensis in Itang special district, Gambella, southwestern Ethiopia. Field larvae collected between September 2020 and February 2021 were reared to adults and tested with standard WHO bioassays. Resistance to deltamethrin and alpha-cypermethrin was detected, while susceptibility to propoxur, bendiocarb, and pirimiphos-methyl remained high. Genotyping of 79 specimens revealed high frequencies of the Vgsc L1014F (L995F) mutation in both bioassay survivors and dead mosquitoes.",
+    "exclusion_reasons": []
+  }
+}

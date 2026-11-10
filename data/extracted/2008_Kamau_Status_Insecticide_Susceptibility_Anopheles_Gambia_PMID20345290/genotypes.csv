@@ -1,0 +1,9 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2008_Kamau_rota_ag,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,114,14,30,70,,58,,,"Table 2: Rota (Western Kenya) An. gambiae n=114, SS=70, SR=30, RR=14, %kdr=25.44",4,Table 2,,
+2008_Kamau_rota_ar,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,85,1,0,84,,2,,,"Table 2: Rota (Western Kenya) An. arabiensis n=85, SS=84, SR=0, RR=1, %kdr=1.18",4,Table 2,,
+2008_Kamau_kisii_ag,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,40,0,16,24,,16,,,"Table 2: Kisii (Western Kenya) An. gambiae n=40, SS=24, SR=16, RR=0, %kdr=20",4,Table 2,,
+2008_Kamau_kisii_ar,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,9,0,1,8,,1,,,"Table 2: Kisii (Western Kenya) An. arabiensis n=9, SS=8, SR=1, RR=0, %kdr=5.55",4,Table 2,,
+2008_Kamau_kwale_ag,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,71,0,0,71,,0,,,"Table 2: Kwale (Coastal Kenya) An. gambiae n=71, SS=71, SR=0, RR=0, %kdr=0",4,Table 2,,
+2008_Kamau_kwale_ar,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,4,0,0,4,,0,,,"Table 2: Kwale (Coastal Kenya) An. arabiensis n=4, SS=4, SR=0, RR=0, %kdr=0",4,Table 2,,
+2008_Kamau_ahero_ar,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,110,0,1,109,,1,,,"Table 2: Ahero (Western Kenya) An. arabiensis n=110, SS=109, SR=1, RR=0, %kdr=0.45",4,Table 2,,
+2008_Kamau_mwea_ar,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,105,0,0,105,,0,,,"Table 2: Mwea (Central Kenya) An arabiensis n=105, SS=105, SR=0, RR=0, %kdr=0",4,Table 2,,

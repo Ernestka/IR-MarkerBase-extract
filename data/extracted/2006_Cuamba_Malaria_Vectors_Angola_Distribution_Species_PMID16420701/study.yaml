@@ -1,0 +1,21 @@
+study_id: 2006_Cuamba_Malaria_Vectors_Angola_Distribution_Species_PMID16420701
+title: 'Malaria vectors in Angola: distribution of species and molecular forms of
+  the Anopheles gambiae complex, their pyrethroid insecticide knockdown resistance
+  (kdr) status and Plasmodium falciparum sporozoite rates'
+first_author: Nelson Cuamba
+doi: 10.1186/1475-2875-5-2
+pmid: '16420701'
+publication_year: 2006
+countries:
+- Angola
+data_source: journal_article
+provenance:
+  source_text: Malaria Journal 2006, 5:2 doi:10.1186/1475-2875-5-2
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-10'
+pmid_source: Europe PMC (from DOI)

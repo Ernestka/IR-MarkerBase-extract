@@ -1,0 +1,71 @@
+{
+  "id": "2021_Piameu_Pyrethroid_Etofenprox_Resistance_Anopheles_Gambiae_PMID34577014",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.s. and Anopheles coluzzii collected from vegetable farms in Yaoundé, Cameroon (Page 1, Abstract; Page 4, Section 2.1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of kdr L995F, L995S, kdr N1570Y, and Ace-1 G280S (Page 4, Table 1; Page 14, Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides sample sizes (n) and exact genotype counts (SS, RwS, RwRw, RwRe, SR, RR) and allele frequencies for kdr L995F/S, kdr N1570Y, and Ace-1 G280S across An. gambiae s.s. and An. coluzzii populations from Nkolondom, Nkolbisson, and Ekié (Page 4 and 5, Table 1)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-collected larvae and pupae sampled from Nkolondom, Nkolbisson, and Ekié in Yaoundé, Cameroon, reared to adults in the insectary (Page 12, Section 4.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper reporting original entomological collections, WHO susceptibility bioassays, and molecular genotyping assays."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific farming sites in Yaoundé, Cameroon with coordinates: Nkolondom (3°57'18\" N, 11°29'36\" E), Nkolbisson (3°52'46\" N, 11°25'55\" E), and Ekié (3°49'38\" N, 11°31'53\" E) (Page 11, Section 4.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Genotyped specimens were collected in April 2018 (overall survey conducted between April 2018 and October 2019) (Page 4, Table 1; Page 12, Section 4.2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Collections were conducted as part of the DMC-MALVEC project, but represent new routine cross-sectional survey data for Yaoundé."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All species identifications, bioassay summaries, and resistance marker genotype counts are fully reported in the main text and tables (Table 1 and Table 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 150,
+    "summary": "This study evaluated pyrethroid and pseudo-pyrethroid (etofenprox) resistance frequency and intensity across three agricultural sites in Yaoundé, Cameroon (Nkolondom, Nkolbisson, and Ekié) between 2018 and 2019. Subsets of control mosquitoes from April 2018 (n=50 per site, total 150 field mosquitoes) were genotyped for Vgsc L995F, L995S, N1570Y, and Ace-1 G280S, with full genotype counts and allele frequencies reported in Table 1.",
+    "exclusion_reasons": []
+  }
+}

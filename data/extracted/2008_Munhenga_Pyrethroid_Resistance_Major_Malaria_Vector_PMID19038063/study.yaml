@@ -1,0 +1,22 @@
+study_id: 2008_Munhenga_Pyrethroid_Resistance_Major_Malaria_Vector_PMID19038063
+title: Pyrethroid resistance in the major malaria vector Anopheles arabiensis from
+  Gwave, a malaria-endemic area in Zimbabwe
+first_author: Givemore Munhenga
+doi: 10.1186/1475-2875-7-247
+pmid: '19038063'
+publication_year: 2008
+countries:
+- Zimbabwe
+data_source: Malaria Journal
+provenance:
+  source_text: Munhenga et al. Pyrethroid resistance in the major malaria vector Anopheles
+    arabiensis from Gwave, a malaria-endemic area in Zimbabwe. Malaria Journal 2008,
+    7:247
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-11-10'
+pmid_source: Europe PMC (from DOI)

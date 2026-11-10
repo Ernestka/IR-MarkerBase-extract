@@ -1,0 +1,68 @@
+{
+  "id": "2021_Zhang_Presence_L1014F_Knockdown_Resistance_Mutation_PMID34307185",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigated Anopheles gambiae s.s. collected in São Tomé and Príncipe (page 1, Abstract; page 4, 'Species Composition of Anopheles gambiae s.l.')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes Vgsc L1014F (L995F), L1014S (L995S), and Ace-1 G119S (G280S) (page 4, 'Species Identification, kdr L1014F, kdr L1014S, and ace-1R Genotyping'; Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 reports exact counts of kdr genotypes (TTA/TTA and TTA/TTT) and ace-1 genotypes (GGC/GGC and GGC/AGC) along with allele frequencies for sample sizes of 24 resistant and 24 susceptible mosquitoes per site."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae of Anopheles gambiae s.l. were sampled from Agua Grande, Caue, and Lemba in São Tomé and Príncipe and reared to adult F0 females (page 3, Table 1; page 4, 'Mosquito Rearing')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing original field collections, insecticide susceptibility bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Localities are given at the county level with exact geographic coordinates in Table 1: Agua Grande (N 0.33998, E 6.72446), Caue (N 0.06685, E 6.53714), and Lemba (N 0.27986, E 6.50967)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were performed between September and December 2018 (Table 1, page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The samples represent routine field collections performed specifically for this investigation in late 2018."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary bioassay and genotype data are completely presented in the main text tables (Tables 4 and 5)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "São Tomé and Príncipe"
+    ],
+    "collection_years": [
+      2018
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 288,
+    "summary": "This study evaluated insecticide susceptibility and resistance marker frequencies in Anopheles gambiae s.s. collected in late 2018 from three districts (Agua Grande, Caue, and Lemba) in São Tomé and Príncipe. Genotyping was performed for Vgsc L1014F, L1014S, and Ace-1 G119S on survivors and dead mosquitoes from cypermethrin and malathion WHO tube bioassays, detecting Vgsc L1014F (L995F) in heterozygous state for the first time in São Tomé and Príncipe.",
+    "exclusion_reasons": []
+  }
+}

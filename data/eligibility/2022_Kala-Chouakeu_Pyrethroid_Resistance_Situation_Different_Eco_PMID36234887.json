@@ -1,0 +1,72 @@
+{
+  "id": "2022_Kala-Chouakeu_Pyrethroid_Resistance_Situation_Different_Eco_PMID36234887",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated Anopheles gambiae s.l. populations (An. gambiae, An. coluzzii, and An. arabiensis) in Cameroon (Page 1, Abstract; Page 5, Section 3.1.2)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped kdr L1014F (Vgsc L995F), kdr L1014S (Vgsc L995S), and N1575Y (Vgsc N1570Y) target site mutations using TaqMan assays (Page 4, Section 2.5.2; Page 8, Section 3.2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (Page 9) presents sample sizes and resistant allele frequencies (% kdr L1014F, % kdr L1014S, N1575Y) with mean ± SE for seven field populations."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as field larvae/pupae from seven localities across five eco-epidemiological settings in Cameroon (Kaélé, Tibati, Bertoua, Bélabo, Kékem, Santchou, Njombé) and tested as adult F0 females (Page 2, Section 2.1; Page 3, Section 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections, bioassays, and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections are reported for specific sub-country study sites: Kaélé, Tibati, Bertoua, Bélabo, Kékem, Santchou, and Njombé (Page 2, Section 2.1; Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place between July 2019 and July 2021, with exact collection years specified per site (July 2019, 2020, 2021 for Bertoua and Santchou; July 2020, 2021 for Kaélé and Tibati; July 2021 for Kékem, Njombé, and Bélabo) (Page 2, Section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field collections across seven sites in Cameroon between 2019 and 2021; site descriptions cite previous works for baseline context but dataset is new empirical sampling."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Target marker genotype frequencies and sample sizes per site are fully reported in Table 1 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 270,
+    "summary": "This study evaluated pyrethroid resistance profiles, WHO bioassay susceptibility (including intensity and PBO synergist tests), metabolic gene expression, cuticular hydrocarbon levels, and target site resistance markers (Vgsc L1014F, L1014S, and N1575Y) in field-collected Anopheles gambiae s.l. (An. gambiae, An. coluzzii, An. arabiensis) from seven locations across Cameroon collected between 2019 and 2021.",
+    "exclusion_reasons": []
+  }
+}

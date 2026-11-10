@@ -1,0 +1,9 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539_orogun,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,30,,,,,,0.0,,Table 1: Orogun West kdr frequency (N = 30) = 0,3,Table 1,,
+2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539_orogun,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,PCR,False,30,,,,,,0.0,,Table 1: Orogun East kdr frequency (N = 30) = 0,3,Table 1,,
+2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539_akron,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,30,,,,,,0.86,,Table 1: Akron West kdr frequency (N = 30) = 0.86,3,Table 1,,
+2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539_akron,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,PCR,False,30,,,,,,0.0,,Table 1: Akron East kdr frequency (N = 30) = 0,3,Table 1,,
+2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539_ojoo,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,30,,,,,,0.0,,Table 1: Ojoo West kdr frequency (N = 30) = 0,3,Table 1,,
+2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539_ojoo,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,PCR,False,30,,,,,,0.0,,Table 1: Ojoo East kdr frequency (N = 30) = 0,3,Table 1,,
+2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539_gbedjromede,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,30,,,,,,0.83,"Table 1 reports West kdr frequency as 0.83 (N=30), whereas the abstract and page 3 text report f = 0.84.",Table 1: Gbedjromede West kdr frequency (N = 30) = 0.83,3,Table 1,,
+2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539_gbedjromede,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,PCR,False,30,,,,,,0.0,,Table 1: Gbedjromede East kdr frequency (N = 30) = 0,3,Table 1,,

@@ -1,0 +1,21 @@
+study_id: 2007_Sharp_Malaria_Vector_Control_Indoor_Residual_PMID17474975
+title: Malaria vector control by indoor residual insecticide spraying on the tropical
+  island of Bioko, Equatorial Guinea
+first_author: Brian L Sharp
+doi: 10.1186/1475-2875-6-52
+pmid: '17474975'
+publication_year: 2007
+countries:
+- Equatorial Guinea
+data_source: journal_article
+provenance:
+  source_text: Malaria vector control by indoor residual insecticide spraying on the
+    tropical island of Bioko, Equatorial Guinea
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-10'
+pmid_source: Europe PMC (from DOI)

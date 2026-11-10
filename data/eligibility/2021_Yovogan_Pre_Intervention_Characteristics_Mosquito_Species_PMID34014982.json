@@ -3,47 +3,47 @@
   "source": "master",
   "model": "gemini:gemini-3.8-flash",
   "spec_version": 1,
-  "assessed": "2026-11-09",
+  "assessed": "2026-11-10",
   "assessment": {
     "eligible": true,
     "confidence": "high",
     "checks": {
       "is_anopheles": {
         "met": true,
-        "evidence": "Mosquitoes studied include Anopheles gambiae s.l. (An. coluzzii and An. gambiae s.s.), An. funestus s.l., and An. nili (p. 2)."
+        "evidence": "Adult mosquitoes identified morphologically as Anopheles gambiae s.l., Anopheles funestus s.l., and Anopheles nili, with molecular identification of Anopheles coluzzii and Anopheles gambiae s.s. (page 2, 5, 7)."
       },
       "reports_target_markers": {
         "met": true,
-        "evidence": "Tested for the L1014F kdr mutation (Vgsc L995F) using PCR following Martinez-Torres et al. (p. 5)."
+        "evidence": "Tested for the L1014F kdr mutation (Vgsc L995F) using PCR following Martinez-Torres et al. (page 5, 9)."
       },
       "reports_extractable_genotype_data": {
         "met": true,
-        "evidence": "Page 9 states: 'Frequency of the L1014F kdr mutation in An. gambiae s.s. was 89.8% (95% CI: 88.2–91.2, n = 829) compared to 84.3% (95% CI:82.5–85.9, n = 968) in An. coluzzii collected during HLC.' Additional district-level allelic frequencies are referenced in S2 Table."
+        "evidence": "Page 9 states: 'Frequency of the L1014F kdr mutation in An. gambiae s.s. was 89.8% (95% CI: 88.2–91.2, n = 829) compared to 84.3% (95% CI: 82.5–85.9, n = 968) in An. coluzzii collected during HLC.' Per-district breakdown is provided in S2 Table."
       },
       "african_field_population": {
         "met": true,
-        "evidence": "Field mosquitoes collected across 60 villages in Cove, Zangnanando, and Ouinhi districts, Zou region, southern Benin between September and October 2019 (p. 3)."
+        "evidence": "Field-caught adult mosquitoes collected by human landing catches (HLC) between September and October 2019 in Cove, Zagnanando, and Ouinhi districts, southern Benin (page 3, 5)."
       },
       "is_primary_study": {
         "met": true,
-        "evidence": "Primary field study providing baseline entomological indicators before a cluster-randomized controlled trial (p. 1, 3)."
+        "evidence": "Primary field entomological survey providing baseline characteristics in 60 villages prior to a cluster randomized controlled trial (page 1, 3)."
       },
       "sub_country_location": {
         "met": true,
-        "evidence": "Specifies 60 villages across Cove, Zangnanando, and Ouinhi districts in southern Benin, including coordinates (p. 3)."
+        "evidence": "Conducted in 60 villages across Cove, Zagnanando, and Ouinhi districts in southern Benin, with GPS coordinates provided for districts (page 3)."
       },
       "temporal_resolution_within_3y": {
         "met": true,
-        "evidence": "Mosquito collections took place between September and October 2019 (p. 3)."
+        "evidence": "Mosquito collections were carried out between September and October 2019 (page 3)."
       }
     },
     "duplicate_risk": {
       "level": "low",
-      "evidence": "Baseline data for the New Nets Project RCT in Benin, representing original field collections in 2019 (p. 2, 3)."
+      "evidence": "Baseline entomological collections conducted specifically for an RCT under 'The New Nets Project'; no mention of overlapping previously published genotype datasets."
     },
     "supplement": {
       "needed": true,
-      "evidence": "'Supporting information files, S2 Table. Allelic frequencies of the L1014F kdr mutation in An. gambiae s.s and An. coluzzii collected using HLCs' contains the disaggregated district-level genotype/allele data (p. 9, 13)."
+      "evidence": "District-specific allele frequencies are located in 'S2 Table. Allelic frequencies of the L1014F kdr mutation in An. gambiae s.s and An. coluzzii collected using HLCs.' which is not included in the manuscript PDF."
     },
     "markers_found": [
       "Vgsc L995F"
@@ -61,7 +61,7 @@
     "has_bioassays": true,
     "has_genotype_phenotype": false,
     "sample_size": 1797,
-    "summary": "This study evaluated baseline entomological indicators and insecticide resistance in Cove, Zangnanando, and Ouinhi districts, Benin, in 2019 prior to an RCT. A total of 1,797 An. gambiae s.l. (829 An. gambiae s.s. and 968 An. coluzzii) collected via HLC were genotyped for the Vgsc L1014F (L995F) kdr mutation. WHO tube bioassays with alpha-cypermethrin, permethrin, bendiocarb, pirimiphos-methyl, and PBO synergist assays were also conducted on field-reared adults, but bioassay mosquitoes were not linked to individual genotypes.",
+    "summary": "This study evaluated vector population bionomics, insecticide resistance, and L1014F kdr frequency in Anopheles gambiae s.s. (n = 829) and Anopheles coluzzii (n = 968) across three districts in southern Benin in 2019 prior to a dual-AI net randomized controlled trial.",
     "exclusion_reasons": []
   }
 }

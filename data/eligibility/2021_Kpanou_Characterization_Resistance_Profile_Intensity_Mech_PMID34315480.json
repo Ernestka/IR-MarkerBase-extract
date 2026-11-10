@@ -1,0 +1,69 @@
+{
+  "id": "2021_Kpanou_Characterization_Resistance_Profile_Intensity_Mech_PMID34315480",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (An. gambiae s.s., An. coluzzii, and An. arabiensis) collected in northern Benin (page 1, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of kdr L1014F (Vgsc L995F) and ace-1 G119S (Ace-1 G280S) (page 4, 8, Tables 4 and 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 and Table 5 provide exact genotype counts (RR, RS, SS) and sample sizes per species and locality for kdr L1014F and ace-1 G119S (page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected in three communes of northern Benin (Parakou, Kandi, Malanville) from September to November 2017 and reared to adults (page 2, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original primary research article reporting field collections, bioassays, and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred in the communes of Parakou, Kandi, and Malanville in northern Benin (page 2-4)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae were collected between September and November 2017 (page 2, 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 300,
+    "summary": "This study collected Anopheles gambiae s.l. larvae in three northern Benin communes (Parakou, Kandi, and Malanville) in 2017 to measure insecticide resistance intensity (WHO tube bioassays using 1x, 5x, and 10x permethrin, deltamethrin, and bendiocarb). Genotyping of 300 field mosquitoes revealed high frequencies of Vgsc L1014F (L995F) and low frequencies of Ace-1 G119S (G280S) across An. gambiae s.s., An. coluzzii, and An. arabiensis, with complete genotype counts presented in Tables 4 and 5.",
+    "exclusion_reasons": []
+  }
+}

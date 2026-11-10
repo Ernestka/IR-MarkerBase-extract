@@ -1,0 +1,24 @@
+study_id: 2008_Djouaka_Expression_Cytochrome_P450s_CYP6P3_CYP6M2_PMID19014539
+title: Expression of the cytochrome P450s, CYP6P3 and CYP6M2 are significantly elevated
+  in multiple pyrethroid resistant populations of Anopheles gambiae s.s. from Southern
+  Benin and Nigeria
+first_author: Rousseau F Djouaka
+doi: 10.1186/1471-2164-9-538
+pmid: '19014539'
+publication_year: 2008
+countries:
+- Benin
+- Nigeria
+data_source: journal_article
+provenance:
+  source_text: Expression of the cytochrome P450s, CYP6P3 and CYP6M2 are significantly
+    elevated in multiple pyrethroid resistant populations of Anopheles gambiae s.s.
+    from Southern Benin and Nigeria. BMC Genomics 2008, 9:538
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-10'
+pmid_source: Europe PMC (from DOI)

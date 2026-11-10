@@ -1,0 +1,71 @@
+{
+  "id": "2021_Diallo_Evolution_Pyrethroids_Target_Site_Resistance_PMID34946897",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1, Abstract: 'retrospectively determine the evolution and spread of pyrethroid resistance mechanisms among natural Anopheles gambiae s.l. populations in Senegal.'"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 1, Abstract: 'resistance mutations at the Voltage-gated Sodium Channel 1014 (Vgsc-1014) locus were characterised... Both Vgsc-1014F and Vgsc-1014S mutations were found'."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 6, Table 1 provides exact genotype counts (FF, FS, LF, LL, LS, SS) and allele frequencies by species and locality for 1215 mosquitoes. Page 7, Table 3 gives genotype counts by year (2013, 2017, 2018) and locality."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 3, Section 2.2: 'Historical samples of An. gambiae s.l. collected in 2013, 2017, and 2018 were retrieved from ten out of the thirty NMPC's entomological sentinel health districts [in Senegal].'"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study analyzing target-site kdr genotypes in field-collected mosquitoes from Senegal."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 3, Section 2.2 & Page 6, Table 1: 10 health districts specified (Kaffrine, Kédougou, Koumpentoum, Koungheul, Malem Hodar, Ndoffane, Nioro, Tambacounda, Thiés, Vélingara)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 3, Section 2.2: Mosquitoes retrieved from collections in specific years: 2013, 2017, and 2018."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Page 3, Section 2.2: Mosquito specimens were retrieved from the mosquito biobank at the Laboratoire d'Ecologie Vectorielle et Parasitaire (LEVP) collected during NMCP surveillance, but the target-site genotyping data are original to this retrospective study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All extractable genotype counts and sample sizes broken down by species, site, and collection year are fully presented in Tables 1 and 3 in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2013,
+      2017,
+      2018
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1215,
+    "summary": "This retrospective study evaluated the pyrethroid resistance target-site mutations Vgsc-1014F (L995F) and Vgsc-1014S (L995S) in 1,215 Anopheles gambiae s.l. mosquitoes collected from 10 sentinel sites across Senegal in 2013, 2017, and 2018. Genotype counts (FF, FS, LF, LL, LS, SS) are fully reported by species (An. arabiensis, An. gambiae s.s., An. coluzzii, and hybrids), health district, and collection year.",
+    "exclusion_reasons": []
+  }
+}
