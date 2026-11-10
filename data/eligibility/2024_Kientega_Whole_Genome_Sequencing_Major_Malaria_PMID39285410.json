@@ -1,0 +1,78 @@
+{
+  "id": "2024_Kientega_Whole_Genome_Sequencing_Major_Malaria_PMID39285410",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. gambiae s.s., An. coluzzii, and An. arabiensis) in Burkina Faso."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotypes/frequencies for Vgsc L995F, Vgsc L995S, Vgsc N1570Y, Vgsc V402L, Vgsc I1527T, Ace-1 G280S, and Ace-1 duplication (CNV)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 4 provides heat maps of allele frequencies for VGSC SNPs over time, and Figure 7 provides allele frequencies for ACE1 and DGK variants over time."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in three villages in Burkina Faso (Bana, Souroukoudinga, Pala) between 2012 and 2017."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study generating new genomic data from field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected from three specific villages: Bana, Souroukoudinga, and Pala."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study reports data for specific years (2012, 2014, 2015, 2016, 2017), allowing for temporal resolution."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states the samples were sequenced as part of the MalariaGEN Vector Observatory, but this is a primary study presenting new analysis of these specific longitudinal collections."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text and figures provide the necessary frequency data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Ace-1 G280S",
+      "Ace-1 DUP"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2012,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1409,
+    "summary": "This longitudinal study analyzed whole-genome sequencing data from 1409 Anopheles gambiae s.l. mosquitoes collected in three villages in Burkina Faso between 2012 and 2017. It tracked the evolution of insecticide resistance markers, including VGSC and ACE1 variants, and identified novel resistance-associated genomic regions under selection.",
+    "exclusion_reasons": []
+  }
+}

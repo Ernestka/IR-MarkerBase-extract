@@ -1,0 +1,67 @@
+{
+  "id": "2024_Zoungbedji_Bio_Efficacy_Olyset_Plus_PermaNet_PMID38689360",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 1, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports the frequency of the Vgsc L1014F (kdr-west) mutation (Table 1, page 7)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides the number of mosquitoes tested and the genotype counts (1014F/1014F, 1014F/1014L, 1014L/1014L) for each population (page 7)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses wild mosquito populations collected from six communes in Benin (page 1, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducted in 2023 (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for specific communes: Akpro-Missérété, Porto-Novo, Allada, Bohicon, Lokossa, and Djougou (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was undertaken in April 2023 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections conducted in April 2023 for a specific evaluation of new-generation nets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 397,
+    "summary": "This study evaluated the bio-efficacy of Olyset Plus, PermaNet 3.0, and Interceptor G2 nets against pyrethroid-resistant Anopheles gambiae s.l. populations in six communes in Benin. It also genotyped the Vgsc L1014F (L995F) mutation and assessed metabolic enzyme activity.",
+    "exclusion_reasons": []
+  }
+}

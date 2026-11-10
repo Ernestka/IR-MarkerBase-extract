@@ -1,0 +1,71 @@
+{
+  "id": "2024_Djegbe_Physico_Chemical_Characterization_Anopheles_Gambia_PMID38816702",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. coluzzii and An. gambiae s.s.) as stated in the abstract and methods."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (L1014F), Vgsc L995S (L1014S), Vgsc N1570Y (N1575Y), and Ace-1 G280S (G119S) in Table 4."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides genotype counts (RR, RS, SS) for L1014F, L1014S, N1575Y, and Ace-1 G119S for both An. coluzzii and An. gambiae s.s."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study collected larvae from field sites in Cotonou and Natitingou, Benin (page 3, 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field collection and laboratory analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies districts within Cotonou (Houeyiho, Akpakpa, Vossa, Akogbato) and Natitingou (Winkè, Ourbouga, Kantaborifa, Boriyouré) on page 3."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted in September 2020, January 2021, and August 2021 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted in 2020-2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and site information, are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2020,
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 618,
+    "summary": "This study investigated the relationship between physicochemical characteristics of breeding sites and insecticide resistance in Anopheles coluzzii (Cotonou) and Anopheles gambiae s.s. (Natitingou) in Benin. It reports high resistance to deltamethrin and the presence of kdr L1014F and Ace-1 G119S mutations.",
+    "exclusion_reasons": []
+  }
+}

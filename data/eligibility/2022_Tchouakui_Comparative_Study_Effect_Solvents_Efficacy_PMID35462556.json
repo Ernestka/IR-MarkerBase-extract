@@ -1,0 +1,74 @@
+{
+  "id": "2022_Tchouakui_Comparative_Study_Effect_Solvents_Efficacy_PMID35462556",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (including An. gambiae, An. coluzzii, and An. arabiensis) across Cameroon, DRC, Ghana, and Uganda (page 3, 'Molecular identification')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested Vgsc L1014F (L995F) using TaqMan assays (page 3, 'Potential cross-resistance between neonicotinoids and pyrethroids')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "Genotype counts for L1014F are reported only for an experimental hybrid cross between a field strain and the Kisumu lab strain (page 5, 'Cross-resistance between clothianidin and pyrethroids': 29 alive and 30 dead hybrid mosquitoes), not for any natural African field population directly."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The only mosquitoes genotyped for resistance markers were from an experimental laboratory cross between mosquitoes from Nkolondom and the susceptible laboratory colony Kisumu ('we crossed the pyrethroid highly resistant field strain from Nkolondom... with the fully susceptible laboratory strain Kisumu', page 3), rather than field-collected F0 adults, larvae reared to adulthood, or direct F1 progeny."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary research article evaluating insecticide bioassay solvents and neonicotinoid resistance markers."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Samples were collected in Njombe-Penja, Nkolondom, Mangoum (Cameroon), Ndjili Brasserie (DRC), Mayuge (Uganda), and Obuasi (Ghana) (page 2–3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between May and July 2021 (page 2–3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Routine original collections conducted in 2021."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Supplementary files (Additional files 1–3) describe mortality curves for bioassays, not field genotype data."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Cameroon",
+      "Democratic Republic of the Congo",
+      "Ghana",
+      "Uganda"
+    ],
+    "collection_years": [
+      2021
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study evaluates the effect of different solvents on the efficacy of neonicotinoids against Anopheles gambiae s.l. from Cameroon, DRC, Ghana, and Uganda. While bioassays were conducted across multiple field populations, resistance marker genotyping (Vgsc L1014F and GSTe2 I114T) was performed exclusively on an experimental hybrid cross of the Nkolondom field strain with the susceptible Kisumu laboratory colony to evaluate cross-resistance. Because no extractable field genotype data are reported, the paper is not eligible.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data",
+      "african_field_population"
+    ]
+  }
+}

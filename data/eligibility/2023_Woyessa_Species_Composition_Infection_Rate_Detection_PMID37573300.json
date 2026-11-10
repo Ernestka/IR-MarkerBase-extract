@@ -1,0 +1,71 @@
+{
+  "id": "2023_Woyessa_Species_Composition_Infection_Rate_Detection_PMID37573300",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles funestus mosquitoes (page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Ace-1 N485I, Vgsc L1014F/S, and Cyp6p9a (page 1, Abstract; page 4, Methods)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper reports that all samples tested for Ace-1 N485I (N=144), Cyp6p9a (N=30), and Vgsc L1014F/S (N=20) were wild type (page 1, Abstract; page 6, Results)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from Lare district, Gambella Regional State, Ethiopia (page 1, Abstract; page 2, Methods)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical research study involving field collection and molecular analysis of mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies the collection location as Lare district, Gambella Regional State, Ethiopia (page 2, Methods)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The collection period is stated as June 2018 to July 2020 (page 1, Abstract; page 3, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new longitudinal collection of mosquitoes from Lare district."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data regarding sample sizes and results are provided in the main text and tables."
+    },
+    "markers_found": [
+      "Ace-1 N485I",
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Cyp6p9a R"
+    ],
+    "species": [
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "collection_years": [
+      2018,
+      2019,
+      2020
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1086,
+    "summary": "This study investigated the species composition, Plasmodium infection rate, and insecticide resistance markers (Ace-1 N485I, Vgsc L1014F/S, and Cyp6p9a) in Anopheles funestus collected from Lare district, Ethiopia, between 2018 and 2020. All samples were identified as An. funestus s.s. and were found to be wild-type for the tested resistance markers.",
+    "exclusion_reasons": []
+  }
+}

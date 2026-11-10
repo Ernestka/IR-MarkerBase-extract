@@ -1,0 +1,71 @@
+{
+  "id": "2023_Kweyamba_Sub_Lethal_Exposure_Chlorfenapyr_Reduces_PMID37789458",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study uses Anopheles gambiae s.s. (Kisumu KDR strain)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper mentions the Kisumu KDR strain has L1014F and L1014S knockdown resistance alleles (page 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states the strain has these alleles but does not provide genotype counts (RR/RS/SS) or frequencies for the mosquitoes used in this specific study; it refers to previous studies for the characterization of the strain."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The mosquitoes used are from a laboratory colony (Kisumu KDR strain) maintained at the Ifakara Health Institute, not a field-collected population."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study evaluating the effect of chlorfenapyr-treated nets on P. falciparum infection in mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in Bagamoyo, Tanzania."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was conducted between September 2021 and August 2022."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new experimental procedure."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper provides the necessary data for its own experimental results."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 748,
+    "summary": "This study evaluated the effect of sub-lethal exposure to chlorfenapyr-treated nets on P. falciparum infection in a laboratory-reared pyrethroid-resistant Anopheles gambiae s.s. strain (Kisumu KDR). It found that exposure significantly reduced oocyst and sporozoite prevalence and oocyst intensity.",
+    "exclusion_reasons": [
+      "The study uses a laboratory colony (Kisumu KDR) rather than a field-collected population.",
+      "The paper does not report new genotype data for the mosquitoes used in the experiments; it only references the known resistance status of the laboratory strain."
+    ]
+  }
+}

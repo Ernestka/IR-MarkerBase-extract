@@ -1,0 +1,69 @@
+{
+  "id": "2024_Fadel_Exploring_Molecular_Mechanisms_Increased_Intensity_PMID38410533",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-10",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii (page 1, abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (1014F), Vgsc L995S (1014S), Vgsc N1570Y (1575Y), and Ace-1 G280S (119S) (page 10, section 3.9 and 3.10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table S6 and the text provide genotype counts for 1014F, 1014S, and 1575Y (page 10, section 3.9)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Gounougou, northern Cameroon (page 2, section 2.1)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original research article (page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Gounougou, northern Cameroon (9°03′00″ N, 13°43′59″ E) (page 2, section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection was carried out in August 2019 (page 2, section 2.1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The paper states this collection was made 24 months after a previous collection in 2017 (Fadel et al., 2019), but this is a new, distinct collection event."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in the text and Table S6 (which is part of the provided document)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 270,
+    "summary": "This study investigates pyrethroid resistance intensity and molecular mechanisms in Anopheles coluzzii from Gounougou, Cameroon. It uses bioassays, RNA-seq, and genotyping of kdr and ace-1 mutations. High pyrethroid resistance was observed, with metabolic resistance (GSTe2, P450s) identified as a key driver, while kdr mutations showed decreased frequencies compared to 2017.",
+    "exclusion_reasons": []
+  }
+}
