@@ -1,0 +1,71 @@
+{
+  "id": "2024_Kouame_Assessing_Species_Composition_Insecticide_Resistan_PMID39656701",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "This study investigated the complex members and the insecticide resistance in the Anopheles gambiae s.l. populations in coastal Côte d'Ivoire. (Page 1)"
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "An. gambiae complex members and kdr 995F, kdr 995S and Ace-1 280S mutations were identified using polymerase chain reaction (PCR) technique. (Page 1)"
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 gives exact sample numbers and genotype counts (FF, LF, LL for L995F; SS, LS, LL for L995S; SS, GS, GG for G280S) along with calculated frequencies for An. coluzzii, An. gambiae s.s., and hybrids across the three health districts. (Page 12)"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles mosquito larvae and pupae were collected using the dipping method from larval habitats between January 2018 and December 2020 in three health districts of Côte d'Ivoire (Aboisso, Jacqueville, and San Pedro) and reared to adults for testing. (Page 3)"
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study describing original field sampling, bioassays, and molecular genotyping. (Pages 1-15)"
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in three health districts: Aboisso (5° 28' 04\" N, 3° 12' 25\" W), Jacqueville (5° 12' 02\" N, 4° 24' 44\" W), and San Pedro (4° 44' 5\" N, 6° 38' 10\" W). (Page 3)"
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larvae and pupae were collected between January 2018 and December 2020. (Page 3)"
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Primary field collection conducted across three coastal health districts between 2018 and 2020 without reference to pre-published datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary genotype counts and frequencies for the target markers are included in Table 5 of the main paper."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2018,
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 672,
+    "summary": "This study evaluated species composition, phenotypic insecticide resistance, and target-site resistance mutation frequencies (Vgsc L995F, Vgsc L995S, and Ace-1 G280S) in Anopheles gambiae s.l. collected as larvae from 2018 to 2020 across three coastal health districts in Côte d'Ivoire (Aboisso, Jacqueville, and San Pedro). High frequencies of Vgsc L995F and varying rates of Ace-1 G280S were detected in An. coluzzii and An. gambiae s.s. populations.",
+    "exclusion_reasons": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "2025_Owusu-Asenso_Environmental_Volatiles_Contributing_Insecticide_R_PMID40470219",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 3, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotype frequencies for Vgsc L995F, L995S, N1570Y, V402L, I1527T, P1874L, and Ace-1 G280S (Table 1, page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides allele frequencies for seven resistance markers across six study sites, with a sample size of N=30 per site (page 4)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from six field sites in Ghana (page 3, 8, 9)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection, bioassays, and molecular analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides specific site names and coordinates (e.g., Abossey Okai 5.5480° N, 0.2424° W) (page 9)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval sampling was conducted from January 2023 to July 2024 (page 9)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted between 2023 and 2024."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including allele frequencies and sample sizes, are provided in the main text tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Vgsc P1874L",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s.",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 180,
+    "summary": "This study investigated the impact of environmental pollutants (heavy metals and pesticide residues) on insecticide resistance in Anopheles gambiae s.l. populations across six sites in Ghana. The study combined WHO tube and bottle bioassays with molecular screening for kdr and Ace-1 resistance markers. Significant associations were found between heavy metal concentrations in breeding sites and resistance to certain insecticides.",
+    "exclusion_reasons": []
+  }
+}

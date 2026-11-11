@@ -1,0 +1,71 @@
+{
+  "id": "2025_Opondo_Characterization_Insecticide_Resistance_Mechanisms_PMID40082890",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae complex mosquitoes (An. gambiae s.s. and An. coluzzii) in Sierra Leone."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (L1014F), Vgsc L995S (1014S), Vgsc N1575Y (N1575Y), and Ace-1 G119S."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 provides genotype counts (FF, LF, LS, SS, GG, NN, NY) for the markers across different districts and phenotypes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from four districts in Sierra Leone (Bo, Bombali, Kono, Western Rural Area) and reared from field-collected larvae/pupae."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical study conducted by the authors."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies four districts: Bo, Bombali, Kono, and Western Rural Area."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study states collections were conducted in 2018 and 2019."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analysis performed by the authors in collaboration with the PMI VectorLink project."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype data is provided in the main text tables (Table 2, Table 3, Table 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1575Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Sierra Leone"
+    ],
+    "collection_years": [
+      2018,
+      2019
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 201,
+    "summary": "This study characterized insecticide resistance in Anopheles gambiae s.l. from four districts in Sierra Leone (2018-2019). It reports high resistance to pyrethroids, susceptibility to chlorfenapyr and clothianidin, and possible resistance to bendiocarb. Molecular screening identified high frequencies of kdr L1014F, and the presence of L1014S, N1575Y, and Ace-1 G119S mutations.",
+    "exclusion_reasons": []
+  }
+}

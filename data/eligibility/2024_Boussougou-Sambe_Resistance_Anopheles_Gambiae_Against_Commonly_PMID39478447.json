@@ -1,0 +1,69 @@
+{
+  "id": "2024_Boussougou-Sambe_Resistance_Anopheles_Gambiae_Against_Commonly_PMID39478447",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study assessed insecticide susceptibility and resistance markers in Anopheles gambiae s.s. collected in Lambaréné, Gabon (Page 1, Abstract; Page 4, Results)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": " Mosquitoes were genotyped for Vgsc-L1014F (Vgsc L995F), Vgsc-L1014S (Vgsc L995S), and Ace-1 G119S (Ace-1 G280S) using TaqMan assays (Page 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 4: 'All the 94 mosquitoes screened for the presence of the knockdown resistance genes were either homozygous (98.4%) for Vgsc-L1014F or heterozygous (1.6%) for Vgsc-L1014F and Vgsc-L1014S... By contrast, all the mosquitoes screened for the Ace1 mutation were carrying the G119 Ace-1 susceptible allele of the gene.'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from breeding sites in Lambaréné, Moyen Ogooué province, Gabon between December 2021 and May 2022 (Page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study reporting novel field collection, bioassay, and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were conducted in the second district of Lambaréné, Moyen Ogooué province, Gabon, with specific breeding sites mapped (Page 2 & Fig. 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Field collection took place from December 2021 to May 2022 (Page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The authors describe routine new field collections of Anopheles gambiae larvae in Lambaréné, Gabon during 2021-2022."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The target marker genotype proportions and sample size (n=94) as well as bioassay results are reported in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Gabon"
+    ],
+    "collection_years": [
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 94,
+    "summary": "This study evaluated insecticide susceptibility and target-site resistance markers (Vgsc L1014F/S and Ace-1 G119S) in Anopheles gambiae s.s. collected from Lambaréné, Gabon between December 2021 and May 2022. High frequency of Vgsc-L1014F (98.4% homozygous) and low Vgsc-L1014S (1.6% heterozygous) were reported in 94 genotyped mosquitoes, while the Ace-1 G119S resistance mutation was absent.",
+    "exclusion_reasons": []
+  }
+}

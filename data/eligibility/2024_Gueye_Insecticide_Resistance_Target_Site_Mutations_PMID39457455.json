@@ -1,0 +1,71 @@
+{
+  "id": "2024_Gueye_Insecticide_Resistance_Target_Site_Mutations_PMID39457455",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigated populations of Anopheles gambiae s.l. (specifically An. arabiensis, An. gambiae, and An. coluzzii) in Senegal (Page 1, Abstract; Page 6, Section 3.3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotyped target-site mutations Vgsc L1014F, Vgsc L1014S, Vgsc N1575Y, and Ace-1 G119S (G280S) (Page 4, Section 2.5; Page 7, Tables 4 and 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 4 provides exact genotype counts (FF, FS, LF, LL, LS, SS) for L1014F/S by species and site. Table 5 provides exact genotype counts for N1575Y (NN, NY, YY). Tables 6 and 7 report genotype counts broken down by survivor/dead phenotype status (Pages 7-8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles larvae were collected from breeding sites in Dielmo and Ndiop, Senegal between September and December 2022 and reared to adulthood for testing (Page 3, Section 2.2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study reporting original field collections, WHO bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were conducted in two specific villages in Senegal: Dielmo (13°43'22.2\" N, 16°24'40.1\" W) and Ndiop (13°41'12.8\" N, 16°23'3.2\" W) (Page 2, Section 2.1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected between September and December 2022 (Page 3, Section 2.2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study reports new primary field collections conducted between September and December 2022."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts, bioassay results, and location details are fully presented in the main text tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Senegal"
+    ],
+    "collection_years": [
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 516,
+    "summary": "This study evaluated insecticide susceptibility and target-site mutations (Vgsc L1014F, L1014S, N1575Y, and Ace-1 G119S) in field-collected Anopheles gambiae s.l. (An. arabiensis, An. gambiae, An. coluzzii) from Dielmo and Ndiop, Senegal, collected between September and December 2022. High resistance to DDT and pyrethroids was observed, while populations remained fully susceptible to bendiocarb and pirimiphos-methyl. Vgsc L1014F and L1014S were detected with detailed genotype counts provided, while Ace-1 G119S was absent and N1575Y occurred at low frequency in An. gambiae from Dielmo.",
+    "exclusion_reasons": []
+  }
+}

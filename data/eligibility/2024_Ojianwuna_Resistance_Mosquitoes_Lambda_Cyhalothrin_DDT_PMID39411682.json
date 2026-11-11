@@ -1,0 +1,65 @@
+{
+  "id": "2024_Ojianwuna_Resistance_Mosquitoes_Lambda_Cyhalothrin_DDT_PMID39411682",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Tested Anopheles gambiae mosquitoes collected from field breeding sites in Nigeria (pages 1-3)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study evaluates insecticide susceptibility using WHO bioassays and PBO synergist tests, but does not genotype any target insecticide-resistance markers."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts or marker allele frequencies are reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae and pupae were collected from field breeding sites in Ute Okpu, Umunede, and Akumazi in Delta State, Nigeria (page 2)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study reporting bioassay and synergist results on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Ute Okpu (6.1476°N, 6.2907°E), Umunede (6.2582°N, 6.3067°E), and Akumazi (6.2554°N, 6.3253°E), Delta State, Nigeria (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The paper does not explicitly state the specific year(s) of mosquito collection."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "No indication of overlap or reuse of previously published datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files are required as no marker genotyping was performed."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated the susceptibility of field-collected Anopheles gambiae, Culex quinquefasciatus, and Aedes albopictus from Delta State, Nigeria to lambda-cyhalothrin (0.05%) and DDT (4%) using WHO tube bioassays and PBO synergist assays. Anopheles gambiae showed resistance to both insecticides, which was partially or fully restored with PBO pre-exposure. No molecular target marker genotyping was conducted.",
+    "exclusion_reasons": [
+      "does_not_report_target_markers",
+      "does_not_report_extractable_genotype_data"
+    ]
+  }
+}

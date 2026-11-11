@@ -1,0 +1,71 @@
+{
+  "id": "2024_Correa_Status_Insecticide_Resistance_Anopheles_Coluzzii_PMID39695583",
+  "source": "master",
+  "model": "gemini:gemini-3.7-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles coluzzii from São Tomé and Príncipe (Page 1, Abstract; Page 3, Genotyping of the knockdown resistance locus)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014F (kdr-w) and L1014S (kdr-e) using allele-specific PCR assays (Page 3, Genotyping of the knockdown resistance locus)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 3 provides kdr-w allele frequencies and sample sizes for dry and rainy season collections in Água Grande (16.0%, N=345; 11.0%, N=270), Ribeira Afonso (8.0%, N=182; 13.0%, N=181), and St. António (1.0%, N=66; 0%, N=148), along with stacked bar plots of genotype frequencies in resistant vs. susceptible mosquitoes. Page 4 also notes historical samples from 2003 (N=303) and 2004 (N=100) with 0% kdr."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae and adults were collected from the field in São Tomé and Príncipe (Água Grande and Ribeira Afonso on São Tomé island, and St. António on Príncipe island) between 2022-2024 and 2003-2004 (Page 3, Mosquito collections)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field collection, bioassay, and genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections occurred at specific sub-country sites: Água Grande district, Ribeira Afonso village (São Tomé island), and St. António (Príncipe island) (Page 3, Mosquito collections)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections are resolved to specific seasonal sampling periods: July-September 2022, May-June 2023, July 2023, and January 2024, as well as historical surveys in April 2003 and September 2004 (Page 3, Mosquito collections)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Original entomological collections conducted within the framework of the University of California Malaria Initiative (UCMI)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text and Figure 3 contain extractable allele frequencies, sample sizes, and genotype breakdowns by bioassay phenotype."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "São Tomé and Príncipe"
+    ],
+    "collection_years": [
+      2003,
+      2004,
+      2022,
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1595,
+    "summary": "This study evaluated insecticide susceptibility and kdr (L1014F and L1014S) frequencies in Anopheles coluzzii from São Tomé and Príncipe in 2022-2024 (and archival 2003-2004 samples). Resistance to pyrethroids and DDT was detected, with kdr-w (L1014F) present at low-to-moderate frequencies (up to 16%) and significantly associated with survival in pyrethroid bioassays in São Tomé.",
+    "exclusion_reasons": []
+  }
+}

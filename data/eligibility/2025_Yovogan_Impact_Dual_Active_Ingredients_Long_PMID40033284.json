@@ -1,0 +1,70 @@
+{
+  "id": "2025_Yovogan_Impact_Dual_Active_Ingredients_Long_PMID40033284",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae sensu lato, specifically An. coluzzii and An. gambiae sensu stricto (page 1, 3, 5)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for L1014F vgsc-kdr and G119S-ace-1 (page 3, 5, 8, 9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 1 and 2 provide genotype counts (RR, RS, SS) for L1014F and G119S-ace-1 across different study arms and time points (pages 8 and 9)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in the field in the CoZO health zone, Zou department, Southern Benin (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary empirical study evaluating the impact of LLINs on the genetic structure of mosquito populations (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study was conducted in the CoZO health zone (Cove-Ouinhi-Zagnanado), Zou department, Benin (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections occurred between September 2019 and October 2021 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study is a new analysis of samples collected during a specific RCT (Accrombessi et al. 2021, 2023). While the samples are part of a larger trial, this paper presents original genetic analysis not previously published."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and allele frequencies are provided in the main text tables (Tables 1 and 2)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae sensu stricto"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": true,
+    "sample_size": 4242,
+    "summary": "This study evaluated the impact of dual-active ingredient LLINs (pyrethroid-chlorfenapyr and pyrethroid-pyriproxyfen) on the genetic structure of Anopheles gambiae s.l. populations in Southern Benin. Genotyping for L1014F vgsc-kdr and G119S-ace-1 was performed on field-collected mosquitoes over a two-year period post-intervention. The study found high frequencies of the L1014F resistance allele and low frequencies of the G119S-ace-1 allele, with no significant changes in allele frequencies attributable to the new net types.",
+    "exclusion_reasons": []
+  }
+}

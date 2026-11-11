@@ -1,0 +1,69 @@
+{
+  "id": "2025_Okeyo_Molecular_Markers_Reduced_Behavioral_Sensitivity_PMID40474067",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.s. (page 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotypes for Vgsc L995F, Vgsc L995S, Vgsc N1570Y, and Ace-1 G119S (Table 3, page 11)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 provides allele frequencies (0, 0.5, 0.83, 1.0) for various mutations across different populations (Bungoma, Kisumu, Pimperena)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The Bungoma population was collected from the field in western Kenya (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study using RNA-seq and HITSS assays on mosquito populations."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The Bungoma population was collected from Bumula sub-county, Bungoma county, western Kenya (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted between March and October 2017 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and experiments."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The required genotype data is provided in Table 3 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G119S"
+    ],
+    "species": [
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 600,
+    "summary": "This study investigated the molecular mechanisms of reduced behavioral sensitivity to transfluthrin in Anopheles gambiae s.s. using HITSS assays and RNA-seq. It identified overexpression of detoxification genes (e.g., CYP12F12) and analyzed target-site mutations (kdr L995F/S, N1570Y, Ace-1 G119S) in field-collected (Bungoma) and laboratory (Kisumu, Pimperena) populations.",
+    "exclusion_reasons": []
+  }
+}

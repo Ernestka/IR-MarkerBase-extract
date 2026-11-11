@@ -1,0 +1,71 @@
+{
+  "id": "2024_Koto_Yerima_Gounou_Boukari_Cross_Resistance_Pyrethroids_Neonicotinoids_Malari_PMID39728832",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study focuses on Anopheles gambiae s.l. (An. gambiae, An. coluzzii, An. arabiensis) collected in northern Benin (page 1, page 11)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Screened kdr L1014F (Vgsc L995F), kdr L1014S (Vgsc L995S), N1575Y (Vgsc N1570Y), and ace-1 G119S (Ace-1 G280S) using TaqMan PCR (page 5, Table 3)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 11 provides genotype counts (RR, RS, SS), sample sizes (N=60 per group), and allele frequencies f(R) for alive and dead mosquitoes at each study site."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. larvae were collected from breeding sites in vegetable farms in Malanville and Parakou, Benin, between October and November 2023 (page 4)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original field survey, bioassay, and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data are collected from specific communes with coordinates provided: Malanville (11°50'38'' to 11°52'02'' N, 3°22'00'' to 3°24'02'' E) and Parakou (9°20'13'' N, 2°37'49'' E), Benin (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected between October and November 2023 (page 4)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Original field sampling carried out in October-November 2023 for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All primary bioassay results and genotype data are completely presented in the main text and Table 3."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 240,
+    "summary": "Primary study assessing insecticide resistance profiles and molecular marker frequencies (Vgsc L995F, Vgsc L995S, Vgsc N1570Y, Ace-1 G280S) in field populations of Anopheles gambiae s.l. from vegetable farms in Malanville and Parakou, Benin, collected in late 2023. Genotype counts are provided separately for alive and dead mosquitoes post-exposure.",
+    "exclusion_reasons": []
+  }
+}
