@@ -1,0 +1,73 @@
+{
+  "id": "2026_Obuobi_Toxicity_Ivermectin_Multiple_Insecticide_Resistant_PMID41566519",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. (page 1, 4)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L1014F (kdr-west) and Ace-1 G119S in An. gambiae s.l., and F1534C, V1016I, and V410L in Ae. aegypti (page 4, 6, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "The paper provides genotype frequencies and counts for An. gambiae s.l. (e.g., page 6, 8) and Ae. aegypti (page 6, 8, 10)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field sites in Cape Coast and Korle-Bu, Ghana (page 2, 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting bioassays and molecular analysis on field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies collection sites in Cape Coast and Korle-Bu, Ghana (page 2, 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Samples were collected between December 2022 and November 2023 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted between 2022 and 2023."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary genotype data and bioassay results are provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S",
+      "Vgsc F1534C",
+      "Vgsc V402L",
+      "Vgsc V1016I"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Aedes aegypti",
+      "Culex spp."
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 19480,
+    "summary": "This study evaluated the toxicity of ivermectin on field-collected populations of Anopheles gambiae s.l., Aedes aegypti, and Culex spp. from Ghana. It assessed insecticide resistance status, target-site mutations (kdr and Ace-1), and metabolic enzyme activities. The study found that An. gambiae s.l. was more susceptible to ivermectin than the other species, and that resistance mechanisms (kdr and metabolic) were present in the field populations.",
+    "exclusion_reasons": []
+  }
+}

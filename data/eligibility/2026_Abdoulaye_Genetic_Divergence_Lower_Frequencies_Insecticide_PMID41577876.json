@@ -1,0 +1,80 @@
+{
+  "id": "2026_Abdoulaye_Genetic_Divergence_Lower_Frequencies_Insecticide_PMID41577876",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on the Anopheles gambiae species complex (An. gambiae s.s., An. coluzzii, and the Bissau molecular form)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotype frequencies for Vgsc (L995F, N1570Y, P1874L, T791M, A1746S, V402L, I1527T), Rdl (A296G, A296S), Ace-1 (G280S, CNVs), and GSTe2 (L119F, T154S, N3K, etc.)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 3 and Figure 4 provide heat maps with allele frequencies for various markers across different cohorts and taxa."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The study uses field-collected mosquitoes from The Gambia (Brikama, Kanifing, Basse, Kerewan, Kuntaur, Janjanbureh, Mansakonko)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study analyzing genomic data from field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data for specific locations: Brikama, Kanifing, Basse, Kerewan, Kuntaur, Janjanbureh, and Mansakonko."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study analyzes samples collected between 2005 and 2021, with specific cohorts identified by year (e.g., 2005, 2011, 2019, 2021) in Figures 3 and 4."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study uses data from the Anopheles gambiae 1000 Genomes Project (AG1000G) phase 3, but it is a primary analysis of these data for the Bissau molecular form in The Gambia."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data (allele frequencies) are provided in the main figures (Figures 3 and 4)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc N1570Y",
+      "Vgsc P1874L",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Ace-1 G280S",
+      "Ace-1 DUP",
+      "Rdl A296G",
+      "Rdl A296S",
+      "GSTe2 L119F"
+    ],
+    "species": [
+      "Anopheles gambiae s.s.",
+      "Anopheles coluzzii",
+      "Anopheles gambiae Bissau molecular form"
+    ],
+    "countries": [
+      "The Gambia"
+    ],
+    "collection_years": [
+      2005,
+      2011,
+      2019,
+      2021
+    ],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": 1135,
+    "summary": "This study analyzes whole-genome sequence data from 1135 Anopheles gambiae complex mosquitoes collected in The Gambia between 2005 and 2021. It characterizes the population structure and insecticide resistance markers (Vgsc, Rdl, Ace-1, GSTe2) of the newly identified Bissau molecular form compared to An. gambiae s.s. and An. coluzzii.",
+    "exclusion_reasons": []
+  }
+}

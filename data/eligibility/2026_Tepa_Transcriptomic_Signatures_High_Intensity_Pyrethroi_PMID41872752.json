@@ -1,0 +1,79 @@
+{
+  "id": "2026_Tepa_Transcriptomic_Signatures_High_Intensity_Pyrethroi_PMID41872752",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The paper studies Anopheles gambiae s.s. (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotypes for Vgsc L995F (kdr Leu995Phe), CYP6P3 (Glu205Asp), CYP6AA1 (Ser395Thr), CYP6AA2 (Asn327Asp), CYP6P1 (Ile168Val and Leu374Met), UGT308A2 (Lys83Asn), UGT49A3 (His226Tyr/Met172Leu), and ABCA2 (Ala147Val/Ala76Glu) (Abstract, page 1; Figure 5, page 11; Table S2.9)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Figure 5 (page 11) provides allele frequencies (%) for nonsynonymous SNPs across seven population groups."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in Mangoum, Cameroon (Materials and methods, page 16)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving RNA-seq, bioassays, and SNP analysis of field-collected mosquitoes."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mangoum, Cameroon (Materials and methods, page 16)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection effort spans 2020–2023 (Materials and methods, page 16)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new collections and analyses."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The necessary data (allele frequencies) are provided in Figure 5 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Cyp6p3 Glu205Asp",
+      "Cyp6aa1 Ser395Thr",
+      "Cyp6aa2 Asn327Asp",
+      "Cyp6p1 Ile168Val",
+      "Cyp6p1 Leu374Met",
+      "Ugt308a2 Lys83Asn",
+      "Ugt49a3 His226Tyr",
+      "Ugt49a3 Met172Leu",
+      "Abca2 Ala147Val",
+      "Abca2 Ala76Glu"
+    ],
+    "species": [
+      "Anopheles gambiae"
+    ],
+    "countries": [
+      "Cameroon"
+    ],
+    "collection_years": [
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": null,
+    "summary": "This study investigates the transcriptomic and genomic basis of high-intensity pyrethroid resistance in Anopheles gambiae from Mangoum, Cameroon. It integrates RNA-seq, bioassays, and SNP analysis to identify key resistance markers and pathways, highlighting the role of the CYP6Z gene family and various metabolic and target-site mutations.",
+    "exclusion_reasons": []
+  }
+}

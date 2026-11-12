@@ -1,0 +1,68 @@
+{
+  "id": "2026_Ahouandjinou_Widespread_Pyrethroid_Resistance_High_Kdr_PMID42001198",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (An. coluzzii and An. gambiae s.s.) populations in Benin."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper reports genotyping for Vgsc L995F (kdr-West) and Ace-1 G119S (Ace-1R) in Table 2 and Table 3."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 and Table 3 provide genotype counts (e.g., 995F/F, 995F/L, 995L/L) and allele frequencies for each district and species."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field breeding sites in three districts in southern Benin (Porto-Novo, Akpro-Missérété, Lokossa)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an original empirical research study conducting field collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study provides data at the district level (Porto-Novo, Akpro-Missérété, Lokossa) and includes coordinates in the Materials and Methods section."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study is published in 2026 and reports recent field collections (implied by the context of current resistance monitoring)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections and data analysis specific to this paper."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay results are provided in the main text tables and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae s.s."
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2026
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 248,
+    "summary": "This study assessed insecticide resistance in Anopheles gambiae s.l. populations from three districts in southern Benin. It found widespread pyrethroid resistance associated with near-fixation of the kdr L995F mutation, while Ace-1 G119S remained rare. Clothianidin and chlorfenapyr showed high efficacy.",
+    "exclusion_reasons": []
+  }
+}

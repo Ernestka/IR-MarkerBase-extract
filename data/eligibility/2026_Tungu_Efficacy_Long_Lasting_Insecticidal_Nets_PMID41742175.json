@@ -1,0 +1,75 @@
+{
+  "id": "2026_Tungu_Efficacy_Long_Lasting_Insecticidal_Nets_PMID41742175",
+  "source": "master",
+  "model": "gemini:gemini-3.6-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluates field-caught Anopheles gambiae s.l. (An. gambiae s.s. and An. arabiensis) and Anopheles funestus s.l. (An. funestus s.s.) in northeastern Tanzania (Page 1, Page 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "TaqMan and PCR assays were used to detect VGSC L1014S (Vgsc L995S) and L1014F (Vgsc L995F) kdr alleles in An. gambiae s.l. (Page 5, Page 6)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 6 states: 'A total of 833 An. gambiae s.s. and 40 An. arabiensis were analyzed for VGSC L1014S and L1014F kdr allele. All 40 An. arabiensis were homozygous susceptible. Of 833 An. gambiae s.s., 252 (30%) were homozygous susceptible, 387 (47%) were heterozygous resistant with VGSC L1014S, and 194 (23%) were homozygous resistant for VGSC L1014S. Zero mosquitoes with the VGSC L1014F mutation were detected.'"
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from experimental huts and WHO bioassays at Zeneti village, Muheza district, northeastern Tanzania (Page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This primary study reports field mosquito collection, bioassays, experimental hut trials, and molecular kdr genotyping conducted by the authors in Zeneti, Tanzania (Pages 3-6)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Zeneti village, Muheza district, Tanga region, northeastern Tanzania (5° 13′ S latitude, 38° 39′ E longitude) (Page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The molecular genotyping sample size of 833 An. gambiae s.s. and 40 An. arabiensis is reported as a pooled total across experimental hut trials conducted over an 11-year span (2006–2017) without per-year genotype breakdowns (Page 6)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Table 1 footnote notes: 'All these studies were conducted in Muheza, Tanzania, between 2006 and 2018 and formerly published in Reports of the WHOPES Working Group Meetings or on the WHO Pre-qualification Team (PQT) website.'"
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "Extractable molecular kdr genotype counts (833 An. gambiae s.s. and 40 An. arabiensis) and bioassay results are provided in the main text on Page 6."
+    },
+    "markers_found": [
+      "Vgsc L995S",
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [
+      2006,
+      2008,
+      2010,
+      2013,
+      2014,
+      2015,
+      2017
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 873,
+    "summary": "This study evaluated the efficacy of pyrethroid long-lasting insecticidal nets (LLINs) in experimental hut trials and WHO susceptibility bioassays against wild Anopheles gambiae s.l. and Anopheles funestus s.l. in Zeneti, Muheza, Tanzania, between 2006 and 2017. Genotyping of VGSC L1014S and L1014F in 833 An. gambiae s.s. revealed 252 SS, 387 RS (L1014S), and 194 RR (L1014S) genotypes (47% R allele frequency), while 40 An. arabiensis were all homozygous susceptible (SS). L1014F was not detected.",
+    "exclusion_reasons": []
+  }
+}

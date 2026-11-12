@@ -1,0 +1,66 @@
+{
+  "id": "2026_Boko_Agricultural_Practices_Drive_Multifactorial_Pyreth_PMID42764377",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii populations in southern Benin (Abstract, page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping of the kdr-West (L1014F) mutation (Abstract, page 1; Methods, page 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Genotype frequencies (RR, RS, SS) and allele frequencies are reported for the three study sites (Results, page 7; Figure 3, page 8)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from field breeding sites in southern Benin (Methods, page 5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study reporting original field and laboratory data (Abstract, page 1)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies three distinct locations: Sèmè-Kpodji, Abomey-Calavi, and Yenawa (Cotonou) (Methods, page 5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "The study was published in 2026 and describes recent field collections (Methods, page 5)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections and laboratory analyses conducted by the authors."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and frequencies, are provided in the main text and figures."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2026
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 90,
+    "summary": "This study investigated pyrethroid resistance in Anopheles coluzzii populations from three sites in southern Benin (two agricultural, one urban). It integrated WHO bioassays, kdr-West genotyping, biochemical enzyme assays, and RT-qPCR gene expression analysis. Results showed widespread resistance and high kdr-West allele frequencies across all sites, with evidence of multifactorial resistance involving metabolic detoxification mechanisms.",
+    "exclusion_reasons": []
+  }
+}

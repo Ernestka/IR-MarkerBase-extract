@@ -1,0 +1,69 @@
+{
+  "id": "2026_Owusu-Asenso_Comparative_Analysis_Reveals_Concentration_Depende_PMID41507296",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Study evaluated Anopheles gambiae s.l. mosquitoes collected as larvae from Tema, Abossey Okai, and Dansoman in Ghana (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Genotyped kdr mutations Vgsc L995F and L995S using AS-PCR (page 1, page 5 Table 3, page 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 3 on page 5 reports complete sample sizes (N=177 total) and genotype counts (RR, RS, SS) for L995F and L995S stratified by location, phenotype (resistant vs susceptible), and sibling species."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from field breeding sites in Tema, Abossey Okai, and Dansoman (Accra, Ghana) between January 2023 and July 2024 and reared to adults for testing (page 7)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical study presenting original field collection, susceptibility bioassays, PBO synergist assays, gene expression analysis, and kdr genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Provides precise coordinates and site details for Tema (5.6698 N, 0.0200 W), Abossey Okai (5.5480 N, 0.2424 W), and Dansoman (5 33' 0\" N, 0 16' 0\" W) in Ghana (page 7)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Sampling took place from January 2023 to July 2024 (page 7)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Primary field collection sampled specifically for this study between 2023 and 2024."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All genotype count data, sample sizes, bioassay results, and location details are fully presented in the main text and tables (Table 3)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 177,
+    "summary": "This study evaluated pyrethroid resistance intensity, metabolic gene expression, and kdr marker frequencies (Vgsc L995F and L995S) in Anopheles gambiae s.l. (predominantly An. coluzzii) collected from three sites in Accra and Tema, Ghana between January 2023 and July 2024. Genotype counts and allele frequencies for L995F and L995S are provided stratified by site, species, and deltamethrin susceptibility phenotype.",
+    "exclusion_reasons": []
+  }
+}

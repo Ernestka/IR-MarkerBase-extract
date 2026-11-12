@@ -1,0 +1,68 @@
+{
+  "id": "2026_Ezeike_Urban_Evolution_Insecticide_Resistance_Susceptibil_PMID41593697",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles coluzzii (a member of the An. gambiae complex) in Anambra State, Nigeria (Page 1, Abstract)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports genotyping for Vgsc L995F (kdr L1014F) and Ace-1 G280S (G119S) (Page 1, Abstract; Page 10, Tables 7 and 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Tables 7 and 8 provide genotype counts (RR, RS, SS) and allele frequencies for kdr L1014F and ace-1 G119S for three populations (Page 10)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from field sites in Awka, Onitsha, and Nnewi, Anambra State, Nigeria (Page 3, Collection and maintenance of mosquito larvae)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study conducting field collections, bioassays, and molecular analysis (Page 1, Abstract)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Data is provided for three specific urban centers: Awka, Onitsha, and Nnewi in Anambra State, Nigeria (Page 1, Abstract)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collection occurred between September 2024 and August 2025 (Page 3, Collection and maintenance of mosquito larvae)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes new field collections conducted between 2024 and 2025."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary data, including genotype counts and bioassay results, are provided in the main text tables."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2024,
+      2025
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 90,
+    "summary": "This study assessed insecticide resistance in Anopheles coluzzii from three urban centers in Anambra State, Nigeria. It combined WHO tube bioassays with molecular genotyping for kdr L1014F and ace-1 G119S. High resistance to pyrethroids and DDT was observed, associated with high kdr 1014F allele frequencies, while populations remained susceptible to carbamates and organophosphates.",
+    "exclusion_reasons": []
+  }
+}

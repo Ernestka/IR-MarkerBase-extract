@@ -1,0 +1,68 @@
+{
+  "id": "2026_Busari_Insecticidal_Knockdown_Resistance_Status_Anopheles_PMID42008435",
+  "source": "master",
+  "model": "gemini:gemini-3.1-flash-lite",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on Anopheles gambiae s.l. (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study reports detection of the KDR gene (page 5, 8)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper states that 155 resistant mosquitoes were selected and PCR showed amplification of the KDR gene at 195bp in all of them (page 5). It does not provide genotype counts (RR/RS/SS) or allele frequencies for the populations studied."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from six communities in Osun State, Nigeria (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is an empirical study involving field collection and laboratory analysis."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The study specifies six communities: Ido-Osun, Ejigbo, Inisa, Ila, Ijebu-Jesha, and Ipetumodu (page 3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Larval sampling was conducted between January and December 2022 (page 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "The study describes a new collection of mosquitoes in 2022."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not provide genotype counts in the main text or supplementary materials."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "collection_years": [
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 155,
+    "summary": "This study evaluated the insecticide resistance status of Anopheles gambiae s.l. in Osun State, Nigeria, using WHO bioassays and PCR to detect the KDR gene. While bioassay mortality data is provided, the molecular analysis only reports the presence of the KDR gene in 155 resistant mosquitoes without providing specific genotype counts or frequencies.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}
