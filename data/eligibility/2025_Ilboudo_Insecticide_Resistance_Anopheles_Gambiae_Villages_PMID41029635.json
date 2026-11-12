@@ -1,0 +1,68 @@
+{
+  "id": "2025_Ilboudo_Insecticide_Resistance_Anopheles_Gambiae_Villages_PMID41029635",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study evaluated field-collected Anopheles gambiae s.l. (specifically Anopheles coluzzii and Anopheles arabiensis) (page 1, Abstract; page 5, 'Molecular identification of An. gambiae')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L1014F (kdr West) and L1014S (kdr East) mutations (page 3, 'Molecular analysis'; page 5, Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides genotype counts (RR, RS, SS), sample sizes (N), and allele frequencies for the kdr West (L1014F) mutation across three villages and two collection periods (page 5)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Endophilic gravid female mosquitoes were collected from three villages (Seguedin, Nazoanga, Soum) in the Nanoro Health District, Centre-West Region, Burkina Faso, and F1 adults were reared and tested (page 2, 'Study site' and 'Mosquito collection and breeding')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "The paper reports original empirical field collections, WHO bioassays, and PCR genotyping conducted in 2023 (pages 1-3)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from three named villages: Soum, Seguedin (33 km from dam), and Nazoanga (14 km from dam) around the Soum agropolis in Nanoro Health District, Burkina Faso, and mapped in Figure 1 (page 2-3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito collections were conducted in July and October 2023 (page 2, 'Mosquito collection and breeding')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "This is a primary research study from the CLIMSA project with routine local field collections conducted in 2023."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and bioassay results are provided in the main text figures and Table 1."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 558,
+    "summary": "This study evaluated insecticide susceptibility and resistance mechanisms in Anopheles coluzzii and An. arabiensis from three villages near the Soum agropolis in Burkina Faso in 2023. Bioassays showed high resistance to deltamethrin, emerging resistance to bendiocarb, and full susceptibility to pirimiphos-methyl. Genotype counts for Vgsc L1014F (L995F) are fully reported across sites and seasons in Table 1.",
+    "exclusion_reasons": []
+  }
+}

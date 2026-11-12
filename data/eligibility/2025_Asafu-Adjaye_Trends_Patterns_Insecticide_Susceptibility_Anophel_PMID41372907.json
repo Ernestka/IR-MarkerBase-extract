@@ -1,0 +1,76 @@
+{
+  "id": "2025_Asafu-Adjaye_Trends_Patterns_Insecticide_Susceptibility_Anophel_PMID41372907",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Standard World Health Organization (WHO) insecticide susceptibility tube assays were carried out annually on adult female Anopheles gambiae reared from immature stages in 30 sentinel sites across Ghana (page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "PCR was performed to identify mosquito species and detect knock down resistance, kdr-west (L1014F) and acetylcholinesterase, ace-1 G119S gene mutations in forty randomly selected mosquitoes per site (page 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "The paper does not report genotype counts (RR/RS/SS), allele counts, or site-specific frequencies with exact sample sizes. Target-site mutation results are only presented as aggregated narrative descriptions and smoothed LOESS regression curves with unlabelled site data points in Fig. 8 (pages 6-7, 10)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Annually, mosquito larvae and pupae were collected from larval habitats in communities around each of the sentinel sites across Ghana and reared to adults (page 3)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This paper reports on primary surveillance data collected across 30 sentinel sites in Ghana between 2015 and 2020 (page 2)."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Surveillance was conducted across 30 specific sentinel sites mapped and named across Ghana (e.g., Tumu, Navrongo, Zebilla, Wa, Saboba, Cape Coast, Begoro, etc.; page 4, Fig. 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections and testing were conducted annually from 2015 to 2020 (pages 1, 3)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "The study was conducted as part of national monitoring supported by 'the United States President's Malaria Initiative (PMI) through the United States Agency for International Development (USAID) on the VectorLink Project implemented by Abt Associates and from the Global Fund through the National Malaria Elimination Program (NMEP)' (page 13)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplementary files or tables are mentioned in the text, and Data availability states 'No datasets were generated or analysed during the current study' (page 13)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study monitored phenotypic insecticide susceptibility and the frequency of Vgsc L995F (L1014F) and Ace-1 G280S (G119S) across 30 sentinel sites in Ghana from 2015 to 2020. While high resistance was detected across multiple classes and target-site markers were assayed, genotype data are only presented as smoothed sector-level LOESS curves and unlabelled scatter plots in Figure 8 without numerical counts or extractable site-level frequencies.",
+    "exclusion_reasons": [
+      "reports_extractable_genotype_data"
+    ]
+  }
+}

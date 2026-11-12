@@ -1,0 +1,22 @@
+study_id: 2009_Yadouleton_Development_Vegetable_Farming_Cause_Emergence_PMID19442297
+title: 'Development of vegetable farming: a cause of the emergence of insecticide
+  resistance in populations of Anopheles gambiae in urban areas of Benin'
+first_author: Anges William M Yadouleton
+doi: 10.1186/1475-2875-8-103
+pmid: '19442297'
+publication_year: 2009
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: 'Development of vegetable farming: a cause of the emergence of insecticide
+    resistance in populations of Anopheles gambiae in urban areas of Benin... Published:
+    14 May 2009... doi:10.1186/1475-2875-8-103'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-12'
+pmid_source: Europe PMC (from DOI)

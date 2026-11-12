@@ -1,0 +1,75 @@
+{
+  "id": "2025_Owusu-Asenso_Environmental_Contaminants_Drive_Insecticide_Resis_PMID40890290",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "This study investigated Anopheles gambiae s.l. (identified as An. coluzzii, An. gambiae s.s., and An. arabiensis) sampled across six sites in Ghana (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for Vgsc L995F, L995S, N1570Y, V402L, I1527T, P1874L, and Ace-1 G280S (listed as G208S in Table 1, and Ace-1R G280S in text, page 2, 4)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (page 4) reports the sample size (N=30 per site across 6 sites) and allele frequencies for N1570Y, V402L, I1527T, L995F, L995S, G280S (mislabelled G208S), and P1874L."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae were collected from breeding habitats across six sites in Ghana (Tamale Fitam, Abossey Okai, Kokompe, Obuasi, Tema community 1, and Accra Industrial Area) between January 2023 and July 2024 and reared to adults (pages 7-8)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article detailing original mosquito collections, bioassays, and molecular genotyping."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Specific sites with coordinates are provided: Abossey Okai (5.5480° N, 0.2424° W), Kokompe (5.5813° N, 0.2173° W), Tamale Fitam (9.4198° N, 0.8199° W), Obuasi (6.2024° N, 1.6658° W), Tema Community 1 (5.6698° N, 0.0200° W), and Accra Industrial Area (5°33'16.992'' N, 0°13'15.492'' W) (pages 7-8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larval collection occurred from January 2023 to July 2024 (page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Routine new field collections carried out between January 2023 and July 2024."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary allele frequency and sample size data for the target resistance markers are presented in Table 1 of the main manuscript."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc V402L",
+      "Vgsc I1527T",
+      "Vgsc P1874L",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 180,
+    "summary": "This study examined insecticide resistance and breeding site contamination across six ecological/anthropogenic sites in Ghana (January 2023 to July 2024). Larval An. gambiae s.l. were reared to adults and tested with WHO tube bioassays (deltamethrin, permethrin, pirimiphos-methyl) and WHO bottle bioassays (chlorfenapyr, clothianidin). Genotyping was conducted on N=30 mosquitoes per site (total N=180) for Vgsc (L995F, L995S, N1570Y, V402L, I1527T, P1874L) and Ace-1 G280S, with complete allele frequency distributions reported in Table 1.",
+    "exclusion_reasons": []
+  }
+}

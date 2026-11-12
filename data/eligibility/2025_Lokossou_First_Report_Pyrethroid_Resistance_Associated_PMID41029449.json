@@ -1,0 +1,69 @@
+{
+  "id": "2025_Lokossou_First_Report_Pyrethroid_Resistance_Associated_PMID41029449",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigates Anopheles gambiae s.l. (specifically identified as Anopheles gambiae s.s. and Anopheles coluzzii) alongside Aedes aegypti and Culex quinquefasciatus (page 1, Abstract; page 9, 'Mutations in Anopheles gambiae s.l.')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The paper genotypes Vgsc L1014F (L995F) and L1014S (L995S) in Anopheles gambiae s.s. and Anopheles coluzzii (page 6, Table 2; page 10, Table 5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 5 (page 10) reports exact genotype counts (RR, RS, SS) and sample sizes for both L1014F and L1014S across 38 Anopheles gambiae s.s. and 106 Anopheles coluzzii specimens."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from field breeding sites at the Port of Cotonou, Benin, and reared to F1 adults for testing (pages 3-5, 'Larval collection methods' and 'Larval collection from breeding sites')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research study presenting original bioassay and molecular resistance data collected between 2023 and 2024."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were conducted at specific georeferenced sites within the Port of Cotonou, Cotonou, Benin (page 3, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between June 2023 and November 2024 (page 1, Abstract; page 3, 'Methods')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "While the text notes that larval collection 'was part of a larger study carried out from June 2023 to May 2024 at the Port of Cotonou' (page 3), these are original primary field surveillance data presented for the first time."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All relevant Anopheles sample sizes and kdr genotype counts are fully reported in Table 5 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 144,
+    "summary": "This study evaluated insecticide susceptibility and resistance markers in mosquitoes from the Port of Cotonou, Benin. In Anopheles gambiae s.s. (n = 38) and Anopheles coluzzii (n = 106) surviving pyrethroid bioassays, kdr L1014F (Vgsc L995F) was found at high frequencies (f = 0.8421 and 0.9292, respectively), while L1014S (Vgsc L995S) was detected only in heterozygous An. gambiae s.s. (f = 0.052).",
+    "exclusion_reasons": []
+  }
+}

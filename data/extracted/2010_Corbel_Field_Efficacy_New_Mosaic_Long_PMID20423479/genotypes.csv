@@ -1,0 +1,2 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2010_Corbel_Field_Efficacy_New_Mosaic_Long_PMID20423479_malanville_2008,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,30,,,,,,0.16,,Malanville (Benin)... 100% M... Kdr frequency 16%,"3, 5",Table 1,,

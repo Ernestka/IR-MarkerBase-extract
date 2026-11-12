@@ -1,0 +1,23 @@
+study_id: 2010_Corbel_Field_Efficacy_New_Mosaic_Long_PMID20423479
+title: 'Field efficacy of a new mosaic long-lasting mosquito net (PermaNet® 3.0) against
+  pyrethroid-resistant malaria vectors: a multi centre study in Western and Central
+  Africa'
+first_author: Vincent Corbel
+doi: 10.1186/1475-2875-9-113
+pmid: '20423479'
+publication_year: 2010
+countries:
+- Benin
+- Cameroon
+- Burkina Faso
+data_source: journal
+provenance:
+  source_text: Corbel et al. Malaria Journal 2010, 9:113
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-12'
+pmid_source: Europe PMC (from DOI)

@@ -66,6 +66,7 @@
    "name": "VK7, Houet, Hauts-Bassins, Burkina Faso"
   }
  ],
+ "bf|VK7, Bobo-Dioulasso": [],
  "bf|Valle de Kou": [],
  "bf|Vallée du Kou": [
   {
@@ -403,6 +404,7 @@
  "bj|Ouidah-Kpomasse-Tori health district, Ouidah-Kpomasse-Tori": [],
  "bj|Ouidah-Kpomasse-Tori health district, Ouidah-Kpomasse-Tori, Atlantique": [],
  "bj|Ouidah-Kpomasse-Tori, Atlantique": [],
+ "bj|Ouidah-Kpomassè-Tori Bossito health district": [],
  "bj|Parakou": [
   {
    "lat": 9.34002,
@@ -479,6 +481,7 @@
    "name": "Tori-Bossito, Atlantique, Bénin"
   }
  ],
+ "ci|Toliak": [],
  "ci|Yaokoffikro": [
   {
    "lat": 6.09765,
@@ -552,10 +555,49 @@
  "gh|Asokwa submetropolis, Kumasi": [],
  "gh|Asokwa submetropolis, Kumasi, Ashanti": [],
  "gh|Asokwa submetropolis, Kumasi, Kumasi Metropolis, Ashanti": [],
+ "gh|Irrigated area, Kassena-Nankana District": [],
+ "gh|Irrigated area, Kassena-Nankana District, Kassena-Nankana, Upper East": [],
+ "gh|Irrigated area, Kassena-Nankana District, Upper East": [],
+ "gh|Kassena-Nankana District, Kassena-Nankana, Upper East": [
+  {
+   "lat": 10.96858,
+   "level": "office",
+   "lon": -1.08125,
+   "name": "Kassena Nankana West District Assembly, Navrongo-Paga Road, Paga, Kassena-Nankana West District, Upper East Region, UL0145, Ghana"
+  }
+ ],
+ "gh|Kassena-Nankana District, Upper East": [
+  {
+   "lat": 10.74555,
+   "level": "admin2",
+   "lon": -1.07267,
+   "name": "Kassena-Nankana Municipal District, Upper East Region, Ghana"
+  },
+  {
+   "lat": 10.87318,
+   "level": "admin2",
+   "lon": -1.31572,
+   "name": "Kassena-Nankana West District, Upper East Region, Ghana"
+  }
+ ],
  "gh|Kassena-Nankana District, Upper East Region": [
   {
    "lat": 10.74555,
    "level": "town",
+   "lon": -1.07267,
+   "name": "Kassena-Nankana Municipal District, Upper East Region, Ghana"
+  },
+  {
+   "lat": 10.87318,
+   "level": "admin2",
+   "lon": -1.31572,
+   "name": "Kassena-Nankana West District, Upper East Region, Ghana"
+  }
+ ],
+ "gh|Kassena-Nankana, Upper East": [
+  {
+   "lat": 10.74555,
+   "level": "admin2",
    "lon": -1.07267,
    "name": "Kassena-Nankana Municipal District, Upper East Region, Ghana"
   },
@@ -592,6 +634,9 @@
  "gh|Kpalsogu and Libga, Northern": [],
  "gh|Kumasi Metropolis": [],
  "gh|Kumasi Metropolis, Ashanti": [],
+ "gh|Lowland area, Kassena-Nankana District": [],
+ "gh|Lowland area, Kassena-Nankana District, Kassena-Nankana, Upper East": [],
+ "gh|Lowland area, Kassena-Nankana District, Upper East": [],
  "gh|Northern": [
   {
    "lat": 9.66,
@@ -628,6 +673,9 @@
    "name": "Obuasi, Offinso Municipal District, Ashanti Region, Ghana"
   }
  ],
+ "gh|Rocky highland area, Kassena-Nankana District": [],
+ "gh|Rocky highland area, Kassena-Nankana District, Kassena-Nankana, Upper East": [],
+ "gh|Rocky highland area, Kassena-Nankana District, Upper East": [],
  "gm|Upper River Region": [
   {
    "lat": 13.405,
@@ -1620,6 +1668,7 @@
  "ng|Inowo": [],
  "ng|Inowo, Ijebu-ode, Ogun": [],
  "ng|Inowo, Ogun": [],
+ "ng|Kobape, Olugbo": [],
  "ng|Lagere": [],
  "ng|Lagere, Ife, Osun": [],
  "ng|Lagere, Osun": [],
@@ -2399,6 +2448,78 @@
    "level": "building",
    "lon": 37.36698,
    "name": "Lower Mweka Hut, Moshi Rural, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
+ "ug|Apac": [
+  {
+   "lat": 1.93373,
+   "level": "admin1",
+   "lon": 32.5018,
+   "name": "Apac, Uganda"
+  },
+  {
+   "lat": 2.29882,
+   "level": "admin1",
+   "lon": 32.73595,
+   "name": "Kole, Uganda"
+  }
+ ],
+ "ug|Arua": [
+  {
+   "lat": 2.83553,
+   "level": "admin1",
+   "lon": 30.96075,
+   "name": "Arua, Northern Region, Uganda"
+  },
+  {
+   "lat": 3.02251,
+   "level": "town",
+   "lon": 30.91048,
+   "name": "Arua City, Northern Region, Uganda"
+  }
+ ],
+ "ug|Jinja": [
+  {
+   "lat": 0.57516,
+   "level": "admin1",
+   "lon": 33.28053,
+   "name": "Jinja, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.4353,
+   "level": "town",
+   "lon": 33.20556,
+   "name": "Jinja City, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Kanungu": [
+  {
+   "lat": -0.70639,
+   "level": "admin1",
+   "lon": 29.71429,
+   "name": "Kanungu, Western Region, Uganda"
+  }
+ ],
+ "ug|Kyenjojo": [
+  {
+   "lat": 0.6441,
+   "level": "admin1",
+   "lon": 30.65651,
+   "name": "Kyenjojo, Western Region, Uganda"
+  },
+  {
+   "lat": 0.48221,
+   "level": "admin1",
+   "lon": 31.0002,
+   "name": "Kyegegwa, Western Region, Uganda"
+  }
+ ],
+ "ug|Mubende": [
+  {
+   "lat": 0.51543,
+   "level": "admin1",
+   "lon": 31.40955,
+   "name": "Mubende, Central Region, Uganda"
   }
  ],
  "ug|Tororo": [

@@ -1,0 +1,77 @@
+{
+  "id": "2025_Okoko_Phenotypic_Genotypic_Insecticide_Resistance_Profil_PMID40514700",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adult and larval collections of An. funestus and An. gambiae mosquitoes were done... Sibling species identified included An. arabiensis, An. quadriannulatus, An. merus, An. gambiae s.s., An. funestus s.s., and An. rivulorum (pages 1, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested for kdr L1014S (Vgsc L995S) and L1014F (Vgsc L995F) in An. gambiae complex, and CYP6P9a R, CYP6P9b R, GSTe2-L119F, and 6.5kb SV in An. funestus (pages 1, 5-10)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Allele frequencies and sample numbers are provided in Tables 4-8 and the text (e.g., Table 4 for kdr L1014S and L1014F by species in An. gambiae s.l.; Table 5 for 6.5kb SV; Table 6 for CYP6P9a; Table 7 for CYP6P9b; Table 8 for GSTe2-L119F). Genotype counts for alive vs dead mosquitoes are reported in Table 9."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as larvae and adults from 14 villages in Msambweni and Lungalunga sub-counties, Kwale County, coastal Kenya between July 2023 and May 2024 (pages 2-6)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original field collections, WHO susceptibility bioassays, and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Sampling conducted across 14 named villages (Mlongotoni, Mchinjirini, Nikaphu, Mlachake, Kidzumbani, Mwanaire, Kichakamkwanju, Mwajaate, Mwambalazi, Mwazaro, Kifuku, Kivuma, Jego, and Fihoni) in Msambweni and Lungalunga sub-counties, Kwale County, Kenya (page 2)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections took place from July 2023 to May 2024 (page 2)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Collections were conducted as part of the BOHEMIA clinical trial project in Kwale County, but represent primary entomological resistance survey data from 2023-2024."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text and Tables 4-9 provide extractable allele frequencies, sample sizes, and genotype-phenotype counts, although an additional file is mentioned for raw individual data."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "GSTe2 L119F",
+      "Cyp6p9a R",
+      "Cyp6p9b R",
+      "Cyp6p9a/b 6.5kb-SV"
+    ],
+    "species": [
+      "Anopheles arabiensis",
+      "Anopheles quadriannulatus",
+      "Anopheles merus",
+      "Anopheles gambiae",
+      "Anopheles funestus",
+      "Anopheles rivulorum"
+    ],
+    "countries": [
+      "Kenya"
+    ],
+    "collection_years": [
+      2023,
+      2024
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 796,
+    "summary": "This study evaluated phenotypic susceptibility and genotyped target-site (Vgsc L1014F and L1014S) and metabolic markers (CYP6P9a, CYP6P9b, GSTe2-L119F, and 6.5kb SV) in field-collected Anopheles gambiae s.l. and Anopheles funestus s.l. from Kwale County, coastal Kenya, collected between July 2023 and May 2024.",
+    "exclusion_reasons": []
+  }
+}

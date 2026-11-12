@@ -1,0 +1,68 @@
+{
+  "id": "2025_Munyakanage_Pyrethroid_Susceptibility_Resistance_Patterns_Anop_PMID41310754",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Adults were identified morphologically as An. gambiae complex and the An. funestus group (page 4, Methods: Study sites and mosquito collection)."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "No target resistance markers were genotyped in this study. The authors explicitly note as a limitation: 'The reliance on phenotypic data without molecular confirmation remains a limitation, underscoring the need for molecular assays to identify resistance-associated genetic markers' (page 1, Abstract) and 'The absence of molecular assays represents a key limitation' (page 10, Conclusion)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No molecular genotyping data or marker frequencies are reported; only WHO tube bioassay and PBO synergist phenotype data are presented."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "From October 2022 to April 2023, Anopheles larvae were collected across Rwanda in 15 Districts from four provinces and Kigali city (page 4, Methods: Study sites and mosquito collection)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original entomological field collections and bioassay data from Rwanda."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected and tested from 18 sentinel sites across 15 districts in Rwanda (e.g., Mubuga, Kibogora, Bungwe, Kajevuba, Rwesero, Rwaza, Gashora, Bukora, Mwogo, Mareba, Mimuli, Gahini, Nyagasambu, Rukara, Remera, Mbuga, Karambi, Kicukiro; page 4, 8, Tables 1-3)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected from October 2022 to April 2023 (page 1, Abstract; page 4, Methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": ""
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": ""
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae s.l."
+    ],
+    "countries": [
+      "Rwanda"
+    ],
+    "collection_years": [
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluated pyrethroid resistance and the effect of PBO pre-exposure in Anopheles gambiae s.l. collected across 18 sentinel sites in 15 districts of Rwanda between October 2022 and April 2023 using standard WHO susceptibility tube tests. No molecular genotyping was conducted.",
+    "exclusion_reasons": [
+      "reports_target_markers: The paper only assesses phenotypic resistance via WHO bioassays and PBO synergist assays; no target resistance markers were genotyped.",
+      "reports_extractable_genotype_data: No mosquito genotype counts or allele frequency data are reported."
+    ]
+  }
+}

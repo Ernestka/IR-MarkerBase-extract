@@ -1,0 +1,5 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2008_Pennetier_VK7_dry_ctrl,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,PCR (Martinez-Torres et al. 1998),False,41,,,,,,0.08,,"Table 1: May–June (dry season), kdr frequency/no. tested: 0.08/41",1709,Table 1,,
+2008_Pennetier_VK7_dry_ctrl,Ace1,Ace1R,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP (Weill et al. 2004),False,40,,,,,,0.01,,"Table 1: May–June (dry season), Ace1R frequency/no. tested: 0.01/40",1709,Table 1,,
+2008_Pennetier_VK7_rainy_ctrl,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,PCR (Martinez-Torres et al. 1998),False,48,,,,,,0.88,,"Table 1: September–October (rainy season), kdr frequency/no. tested: 0.88/48",1709,Table 1,,
+2008_Pennetier_VK7_rainy_ctrl,Ace1,Ace1R,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP (Weill et al. 2004),False,49,,,,,,0.4,,"Table 1: September–October (rainy season), Ace1R frequency/no. tested: 0.40/49",1709,Table 1,,

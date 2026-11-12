@@ -1,0 +1,71 @@
+{
+  "id": "2025_Ngaffo_Impact_Combined_Vector_Control_Interventions_PMID41350898",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l., specifically Anopheles gambiae sensu stricto, Anopheles arabiensis, and Anopheles coluzzii (p. 4, 'Molecular analysis'; p. 6, 'Species composition of the Anopheles gambiae complex')."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Tested Vgsc-1014F and Vgsc-1014S (Vgsc L995F and L995S) (p. 4, 'Genotyping of the knockdown resistance mutations Vgsc-1014F and Vgsc-1014S'; Table 1)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 (p. 7) presents genotype counts (homozygotes and heterozygotes) and allelic frequencies for Vgsc-1014F and Vgsc-1014S by year, site, and species, alongside total sample size N."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Field-collected Anopheles gambiae s.l. larvae gathered in Kampti and Gaoua in southwestern Burkina Faso between 2021 and 2023, reared to adulthood for testing (p. 4, 'Larval collections')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary field research article reporting novel entomological surveillance, bioassays, and molecular genotyping data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collected in two districts of the Sud-Ouest region in Burkina Faso: Gaoua (10°19′46″ N, 3°10′41″ W) and Kampti (10°07′60″ N, 3°27′00″ W) (p. 3, 'Study area')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquito larvae were collected annually in August–September from 2021 to 2023, and results are reported by individual year (2021, 2022, 2023) (p. 4, 'Larval collections'; Table 1)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "The study was conducted with technical support from IRSS and thanks the PMI VectorLink project, but represents a primary standalone longitudinal study of vector resistance dynamics across 2021–2023."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and allelic frequencies by site, year, and species are provided in Table 1 in the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles arabiensis",
+      "Anopheles coluzzii"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2021,
+      2022,
+      2023
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 298,
+    "summary": "This study evaluated pyrethroid resistance dynamics, metabolic resistance, and Vgsc-1014F/1014S mutation frequencies in Anopheles gambiae s.l. from Gaoua and Kampti in southwestern Burkina Faso between 2021 and 2023. Extractable genotype counts and allelic frequencies for Vgsc L995F and L995S are fully reported in Table 1.",
+    "exclusion_reasons": []
+  }
+}

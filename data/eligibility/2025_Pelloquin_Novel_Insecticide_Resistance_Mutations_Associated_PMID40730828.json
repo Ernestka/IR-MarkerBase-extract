@@ -1,0 +1,70 @@
+{
+  "id": "2025_Pelloquin_Novel_Insecticide_Resistance_Mutations_Associated_PMID40730828",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (specifically An. gambiae s.s., An. coluzzii, and An. arabiensis) collected across eight sentinel sites in the Democratic Republic of Congo (page 1, 3)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Reports genotyping of target markers vgsc-L995F, vgsc-L995S, and rdl-A296G (Table 1, Table 2, and text on pages 4-5)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 1 provides exact genotype counts (SS, SR, RR, N total) and alternative allele frequencies for vgsc-L995F, vgsc-L995S, and rdl-A296G across 1,228 Anopheles gambiae s.s. Table 3 also gives allele frequencies and sample sizes disaggregated by bioassay survival."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Anopheles gambiae s.l. larvae were collected in 2020 from breeding sites in eight provinces in the Democratic Republic of Congo and reared to adulthood in field insectaries (page 8, 'Study sites and sample collection')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article performing field collections, WHO susceptibility bioassays, and amplicon sequencing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Mosquitoes were collected from eight sentinel sites with exact geographical coordinates provided: Kalemie (-5.913, 29.19), Kapolowe (-10.94, 26.94), Katana (-2.225, 28.821), Kimpese (-5.556, 14.44), Kingasani (-4.41, 15.41), Inongo (-1.919, 18.934), Lisala (2.17, 21.49), and Lodja (-3.533, 23.597) (page 8)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected in 2020 ('This study was conducted in 2020 in eight NMCP sentinel sites...', page 8)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "Field activities were conducted through NMCP sentinel sites and supported by the PMI VectorLink / PMI Evolve Project ('The authors thank the U.S. government for supporting this study through the PMI VectorLink project...', page 12)."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Detailed per-site sample breakdown, species identification per site, and site-disaggregated genotype-phenotype counts reside in supplementary tables: 'Table S1', 'Table S2', 'Table S4', 'Table S5', and 'Table S6' (pages 3, 4, 9)."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Rdl A296G"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "collection_years": [
+      2020
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 1228,
+    "summary": "This study conducted WHO tube bioassays (alpha-cypermethrin, deltamethrin, permethrin +/- PBO) and multiplex amplicon sequencing on Anopheles gambiae s.l. collected across eight provinces in the Democratic Republic of Congo in 2020. Target resistance markers including vgsc-L995F, vgsc-L995S, and rdl-A296G were genotyped, and extractable genotype counts and phenotype-genotype associations are presented.",
+    "exclusion_reasons": []
+  }
+}

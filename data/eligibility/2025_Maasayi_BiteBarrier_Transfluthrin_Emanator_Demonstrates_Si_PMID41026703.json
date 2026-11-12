@@ -1,0 +1,67 @@
+{
+  "id": "2025_Maasayi_BiteBarrier_Transfluthrin_Emanator_Demonstrates_Si_PMID41026703",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study tested laboratory-reared Anopheles gambiae s.s. and Anopheles funestus along with Culex and Aedes species (page 3, 'Test systems (mosquitoes)')."
+      },
+      "reports_target_markers": {
+        "met": false,
+        "evidence": "The study mentions using an 'An. gambiae s.s. with knock down resistance (KDR)' colony strain, but no molecular genotyping of target resistance markers was conducted or reported."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "No genotype counts, allele frequencies, or mosquito sample sizes for molecular resistance markers are reported."
+      },
+      "african_field_population": {
+        "met": false,
+        "evidence": "The study tested only laboratory-reared insectary colonies in a semi-field system (page 3: 'Laboratory-reared 3–5 days old pyrethroid-susceptible Anopheles gambiae s.s., An. gambiae s.s. with knock down resistance (KDR), pyrethroid-resistant An. funestus... The colony was maintained by feeding larvae on Tetramin® fish food and adults on 10% glucose solution'). No field-collected mosquitoes were genotyped."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary semi-field study evaluating the BiteBarrier transfluthrin emanator."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "The semi-field testing took place at Ifakara Health Institute (IHI) in Bagamoyo, Tanzania (page 3, 'Study setting')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Testing was conducted between December 2023 and February 2024 (page 10, 'S2 Table. Resistance profile for the different mosquito species tested between December 2023 and February 2024')."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Standard semi-field evaluation using insectary colonies at IHI."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The paper does not perform marker genotyping in the supplementary files; S2 Table only lists resistance/susceptibility bioassay profiles for the insectary colonies."
+    },
+    "markers_found": [],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Tanzania"
+    ],
+    "collection_years": [],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This study evaluates the BiteBarrier transfluthrin spatial emanator in a semi-field system in Bagamoyo, Tanzania, testing blood-feeding inhibition and mortality across five laboratory colony mosquito strains (susceptible and KDR An. gambiae s.s., resistant An. funestus, Cx. quinquefasciatus, and Ae. aegypti). No molecular genotyping of resistance markers was performed, and no wild/field populations were evaluated.",
+    "exclusion_reasons": [
+      "No target resistance marker genotyping performed",
+      "No extractable genotype data",
+      "Only laboratory colony mosquitoes were tested (no African field populations)"
+    ]
+  }
+}

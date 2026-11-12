@@ -1,0 +1,71 @@
+{
+  "id": "2025_Debrah_Trends_Insecticide_Resistance_Anopheles_Mosquitoes_PMID41063499",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": false,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study focuses on malaria vectors Anopheles gambiae s.l. and Anopheles funestus (e.g. title: 'Trends in insecticide resistance in Anopheles mosquitoes (Diptera: Culicidae) in Ghana: a systematic review', page 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Table 2 (page 5) and the text discuss Vgsc-L1014F (L995F), Vgsc-1014S (L995S), Vgsc-1575Y, and Ace1-119S."
+      },
+      "reports_extractable_genotype_data": {
+        "met": false,
+        "evidence": "As a systematic review, the paper only reports aggregate counts of published articles that detected specific resistance mechanisms (e.g., Table 2 reports the number and percentage of published studies reporting Vgsc-L1014F, Ace1-119S, etc.) rather than extractable mosquito-level genotype counts or allele frequencies with sample sizes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "The review covers published studies examining field populations of Anopheles mosquitoes across ecological zones in Ghana (page 3-4)."
+      },
+      "is_primary_study": {
+        "met": false,
+        "evidence": "The paper is a secondary review article ('Trends in insecticide resistance in Anopheles mosquitoes (Diptera: Culicidae) in Ghana: a systematic review', page 1) summarizing findings from 41 previously published studies from 2001 to 2024."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Results are categorized by ecological zones in Ghana: Coastal savannah, Forest zone, and Sahel savannah (Table 1, Table 2, pages 4-5)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": false,
+        "evidence": "The study reviews publications spanning 2001 to 2024 and aggregates data into multi-year brackets (e.g., 2001-2005, 2006-2011, 2012-2017, 2018-2024)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "high",
+      "evidence": "This is a systematic review re-analyzing data from 41 primary research articles previously published between 2001 and 2024 (page 1, 4)."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "No supplemental files needed; the paper is inherently ineligible as a systematic review."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Ace-1 G280S"
+    ],
+    "species": [
+      "Anopheles gambiae s.l.",
+      "Anopheles funestus"
+    ],
+    "countries": [
+      "Ghana"
+    ],
+    "collection_years": [],
+    "has_bioassays": false,
+    "has_genotype_phenotype": false,
+    "sample_size": null,
+    "summary": "This paper is a systematic review summarizing 41 studies on insecticide resistance and resistance mechanisms (including Vgsc L995F, L995S, N1575Y, and Ace-1 G119S) in Anopheles gambiae s.l. and An. funestus from Ghana published between 2001 and 2024. Because it is not a primary study and does not provide extractable primary population genotype data, it is not eligible.",
+    "exclusion_reasons": [
+      "not_a_primary_study",
+      "no_extractable_genotype_data"
+    ]
+  }
+}

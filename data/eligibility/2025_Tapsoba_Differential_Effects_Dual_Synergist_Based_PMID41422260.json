@@ -1,0 +1,72 @@
+{
+  "id": "2025_Tapsoba_Differential_Effects_Dual_Synergist_Based_PMID41422260",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Studies Anopheles gambiae s.l. (specifically An. gambiae s.s., An. coluzzii, and An. arabiensis) in Burkina Faso (Page 1, 6)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "TaqMan PCR was performed to genotype VGSC knockdown resistance mutations kdr L995F (L1014F) and L995S (L1014S) (Page 5, 'kdr target-site mutation genotyping')."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Reports sample sizes and frequencies/counts for populations, e.g., 'The highest frequency of the kdr L995S mutation, 0.13 (95% CI 0.07–0.29), was observed in the first year of the study in An. gambiae s.l. within the Banfora health district, on the basis of 206 samples tested' (Pages 10–11) and compound heterozygote counts: 'In the first year, this proportion was 26.2% (51 out of 195) in Banfora, 2.9% (5 out of 170) in Gaoua and 12.5% (22 out of 176) in Orodara' (Page 11)."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Mosquitoes were collected as wild adults (HLC and CDC light traps) and larvae reared to F0 adults from 2019 to 2022 in Banfora, Gaoua, and Orodara districts, Burkina Faso (Pages 3–5)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article reporting original entomological surveillance and resistance monitoring data across three health districts in Burkina Faso."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Three health districts and nine villages in south-western Burkina Faso: Banfora (Tengrela, Tiéfora, Panga), Orodara (Diéri, Kourinion, Tin), and Gaoua (Sibera, Holly, Doudou) (Page 3, Figure 1)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Collections were conducted annually from August 2019 to March 2022 and analysed across 3 years (2019–2021) (Pages 3, 6, 10)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "medium",
+      "evidence": "The study was conducted under the New Nets Project pilot evaluation co-funded by Unitaid and the Global Fund (Pages 3, 13; Gansané et al. 2022 [ref 39]), so these samples could potentially overlap with broader New Nets Project consortial datasets."
+    },
+    "supplement": {
+      "needed": true,
+      "evidence": "Species-specific allele frequencies and sample sizes are provided in 'Additional file 3. Table S1. Frequencies of kdr L995F and L995S alleles in adult Anopheles gambiae sensu lato populations collected from the field (wild-type) and reared from field-collected larvae (F0) across three study districts and years' (Page 13), which was not included in the PDF."
+    },
+    "markers_found": [
+      "Vgsc L995F",
+      "Vgsc L995S"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso"
+    ],
+    "collection_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 1589,
+    "summary": "This study evaluated pyrethroid resistance and kdr L995F/S dynamics in Anopheles gambiae s.l. over 3 years (2019–2022) across Banfora, Gaoua, and Orodara districts in south-western Burkina Faso following the deployment of different ITN types (pyrethroid-chlorfenapyr, pyrethroid-only, and pyrethroid-PBO). A total of 1,589 mosquitoes were molecularly identified to species and genotyped for Vgsc L995F and L995S.",
+    "exclusion_reasons": []
+  }
+}

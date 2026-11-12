@@ -1,0 +1,20 @@
+study_id: 2009_Nwane_Trends_DDT_Pyrethroid_Resistance_Anopheles_PMID19793389
+title: Trends in DDT and pyrethroid resistance in Anopheles gambiae s.s. populations
+  from urban and agro-industrial settings in southern Cameroon
+first_author: Philippe Nwane
+doi: 10.1186/1471-2334-9-163
+pmid: '19793389'
+publication_year: 2009
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Nwane et al. BMC Infectious Diseases 2009, 9:163
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-11'
+pmid_source: Europe PMC (from DOI)

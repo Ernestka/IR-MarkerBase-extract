@@ -1,0 +1,22 @@
+study_id: 2010_Cuamba_High_Level_Pyrethroid_Resistance_Anopheles_PMID20544036
+title: High Level of Pyrethroid Resistance in an Anopheles funestus Population of
+  the Chokwe District in Mozambique
+first_author: Nelson Cuamba
+doi: 10.1371/journal.pone.0011010
+pmid: '20544036'
+publication_year: 2010
+countries:
+- Mozambique
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: High Level of Pyrethroid Resistance in an Anopheles funestus Population
+    of the Chokwe District in Mozambique
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-12'
+pmid_source: Europe PMC (from DOI)

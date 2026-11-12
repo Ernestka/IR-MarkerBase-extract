@@ -22,7 +22,7 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 
 <!-- ROSTER:START -->
 
-**1264 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-11
+**1279 paper(s) · estimated spend $0.00** (eligibility $0.00 · extraction $0.00) · updated 2026-11-12
 
 | id | source | status | eligible | confidence | duplicate_risk | needs_supplement | spec_version | first_seen | last_assessed | supp_attempts | supplement_fp | elig_model | elig_tok_in | elig_tok_out | extract_model | extract_tok_in | extract_tok_out | notes | est_$ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -84,9 +84,9 @@ Pf data is preserved in git history (commit `7acfa7c`)._
 | 2008_Muller_Field_Caught_Permethrin_Resistant_Anopheles_PMID19043575 | master | EXTRACTED | True | high | none | False | 1 | 2026-10-19 | 2026-10-19 | 0 |  | gemini:gemini-3.8-flash | 6892 | 1450 | gemini:gemini-3.7-flash | 8582 | 17774 | 2 survey(s), 4 genotype, 0 bioassay, 2 geno-pheno rows; 2 warning(s) | 0.0000 |
 | 2008_Munhenga_Pyrethroid_Resistance_Major_Malaria_Vector_PMID19038063 | master | EXTRACTED | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 7412 | 3960 | gemini:gemini-3.6-flash | 23610 | 29545 | 2 survey(s), 3 genotype, 8 bioassay, 0 geno-pheno rows | 0.0000 |
 | 2008_Pages_Malaria_Transmission_Dakar_Two_Year_PMID18796138 | master | EXTRACTED | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 7412 | 2970 | gemini:gemini-3.7-flash | 9153 | 12822 | 2 survey(s), 2 genotype, 0 bioassay, 0 geno-pheno rows | 0.0000 |
-| 2008_Pennetier_Mixture_Controlling_Insecticide_Resistant_Malaria_PMID18976553 | master | ELIGIBLE | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 3144 |  |  |  |  | 0.0000 |
+| 2008_Pennetier_Mixture_Controlling_Insecticide_Resistant_Malaria_PMID18976553 | master | EXTRACTED | True | high | low | False | 1 | 2026-11-05 | 2026-11-05 | 0 |  | gemini:gemini-3-flash-preview | 5852 | 3144 | gemini:gemini-3.5-flash | 20372 | 31493 | 3 survey(s), 4 genotype, 0 bioassay, 12 geno-pheno rows; 16 warning(s) | 0.0000 |
 | 2008_Ridl_Pre_Intervention_Study_Malaria_Vector_PMID18823554 | master | EXTRACTION_FAILED | True | high | none | False | 1 | 2026-10-20 | 2026-10-20 | 0 |  | gemini:gemini-3.7-flash | 5852 | 2082 |  | 0 | 0 | extractor error: Server disconnected without sending a response. | 0.0000 |
-| … 1204 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| … 1219 more rows |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 _The table above is a static snapshot. For a searchable, filterable view (paginated for large sets), open [`data/roster.csv`](data/roster.csv) — GitHub renders CSV files as an interactive table._
 

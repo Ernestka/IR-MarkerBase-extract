@@ -1,0 +1,23 @@
+study_id: 2010_Choi_Comparison_DNA_Sequencing_Hydrolysis_Probe_PMID20937156
+title: A comparison of DNA sequencing and the hydrolysis probe analysis (TaqMan assay)
+  for knockdown resistance (kdr) mutations in Anopheles gambiae from the Republic
+  of the Congo
+first_author: Kwang Shik Choi
+doi: 10.1186/1475-2875-9-278
+pmid: '20937156'
+publication_year: 2010
+countries:
+- Republic of the Congo
+data_source: journal_article
+provenance:
+  source_text: Choi et al. A comparison of DNA sequencing and the hydrolysis probe
+    analysis (TaqMan assay) for knockdown resistance (kdr) mutations in Anopheles
+    gambiae from the Republic of the Congo. Malaria Journal 2010, 9:278
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-12'
+pmid_source: Europe PMC (from DOI)

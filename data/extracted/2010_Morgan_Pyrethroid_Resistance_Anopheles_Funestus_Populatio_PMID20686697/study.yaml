@@ -1,0 +1,20 @@
+study_id: 2010_Morgan_Pyrethroid_Resistance_Anopheles_Funestus_Populatio_PMID20686697
+title: Pyrethroid Resistance in an Anopheles funestus Population from Uganda
+first_author: John C. Morgan
+doi: 10.1371/journal.pone.0011872
+pmid: '20686697'
+publication_year: 2010
+countries:
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: 'Pyrethroid Resistance in an Anopheles funestus Population from Uganda.
+    PLoS ONE 5(7): e11872.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-12'
+pmid_source: Europe PMC (from DOI)

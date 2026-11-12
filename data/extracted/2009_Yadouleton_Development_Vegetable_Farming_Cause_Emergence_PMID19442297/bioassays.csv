@@ -1,0 +1,9 @@
+bioassay_id,survey_id,insecticide,insecticide_class,concentration,exposure_duration_min,assay_method,assay_type,synergist,dead_alive_printed,n_exposed,n_dead,n_alive,reported_mortality_pct,mortality_time_h,inconsistency_note,source_text,page,table,figure,supplement
+2009_Yadouleton_houeyiho_permethrin,2009_Yadouleton_houeyiho,permethrin,pyrethroid,0.75%,60.0,WHO tube test,diagnostic dose,,False,1500,,,18.5,24.0,,Houeyiho | 1500 | 18.5a,5,Table 2,,
+2009_Yadouleton_houeyiho_deltamethrin,2009_Yadouleton_houeyiho,deltamethrin,pyrethroid,0.05%,60.0,WHO tube test,diagnostic dose,,False,1500,,,97.5,24.0,,Houeyiho | 1500 | 97.5a,5,Table 2,,
+2009_Yadouleton_acron_permethrin,2009_Yadouleton_acron,permethrin,pyrethroid,0.75%,60.0,WHO tube test,diagnostic dose,,False,1500,,,22.5,24.0,,"Acron | 1500 | 22,5a",5,Table 2,,
+2009_Yadouleton_acron_deltamethrin,2009_Yadouleton_acron,deltamethrin,pyrethroid,0.05%,60.0,WHO tube test,diagnostic dose,,False,1500,,,98.0,24.0,,Acron | 1500 | 98a,5,Table 2,,
+2009_Yadouleton_azereke_permethrin,2009_Yadouleton_azereke,permethrin,pyrethroid,0.75%,60.0,WHO tube test,diagnostic dose,,False,1500,,,76.5,24.0,,Azérèkè | 1500 | 76.5b,5,Table 2,,
+2009_Yadouleton_azereke_deltamethrin,2009_Yadouleton_azereke,deltamethrin,pyrethroid,0.05%,60.0,WHO tube test,diagnostic dose,,False,1500,,,98.5,24.0,,Azérèkè | 1500 | 98.5a,5,Table 2,,
+2009_Yadouleton_houeyiho_ddt,2009_Yadouleton_houeyiho,DDT,organochlorine,4%,60.0,WHO tube test,diagnostic dose,,True,1200,165,1045,13.75,24.0,"Printed n_dead (165) + n_alive (1045) = 1210, which exceeds reported n_exposed (1200).",Houeyiho | 1200 | 165a | 1045a | 13.75a,6,Table 3,,
+2009_Yadouleton_acron_ddt,2009_Yadouleton_acron,DDT,organochlorine,4%,60.0,WHO tube test,diagnostic dose,,True,1200,185,1015,15.41,24.0,,Acron | 1200 | 185a | 1015a | 15.41a,6,Table 3,,

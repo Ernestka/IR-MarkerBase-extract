@@ -1,0 +1,21 @@
+study_id: 2010_Damien_Malaria_Infection_Disease_Area_Pyrethroid_PMID21194470
+title: Malaria infection and disease in an area with pyrethroid-resistant vectors
+  in southern Benin
+first_author: Georgia B Damien
+doi: 10.1186/1475-2875-9-380
+pmid: '21194470'
+publication_year: 2010
+countries:
+- Benin
+data_source: journal
+provenance:
+  source_text: Malaria infection and disease in an area with pyrethroid-resistant
+    vectors in southern Benin. Damien et al. Malaria Journal 2010, 9:380
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-12'
+pmid_source: Europe PMC (from DOI)

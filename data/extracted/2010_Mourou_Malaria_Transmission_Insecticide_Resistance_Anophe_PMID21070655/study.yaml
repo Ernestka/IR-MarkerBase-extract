@@ -1,0 +1,21 @@
+study_id: 2010_Mourou_Malaria_Transmission_Insecticide_Resistance_Anophe_PMID21070655
+title: Malaria transmission and insecticide resistance of Anopheles gambiae in Libreville
+  and Port-Gentil, Gabon
+first_author: Jean-Romain Mourou
+doi: 10.1186/1475-2875-9-321
+pmid: '21070655'
+publication_year: 2010
+countries:
+- Gabon
+data_source: article
+provenance:
+  source_text: Malaria transmission and insecticide resistance of Anopheles gambiae
+    in Libreville and Port-Gentil, Gabon
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-12'
+pmid_source: Europe PMC (from DOI)

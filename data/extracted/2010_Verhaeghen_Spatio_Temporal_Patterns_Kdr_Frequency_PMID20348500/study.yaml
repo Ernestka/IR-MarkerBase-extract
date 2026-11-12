@@ -1,0 +1,21 @@
+study_id: 2010_Verhaeghen_Spatio_Temporal_Patterns_Kdr_Frequency_PMID20348500
+title: Spatio-Temporal Patterns in kdr Frequency in Permethrin and DDT Resistant Anopheles
+  gambiae s.s. from Uganda
+first_author: Katrijn Verhaeghen
+doi: 10.4269/ajtmh.2010.08-0668
+pmid: '20348500'
+publication_year: 2010
+countries:
+- Uganda
+data_source: journal article
+provenance:
+  source_text: Spatio-Temporal Patterns in kdr Frequency in Permethrin and DDT Resistant
+    Anopheles gambiae s.s. from Uganda, Am. J. Trop. Med. Hyg., 82(4), 2010, pp. 566-573
+  page: '566'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-11-12'
+pmid_source: Europe PMC (from DOI)

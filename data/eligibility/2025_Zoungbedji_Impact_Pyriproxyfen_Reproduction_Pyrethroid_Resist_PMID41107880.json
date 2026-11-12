@@ -1,0 +1,68 @@
+{
+  "id": "2025_Zoungbedji_Impact_Pyriproxyfen_Reproduction_Pyrethroid_Resist_PMID41107880",
+  "source": "master",
+  "model": "gemini:gemini-3.8-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-11",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "The study investigated Anopheles gambiae s.l. populations, specifically An. coluzzii, An. gambiae s.s., and An. arabiensis (page 1, Abstract; page 6, Table 1)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "The study genotyped the Vgsc L1014F (L995F) mutation (page 3, 'Detection of kdr mutations in various populations of An. gambiae s.l.'; page 6, Table 2)."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Table 2 (page 6) reports exact genotype counts (1014F/1014F, 1014F/1014L, 1014L/1014L) and allelic frequencies by site and by species for a total of 248 mosquitoes."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Larvae and pupae of An. gambiae s.l. were collected from positive larval sites in 4 communes in Benin (Lokossa, Bohicon, Djougou, Malanville) from April to November 2022 and reared to adults (page 1, Abstract; page 3, 'Study sites' and 'Mosquito larvae collection and breeding')."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "This is a primary research article presenting original experimental and molecular data."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Collections were conducted at specific communes: Lokossa, Bohicon, Djougou, and Malanville in Benin (page 2–3, 'Study sites')."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Mosquitoes were collected between April and November 2022 (page 1, Abstract; page 2, Materials and methods)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "none",
+      "evidence": "Mosquitoes were collected directly from the field for this specific study in 2022 with no mention of external consortium datasets."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "All necessary genotype counts and allelic frequencies are provided directly within Table 2 of the main text."
+    },
+    "markers_found": [
+      "Vgsc L995F"
+    ],
+    "species": [
+      "Anopheles coluzzii",
+      "Anopheles gambiae",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Benin"
+    ],
+    "collection_years": [
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": false,
+    "sample_size": 248,
+    "summary": "This study evaluated pyriproxyfen susceptibility and Royal Guard LLIN efficacy in Anopheles gambiae s.l. collected in 2022 across four communes in Benin (Bohicon, Djougou, Lokossa, and Malanville). Molecular identification identified An. coluzzii, An. gambiae s.s., and An. arabiensis. Genotyping of the Vgsc L1014F (L995F) mutation was reported with full genotype counts (RR, RS, SS) across all populations.",
+    "exclusion_reasons": []
+  }
+}

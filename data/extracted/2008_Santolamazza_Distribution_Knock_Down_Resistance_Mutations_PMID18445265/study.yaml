@@ -1,0 +1,31 @@
+study_id: 2008_Santolamazza_Distribution_Knock_Down_Resistance_Mutations_PMID18445265
+title: Distribution of knock-down resistance mutations in Anopheles gambiae molecular
+  forms in west and west-central Africa
+first_author: Federica Santolamazza
+doi: 10.1186/1475-2875-7-74
+pmid: '18445265'
+publication_year: 2008
+countries:
+- Senegal
+- The Gambia
+- Burkina Faso
+- Ghana
+- Ivory Coast
+- Benin
+- Nigeria
+- Cameroon
+- Gabon
+- Angola
+- São Tomé and Príncipe
+data_source: journal_article
+provenance:
+  source_text: Distribution of knock-down resistance mutations in Anopheles gambiae
+    molecular forms in west and west-central Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-11'
+pmid_source: Europe PMC (from DOI)
