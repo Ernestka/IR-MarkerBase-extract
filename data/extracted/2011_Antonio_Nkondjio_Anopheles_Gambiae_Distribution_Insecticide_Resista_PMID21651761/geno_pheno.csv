@@ -1,0 +1,13 @@
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2011_Antonio_Nkondjio_douala,,DDT,Vgsc,L1014F,Vgsc,L995F,SNP,dead,2,7,6,15,,0.37,,"Table 5: Douala DDT 4% Deaths: RR=2, RS=7, SS=6, F(kdr)=0.37",11,Table 5,,
+2011_Antonio_Nkondjio_douala,,DDT,Vgsc,L1014F,Vgsc,L995F,SNP,alive,27,29,8,64,,0.65,,"Table 5: Douala DDT 4% Survivors: RR=27, RS=29, SS=8, F(kdr)=0.65",11,Table 5,,
+2011_Antonio_Nkondjio_douala,,permethrin,Vgsc,L1014F,Vgsc,L995F,SNP,dead,48,68,24,140,,0.58,,"Table 5: Douala Permethrin 0.75% Deaths: RR=48, RS=68, SS=24, F(kdr)=0.58",11,Table 5,,
+2011_Antonio_Nkondjio_douala,,permethrin,Vgsc,L1014F,Vgsc,L995F,SNP,alive,85,16,4,105,,0.88,,"Table 5: Douala Permethrin 0.75% Survivors: RR=85, RS=16, SS=4, F(kdr)=0.88",11,Table 5,,
+2011_Antonio_Nkondjio_douala,,deltamethrin,Vgsc,L1014F,Vgsc,L995F,SNP,dead,37,34,13,84,,0.64,,"Table 5: Douala Deltamethrin 0.05% Deaths: RR=37, RS=34, SS=13, F(kdr)=0.64",11,Table 5,,
+2011_Antonio_Nkondjio_douala,,deltamethrin,Vgsc,L1014F,Vgsc,L995F,SNP,alive,21,9,5,35,,0.73,,"Table 5: Douala Deltamethrin 0.05% Survivors: RR=21, RS=9, SS=5, F(kdr)=0.73",11,Table 5,,
+2011_Antonio_Nkondjio_yaounde,,DDT,Vgsc,L1014F,Vgsc,L995F,SNP,dead,2,5,30,37,,0.12,,"Table 5: Yaounde DDT 4% Deaths: RR=2, RS=5, SS=30, F(kdr)=0.12",11,Table 5,,
+2011_Antonio_Nkondjio_yaounde,,DDT,Vgsc,L1014F,Vgsc,L995F,SNP,alive,9,23,8,40,,0.51,,"Table 5: Yaounde DDT 4% Survivors: RR=9, RS=23, SS=8, F(kdr)=0.51",11,Table 5,,
+2011_Antonio_Nkondjio_yaounde,,permethrin,Vgsc,L1014F,Vgsc,L995F,SNP,dead,2,25,23,50,,0.29,,"Table 5: Yaounde Permethrin 0.75% Deaths: RR=2, RS=25, SS=23, F(kdr)=0.29",11,Table 5,,
+2011_Antonio_Nkondjio_yaounde,,permethrin,Vgsc,L1014F,Vgsc,L995F,SNP,alive,17,10,4,31,,0.71,,"Table 5: Yaounde Permethrin 0.75% Survivors: RR=17, RS=10, SS=4, F(kdr)=0.71",11,Table 5,,
+2011_Antonio_Nkondjio_yaounde,,deltamethrin,Vgsc,L1014F,Vgsc,L995F,SNP,dead,29,30,18,77,,0.57,,"Table 5: Yaounde Deltamethrin 0.05% Deaths: RR=29, RS=30, SS=18, F(kdr)=0.57",11,Table 5,,
+2011_Antonio_Nkondjio_yaounde,,deltamethrin,Vgsc,L1014F,Vgsc,L995F,SNP,alive,8,9,5,22,,0.56,,"Table 5: Yaounde Deltamethrin 0.05% Survivors: RR=8, RS=9, SS=5, F(kdr)=0.56",11,Table 5,,

@@ -1,0 +1,81 @@
+{
+  "id": "2026_Lol_Multi_Omics_Analysis_Identifies_Loci_PMID42410533",
+  "source": "master",
+  "model": "gemini:gemini-3.5-flash",
+  "spec_version": 1,
+  "assessed": "2026-11-12",
+  "assessment": {
+    "eligible": true,
+    "confidence": "high",
+    "checks": {
+      "is_anopheles": {
+        "met": true,
+        "evidence": "Page 1: 'Multi-omics analysis identifies loci associated with pyrethroid resistance across sister species in the Anopheles gambiae species complex' (An. gambiae, An. coluzzii, An. arabiensis)."
+      },
+      "reports_target_markers": {
+        "met": true,
+        "evidence": "Page 7 and Table 3: Genotyped and identified Vgsc target site markers including Vgsc I1527T, V402L, L995F, L995S, N1570Y, and P1874S/L."
+      },
+      "reports_extractable_genotype_data": {
+        "met": true,
+        "evidence": "Page 7 (and Page 17): Screening of 95 field-collected An. arabiensis from Burkina Faso for Vgsc I1527T yielded 4 positive (heterozygotes), 85 wildtype, and 6 failed reactions. Additionally, N=9 field-caught Tengrela (F) An. coluzzii were whole-genome sequenced with variants reported."
+      },
+      "african_field_population": {
+        "met": true,
+        "evidence": "Page 7 & 17: Wild-caught field mosquitoes collected in Burkina Faso (Tengrela in 2019 and 2021; Tiefora in 2021; Ouagadougou [Zogona and Karpala] in 2022)."
+      },
+      "is_primary_study": {
+        "met": true,
+        "evidence": "Primary empirical research paper featuring novel whole-genome sequencing, TaqMan/LNA assays, WHO tube bioassays, and functional testing."
+      },
+      "sub_country_location": {
+        "met": true,
+        "evidence": "Page 17: Specific collection locations in Burkina Faso include Tiefora village (10.624116669/-4.55335), Tengrela (10.65188333/-4.82441667), and Ouagadougou sites Zogona (12.3786/-1.48752) and Karpala (12.31929/-1.50171)."
+      },
+      "temporal_resolution_within_3y": {
+        "met": true,
+        "evidence": "Page 17: Field collections specified for distinct timeframes: Tengrela (2019 and Sept 2021), Tiefora (July-Sept 2021), and Ouagadougou (Sept and Nov 2022)."
+      }
+    },
+    "duplicate_risk": {
+      "level": "low",
+      "evidence": "Field samples were collected directly by authors/collaborators (CNRFP/LSTM) and new sequence/genotype data generated for this study."
+    },
+    "supplement": {
+      "needed": false,
+      "evidence": "The main text (Page 7) provides extractable genotype counts (95 field An. arabiensis: 4 heterozygous for I1527T, 85 wildtype, 6 failed)."
+    },
+    "markers_found": [
+      "Vgsc I1527T",
+      "Vgsc V402L",
+      "Vgsc L995F",
+      "Vgsc L995S",
+      "Vgsc N1570Y",
+      "Vgsc P1874S",
+      "Vgsc P1874L"
+    ],
+    "species": [
+      "Anopheles gambiae",
+      "Anopheles coluzzii",
+      "Anopheles arabiensis"
+    ],
+    "countries": [
+      "Burkina Faso",
+      "Côte d'Ivoire"
+    ],
+    "collection_years": [
+      2013,
+      2014,
+      2015,
+      2018,
+      2019,
+      2021,
+      2022
+    ],
+    "has_bioassays": true,
+    "has_genotype_phenotype": true,
+    "sample_size": 95,
+    "summary": "This multi-omics study analyzed genome-wide variation across An. gambiae, An. coluzzii, and An. arabiensis populations from Burkina Faso and Côte d'Ivoire. The study reports the detection and genotype counts of Vgsc I1527T in wild-caught field An. arabiensis from Burkina Faso, alongside genotype-phenotype association testing for GSTE7 L207I using WHO tube bioassays.",
+    "exclusion_reasons": []
+  }
+}

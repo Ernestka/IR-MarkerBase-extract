@@ -1,0 +1,21 @@
+study_id: 2011_Antonio_Nkondjio_Anopheles_Gambiae_Distribution_Insecticide_Resista_PMID21651761
+title: 'Anopheles gambiae distribution and insecticide resistance in the cities of
+  Douala and Yaounde (Cameroon): influence of urban agriculture and pollution'
+first_author: Christophe Antonio-Nkondjio
+doi: 10.1186/1475-2875-10-154
+pmid: '21651761'
+publication_year: 2011
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: 'Antonio-Nkondjio et al. Anopheles gambiae distribution and insecticide
+    resistance in the cities of Douala and Yaounde (Cameroon): influence of urban
+    agriculture and pollution. Malaria Journal 2011, 10:154'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-11-12'

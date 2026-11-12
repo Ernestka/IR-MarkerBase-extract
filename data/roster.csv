@@ -106,11 +106,11 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2010_Syafruddin_Detection_1014F_Kdr_Mutation_Four_PMID21054903,master,INELIGIBLE,False,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.1-flash-lite,6012,829,,,,
 2010_Tungu_Evaluation_PermaNet_3_0_Deltamethrin_PMID20085631,master,INELIGIBLE,False,high,low,False,1,2026-11-05,2026-11-05,0,,gemini:gemini-3-flash-preview,8712,2414,,,,
 2010_Verhaeghen_Spatio_Temporal_Patterns_Kdr_Frequency_PMID20348500,master,EXTRACTED,True,high,low,False,1,2026-11-05,2026-11-05,0,,gemini:gemini-3-flash-preview,5852,4968,gemini:gemini-3.7-flash,27952,57880,"12 survey(s), 24 genotype, 0 bioassay, 0 geno-pheno rows; 24 warning(s)"
-2010_Weetman_Association_Mapping_Insecticide_Resistance_Wild_PMID20976111,master,ELIGIBLE,True,high,medium,False,1,2026-11-05,2026-11-05,0,,gemini:gemini-3-flash-preview,7932,5998,,,,
+2010_Weetman_Association_Mapping_Insecticide_Resistance_Wild_PMID20976111,master,EXTRACTED,True,high,medium,False,1,2026-11-05,2026-11-05,0,,gemini:gemini-3-flash-preview,7932,5998,gemini:gemini-3.6-flash,23022,24291,"3 survey(s), 3 genotype, 0 bioassay, 0 geno-pheno rows; 3 warning(s)"
 2010_Yadouleton_Impact_Expansion_Urban_Vegetable_Farming_PMID21143999,master,EXTRACTED,True,high,none,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.8-flash,5472,1625,gemini:gemini-3.7-flash,18955,25477,"3 survey(s), 6 genotype, 0 bioassay, 0 geno-pheno rows; 9 warning(s)"
 2010_Yadouleton_Insecticide_Resistance_Status_Anopheles_Gambiae_PMID20334637,master,INELIGIBLE,,,,,1,2026-11-05,2026-11-05,0,,gemini:gemini-3-flash-preview,4932,7985,,,,model returned no structured result — re-run or check by hand
 2010_Yewhalaw_First_Evidence_High_Knockdown_Resistance_PMID20595490,master,EXTRACTED,True,high,none,False,1,2026-10-21,2026-10-21,0,,gemini:gemini-3.1-flash-lite,3772,749,gemini:gemini-3.5-flash,5378,9947,"3 survey(s), 4 genotype, 3 bioassay, 0 geno-pheno rows"
-2011_Antonio-Nkondjio_Anopheles_Gambiae_Distribution_Insecticide_Resista_PMID21651761,master,ELIGIBLE,True,high,low,False,1,2026-11-06,2026-11-06,0,,gemini:gemini-3.5-flash,8712,2429,,,,
+2011_Antonio-Nkondjio_Anopheles_Gambiae_Distribution_Insecticide_Resista_PMID21651761,master,EXTRACTED,True,high,low,False,1,2026-11-06,2026-11-06,0,,gemini:gemini-3.5-flash,8712,2429,gemini:gemini-3.6-flash,10587,40346,"8 survey(s), 8 genotype, 30 bioassay, 12 geno-pheno rows; 12 warning(s)"
 2011_Bai_Large_Scale_RNAi_Screen_G_PMID21806814,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.7-flash,7632,799,,,,
 2011_Barbosa_Challenges_Estimating_Insecticide_Selection_Pressu_PMID22069506,master,INELIGIBLE,False,high,high,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3.8-flash,7412,1315,,,,
 2011_Chanda_Insecticide_Resistance_Future_Malaria_Control_PMID21915314,master,EXTRACTION_FAILED,True,high,none,False,1,2026-10-22,2026-10-22,0,,gemini:gemini-3.8-flash,6372,2284,gemini:gemini-3.5-flash,8067,53158,extractor error: Server disconnected without sending a response.
@@ -1218,6 +1218,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2026_Li_Detection_Deltamethrin_Resistance_Level_Associatio_PMID42136827,master,INELIGIBLE,False,high,none,False,1,2026-11-02,2026-11-02,0,,gemini:gemini-3-flash-preview,7092,2368,,,,
 2026_Li_Multi_Omics_Insights_Mosquito_Insecticide_PMID42038460,master,INELIGIBLE,False,high,none,False,1,2026-11-04,2026-11-04,0,,gemini:gemini-3.1-flash-lite,26652,555,,,,
 2026_Lol_Multi_Omics_Analysis_Identifies_Loci_DOI_10_64898_2026_01_30_702793,master,ELIGIBLE,True,high,low,False,1,2026-11-03,2026-11-03,0,,gemini:gemini-3.1-flash-lite,20932,1072,,,,
+2026_Lol_Multi_Omics_Analysis_Identifies_Loci_PMID42410533,master,ELIGIBLE,True,high,low,False,1,2026-11-12,2026-11-12,0,,gemini:gemini-3.5-flash,14112,3706,,,,
 2026_Milugo_Distinct_Genetic_Footprint_Adaptation_Observed_PMID42518525,master,INELIGIBLE,False,high,high,False,1,2026-11-04,2026-11-04,0,,gemini:gemini-3.1-flash-lite,10012,959,,,,
 2026_Mnzava_Sublethal_Pyriproxyfen_Exposure_Alters_Anopheles_PMID41752569,master,INELIGIBLE,False,high,none,False,1,2026-11-01,2026-11-01,0,,gemini:gemini-3.8-flash,10204,1384,,,,
 2026_Mutwiri_Insecticide_Resistance_Profiles_Anopheles_Arabiens_PMID41572323,master,INELIGIBLE,False,high,low,False,1,2026-11-04,2026-11-04,0,,gemini:gemini-3-flash-preview,8712,3149,,,,
@@ -1247,6 +1248,7 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2026_Ward_Temperature_Relative_Humidity_Differentially_Affec_PMID42602908,master,INELIGIBLE,False,high,none,False,1,2026-10-31,2026-10-31,0,,gemini:gemini-3-flash-preview,12612,2247,,,,
 2026_Weerakoon_Systematic_Review_Anopheles_Abundance_Meta_PMID42143382,master,INELIGIBLE,False,high,none,False,1,2026-10-31,2026-10-31,0,,gemini:gemini-3.1-flash-lite,15732,825,,,,
 2026_Worku_Seasonal_Variation_Species_Composition_Deltamethri_PMID42247393,master,ELIGIBLE,True,high,low,False,1,2026-11-03,2026-11-03,0,,gemini:gemini-3-flash-preview,9492,3944,,,,
+2026_Yanney_High_Resistance_Anopheles_Gambiae_Populations_PMID42277740,master,ELIGIBLE,True,high,none,False,1,2026-11-12,2026-11-12,0,,gemini:gemini-3.1-flash-lite,9252,788,,,,
 2026_Zela_Selection_Optimal_Long_Acting_Injectable_PMID42093003,master,ELIGIBLE,True,high,none,False,1,2026-11-03,2026-11-03,0,,gemini:gemini-3.1-flash-lite,11952,771,,,,
 Another paper,master,INELIGIBLE,False,high,none,False,1,2026-10-13,2026-10-13,0,,gemini:gemini-3.8-flash,5852,5679,,,,
 BioMed Research International - 2018 - Fodjo - Insecticides Resistance Status of An  gambiae in Areas of Varying,master,INELIGIBLE,,,,,1,2026-10-13,2026-10-13,0,,gemini:gemini-3-flash-preview,6552,7986,,,,model returned no structured result — re-run or check by hand
