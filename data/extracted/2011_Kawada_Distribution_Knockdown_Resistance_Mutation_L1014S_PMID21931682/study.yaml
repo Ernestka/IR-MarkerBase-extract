@@ -1,0 +1,22 @@
+study_id: 2011_Kawada_Distribution_Knockdown_Resistance_Mutation_L1014S_PMID21931682
+title: Distribution of a Knockdown Resistance Mutation (L1014S) in Anopheles gambiae
+  s.s. and Anopheles arabiensis in Western and Southern Kenya
+first_author: Hitoshi Kawada
+doi: 10.1371/journal.pone.0024323
+pmid: '21931682'
+publication_year: 2011
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: 'Kawada H, Futami K, Komagata O, Kasai S, Tomita T, et al. (2011) Distribution
+    of a Knockdown Resistance Mutation (L1014S) in Anopheles gambiae s.s. and Anopheles
+    arabiensis in Western and Southern Kenya. PLoS ONE 6(9): e24323.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-13'
+pmid_source: Europe PMC (from DOI)

@@ -9,9 +9,9 @@ countries:
 - Benin
 data_source: journal_article
 provenance:
-  source_text: 'Djègbè et al. Dynamics of insecticide resistance in malaria vectors
-    in Benin: first evidence of the presence of L1014S kdr mutation in Anopheles gambiae
-    from West Africa. Malaria Journal 2011, 10:261'
+  source_text: 'Dynamics of insecticide resistance in malaria vectors in Benin: first
+    evidence of the presence of L1014S kdr mutation in Anopheles gambiae from West
+    Africa. Djègbè et al. Malaria Journal 2011, 10:261'
   page: '1'
   table: null
   figure: null

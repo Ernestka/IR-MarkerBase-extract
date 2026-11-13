@@ -968,6 +968,60 @@
    "name": "East Asembo ward, Rarieda, Siaya, Kenya"
   }
  ],
+ "ke|Asembo, Nyanza Province": [],
+ "ke|Asembo, Siaya, Nyanza Province": [],
+ "ke|Budalangi": [
+  {
+   "lat": 0.06644,
+   "level": "political",
+   "lon": 34.00695,
+   "name": "Budalangi, Bunyala, Busia, Kenya"
+  },
+  {
+   "lat": 0.12999,
+   "level": "village",
+   "lon": 34.02602,
+   "name": "Budalangi A, Bunyala North ward, Bunyala, Busia, Kenya"
+  },
+  {
+   "lat": 0.13513,
+   "level": "village",
+   "lon": 34.02948,
+   "name": "Budalangi B, Bunyala North ward, Bunyala, Busia, Kenya"
+  }
+ ],
+ "ke|Budalangi, Busia, Western Province": [],
+ "ke|Budalangi, Western Province": [],
+ "ke|Bungoma": [
+  {
+   "lat": 0.78292,
+   "level": "admin1",
+   "lon": 34.71917,
+   "name": "Bungoma, Kenya"
+  },
+  {
+   "lat": 0.57054,
+   "level": "town",
+   "lon": 34.56033,
+   "name": "Bungoma, Bungoma Township ward, Kanduyi, Bungoma, 50200, Kenya"
+  }
+ ],
+ "ke|Bungoma, Western Province": [],
+ "ke|Busia": [
+  {
+   "lat": 0.3712,
+   "level": "admin1",
+   "lon": 34.2648,
+   "name": "Busia, Kenya"
+  },
+  {
+   "lat": 0.46435,
+   "level": "town",
+   "lon": 34.11109,
+   "name": "Busia, Teso South, Busia, Kenya"
+  }
+ ],
+ "ke|Busia, Western Province": [],
  "ke|Homa Bay": [
   {
    "lat": -0.56396,
@@ -1015,11 +1069,62 @@
   }
  ],
  "ke|Homabay county, Nyanza Province": [],
+ "ke|Kakamega": [
+  {
+   "lat": 0.49571,
+   "level": "admin1",
+   "lon": 34.80155,
+   "name": "Kakamega, Kenya"
+  },
+  {
+   "lat": 0.2833,
+   "level": "town",
+   "lon": 34.75,
+   "name": "Kakamega, Lurambi, Kakamega, 50100, Kenya"
+  }
+ ],
+ "ke|Kakamega, Western Province": [],
+ "ke|Kibuogi": [],
+ "ke|Kibuogi, Nyanza": [],
+ "ke|Kibuogi, Suba, Nyanza": [],
  "ke|Kidomaya and Marigiza": [],
  "ke|Kidomaya and Marigiza, Kwale County": [],
  "ke|Kidomaya and Marigiza, Kwale County, Kwale": [],
  "ke|Kimira-Oluch irrigated area": [],
  "ke|Kimira-Oluch irrigated area, Homa Bay": [],
+ "ke|Kisamba": [],
+ "ke|Kisamba, Nyanza": [],
+ "ke|Kisamba, Suba, Nyanza": [],
+ "ke|Kisian": [
+  {
+   "lat": -0.07308,
+   "level": "village",
+   "lon": 34.66377,
+   "name": "Kisian, Kisumu, City of Kisumu, Kisumu West, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.07113,
+   "level": "railway",
+   "lon": 34.67713,
+   "name": "Kisian, Kisumu-Busia Road, Korando B sublocation, Central Kisumu ward, Kisumu, City of Kisumu, Kisumu West, Kisumu, Kenya"
+  }
+ ],
+ "ke|Kisian, Kisumu, Nyanza Province": [],
+ "ke|Kisian, Nyanza Province": [],
+ "ke|Kisumu": [
+  {
+   "lat": -0.10291,
+   "level": "town",
+   "lon": 34.75418,
+   "name": "Kisumu, City of Kisumu, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.19713,
+   "level": "admin1",
+   "lon": 34.77786,
+   "name": "Kisumu, Kenya"
+  }
+ ],
  "ke|Kisumu, Kisumu County": [
   {
    "lat": -0.10291,
@@ -1028,6 +1133,7 @@
    "name": "Kisumu, City of Kisumu, Kisumu, Kenya"
   }
  ],
+ "ke|Kisumu, Nyanza Province": [],
  "ke|Kwale": [
   {
    "lat": -4.18361,
@@ -1101,6 +1207,22 @@
   }
  ],
  "ke|Laboratory cross (RSP-ST x FAST)": [],
+ "ke|Malaba": [
+  {
+   "lat": 0.63271,
+   "level": "amenity",
+   "lon": 34.2694,
+   "name": "Malaba, Busia - Malaba Road, Burukuchu, Malaba Central ward, Teso North, Busia, 50408, Kenya"
+  },
+  {
+   "lat": 0.63326,
+   "level": "railway",
+   "lon": 34.2727,
+   "name": "Malaba, Busia - Malaba Road, Burukuchu, Malaba Central ward, Teso North, Busia, 50408, Kenya"
+  }
+ ],
+ "ke|Malaba, Busia, Western Province": [],
+ "ke|Malaba, Western Province": [],
  "ke|Marigiza and Kidomaya": [],
  "ke|Marigiza and Kidomaya, Coast": [],
  "ke|Marigiza and Kidomaya, Kwale": [],
@@ -1141,6 +1263,20 @@
  "ke|Mbita and Suba districts": [],
  "ke|Mbita and Suba districts, Mbita District, Nyanza Province": [],
  "ke|Mbita and Suba districts, Nyanza Province": [],
+ "ke|Mfangano": [
+  {
+   "lat": -0.45965,
+   "level": "island",
+   "lon": 34.00969,
+   "name": "Mfangano Island, Mfangano Island ward, Mbita, Homa Bay, Kenya"
+  },
+  {
+   "lat": -0.45972,
+   "level": "town",
+   "lon": 34.00944,
+   "name": "Mfangano Island ward, Mbita, Homa Bay, Kenya"
+  }
+ ],
  "ke|Mfangano Island": [
   {
    "lat": -0.45965,
@@ -1151,12 +1287,56 @@
  ],
  "ke|Mfangano Island, Nyanza Province": [],
  "ke|Mfangano Island, Suba District, Nyanza Province": [],
+ "ke|Mfangano, Nyanza": [],
+ "ke|Mfangano, Suba, Nyanza": [],
+ "ke|Mirunda": [
+  {
+   "lat": -0.47468,
+   "level": "bay",
+   "lon": 34.35395,
+   "name": "Mirunda Bay, Gembe ward, Mbita, Homa Bay, Kenya"
+  }
+ ],
+ "ke|Mirunda, Nyanza": [],
+ "ke|Mirunda, Suba, Nyanza": [],
+ "ke|Ngodhe": [
+  {
+   "lat": -0.35366,
+   "level": "island",
+   "lon": 34.19149,
+   "name": "Ngodhe Island, Wanyama sublocation, Rusinga Island ward, Mbita, Homa Bay, Kenya"
+  }
+ ],
+ "ke|Ngodhe, Nyanza": [],
+ "ke|Ngodhe, Suba, Nyanza": [],
  "ke|Non-irrigated area": [],
  "ke|Non-irrigated area, Homa Bay": [],
+ "ke|Nyandago": [],
+ "ke|Nyandago, Nyanza": [],
+ "ke|Nyandago, Suba, Nyanza": [],
  "ke|Nyanza Province": [],
+ "ke|Nyaroya": [],
  "ke|Nyaroya Village": [],
  "ke|Nyaroya Village, Mbita District, Nyanza Province": [],
  "ke|Nyaroya Village, Nyanza Province": [],
+ "ke|Nyaroya, Nyanza": [],
+ "ke|Nyaroya, Suba, Nyanza": [],
+ "ke|Obambo": [
+  {
+   "lat": -0.10425,
+   "level": "village",
+   "lon": 34.62646,
+   "name": "Obambo, Kisumu, City of Kisumu, Kisumu West, Kisumu, Kenya"
+  },
+  {
+   "lat": 0.03875,
+   "level": "amenity",
+   "lon": 34.2174,
+   "name": "Obambo, C672, Boro, Central Alego ward, Alego Usonga, Siaya, 40600, Kenya"
+  }
+ ],
+ "ke|Obambo, Nyanza": [],
+ "ke|Obambo, Suba, Nyanza": [],
  "ke|Ragwe": [
   {
    "lat": -0.52188,
@@ -1167,6 +1347,22 @@
  ],
  "ke|Ragwe, Homabay county, Nyanza Province": [],
  "ke|Ragwe, Nyanza Province": [],
+ "ke|Seme": [
+  {
+   "lat": -0.10541,
+   "level": "admin2",
+   "lon": 34.50833,
+   "name": "Seme, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.10849,
+   "level": "subcounty",
+   "lon": 34.51784,
+   "name": "Seme, Lower Kombewa sublocation, Kombewa, Central Seme ward, Seme, Kisumu, Kenya"
+  }
+ ],
+ "ke|Seme, Kisumu, Nyanza Province": [],
+ "ke|Seme, Nyanza Province": [],
  "ke|Siaya": [
   {
    "lat": -0.0604,
@@ -1181,6 +1377,14 @@
    "level": "shop",
    "lon": 34.29585,
    "name": "Western Kenya school supplies, Ugunja Primary Road, Ugunja, Ugunja ward, Ugunja, Siaya, 40606, Kenya"
+  }
+ ],
+ "ke|Suba": [
+  {
+   "lat": -0.64272,
+   "level": "admin2",
+   "lon": 34.19717,
+   "name": "Suba, Homa Bay, 40307, Kenya"
   }
  ],
  "ke|Suba District": [
@@ -1210,9 +1414,27 @@
   }
  ],
  "ke|Suba District, Nyanza Province": [],
+ "ke|Suba, Nyanza": [],
+ "ke|Takawiri": [
+  {
+   "lat": -0.47682,
+   "level": "island",
+   "lon": 34.08799,
+   "name": "Takawiri Island, Sena, Mfangano Island ward, Mbita, Homa Bay, Kenya"
+  },
+  {
+   "lat": -0.48441,
+   "level": "tourism",
+   "lon": 34.07973,
+   "name": "Takawiri Island Resort, Wakinga sublocation, Sena, Mfangano Island ward, Mbita, Homa Bay, Kenya"
+  }
+ ],
+ "ke|Takawiri, Nyanza": [],
+ "ke|Takawiri, Suba, Nyanza": [],
  "ke|Ungoe Village": [],
  "ke|Ungoe Village, Nyanza Province": [],
  "ke|Ungoe Village, Suba District, Nyanza Province": [],
+ "ke|Western and Southern Kenya": [],
  "ke|four villages approximately 50 km north-west of Kisumu": [],
  "lr|Bomi": [
   {

@@ -7,38 +7,27 @@
 
 ## Decisions
 
-### Data Extraction Decisions
+### Decisions & Extraction Notes
 
-1. **Surveys & Resolution**:
-   - Surveys are defined at the finest available resolution: site x collection round (October 2008, June 2009, October 2009, June 2010) x molecular species/form (An. coluzzii / M form, An. gambiae s.s. / S form, An. arabiensis).
-   - Four sentinel sites in Benin were sampled: Asecna (Cotonou), Tori-Bossito, Bohicon, and Malanville.
+1. **Surveys & Resolution:**
+   - Surveys were created at the finest temporal, spatial, and species resolution reported in Table 1 (4 collection periods x 4 sentinel sites x molecular species/forms).
+   - Molecular forms of *An. gambiae s.s.* were classified as *An. coluzzii* (M form) and *An. gambiae s.s.* (S form), alongside *An. arabiensis*.
 
-2. **Target Markers Extracted**:
-   - `Vgsc L1014F` and `Vgsc L1014S` (codon 995/1014) from Table 1.
-   - `Ace-1 G119S` (G280S) was reported in text as found in a single heterozygous specimen of An. gambiae M form in Bohicon, but full genotype counts across surveys are not systematically tabulated; therefore, Ace-1 was not added as complete survey-level genotype records.
+2. **Genotype Data:**
+   - Exact genotype counts for *Vgsc* 1014F (L995F) and 1014S (L995S) were extracted from Table 1.
+   - Multi-allelic codon rule (Rule 4b) was applied for *An. arabiensis* samples in Bohicon (June 2010) and Malanville (June 2010) where both 1014F and 1014S alleles were present.
+   - In Bohicon June 2010 *An. arabiensis* (N=2: 1 Leu-Leu, 1 Ser-Ser), Table 1 printed F(1014F) = 0.5 despite 0 Phe alleles present; this was recorded as printed and flagged in `inconsistency_note`.
+   - In Tori-Bossito June 2010 M form (N=31, 16 Phe-Phe, 14 Leu-Phe) and Bohicon June 2010 M form (N=15, 11 Phe-Phe, 1 Leu-Phe), the Leu-Leu cell was printed as '-'; SS counts were derived by subtraction (N - RR - RS).
+   - Ace-1 G280S (G119S): The text mentions finding a single Ace-1 G119S heterozygote in an *An. gambiae* M form mosquito from Bohicon (page 6), but no total genotyped denominator per survey is given, so no Ace-1 genotype row was constructed.
 
-3. **Multi-allelic Codon 1014 (Rule 4b)**:
-   - For multi-allelic Vgsc 1014 (carrying L, F, and S alleles), separate records were created for L1014F and L1014S.
-   - SS is computed as mosquitoes without that specific mutation (which includes wild-type L/L and carriers of the alternative mutation).
-   - For Bohicon June 2010 An. arabiensis (N=2: 1 Leu-Leu, 1 Ser-Ser):
-     - L1014F: RR=0, RS=0, SS=2, F(1014F)=0.50.
-     - L1014S: RR=1, RS=0, SS=1, F(1014S)=0.50.
-   - For Malanville June 2010 An. arabiensis (N=3: 1 Leu-Phe, 2 Leu-Ser):
-     - L1014F: RR=0, RS=1, SS=2, F(1014F)=0.16.
-     - L1014S: RR=0, RS=2, SS=1, F(1014S)=0.33.
-
-4. **Inconsistencies Noted**:
-   - Bohicon June 2010 M form: Table 1 prints N=15, Leu-Phe=1, Phe-Phe=11, leaving 3 specimens unaccounted for among printed genotype classes. Recorded in `inconsistency_note` with SS=3 by subtraction.
-
-5. **Unidentified Specimens Excluded**:
-   - Footnote in Table 1 mentions 2 additional 1014S specimens (1 homozygote, 1 heterozygote) detected in Bohicon and Malanville whose species could not be identified; excluded per Rule 8.
-
-6. **Bioassays & Phenotype-split Genotypes**:
-   - WHO cylinder bioassays were performed on unseparated wild-reared An. gambiae s.l. populations. Percent mortality values are presented graphically in Figures 2 and 3 without printed exact numerical values in tables/text, so bioassays are omitted to avoid digitising approximations.
-   - No phenotype-split genotype data (alive vs dead) are reported in the paper.
+3. **Bioassays & Geno-Pheno:**
+   - Bioassay results in Figure 2 and Figure 3 are presented only as graphical bar plots without printed numerical tables of mortalities or dead/alive counts; bioassays were therefore omitted to adhere to Rule 2 (no guessing/reading values off charts without exact printed text/tables).
+   - Genotyping was performed on unexposed control mosquitoes, so no `geno_pheno` records exist.
 
 ## Validator warnings
 
-- genotype #6 (2011_Djegbe_tori_2010-06_M, Vgsc L1014F): computed allele freq 0.742 differs from reported 0.77
-- genotype #10 (2011_Djegbe_bohicon_2010-06_M, Vgsc L1014F): inconsistent in the paper (values kept as printed) — Table 1 lists N=15, Leu-Phe=1, Phe-Phe=11, leaving 3 specimens unaccounted for among genotype classes in the table.
-- genotype #29 (2011_Djegbe_bohicon_2010-06_arab, Vgsc L1014F): computed allele freq 0.000 differs from reported 0.5
+- genotype #6 (2011_Djegbe_tori_2010_06_m, Vgsc L1014F): inconsistent in the paper (values kept as printed) — Leu-Leu cell printed as '-'; SS derived as N - RR - RS = 1. Printed freq 0.77 fits 46/60 (N=30) rather than 46/62 (N=31).
+- genotype #6 (2011_Djegbe_tori_2010_06_m, Vgsc L1014F): computed allele freq 0.742 differs from reported 0.77
+- genotype #10 (2011_Djegbe_bohicon_2010_06_m, Vgsc L1014F): inconsistent in the paper (values kept as printed) — Leu-Leu cell printed as '-'; SS derived as N - RR - RS = 3.
+- genotype #29 (2011_Djegbe_bohicon_2010_06_arab, Vgsc L1014F): inconsistent in the paper (values kept as printed) — Table 1 reports F(1014F) = 0.5 despite 0 Phe alleles present among N=2 (1 Leu-Leu, 1 Ser-Ser).
+- genotype #29 (2011_Djegbe_bohicon_2010_06_arab, Vgsc L1014F): computed allele freq 0.000 differs from reported 0.5

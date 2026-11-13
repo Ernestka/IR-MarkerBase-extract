@@ -9,13 +9,14 @@ countries:
 - Benin
 data_source: journal_article
 provenance:
-  source_text: 'Exploring Mechanisms of Multiple Insecticide Resistance in a Population
-    of the Malaria Vector Anopheles funestus in Benin. PLoS ONE 6(11): e27760.'
+  source_text: 'Djouaka et al. (2011) Exploring Mechanisms of Multiple Insecticide
+    Resistance in a Population of the Malaria Vector Anopheles funestus in Benin.
+    PLoS ONE 6(11): e27760.'
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.6-flash
+model: gemini:gemini-3.5-flash
 extracted: '2026-11-13'
 pmid_source: Europe PMC (from DOI)
