@@ -1,0 +1,22 @@
+study_id: 2011_Djegbe_Dynamics_Insecticide_Resistance_Malaria_Vectors_PMID21910856
+title: 'Dynamics of insecticide resistance in malaria vectors in Benin: first evidence
+  of the presence of L1014S kdr mutation in Anopheles gambiae from West Africa'
+first_author: Innocent Djègbè
+doi: 10.1186/1475-2875-10-261
+pmid: '21910856'
+publication_year: 2011
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: 'Djègbè et al. Dynamics of insecticide resistance in malaria vectors
+    in Benin: first evidence of the presence of L1014S kdr mutation in Anopheles gambiae
+    from West Africa. Malaria Journal 2011, 10:261'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-13'
+pmid_source: Europe PMC (from DOI)

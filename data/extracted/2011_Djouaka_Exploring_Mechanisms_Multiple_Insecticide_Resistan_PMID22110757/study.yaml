@@ -1,0 +1,21 @@
+study_id: 2011_Djouaka_Exploring_Mechanisms_Multiple_Insecticide_Resistan_PMID22110757
+title: Exploring Mechanisms of Multiple Insecticide Resistance in a Population of
+  the Malaria Vector Anopheles funestus in Benin
+first_author: Rousseau Djouaka
+doi: 10.1371/journal.pone.0027760
+pmid: '22110757'
+publication_year: 2011
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: 'Exploring Mechanisms of Multiple Insecticide Resistance in a Population
+    of the Malaria Vector Anopheles funestus in Benin. PLoS ONE 6(11): e27760.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-11-13'
+pmid_source: Europe PMC (from DOI)
