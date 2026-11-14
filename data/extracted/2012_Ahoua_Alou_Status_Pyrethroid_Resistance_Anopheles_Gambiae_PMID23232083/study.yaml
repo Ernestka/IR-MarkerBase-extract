@@ -1,0 +1,21 @@
+study_id: 2012_Ahoua_Alou_Status_Pyrethroid_Resistance_Anopheles_Gambiae_PMID23232083
+title: Status of pyrethroid resistance in Anopheles gambiae s. s. M form prior to
+  the scaling up of Long Lasting Insecticidal Nets (LLINs) in Adzopé, Eastern Côte
+  d’Ivoire
+first_author: Ludovic P Ahoua Alou
+doi: 10.1186/1756-3305-5-289
+pmid: '23232083'
+publication_year: 2012
+countries:
+- Côte d'Ivoire
+data_source: journal
+provenance:
+  source_text: Ahoua Alou et al. Parasites & Vectors 2012, 5:289 http://www.parasitesandvectors.com/content/5/1/289
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-14'
+pmid_source: Europe PMC (from DOI)

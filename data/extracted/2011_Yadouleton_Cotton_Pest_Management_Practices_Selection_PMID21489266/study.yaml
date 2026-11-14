@@ -1,0 +1,22 @@
+study_id: 2011_Yadouleton_Cotton_Pest_Management_Practices_Selection_PMID21489266
+title: Cotton pest management practices and the selection of pyrethroid resistance
+  in Anopheles gambiae population in Northern Benin
+first_author: Anges Yadouleton
+doi: 10.1186/1756-3305-4-60
+pmid: '21489266'
+publication_year: 2011
+countries:
+- Benin
+data_source: published_paper
+provenance:
+  source_text: Cotton pest management practices and the selection of pyrethroid resistance
+    in Anopheles gambiae population in Northern Benin. Yadouleton et al. Parasites
+    & Vectors 2011, 4:60
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-14'
+pmid_source: Europe PMC (from DOI)

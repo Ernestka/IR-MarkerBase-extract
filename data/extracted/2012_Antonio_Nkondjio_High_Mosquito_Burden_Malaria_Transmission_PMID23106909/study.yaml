@@ -1,0 +1,21 @@
+study_id: 2012_Antonio_Nkondjio_High_Mosquito_Burden_Malaria_Transmission_PMID23106909
+title: High mosquito burden and malaria transmission in a district of the city of
+  Douala, Cameroon
+first_author: Christophe Antonio-Nkondjio
+doi: 10.1186/1471-2334-12-275
+pmid: '23106909'
+publication_year: 2012
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: A 12-month entomological study was conducted in a highly populated
+    district of Douala called Ndogpassi.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-14'
+pmid_source: Europe PMC (from DOI)
