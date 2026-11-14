@@ -1,0 +1,23 @@
+study_id: 2011_Ngufor_Combining_Indoor_Residual_Spraying_Chlorfenapyr_PMID22087506
+title: 'Combining indoor residual spraying with chlorfenapyr and long-lasting insecticidal
+  bed nets for improved control of pyrethroid-resistant Anopheles gambiae: an experimental
+  hut trial in Benin'
+first_author: Corine Ngufor
+doi: 10.1186/1475-2875-10-343
+pmid: '22087506'
+publication_year: 2011
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: 'Combining indoor residual spraying with chlorfenapyr and long-lasting
+    insecticidal bed nets for improved control of pyrethroid-resistant Anopheles gambiae:
+    an experimental hut trial in Benin'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-14'
+pmid_source: Europe PMC (from DOI)

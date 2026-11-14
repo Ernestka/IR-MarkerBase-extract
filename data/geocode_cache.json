@@ -117,6 +117,14 @@
    "name": "PASE DROP PPN 18 Akron, Avenue Liotard, Avassa, Gbedji, Porto-Novo, Porto Novo, Ouémé, Bénin"
   }
  ],
+ "bj|Akron, Porto Novo": [
+  {
+   "lat": 6.46837,
+   "level": "amenity",
+   "lon": 2.63157,
+   "name": "PASE DROP PPN 18 Akron, Avenue Liotard, Avassa, Gbedji, Porto-Novo, Porto Novo, Ouémé, Bénin"
+  }
+ ],
  "bj|Atacora": [
   {
    "lat": 10.71605,
@@ -427,6 +435,20 @@
    "level": "admin1",
    "lon": 2.64091,
    "name": "Plateau, Bénin"
+  }
+ ],
+ "bj|Porto Novo": [
+  {
+   "lat": 6.49907,
+   "level": "town",
+   "lon": 2.62534,
+   "name": "Porto-Novo, Porto Novo, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.49352,
+   "level": "admin2",
+   "lon": 2.62478,
+   "name": "Porto Novo, Ouémé, Bénin"
   }
  ],
  "bj|Péhunco": [
