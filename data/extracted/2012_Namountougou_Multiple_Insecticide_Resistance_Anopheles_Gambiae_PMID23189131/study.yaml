@@ -1,0 +1,21 @@
+study_id: 2012_Namountougou_Multiple_Insecticide_Resistance_Anopheles_Gambiae_PMID23189131
+title: Multiple Insecticide Resistance in Anopheles gambiae s.l. Populations from
+  Burkina Faso, West Africa
+first_author: Moussa Namountougou
+doi: 10.1371/journal.pone.0048412
+pmid: '23189131'
+publication_year: 2012
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: Multiple Insecticide Resistance in Anopheles gambiae s.l. Populations
+    from Burkina Faso, West Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)
