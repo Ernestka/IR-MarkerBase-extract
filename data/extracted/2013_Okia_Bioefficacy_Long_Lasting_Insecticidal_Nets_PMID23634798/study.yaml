@@ -1,0 +1,23 @@
+study_id: 2013_Okia_Bioefficacy_Long_Lasting_Insecticidal_Nets_PMID23634798
+title: Bioefficacy of long-lasting insecticidal nets against pyrethroid-resistant
+  populations of Anopheles gambiae s.s. from different malaria transmission zones
+  in Uganda
+first_author: Michael Okia
+doi: 10.1186/1756-3305-6-130
+pmid: '23634798'
+publication_year: 2013
+countries:
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: Bioefficacy of long-lasting insecticidal nets against pyrethroid-resistant
+    populations of Anopheles gambiae s.s. from different malaria transmission zones
+    in Uganda
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

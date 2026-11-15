@@ -1,0 +1,20 @@
+study_id: 2013_Ochomo_Efficacy_Long_Lasting_Nets_Declining_PMID24156715
+title: The efficacy of long-lasting nets with declining physical integrity may be
+  compromised in areas with high levels of pyrethroid resistance
+first_author: Eric O Ochomo
+doi: 10.1186/1475-2875-12-368
+pmid: '24156715'
+publication_year: 2013
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: Ochomo et al. Malaria Journal 2013, 12:368
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

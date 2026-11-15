@@ -1,0 +1,22 @@
+study_id: 2013_Jones_Dynamics_Pyrethroid_Resistance_Anopheles_Arabiensi_PMID24314005
+title: The dynamics of pyrethroid resistance in Anopheles arabiensis from Zanzibar
+  and an assessment of the underlying genetic basis
+first_author: Christopher M Jones
+doi: 10.1186/1756-3305-6-343
+pmid: '24314005'
+publication_year: 2013
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: The dynamics of pyrethroid resistance in Anopheles arabiensis from
+    Zanzibar and an assessment of the underlying genetic basis. Parasites & Vectors
+    2013, 6:343
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

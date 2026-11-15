@@ -1,0 +1,23 @@
+study_id: 2012_Oduola_Evidence_Carbamate_Resistance_Urban_Populations_PMID22686575
+title: Evidence of carbamate resistance in urban populations of Anopheles gambiae
+  s.s. mosquitoes resistant to DDT and deltamethrin insecticides in Lagos, South-Western
+  Nigeria
+first_author: Adedayo O Oduola
+doi: 10.1186/1756-3305-5-116
+pmid: '22686575'
+publication_year: 2012
+countries:
+- Nigeria
+data_source: journal_article
+provenance:
+  source_text: Evidence of carbamate resistance in urban populations of Anopheles
+    gambiae s.s. mosquitoes resistant to DDT and deltamethrin insecticides in Lagos,
+    South-Western Nigeria. Parasites & Vectors 2012, 5:116
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

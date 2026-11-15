@@ -1,0 +1,21 @@
+study_id: 2012_Padonou_Impact_Three_Years_Large_Scale_PMID22490146
+title: Impact of three years of large scale Indoor Residual Spraying (IRS) and Insecticide
+  Treated Nets (ITNs) interventions on insecticide resistance in Anopheles gambiae
+  s.l. in Benin
+first_author: Gil Germain Padonou
+doi: 10.1186/1756-3305-5-72
+pmid: '22490146'
+publication_year: 2012
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Padonou et al. Parasites & Vectors 2012, 5:72
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

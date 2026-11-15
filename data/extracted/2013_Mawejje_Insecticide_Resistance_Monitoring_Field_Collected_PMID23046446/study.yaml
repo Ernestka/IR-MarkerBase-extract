@@ -1,0 +1,20 @@
+study_id: 2013_Mawejje_Insecticide_Resistance_Monitoring_Field_Collected_PMID23046446
+title: Insecticide resistance monitoring of field-collected Anopheles gambiae s.l.
+  populations from Jinja, eastern Uganda, identifies high levels of pyrethroid resistance
+first_author: Henry D. Mawejje
+doi: 10.1111/j.1365-2915.2012.01055.x
+pmid: '23046446'
+publication_year: 2013
+countries:
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: 'Med Vet Entomol. 2013 September ; 27(3): 276–283. doi:10.1111/j.1365-2915.2012.01055.x.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,22 @@
+study_id: 2013_Kwiatkowska_Dissecting_Mechanisms_Responsible_Multiple_Insecti_PMID23380570
+title: Dissecting the mechanisms responsible for the multiple insecticide resistance
+  phenotype in Anopheles gambiae s.s., M form, from Vallée du Kou, Burkina Faso
+first_author: Rachel M. Kwiatkowska
+doi: 10.1016/j.gene.2013.01.036
+pmid: '23380570'
+publication_year: 2013
+countries:
+- Burkina Faso
+data_source: paper
+provenance:
+  source_text: Dissecting the mechanisms responsible for the multiple insecticide
+    resistance phenotype in Anopheles gambiae s.s., M form, from Vallée du Kou, Burkina
+    Faso. Gene 519 (2013) 98-106.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

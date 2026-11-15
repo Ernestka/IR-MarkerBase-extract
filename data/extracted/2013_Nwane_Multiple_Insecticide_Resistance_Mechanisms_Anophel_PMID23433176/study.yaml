@@ -1,0 +1,20 @@
+study_id: 2013_Nwane_Multiple_Insecticide_Resistance_Mechanisms_Anophel_PMID23433176
+title: Multiple insecticide resistance mechanisms in Anopheles gambiae s.l. populations
+  from Cameroon, Central Africa
+first_author: Philippe Nwane
+doi: 10.1186/1756-3305-6-41
+pmid: '23433176'
+publication_year: 2013
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Nwane et al. Parasites & Vectors 2013, 6:41
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

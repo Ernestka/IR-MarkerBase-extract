@@ -1,0 +1,24 @@
+study_id: 2013_Aizoun_Comparison_Standard_WHO_Susceptibility_Tests_PMID23688233
+title: Comparison of the standard WHO susceptibility tests and the CDC bottle bioassay
+  for the determination of insecticide susceptibility in malaria vectors and their
+  correlation with biochemical and molecular biology assays in Benin, West Africa
+first_author: Nazaire A'zoun
+doi: 10.1186/1756-3305-6-147
+pmid: '23688233'
+publication_year: 2013
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Comparison of the standard WHO susceptibility tests and the CDC bottle
+    bioassay for the determination of insecticide susceptibility in malaria vectors
+    and their correlation with biochemical and molecular biology assays in Benin,
+    West Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

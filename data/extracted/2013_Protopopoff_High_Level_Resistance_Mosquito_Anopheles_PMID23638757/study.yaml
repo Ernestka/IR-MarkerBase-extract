@@ -1,0 +1,22 @@
+study_id: 2013_Protopopoff_High_Level_Resistance_Mosquito_Anopheles_PMID23638757
+title: High level of resistance in the mosquito Anopheles gambiae to pyrethroid insecticides
+  and reduced susceptibility to bendiocarb in north-western Tanzania
+first_author: Natacha Protopopoff
+doi: 10.1186/1475-2875-12-149
+pmid: '23638757'
+publication_year: 2013
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: Protopopoff et al. High level of resistance in the mosquito Anopheles
+    gambiae to pyrethroid insecticides and reduced susceptibility to bendiocarb in
+    north-western Tanzania. Malaria Journal 2013, 12:149
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

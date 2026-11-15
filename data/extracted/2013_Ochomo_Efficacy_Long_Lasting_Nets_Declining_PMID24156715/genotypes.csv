@@ -1,0 +1,2 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2013_Ochomo_bungoma_2013_nets,kdr,1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,PCR,False,343,343,0,0,,686,1.0,,All the An. gambiae s.s. samples collected from inside the nets were homozygous for kdr 1014S (N = 343),5,,,

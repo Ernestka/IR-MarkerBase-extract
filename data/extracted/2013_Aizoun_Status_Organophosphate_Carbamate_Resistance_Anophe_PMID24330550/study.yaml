@@ -1,0 +1,23 @@
+study_id: 2013_Aizoun_Status_Organophosphate_Carbamate_Resistance_Anophe_PMID24330550
+title: Status of organophosphate and carbamate resistance in Anopheles gambiae sensu
+  lato from the south and north Benin, West Africa
+first_author: Nazaire Aïzoun
+doi: 10.1186/1756-3305-6-274
+pmid: '24330550'
+publication_year: 2013
+countries:
+- Benin
+data_source: literature
+provenance:
+  source_text: Status of organophosphate and carbamate resistance in Anopheles gambiae
+    sensu lato from the south and north Benin, West Africa. Nazaire Aïzoun, Rock Aïkpon,
+    Virgile Gnanguenon, Olivier Oussou, Fiacre Agossa, Gil Germain Padonou and Martin
+    Akogbéto. Parasites & Vectors 2013, 6:274.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

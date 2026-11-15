@@ -1,0 +1,22 @@
+study_id: 2013_Koffi_Re_Visiting_Insecticide_Resistance_Status_PMID24358177
+title: 'Re-Visiting Insecticide Resistance Status in Anopheles gambiae from Côte d''Ivoire:
+  A Nation-Wide Informative Survey'
+first_author: Alphonsine A. Koffi
+doi: 10.1371/journal.pone.0082387
+pmid: '24358177'
+publication_year: 2013
+countries:
+- Côte d'Ivoire
+data_source: journal_article
+provenance:
+  source_text: 'Koffi AA, Ahoua Alou LP, Kabran J-PK, N''Guessan R, Pennetier C (2013)
+    Re-Visiting Insecticide Resistance Status in Anopheles gambiae from Côte d''Ivoire:
+    A Nation-Wide Informative Survey. PLoS ONE 8(12): e82387.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

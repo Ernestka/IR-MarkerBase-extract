@@ -185,6 +185,44 @@
   }
  ],
  "bf|Vallée du Kou, Bobo-Dioulasso": [],
+ "bj|Adjara": [
+  {
+   "lat": 6.53106,
+   "level": "amenity",
+   "lon": 2.66336,
+   "name": "Église catholique Sainte Famille d'Adjara, RN 36, Djavi-Zèbè, Alladako, Mèdédjonou, Adjarra, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.48004,
+   "level": "amenity",
+   "lon": 2.62832,
+   "name": "Pharmacie Adjara Docodji, Rue 40, Gbedji, Porto-Novo, Porto Novo, Ouémé, Bénin"
+  }
+ ],
+ "bj|Adjara, Ou'm'": [],
+ "bj|Adjohoun (IRS)": [],
+ "bj|Adjohoun (IRS), Adjohoun, Ouémé": [],
+ "bj|Adjohoun (IRS), Ouémé": [],
+ "bj|Adjohoun (LLIN area)": [],
+ "bj|Adjohoun (LLIN area), Adjohoun, Ouémé": [],
+ "bj|Adjohoun (LLIN area), Ouémé": [],
+ "bj|Adjohoun (LLIN)": [],
+ "bj|Adjohoun (LLIN), Adjohoun, Ouémé": [],
+ "bj|Adjohoun (LLIN), Ouémé": [],
+ "bj|Adjohoun, Ouémé": [
+  {
+   "lat": 6.69814,
+   "level": "admin2",
+   "lon": 2.51641,
+   "name": "Adjohoun, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.71747,
+   "level": "town",
+   "lon": 2.4774,
+   "name": "Adjohoun, Ouémé, Bénin"
+  }
+ ],
  "bj|Adjozoume": [
   {
    "lat": 7.35044,
@@ -231,6 +269,20 @@
    "level": "amenity",
    "lon": 2.63157,
    "name": "PASE DROP PPN 18 Akron, Avenue Liotard, Avassa, Gbedji, Porto-Novo, Porto Novo, Ouémé, Bénin"
+  }
+ ],
+ "bj|Alibori": [
+  {
+   "lat": 11.46495,
+   "level": "admin1",
+   "lon": 2.79388,
+   "name": "Alibori, Bénin"
+  },
+  {
+   "lat": 11.66699,
+   "level": "river",
+   "lon": 2.93529,
+   "name": "Alibori, Bénin"
   }
  ],
  "bj|Atacora": [
@@ -330,6 +382,44 @@
   }
  ],
  "bj|Cotonou (Ladji, Fifadji, Abomey Calavi)": [],
+ "bj|Dangbo": [
+  {
+   "lat": 6.56621,
+   "level": "admin2",
+   "lon": 2.51545,
+   "name": "Dangbo, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.58506,
+   "level": "town",
+   "lon": 2.55087,
+   "name": "Dangbo, Ouémé, Bénin"
+  }
+ ],
+ "bj|Dangbo (IRS area)": [],
+ "bj|Dangbo (IRS area), Dangbo, Ouémé": [],
+ "bj|Dangbo (IRS area), Ouémé": [],
+ "bj|Dangbo (IRS)": [],
+ "bj|Dangbo (IRS), Dangbo, Ouémé": [],
+ "bj|Dangbo (IRS), Ouémé": [],
+ "bj|Dangbo (LLIN)": [],
+ "bj|Dangbo (LLIN), Dangbo, Ouémé": [],
+ "bj|Dangbo (LLIN), Ouémé": [],
+ "bj|Dangbo, Ou'm'": [],
+ "bj|Dangbo, Ouémé": [
+  {
+   "lat": 6.56621,
+   "level": "admin2",
+   "lon": 2.51545,
+   "name": "Dangbo, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.58506,
+   "level": "town",
+   "lon": 2.55087,
+   "name": "Dangbo, Ouémé, Bénin"
+  }
+ ],
  "bj|Djohounkollé": [],
  "bj|Djohounkollé, Plateau": [],
  "bj|Djohounkollé, Sakété, Plateau": [],
@@ -472,6 +562,26 @@
    "name": "Malanville, Alibori, Bénin"
   }
  ],
+ "bj|Malanville, Alibori": [
+  {
+   "lat": 11.86181,
+   "level": "town",
+   "lon": 3.3863,
+   "name": "Malanville, Alibori, Bénin"
+  },
+  {
+   "lat": 11.67234,
+   "level": "river",
+   "lon": 2.94018,
+   "name": "Alibori, Malanville, Karimama, Alibori, Bénin"
+  },
+  {
+   "lat": 11.89287,
+   "level": "river",
+   "lon": 3.02742,
+   "name": "Alibori, Malanville, Alibori, Bénin"
+  }
+ ],
  "bj|Matéri, Atacora": [
   {
    "lat": 10.82147,
@@ -484,6 +594,54 @@
    "level": "town",
    "lon": 1.06309,
    "name": "Materi, Atakora, Bénin"
+  }
+ ],
+ "bj|Misserete": [
+  {
+   "lat": 6.57507,
+   "level": "admin2",
+   "lon": 2.60994,
+   "name": "Akpro-Missérété, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.5585,
+   "level": "town",
+   "lon": 2.58934,
+   "name": "Akpro-Missérété, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.39252,
+   "level": "village",
+   "lon": 2.57409,
+   "name": "Podji-Missérété, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  }
+ ],
+ "bj|Misserete (IRS area)": [],
+ "bj|Misserete (IRS area), Missérété, Ouémé": [],
+ "bj|Misserete (IRS area), Ouémé": [],
+ "bj|Misserete (IRS)": [],
+ "bj|Misserete (IRS), Missérété, Ouémé": [],
+ "bj|Misserete (IRS), Ouémé": [],
+ "bj|Misserete, Akpro-Miss'r't', Ou'm'": [],
+ "bj|Misserete, Ou'm'": [],
+ "bj|Missérété, Ouémé": [
+  {
+   "lat": 6.57507,
+   "level": "admin2",
+   "lon": 2.60994,
+   "name": "Akpro-Missérété, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.5585,
+   "level": "town",
+   "lon": 2.58934,
+   "name": "Akpro-Missérété, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.39252,
+   "level": "village",
+   "lon": 2.57409,
+   "name": "Podji-Missérété, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
   }
  ],
  "bj|N'Dali": [
@@ -514,6 +672,7 @@
    "name": "Natitingou, Atakora, Bénin"
   }
  ],
+ "bj|Ou'm'": [],
  "bj|Ouidah-Kpomasse-Tori": [],
  "bj|Ouidah-Kpomasse-Tori health district": [],
  "bj|Ouidah-Kpomasse-Tori health district, Atlantique": [],
@@ -521,6 +680,20 @@
  "bj|Ouidah-Kpomasse-Tori health district, Ouidah-Kpomasse-Tori, Atlantique": [],
  "bj|Ouidah-Kpomasse-Tori, Atlantique": [],
  "bj|Ouidah-Kpomassè-Tori Bossito health district": [],
+ "bj|Ouémé": [
+  {
+   "lat": 6.60135,
+   "level": "admin1",
+   "lon": 2.55057,
+   "name": "Ouémé, Bénin"
+  },
+  {
+   "lat": 8.30965,
+   "level": "river",
+   "lon": 2.33009,
+   "name": "Ouémé, Bénin"
+  }
+ ],
  "bj|Parakou": [
   {
    "lat": 9.34002,
@@ -559,6 +732,32 @@
    "name": "Porto Novo, Ouémé, Bénin"
   }
  ],
+ "bj|Porto-Novo (Control IRS)": [],
+ "bj|Porto-Novo (Control IRS), Ouémé": [],
+ "bj|Porto-Novo (Control IRS), Porto-Novo, Ouémé": [],
+ "bj|Porto-Novo (Control LLIN)": [],
+ "bj|Porto-Novo (Control LLIN), Ouémé": [],
+ "bj|Porto-Novo (Control LLIN), Porto-Novo, Ouémé": [],
+ "bj|Porto-Novo (Flood zone)": [],
+ "bj|Porto-Novo (Flood zone), Ouémé": [],
+ "bj|Porto-Novo (Flood zone), Porto-Novo, Ouémé": [],
+ "bj|Porto-Novo (Plateau zone)": [],
+ "bj|Porto-Novo (Plateau zone), Ouémé": [],
+ "bj|Porto-Novo (Plateau zone), Porto-Novo, Ouémé": [],
+ "bj|Porto-Novo, Ouémé": [
+  {
+   "lat": 6.49907,
+   "level": "town",
+   "lon": 2.62534,
+   "name": "Porto-Novo, Porto Novo, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.49352,
+   "level": "admin2",
+   "lon": 2.62478,
+   "name": "Porto Novo, Ouémé, Bénin"
+  }
+ ],
  "bj|Péhunco": [
   {
    "lat": 10.23089,
@@ -575,6 +774,8 @@
    "name": "Péhunco, Pehonko, Atakora, Bénin"
   }
  ],
+ "bj|S'm'-Kpodji": [],
+ "bj|S'm'-Kpodji, Ou'm'": [],
  "bj|Sakété, Plateau": [
   {
    "lat": 6.73776,
@@ -587,6 +788,157 @@
    "level": "admin2",
    "lon": 2.67655,
    "name": "Sakété, Plateau, Bénin"
+  }
+ ],
+ "bj|Seme": [
+  {
+   "lat": 6.38147,
+   "level": "town",
+   "lon": 2.60446,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.37098,
+   "level": "village",
+   "lon": 2.62557,
+   "name": "Okoun-Sèmè, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.49004,
+   "level": "village",
+   "lon": 2.69532,
+   "name": "Sèmè, Adjarra, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.38208,
+   "level": "village",
+   "lon": 2.60366,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.45551,
+   "level": "village",
+   "lon": 2.34627,
+   "name": "Sèmè, Abomey-Calavi, Atlantique, Bénin"
+  }
+ ],
+ "bj|Seme (IRS)": [],
+ "bj|Seme (IRS), Ouémé": [],
+ "bj|Seme (IRS), Sèmè-Kpodji, Ouémé": [],
+ "bj|Seme (LLIN area)": [],
+ "bj|Seme (LLIN area), Ouémé": [],
+ "bj|Seme (LLIN area), Sèmè-Kpodji, Ouémé": [],
+ "bj|Seme (LLIN)": [],
+ "bj|Seme (LLIN), Ouémé": [],
+ "bj|Seme (LLIN), Sèmè-Kpodji, Ouémé": [],
+ "bj|Seme, Ou'm'": [],
+ "bj|Seme, Ouémé": [
+  {
+   "lat": 6.38147,
+   "level": "town",
+   "lon": 2.60446,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.38208,
+   "level": "village",
+   "lon": 2.60366,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.49004,
+   "level": "village",
+   "lon": 2.69532,
+   "name": "Sèmè, Adjarra, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.37098,
+   "level": "village",
+   "lon": 2.62557,
+   "name": "Okoun-Sèmè, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  }
+ ],
+ "bj|Seme, S'm'-Kpodji, Ou'm'": [],
+ "bj|Seme, Sèmè-Kpodji, Ouémé": [
+  {
+   "lat": 6.37098,
+   "level": "village",
+   "lon": 2.62557,
+   "name": "Okoun-Sèmè, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.38208,
+   "level": "village",
+   "lon": 2.60366,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.38115,
+   "level": "trunk",
+   "lon": 2.62064,
+   "name": "Carrefour Sèmè, Agongo, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.37752,
+   "level": "trunk",
+   "lon": 2.59379,
+   "name": "Carrefour Sèmè-Podji, Podji-Agué Gbago, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.38293,
+   "level": "amenity",
+   "lon": 2.60741,
+   "name": "Centre d'enseignement général de Sèmè-Kpodji, RNIE 1, Podji-Agué, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  }
+ ],
+ "bj|Sèmè-Kpodji": [
+  {
+   "lat": 6.38147,
+   "level": "town",
+   "lon": 2.60446,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.38208,
+   "level": "village",
+   "lon": 2.60366,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  }
+ ],
+ "bj|Sèmè-Kpodji, Ouémé": [
+  {
+   "lat": 6.38147,
+   "level": "town",
+   "lon": 2.60446,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  },
+  {
+   "lat": 6.38208,
+   "level": "village",
+   "lon": 2.60366,
+   "name": "Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
+  }
+ ],
+ "bj|Tanguieta, Atacora": [
+  {
+   "lat": 10.96551,
+   "level": "admin2",
+   "lon": 1.42034,
+   "name": "Tanguièta, Atakora, Bénin"
+  },
+  {
+   "lat": 10.6301,
+   "level": "town",
+   "lon": 1.27063,
+   "name": "Tanguieta, Tanguièta, Atakora, Bénin"
+  }
+ ],
+ "bj|Tanguieta, Tanguiéta, Atacora": [
+  {
+   "lat": 10.6301,
+   "level": "town",
+   "lon": 1.27063,
+   "name": "Tanguieta, Tanguièta, Atakora, Bénin"
   }
  ],
  "bj|Tanguiéta, Atacora": [
@@ -1665,6 +2017,26 @@
    "name": "Tubmanburg, Senjeh, Bomi County, Liberia"
   }
  ],
+ "lr|Site 10 (Outer Norbor, Norbor)": [],
+ "lr|Site 10 (Outer Norbor, Norbor), Bomi": [],
+ "lr|Site 10 (Outer Norbor, Norbor), Suehn Mecca, Bomi": [],
+ "lr|Site 3 (Malema Camp and Gissi Camp)": [],
+ "lr|Site 3 (Malema Camp and Gissi Camp), Bomi": [],
+ "lr|Site 3 (Malema Camp and Gissi Camp), Klay, Bomi": [],
+ "lr|Site 5 (Woman's centre, UNMIL camp, Garage)": [],
+ "lr|Site 5 (Woman's centre, UNMIL camp, Garage), Bomi": [],
+ "lr|Site 5 (Woman's centre, UNMIL camp, Garage), Senjeh, Bomi": [],
+ "lr|Site 7 (Weamoi, Outside Weamoi)": [],
+ "lr|Site 7 (Weamoi, Outside Weamoi), Bomi": [],
+ "lr|Site 7 (Weamoi, Outside Weamoi), Klay, Bomi": [],
+ "lr|Suehn Mecca, Bomi": [
+  {
+   "lat": 6.71653,
+   "level": "admin2",
+   "lon": -10.65426,
+   "name": "Suehn Mecca, Bomi County, Liberia"
+  }
+ ],
  "lr|Weamoi / Outside Weamoi (Site 7)": [],
  "lr|Weamoi / Outside Weamoi (Site 7), Bomi": [],
  "lr|Woman's centre / UNMIL camp / Garage (Site 5)": [],
@@ -1827,12 +2199,62 @@
    "name": "Akure, Akure South, Ondo, 340021, Nigeria"
   }
  ],
+ "ng|Alimoso": [],
+ "ng|Alimoso, Lagos": [],
  "ng|Ati-kankan 1": [],
  "ng|Ati-kankan 1, Ado-ekiti, Ekiti": [],
  "ng|Ati-kankan 1, Ekiti": [],
  "ng|Ati-kankan 2": [],
  "ng|Ati-kankan 2, Ado-ekiti, Ekiti": [],
  "ng|Ati-kankan 2, Ekiti": [],
+ "ng|Badagry, Lagos": [
+  {
+   "lat": 6.43932,
+   "level": "admin2",
+   "lon": 2.90603,
+   "name": "Badagry, Lagos, Nigeria"
+  },
+  {
+   "lat": 6.41673,
+   "level": "town",
+   "lon": 2.88461,
+   "name": "Badagry, Lagos, Nigeria"
+  }
+ ],
+ "ng|Bariga, Lagos": [
+  {
+   "lat": 6.54073,
+   "level": "town",
+   "lon": 3.38804,
+   "name": "Bariga, Shomolu, Lagos, 100233, Nigeria"
+  },
+  {
+   "lat": 6.52891,
+   "level": "village",
+   "lon": 3.39913,
+   "name": "Bariga, Akoka, Bariga, Shomolu, Lagos, Nigeria"
+  }
+ ],
+ "ng|Bariga, Somolu, Lagos": [
+  {
+   "lat": 6.53449,
+   "level": "tertiary",
+   "lon": 3.38513,
+   "name": "Bariga Road, Akoka, Bariga, Shomolu, Lagos, 100233, Nigeria"
+  },
+  {
+   "lat": 6.54092,
+   "level": "amenity",
+   "lon": 3.37723,
+   "name": "CCC OMOALADE ALAFIA PARISH SOMOLU LAGOS, Omoalade Alafia St, Akoka, Somolu, Bariga, Shomolu, Lagos, 100231, Nigeria"
+  },
+  {
+   "lat": 6.54036,
+   "level": "building",
+   "lon": 3.3761,
+   "name": "Watchman Catholic Charismatic Renewal Movement Bariga, Soji Oshodi St, Akoka, Pedro, Bariga, Shomolu, Lagos, 100231, Nigeria"
+  }
+ ],
  "ng|Bashorun": [
   {
    "lat": 6.50284,
@@ -1965,6 +2387,15 @@
    "name": "New Day Hospital, Challenge, express road, Ibadan, Lagos-Ibadan Expressway, Ìbàdàn, Ibadan South East, Oyo, 200252, Nigeria"
   }
  ],
+ "ng|Egbeda, Alimoso, Lagos": [],
+ "ng|Egbeda, Lagos": [
+  {
+   "lat": 6.59121,
+   "level": "village",
+   "lon": 3.28896,
+   "name": "Egbeda, Alimosho, Lagos, 102213, Nigeria"
+  }
+ ],
  "ng|Ekiti": [
   {
    "lat": 7.73689,
@@ -2033,6 +2464,22 @@
    "name": "Ìjẹ̀bú Òde, Ogun, Nigeria"
   }
  ],
+ "ng|Ikorodu, Lagos": [
+  {
+   "lat": 6.61912,
+   "level": "town",
+   "lon": 3.50413,
+   "name": "Ìkòròdú, Lagos, Nigeria"
+  }
+ ],
+ "ng|Ikoyi, Eti Osa, Lagos": [
+  {
+   "lat": 6.45234,
+   "level": "town",
+   "lon": 3.42805,
+   "name": "Ikoyi, Eti Osa, Lagos, 332222, Nigeria"
+  }
+ ],
  "ng|Ilesha garage": [
   {
    "lat": 7.26979,
@@ -2078,10 +2525,126 @@
  "ng|Inowo": [],
  "ng|Inowo, Ijebu-ode, Ogun": [],
  "ng|Inowo, Ogun": [],
+ "ng|Isaga": [
+  {
+   "lat": 7.1,
+   "level": "village",
+   "lon": 3.16667,
+   "name": "Isaga, Abeokuta North, Ogun, Nigeria"
+  }
+ ],
+ "ng|Isaga, Ifako Ijaiye, Lagos": [],
+ "ng|Isaga, Lagos": [],
+ "ng|Isheri-Ikotun": [
+  {
+   "lat": 6.57634,
+   "level": "grass",
+   "lon": 3.28116,
+   "name": "isheri round about, Idimu, Ikotun, Alimosho, Lagos, Nigeria"
+  },
+  {
+   "lat": 6.51409,
+   "level": "secondary",
+   "lon": 3.26949,
+   "name": "Isheri- Osun Road 2, Ijegun, Ikotun, Alimosho, Lagos, 100263, Nigeria"
+  },
+  {
+   "lat": 6.51417,
+   "level": "secondary",
+   "lon": 3.2695,
+   "name": "Isheri - Osun Road, Ijegun, Ikotun, Alimosho, Lagos, 100263, Nigeria"
+  },
+  {
+   "lat": 6.56432,
+   "level": "amenity",
+   "lon": 3.28047,
+   "name": "Deeper Life Bible Church , Isheri-Council district, Adimula Street, Idimu, Ikotun, Alimosho, Lagos, 102213, Nigeria"
+  }
+ ],
+ "ng|Isheri-Ikotun, Alimoso, Lagos": [],
+ "ng|Isheri-Ikotun, Lagos": [
+  {
+   "lat": 6.57634,
+   "level": "grass",
+   "lon": 3.28116,
+   "name": "isheri round about, Idimu, Ikotun, Alimosho, Lagos, Nigeria"
+  },
+  {
+   "lat": 6.51409,
+   "level": "secondary",
+   "lon": 3.26949,
+   "name": "Isheri- Osun Road 2, Ijegun, Ikotun, Alimosho, Lagos, 100263, Nigeria"
+  },
+  {
+   "lat": 6.51417,
+   "level": "secondary",
+   "lon": 3.2695,
+   "name": "Isheri - Osun Road, Ijegun, Ikotun, Alimosho, Lagos, 100263, Nigeria"
+  },
+  {
+   "lat": 6.56432,
+   "level": "amenity",
+   "lon": 3.28047,
+   "name": "Deeper Life Bible Church , Isheri-Council district, Adimula Street, Idimu, Ikotun, Alimosho, Lagos, 102213, Nigeria"
+  }
+ ],
+ "ng|Iyana-Iba": [
+  {
+   "lat": 6.46134,
+   "level": "amenity",
+   "lon": 3.2042,
+   "name": "Iyana-Iba Market, Lagos-Badagry Expressway, Okokomaiko, Ojo, Lagos, 102113, Nigeria"
+  }
+ ],
+ "ng|Iyana-Iba, Lagos": [
+  {
+   "lat": 6.46134,
+   "level": "amenity",
+   "lon": 3.2042,
+   "name": "Iyana-Iba Market, Lagos-Badagry Expressway, Okokomaiko, Ojo, Lagos, 102113, Nigeria"
+  }
+ ],
+ "ng|Iyana-Iba, Ojoo, Lagos": [],
  "ng|Kobape, Olugbo": [],
  "ng|Lagere": [],
  "ng|Lagere, Ife, Osun": [],
  "ng|Lagere, Osun": [],
+ "ng|Lagos": [
+  {
+   "lat": 6.45506,
+   "level": "town",
+   "lon": 3.39418,
+   "name": "Lagos, Lagos Island, Lagos, 100242, Nigeria"
+  },
+  {
+   "lat": 6.5269,
+   "level": "admin1",
+   "lon": 3.5774,
+   "name": "Lagos, Nigeria"
+  }
+ ],
+ "ng|Mile 12, Kosofe, Lagos": [
+  {
+   "lat": 6.60589,
+   "level": "town",
+   "lon": 3.39526,
+   "name": "Mile 12, Kosofe, Lagos, 100247, Nigeria"
+  },
+  {
+   "lat": 6.60442,
+   "level": "village",
+   "lon": 3.39545,
+   "name": "Mile 12, Kosofe, Lagos, 100247, Nigeria"
+  }
+ ],
+ "ng|Mile 2, Amuwo Odofin, Lagos": [
+  {
+   "lat": 6.45879,
+   "level": "town",
+   "lon": 3.3134,
+   "name": "Mile 2, Amuwo Odofin, Lagos, 102102, Nigeria"
+  }
+ ],
  "ng|Mobalufon": [],
  "ng|Mobalufon, Ijebu-ode, Ogun": [],
  "ng|Mobalufon, Ogun": [],
@@ -2245,6 +2808,7 @@
    "name": "Aroro Pry Health Centre, Ojoo, Akobo - Olorunda Abba Road, Ìbàdàn, Akinyele, Oyo, Nigeria"
   }
  ],
+ "ng|Ojoo, Lagos": [],
  "ng|Ojoo, Oyo": [
   {
    "lat": 7.38434,
@@ -2277,6 +2841,15 @@
    "name": "2 Div Military Hospital, Odogbo Cantonment, Ojoo, Ibadan-Ilorin Expressway, Ojo, Ìbàdàn, Akinyele, Oyo, 200132, Nigeria"
   }
  ],
+ "ng|Okokomaiko, Lagos": [
+  {
+   "lat": 6.47481,
+   "level": "village",
+   "lon": 3.19053,
+   "name": "Okokomaiko, Ojo, Lagos, 102113, Nigeria"
+  }
+ ],
+ "ng|Okokomaiko, Ojoo, Lagos": [],
  "ng|Ondo": [
   {
    "lat": 7.02097,
@@ -2860,6 +3433,34 @@
    "name": "Lower Mweka Hut, Moshi Rural, Kilimanjaro, Northern Zone, Tanzania"
   }
  ],
+ "tz|Pemba": [
+  {
+   "lat": -5.16906,
+   "level": "island",
+   "lon": 39.79943,
+   "name": "Pemba, Wete District, Kaskazini Pemba, Zanzibar زنجبار, Tanzania"
+  },
+  {
+   "lat": -5.99996,
+   "level": "village",
+   "lon": 37.51578,
+   "name": "Pemba, Mvomero, Morogoro, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Unguja": [
+  {
+   "lat": -6.09997,
+   "level": "island",
+   "lon": 39.32095,
+   "name": "Unguja, Unguja Kusini, Zanzibar زنجبار, Tanzania"
+  },
+  {
+   "lat": -6.09997,
+   "level": "admin1",
+   "lon": 39.32095,
+   "name": "Zanzibar زنجبار, Tanzania"
+  }
+ ],
  "ug|Apac": [
   {
    "lat": 1.93373,
@@ -2888,6 +3489,28 @@
    "name": "Arua City, Northern Region, Uganda"
   }
  ],
+ "ug|Central Region": [
+  {
+   "lat": 0.28154,
+   "level": "admin1",
+   "lon": 32.62708,
+   "name": "Central Region, Uganda"
+  }
+ ],
+ "ug|Eastern Region": [
+  {
+   "lat": 0.70946,
+   "level": "admin1",
+   "lon": 33.68046,
+   "name": "Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.42323,
+   "level": "admin1",
+   "lon": 33.17127,
+   "name": "Eastern Region, Central Region, Uganda"
+  }
+ ],
  "ug|Jinja": [
   {
    "lat": 0.57516,
@@ -2910,6 +3533,79 @@
    "name": "Kanungu, Western Region, Uganda"
   }
  ],
+ "ug|Kanungu District": [
+  {
+   "lat": -1.03624,
+   "level": "river",
+   "lon": 29.62869,
+   "name": "Ivi River, Mpungu Sub-County, Kanungu, Western Region, Uganda"
+  },
+  {
+   "lat": -1.02395,
+   "level": "river",
+   "lon": 29.59918,
+   "name": "Ivi River, Nteko, Mpungu Sub-County, Kanungu, Western Region, Uganda"
+  },
+  {
+   "lat": -1.05154,
+   "level": "stream",
+   "lon": 29.76031,
+   "name": "District Boundary Kanungu-Rubanda, Mburameizi, Mpungu Sub-County, Kanungu, Western Region, Uganda"
+  },
+  {
+   "lat": -1.04943,
+   "level": "stream",
+   "lon": 29.66109,
+   "name": "District Boundary Kanungu-Kisoro, Mpungu Sub-County, Kanungu, Western Region, Uganda"
+  },
+  {
+   "lat": -1.02697,
+   "level": "river",
+   "lon": 29.6105,
+   "name": "Ivi River, Nteko, Mpungu Sub-County, Kisoro, Western Region, Uganda"
+  }
+ ],
+ "ug|Kanungu District, Western Region": [
+  {
+   "lat": -1.03624,
+   "level": "river",
+   "lon": 29.62869,
+   "name": "Ivi River, Mpungu Sub-County, Kanungu, Western Region, Uganda"
+  },
+  {
+   "lat": -1.02395,
+   "level": "river",
+   "lon": 29.59918,
+   "name": "Ivi River, Nteko, Mpungu Sub-County, Kanungu, Western Region, Uganda"
+  },
+  {
+   "lat": -1.02697,
+   "level": "river",
+   "lon": 29.6105,
+   "name": "Ivi River, Nteko, Mpungu Sub-County, Kisoro, Western Region, Uganda"
+  },
+  {
+   "lat": -1.05154,
+   "level": "stream",
+   "lon": 29.76031,
+   "name": "District Boundary Kanungu-Rubanda, Mburameizi, Mpungu Sub-County, Kanungu, Western Region, Uganda"
+  },
+  {
+   "lat": -1.04943,
+   "level": "stream",
+   "lon": 29.66109,
+   "name": "District Boundary Kanungu-Kisoro, Mpungu Sub-County, Kanungu, Western Region, Uganda"
+  }
+ ],
+ "ug|Kanungu, Kanungu District, Western Region": [],
+ "ug|Kanungu, Western Region": [
+  {
+   "lat": -0.70639,
+   "level": "admin1",
+   "lon": 29.71429,
+   "name": "Kanungu, Western Region, Uganda"
+  }
+ ],
  "ug|Kyenjojo": [
   {
    "lat": 0.6441,
@@ -2924,6 +3620,70 @@
    "name": "Kyegegwa, Western Region, Uganda"
   }
  ],
+ "ug|Lira": [
+  {
+   "lat": 2.33203,
+   "level": "admin1",
+   "lon": 32.95015,
+   "name": "Lira, Northern Region, Uganda"
+  },
+  {
+   "lat": 2.24569,
+   "level": "town",
+   "lon": 32.89624,
+   "name": "Lira City, Lira, Northern Region, Uganda"
+  }
+ ],
+ "ug|Lira District": [
+  {
+   "lat": 2.24569,
+   "level": "town",
+   "lon": 32.89624,
+   "name": "Lira City, Lira, Northern Region, Uganda"
+  },
+  {
+   "lat": 2.26383,
+   "level": "town",
+   "lon": 32.84763,
+   "name": "Lira, Lira City, Lira, Northern Region, Uganda"
+  }
+ ],
+ "ug|Lira District, Northern Region": [
+  {
+   "lat": 2.23923,
+   "level": "building",
+   "lon": 32.89875,
+   "name": "Northern Region Office, Adoko Road, Bazaar West, Lira City, Lira Municipality, Lira, Northern Region, Uganda"
+  }
+ ],
+ "ug|Lira, Lira District, Northern Region": [
+  {
+   "lat": 2.25242,
+   "level": "railway",
+   "lon": 32.91705,
+   "name": "Lira, Lira-Kitgum Road, Adyel, Lira City, Lira Municipality, Lira, Uganda"
+  },
+  {
+   "lat": 2.25187,
+   "level": "amenity",
+   "lon": 32.90208,
+   "name": "Lira Regional Referral Hospital, Lira-Kitgum Road, Adyel, Lira City, Lira Municipality, Lira, Uganda"
+  }
+ ],
+ "ug|Lira, Northern Region": [
+  {
+   "lat": 2.33203,
+   "level": "admin1",
+   "lon": 32.95015,
+   "name": "Lira, Northern Region, Uganda"
+  },
+  {
+   "lat": 2.24569,
+   "level": "town",
+   "lon": 32.89624,
+   "name": "Lira City, Lira, Northern Region, Uganda"
+  }
+ ],
  "ug|Mubende": [
   {
    "lat": 0.51543,
@@ -2932,7 +3692,75 @@
    "name": "Mubende, Central Region, Uganda"
   }
  ],
+ "ug|Northern Region": [
+  {
+   "lat": 2.7972,
+   "level": "admin1",
+   "lon": 32.26439,
+   "name": "Northern Region, Uganda"
+  }
+ ],
  "ug|Tororo": [
+  {
+   "lat": 0.74076,
+   "level": "admin1",
+   "lon": 34.10268,
+   "name": "Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.69179,
+   "level": "town",
+   "lon": 34.17907,
+   "name": "Tororo, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Tororo District": [
+  {
+   "lat": 0.68868,
+   "level": "unclassified",
+   "lon": 34.18791,
+   "name": "District Road, Central South East, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.6884,
+   "level": "unclassified",
+   "lon": 34.19038,
+   "name": "District Road, Special Area, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.68807,
+   "level": "amenity",
+   "lon": 34.18863,
+   "name": "Tororo District Headquarters, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.68812,
+   "level": "office",
+   "lon": 34.1906,
+   "name": "District Offices, District Road, Special Area, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.69523,
+   "level": "amenity",
+   "lon": 34.18717,
+   "name": "TORORO DISTRICT HOSPITAL, Station Road, Railway Village, Tororo, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Tororo District, Eastern Region": [
+  {
+   "lat": 0.68807,
+   "level": "amenity",
+   "lon": 34.18863,
+   "name": "Tororo District Headquarters, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.69523,
+   "level": "amenity",
+   "lon": 34.18717,
+   "name": "TORORO DISTRICT HOSPITAL, Station Road, Railway Village, Tororo, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Tororo, Eastern Region": [
   {
    "lat": 0.74076,
    "level": "admin1",
@@ -2964,6 +3792,53 @@
    "level": "amenity",
    "lon": 34.18798,
    "name": "Tororo Police, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Tororo, Tororo District, Eastern Region": [
+  {
+   "lat": 0.68807,
+   "level": "amenity",
+   "lon": 34.18863,
+   "name": "Tororo District Headquarters, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.68879,
+   "level": "amenity",
+   "lon": 34.18703,
+   "name": "Tororo East Division Headquarters, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.68918,
+   "level": "amenity",
+   "lon": 34.18798,
+   "name": "Tororo Police, District Road, Central South East, Tororo, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Wakiso": [
+  {
+   "lat": 0.37609,
+   "level": "admin1",
+   "lon": 32.45613,
+   "name": "Wakiso, Central Region, Uganda"
+  }
+ ],
+ "ug|Wakiso District": [],
+ "ug|Wakiso District, Central Region": [],
+ "ug|Wakiso, Central Region": [
+  {
+   "lat": 0.37609,
+   "level": "admin1",
+   "lon": 32.45613,
+   "name": "Wakiso, Central Region, Uganda"
+  }
+ ],
+ "ug|Wakiso, Wakiso District, Central Region": [],
+ "ug|Western Region": [
+  {
+   "lat": -0.65472,
+   "level": "admin1",
+   "lon": 30.6721,
+   "name": "Western Region, Uganda"
   }
  ],
  "yt|Dzoumogné": [],

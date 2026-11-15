@@ -1,0 +1,12 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+oduola_2012_badagry,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,6,0,14,,,0.55,,Table 3: Badagry | *N = 20 | SS = 14 | RS = 0 | RR = 6 | Allelic frequency F(R) = 0.55,6,Table 3,,
+oduola_2012_mile2,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,6,0,14,,,0.55,,Table 3: Mile 2 | *N = 20 | SS = 14 | RS = 0 | RR = 6 | Allelic frequency F(R) = 0.55,6,Table 3,,
+oduola_2012_isaga,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,12,0,8,,,0.77,,Table 3: Isaga | *N = 20 | SS = 8 | RS = 0 | RR = 12 | Allelic frequency F(R) = 0.77,6,Table 3,,
+oduola_2012_bariga,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,8,0,10,,,0.63,"Printed genotype counts do not sum to N: SS (10) + RS (0) + RR (8) = 18, whereas N is printed as 20.",Table 3: Bariga | *N = 20 | SS = 10 | RS = 0 | RR = 8 | Allelic frequency F(R) = 0.63,6,Table 3,,
+oduola_2012_ikorodu,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,11,0,9,,,0.74,,Table 3: Ikorodu | *N = 20 | SS = 9 | RS = 0 | RR = 11 | Allelic frequency F(R) = 0.74,6,Table 3,,
+oduola_2012_ikoyi,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,8,0,11,,,0.63,"Printed genotype counts do not sum to N: SS (11) + RS (0) + RR (8) = 19, whereas N is printed as 20.",Table 3: Ikoyi | *N = 20 | SS = 11 | RS = 0 | RR = 8 | Allelic frequency F(R) = 0.63,6,Table 3,,
+oduola_2012_mile12,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,6,0,14,,,0.55,,Table 3: Mile 12 | *N = 20 | SS = 14 | RS = 0 | RR = 6 | Allelic frequency F(R) = 0.55,6,Table 3,,
+oduola_2012_egbeda,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,7,0,13,,,0.59,,Table 3: Egbeda | *N = 20 | SS = 13 | RS = 0 | RR = 7 | Allelic frequency F(R) = 0.59,6,Table 3,,
+oduola_2012_iyana_iba,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,4,2,14,,,0.45,,Table 3: Iyana-Iba | *N = 20 | SS = 14 | RS = 2 | RR = 4 | Allelic frequency F(R) = 0.45,6,Table 3,,
+oduola_2012_okokomaiko,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,6,0,14,,,0.55,,Table 3: Okokomaiko | *N = 20 | SS = 14 | RS = 0 | RR = 6 | Allelic frequency F(R) = 0.55,6,Table 3,,
+oduola_2012_isheri_ikotun,Vgsc,kdr-w,Vgsc,L995F,SNP,1,L1014F,,F,PCR,False,20,4,2,14,,,0.45,,Table 3: Isheri-Ikotun | *N = 20 | SS = 14 | RS = 2 | RR = 4 | Allelic frequency F(R) = 0.45,6,Table 3,,
