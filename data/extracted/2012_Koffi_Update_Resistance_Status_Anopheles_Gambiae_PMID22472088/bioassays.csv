@@ -1,0 +1,8 @@
+bioassay_id,survey_id,insecticide,insecticide_class,concentration,exposure_duration_min,assay_method,assay_type,synergist,dead_alive_printed,n_exposed,n_dead,n_alive,reported_mortality_pct,mortality_time_h,inconsistency_note,source_text,page,table,figure,supplement
+2012_Koffi_Yaokoffikro_2008_carbosulfan_04,2012_Koffi_Yaokoffikro_2008,carbosulfan,carbamate,0.4%,60.0,WHO tube test,susceptibility,,False,79,,,13.9,24.0,,0.4% Carbosulfan N=79 % Mortality=13.9 Status=R,3,Table 1,,
+2012_Koffi_Yaokoffikro_2008_propoxur_01,2012_Koffi_Yaokoffikro_2008,propoxur,carbamate,0.1%,60.0,WHO tube test,susceptibility,,False,113,,,22.1,24.0,,0.1% Propoxur N=113 % Mortality=22.1 Status=R,3,Table 1,,
+2012_Koffi_Yaokoffikro_2008_fenitrothion_1,2012_Koffi_Yaokoffikro_2008,fenitrothion,organophosphate,1%,60.0,WHO tube test,susceptibility,,False,97,,,94.8,24.0,,1% Fenitrothion N=97 % Mortality=94.8 Status=R,3,Table 1,,
+2012_Koffi_Yaokoffikro_2008_permethrin_1,2012_Koffi_Yaokoffikro_2008,permethrin,pyrethroid,1%,60.0,WHO tube test,susceptibility,,False,106,,,68.9,24.0,,1% Permethrin N=106 % Mortality=68.9 Status=R,3,Table 1,,
+2012_Koffi_Yaokoffikro_2008_lambdacyhalothrin_005,2012_Koffi_Yaokoffikro_2008,lambda-cyhalothrin,pyrethroid,0.05%,60.0,WHO tube test,susceptibility,,False,97,,,68.0,24.0,,0.05% Lambdacyalothrin N=97 % Mortality=68 Status=R,3,Table 1,,
+2012_Koffi_Yaokoffikro_2008_etofenprox_005,2012_Koffi_Yaokoffikro_2008,etofenprox,pseudo-pyrethroid,0.05%,60.0,WHO tube test,susceptibility,,False,100,,,36.0,24.0,,0.05% Etofenprox N=100 % Mortality=36 Status=R,3,Table 1,,
+2012_Koffi_Yaokoffikro_2008_ddt_4,2012_Koffi_Yaokoffikro_2008,DDT,organochlorine,4%,60.0,WHO tube test,susceptibility,,False,99,,,12.1,24.0,,4% DDT N=99 % Mortality=12.1 Status=R,3,Table 1,,

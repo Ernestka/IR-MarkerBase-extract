@@ -7,7 +7,7 @@ pmid: '22721002'
 publication_year: 2012
 countries:
 - Burkina Faso
-data_source: journal_article
+data_source: journal paper
 provenance:
   source_text: 'Dabiré et al. Parasites & Vectors 2012, 5:127 Population dynamics
     of Anopheles gambiae s.l. in Bobo-Dioulasso city: bionomics, infection rate and
@@ -17,6 +17,5 @@ provenance:
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
-extracted: '2026-11-14'
-pmid_source: Europe PMC (from DOI)
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'

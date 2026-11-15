@@ -1,0 +1,19 @@
+study_id: 2012_Mourou_Malaria_Transmission_Libreville_Results_One_PMID22321336
+title: 'Malaria transmission in Libreville: results of a one year survey'
+first_author: Jean-Romain Mourou
+doi: 10.1186/1475-2875-11-40
+pmid: '22321336'
+publication_year: 2012
+countries:
+- Gabon
+data_source: journal_article
+provenance:
+  source_text: 'Malaria transmission in Libreville: results of a one year survey.
+    Mourou et al. Malaria Journal 2012, 11:40'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'

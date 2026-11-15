@@ -1,33 +1,33 @@
 # Extraction record — 2012_Ahoua_Alou_Status_Pyrethroid_Resistance_Anopheles_Gambiae_PMID23232083
 
-- Extracted: 2026-11-14
+- Extracted: 2026-11-15
 - Model: gemini:gemini-3.5-flash
 - Confidence (model's own): high
 - Surveys: 2 · Genotype rows: 0 · Bioassays: 6 · Geno-pheno rows: 4
 
 ## Decisions
 
-### Data Extraction Summary
+### Data Extraction Decisions Summary
 
-1. **Surveys**:
-   - Two sampling locations in Adzopé district, Eastern Côte d'Ivoire: Port-Bouët and Tsassodji.
-   - Collections took place between May and June 2007.
-   - All collected Anopheles gambiae s.l. were identified molecularly as An. gambiae s.s. M form (Anopheles coluzzii).
-   - Coordinates printed as (6°10 N, 3°85 W). Latitude 6°10' N converted to 6.166667. Longitude printed as 3°85 W, which likely represents 3.85° W, recorded as -3.85.
+1. **Surveys & Sites**:
+   - Two survey sites in Adzopé district, Côte d'Ivoire: Port-Bouët and Tsassodji.
+   - Mosquitoes collected as larvae in May-June 2007 and reared to adults (wild_reared, F0).
+   - Identified molecularly as *Anopheles gambiae s. s. M form*.
+   - Coordinates provided as `6°10 N, 3°85 W` (6.166667, -3.85).
 
 2. **Bioassays**:
-   - 6 bioassay records extracted from Table 1 covering WHO standard cylinder susceptibility tests for permethrin 1%, deltamethrin 0.05%, and lambda-cyhalothrin 0.05% across both sites.
-   - Laboratory susceptible Kisumu reference strain was excluded per Rule 5.
-   - `dead_alive_printed` set to false as only N exposed and % mortality were printed in Table 1.
+   - Extracted 6 WHO cylinder susceptibility tests (3 pyrethroids x 2 sites).
+   - Kisumu laboratory reference strain bioassays were excluded as controls.
+   - Only `N` exposed and `Mortality (%)` are reported in Table 1; explicit counts of dead/alive were not printed, so `n_dead` and `n_alive` are left null with `dead_alive_printed = false` as per rules.
 
-3. **Genotypes & Geno_Pheno**:
-   - All genotyped specimens in Table 2 (N=56 for Port-Bouët and N=34 for Tsassodji) were split into Alive and Dead phenotype groups after exposure to pyrethroid-treated filter papers.
-   - Per Rule 6, these records are placed in `geno_pheno` with `bioassay_id` set to null (since specimens were pooled across the pyrethroid bioassays) and `insecticide` set to 'pyrethroids'.
-   - To avoid double counting, the `genotypes` array is kept empty.
+3. **Genotype vs Geno-Pheno Data**:
+   - Genotyping for Vgsc L1014F (L995F) was performed on mosquitoes randomly selected from survivors (alive) and dead post-exposure across pyrethroid bioassays (pooled across pyrethroids).
+   - Since all genotyped mosquitoes were split by phenotype outcome, they are extracted into `geno_pheno` (Rule 6). `bioassay_id` is left null because mosquitoes were pooled across multiple pyrethroid exposures. `genotypes` is left empty to avoid double counting.
+   - Pooled total rows in Table 2 are omitted as per Rule 7.
 
 ## Validator warnings
 
-- geno_pheno #1 (pyrethroids, kdr L1014F, alive): not linked to a single bioassay (insecticide as reported: pyrethroids)
-- geno_pheno #2 (pyrethroids, kdr L1014F, dead): not linked to a single bioassay (insecticide as reported: pyrethroids)
-- geno_pheno #3 (pyrethroids, kdr L1014F, alive): not linked to a single bioassay (insecticide as reported: pyrethroids)
-- geno_pheno #4 (pyrethroids, kdr L1014F, dead): not linked to a single bioassay (insecticide as reported: pyrethroids)
+- geno_pheno #1 (permethrin, deltamethrin, lambda-cyhalothrin, Vgsc L1014F, alive): not linked to a single bioassay (insecticide as reported: permethrin, deltamethrin, lambda-cyhalothrin)
+- geno_pheno #2 (permethrin, deltamethrin, lambda-cyhalothrin, Vgsc L1014F, dead): not linked to a single bioassay (insecticide as reported: permethrin, deltamethrin, lambda-cyhalothrin)
+- geno_pheno #3 (permethrin, deltamethrin, lambda-cyhalothrin, Vgsc L1014F, alive): not linked to a single bioassay (insecticide as reported: permethrin, deltamethrin, lambda-cyhalothrin)
+- geno_pheno #4 (permethrin, deltamethrin, lambda-cyhalothrin, Vgsc L1014F, dead): not linked to a single bioassay (insecticide as reported: permethrin, deltamethrin, lambda-cyhalothrin)

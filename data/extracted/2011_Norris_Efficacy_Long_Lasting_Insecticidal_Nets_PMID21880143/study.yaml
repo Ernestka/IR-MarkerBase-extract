@@ -1,0 +1,22 @@
+study_id: 2011_Norris_Efficacy_Long_Lasting_Insecticidal_Nets_PMID21880143
+title: Efficacy of long-lasting insecticidal nets in use in Macha, Zambia, against
+  the local Anopheles arabiensis population
+first_author: Laura C Norris
+doi: 10.1186/1475-2875-10-254
+pmid: '21880143'
+publication_year: 2011
+countries:
+- Zambia
+data_source: journal_article
+provenance:
+  source_text: Efficacy of long-lasting insecticidal nets in use in Macha, Zambia,
+    against the local Anopheles arabiensis population. Norris and Norris Malaria Journal
+    2011, 10:254
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)

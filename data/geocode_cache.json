@@ -15,6 +15,14 @@
    "name": "Bobo-Dioulasso, Houet, Hauts-Bassins, Burkina Faso"
   }
  ],
+ "bf|Goundry": [
+  {
+   "lat": 12.51818,
+   "level": "village",
+   "lon": -1.34105,
+   "name": "Goundry, Loumbila, Oubritenga, Plateau-Central, Burkina Faso"
+  }
+ ],
  "bf|Nazoanga, Nanoro, Centre-West": [
   {
    "lat": 12.62265,
@@ -513,6 +521,14 @@
   }
  ],
  "ci|Yaokoffikro, Bouaké": [],
+ "cm|Yaoundé": [
+  {
+   "lat": 3.86899,
+   "level": "town",
+   "lon": 11.52133,
+   "name": "Communauté urbaine de Yaoundé, Mfoundi, Centre, Cameroun"
+  }
+ ],
  "et|Gilgel-Gibe dam area": [],
  "et|Gilgel-Gibe dam area ('high risk' villages)": [],
  "et|Gilgel-Gibe dam area ('high risk' villages), Jimma": [],
@@ -534,6 +550,26 @@
    "name": "Jimma, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
   }
  ],
+ "ga|Akébé-Poteau": [],
+ "ga|Akébé-Poteau, Libreville": [],
+ "ga|Alibandeng, Libreville": [
+  {
+   "lat": 0.4559,
+   "level": "village",
+   "lon": 9.42752,
+   "name": "Alibandeng, 1er Arrondissement de Libreville, Libreville, Estuaire, Gabon"
+  }
+ ],
+ "ga|Beauséjour": [],
+ "ga|Beauséjour, Libreville": [],
+ "ga|Camp des Boys, Libreville": [
+  {
+   "lat": 0.42637,
+   "level": "village",
+   "lon": 9.4251,
+   "name": "Camp des Boys, Trois quartiers, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+  }
+ ],
  "ga|Lambaréné, Moyen-Ogooué": [
   {
    "lat": -0.69426,
@@ -542,12 +578,34 @@
    "name": "Lambaréné, Ogooue Et Lacs, Moyen-Ogooué, Gabon"
   }
  ],
+ "ga|Libreville": [
+  {
+   "lat": 0.40865,
+   "level": "town",
+   "lon": 9.44188,
+   "name": "Libreville, Estuaire, Gabon"
+  },
+  {
+   "lat": 0.45258,
+   "level": "admin2",
+   "lon": 9.45917,
+   "name": "Libreville, Estuaire, Gabon"
+  }
+ ],
  "ga|Moyen-Ogooué": [
   {
    "lat": -0.50035,
    "level": "admin1",
    "lon": 10.49911,
    "name": "Moyen-Ogooué, Gabon"
+  }
+ ],
+ "ga|Sotega, Libreville": [
+  {
+   "lat": 0.42021,
+   "level": "village",
+   "lon": 9.45654,
+   "name": "Sotega, 3ème Arrondissement, Libreville, Estuaire, Gabon"
   }
  ],
  "ga|Zilé": [
@@ -564,6 +622,14 @@
    "level": "lake",
    "lon": 10.27796,
    "name": "Lac Zilé, Etougué, Ogooue Et Lacs, Moyen-Ogooué, Gabon"
+  }
+ ],
+ "gh|Accra": [
+  {
+   "lat": 5.55711,
+   "level": "town",
+   "lon": -0.20124,
+   "name": "Accra, Korle-Klottey Municipal District, Greater Accra Region, Ghana"
   }
  ],
  "gh|Ashanti": [

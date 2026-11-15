@@ -7,16 +7,13 @@ pmid: '21489266'
 publication_year: 2011
 countries:
 - Benin
-data_source: published_paper
+data_source: journal_article
 provenance:
-  source_text: Cotton pest management practices and the selection of pyrethroid resistance
-    in Anopheles gambiae population in Northern Benin. Yadouleton et al. Parasites
-    & Vectors 2011, 4:60
+  source_text: Yadouleton et al. Parasites & Vectors 2011, 4:60
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
-extracted: '2026-11-14'
-pmid_source: Europe PMC (from DOI)
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'

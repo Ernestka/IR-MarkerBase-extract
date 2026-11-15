@@ -1,41 +1,23 @@
 # Extraction record — 2011_Ngufor_Combining_Indoor_Residual_Spraying_Chlorfenapyr_PMID22087506
 
-- Extracted: 2026-11-14
-- Model: gemini:gemini-3.8-flash
+- Extracted: 2026-11-15
+- Model: gemini:gemini-3.5-flash
 - Confidence (model's own): high
-- Surveys: 2 · Genotype rows: 1 · Bioassays: 0 · Geno-pheno rows: 8
+- Surveys: 2 · Genotype rows: 1 · Bioassays: 5 · Geno-pheno rows: 8
 
 ## Decisions
 
-# Extraction Decisions for Ngufor et al. 2011 (Malaria Journal)
-
-## Marker Identification
-- The paper evaluates the *kdr* mutation using the PCR assay described by Martinez-Torres et al. 1998 (reference 18), which identifies the Vgsc L1014F (*kdr-west*) mutation. In accordance with the target marker list, `gene` is set to `Vgsc` and `marker` to `L1014F`.
-
-## Surveys
-- **Site**: Akron, a village on the periphery of Porto Novo, Benin. Latitude and longitude were not provided in the paper.
-- Two surveys were created:
-  1. `..._akron_larval`: Baseline larval collection from Akron reared to adulthood (100 adults genotyped for kdr frequency).
-  2. `..._akron_huts`: Wild adults collected during the experimental hut trial conducted between June and September 2010 (total 865 An. gambiae s.l. females caught).
-
-## Bioassays vs. Experimental Hut Interventions
-- The study reports results of an experimental hut trial with 7 arms (untreated nets, deltamethrin-treated LLINs, chlorfenapyr IRS, and combinations). These are Phase II intervention trials measuring hut entry, blood feeding inhibition, induced exiting, and mortality, not standardized WHO or CDC susceptibility bioassays. Furthermore, combination treatments violate the rule of 'one specific insecticide each' for bioassays (Rule 8b). Therefore, no bioassays were extracted into `bioassays`.
-
-## Genotypes & Genotype-Phenotype Data
-- **Genotypes (`genotypes`)**: Extracted the baseline larval sample (N = 100, kdr frequency = 0.91) which was not split by bioassay outcome.
-- **Genotype-Phenotype (`geno_pheno`)**: Table 3 reports kdr allele frequencies for live and dead mosquitoes across 4 experimental hut treatments. In accordance with Rule 6 ('or the bioassay itself is not extractable — leave bioassay_id null and give insecticide as reported'), these are extracted into `geno_pheno` with `bioassay_id: null`.
-- Table 3 provides allele counts in parentheses: `kdr alleles / total kdr and susceptibility alleles`. Diploid mosquito counts (n) and genotype classes (RR, RS, SS) are not printed, so `n`, `rr`, `rs`, and `ss` are left as `null` while `reported_allele_freq` contains the printed proportion.
-- Note that for Chlorfenapyr IRS + LLIN (alive), the paper reports `1.0 (25/25)`, which represents an odd number of alleles (25). This is noted in the `inconsistency_note`.
+### Data Extraction Decisions
+- **Surveys**: Two surveys were created: one for baseline field-collected larvae reared to adults (Akron, 2010) and one for adult mosquitoes collected in experimental huts (Akron, June-September 2010).
+- **Marker Identification**: The paper assesses the kdr locus using Martinez-Torres et al. (1998) PCR assay, which tests for Vgsc L1014F (L995F). `gene` is specified as 'kdr' and `marker` as 'L1014F'.
+- **Bioassays**: Extracted from Table 1 for all insecticidal experimental hut treatments against *Anopheles gambiae*. Delayed 72-hour mortality was recorded.
+- **Genotype-Phenotype**: Table 3 reports kdr allele counts out of total alleles scored for alive and dead mosquitoes across four experimental hut treatments. Sample sizes (`n`) are derived from total alleles divided by 2. For the 'Alive' group of Chlorfenapyr IRS + LLIN 80 holes, 25 total alleles is printed (yielding a non-integer count of 12.5 mosquitoes, so `n` is set to null).
+- **Excluded Non-target Species**: Data for *Culex quinquefasciatus* (Table 2) were excluded as this schema targets African *Anopheles* vectors.
 
 ## Validator warnings
 
-- genotype #1 (2011_Ngufor_Combining_Indoor_Residual_Spraying_Chlorfenapyr_PMID22087506_akron_larval, Vgsc L1014F): frequency only (no raw counts)
-- geno_pheno #1 (chlorfenapyr, Vgsc L1014F, alive): not linked to a single bioassay (insecticide as reported: chlorfenapyr)
-- geno_pheno #2 (chlorfenapyr, Vgsc L1014F, dead): not linked to a single bioassay (insecticide as reported: chlorfenapyr)
-- geno_pheno #3 (chlorfenapyr + deltamethrin, Vgsc L1014F, alive): not linked to a single bioassay (insecticide as reported: chlorfenapyr + deltamethrin)
-- geno_pheno #3 (chlorfenapyr + deltamethrin, Vgsc L1014F, alive): inconsistent in the paper (values kept as printed) — Reported as 1.0 (25/25) kdr alleles/total alleles; 25 total alleles is an odd number for diploid mosquitoes.
-- geno_pheno #4 (chlorfenapyr + deltamethrin, Vgsc L1014F, dead): not linked to a single bioassay (insecticide as reported: chlorfenapyr + deltamethrin)
-- geno_pheno #5 (deltamethrin, Vgsc L1014F, alive): not linked to a single bioassay (insecticide as reported: deltamethrin)
-- geno_pheno #6 (deltamethrin, Vgsc L1014F, dead): not linked to a single bioassay (insecticide as reported: deltamethrin)
-- geno_pheno #7 (untreated net, Vgsc L1014F, alive): not linked to a single bioassay (insecticide as reported: untreated net)
-- geno_pheno #8 (untreated net, Vgsc L1014F, dead): not linked to a single bioassay (insecticide as reported: untreated net)
+- genotype #1 (2011_Ngufor_Benin_Akron_2010_larvae, kdr L1014F): frequency only (no raw counts)
+- bioassay 2011_Ngufor_Benin_Akron_2010_hut_cfp_llin_80h: computed mortality 91.5% differs from reported 82.3% (Abbott correction?)
+- geno_pheno #3 (2011_Ngufor_Benin_Akron_2010_hut_cfp_llin_80h, kdr L1014F, alive): inconsistent in the paper (values kept as printed) — Total alleles printed as 25 (yielding non-integer 12.5 mosquitoes), so n is set to null.
+- geno_pheno #7 (no insecticide, kdr L1014F, alive): not linked to a single bioassay (insecticide as reported: none given)
+- geno_pheno #8 (no insecticide, kdr L1014F, dead): not linked to a single bioassay (insecticide as reported: none given)

@@ -7,16 +7,14 @@ pmid: '22770418'
 publication_year: 2012
 countries:
 - Burkina Faso
-data_source: journal_article
+data_source: journal
 provenance:
-  source_text: Badolo et al. Development of an allele-specific, loop-mediated, isothermal
-    amplification method (AS-LAMP) to detect the L1014F kdr-w mutation in Anopheles
-    gambiae s. l. Malaria Journal 2012, 11:227.
+  source_text: Development of an allele-specific, loop-mediated, isothermal amplification
+    method (AS-LAMP) to detect the L1014F kdr-w mutation in Anopheles gambiae s. l.
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
-extracted: '2026-11-14'
-pmid_source: Europe PMC (from DOI)
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'

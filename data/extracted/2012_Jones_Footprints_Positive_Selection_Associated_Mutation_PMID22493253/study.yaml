@@ -1,0 +1,24 @@
+study_id: 2012_Jones_Footprints_Positive_Selection_Associated_Mutation_PMID22493253
+title: Footprints of positive selection associated with a mutation (N1575Y) in the
+  voltage-gated sodium channel of Anopheles gambiae
+first_author: Christopher M. Jones
+doi: 10.1073/pnas.1201475109
+pmid: '22493253'
+publication_year: 2012
+countries:
+- Burkina Faso
+- Benin
+- Cameroon
+- Ghana
+data_source: paper
+provenance:
+  source_text: 'Footprints of positive selection associated with a mutation (N1575Y)
+    in the voltage-gated sodium channel of Anopheles gambiae. PNAS 109 (17): 6614-6619.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-15'
+pmid_source: Europe PMC (from DOI)
