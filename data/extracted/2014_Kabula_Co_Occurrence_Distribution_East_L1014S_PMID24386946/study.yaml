@@ -1,0 +1,21 @@
+study_id: 2014_Kabula_Co_Occurrence_Distribution_East_L1014S_PMID24386946
+title: Co-occurrence and distribution of East (L1014S) and West (L1014F) African knock-down
+  resistance in Anopheles gambiae sensu lato population of Tanzania
+first_author: Bilali Kabula
+doi: 10.1111/tmi.12248
+pmid: '24386946'
+publication_year: 2014
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: Co-occurrence and distribution of East (L1014S) and West (L1014F) African
+    knock-down resistance in Anopheles gambiae sensu lato population of Tanzania
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-16'
+pmid_source: Europe PMC (from DOI)

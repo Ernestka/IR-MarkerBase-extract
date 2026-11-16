@@ -1,0 +1,24 @@
+study_id: 2014_Mulamba_Widespread_Pyrethroid_DDT_Resistance_Major_PMID25333491
+title: Widespread Pyrethroid and DDT Resistance in the Major Malaria Vector Anopheles
+  funestus in East Africa Is Driven by Metabolic Resistance Mechanisms
+first_author: Charles Mulamba
+doi: 10.1371/journal.pone.0110058
+pmid: '25333491'
+publication_year: 2014
+countries:
+- Uganda
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: 'Mulamba C, Riveron JM, Ibrahim SS, Irving H, Barnes KG, et al. (2014)
+    Widespread Pyrethroid and DDT Resistance in the Major Malaria Vector Anopheles
+    funestus in East Africa Is Driven by Metabolic Resistance Mechanisms. PLoS ONE
+    9(10): e110058. doi:10.1371/journal.pone.0110058'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-16'
+pmid_source: Europe PMC (from DOI)

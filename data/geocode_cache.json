@@ -3431,6 +3431,268 @@
  ],
  "sn|Middle Senegal River basin": [],
  "sn|Senegal River basin": [],
+ "tz|Arumeru": [
+  {
+   "lat": -3.37808,
+   "level": "road",
+   "lon": 36.83929,
+   "name": "arumeru river lodge road, Usa River, Meru, Arusha, Northern Zone, 23306, Tanzania"
+  },
+  {
+   "lat": -3.38119,
+   "level": "tourism",
+   "lon": 36.84025,
+   "name": "Arumeru River Lodge, arumeru river lodge road, Usa River, Meru, Arusha, Northern Zone, 23306, Tanzania"
+  },
+  {
+   "lat": -3.38101,
+   "level": "building",
+   "lon": 36.83981,
+   "name": "Arumeru River Lodge, arumeru river lodge road, Usa River, Meru, Arusha, Northern Zone, 23306, Tanzania"
+  },
+  {
+   "lat": -3.36424,
+   "level": "amenity",
+   "lon": 36.70874,
+   "name": "Mahakana ya Wilaya Arusha/Arumeru, T2, Kwa Mrefu, Baraa, Ngulelo, Arusha Municipal, Arusha, Northern Zone, 23110, Tanzania"
+  },
+  {
+   "lat": -3.35484,
+   "level": "office",
+   "lon": 36.84017,
+   "name": "Arumeru District Council, Ngaresero Avenue, Usa River, Meru, Arusha, Northern Zone, 23306, Tanzania"
+  }
+ ],
+ "tz|Arumeru, Arusha": [
+  {
+   "lat": -3.37808,
+   "level": "road",
+   "lon": 36.83929,
+   "name": "arumeru river lodge road, Usa River, Meru, Arusha, Northern Zone, 23306, Tanzania"
+  },
+  {
+   "lat": -3.38119,
+   "level": "tourism",
+   "lon": 36.84025,
+   "name": "Arumeru River Lodge, arumeru river lodge road, Usa River, Meru, Arusha, Northern Zone, 23306, Tanzania"
+  },
+  {
+   "lat": -3.38101,
+   "level": "building",
+   "lon": 36.83981,
+   "name": "Arumeru River Lodge, arumeru river lodge road, Usa River, Meru, Arusha, Northern Zone, 23306, Tanzania"
+  },
+  {
+   "lat": -3.35484,
+   "level": "office",
+   "lon": 36.84017,
+   "name": "Arumeru District Council, Ngaresero Avenue, Usa River, Meru, Arusha, Northern Zone, 23306, Tanzania"
+  },
+  {
+   "lat": -3.36424,
+   "level": "amenity",
+   "lon": 36.70874,
+   "name": "Mahakana ya Wilaya Arusha/Arumeru, T2, Kwa Mrefu, Baraa, Ngulelo, Arusha Municipal, Arusha, Northern Zone, 23110, Tanzania"
+  }
+ ],
+ "tz|Arusha": [
+  {
+   "lat": -3.36968,
+   "level": "town",
+   "lon": 36.68808,
+   "name": "Arusha, Arusha Municipal, Arusha, Northern Zone, 23103, Tanzania"
+  },
+  {
+   "lat": -2.71706,
+   "level": "admin1",
+   "lon": 35.68125,
+   "name": "Arusha, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.52387,
+   "level": "admin2",
+   "lon": 36.80042,
+   "name": "Arusha, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Babati, Manyara": [
+  {
+   "lat": -4.21006,
+   "level": "town",
+   "lon": 35.74915,
+   "name": "Babati, Babati Municipal, Manyara, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -4.02766,
+   "level": "admin2",
+   "lon": 35.91127,
+   "name": "Babati, Manyara, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.79518,
+   "level": "village",
+   "lon": 35.69279,
+   "name": "Manyara, Babati, Manyara, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Dar es Salaam": [
+  {
+   "lat": -6.81608,
+   "level": "town",
+   "lon": 39.28036,
+   "name": "Dar es Salaam, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Dodoma": [
+  {
+   "lat": -6.17912,
+   "level": "town",
+   "lon": 35.74682,
+   "name": "Dodoma, Dodoma City, Dodoma, Central Zone, 41110, Tanzania"
+  },
+  {
+   "lat": -6.01029,
+   "level": "admin1",
+   "lon": 35.8245,
+   "name": "Dodoma, Central Zone, Tanzania"
+  }
+ ],
+ "tz|Dodoma Rural": [
+  {
+   "lat": -6.18636,
+   "level": "amenity",
+   "lon": 35.74413,
+   "name": "Institute Of Rural Development Planning, Mwangosi Road, Kilimani, Dodoma, Dodoma City, Dodoma, Central Zone, 41110, Tanzania"
+  },
+  {
+   "lat": -6.18706,
+   "level": "office",
+   "lon": 35.75461,
+   "name": "Tanzania Rural and Urban Roads Agency (TARURA), Mvumi, Kilimani, Dodoma, Dodoma City, Dodoma, Central Zone, 41110, Tanzania"
+  },
+  {
+   "lat": -6.13319,
+   "level": "office",
+   "lon": 35.92238,
+   "name": "Tanzania Rural and Urban Roads Agency (TARURA), Dodoma City Outer Ring, Ihumwa, Dodoma City, Dodoma, Central Zone, Tanzania"
+  },
+  {
+   "lat": -6.12177,
+   "level": "amenity",
+   "lon": 35.74509,
+   "name": "Chuo Cha Mipango ya Maendeleo Vijijini (Dodoma), Mipango Path, Dodoma, Dodoma City, Dodoma, Central Zone, 41216, Tanzania"
+  },
+  {
+   "lat": -6.13297,
+   "level": "office",
+   "lon": 36.84319,
+   "name": "Tanzanian Rural and Urban Roads Agency (TARURA), T3, Gairo, Morogoro, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Dodoma Rural, Dodoma": [
+  {
+   "lat": -6.12177,
+   "level": "amenity",
+   "lon": 35.74509,
+   "name": "Chuo Cha Mipango ya Maendeleo Vijijini (Dodoma), Mipango Path, Dodoma, Dodoma City, Dodoma, Central Zone, 41216, Tanzania"
+  }
+ ],
+ "tz|Handeni, Tanga": [
+  {
+   "lat": -5.49479,
+   "level": "admin2",
+   "lon": 38.40737,
+   "name": "Handeni, Tanga, Northern Zone, 21813, Tanzania"
+  },
+  {
+   "lat": -5.42833,
+   "level": "town",
+   "lon": 38.02114,
+   "name": "Handeni, Handeni Town, Tanga, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Ilala": [
+  {
+   "lat": -6.82941,
+   "level": "village",
+   "lon": 39.26289,
+   "name": "Ilala, Kasulu, Ilala Municipal, Dar es Salaam, Coastal Zone, 38656, Tanzania"
+  },
+  {
+   "lat": -6.83922,
+   "level": "shop",
+   "lon": 39.25716,
+   "name": "GSM Pugu Mall, ilala, Nyerere Road, Njaro, Chang'ombe, Temeke MC, Dar es Salaam, Coastal Zone, 38656, Tanzania"
+  },
+  {
+   "lat": -6.94332,
+   "level": "town",
+   "lon": 39.14741,
+   "name": "Ilala Municipal, Dar es Salaam, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Ilala, Dar es Salaam": [
+  {
+   "lat": -6.82941,
+   "level": "village",
+   "lon": 39.26289,
+   "name": "Ilala, Kasulu, Ilala Municipal, Dar es Salaam, Coastal Zone, 38656, Tanzania"
+  },
+  {
+   "lat": -6.83922,
+   "level": "shop",
+   "lon": 39.25716,
+   "name": "GSM Pugu Mall, ilala, Nyerere Road, Njaro, Chang'ombe, Temeke MC, Dar es Salaam, Coastal Zone, 38656, Tanzania"
+  },
+  {
+   "lat": -6.94332,
+   "level": "town",
+   "lon": 39.14741,
+   "name": "Ilala Municipal, Dar es Salaam, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Kilimanjaro": [
+  {
+   "lat": -3.07865,
+   "level": "massif",
+   "lon": 37.41986,
+   "name": "Kilimanjaro, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.47628,
+   "level": "admin1",
+   "lon": 37.38726,
+   "name": "Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Kilombero, Morogoro": [
+  {
+   "lat": -8.11624,
+   "level": "admin2",
+   "lon": 37.19954,
+   "name": "Kilombero, Morogoro, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Kyela, Mbeya": [
+  {
+   "lat": -9.54458,
+   "level": "admin2",
+   "lon": 33.82107,
+   "name": "Kyela, Mbeya, Southern Highlands Zone, Tanzania"
+  },
+  {
+   "lat": -9.59297,
+   "level": "ward",
+   "lon": 33.87289,
+   "name": "Kyela, Mbeya, Southern Highlands Zone, Tanzania"
+  },
+  {
+   "lat": -9.59057,
+   "level": "town",
+   "lon": 33.86981,
+   "name": "Kyela, Mbeya, Southern Highlands Zone, Tanzania"
+  }
+ ],
  "tz|Lower Moshi, Kilimanjaro": [
   {
    "lat": -3.15692,
@@ -3443,6 +3705,92 @@
    "level": "building",
    "lon": 37.36698,
    "name": "Lower Mweka Hut, Moshi Rural, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Lushoto, Tanga": [
+  {
+   "lat": -4.49528,
+   "level": "admin2",
+   "lon": 38.44802,
+   "name": "Lushoto, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -4.79515,
+   "level": "town",
+   "lon": 38.29051,
+   "name": "Lushoto, Tanga, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Magu, Mwanza": [
+  {
+   "lat": -2.61097,
+   "level": "admin2",
+   "lon": 33.38483,
+   "name": "Magu, Mwanza, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -2.58996,
+   "level": "town",
+   "lon": 33.44453,
+   "name": "Magu, Mwanza, Lake Zone, Tanzania"
+  }
+ ],
+ "tz|Moshi": [
+  {
+   "lat": -3.34865,
+   "level": "town",
+   "lon": 37.34352,
+   "name": "Moshi, Moshi Urban, Kilimanjaro, Northern Zone, 25107, Tanzania"
+  }
+ ],
+ "tz|Moshi, Kilimanjaro": [
+  {
+   "lat": -3.34865,
+   "level": "town",
+   "lon": 37.34352,
+   "name": "Moshi, Moshi Urban, Kilimanjaro, Northern Zone, 25107, Tanzania"
+  }
+ ],
+ "tz|Muheza, Tanga": [
+  {
+   "lat": -5.18145,
+   "level": "admin2",
+   "lon": 38.77313,
+   "name": "Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.17561,
+   "level": "town",
+   "lon": 38.78991,
+   "name": "Muheza, Tanga, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Muleba, Kagera": [
+  {
+   "lat": -1.95128,
+   "level": "admin2",
+   "lon": 31.5019,
+   "name": "Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.84169,
+   "level": "town",
+   "lon": 31.65496,
+   "name": "Muleba, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  }
+ ],
+ "tz|Mvomero, Morogoro": [
+  {
+   "lat": -6.60087,
+   "level": "admin2",
+   "lon": 37.61178,
+   "name": "Mvomero, Morogoro, Coastal Zone, Tanzania"
+  },
+  {
+   "lat": -6.30422,
+   "level": "town",
+   "lon": 37.44778,
+   "name": "Mvomero, Morogoro, Coastal Zone, Tanzania"
   }
  ],
  "tz|Pemba": [
@@ -3471,6 +3819,20 @@
    "level": "admin1",
    "lon": 39.32095,
    "name": "Zanzibar زنجبار, Tanzania"
+  }
+ ],
+ "tz|Uyui, Tabora": [
+  {
+   "lat": -4.94347,
+   "level": "admin2",
+   "lon": 33.42621,
+   "name": "Uyui, Tabora, Central Zone, Tanzania"
+  },
+  {
+   "lat": -4.9405,
+   "level": "village",
+   "lon": 32.83934,
+   "name": "Uyui, Tabora Muncipal, Tabora, Central Zone, Tanzania"
   }
  ],
  "ug|Apac": [
