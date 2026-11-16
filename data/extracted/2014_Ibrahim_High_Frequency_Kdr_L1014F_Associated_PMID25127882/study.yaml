@@ -1,0 +1,22 @@
+study_id: 2014_Ibrahim_High_Frequency_Kdr_L1014F_Associated_PMID25127882
+title: High frequency of kdr L1014F is associated with pyrethroid resistance in Anopheles
+  coluzzii in Sudan savannah of northern Nigeria
+first_author: Sulaiman S Ibrahim
+doi: 10.1186/1471-2334-14-441
+pmid: '25127882'
+publication_year: 2014
+countries:
+- Nigeria
+data_source: journal_article
+provenance:
+  source_text: High frequency of kdr L1014F is associated with pyrethroid resistance
+    in Anopheles coluzzii in Sudan savannah of northern Nigeria... Ibrahim et al.
+    BMC Infectious Diseases 2014, 14:441
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-11-16'
+pmid_source: Europe PMC (from DOI)

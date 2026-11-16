@@ -1,0 +1,20 @@
+study_id: 2014_Abdalla_Insecticide_Resistance_Anopheles_Arabiensis_Sudan_PMID24886129
+title: 'Insecticide resistance in Anopheles arabiensis in Sudan: temporal trends and
+  underlying mechanisms'
+first_author: Hiba Abdalla
+doi: 10.1186/1756-3305-7-213
+pmid: '24886129'
+publication_year: 2014
+countries:
+- Sudan
+data_source: article
+provenance:
+  source_text: Abdalla et al. Parasites & Vectors 2014, 7:213
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-16'
+pmid_source: Europe PMC (from DOI)

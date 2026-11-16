@@ -1216,6 +1216,8 @@
  "gh|Rocky highland area, Kassena-Nankana District": [],
  "gh|Rocky highland area, Kassena-Nankana District, Kassena-Nankana, Upper East": [],
  "gh|Rocky highland area, Kassena-Nankana District, Upper East": [],
+ "gm|Sare Alpha and Sare Juldeh": [],
+ "gm|Sare Alpha and Sare Juldeh, Upper River Region": [],
  "gm|Upper River Region": [
   {
    "lat": 13.405,
@@ -3294,6 +3296,16 @@
    "name": "الدمازين, النيل الأزرق Blue Nile, السودان"
   }
  ],
+ "sd|Gezira": [
+  {
+   "lat": 14.66715,
+   "level": "admin1",
+   "lon": 33.22236,
+   "name": "الجزيرة, السودان"
+  }
+ ],
+ "sd|Gezira State (Wad Medani, Elmanagil, Wad Elhadad, Rufaa)": [],
+ "sd|Gezira State (Wad Medani, Elmanagil, Wad Elhadad, Rufaa), Gezira": [],
  "sd|Khartoum": [
   {
    "lat": 15.5636,

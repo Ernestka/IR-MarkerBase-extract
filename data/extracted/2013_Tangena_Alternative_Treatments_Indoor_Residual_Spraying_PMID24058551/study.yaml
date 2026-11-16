@@ -1,0 +1,23 @@
+study_id: 2013_Tangena_Alternative_Treatments_Indoor_Residual_Spraying_PMID24058551
+title: Alternative Treatments for Indoor Residual Spraying for Malaria Control in
+  a Village with Pyrethroid- and DDT-Resistant Vectors in The Gambia
+first_author: Julie-Anne A. Tangena
+doi: 10.1371/journal.pone.0074351
+pmid: '24058551'
+publication_year: 2013
+countries:
+- The Gambia
+data_source: journal_article
+provenance:
+  source_text: 'Tangena J-AA, Adiamoh M, D''Alessandro U, Jarju L, Jawara M, et al.
+    (2013) Alternative Treatments for Indoor Residual Spraying for Malaria Control
+    in a Village with Pyrethroid- and DDT-Resistant Vectors in The Gambia. PLoS ONE
+    8(9): e74351.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-16'
+pmid_source: Europe PMC (from DOI)

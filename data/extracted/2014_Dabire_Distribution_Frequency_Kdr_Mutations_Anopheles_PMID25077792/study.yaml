@@ -1,0 +1,24 @@
+study_id: 2014_Dabire_Distribution_Frequency_Kdr_Mutations_Anopheles_PMID25077792
+title: Distribution and Frequency of kdr Mutations within Anopheles gambiae s.l. Populations
+  and First Report of the Ace.1G119S Mutation in Anopheles arabiensis from Burkina
+  Faso (West Africa)
+first_author: Roch K. Dabiré
+doi: 10.1371/journal.pone.0101484
+pmid: '25077792'
+publication_year: 2014
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: 'Dabiré RK, Namountougou M, Diabaté A, Soma DD, Bado J, Toé HK, Bass
+    C, Combary P (2014) Distribution and Frequency of kdr Mutations within Anopheles
+    gambiae s.l. Populations and First Report of the Ace.1G119S Mutation in Anopheles
+    arabiensis from Burkina Faso (West Africa). PLoS ONE 9(7): e101484.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-16'
+pmid_source: Europe PMC (from DOI)
