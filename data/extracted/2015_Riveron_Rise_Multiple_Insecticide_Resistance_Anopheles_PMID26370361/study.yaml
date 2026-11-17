@@ -1,0 +1,22 @@
+study_id: 2015_Riveron_Rise_Multiple_Insecticide_Resistance_Anopheles_PMID26370361
+title: 'Rise of multiple insecticide resistance in Anopheles funestus in Malawi: a
+  major concern for malaria vector control'
+first_author: Jacob M. Riveron
+doi: 10.1186/s12936-015-0877-y
+pmid: '26370361'
+publication_year: 2015
+countries:
+- Malawi
+data_source: journal_article
+provenance:
+  source_text: 'Riveron et al. Rise of multiple insecticide resistance in Anopheles
+    funestus in Malawi: a major concern for malaria vector control. Malar J (2015)
+    14:344'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

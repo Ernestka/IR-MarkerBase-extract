@@ -1,0 +1,22 @@
+study_id: 2015_Platt_Target_Site_Resistance_Mutations_Kdr_PMID25899013
+title: Target-site resistance mutations (kdr and RDL), but not metabolic resistance,
+  negatively impact male mating competiveness in the malaria vector Anopheles gambiae
+first_author: N Platt
+doi: 10.1038/hdy.2015.33
+pmid: '25899013'
+publication_year: 2015
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: Target-site resistance mutations (kdr and RDL), but not metabolic resistance,
+    negatively impact male mating competiveness in the malaria vector Anopheles gambiae.
+    Heredity (2015) 115, 243–252; doi:10.1038/hdy.2015.33
+  page: '243'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

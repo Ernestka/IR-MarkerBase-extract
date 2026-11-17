@@ -1,0 +1,20 @@
+study_id: 2015_Toe_Recent_Escalation_Strength_Pyrethroid_Resistance_PMID25766412
+title: The recent escalation in strength of pyrethroid resistance in Anopheles coluzzi
+  in West Africa is linked to increased expression of multiple gene families
+first_author: "Kobi\te H To\te"
+doi: 10.1186/s12864-015-1342-6
+pmid: '25766412'
+publication_year: 2015
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: "To\te et al. BMC Genomics (2015) 16:146 DOI 10.1186/s12864-015-1342-6"
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)
