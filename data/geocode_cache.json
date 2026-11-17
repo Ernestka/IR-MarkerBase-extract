@@ -3865,8 +3865,72 @@
    "name": "York Island, York, Bonthe District, Southern Province, Sierra Leone"
   }
  ],
+ "sn|Almadies, Dakar": [
+  {
+   "lat": 14.74419,
+   "level": "village",
+   "lon": -17.51753,
+   "name": "Arrondissement des Almadies, Dakar, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Dakar": [
+  {
+   "lat": 14.69342,
+   "level": "town",
+   "lon": -17.44794,
+   "name": "Dakar, Région de Dakar, Sénégal"
+  },
+  {
+   "lat": 14.77651,
+   "level": "admin1",
+   "lon": -17.32264,
+   "name": "Région de Dakar, Sénégal"
+  }
+ ],
  "sn|Middle Senegal River basin": [],
+ "sn|Pikine, Dakar": [
+  {
+   "lat": 14.75154,
+   "level": "town",
+   "lon": -17.39641,
+   "name": "Pikine, Commune de Pikine Ouest, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, Sénégal"
+  },
+  {
+   "lat": 14.74612,
+   "level": "department",
+   "lon": -17.36158,
+   "name": "Département de Pikine, Région de Dakar, Sénégal"
+  }
+ ],
  "sn|Senegal River basin": [],
+ "sn|Yarakh": [
+  {
+   "lat": 14.73545,
+   "level": "highway",
+   "lon": -17.41618,
+   "name": "Yarakh, Route de Rufisque, Commune de Hann Bel-Air, Arrondissement de Grand Dakar, Dakar, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, 16000, Sénégal"
+  },
+  {
+   "lat": 14.72413,
+   "level": "amenity",
+   "lon": -17.43054,
+   "name": "Pharmacie Hann Yarakh, Route de Rufisque, Hann Equip, Commune de Hann Bel-Air, Arrondissement de Grand Dakar, Dakar, Région de Dakar, 00221, Sénégal"
+  }
+ ],
+ "sn|Yarakh, Dakar": [
+  {
+   "lat": 14.73545,
+   "level": "highway",
+   "lon": -17.41618,
+   "name": "Yarakh, Route de Rufisque, Commune de Hann Bel-Air, Arrondissement de Grand Dakar, Dakar, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, 16000, Sénégal"
+  },
+  {
+   "lat": 14.72413,
+   "level": "amenity",
+   "lon": -17.43054,
+   "name": "Pharmacie Hann Yarakh, Route de Rufisque, Hann Equip, Commune de Hann Bel-Air, Arrondissement de Grand Dakar, Dakar, Région de Dakar, 00221, Sénégal"
+  }
+ ],
  "tz|Arumeru": [
   {
    "lat": -3.37808,

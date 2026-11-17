@@ -1,0 +1,5 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2015_Ngufor_Cove,Vgsc,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,TaqMan,False,247,200,41,6,,,0.89,,Table 2: L1014F; RR: 200; RS: 41; SS: 6; Total tested: 247; Resistant allele freq (%): 89,8,Table 2,,
+2015_Ngufor_Cove,Vgsc,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,TaqMan,False,247,0,0,247,0,,0.0,,"No 1014S alleles were found, and only one heterozygote for the N1575Y mutation was identified.",6,,,
+2015_Ngufor_Cove,Vgsc,N1575Y,Vgsc,N1570Y,SNP,1,N1575Y,,Y,TaqMan,False,178,0,1,177,,,0.003,,Table 2: N1575Y; RR: 0; RS: 1; SS: 177; Total tested: 178; Resistant allele freq (%): 0.3,8,Table 2,,
+2015_Ngufor_Cove,Ace-1,119S,Ace-1,G280S,SNP,2,G119S,,S,TaqMan,False,180,0,2,178,,,0.006,,Table 2: Ace-1 119S; RR: 0; RS: 2; SS: 178; Total tested: 180; Resistant allele freq (%): 0.6,8,Table 2,,

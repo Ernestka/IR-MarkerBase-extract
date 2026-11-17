@@ -1,0 +1,23 @@
+study_id: 2015_Ndiath_Emerging_Knock_Down_Resistance_Anopheles_PMID26395241
+title: 'Emerging knock-down resistance in Anopheles arabiensis populations of Dakar,
+  Senegal: first evidence of a high prevalence of kdr-e mutation in West African urban
+  area'
+first_author: Mamadou Ousmane Ndiath
+doi: 10.1186/s12936-015-0898-6
+pmid: '26395241'
+publication_year: 2015
+countries:
+- Senegal
+data_source: journal_article
+provenance:
+  source_text: 'Emerging knock-down resistance in Anopheles arabiensis populations
+    of Dakar, Senegal: first evidence of a high prevalence of kdr-e mutation in West
+    African urban area. Ndiath et al. Malar J (2015) 14:364.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: medium
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

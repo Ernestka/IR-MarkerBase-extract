@@ -1,0 +1,21 @@
+study_id: 2015_Ngufor_Insecticide_Resistance_Profile_Anopheles_Gambiae_PMID26581678
+title: 'Insecticide resistance profile of Anopheles gambiae from a phase II field
+  station in Cové, southern Benin: implications for the evaluation of novel vector
+  control products'
+first_author: Corine Ngufor
+doi: 10.1186/s12936-015-0981-z
+pmid: '26581678'
+publication_year: 2015
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Ngufor et al. Malar J (2015) 14:464 DOI 10.1186/s12936-015-0981-z
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,20 @@
+study_id: 2015_Mitri_Kdr_Bearing_Haplotype_Susceptibility_Plasmodium_PMID26445487
+title: 'The kdr-bearing haplotype and susceptibility to Plasmodium falciparum in Anopheles
+  gambiae: genetic correlation and functional testing'
+first_author: Christian Mitri
+doi: 10.1186/s12936-015-0924-8
+pmid: '26445487'
+publication_year: 2015
+countries:
+- Burkina Faso
+data_source: null
+provenance:
+  source_text: Mitri et al. Malar J (2015) 14:391 DOI 10.1186/s12936-015-0924-8
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)
