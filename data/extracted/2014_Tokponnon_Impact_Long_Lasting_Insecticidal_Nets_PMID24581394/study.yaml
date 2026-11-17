@@ -1,0 +1,21 @@
+study_id: 2014_Tokponnon_Impact_Long_Lasting_Insecticidal_Nets_PMID24581394
+title: Impact of long-lasting, insecticidal nets on anaemia and prevalence of Plasmodium
+  falciparum among children under five years in areas with highly resistant malaria
+  vectors
+first_author: Filémon T Tokponnon
+doi: 10.1186/1475-2875-13-76
+pmid: '24581394'
+publication_year: 2014
+countries:
+- Benin
+data_source: article
+provenance:
+  source_text: Tokponnon et al. Malaria Journal 2014, 13:76
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,20 @@
+study_id: 2015_Badolo_Detection_G119S_Ace_1_R_PMID26620269
+title: Detection of G119S ace-1R mutation in field-collected Anopheles gambiae mosquitoes
+  using allele-specific loop-mediated isothermal amplification (AS-LAMP) method
+first_author: Athanase Badolo
+doi: 10.1186/s12936-015-0968-9
+pmid: '26620269'
+publication_year: 2015
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: Badolo et al. Malar J (2015) 14:477 DOI 10.1186/s12936-015-0968-9
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

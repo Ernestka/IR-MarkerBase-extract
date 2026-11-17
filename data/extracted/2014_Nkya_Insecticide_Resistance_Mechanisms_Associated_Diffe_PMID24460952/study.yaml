@@ -1,0 +1,21 @@
+study_id: 2014_Nkya_Insecticide_Resistance_Mechanisms_Associated_Diffe_PMID24460952
+title: 'Insecticide resistance mechanisms associated with different environments in
+  the malaria vector Anopheles gambiae: a case study in Tanzania'
+first_author: Theresia E Nkya
+doi: 10.1186/1475-2875-13-28
+pmid: '24460952'
+publication_year: 2014
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: 'Insecticide resistance mechanisms associated with different environments
+    in the malaria vector Anopheles gambiae: a case study in Tanzania'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

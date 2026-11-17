@@ -1,0 +1,19 @@
+study_id: 2015_Cisse_Characterizing_Insecticide_Resistance_Anopheles_Ga_PMID26296644
+title: Characterizing the insecticide resistance of Anopheles gambiae in Mali
+first_author: Moussa B. M. Cisse
+doi: 10.1186/s12936-015-0847-4
+pmid: '26296644'
+publication_year: 2015
+countries:
+- Mali
+data_source: paper
+provenance:
+  source_text: Cisse et al. Malar J (2015) 14:327 DOI 10.1186/s12936-015-0847-4
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

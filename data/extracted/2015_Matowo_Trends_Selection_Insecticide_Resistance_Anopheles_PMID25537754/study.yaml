@@ -1,0 +1,21 @@
+study_id: 2015_Matowo_Trends_Selection_Insecticide_Resistance_Anopheles_PMID25537754
+title: Trends in the selection of insecticide resistance in Anopheles gambiae s.l.
+  mosquitoes in northwest Tanzania during a community randomized trial of longlasting
+  insecticidal nets and indoor residual spraying
+first_author: J. Matowo
+doi: 10.1111/mve.12090
+pmid: '25537754'
+publication_year: 2015
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: 'Medical and Veterinary Entomology (2015) 29, 51–59 doi: 10.1111/mve.12090'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,9 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2015_Antonio_Nkondjio_2011_unpolluted_col,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,sequencing,False,15,,,,3,,,,Table 2: Unpolluted An. coluzzii (N=15): MS1-L1014F (2) + M15-L1014F (1) = 3 samples with L1014F,6,Table 2,,
+2015_Antonio_Nkondjio_2011_unpolluted_col,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,sequencing,False,15,,,,0,,,,Table 2: Unpolluted An. coluzzii (N=15): MS1-L1014S (-),6,Table 2,,
+2015_Antonio_Nkondjio_2011_polluted_col,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,sequencing,False,9,,,,1,,,,Table 2: Polluted An. coluzzii (N=9): MS1-L1014F (1),6,Table 2,,
+2015_Antonio_Nkondjio_2011_polluted_col,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,sequencing,False,9,,,,0,,,,Table 2: Polluted An. coluzzii (N=9): MS1-L1014S (-),6,Table 2,,
+2015_Antonio_Nkondjio_2011_cultivated_col,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,sequencing,False,11,,,,2,,,,Table 2: Cultivated An. coluzzii (N=11): MS1-L1014F (2),6,Table 2,,
+2015_Antonio_Nkondjio_2011_cultivated_col,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,sequencing,False,11,,,,0,,,,Table 2: Cultivated An. coluzzii (N=11): MS1-L1014S (-),6,Table 2,,
+2015_Antonio_Nkondjio_2011_cultivated_gam,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,sequencing,False,8,,,,6,,,,Table 2: Cultivated An. gambiae (N=8): MS1-L1014F (6),6,Table 2,,
+2015_Antonio_Nkondjio_2011_cultivated_gam,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,sequencing,False,8,,,,1,,,,Table 2: Cultivated An. gambiae (N=8): MS1-L1014S (1),6,Table 2,,

@@ -1,0 +1,20 @@
+study_id: 2015_Abilio_Bio_Efficacy_New_Long_Lasting_PMID26377825
+title: Bio-efficacy of new long-lasting insecticide-treated bed nets against Anopheles
+  funestus and Anopheles gambiae from central and northern Mozambique
+first_author: Ana Paula Abílio
+doi: 10.1186/s12936-015-0885-y
+pmid: '26377825'
+publication_year: 2015
+countries:
+- Mozambique
+data_source: journal_article
+provenance:
+  source_text: Abílio et al. Malar J (2015) 14:352 DOI 10.1186/s12936-015-0885-y
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

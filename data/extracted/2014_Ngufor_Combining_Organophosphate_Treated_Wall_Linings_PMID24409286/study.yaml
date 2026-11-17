@@ -1,0 +1,23 @@
+study_id: 2014_Ngufor_Combining_Organophosphate_Treated_Wall_Linings_PMID24409286
+title: Combining Organophosphate Treated Wall Linings and Long-lasting Insecticidal
+  Nets for Improved Control of Pyrethroid Resistant Anopheles gambiae
+first_author: Corine Ngufor
+doi: 10.1371/journal.pone.0083897
+pmid: '24409286'
+publication_year: 2014
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: 'Ngufor C, Tchicaya E, Koudou B, N’Fale S, Dabire R, et al. (2014)
+    Combining Organophosphate Treated Wall Linings and Long-lasting Insecticidal Nets
+    for Improved Control of Pyrethroid Resistant Anopheles gambiae. PLoS ONE 9(1):
+    e83897. doi:10.1371/journal.pone.0083897'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

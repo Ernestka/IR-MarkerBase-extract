@@ -1,0 +1,21 @@
+study_id: 2015_Main_Complex_Genome_Evolution_Anopheles_Coluzzii_PMID26359110
+title: Complex genome evolution in Anopheles coluzzii associated with increased insecticide
+  usage in Mali
+first_author: Bradley J. Main
+doi: 10.1111/mec.13382
+pmid: '26359110'
+publication_year: 2015
+countries:
+- Mali
+data_source: pubmed
+provenance:
+  source_text: Complex genome evolution in Anopheles coluzzii associated with increased
+    insecticide usage in Mali. Molecular Ecology (2015) 24, 5145–5157
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,22 @@
+study_id: 2014_Ndiath_How_Malaria_Vector_Anopheles_Gambiae_PMID24892677
+title: How the Malaria Vector Anopheles gambiae Adapts to the Use of Insecticide-Treated
+  Nets by African Populations
+first_author: Mamadou Ousmane Ndiath
+doi: 10.1371/journal.pone.0097700
+pmid: '24892677'
+publication_year: 2014
+countries:
+- Senegal
+data_source: journal_article
+provenance:
+  source_text: 'Ndiath MO, Mazenot C, Sokhna C, Trape J-F (2014) How the Malaria Vector
+    Anopheles gambiae Adapts to the Use of Insecticide-Treated Nets by African Populations.
+    PLoS ONE 9(6): e97700.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,23 @@
+study_id: 2015_Bonizzoni_RNA_Seq_Analyses_Changes_Anopheles_PMID26381877
+title: 'RNA-seq analyses of changes in the Anopheles gambiae transcriptome associated
+  with resistance to pyrethroids in Kenya: identification of candidate-resistance
+  genes and candidate-resistance SNPs'
+first_author: Mariangela Bonizzoni
+doi: 10.1186/s13071-015-1083-z
+pmid: '26381877'
+publication_year: 2015
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: 'RNA-seq analyses of changes in the Anopheles gambiae transcriptome
+    associated with resistance to pyrethroids in Kenya: identification of candidate-resistance
+    genes and candidate-resistance SNPs'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

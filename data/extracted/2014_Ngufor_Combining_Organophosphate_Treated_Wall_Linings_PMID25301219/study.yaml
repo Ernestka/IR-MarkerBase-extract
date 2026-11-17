@@ -1,0 +1,25 @@
+study_id: 2014_Ngufor_Combining_Organophosphate_Treated_Wall_Linings_PMID25301219
+title: 'Combining organophosphate-treated wall linings and long-lasting insecticidal
+  nets fails to provide additional control over long-lasting insecticidal nets alone
+  against multiple insecticide-resistant Anopheles gambiae in Côte d’Ivoire: an experimental
+  hut trial'
+first_author: Corine Ngufor
+doi: 10.1186/1475-2875-13-396
+pmid: '25301219'
+publication_year: 2014
+countries:
+- Côte d'Ivoire
+data_source: journal_article
+provenance:
+  source_text: 'Ngufor et al. Combining organophosphate-treated wall linings and long-lasting
+    insecticidal nets fails to provide additional control over long-lasting insecticidal
+    nets alone against multiple insecticide-resistant Anopheles gambiae in Côte d’Ivoire:
+    an experimental hut trial. Malaria Journal 2014, 13:396.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)

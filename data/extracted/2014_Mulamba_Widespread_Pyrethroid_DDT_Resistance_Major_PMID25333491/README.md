@@ -1,23 +1,23 @@
 # Extraction record — 2014_Mulamba_Widespread_Pyrethroid_DDT_Resistance_Major_PMID25333491
 
-- Extracted: 2026-11-16
-- Model: gemini:gemini-3.5-flash
+- Extracted: 2026-11-17
+- Model: gemini:gemini-3.8-flash
 - Confidence (model's own): high
-- Surveys: 1 · Genotype rows: 0 · Bioassays: 0 · Geno-pheno rows: 2
+- Surveys: 1 · Genotype rows: 0 · Bioassays: 1 · Geno-pheno rows: 2
 
 ## Decisions
 
-### Key Decisions
+### Data Extraction Decisions
 
-1. **Target Markers Extracted**:
-   - **GSTe2 L119F**: 60 F1 An. funestus s.s. mosquitoes (30 alive/resistant and 30 dead/susceptible after 1 h exposure to 4% DDT) from Jinja, Uganda were genotyped. 100% of susceptible dead mosquitoes were wild-type (30 SS, 0 RS, 0 RR), while resistant alive mosquitoes showed 73.3% SS (22 SS), 13.3% RS (4 RS), and 13.3% RR (4 RR), giving 12 total 119F alleles across 60 mosquitoes (10% overall allele frequency as reported in text).
-   - **VGSC**: 917 bp region sequenced across multiple locations; no target kdr mutations (L1014F/S) were detected. Non-target F1021C detected in 2 Lira mosquitoes is excluded.
-   - **CYP6P9a/b**: Expression levels measured via qRT-PCR only (no SNP/CNV marker genotyped).
+1. **Study Design & Scope**:
+   - Anopheles funestus collections were conducted across six districts in Uganda and one in western Kenya between December 2011 and June 2012.
+   - Bioassay data for the full study are provided in Supplementary Table S3 (not included in the main publication text). Only Jinja DDT 4% bioassay is directly linked to target marker genotyping data.
+   - Target marker genotyping for GSTe2 L119F was carried out exclusively on 60 mosquitoes (30 DDT-resistant survivors and 30 DDT-susceptible dead) from Jinja, Uganda.
 
-2. **Bioassays & Genotypes**:
-   - Individual bioassay counts were provided in Supplementary Table S3 (not present in main text). Therefore, no standalone bioassays were extracted, and `bioassay_id` in `geno_pheno` remains null.
+2. **Target Markers**:
+   - **GSTe2 L119F**: Tested using TaqMan assay on 30 alive (resistant) and 30 dead (susceptible) F1 adult females following 1 h exposure to 4% DDT. All 30 dead mosquitoes were wild-type (SS), giving an 119F allele frequency of 0.0. In alive mosquitoes, 73.3% were reported as susceptible homozygotes (SS), and the reported 119F frequency in Jinja was 10% (0.10). Because exact counts were not printed in tabular form (only percentages were reported in text and bar plots), `reported_allele_freq` is recorded (0.10 for alive, 0.0 for dead) while `rr`, `rs`, and `ss` count fields remain null per Rule 2.
+   - **VGSC**: Exon 20 and intron 19 were sequenced in 79 mosquitoes. Codon 1014 was completely wild-type (no kdr mutations). The substitution F1021C was found in 2 DDT-susceptible mosquitoes from Lira but is not on the target marker list.
+   - **CYP6P9a/b**: Assessed only by qRT-PCR gene expression profiling, not DNA marker genotyping.
 
-## Validator warnings
-
-- geno_pheno #1 (DDT 4%, GSTe2 L119F, alive): not linked to a single bioassay (insecticide as reported: DDT 4%)
-- geno_pheno #2 (DDT 4%, GSTe2 L119F, dead): not linked to a single bioassay (insecticide as reported: DDT 4%)
+3. **Genotype-Phenotype Allocation**:
+   - Because the 60 genotyped mosquitoes were split according to bioassay outcome (alive vs. dead after DDT exposure), they are recorded under `geno_pheno` and linked to the Jinja DDT bioassay, rather than duplicated under `genotypes`.

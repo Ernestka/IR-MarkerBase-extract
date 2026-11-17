@@ -7,15 +7,16 @@ pmid: '24386946'
 publication_year: 2014
 countries:
 - Tanzania
-data_source: journal_article
+data_source: null
 provenance:
-  source_text: Co-occurrence and distribution of East (L1014S) and West (L1014F) African
-    knock-down resistance in Anopheles gambiae sensu lato population of Tanzania
+  source_text: Tropical Medicine and International Health, doi:10.1111/tmi.12248.
+    Co-occurrence and distribution of East (L1014S) and West (L1014F) African knock-down
+    resistance in Anopheles gambiae sensu lato population of Tanzania
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.5-flash
-extracted: '2026-11-16'
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-17'
 pmid_source: Europe PMC (from DOI)

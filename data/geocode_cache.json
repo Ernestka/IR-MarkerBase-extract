@@ -231,6 +231,14 @@
    "name": "Eglise catholique Adjozoumè, RNIE 4, vovoloko, Oke Ola, Kétou, Plateau, Bénin"
   }
  ],
+ "bj|Adjozoume, Ketou, Plateau": [
+  {
+   "lat": 7.35044,
+   "level": "amenity",
+   "lon": 2.5665,
+   "name": "Eglise catholique Adjozoumè, RNIE 4, vovoloko, Oke Ola, Kétou, Plateau, Bénin"
+  }
+ ],
  "bj|Adjozoume, Plateau": [
   {
    "lat": 7.35044,
@@ -255,6 +263,14 @@
    "name": "EPP AYERE AGBAROU, RN 3, Pobè, Okôffin, Adja-Ouèrè, Plateau, Bénin"
   }
  ],
+ "bj|Agbarou, Pobe, Plateau": [
+  {
+   "lat": 6.96394,
+   "level": "amenity",
+   "lon": 2.6438,
+   "name": "EPP AYERE AGBAROU, RN 3, Pobè, Okôffin, Adja-Ouèrè, Plateau, Bénin"
+  }
+ ],
  "bj|Akron": [
   {
    "lat": 6.46837,
@@ -271,6 +287,9 @@
    "name": "PASE DROP PPN 18 Akron, Avenue Liotard, Avassa, Gbedji, Porto-Novo, Porto Novo, Ouémé, Bénin"
   }
  ],
+ "bj|Alabansa": [],
+ "bj|Alabansa, Plateau": [],
+ "bj|Alabansa, Sakete, Plateau": [],
  "bj|Alibori": [
   {
    "lat": 11.46495,
@@ -283,6 +302,14 @@
    "level": "river",
    "lon": 2.93529,
    "name": "Alibori, Bénin"
+  }
+ ],
+ "bj|Araromi, Ifangni, Plateau": [
+  {
+   "lat": 6.73619,
+   "level": "village",
+   "lon": 2.77486,
+   "name": "Araromi, Ifangni, Plateau, Bénin"
   }
  ],
  "bj|Atacora": [
@@ -299,6 +326,14 @@
    "level": "admin1",
    "lon": 2.22309,
    "name": "Atlantique, Bénin"
+  }
+ ],
+ "bj|Banigbé, Ifangni, Plateau": [
+  {
+   "lat": 6.64689,
+   "level": "town",
+   "lon": 2.70649,
+   "name": "Banigbé, Ifangni, Plateau, Bénin"
   }
  ],
  "bj|Banikoara, Alibori": [
@@ -382,6 +417,20 @@
   }
  ],
  "bj|Cotonou (Ladji, Fifadji, Abomey Calavi)": [],
+ "bj|Daagbe, Ifangni, Plateau": [
+  {
+   "lat": 6.577,
+   "level": "town",
+   "lon": 2.69772,
+   "name": "Daagbé, Ifangni, Plateau, Bénin"
+  },
+  {
+   "lat": 6.71018,
+   "level": "village",
+   "lon": 2.71275,
+   "name": "Daagbé, Houmbo-Nagot, Ifangni, Plateau, Bénin"
+  }
+ ],
  "bj|Dangbo": [
   {
    "lat": 6.56621,
@@ -423,6 +472,9 @@
  "bj|Djohounkollé": [],
  "bj|Djohounkollé, Plateau": [],
  "bj|Djohounkollé, Sakété, Plateau": [],
+ "bj|Djohounkolé": [],
+ "bj|Djohounkolé, Plateau": [],
+ "bj|Djohounkolé, Sakete, Plateau": [],
  "bj|Djougou, Donga": [
   {
    "lat": 9.71067,
@@ -443,6 +495,9 @@
    "name": "Donga, Djougou, Donga, Bénin"
   }
  ],
+ "bj|Gblo-Gblo": [],
+ "bj|Gblo-Gblo, Ifangni, Plateau": [],
+ "bj|Gblo-Gblo, Plateau": [],
  "bj|Gogounou, Alibori": [
   {
    "lat": 10.85227,
@@ -471,6 +526,12 @@
    "name": "Houeyiho, 11ème Arrondissement, Cotonou, Littoral, Bénin"
   }
  ],
+ "bj|Idena2": [],
+ "bj|Idena2, Ketou, Plateau": [],
+ "bj|Idena2, Plateau": [],
+ "bj|Idena3": [],
+ "bj|Idena3, Ketou, Plateau": [],
+ "bj|Idena3, Plateau": [],
  "bj|Ifangni": [
   {
    "lat": 6.6806,
@@ -487,12 +548,29 @@
    "name": "Ifangni, Plateau, Bénin"
   }
  ],
+ "bj|Igbo-Abikou": [],
+ "bj|Igbo-Abikou, Plateau": [],
+ "bj|Igbo-Abikou, Sakete, Plateau": [],
+ "bj|Igbola": [],
+ "bj|Igbola, Plateau": [],
+ "bj|Igbola, Sakete, Plateau": [],
+ "bj|Ita-soumba, Ifangni, Plateau": [
+  {
+   "lat": 6.69671,
+   "level": "village",
+   "lon": 2.77696,
+   "name": "Ita-Soumba, Ifangni, Plateau, Bénin"
+  }
+ ],
  "bj|Itakpako": [],
  "bj|Itakpako, Ifangni, Plateau": [],
  "bj|Itakpako, Plateau": [],
  "bj|Itassoumba": [],
  "bj|Itassoumba, Ifangni, Plateau": [],
  "bj|Itassoumba, Plateau": [],
+ "bj|Iwaï": [],
+ "bj|Iwaï, Plateau": [],
+ "bj|Iwaï, Sakete, Plateau": [],
  "bj|Kandi": [
   {
    "lat": 11.1311,
@@ -521,6 +599,41 @@
    "name": "Kandi, Alibori, Bénin"
   }
  ],
+ "bj|Ketou": [
+  {
+   "lat": 7.36042,
+   "level": "town",
+   "lon": 2.60242,
+   "name": "Kétou, Plateau, Bénin"
+  }
+ ],
+ "bj|Ketou, Plateau": [
+  {
+   "lat": 7.36042,
+   "level": "town",
+   "lon": 2.60242,
+   "name": "Kétou, Plateau, Bénin"
+  }
+ ],
+ "bj|Ko-Aïdjedo": [],
+ "bj|Ko-Aïdjedo, Ifangni, Plateau": [],
+ "bj|Ko-Aïdjedo, Plateau": [],
+ "bj|Ko-Dogba, Ifangni, Plateau": [
+  {
+   "lat": 6.60692,
+   "level": "amenity",
+   "lon": 2.6804,
+   "name": "ESPOIR KO-DOGBA, RNIE 1 bis, Banigbé, Ifangni, Plateau, Bénin"
+  }
+ ],
+ "bj|Ko-Dogba, Plateau": [
+  {
+   "lat": 6.62206,
+   "level": "village",
+   "lon": 2.66233,
+   "name": "Ko-Dogba, Sakété, Plateau, Bénin"
+  }
+ ],
  "bj|Ko-Koumolou, Ifangni, Plateau": [],
  "bj|Ko-Koumolou, Plateau": [
   {
@@ -530,6 +643,9 @@
    "name": "Ko-Koumolou, Sakété, Plateau, Bénin"
   }
  ],
+ "bj|Kokoumolou": [],
+ "bj|Kokoumolou, Ifangni, Plateau": [],
+ "bj|Kokoumolou, Plateau": [],
  "bj|Kouandé": [
   {
    "lat": 10.33218,
@@ -546,12 +662,32 @@
    "name": "Kouandé, Atakora, Bénin"
   }
  ],
+ "bj|Kpankoun": [],
+ "bj|Kpankoun, Ketou, Plateau": [],
+ "bj|Kpankoun, Plateau": [],
+ "bj|Kétougbékon": [],
+ "bj|Kétougbékon, Ifangni, Plateau": [],
+ "bj|Kétougbékon, Plateau": [],
  "bj|Ladji, Cotonou": [
   {
    "lat": 6.39075,
    "level": "village",
    "lon": 2.43061,
    "name": "Ladji, Cotonou, Littoral, Bénin"
+  }
+ ],
+ "bj|Lokossa, Ifangni, Plateau": [
+  {
+   "lat": 6.6395,
+   "level": "village",
+   "lon": 2.70104,
+   "name": "Banigbé-Lokossa, Ifangni, Plateau, Bénin"
+  },
+  {
+   "lat": 6.63176,
+   "level": "village",
+   "lon": 2.69685,
+   "name": "Lokossa-Alihogodo, Ifangni, Plateau, Bénin"
   }
  ],
  "bj|Malanville": [
@@ -644,6 +780,14 @@
    "name": "Podji-Missérété, Sèmè-Kpodji, Djeffa, Ouémé, Bénin"
   }
  ],
+ "bj|Mowodani, Ketou, Plateau": [
+  {
+   "lat": 7.26285,
+   "level": "village",
+   "lon": 2.54095,
+   "name": "Mowodani, Kétou, Plateau, Bénin"
+  }
+ ],
  "bj|N'Dali": [
   {
    "lat": 9.86229,
@@ -672,6 +816,9 @@
    "name": "Natitingou, Atakora, Bénin"
   }
  ],
+ "bj|Okéola": [],
+ "bj|Okéola, Ketou, Plateau": [],
+ "bj|Okéola, Plateau": [],
  "bj|Ou'm'": [],
  "bj|Ouidah-Kpomasse-Tori": [],
  "bj|Ouidah-Kpomasse-Tori health district": [],
@@ -716,6 +863,22 @@
    "level": "admin1",
    "lon": 2.64091,
    "name": "Plateau, Bénin"
+  }
+ ],
+ "bj|Pobe": [
+  {
+   "lat": 6.98202,
+   "level": "town",
+   "lon": 2.66679,
+   "name": "Pobè, Plateau, Bénin"
+  }
+ ],
+ "bj|Pobe, Plateau": [
+  {
+   "lat": 6.98202,
+   "level": "town",
+   "lon": 2.66679,
+   "name": "Pobè, Plateau, Bénin"
   }
  ],
  "bj|Porto Novo": [
@@ -776,6 +939,20 @@
  ],
  "bj|S'm'-Kpodji": [],
  "bj|S'm'-Kpodji, Ou'm'": [],
+ "bj|Sakete, Plateau": [
+  {
+   "lat": 6.73776,
+   "level": "town",
+   "lon": 2.65516,
+   "name": "Sakété, Plateau, Bénin"
+  },
+  {
+   "lat": 6.74403,
+   "level": "admin2",
+   "lon": 2.67655,
+   "name": "Sakété, Plateau, Bénin"
+  }
+ ],
  "bj|Sakété, Plateau": [
   {
    "lat": 6.73776,
@@ -955,6 +1132,14 @@
    "name": "Tanguieta, Tanguièta, Atakora, Bénin"
   }
  ],
+ "bj|Tchaada, Ifangni, Plateau": [
+  {
+   "lat": 6.59062,
+   "level": "town",
+   "lon": 2.68643,
+   "name": "Tchaada, Ifangni, Plateau, Bénin"
+  }
+ ],
  "bj|Tori-Bossito": [
   {
    "lat": 6.50248,
@@ -963,6 +1148,9 @@
    "name": "Tori-Bossito, Atlantique, Bénin"
   }
  ],
+ "bj|Zihan": [],
+ "bj|Zihan, Ifangni, Plateau": [],
+ "bj|Zihan, Plateau": [],
  "ci|Toliak": [],
  "ci|Yaokoffikro": [
   {
@@ -973,6 +1161,9 @@
   }
  ],
  "ci|Yaokoffikro, Bouaké": [],
+ "cm|Douala and Yaoundé (Cultivated)": [],
+ "cm|Douala and Yaoundé (Polluted)": [],
+ "cm|Douala and Yaoundé (Unpolluted)": [],
  "cm|Yaoundé": [
   {
    "lat": 3.86899,
@@ -1548,6 +1739,8 @@
    "name": "Bungoma, Bungoma Township ward, Kanduyi, Bungoma, 50200, Kenya"
   }
  ],
+ "ke|Bungoma, Busia, and Emutete": [],
+ "ke|Bungoma, Busia, and Emutete, Western Province": [],
  "ke|Bungoma, Western Province": [],
  "ke|Busia": [
   {
@@ -1976,6 +2169,7 @@
  "ke|Ungoe Village": [],
  "ke|Ungoe Village, Nyanza Province": [],
  "ke|Ungoe Village, Suba District, Nyanza Province": [],
+ "ke|Western Province": [],
  "ke|Western and Southern Kenya": [],
  "ke|four villages approximately 50 km north-west of Kisumu": [],
  "lr|Bomi": [
@@ -2044,6 +2238,238 @@
  "lr|Woman's centre / UNMIL camp / Garage (Site 5)": [],
  "lr|Woman's centre / UNMIL camp / Garage (Site 5), Bomi": [],
  "lr|Woman's centre / UNMIL camp / Garage (Site 5), Senjeh, Bomi": [],
+ "ml|Badiangara": [
+  {
+   "lat": 12.59489,
+   "level": "shop",
+   "lon": -8.01199,
+   "name": "Badiangara, Rue 576, Baco-Djicoroni, Sabalibougou, Bamako, Mali"
+  }
+ ],
+ "ml|Badiangara, Mopti": [],
+ "ml|Bankass, Mopti": [
+  {
+   "lat": 14.07861,
+   "level": "town",
+   "lon": -3.51875,
+   "name": "Bankass, Cercle de Bankass, Mopti, Mali"
+  },
+  {
+   "lat": 13.69043,
+   "level": "admin2",
+   "lon": -3.63003,
+   "name": "Cercle de Bankass, Mopti, Mali"
+  }
+ ],
+ "ml|Baraoueli, Segou": [
+  {
+   "lat": 13.03926,
+   "level": "admin2",
+   "lon": -6.63887,
+   "name": "Cercle de Baraouéli, Ségou, Mali"
+  },
+  {
+   "lat": 13.16286,
+   "level": "village",
+   "lon": -6.62239,
+   "name": "Diaka Flawere, Cercle de Baraouéli, Ségou, Mali"
+  }
+ ],
+ "ml|Binko, Sikasso": [
+  {
+   "lat": 11.64321,
+   "level": "town",
+   "lon": -8.24023,
+   "name": "Binko, Cercle de Yanfolila, Région de Sikasso, Mali"
+  },
+  {
+   "lat": 11.8984,
+   "level": "village",
+   "lon": -7.63649,
+   "name": "Binko, Cercle de Bougouni, Région de Sikasso, Mali"
+  }
+ ],
+ "ml|Binko, Silengue, Sikasso": [],
+ "ml|Bla, Segou": [
+  {
+   "lat": 12.94936,
+   "level": "town",
+   "lon": -5.76206,
+   "name": "Bla, Cercle de Bla, Ségou, Mali"
+  },
+  {
+   "lat": 12.92109,
+   "level": "admin2",
+   "lon": -5.81909,
+   "name": "Cercle de Bla, Ségou, Mali"
+  }
+ ],
+ "ml|Bouadie/Tigui": [],
+ "ml|Bouadie/Tigui, Baraoueli, Segou": [],
+ "ml|Bouadie/Tigui, Segou": [],
+ "ml|Bougouni, Sikasso": [
+  {
+   "lat": 11.41943,
+   "level": "town",
+   "lon": -7.48339,
+   "name": "Bougouni, Cercle de Bougouni, Région de Sikasso, Mali"
+  },
+  {
+   "lat": 11.3005,
+   "level": "admin2",
+   "lon": -7.57411,
+   "name": "Cercle de Bougouni, Région de Sikasso, Mali"
+  }
+ ],
+ "ml|Djenne, Mopti": [
+  {
+   "lat": 13.90516,
+   "level": "town",
+   "lon": -4.55486,
+   "name": "Djenné, Cercle de Djenné, Mopti, Mali"
+  },
+  {
+   "lat": 14.01051,
+   "level": "admin2",
+   "lon": -4.59539,
+   "name": "Cercle de Djenné, Mopti, Mali"
+  }
+ ],
+ "ml|Djicoroni Para": [
+  {
+   "lat": 12.59624,
+   "level": "village",
+   "lon": -8.0326,
+   "name": "Baco-Djicoroni ACI, Para Djicoroni, Bamako, Mali"
+  },
+  {
+   "lat": 12.62054,
+   "level": "military",
+   "lon": -8.02248,
+   "name": "Camp Militaire de Djicoroni Para, ACI 2000, Para Djicoroni, Bamako, Mali"
+  },
+  {
+   "lat": 12.62798,
+   "level": "highway",
+   "lon": -8.01508,
+   "name": "Motel Djicoroni Para, Rue 218, ACI 2000, Para Djicoroni, Bamako, Mali"
+  },
+  {
+   "lat": 12.61333,
+   "level": "highway",
+   "lon": -8.04277,
+   "name": "Terminus Djicoroni Para, Rue 218, Lafiabougou koda, ACI 2000, Para Djicoroni, Bamako, Mali"
+  },
+  {
+   "lat": 12.61993,
+   "level": "amenity",
+   "lon": -8.03011,
+   "name": "BDM Agence de djicoroni para, Rue 218, Lafiabougou koda, ACI 2000, Para Djicoroni, Bamako, Mali"
+  }
+ ],
+ "ml|Djicoroni Para, Commune IV, District of Bamako": [],
+ "ml|Djicoroni Para, District of Bamako": [],
+ "ml|Fourgna Berda/Banfara": [],
+ "ml|Fourgna Berda/Banfara, Kayes": [],
+ "ml|Fourgna Berda/Banfara, Kita, Kayes": [],
+ "ml|Gomitogo/Djenne central/Wono/Edugu Were": [],
+ "ml|Gomitogo/Djenne central/Wono/Edugu Were, Djenne, Mopti": [],
+ "ml|Gomitogo/Djenne central/Wono/Edugu Were, Mopti": [],
+ "ml|Kadiolo, Sikasso": [
+  {
+   "lat": 10.55404,
+   "level": "town",
+   "lon": -5.75929,
+   "name": "Kadiolo, Cercle de Kadiolo, Région de Sikasso, Mali"
+  },
+  {
+   "lat": 10.63037,
+   "level": "admin2",
+   "lon": -5.82893,
+   "name": "Cercle de Kadiolo, Région de Sikasso, Mali"
+  }
+ ],
+ "ml|Kati, Koulikoro": [
+  {
+   "lat": 12.73891,
+   "level": "town",
+   "lon": -8.06841,
+   "name": "Kati, Cercle de Kati, Koulikoro, Mali"
+  },
+  {
+   "lat": 12.60377,
+   "level": "admin2",
+   "lon": -8.42251,
+   "name": "Cercle de Kati, Koulikoro, Mali"
+  }
+ ],
+ "ml|Kita": [
+  {
+   "lat": 13.20698,
+   "level": "admin2",
+   "lon": -9.38865,
+   "name": "Kita, Mali"
+  },
+  {
+   "lat": 13.20698,
+   "level": "admin1",
+   "lon": -9.38865,
+   "name": "Kita, Mali"
+  },
+  {
+   "lat": 13.04084,
+   "level": "town",
+   "lon": -9.48898,
+   "name": "Kita, Kayes, Mali"
+  }
+ ],
+ "ml|Kita, Kayes": [
+  {
+   "lat": 13.04084,
+   "level": "town",
+   "lon": -9.48898,
+   "name": "Kita, Kayes, Mali"
+  }
+ ],
+ "ml|Koulikoro": [
+  {
+   "lat": 12.94362,
+   "level": "admin1",
+   "lon": -7.92888,
+   "name": "Koulikoro, Mali"
+  }
+ ],
+ "ml|Massabla/Dalabani": [],
+ "ml|Massabla/Dalabani, Bougouni, Sikasso": [],
+ "ml|Massabla/Dalabani, Sikasso": [],
+ "ml|Mopti": [
+  {
+   "lat": 14.51449,
+   "level": "admin1",
+   "lon": -3.64646,
+   "name": "Mopti, Mali"
+  }
+ ],
+ "ml|Niono, Segou": [
+  {
+   "lat": 14.25152,
+   "level": "town",
+   "lon": -5.97833,
+   "name": "Niono-Socoura, Cercle de Niono, Ségou, Mali"
+  },
+  {
+   "lat": 14.7035,
+   "level": "admin2",
+   "lon": -6.00602,
+   "name": "Cercle de Niono, Ségou, Mali"
+  }
+ ],
+ "ml|Sokourani/Toumakoro": [],
+ "ml|Sokourani/Toumakoro, Niono, Segou": [],
+ "ml|Sokourani/Toumakoro, Segou": [],
+ "ml|Tia, Touna": [],
+ "ml|Tia, Touna, Bla, Segou": [],
+ "ml|Tia, Touna, Segou": [],
  "mr|Nouakchott": [
   {
    "lat": 18.07924,
@@ -2167,6 +2593,16 @@
    "level": "town",
    "lon": 33.00368,
    "name": "Chókwè, Gaza, Zona Sul, 1204, Moçambique"
+  }
+ ],
+ "mz|Mocuba and Milange": [],
+ "mz|Mocuba and Milange, Zambezia": [],
+ "mz|Zambezia": [
+  {
+   "lat": -16.64602,
+   "level": "admin1",
+   "lon": 36.99193,
+   "name": "Zambézia, Zona Centro, Moçambique"
   }
  ],
  "ng|Ado-ekiti": [
@@ -3597,6 +4033,14 @@
    "name": "Chuo Cha Mipango ya Maendeleo Vijijini (Dodoma), Mipango Path, Dodoma, Dodoma City, Dodoma, Central Zone, 41216, Tanzania"
   }
  ],
+ "tz|Hai, Kilimanjaro": [
+  {
+   "lat": -3.2425,
+   "level": "admin2",
+   "lon": 37.1842,
+   "name": "Hai, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
  "tz|Handeni, Tanga": [
   {
    "lat": -5.49479,
@@ -3651,6 +4095,74 @@
    "name": "Ilala Municipal, Dar es Salaam, Coastal Zone, Tanzania"
   }
  ],
+ "tz|Kawaya, Hai, Kilimanjaro": [
+  {
+   "lat": -3.43205,
+   "level": "village",
+   "lon": 37.24483,
+   "name": "Kawaya, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Kikafu": [
+  {
+   "lat": -3.33046,
+   "level": "river",
+   "lon": 37.21995,
+   "name": "Kikafu, Mbatakero, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.41675,
+   "level": "river",
+   "lon": 37.29288,
+   "name": "Kikafu, Mijongweni, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.15826,
+   "level": "river",
+   "lon": 37.22166,
+   "name": "Kikafu, Kyeeri, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Kikafu, Hai, Kilimanjaro": [
+  {
+   "lat": -3.33046,
+   "level": "river",
+   "lon": 37.21995,
+   "name": "Kikafu, Mbatakero, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.41675,
+   "level": "river",
+   "lon": 37.29288,
+   "name": "Kikafu, Mijongweni, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.15826,
+   "level": "river",
+   "lon": 37.22166,
+   "name": "Kikafu, Kyeeri, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Kikafu, Kilimanjaro": [
+  {
+   "lat": -3.33046,
+   "level": "river",
+   "lon": 37.21995,
+   "name": "Kikafu, Mbatakero, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.41675,
+   "level": "river",
+   "lon": 37.29288,
+   "name": "Kikafu, Mijongweni, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -3.15826,
+   "level": "river",
+   "lon": 37.22166,
+   "name": "Kikafu, Kyeeri, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
  "tz|Kilimanjaro": [
   {
    "lat": -3.07865,
@@ -3671,6 +4183,66 @@
    "level": "admin2",
    "lon": 37.19954,
    "name": "Kilombero, Morogoro, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Kilulu, Muheza, Tanga": [
+  {
+   "lat": -5.2085,
+   "level": "village",
+   "lon": 38.79894,
+   "name": "Kilulu, Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.21322,
+   "level": "amenity",
+   "lon": 38.80041,
+   "name": "Kilulu, Bushiri Road, Msaraza, Masaika, Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.2093,
+   "level": "admin1",
+   "lon": 38.78224,
+   "name": "Kilulu Ward, Semngano, Muheza, Tanga, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Kinondoni": [
+  {
+   "lat": -6.78407,
+   "level": "ward",
+   "lon": 39.27007,
+   "name": "Kinondoni, Kinondoni Municipal, Dar es Salaam, Coastal Zone, Tanzania"
+  },
+  {
+   "lat": -6.78407,
+   "level": "ward",
+   "lon": 39.27007,
+   "name": "Kinondoni, Dar es Salaam, Coastal Zone, Tanzania"
+  },
+  {
+   "lat": -6.69502,
+   "level": "town",
+   "lon": 39.19513,
+   "name": "Kinondoni Municipal, Dar es Salaam, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Kinondoni, Dar es Salaam": [
+  {
+   "lat": -6.78407,
+   "level": "ward",
+   "lon": 39.27007,
+   "name": "Kinondoni, Kinondoni Municipal, Dar es Salaam, Coastal Zone, Tanzania"
+  },
+  {
+   "lat": -6.78407,
+   "level": "ward",
+   "lon": 39.27007,
+   "name": "Kinondoni, Dar es Salaam, Coastal Zone, Tanzania"
+  },
+  {
+   "lat": -6.69502,
+   "level": "town",
+   "lon": 39.19513,
+   "name": "Kinondoni Municipal, Dar es Salaam, Coastal Zone, Tanzania"
   }
  ],
  "tz|Kyela, Mbeya": [
@@ -3751,6 +4323,54 @@
    "name": "Moshi, Moshi Urban, Kilimanjaro, Northern Zone, 25107, Tanzania"
   }
  ],
+ "tz|Muheza estate": [
+  {
+   "lat": -5.16948,
+   "level": "amenity",
+   "lon": 38.78331,
+   "name": "Muheza-Estate Primary School, T13, Uhuru, South Tanganyika, Lusanga, Lusanga, Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.15809,
+   "level": "amenity",
+   "lon": 38.79691,
+   "name": "Shule ya Msingi Muheza Estate, T13, Uhuru, South Tanganyika, Lusanga, Lusanga, Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.12134,
+   "level": "tourism",
+   "lon": 38.7574,
+   "name": "Magoroto estate, Nkumba Road, Kibanda, Muheza, Tanga, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Muheza estate, Muheza, Tanga": [
+  {
+   "lat": -5.16948,
+   "level": "amenity",
+   "lon": 38.78331,
+   "name": "Muheza-Estate Primary School, T13, Uhuru, South Tanganyika, Lusanga, Lusanga, Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.15809,
+   "level": "amenity",
+   "lon": 38.79691,
+   "name": "Shule ya Msingi Muheza Estate, T13, Uhuru, South Tanganyika, Lusanga, Lusanga, Muheza, Tanga, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Muheza estate, Tanga": [
+  {
+   "lat": -5.16948,
+   "level": "amenity",
+   "lon": 38.78331,
+   "name": "Muheza-Estate Primary School, T13, Uhuru, South Tanganyika, Lusanga, Lusanga, Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.15809,
+   "level": "amenity",
+   "lon": 38.79691,
+   "name": "Shule ya Msingi Muheza Estate, T13, Uhuru, South Tanganyika, Lusanga, Lusanga, Muheza, Tanga, Northern Zone, Tanzania"
+  }
+ ],
  "tz|Muheza, Tanga": [
   {
    "lat": -5.18145,
@@ -3763,6 +4383,90 @@
    "level": "town",
    "lon": 38.78991,
    "name": "Muheza, Tanga, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Muleba District": [
+  {
+   "lat": -1.69087,
+   "level": "waterfall",
+   "lon": 31.60021,
+   "name": "Upper Kamwana Fall Muleba district, Ruhija, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.8495,
+   "level": "office",
+   "lon": 31.66047,
+   "name": "Muleba District Council, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.84994,
+   "level": "office",
+   "lon": 31.66099,
+   "name": "Muleba District Headquarters, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.84761,
+   "level": "amenity",
+   "lon": 31.6491,
+   "name": "Muleba district court, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.75175,
+   "level": "amenity",
+   "lon": 31.62136,
+   "name": "Rubya Designated District Hospital, Kamachumu-Rubya Road, Buganguzi, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  }
+ ],
+ "tz|Muleba District, Kagera": [
+  {
+   "lat": -1.69087,
+   "level": "waterfall",
+   "lon": 31.60021,
+   "name": "Upper Kamwana Fall Muleba district, Ruhija, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.8495,
+   "level": "office",
+   "lon": 31.66047,
+   "name": "Muleba District Council, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.84994,
+   "level": "office",
+   "lon": 31.66099,
+   "name": "Muleba District Headquarters, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.84761,
+   "level": "amenity",
+   "lon": 31.6491,
+   "name": "Muleba district court, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  }
+ ],
+ "tz|Muleba District, Muleba, Kagera": [
+  {
+   "lat": -1.69087,
+   "level": "waterfall",
+   "lon": 31.60021,
+   "name": "Upper Kamwana Fall Muleba district, Ruhija, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.8495,
+   "level": "office",
+   "lon": 31.66047,
+   "name": "Muleba District Council, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.84994,
+   "level": "office",
+   "lon": 31.66099,
+   "name": "Muleba District Headquarters, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
+  },
+  {
+   "lat": -1.84761,
+   "level": "amenity",
+   "lon": 31.6491,
+   "name": "Muleba district court, T4, Muhutwe, Ijumbi, Muleba, Kagera, Lake Zone, Tanzania"
   }
  ],
  "tz|Muleba, Kagera": [
@@ -3807,6 +4511,54 @@
    "name": "Pemba, Mvomero, Morogoro, Coastal Zone, Tanzania"
   }
  ],
+ "tz|Rundugai, Hai, Kilimanjaro": [
+  {
+   "lat": -3.41284,
+   "level": "village",
+   "lon": 37.1958,
+   "name": "Rundugai, Hai, Kilimanjaro, Northern Zone, Tanzania"
+  }
+ ],
+ "tz|Temeke": [
+  {
+   "lat": -6.85097,
+   "level": "ward",
+   "lon": 39.25672,
+   "name": "Temeke, Temeke MC, Dar es Salaam, Coastal Zone, Tanzania"
+  },
+  {
+   "lat": -3.84318,
+   "level": "village",
+   "lon": 36.72349,
+   "name": "Temeke, Simanjiro, Manyara, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -10.66382,
+   "level": "village",
+   "lon": 38.78699,
+   "name": "Temeke, Masasi Town, Mtwara, Coastal Zone, Tanzania"
+  },
+  {
+   "lat": -6.85456,
+   "level": "subward",
+   "lon": 39.26062,
+   "name": "Temeke, Temeke MC, Dar es Salaam, Coastal Zone, Tanzania"
+  }
+ ],
+ "tz|Temeke, Dar es Salaam": [
+  {
+   "lat": -6.85097,
+   "level": "ward",
+   "lon": 39.25672,
+   "name": "Temeke, Temeke MC, Dar es Salaam, Coastal Zone, Tanzania"
+  },
+  {
+   "lat": -6.85456,
+   "level": "subward",
+   "lon": 39.26062,
+   "name": "Temeke, Temeke MC, Dar es Salaam, Coastal Zone, Tanzania"
+  }
+ ],
  "tz|Unguja": [
   {
    "lat": -6.09997,
@@ -3833,6 +4585,26 @@
    "level": "village",
    "lon": 32.83934,
    "name": "Uyui, Tabora Muncipal, Tabora, Central Zone, Tanzania"
+  }
+ ],
+ "tz|Zeneti, Muheza, Tanga": [
+  {
+   "lat": -5.22006,
+   "level": "village",
+   "lon": 38.65719,
+   "name": "Zeneti, Potwe, Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.23249,
+   "level": "tertiary",
+   "lon": 38.64985,
+   "name": "Zeneti Road, Zeneti, Potwe, Pangamlima, Muheza, Tanga, Northern Zone, Tanzania"
+  },
+  {
+   "lat": -5.22086,
+   "level": "office",
+   "lon": 38.65787,
+   "name": "Zeneti subward village office, Zeneti Road, Zeneti, Potwe, Pangamlima, Muheza, Tanga, Northern Zone, Tanzania"
   }
  ],
  "ug|Apac": [

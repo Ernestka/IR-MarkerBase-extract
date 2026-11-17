@@ -1,0 +1,21 @@
+study_id: 2015_Antonio_Nkondjio_Rapid_Evolution_Pyrethroid_Resistance_Prevalence_PMID25879950
+title: Rapid evolution of pyrethroid resistance prevalence in Anopheles gambiae populations
+  from the cities of Douala and Yaoundé (Cameroon)
+first_author: Christophe Antonio-Nkondjio
+doi: 10.1186/s12936-015-0675-6
+pmid: '25879950'
+publication_year: 2015
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Rapid evolution of pyrethroid resistance prevalence in Anopheles gambiae
+    populations from the cities of Douala and Yaoundé (Cameroon)
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-17'
+pmid_source: Europe PMC (from DOI)
