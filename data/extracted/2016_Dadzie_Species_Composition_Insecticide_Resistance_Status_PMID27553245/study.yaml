@@ -1,0 +1,20 @@
+study_id: 2016_Dadzie_Species_Composition_Insecticide_Resistance_Status_PMID27553245
+title: Species composition and insecticide resistance status of Anopheles gambiae
+  (s.l.) (Culicidae) in Kome, southern Chad and the implications for malaria control
+first_author: Samuel Dadzie
+doi: 10.1186/s13071-016-1758-0
+pmid: '27553245'
+publication_year: 2016
+countries:
+- Chad
+data_source: journal article
+provenance:
+  source_text: Dadzie et al. Parasites & Vectors (2016) 9:465 DOI 10.1186/s13071-016-1758-0
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-18'
+pmid_source: Europe PMC (from DOI)

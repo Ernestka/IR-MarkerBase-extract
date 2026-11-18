@@ -1,0 +1,22 @@
+study_id: 2016_Antonio_Nkondjio_Investigation_Mechanisms_Bendiocarb_Resistance_Ano_PMID27549778
+title: Investigation of mechanisms of bendiocarb resistance in Anopheles gambiae populations
+  from the city of Yaoundé, Cameroon
+first_author: Christophe Antonio-Nkondjio
+doi: 10.1186/s12936-016-1483-3
+pmid: '27549778'
+publication_year: 2016
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Investigation of mechanisms of bendiocarb resistance in Anopheles gambiae
+    populations from the city of Yaoundé, Cameroon. Antonio-Nkondjio et al. Malar
+    J (2016) 15:424.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-18'
+pmid_source: Europe PMC (from DOI)

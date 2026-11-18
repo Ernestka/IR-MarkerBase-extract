@@ -1283,6 +1283,8 @@
    "name": "Ashanti Region, Ghana"
   }
  ],
+ "gh|Asokwa submetropolis": [],
+ "gh|Asokwa submetropolis, Ashanti": [],
  "gh|Asokwa submetropolis, Kumasi": [],
  "gh|Asokwa submetropolis, Kumasi, Ashanti": [],
  "gh|Asokwa submetropolis, Kumasi, Kumasi Metropolis, Ashanti": [],
@@ -1363,8 +1365,24 @@
  "gh|Kintampo, Kintampo North/South, Brong Ahafo": [],
  "gh|Kpalsogu and Libga": [],
  "gh|Kpalsogu and Libga, Northern": [],
+ "gh|Kumasi": [
+  {
+   "lat": 6.69856,
+   "level": "town",
+   "lon": -1.62331,
+   "name": "Kumasi, Kumasi Metropolitan District, Ashanti Region, AK-010-1295, Ghana"
+  }
+ ],
  "gh|Kumasi Metropolis": [],
  "gh|Kumasi Metropolis, Ashanti": [],
+ "gh|Kumasi, Ashanti": [
+  {
+   "lat": 6.69856,
+   "level": "town",
+   "lon": -1.62331,
+   "name": "Kumasi, Kumasi Metropolitan District, Ashanti Region, AK-010-1295, Ghana"
+  }
+ ],
  "gh|Lowland area, Kassena-Nankana District": [],
  "gh|Lowland area, Kassena-Nankana District, Kassena-Nankana, Upper East": [],
  "gh|Lowland area, Kassena-Nankana District, Upper East": [],
@@ -1681,6 +1699,26 @@
    "name": "Aeroporto de Bafatá, N1, Mafanco, Sector de Bafatá, Região de Bafatá, Província Leste, Guiné-Bissau"
   }
  ],
+ "ke|Ahero": [
+  {
+   "lat": -0.17246,
+   "level": "town",
+   "lon": 34.91902,
+   "name": "Ahero, Ahero ward, Nyando, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.19095,
+   "level": "village",
+   "lon": 36.12783,
+   "name": "Ahero, Bahati ward, Bahati, Nakuru, Kenya"
+  },
+  {
+   "lat": -0.21081,
+   "level": "town",
+   "lon": 34.90699,
+   "name": "Ahero ward, Nyando, Kisumu, Kenya"
+  }
+ ],
  "ke|Asembo": [
   {
    "lat": -0.18334,
@@ -1757,6 +1795,23 @@
   }
  ],
  "ke|Busia, Western Province": [],
+ "ke|Chulaimbo": [
+  {
+   "lat": -0.03853,
+   "level": "village",
+   "lon": 34.63174,
+   "name": "Chulaimbo, North West Kisumu ward, Kisumu West, Kisumu, Kenya"
+  }
+ ],
+ "ke|Emakakha": [
+  {
+   "lat": 0.10142,
+   "level": "amenity",
+   "lon": 34.65194,
+   "name": "Emakakha Market, Kima-Emusutswi Road, Mbihiro, North East Bunyore ward, Emuhaya, Vihiga, Kenya"
+  }
+ ],
+ "ke|Emutete": [],
  "ke|Homa Bay": [
   {
    "lat": -0.56396,
@@ -1804,6 +1859,32 @@
   }
  ],
  "ke|Homabay county, Nyanza Province": [],
+ "ke|Iguhu": [
+  {
+   "lat": 0.17456,
+   "level": "unclassified",
+   "lon": 34.73051,
+   "name": "Malinya-Iguhu Road, Makhokho, Idakho East ward, Ikolomani, Kakamega, Kenya"
+  },
+  {
+   "lat": 0.16514,
+   "level": "unclassified",
+   "lon": 34.75767,
+   "name": "Iguhu Road, Makhokho, Idakho East ward, Ikolomani, Kakamega, Kenya"
+  },
+  {
+   "lat": 0.19736,
+   "level": "unclassified",
+   "lon": 34.73225,
+   "name": "Malinya-Iguhu Road, Malinya, Idakho Central ward, Ikolomani, Kakamega, Kenya"
+  },
+  {
+   "lat": 0.16196,
+   "level": "amenity",
+   "lon": 34.74449,
+   "name": "Iguhu Dispensary, Iguhu Road, Makhokho, Idakho East ward, Ikolomani, Kakamega, Kenya"
+  }
+ ],
  "ke|Kakamega": [
   {
    "lat": 0.49571,
@@ -1860,6 +1941,8 @@
    "name": "Kisumu, Kenya"
   }
  ],
+ "ke|Kisumu district (highland areas)": [],
+ "ke|Kisumu district (highland areas), Kisumu": [],
  "ke|Kisumu, Kisumu County": [
   {
    "lat": -0.10291,
@@ -3929,6 +4012,26 @@
    "level": "amenity",
    "lon": -17.43054,
    "name": "Pharmacie Hann Yarakh, Route de Rufisque, Hann Equip, Commune de Hann Bel-Air, Arrondissement de Grand Dakar, Dakar, Région de Dakar, 00221, Sénégal"
+  }
+ ],
+ "td|Kome, Logone Oriental": [
+  {
+   "lat": 8.49486,
+   "level": "town",
+   "lon": 16.68099,
+   "name": "Kome, Logone Oriental لوقون الشرقية, Tchad تشاد"
+  },
+  {
+   "lat": 8.4681,
+   "level": "village",
+   "lon": 16.70643,
+   "name": "Komé 1, Logone Oriental لوقون الشرقية, Tchad تشاد"
+  },
+  {
+   "lat": 8.60625,
+   "level": "village",
+   "lon": 16.42927,
+   "name": "Komé 2, Logone Oriental لوقون الشرقية, Tchad تشاد"
   }
  ],
  "tz|Arumeru": [

@@ -1,0 +1,22 @@
+study_id: 2015_Wang_Constructing_Genome_Wide_LD_Map_PMID26421280
+title: Constructing a Genome-Wide LD Map of Wild A. gambiae Using Next-Generation
+  Sequencing
+first_author: Xiaohong Wang
+doi: 10.1155/2015/238139
+pmid: '26421280'
+publication_year: 2015
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: Constructing a Genome-Wide LD Map of Wild A. gambiae Using Next-Generation
+    Sequencing. BioMed Research International Volume 2015, Article ID 238139, 8 pages
+    http://dx.doi.org/10.1155/2015/238139
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-18'
+pmid_source: Europe PMC (from DOI)

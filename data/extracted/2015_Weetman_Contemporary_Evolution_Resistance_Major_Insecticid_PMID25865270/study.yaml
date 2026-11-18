@@ -1,0 +1,22 @@
+study_id: 2015_Weetman_Contemporary_Evolution_Resistance_Major_Insecticid_PMID25865270
+title: Contemporary evolution of resistance at the major insecticide target site gene
+  Ace-1 by mutation and copy number variation in the malaria mosquito Anopheles gambiae
+first_author: David Weetman
+doi: 10.1111/mec.13197
+pmid: '25865270'
+publication_year: 2015
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: Contemporary evolution of resistance at the major insecticide target
+    site gene Ace-1 by mutation and copy number variation in the malaria mosquito
+    Anopheles gambiae
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-18'
+pmid_source: Europe PMC (from DOI)

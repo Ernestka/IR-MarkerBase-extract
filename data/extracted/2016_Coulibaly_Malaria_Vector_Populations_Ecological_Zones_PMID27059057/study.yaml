@@ -1,0 +1,23 @@
+study_id: 2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057
+title: Malaria vector populations across ecological zones in Guinea Conakry and Mali,
+  West Africa
+first_author: Boubacar Coulibaly
+doi: 10.1186/s12936-016-1242-5
+pmid: '27059057'
+publication_year: 2016
+countries:
+- Guinea
+- Mali
+data_source: journal_article
+provenance:
+  source_text: Coulibaly et al. Malaria Journal (2016) 15:191 DOI 10.1186/s12936-016-1242-5.
+    Malaria vector populations across ecological zones in Guinea Conakry and Mali,
+    West Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-18'
+pmid_source: Europe PMC (from DOI)

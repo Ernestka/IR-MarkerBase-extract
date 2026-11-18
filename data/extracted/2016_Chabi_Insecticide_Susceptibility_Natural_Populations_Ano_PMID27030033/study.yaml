@@ -1,0 +1,20 @@
+study_id: 2016_Chabi_Insecticide_Susceptibility_Natural_Populations_Ano_PMID27030033
+title: Insecticide susceptibility of natural populations of Anopheles coluzzii and
+  Anopheles gambiae (sensu stricto) from Okyereko irrigation site, Ghana, West Africa
+first_author: Joseph Chabi
+doi: 10.1186/s13071-016-1462-0
+pmid: '27030033'
+publication_year: 2016
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: Chabi et al. Parasites & Vectors (2016) 9:182. DOI 10.1186/s13071-016-1462-0
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-18'
+pmid_source: Europe PMC (from DOI)
