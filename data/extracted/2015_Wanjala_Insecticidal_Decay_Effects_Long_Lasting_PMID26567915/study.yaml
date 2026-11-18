@@ -9,7 +9,9 @@ countries:
 - Kenya
 data_source: journal_article
 provenance:
-  source_text: Wanjala et al. Parasites & Vectors (2015) 8:588 DOI 10.1186/s13071-015-1194-6
+  source_text: Insecticidal decay effects of long-lasting insecticide nets and indoor
+    residual spraying on Anopheles gambiae and Anopheles arabiensis in Western Kenya.
+    Parasites & Vectors (2015) 8:588
   page: '1'
   table: null
   figure: null
@@ -17,4 +19,3 @@ provenance:
 confidence: high
 model: gemini:gemini-3.8-flash
 extracted: '2026-11-18'
-pmid_source: Europe PMC (from DOI)

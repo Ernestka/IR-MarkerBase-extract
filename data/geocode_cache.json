@@ -1719,6 +1719,20 @@
    "name": "Ahero ward, Nyando, Kisumu, Kenya"
   }
  ],
+ "ke|Ahero, Kisumu": [
+  {
+   "lat": -0.17246,
+   "level": "town",
+   "lon": 34.91902,
+   "name": "Ahero, Ahero ward, Nyando, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.21081,
+   "level": "town",
+   "lon": 34.90699,
+   "name": "Ahero ward, Nyando, Kisumu, Kenya"
+  }
+ ],
  "ke|Asembo": [
   {
    "lat": -0.18334,
@@ -1796,6 +1810,14 @@
  ],
  "ke|Busia, Western Province": [],
  "ke|Chulaimbo": [
+  {
+   "lat": -0.03853,
+   "level": "village",
+   "lon": 34.63174,
+   "name": "Chulaimbo, North West Kisumu ward, Kisumu West, Kisumu, Kenya"
+  }
+ ],
+ "ke|Chulaimbo, Kisumu": [
   {
    "lat": -0.03853,
    "level": "village",
@@ -1885,6 +1907,32 @@
    "name": "Iguhu Dispensary, Iguhu Road, Makhokho, Idakho East ward, Ikolomani, Kakamega, Kenya"
   }
  ],
+ "ke|Iguhu, Kakamega": [
+  {
+   "lat": 0.17456,
+   "level": "unclassified",
+   "lon": 34.73051,
+   "name": "Malinya-Iguhu Road, Makhokho, Idakho East ward, Ikolomani, Kakamega, Kenya"
+  },
+  {
+   "lat": 0.16514,
+   "level": "unclassified",
+   "lon": 34.75767,
+   "name": "Iguhu Road, Makhokho, Idakho East ward, Ikolomani, Kakamega, Kenya"
+  },
+  {
+   "lat": 0.19736,
+   "level": "unclassified",
+   "lon": 34.73225,
+   "name": "Malinya-Iguhu Road, Malinya, Idakho Central ward, Ikolomani, Kakamega, Kenya"
+  },
+  {
+   "lat": 0.16196,
+   "level": "amenity",
+   "lon": 34.74449,
+   "name": "Iguhu Dispensary, Iguhu Road, Makhokho, Idakho East ward, Ikolomani, Kakamega, Kenya"
+  }
+ ],
  "ke|Kakamega": [
   {
    "lat": 0.49571,
@@ -1925,6 +1973,20 @@
    "name": "Kisian, Kisumu-Busia Road, Korando B sublocation, Central Kisumu ward, Kisumu, City of Kisumu, Kisumu West, Kisumu, Kenya"
   }
  ],
+ "ke|Kisian, Kisumu": [
+  {
+   "lat": -0.07308,
+   "level": "village",
+   "lon": 34.66377,
+   "name": "Kisian, Kisumu, City of Kisumu, Kisumu West, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.07113,
+   "level": "railway",
+   "lon": 34.67713,
+   "name": "Kisian, Kisumu-Busia Road, Korando B sublocation, Central Kisumu ward, Kisumu, City of Kisumu, Kisumu West, Kisumu, Kenya"
+  }
+ ],
  "ke|Kisian, Kisumu, Nyanza Province": [],
  "ke|Kisian, Nyanza Province": [],
  "ke|Kisumu": [
@@ -1941,8 +2003,42 @@
    "name": "Kisumu, Kenya"
   }
  ],
+ "ke|Kisumu district": [
+  {
+   "lat": -0.05977,
+   "level": "historic:administrative",
+   "lon": 34.51141,
+   "name": "Central Nyanza District, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.10827,
+   "level": "office",
+   "lon": 34.75078,
+   "name": "District education office- Kisumu east, Awuor-Otieno Road, Civil Servants, Milimani, Southern sublocation, Kisumu Central, Kisumu, City of Kisumu, Kisumu, 40141, Kenya"
+  },
+  {
+   "lat": -0.10372,
+   "level": "amenity",
+   "lon": 34.51814,
+   "name": "Kombewa District Hospital, Maseno-Kombewa Road, Upper Kombewa sublocation, Karabala B, Central Seme ward, Seme, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.10113,
+   "level": "amenity",
+   "lon": 34.75576,
+   "name": "Kisumu County Referral Hospital, Angawa Avenue, Garissa Lodge, Milimani, Southern sublocation, Market Milimani ward, Kisumu, City of Kisumu, Kisumu, 40141, Kenya"
+  }
+ ],
  "ke|Kisumu district (highland areas)": [],
  "ke|Kisumu district (highland areas), Kisumu": [],
+ "ke|Kisumu district, Kisumu": [
+  {
+   "lat": -0.02895,
+   "level": "trunk",
+   "lon": 34.75027,
+   "name": "Kisumu -Vihiga Road, Kiboswa, Dago sublocation, North Kisumu ward, Kisumu, City of Kisumu, Kisumu West, Kisumu, Kenya"
+  }
+ ],
  "ke|Kisumu, Kisumu County": [
   {
    "lat": -0.10291,

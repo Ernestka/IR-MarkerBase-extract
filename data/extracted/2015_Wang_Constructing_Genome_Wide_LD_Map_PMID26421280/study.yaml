@@ -7,16 +7,14 @@ pmid: '26421280'
 publication_year: 2015
 countries:
 - Kenya
-data_source: journal_article
+data_source: paper
 provenance:
-  source_text: Constructing a Genome-Wide LD Map of Wild A. gambiae Using Next-Generation
-    Sequencing. BioMed Research International Volume 2015, Article ID 238139, 8 pages
-    http://dx.doi.org/10.1155/2015/238139
+  source_text: BioMed Research International, Volume 2015, Article ID 238139
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
+model: gemini:gemini-3.6-flash
 extracted: '2026-11-18'
 pmid_source: Europe PMC (from DOI)

@@ -7,16 +7,16 @@ pmid: '26583525'
 publication_year: 2015
 countries:
 - Kenya
-data_source: journal_article
+data_source: journal
 provenance:
-  source_text: Pyrethroid and DDT Resistance and Organophosphate Susceptibility among
-    Anopheles spp. Mosquitoes, Western Kenya. Emerging Infectious Diseases, Vol. 21,
-    No. 12, December 2015, pp. 2178-2181.
+  source_text: We conducted standard insecticide susceptibility testing across western
+    Kenya and found that the Anopheles gambiae mosquito has acquired high resistance
+    to pyrethroids and DDT, patchy resistance to carbamates, but no resistance to
+    organophosphates.
   page: '2178'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
+model: gemini:gemini-3.5-flash
 extracted: '2026-11-18'
-pmid_source: Europe PMC (from DOI)
