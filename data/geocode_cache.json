@@ -4908,6 +4908,27 @@
    "name": "Arua City, Northern Region, Uganda"
   }
  ],
+ "ug|Butemba": [
+  {
+   "lat": 0.66667,
+   "level": "village",
+   "lon": 31.1,
+   "name": "Butemba, Kibaale, Western Region, Uganda"
+  },
+  {
+   "lat": 1.13421,
+   "level": "village",
+   "lon": 31.61937,
+   "name": "Butemba, Kyankwanzi, Central Region, Uganda"
+  },
+  {
+   "lat": 1.14247,
+   "level": "amenity",
+   "lon": 31.60264,
+   "name": "BUTEMBA, Bukwiri - Kyankwanzi Road, Nampiki, Kyankwanzi, Central Region, Uganda"
+  }
+ ],
+ "ug|Butemba, Kyankwanzi District": [],
  "ug|Central Region": [
   {
    "lat": 0.28154,

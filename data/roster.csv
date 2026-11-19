@@ -357,10 +357,10 @@ id,source,status,eligible,confidence,duplicate_risk,needs_supplement,spec_versio
 2016_Hemingway_Averting_Malaria_Disaster_Will_Insecticide_PMID26880124,master,INELIGIBLE,False,high,none,False,1,2026-10-20,2026-10-20,0,,gemini:gemini-3.8-flash,6384,1201,,,,
 2016_Horstmann_Contact_Bioassays_Phenoxybenzyl_Tetrafluorobenzyl_PMID26930058,master,INELIGIBLE,False,high,none,False,1,2026-11-07,2026-11-07,0,,gemini:gemini-3.5-flash,10012,2130,,,,
 2016_Ibrahim_Cytochrome_P450_CYP6P4_Responsible_High_PMID26548743,master,INELIGIBLE,False,high,low,False,1,2026-10-23,2026-10-23,0,,gemini:gemini-3.1-flash-lite,7092,704,,,,
-2016_Kabula_Significant_Association_Deltamethrin_Resistance_Pl_PMID27216484,master,ELIGIBLE,True,high,low,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.6-flash,4392,2711,,,,
+2016_Kabula_Significant_Association_Deltamethrin_Resistance_Pl_PMID27216484,master,EXTRACTED,True,high,low,False,1,2026-10-25,2026-10-25,0,,gemini:gemini-3.6-flash,4392,2711,gemini:gemini-3.8-flash,6130,19616,"3 survey(s), 1 genotype, 1 bioassay, 2 geno-pheno rows; 3 warning(s)"
 2016_Kawada_Discovery_Point_Mutations_Voltage_Gated_PMID27304430,master,INELIGIBLE,False,high,none,False,1,2026-10-24,2026-10-24,0,,gemini:gemini-3-flash-preview,12612,3139,,,,
 2016_Kouassi_Low_Prevalence_Plasmodium_Absence_Malaria_PMID26987480,master,EXTRACTED,True,high,low,False,1,2026-10-17,2026-10-17,0,,gemini:gemini-3-flash-preview,8712,5015,gemini:gemini-3.7-flash,10451,18960,"7 survey(s), 7 genotype, 0 bioassay, 0 geno-pheno rows; 8 warning(s)"
-2016_Kristan_Exposure_Deltamethrin_Affects_Development_Plasmodi_PMID26911550,master,ELIGIBLE,True,high,none,False,1,2026-11-07,2026-11-07,0,,gemini:gemini-3.5-flash,6552,2729,,,,
+2016_Kristan_Exposure_Deltamethrin_Affects_Development_Plasmodi_PMID26911550,master,EXTRACTED,True,high,none,False,1,2026-11-07,2026-11-07,0,,gemini:gemini-3.5-flash,6552,2729,gemini:gemini-3.5-flash,8280,12079,"3 survey(s), 4 genotype, 1 bioassay, 0 geno-pheno rows"
 2016_Lekweiry_Circumsporozoite_Protein_Rates_Blood_Feeding_PMID27151152,master,ELIGIBLE,True,high,none,False,1,2026-11-07,2026-11-07,0,,gemini:gemini-3.5-flash,7092,2409,,,,
 2016_Lilly_Cuticle_Thickening_Pyrethroid_Resistant_Strain_PMID27073871,master,INELIGIBLE,False,high,none,False,1,2026-10-19,2026-10-19,0,,gemini:gemini-3-flash-preview,8452,4078,,,,
 2016_Lynch_Evolution_Generate_Sustainable_Malaria_Control_PMID27776220,master,INELIGIBLE,False,high,none,False,1,2026-10-16,2026-10-16,0,,gemini:gemini-3.6-flash,17812,1801,,,,

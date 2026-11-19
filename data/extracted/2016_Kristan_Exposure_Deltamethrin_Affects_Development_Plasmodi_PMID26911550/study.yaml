@@ -1,0 +1,21 @@
+study_id: 2016_Kristan_Exposure_Deltamethrin_Affects_Development_Plasmodi_PMID26911550
+title: Exposure to deltamethrin affects development of Plasmodium falciparum inside
+  wild pyrethroid resistant Anopheles gambiae s.s. mosquitoes in Uganda
+first_author: Mojca Kristan
+doi: 10.1186/s13071-016-1384-x
+pmid: '26911550'
+publication_year: 2016
+countries:
+- Uganda
+data_source: journal
+provenance:
+  source_text: Exposure to deltamethrin affects development of Plasmodium falciparum
+    inside wild pyrethroid resistant Anopheles gambiae s.s. mosquitoes in Uganda
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-19'
+pmid_source: Europe PMC (from DOI)

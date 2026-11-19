@@ -1,0 +1,21 @@
+study_id: 2016_Kabula_Significant_Association_Deltamethrin_Resistance_Pl_PMID27216484
+title: A significant association between deltamethrin resistance, Plasmodium falciparum
+  infection and the Vgsc-1014S resistance mutation in Anopheles gambiae highlights
+  the epidemiological importance of resistance markers
+first_author: Bilali Kabula
+doi: 10.1186/s12936-016-1331-5
+pmid: '27216484'
+publication_year: 2016
+countries:
+- Tanzania
+data_source: journal_article
+provenance:
+  source_text: Kabula et al. Malar J (2016) 15:289 DOI 10.1186/s12936-016-1331-5
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-19'
+pmid_source: Europe PMC (from DOI)

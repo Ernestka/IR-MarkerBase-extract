@@ -1,0 +1,2 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2016_Kabula_Significant_Association_Deltamethrin_Resistance_Pl_PMID27216484_zeneti_ara,Vgsc,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,TaqMan,False,19,,,,,,0.32,,The mutation was found at an allelic frequency of 0.45 (95 % CI 0.41–0.48) in A. gambiae s.s. and 0.32 (95 % CI 0.19–0.47) in A. arabiensis.,3,,,
