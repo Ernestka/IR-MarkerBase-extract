@@ -17,5 +17,6 @@ provenance:
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
-extracted: '2026-11-18'
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-19'
+pmid_source: Europe PMC (from DOI)

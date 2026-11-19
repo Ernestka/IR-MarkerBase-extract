@@ -7,14 +7,15 @@ pmid: '26421280'
 publication_year: 2015
 countries:
 - Kenya
-data_source: paper
+data_source: pub_reading
 provenance:
-  source_text: BioMed Research International, Volume 2015, Article ID 238139
+  source_text: We sequenced the genomes of nine wild A. gambiae mosquitoes individually
+    using next-generation sequencing technologies... wild A. gambiae from Kenya
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.6-flash
-extracted: '2026-11-18'
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-19'
 pmid_source: Europe PMC (from DOI)
