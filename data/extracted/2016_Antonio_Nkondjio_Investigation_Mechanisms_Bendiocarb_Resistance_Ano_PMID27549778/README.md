@@ -1,18 +1,25 @@
 # Extraction record — 2016_Antonio_Nkondjio_Investigation_Mechanisms_Bendiocarb_Resistance_Ano_PMID27549778
 
-- Extracted: 2026-11-18
-- Model: gemini:gemini-3.8-flash
+- Extracted: 2026-11-19
+- Model: gemini:gemini-3.5-flash
 - Confidence (model's own): high
 - Surveys: 25 · Genotype rows: 1 · Bioassays: 27 · Geno-pheno rows: 0
 
 ## Decisions
 
-### Survey and Bioassay Splitting
-- **Bendiocarb Bioassays**: Figure 1 presents monthly bendiocarb (0.1%) susceptibility tests for three breeding habitat classifications in Yaoundé: cultivated (13 time points), polluted (5 time points), and non-polluted (4 time points). Following Rule 7, these finest temporal-resolution tests were extracted rather than the habitat-level pooled summaries presented in Table 1, avoiding double counting. Dead counts were not printed on Figure 1, so `dead_alive_printed = false`, `n_dead = null`, and `n_alive = null` with percentages recorded as printed in `reported_mortality_pct`.
-- Note on slight count discrepancy: In Figure 1, the sum of sample sizes for cultivated sites is 1476, whereas Table 1 reports 1428 tested for cultivated sites. For polluted (361) and unpolluted (438), Figure 1 totals match Table 1 exactly.
-- **Other Insecticide Bioassays**: Table 2 presents susceptibility tests for cultivated mosquitoes from Nkolondom, Yaoundé, against DDT (4%), permethrin (0.75%), deltamethrin (0.05%), and malathion (4%). Tested and dead counts are literally printed in Table 2, so `dead_alive_printed = true`, `n_dead` is recorded, and `n_alive` is left null. The laboratory susceptible strain Kisumu in Table 2 was excluded per Rule 5.
-- **Synergist Bioassay**: A synergist test using 4% PBO pre-exposure followed by 0.1% bendiocarb in 2013 cultivated mosquitoes is reported in the text (n=184, 100% mortality).
+### Extraction Decisions
 
-### Genotyping and Genotype-Phenotype Data
-- **Ace-1 G119S**: A total of 392 An. gambiae s.l. specimens including survivors, dead, and unexposed controls were screened for the Ace-1 G119S mutation using TaqMan assays. The paper reports: 'None were detected carrying the Ace-1R mutation.' (0 RR, 0 RS, 392 SS). Because the paper does not break down the sample sizes by bioassay outcome (survivors vs dead vs controls), this result cannot be split into `geno_pheno` rows without guessing sample sizes. Therefore, per extraction guidelines, it is placed in `genotypes` under the Yaoundé collection survey (2010–2013).
-- **Other Markers**: The paper investigates metabolic mechanisms using whole-genome microarray expression and qRT-PCR validation (highlighting cyp6z3, cyp6z1, cyp12f2, cyp6m3, cyp6p4, etc.); these are mRNA transcription level measurements rather than DNA target-site mutations, so no other target markers apply.
+1. **Surveys & Resolution:**
+   - Mosquitoes were collected as larvae across three breeding habitat types (cultivated, polluted, non-polluted) in Yaoundé, Cameroon, between October 2010 and December 2013.
+   - Bioassay data are reported at monthly resolution per habitat type in Figure 1, and for specific insecticides in cultivated sites (Nkolondom) in Table 2. Individual survey records were defined for each month/habitat combination from Figure 1 and for the Nkolondom study sample in Table 2 to ensure maximum spatiotemporal resolution without double counting.
+   - A separate survey record (`2016_antonio_yaounde_2010_2013_genotype`) was created for the 392 specimens genotyped for Ace-1 G119S, as the genotype results are reported pooled across the overall collection period.
+
+2. **Genotyping Data:**
+   - Only Ace-1 G119S (G280S) was genotyped in this study (by TaqMan PCR). Among 392 tested mosquitoes (comprising bendiocarb bioassay survivors, dead, and unexposed controls), zero carried the Ace-1R mutation (all 392 were SS).
+   - Because subgroup sample sizes for survivors, dead, and controls were not individually specified for the genotyped cohort of 392 mosquitoes, the results are recorded under `genotypes` as a overall population sample rather than split into `geno_pheno`.
+
+3. **Bioassays:**
+   - Bioassays from Figure 1 report `% mortality (n_exposed)`. Per rule 2, `dead_alive_printed` is set to `false`, and `n_dead` and `n_alive` are left `null` with `reported_mortality_pct` recorded as printed.
+   - Table 2 reports exact numbers tested and dead for DDT 4%, permethrin 0.75%, deltamethrin 0.05%, and malathion 4%. For these, `dead_alive_printed` is set to `true` and `n_alive` is calculated as `n_exposed - n_dead`.
+   - PBO pre-exposure bioassay (4% PBO 1h + 0.1% bendiocarb 1h, 100% mortality, n=184) reported on page 4 is included as a synergist bioassay.
+   - Laboratory reference strain (Kisumu) bioassays in Table 2 were excluded per rule 5.

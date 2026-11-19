@@ -10,14 +10,13 @@ countries:
 - Mali
 data_source: journal_article
 provenance:
-  source_text: Coulibaly et al. Malaria Journal (2016) 15:191 DOI 10.1186/s12936-016-1242-5.
-    Malaria vector populations across ecological zones in Guinea Conakry and Mali,
-    West Africa
+  source_text: Coulibaly et al. Malaria vector populations across ecological zones
+    in Guinea Conakry and Mali, West Africa. Malar J (2016) 15:191
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
-extracted: '2026-11-18'
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-19'
 pmid_source: Europe PMC (from DOI)

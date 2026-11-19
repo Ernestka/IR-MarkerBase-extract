@@ -1,0 +1,7 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2016_Etang_Pitoa_2011_col,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,HOLA,False,19,0,13,6,13,13,0.34,,"Table 3: An. coluzzii N=19, 1014 L (S) = 6, 1014 F (Rw/S) = 13, 1014S (Re) = 0. Frequency of kdr 1014 F allele in An. coluzzii = 0.34.",7,Table 3,,
+2016_Etang_Pitoa_2011_col,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,HOLA,False,19,0,0,19,0,0,0.0,,"Table 3: An. coluzzii N=19, 1014S (Re) = 0. The kdr L1014S allele was not found in any of the tested specimens.",7,Table 3,,
+2016_Etang_Pitoa_2011_gam,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,HOLA,False,3,0,0,3,0,0,0.0,,"Table 3: An. gambiae N=3, 1014 L (S) = 3, 1014 F (Rw/S) = 0, 1014S (Re) = 0.",7,Table 3,,
+2016_Etang_Pitoa_2011_gam,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,HOLA,False,3,0,0,3,0,0,0.0,,"Table 3: An. gambiae N=3, 1014S (Re) = 0.",7,Table 3,,
+2016_Etang_Pitoa_2011_ara,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,1014F,HOLA,False,132,0,0,132,0,0,0.0,,"Table 3: An. arabiensis N=132, 1014 L (S) = 132, 1014 F (Rw/S) = 0, 1014S (Re) = 0.",7,Table 3,,
+2016_Etang_Pitoa_2011_ara,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,1014S,HOLA,False,132,0,0,132,0,0,0.0,,"Table 3: An. arabiensis N=132, 1014S (Re) = 0.",7,Table 3,,

@@ -1,0 +1,20 @@
+study_id: 2016_Etang_When_Intensity_Deltamethrin_Resistance_Anopheles_PMID26951758
+title: 'When intensity of deltamethrin resistance in Anopheles gambiae s.l. leads
+  to loss of Long Lasting Insecticidal Nets bio-efficacy: a case study in north Cameroon'
+first_author: Josiane Etang
+doi: 10.1186/s13071-016-1420-x
+pmid: '26951758'
+publication_year: 2016
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Etang et al. Parasites & Vectors (2016) 9:132
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-19'
+pmid_source: Europe PMC (from DOI)

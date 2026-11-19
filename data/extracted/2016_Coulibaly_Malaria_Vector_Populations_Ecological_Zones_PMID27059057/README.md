@@ -1,29 +1,25 @@
 # Extraction record — 2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057
 
-- Extracted: 2026-11-18
-- Model: gemini:gemini-3.8-flash
+- Extracted: 2026-11-19
+- Model: gemini:gemini-3.5-flash
 - Confidence (model's own): high
-- Surveys: 4 · Genotype rows: 4 · Bioassays: 0 · Geno-pheno rows: 0
+- Surveys: 8 · Genotype rows: 5 · Bioassays: 0 · Geno-pheno rows: 0
 
 ## Decisions
 
-# Extraction Decisions - Coulibaly et al. (2016)
+# Decisions Summary
 
-### 1. Scope & Target Markers
-- Target marker extracted: Vgsc L1014F (reported as `para` `L1014F` / `kdr-w`).
-- Vgsc L1014S (kdr-e) was tested in a subset of samples (text states 'not detected in 15–18 samples per site'), but because site-specific exact sample sizes and species breakdowns are not stated, it was not extractable into distinct survey records.
-- The 2La chromosomal inversion was genotyped in this study, but is not one of the target resistance markers.
-- No bioassays or genotype-phenotype association assays were performed in this study.
-
-### 2. Surveys & Site Breakdown
-- Four ecological sites were sampled across Mali and Guinea in October–November 2012: Takan (arid savannah, Mali), Toumani Oulena (humid savannah, Mali), Koraboh (semi-forest, Guinea), and Koundara (deep forest, Guinea).
-- At each site, mosquitoes were collected using a combination of indoor pyrethroid spray catches, human-landing catches (indoor and outdoor), and larval collections (both larvae directly preserved and larvae reared to adults).
-- In Figure 4, kdr-w genotype frequencies are reported per site and per species (An. gambiae and An. coluzzii).
-- Data for Koraboh and Koundara are extractable because:
-  - Semi-forest (Koraboh): Text explicitly states that kdr-w is fixed in all samples assayed (Fig. 4 gives An. gambiae n=211, An. coluzzii n=2; hence 100% RR).
-  - Deep forest (Koundara): For An. gambiae, the text states frequency was 0.997 with only one heterozygous mosquito ('of 384 mosquitoes, only one was heterozygous', where 384 is a typo for 184 as shown by n=184 in Fig. 4 and (183*2+1)/(184*2) = 0.99728). For An. coluzzii (n=11), the bar in Fig. 4 is 100% kdr/kdr.
-- For Takan (Arid Savanna: An. gambiae n=25, An. coluzzii n=175) and Toumani Oulena (Humid Savanna: An. gambiae n=170, An. coluzzii n=22), genotype classes segregate, but only a stacked bar chart without printed counts or site-specific numeric tables is provided in the main text. Per Rule 8, these populations were dropped from `genotypes` rather than guessing counts from figure bars, and orphan survey entries for them were not created.
+- **Study Design and Survey Division**: Mosquitoes were collected across four sites in Mali (Takan, Toumani Oulena) and Guinea Conakry (Koraboh, Koundara) in October–November 2012. Both *Anopheles gambiae* and *Anopheles coluzzii* were collected across all sites. Surveys were defined per site and molecular species (8 surveys total).
+- **Bioassays**: No insecticide bioassays were conducted; `bioassays` and `geno_pheno` arrays are empty.
+- **Target Markers**: 
+  - `para` L1014F: Genotyped by PCR diagnostic assay and confirmed in 70 samples by Sanger sequencing. Genotype records are included ONLY for surveys that have explicitly printed allele frequencies or genotype counts in the text (Takan *A. gambiae*, Takan *A. coluzzii*, Koraboh *A. gambiae*, Koraboh *A. coluzzii*, and Koundara *A. gambiae*). Surveys that only appear as stacked bar charts without explicit printed numbers in text (Toumani Oulena *A. gambiae*, Toumani Oulena *A. coluzzii*, and Koundara *A. coluzzii*) were omitted from the `genotypes` array to avoid empty records with null counts and null reported frequencies.
+  - `para` L1014S: Tested in a subset (15–18 samples/site) and not detected. Specific sample breakdowns per site/species were not given for this marker, so no separate records were created.
+- **Inconsistency Note**: Page 6 notes that in Deep Forest *A. gambiae*, 1 mosquito was heterozygous out of 384 mosquitoes (or alleles), yielding a reported frequency of 0.997. Figure 4 gives $n=184$ for that bar. Both values are retained as printed.
 
 ## Validator warnings
 
-- genotype #3 (2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057_koundara_gam, para L1014F): inconsistent in the paper (values kept as printed) — Text on page 6 states that A. gambiae in deep forest displayed 'kdr-w frequency of 0.997 in A. gambiae 6 years later in 2012 (of 384 mosquitoes, only one was heterozygous)', but Fig. 4 gives n=184 for Deep Forest A. gambiae. With 183 RR and 1 RS out of 184, the resistant allele frequency is (183*2 + 1)/(184*2) = 367/368 = 0.99728, exactly matching the printed 0.997, indicating 384 in the text was a typographical error for 184.
+- genotype #1 (2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057_takan_gambiae, para L1014F): frequency only (no raw counts)
+- genotype #2 (2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057_takan_coluzzii, para L1014F): frequency only (no raw counts)
+- genotype #3 (2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057_koraboh_gambiae, para L1014F): frequency only (no raw counts)
+- genotype #4 (2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057_koraboh_coluzzii, para L1014F): frequency only (no raw counts)
+- genotype #5 (2016_Coulibaly_Malaria_Vector_Populations_Ecological_Zones_PMID27059057_koundara_gambiae, para L1014F): inconsistent in the paper (values kept as printed) — Page 6 states: 'displayed kdr-w frequency of 0.997 in A. gambiae 6 years later in 2012 (of 384 mosquitoes, only one was heterozygous)', but Figure 4 reports A. gambiae (n=184) for Deep Forest.

@@ -1,0 +1,19 @@
+study_id: 2016_Djouaka_Multiple_Insecticide_Resistance_Infected_Populatio_PMID27531125
+title: Multiple insecticide resistance in an infected population of the malaria vector
+  Anopheles funestus in Benin
+first_author: Rousseau Djouaka
+doi: 10.1186/s13071-016-1723-y
+pmid: '27531125'
+publication_year: 2016
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Djouaka et al. Parasites & Vectors (2016) 9:453 DOI 10.1186/s13071-016-1723-y
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-19'

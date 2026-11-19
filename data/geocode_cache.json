@@ -4110,6 +4110,8 @@
    "name": "Pharmacie Hann Yarakh, Route de Rufisque, Hann Equip, Commune de Hann Bel-Air, Arrondissement de Grand Dakar, Dakar, Région de Dakar, 00221, Sénégal"
   }
  ],
+ "td|Kome (Sites A and B pooled)": [],
+ "td|Kome (Sites A and B pooled), Logone Oriental": [],
  "td|Kome, Logone Oriental": [
   {
    "lat": 8.49486,
@@ -4128,6 +4130,14 @@
    "level": "village",
    "lon": 16.42927,
    "name": "Komé 2, Logone Oriental لوقون الشرقية, Tchad تشاد"
+  }
+ ],
+ "td|Logone Oriental": [
+  {
+   "lat": 8.20472,
+   "level": "admin1",
+   "lon": 16.47018,
+   "name": "Logone Oriental لوقون الشرقية, Tchad تشاد"
   }
  ],
  "tz|Arumeru": [

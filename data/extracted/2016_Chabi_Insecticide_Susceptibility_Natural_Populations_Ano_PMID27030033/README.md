@@ -1,35 +1,46 @@
 # Extraction record — 2016_Chabi_Insecticide_Susceptibility_Natural_Populations_Ano_PMID27030033
 
-- Extracted: 2026-11-18
+- Extracted: 2026-11-19
 - Model: gemini:gemini-3.8-flash
 - Confidence (model's own): high
 - Surveys: 3 · Genotype rows: 4 · Bioassays: 7 · Geno-pheno rows: 24
 
 ## Decisions
 
-### Survey and Species Stratification
-- Larvae were collected from water pools around irrigated rice fields in Okyereko, Ghana (05°24’57.68”N, 00°35’53.99”W) and reared to F1 adults for WHO susceptibility bioassays.
-- A subset of 200 mosquitoes sampled from the bioassays were identified molecularly to species (193 An. coluzzii, 7 An. gambiae s.s.). Genotypes are reported broken down by molecular species in Table 1, and broken down by bioassay phenotypic outcome (alive vs dead for 7 insecticides) for An. gambiae s.l. in Table 2.
+# Extraction Decisions for Chabi et al. (2016)
+
+## Survey Structure
+- Mosquito larvae were sampled from water pools in the irrigated rice area of Okyereko, Ghana (05°24’57.68”N, 00°35’53.99”W), and reared to adult F1 progeny.
 - Three surveys were defined:
-  1. `2016_Chabi_Insecticide_Okyereko_coluzzii` for An. coluzzii (N=193).
-  2. `2016_Chabi_Insecticide_Okyereko_gambiae_ss` for An. gambiae (s.s.) (N=7).
-  3. `2016_Chabi_Insecticide_Okyereko_gambiae_sl` for the population-level bioassays and phenotype-stratified genotyping in Table 2.
+  1. `2016_Chabi_Okyereko_coluzzii`: An. coluzzii identified molecularly (N = 193), corresponding to the species-specific baseline genotype data in Table 1.
+  2. `2016_Chabi_Okyereko_gambiae_ss`: An. gambiae s.s. identified molecularly (N = 7), corresponding to the species-specific baseline genotype data in Table 1.
+  3. `2016_Chabi_Okyereko_gambiae_sl`: An. gambiae (s.l.) representing the mosquitoes tested in standard WHO susceptibility assays and the phenotype-stratified genotyping in Table 2.
+- Dates of collection are not reported in the manuscript (article was submitted November 2015, published March 2016); start and end dates are left null.
 
-### Genotypes (Table 1)
-- Table 1 reports raw counts for kdr L1014F (Vgsc L995F) and ace-1 G119S (Ace-1 G280S) for An. coluzzii (N=193) and An. gambiae s.s. (N=7).
-- Text on page 5 incorrectly states the ace-1 frequency as '2 %' and '0.2 %' for An. coluzzii and '0.3 %' for An. gambiae s.s. Table 1 correctly reports 0.2 and 0.3 as proportions/frequencies (70/386 = 0.181 and 4/14 = 0.286), which are captured exactly as printed.
+## Genotypes (Table 1)
+- Table 1 reports kdr L1014F (Vgsc L995F) and ace-1 G119S (Ace-1 G280S) counts for An. coluzzii and An. gambiae s.s.
+- Both markers were extracted exactly as printed for both species.
+- The text in the abstract and results refers to ace-1 frequency as '0.2 %' and '0.3 %', but Table 1 lists '0.2' and '0.3' as proportions, which closely match the allele frequencies calculated from the counts (70/386 = 0.181 and 4/14 = 0.286). An inconsistency note was added to document this.
 
-### Bioassays
-- Seven standard diagnostic WHO tube assays were tested: deltamethrin 0.05%, permethrin 0.75%, DDT 4%, bendiocarb 0.1%, propoxur 0.1%, fenitrothion 1% (2 h exposure), and malathion 5%. Mortality was recorded at 24 h.
-- n_exposed is printed only for deltamethrin (157) and permethrin (132); the text describes 'an average of 100 mosquitoes for all other insecticides', so n_exposed is recorded as null for DDT, bendiocarb, propoxur, fenitrothion, and malathion. Synergist bioassays were reported only in a bar chart without printed counts or percentages in text and were omitted.
+## Bioassays
+- Seven diagnostic dose bioassays against An. gambiae (s.l.) were extracted from page 4 text:
+  - Deltamethrin 0.05% (N = 157, mortality = 34.1%)
+  - Permethrin 0.75% (N = 132, mortality = 18.4%)
+  - DDT 4% (mortality = 0%; text states 'an average of 100 mosquitoes for all other insecticides', exact N exposed left null)
+  - Bendiocarb 0.1% (mortality = 64.0%, N exposed left null)
+  - Propoxur 0.1% (mortality = 57.0%, N exposed left null)
+  - Fenitrothion 1% (2 h exposure, mortality = 86.0%, N exposed left null)
+  - Malathion 5% (mortality = 100.0%, N exposed left null)
+- Control bioassays and synergist tests presented only as bar charts without exact printed numerical values were not extracted.
 
-### Genotype-Phenotype (Table 2)
-- 12 phenotype groups across 7 insecticides (Deltamethrin alive/dead, Permethrin alive/dead, DDT alive, Bendiocarb alive/dead, Propoxur alive/dead, Fenitrothion alive/dead, Malathion dead) were extracted for kdr L1014F and ace-1 G119S, each linked to their respective bioassay.
-- Total rows and negative control mosquitoes (N=5) from Table 2 were excluded per extraction rules.
+## Genotype-Phenotype Data (Table 2)
+- Table 2 reports kdr L1014F and ace-1 G119S counts for bioassay survivors ('Alive') and non-survivors ('Dead') across the tested insecticides.
+- Each condition was extracted into `geno_pheno` linked to its corresponding single bioassay ID.
+- Negative control mosquitoes (N = 5) and pooled summary rows ('Total tested') were omitted in accordance with Rule 6 (enum restricted to alive/dead) and Rule 7 (no pooled totals).
 
 ## Validator warnings
 
-- genotype #1 (2016_Chabi_Insecticide_Okyereko_coluzzii, kdr L1014F): computed allele freq 0.860 differs from reported 0.9
-- genotype #2 (2016_Chabi_Insecticide_Okyereko_coluzzii, ace-1 G119S): inconsistent in the paper (values kept as printed) — Table 1 reports Freq/species of 0.2 (70/386 = 0.181), whereas the text on page 5 erroneously reports 'frequency of 2 % ace-1 mutation' and '0.2 % in An. coluzzii'.
-- genotype #3 (2016_Chabi_Insecticide_Okyereko_gambiae_ss, kdr L1014F): computed allele freq 0.857 differs from reported 0.9
-- genotype #4 (2016_Chabi_Insecticide_Okyereko_gambiae_ss, ace-1 G119S): inconsistent in the paper (values kept as printed) — Table 1 reports Freq/species of 0.3 (4/14 = 0.286), whereas the text on page 5 erroneously reports '0.3 % in An. gambiae (s.s.)'.
+- genotype #1 (2016_Chabi_Okyereko_coluzzii, kdr kdr L1014F): computed allele freq 0.860 differs from reported 0.9
+- genotype #2 (2016_Chabi_Okyereko_coluzzii, ace-1 ace-1 G119S): inconsistent in the paper (values kept as printed) — Text on pages 1 and 5 states 0.2 %, but Table 1 reports Freq/species as 0.2 (proportion), which matches rounded allele frequency (70/386 = 0.181).
+- genotype #3 (2016_Chabi_Okyereko_gambiae_ss, kdr kdr L1014F): computed allele freq 0.857 differs from reported 0.9
+- genotype #4 (2016_Chabi_Okyereko_gambiae_ss, ace-1 ace-1 G119S): inconsistent in the paper (values kept as printed) — Text on page 5 states 0.3 %, but Table 1 reports Freq/species as 0.3 (proportion), matching rounded allele frequency (4/14 = 0.286).

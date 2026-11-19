@@ -9,14 +9,14 @@ countries:
 - Ghana
 data_source: journal_article
 provenance:
-  source_text: Contemporary evolution of resistance at the major insecticide target
+  source_text: 'Contemporary evolution of resistance at the major insecticide target
     site gene Ace-1 by mutation and copy number variation in the malaria mosquito
-    Anopheles gambiae
+    Anopheles gambiae. Molecular Ecology (2015) 24, 2656–2672 doi: 10.1111/mec.13197'
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
 model: gemini:gemini-3.8-flash
-extracted: '2026-11-18'
+extracted: '2026-11-19'
 pmid_source: Europe PMC (from DOI)

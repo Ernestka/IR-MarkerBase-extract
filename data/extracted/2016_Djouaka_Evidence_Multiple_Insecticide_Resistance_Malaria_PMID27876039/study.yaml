@@ -1,0 +1,19 @@
+study_id: 2016_Djouaka_Evidence_Multiple_Insecticide_Resistance_Malaria_PMID27876039
+title: Evidence of a multiple insecticide resistance in the malaria vector Anopheles
+  funestus in South West Nigeria
+first_author: Rousseau J. Djouaka
+doi: 10.1186/s12936-016-1615-9
+pmid: '27876039'
+publication_year: 2016
+countries:
+- Nigeria
+data_source: journal_article
+provenance:
+  source_text: Djouaka et al. Malar J (2016) 15:565 DOI 10.1186/s12936-016-1615-9
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-19'

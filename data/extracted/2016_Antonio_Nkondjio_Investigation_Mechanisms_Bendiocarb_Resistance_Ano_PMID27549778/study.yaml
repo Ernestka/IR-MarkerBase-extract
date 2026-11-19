@@ -9,14 +9,11 @@ countries:
 - Cameroon
 data_source: journal_article
 provenance:
-  source_text: Investigation of mechanisms of bendiocarb resistance in Anopheles gambiae
-    populations from the city of Yaoundé, Cameroon. Antonio-Nkondjio et al. Malar
-    J (2016) 15:424.
+  source_text: Antonio-Nkondjio et al. Malar J (2016) 15:424 DOI 10.1186/s12936-016-1483-3
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
-extracted: '2026-11-18'
-pmid_source: Europe PMC (from DOI)
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-19'

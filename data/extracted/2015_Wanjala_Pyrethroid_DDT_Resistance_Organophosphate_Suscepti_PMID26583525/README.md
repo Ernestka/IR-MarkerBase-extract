@@ -1,14 +1,14 @@
 # Extraction record — 2015_Wanjala_Pyrethroid_DDT_Resistance_Organophosphate_Suscepti_PMID26583525
 
-- Extracted: 2026-11-18
-- Model: gemini:gemini-3.5-flash
+- Extracted: 2026-11-19
+- Model: gemini:gemini-3.8-flash
 - Confidence (model's own): high
-- Surveys: 17 · Genotype rows: 20 · Bioassays: 8 · Geno-pheno rows: 0
+- Surveys: 10 · Genotype rows: 20 · Bioassays: 0 · Geno-pheno rows: 0
 
 ## Decisions
 
-### Data Extraction Notes
-
-- **Surveys**: Mosquito larvae were collected across 7 sentinel sites in western Kenya between April 2012 and July 2013, then wild-reared to adults for susceptibility bioassays. Species identification was carried out on a randomly selected subset using 16S rDNA PCR. Surveys for genotypes were split at the finest resolution per site and molecular species (*An. gambiae s.s.* and *An. arabiensis*) as presented in Table 2. Separate site-level surveys for *An. gambiae s.l.* were created for bioassay records, as bioassays were conducted on the unseparated field population prior to species identification.
-- **Genotypes**: Raw genotype counts (LL, LS, SS) for kdr position L1014 (gene: `kdr`, marker: `L1014S`) were extracted directly from Table 2. LL corresponds to wildtype susceptible (`ss`), LS to heterozygous (`rs`), and SS to homozygous resistant (`rr`). The text explicitly notes that the `L1014F` mutation was not detected at any site in either species; corresponding `L1014F` entries with 0 carriers and 0.0 frequency are included.
-- **Bioassays**: Bioassay mortality data are displayed graphically in Figure 2. Exact numerical mortality values explicitly printed in the text (100% for malathion across all 7 sites, and 50% for permethrin at Bungoma) were extracted. Bioassays only presented as bar charts without printed exact figures were omitted per rule 8 to avoid digitizing errors. Exposure size is 160 mosquitoes per test (8 exposure replicates of 20 mosquitoes).
+### Survey and Genotype Extraction Decisions
+- **Surveys**: Samples were collected as larvae across 7 sentinel sites in western Kenya between April 2012 and July 2013 and reared to adulthood. 10 surveys were created corresponding to the specific molecular species (An. gambiae s.s. or An. arabiensis) genotyped at each site where sufficient specimens were available (Table 2). Populations marked 'ND' in Table 2 (Ahero An. gambiae s.s., Emutete An. arabiensis, Emakakha An. arabiensis, Bungoma An. arabiensis) were not genotyped due to low specimen counts and are therefore not extracted.
+- **Codon 1014 Genotyping**: The TaqMan assay was used to genotype L1014S and L1014F. Table 2 provides raw counts for LL (wild type L/L), LS (L/S heterozygotes), and SS (S/S homozygotes) for L1014S. In accordance with extraction rule 4b, both L1014S and L1014F are reported per survey. Since the paper explicitly states that 'The L1014F mutation was not detected in An. gambiae s.s or An. arabiensis mosquitoes at any sites', L1014F has RR = 0, RS = 0, and SS = n_genotyped across all surveys.
+- **Bioassays**: WHO tube bioassays were conducted on wild-reared An. gambiae s.l. prior to molecular identification. Mortality results for 6 insecticides across the 7 sites are reported exclusively as bar graphs in Figure 2 without exact numerical values or tables (except for general text descriptions of ranges, 100% mortality to malathion, and 50% permethrin mortality in Bungoma). Due to the lack of numerical values and because tests were conducted on mixed s.l. populations, bioassays were not extracted.
+- **Genotype-Phenotype**: Genotypes were not reported separately by bioassay outcome (dead vs alive); thus geno_pheno is empty.

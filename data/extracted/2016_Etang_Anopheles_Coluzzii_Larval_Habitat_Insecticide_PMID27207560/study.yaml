@@ -1,0 +1,21 @@
+study_id: 2016_Etang_Anopheles_Coluzzii_Larval_Habitat_Insecticide_PMID27207560
+title: Anopheles coluzzii larval habitat and insecticide resistance in the island
+  area of Manoka, Cameroon
+first_author: Josiane Etang
+doi: 10.1186/s12879-016-1542-y
+pmid: '27207560'
+publication_year: 2016
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Anopheles coluzzii larval habitat and insecticide resistance in the
+    island area of Manoka, Cameroon. BMC Infectious Diseases (2016) 16:217
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-19'
+pmid_source: Europe PMC (from DOI)

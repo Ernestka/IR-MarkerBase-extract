@@ -7,16 +7,14 @@ pmid: '26583525'
 publication_year: 2015
 countries:
 - Kenya
-data_source: journal
+data_source: journal_article
 provenance:
-  source_text: We conducted standard insecticide susceptibility testing across western
-    Kenya and found that the Anopheles gambiae mosquito has acquired high resistance
-    to pyrethroids and DDT, patchy resistance to carbamates, but no resistance to
-    organophosphates.
+  source_text: During April 2012–July 2013, we conducted this study in 7 sentinel
+    sites across different malaria-endemic zones in western Kenya (Figure 1).
   page: '2178'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.5-flash
-extracted: '2026-11-18'
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-19'
