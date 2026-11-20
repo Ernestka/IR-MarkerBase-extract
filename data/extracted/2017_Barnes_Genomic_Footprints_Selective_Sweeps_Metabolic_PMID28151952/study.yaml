@@ -1,0 +1,27 @@
+study_id: 2017_Barnes_Genomic_Footprints_Selective_Sweeps_Metabolic_PMID28151952
+title: Genomic Footprints of Selective Sweeps from Metabolic Resistance to Pyrethroids
+  in African Malaria Vectors Are Driven by Scale up of Insecticide-Based Vector Control
+first_author: Kayla G. Barnes
+doi: 10.1371/journal.pgen.1006539
+pmid: '28151952'
+publication_year: 2017
+countries:
+- Benin
+- Cameroon
+- Ghana
+- Malawi
+- Mozambique
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: Genomic Footprints of Selective Sweeps from Metabolic Resistance to
+    Pyrethroids in African Malaria Vectors Are Driven by Scale up of Insecticide-Based
+    Vector Control
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

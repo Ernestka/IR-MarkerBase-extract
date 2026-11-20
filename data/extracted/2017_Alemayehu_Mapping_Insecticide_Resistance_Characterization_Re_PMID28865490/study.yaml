@@ -1,0 +1,21 @@
+study_id: 2017_Alemayehu_Mapping_Insecticide_Resistance_Characterization_Re_PMID28865490
+title: 'Mapping insecticide resistance and characterization of resistance mechanisms
+  in Anopheles arabiensis (Diptera: Culicidae) in Ethiopia'
+first_author: Eba Alemayehu
+doi: 10.1186/s13071-017-2342-y
+pmid: '28865490'
+publication_year: 2017
+countries:
+- Ethiopia
+data_source: publication
+provenance:
+  source_text: 'Mapping insecticide resistance and characterization of resistance
+    mechanisms in Anopheles arabiensis (Diptera: Culicidae) in Ethiopia'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

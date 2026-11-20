@@ -1,0 +1,21 @@
+study_id: 2016_Samb_Investigating_Molecular_Basis_Lambda_Cyhalothrin_PMID27519696
+title: Investigating molecular basis of lambda-cyhalothrin resistance in an Anopheles
+  funestus population from Senegal
+first_author: Badara Samb
+doi: 10.1186/s13071-016-1735-7
+pmid: '27519696'
+publication_year: 2016
+countries:
+- Senegal
+data_source: journal_article
+provenance:
+  source_text: Investigating molecular basis of lambda-cyhalothrin resistance in an
+    Anopheles funestus population from Senegal... Parasites & Vectors (2016) 9:449
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

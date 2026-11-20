@@ -1,0 +1,20 @@
+study_id: 2016_Opondo_Does_Insecticide_Resistance_Contribute_Heterogenei_PMID26980461
+title: Does insecticide resistance contribute to heterogeneities in malaria transmission
+  in The Gambia?
+first_author: Kevin Ochieng' Opondo
+doi: 10.1186/s12936-016-1203-z
+pmid: '26980461'
+publication_year: 2016
+countries:
+- The Gambia
+data_source: journal_article
+provenance:
+  source_text: Opondo et al. Malar J (2016) 15:166 DOI 10.1186/s12936-016-1203-z
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

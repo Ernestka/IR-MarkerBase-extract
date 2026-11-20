@@ -11,12 +11,12 @@ data_source: journal_article
 provenance:
   source_text: Circumsporozoite protein rates, blood-feeding pattern and frequency
     of knockdown resistance mutations in Anopheles spp. in two ecological zones of
-    Mauritania. Parasites & Vectors (2016) 9:268.
+    Mauritania
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.8-flash
+model: gemini:gemini-3.5-flash
 extracted: '2026-11-20'
 pmid_source: Europe PMC (from DOI)

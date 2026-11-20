@@ -1,0 +1,21 @@
+study_id: 2017_Edi_First_Detection_N1575Y_Mutation_Pyrethroid_PMID29018842
+title: First detection of N1575Y mutation in pyrethroid resistant Anopheles gambiae
+  in Southern Côte d'Ivoire
+first_author: Ako Victorien Constant Edi
+doi: 10.12688/wellcomeopenres.12246.1
+pmid: '29018842'
+publication_year: 2017
+countries:
+- Côte d'Ivoire
+data_source: journal article
+provenance:
+  source_text: 'First detection of N1575Y mutation in pyrethroid resistant Anopheles
+    gambiae in Southern Côte d’Ivoire [version 1; referees: 2 approved]'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

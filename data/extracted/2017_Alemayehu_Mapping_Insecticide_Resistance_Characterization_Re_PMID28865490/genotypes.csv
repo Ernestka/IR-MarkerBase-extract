@@ -1,0 +1,9 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2017_Alemayehu_chewaka,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,59,0,0,59,0,0,0.0,,The kdr L1014S allele was absent in all tested mosquito specimens.,5,,,
+2017_Alemayehu_asendabo,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,58,0,0,58,0,0,0.0,,The kdr L1014S allele was absent in all tested mosquito specimens.,5,,,
+2017_Alemayehu_tolay,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,60,0,0,60,0,0,0.0,,The kdr L1014S allele was absent in all tested mosquito specimens.,5,,,
+2017_Alemayehu_mankush,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,56,0,0,56,0,0,0.0,,The kdr L1014S allele was absent in all tested mosquito specimens.,5,,,
+2017_Alemayehu_shellemele,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,57,0,0,57,0,0,0.0,,The kdr L1014S allele was absent in all tested mosquito specimens.,5,,,
+2017_Alemayehu_sodore,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,54,0,0,54,0,0,0.0,,The kdr L1014S allele was absent in all tested mosquito specimens.,5,,,
+2017_Alemayehu_goro,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,52,0,0,52,0,0,0.0,,The kdr L1014S allele was absent in all tested mosquito specimens.,5,,,
+2017_Alemayehu_guba_hora,kdr,L1014S,Vgsc,L995S,SNP,1,L1014S,,S,allele-specific PCR,False,55,0,0,55,0,0,0.0,,The kdr L1014S allele was absent in all tested mosquito specimens.,5,,,

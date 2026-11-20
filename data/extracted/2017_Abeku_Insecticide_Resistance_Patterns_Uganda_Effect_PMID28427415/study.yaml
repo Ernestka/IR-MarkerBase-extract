@@ -1,0 +1,22 @@
+study_id: 2017_Abeku_Insecticide_Resistance_Patterns_Uganda_Effect_PMID28427415
+title: Insecticide resistance patterns in Uganda and the effect of indoor residual
+  spraying with bendiocarb on kdr L1014S frequencies in Anopheles gambiae s.s.
+first_author: Tarekegn A. Abeku
+doi: 10.1186/s12936-017-1799-7
+pmid: '28427415'
+publication_year: 2017
+countries:
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: Insecticide resistance patterns in Uganda and the effect of indoor
+    residual spraying with bendiocarb on kdr L1014S frequencies in Anopheles gambiae
+    s.s. Abeku et al. Malar J (2017) 16:156
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

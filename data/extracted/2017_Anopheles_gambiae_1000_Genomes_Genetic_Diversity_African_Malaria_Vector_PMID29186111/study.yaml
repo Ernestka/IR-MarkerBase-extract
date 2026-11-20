@@ -1,0 +1,27 @@
+study_id: 2017_Anopheles_gambiae_1000_Genomes_Genetic_Diversity_African_Malaria_Vector_PMID29186111
+title: Genetic diversity of the African malaria vector Anopheles gambiae
+first_author: Alistair Miles
+doi: 10.1038/nature24995
+pmid: '29186111'
+publication_year: 2017
+countries:
+- Angola
+- Burkina Faso
+- Cameroon
+- Gabon
+- Guinea
+- Guinea-Bissau
+- Kenya
+- Uganda
+data_source: publication
+provenance:
+  source_text: Miles et al. Genetic diversity of the African malaria vector Anopheles
+    gambiae. Nature, 2017, 552 (7683), pp.96-100.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,22 @@
+study_id: 2017_Chouaibou_First_Report_East_African_Kdr_PMID28317032
+title: First report of the East African kdr mutation in an Anopheles gambiae mosquito
+  in Côte d’Ivoire
+first_author: Mouhamadou Chouaïbou
+doi: 10.12688/wellcomeopenres.10662.1
+pmid: '28317032'
+publication_year: 2017
+countries:
+- Côte d'Ivoire
+data_source: journal_article
+provenance:
+  source_text: 'Chouaïbou M, Kouadio FB, Tia E and Djogbenou L. First report of the
+    East African kdr mutation in an Anopheles gambiae mosquito in Côte d’Ivoire [version
+    1; referees: 2 approved] Wellcome Open Research 2017, 2:8'
+  page: 1-2
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,25 @@
+study_id: 2017_Irving_Investigating_Knockdown_Resistance_Kdr_Mechanism_PMID28793859
+title: Investigating knockdown resistance (kdr) mechanism against pyrethroids/DDT
+  in the malaria vector Anopheles funestus across Africa
+first_author: Helen Irving
+doi: 10.1186/s12863-017-0539-x
+pmid: '28793859'
+publication_year: 2017
+countries:
+- Zambia
+- Malawi
+- Mozambique
+- Uganda
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Investigating knockdown resistance (kdr) mechanism against pyrethroids/DDT
+    in the malaria vector Anopheles funestus across Africa. BMC Genetics (2017) 18:76
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)
