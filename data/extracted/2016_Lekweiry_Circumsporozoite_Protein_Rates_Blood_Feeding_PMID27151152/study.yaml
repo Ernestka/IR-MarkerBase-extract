@@ -1,0 +1,22 @@
+study_id: 2016_Lekweiry_Circumsporozoite_Protein_Rates_Blood_Feeding_PMID27151152
+title: Circumsporozoite protein rates, blood-feeding pattern and frequency of knockdown
+  resistance mutations in Anopheles spp. in two ecological zones of Mauritania
+first_author: Khadijetou Mint Lekweiry
+doi: 10.1186/s13071-016-1543-0
+pmid: '27151152'
+publication_year: 2016
+countries:
+- Mauritania
+data_source: journal_article
+provenance:
+  source_text: Circumsporozoite protein rates, blood-feeding pattern and frequency
+    of knockdown resistance mutations in Anopheles spp. in two ecological zones of
+    Mauritania. Parasites & Vectors (2016) 9:268.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

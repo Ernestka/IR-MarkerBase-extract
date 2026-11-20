@@ -1,0 +1,70 @@
+# Extraction record — 2016_Niang_Patterns_Insecticide_Resistance_Knock_Down_PMID26846990
+
+- Extracted: 2026-11-20
+- Model: gemini:gemini-3.8-flash
+- Confidence (model's own): high
+- Surveys: 61 · Genotype rows: 57 · Bioassays: 9 · Geno-pheno rows: 0
+
+## Decisions
+
+Indoor resting adult females were collected by pyrethrum spray catch in 2010 across 20 sites and identified molecularly to An. arabiensis, An. gambiae s.s., and An. coluzzii. Genotypes are reported in Table 1 as sample size n and allele frequency of L1014F (Vgsc L995F); genotype classes (RR/RS/SS) were not printed and counts were not back-calculated. Three site x species combinations with n=0 for An. coluzzii (Temento, Tamba Soce, Missirah) were omitted. Susceptibility tests were conducted in 2011 using F0 adults reared from larval collections in four sites (Koar, Sankagne, Djnkore, Wassadou). Only bioassays with numerical mortality rates printed in the text were extracted; tests solely represented as bar charts without printed numerical values or reporting only knockdown times were omitted. No genotype-phenotype data were reported.
+
+## Validator warnings
+
+- genotype #1 (niang2016_neteboulou_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #2 (niang2016_neteboulou_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #3 (niang2016_neteboulou_col, kdr L1014F): frequency only (no raw counts)
+- genotype #4 (niang2016_tourema_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #5 (niang2016_tourema_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #6 (niang2016_tourema_col, kdr L1014F): frequency only (no raw counts)
+- genotype #7 (niang2016_gouloumbou_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #8 (niang2016_gouloumbou_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #9 (niang2016_gouloumbou_col, kdr L1014F): frequency only (no raw counts)
+- genotype #10 (niang2016_afia_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #11 (niang2016_afia_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #12 (niang2016_afia_col, kdr L1014F): frequency only (no raw counts)
+- genotype #13 (niang2016_temento_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #14 (niang2016_temento_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #15 (niang2016_saresidy_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #16 (niang2016_saresidy_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #17 (niang2016_saresidy_col, kdr L1014F): frequency only (no raw counts)
+- genotype #18 (niang2016_sankagne_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #19 (niang2016_sankagne_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #20 (niang2016_sankagne_col, kdr L1014F): frequency only (no raw counts)
+- genotype #21 (niang2016_nguene_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #22 (niang2016_nguene_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #23 (niang2016_nguene_col, kdr L1014F): frequency only (no raw counts)
+- genotype #24 (niang2016_dialiko_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #25 (niang2016_dialiko_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #26 (niang2016_dialiko_col, kdr L1014F): frequency only (no raw counts)
+- genotype #27 (niang2016_koar_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #28 (niang2016_koar_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #29 (niang2016_koar_col, kdr L1014F): frequency only (no raw counts)
+- genotype #30 (niang2016_saal_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #31 (niang2016_saal_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #32 (niang2016_saal_col, kdr L1014F): frequency only (no raw counts)
+- genotype #33 (niang2016_tambasoce_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #34 (niang2016_tambasoce_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #35 (niang2016_djnkore_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #36 (niang2016_djnkore_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #37 (niang2016_djnkore_col, kdr L1014F): frequency only (no raw counts)
+- genotype #38 (niang2016_madinadian_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #39 (niang2016_madinadian_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #40 (niang2016_madinadian_col, kdr L1014F): frequency only (no raw counts)
+- genotype #41 (niang2016_missirah_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #42 (niang2016_missirah_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #43 (niang2016_barkeyel_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #44 (niang2016_barkeyel_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #45 (niang2016_barkeyel_col, kdr L1014F): frequency only (no raw counts)
+- genotype #46 (niang2016_gourel_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #47 (niang2016_gourel_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #48 (niang2016_gourel_col, kdr L1014F): frequency only (no raw counts)
+- genotype #49 (niang2016_bira_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #50 (niang2016_bira_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #51 (niang2016_bira_col, kdr L1014F): frequency only (no raw counts)
+- genotype #52 (niang2016_badi_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #53 (niang2016_badi_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #54 (niang2016_badi_col, kdr L1014F): frequency only (no raw counts)
+- genotype #55 (niang2016_wassadou_ara, kdr L1014F): frequency only (no raw counts)
+- genotype #56 (niang2016_wassadou_gam, kdr L1014F): frequency only (no raw counts)
+- genotype #57 (niang2016_wassadou_col, kdr L1014F): frequency only (no raw counts)

@@ -1,0 +1,19 @@
+study_id: 2016_Niang_Patterns_Insecticide_Resistance_Knock_Down_PMID26846990
+title: Patterns of insecticide resistance and knock down resistance (kdr) in malaria
+  vectors An. arabiensis, An. coluzzii and An. gambiae from sympatric areas in Senegal
+first_author: El Hadji Amadou Niang
+doi: 10.1186/s13071-016-1354-3
+pmid: '26846990'
+publication_year: 2016
+countries:
+- Senegal
+data_source: journal_article
+provenance:
+  source_text: Niang et al. Parasites & Vectors (2016) 9:71
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-20'

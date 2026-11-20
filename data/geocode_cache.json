@@ -4044,12 +4044,78 @@
    "name": "York Island, York, Bonthe District, Southern Province, Sierra Leone"
   }
  ],
+ "sn|Afia": [
+  {
+   "lat": 12.36508,
+   "level": "village",
+   "lon": -12.31204,
+   "name": "Afia, Communauté rurale de Dindefelo, Arrondissement de Bandafassi, Département de Kédougou, Région de Kédougou, Sénégal"
+  },
+  {
+   "lat": 12.92262,
+   "level": "village",
+   "lon": -15.5767,
+   "name": "Afia, Communauté rurale de Koussy, Arrondissement de Diendé, Département de Sédhiou, Région de Sédhiou, Sénégal"
+  }
+ ],
+ "sn|Afia, Tambacounda": [
+  {
+   "lat": 13.76586,
+   "level": "tourism",
+   "lon": -13.67257,
+   "name": "Auberge Afia, N 7, Tambacounda, Département de Tambacounda, Région de Tambacounda, 26000, Sénégal"
+  }
+ ],
  "sn|Almadies, Dakar": [
   {
    "lat": 14.74419,
    "level": "village",
    "lon": -17.51753,
    "name": "Arrondissement des Almadies, Dakar, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Badi, Tambacounda": [
+  {
+   "lat": 13.13495,
+   "level": "village",
+   "lon": -13.23085,
+   "name": "Badi, Communauté rurale de Dialacoto, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 14.84536,
+   "level": "peak",
+   "lon": -12.50363,
+   "name": "Aire Badi, Communauté rurale de Gabou, Arrondissement de Moudéry, Département de Bakel, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Barkeyel, Tambacounda": [
+  {
+   "lat": 13.5399,
+   "level": "village",
+   "lon": -13.72759,
+   "name": "Barkéyél, Communauté rurale de Néttéboulou, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Bira": [
+  {
+   "lat": 13.34229,
+   "level": "amenity",
+   "lon": -13.44114,
+   "name": "Poste de garde Bira, D515, Vélingara, Sita Oulé, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 14.15017,
+   "level": "shop",
+   "lon": -16.63811,
+   "name": "Boutique Bira Daïya, Route vers Fimela, Simal, Communauté rurale de Fimela, Arrondissement de Fimela, Département de Fatick, Région de Fatick, 23400, Sénégal"
+  }
+ ],
+ "sn|Bira, Tambacounda": [
+  {
+   "lat": 13.34229,
+   "level": "amenity",
+   "lon": -13.44114,
+   "name": "Poste de garde Bira, D515, Vélingara, Sita Oulé, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
   }
  ],
  "sn|Dakar": [
@@ -4066,7 +4132,103 @@
    "name": "Région de Dakar, Sénégal"
   }
  ],
+ "sn|Dialiko, Tambacounda": [
+  {
+   "lat": 13.36752,
+   "level": "village",
+   "lon": -13.6452,
+   "name": "Tabadian Dialiko, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Djnkore": [],
+ "sn|Djnkore, Tambacounda": [],
+ "sn|Gouloumbou, Tambacounda": [
+  {
+   "lat": 13.4692,
+   "level": "town",
+   "lon": -13.71353,
+   "name": "Gouloumbou, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Gourel, Tambacounda": [
+  {
+   "lat": 14.69798,
+   "level": "village",
+   "lon": -12.34949,
+   "name": "Gourel Mandiou, Communauté rurale de Gabou, Arrondissement de Moudéry, Département de Bakel, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 14.18154,
+   "level": "village",
+   "lon": -13.41963,
+   "name": "Gourel Agadi, Communauté rurale de Sinthiou Bocar Ali, Arrondissement de Koulor, Département de Goudiry, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 13.84626,
+   "level": "village",
+   "lon": -12.62386,
+   "name": "Gourel Demba, Communauté rurale de Dougué, Arrondissement de Boynguel Bamba, Département de Goudiry, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 14.1286,
+   "level": "village",
+   "lon": -12.68185,
+   "name": "Gourel Seydi, Communauté rurale de Koussan, Arrondissement de Boynguel Bamba, Département de Goudiry, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 14.32813,
+   "level": "village",
+   "lon": -12.26153,
+   "name": "Gourel Ari Khara, Communauté rurale de Bélé, Arrondissement de Bélé, Département de Bakel, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Koar, Tambacounda": [
+  {
+   "lat": 13.80098,
+   "level": "village",
+   "lon": -13.28525,
+   "name": "Koar, Communauté rurale de Koar, Arrondissement de Bala, Département de Goudiry, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 13.37706,
+   "level": "village",
+   "lon": -13.60404,
+   "name": "Koar, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Madina Dian": [],
+ "sn|Madina Dian, Tambacounda": [],
  "sn|Middle Senegal River basin": [],
+ "sn|Missirah, Tambacounda": [
+  {
+   "lat": 13.7566,
+   "level": "village",
+   "lon": -13.52481,
+   "name": "Missirah, Communauté rurale de Néttéboulou, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 13.52615,
+   "level": "town",
+   "lon": -13.51118,
+   "name": "Missirah, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 13.24052,
+   "level": "town",
+   "lon": -13.03803,
+   "name": "Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Neteboulou": [],
+ "sn|Neteboulou, Tambacounda": [],
+ "sn|Nguene, Tambacounda": [
+  {
+   "lat": 13.34582,
+   "level": "village",
+   "lon": -13.68134,
+   "name": "Nguène, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
  "sn|Pikine, Dakar": [
   {
    "lat": 14.75154,
@@ -4081,7 +4243,83 @@
    "name": "Département de Pikine, Région de Dakar, Sénégal"
   }
  ],
+ "sn|Saal, Tambacounda": [
+  {
+   "lat": 13.27229,
+   "level": "village",
+   "lon": -13.61322,
+   "name": "Saal, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Sankagne, Tambacounda": [
+  {
+   "lat": 13.38632,
+   "level": "village",
+   "lon": -13.73971,
+   "name": "Sankagne, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Sare Sidy, Tambacounda": [
+  {
+   "lat": 13.57368,
+   "level": "village",
+   "lon": -14.03079,
+   "name": "Sare Sidy, Sinthiou El Hadji, Communauté rurale de Ndoga Babacar, Arrondissement de Makacolibantang, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
  "sn|Senegal River basin": [],
+ "sn|Tamba Soce": [],
+ "sn|Tamba Soce, Tambacounda": [],
+ "sn|Tambacounda": [
+  {
+   "lat": 13.86863,
+   "level": "admin1",
+   "lon": -13.31903,
+   "name": "Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 13.76926,
+   "level": "town",
+   "lon": -13.66829,
+   "name": "Tambacounda, Département de Tambacounda, Région de Tambacounda, 26000, Sénégal"
+  },
+  {
+   "lat": 13.83015,
+   "level": "admin1",
+   "lon": -13.08918,
+   "name": "Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Temento, Tambacounda": [
+  {
+   "lat": 13.54221,
+   "level": "village",
+   "lon": -14.14396,
+   "name": "Témento, Communauté rurale de Makacolibantang, Arrondissement de Makacolibantang, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 13.63239,
+   "level": "village",
+   "lon": -13.80637,
+   "name": "Temento Pathe, Communauté rurale de Néttéboulou, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Tourema": [],
+ "sn|Tourema, Tambacounda": [],
+ "sn|Wassadou, Tambacounda": [
+  {
+   "lat": 13.34289,
+   "level": "village",
+   "lon": -13.33407,
+   "name": "Wassadou, Damantan, Communauté rurale de Dialacoto, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  },
+  {
+   "lat": 13.35281,
+   "level": "village",
+   "lon": -13.34677,
+   "name": "Wassadou Dépôt, Communauté rurale de Dialacoto, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
  "sn|Yarakh": [
   {
    "lat": 14.73545,

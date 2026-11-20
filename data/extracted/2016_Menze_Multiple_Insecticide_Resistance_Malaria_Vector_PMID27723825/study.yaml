@@ -1,0 +1,24 @@
+study_id: 2016_Menze_Multiple_Insecticide_Resistance_Malaria_Vector_PMID27723825
+title: Multiple Insecticide Resistance in the Malaria Vector Anopheles funestus from
+  Northern Cameroon Is Mediated by Metabolic Resistance Alongside Potential Target
+  Site Insensitivity Mutations
+first_author: Benjamin D. Menze
+doi: 10.1371/journal.pone.0163261
+pmid: '27723825'
+publication_year: 2016
+countries:
+- Cameroon
+data_source: peer-reviewed article
+provenance:
+  source_text: 'Citation: Menze BD, Riveron JM, Ibrahim SS, Irving H, Antonio-Nkondjio
+    C, Awono-Ambene PH, et al. (2016) Multiple Insecticide Resistance in the Malaria
+    Vector Anopheles funestus from Northern Cameroon Is Mediated by Metabolic Resistance
+    Alongside Potential Target Site Insensitivity Mutations. PLoS ONE 11(10): e0163261.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)

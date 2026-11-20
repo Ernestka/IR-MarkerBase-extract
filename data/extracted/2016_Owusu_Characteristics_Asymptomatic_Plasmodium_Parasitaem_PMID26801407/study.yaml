@@ -1,0 +1,20 @@
+study_id: 2016_Owusu_Characteristics_Asymptomatic_Plasmodium_Parasitaem_PMID26801407
+title: Characteristics of asymptomatic Plasmodium spp. parasitaemia in Kwahu-Mpraeso,
+  a malaria endemic mountainous district in Ghana, West Africa
+first_author: Ewurama D. A. Owusu
+doi: 10.1186/s12936-015-1066-8
+pmid: '26801407'
+publication_year: 2016
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: Owusu et al. Malar J (2016) 15:38 DOI 10.1186/s12936-015-1066-8
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-20'
+pmid_source: Europe PMC (from DOI)
