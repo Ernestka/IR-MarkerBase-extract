@@ -1,0 +1,23 @@
+study_id: 2018_Agossa_Small_Scale_Field_Evaluation_Efficacy_PMID30594207
+title: Small-scale field evaluation of the efficacy and residual effect of Fludora®
+  Fusion (mixture of clothianidin and deltamethrin) against susceptible and resistant
+  Anopheles gambiae populations from Benin, West Africa
+first_author: Fiacre R. Agossa
+doi: 10.1186/s12936-018-2633-6
+pmid: '30594207'
+publication_year: 2018
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Small-scale field evaluation of the efficacy and residual effect of
+    Fludora® Fusion (mixture of clothianidin and deltamethrin) against susceptible
+    and resistant Anopheles gambiae populations from Benin, West Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

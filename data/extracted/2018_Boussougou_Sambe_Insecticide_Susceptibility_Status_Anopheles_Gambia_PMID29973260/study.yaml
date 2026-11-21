@@ -1,0 +1,20 @@
+study_id: 2018_Boussougou_Sambe_Insecticide_Susceptibility_Status_Anopheles_Gambia_PMID29973260
+title: Insecticide susceptibility status of Anopheles gambiae (s.l.) in South-West
+  Cameroon four years after long-lasting insecticidal net mass distribution
+first_author: Stravensky Térence Boussougou-Sambe
+doi: 10.1186/s13071-018-2979-1
+pmid: '29973260'
+publication_year: 2018
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Boussougou-Sambe et al. Parasites & Vectors (2018) 11:391 https://doi.org/10.1186/s13071-018-2979-1
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)
