@@ -1,0 +1,21 @@
+study_id: 2018_Kamgang_Exploring_Insecticide_Resistance_Mechanisms_Three_PMID30433868
+title: Exploring insecticide resistance mechanisms in three major malaria vectors
+  from Bangui in Central African Republic
+first_author: Basile Kamgang
+doi: 10.1080/20477724.2018.1541160
+pmid: '30433868'
+publication_year: 2018
+countries:
+- Central African Republic
+data_source: journal_article
+provenance:
+  source_text: Exploring insecticide resistance mechanisms in three major malaria
+    vectors from Bangui in Central African Republic
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

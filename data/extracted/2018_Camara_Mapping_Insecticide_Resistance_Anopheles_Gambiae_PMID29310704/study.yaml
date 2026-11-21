@@ -1,0 +1,20 @@
+study_id: 2018_Camara_Mapping_Insecticide_Resistance_Anopheles_Gambiae_PMID29310704
+title: Mapping insecticide resistance in Anopheles gambiae (s.l.) from Côte d'Ivoire
+first_author: Soromane Camara
+doi: 10.1186/s13071-017-2546-1
+pmid: '29310704'
+publication_year: 2018
+countries:
+- Côte d'Ivoire
+data_source: field_study
+provenance:
+  source_text: Mapping insecticide resistance in Anopheles gambiae (s.l.) from Côte
+    d'Ivoire
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

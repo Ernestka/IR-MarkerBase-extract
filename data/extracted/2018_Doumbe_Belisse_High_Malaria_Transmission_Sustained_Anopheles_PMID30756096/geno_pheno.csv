@@ -1,0 +1,3 @@
+survey_id,bioassay_id,insecticide,gene,marker,gene_std,variant_std,variant_type,phenotype_group,rr,rs,ss,n,n_carriers,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2018_Doumbe_Belisse_Yaounde_2017_2018_reared,,,kdr,L1014F,Vgsc,L995F,SNP,alive,22,70,5,97,,0.59,,Table 5. Frequency of the kdr alleles in An. gambiae s.l. samples from Yaoundé. Survival population* N=97 RR=22 RS=70 SS=5 F(kdr)=0.59,11,Table 5,,
+2018_Doumbe_Belisse_Yaounde_2017_2018_reared,,,kdr,L1014F,Vgsc,L995F,SNP,dead,10,46,2,58,,0.57,,Table 5. Frequency of the kdr alleles in An. gambiae s.l. samples from Yaoundé. Susceptible specimen* N=58 RR=10 RS=46 SS=2 F(kdr)=0.57,11,Table 5,,

@@ -1,0 +1,22 @@
+study_id: 2018_Bilgo_Transgenic_Metarhizium_Pingshaense_Synergistically_PMID30192847
+title: Transgenic Metarhizium pingshaense synergistically ameliorates pyrethroid-resistance
+  in wild-caught, malaria-vector mosquitoes
+first_author: Etienne Bilgo
+doi: 10.1371/journal.pone.0203529
+pmid: '30192847'
+publication_year: 2018
+countries:
+- Burkina Faso
+data_source: journal_article
+provenance:
+  source_text: 'Bilgo E, Lovett B, Bayili K, Millogo AS, Sare I, Dabire RK, et al.
+    (2018) Transgenic Metarhizium pingshaense synergistically ameliorates pyrethroid-resistance
+    in wild-caught, malaria-vector mosquitoes. PLoS ONE 13(9): e0203529.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,3 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2018_Bilgo_Kou_Valley_coluzzii,Vgsc,L1014F,Vgsc,L995F,SNP,1,L995F,,1014F,allele-specific PCR,False,291,277,10,4,,564,0.969,,An. coluzzii | N=291 | 1014L/1014L=4 | 1014L/1014F=10 | 1014F/1014F=277 | f(1014F (%))=0.969,5,Table 1,,
+2018_Bilgo_Soumousso_gambiae,Vgsc,L1014F,Vgsc,L995F,SNP,1,L995F,,1014F,allele-specific PCR,False,279,211,33,35,,455,0.815,,An.gambiae s.s. | N=279 | 1014L/1014L=35 | 1014L/1014F=33 | 1014F/1014F=211 | f(1014F (%))=0.815,5,Table 1,,

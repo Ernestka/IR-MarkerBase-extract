@@ -10,22 +10,17 @@
 ### Data Extraction Decisions
 
 1. **Surveys**:
-   - Created 3 site-level surveys for *An. gambiae (s.l.)* to link WHO bioassays performed on field-reared adult mosquitoes.
-   - Created 6 species-specific surveys (*An. coluzzii* and *An. gambiae s.s.* for each of Limbe, Tiko, Buea) to link target marker genotype counts.
-   - Collection window: November to December 2015.
-   - Coordinates were extracted directly as reported in Methods (Page 2) and converted from DMS to decimal degrees.
+   - Larval collections were performed between November and December 2015 across three sites in South-West Cameroon: Limbe, Tiko, and Buea (Fako Division).
+   - Created 3 site-level surveys for *An. gambiae* (s.l.) to link the WHO tube susceptibility bioassays, which were conducted prior to molecular species identification.
+   - Created 6 site x species surveys (*An. coluzzii* and *An. gambiae* s.s.) to accurately link the molecular species-specific genotyping results from Table 3.
 
-2. **Target Markers**:
-   - Extracted Vgsc L1014F and L1014S (reported as `kdr` / `L1014F` and `L1014S`).
-   - Genotype counts for L1014F (SS, SR, RR) and sample sizes were extracted directly from Table 3.
-   - For L1014S, the text explicitly reports no L1014S allele was detected in any analyzed sample; all genotyped specimens were therefore homozygous susceptible (SS).
+2. **Markers & Genotypes**:
+   - Screened markers are `kdr` `L1014F` and `kdr` `L1014S` via HOLA.
+   - `L1014S` was screened in all 134 specimens across all sites and found to be entirely absent (0% allele frequency, all SS). Recorded explicit zero counts (SS = n_genotyped) for all site/species surveys as stated in text.
+   - Genotype class counts (SS, RS, RR) for `L1014F` were taken directly from Table 3 and match reported allele frequencies perfectly.
 
 3. **Bioassays**:
-   - Extracted 8 WHO susceptibility bioassays (deltamethrin 0.05%, permethrin 0.75%, malathion 5%) across the three sites.
-   - Sample sizes `n` were taken from Table 1, and 24h mortality percentages were taken from Fig 1 / text.
-   - Because exact raw counts for dead/alive were not explicitly printed for pyrethroids, `dead_alive_printed` is set to `false` and `n_dead` / `n_alive` are left `null` per rule 2.
-   - For malathion in Limbe and Buea, 100% mortality was reported with a combined sample size of 228 across both sites; individual site sample sizes were not split, so `n_exposed` is left `null` for the individual malathion bioassays.
-
-4. **Genotype-Phenotype Data (`geno_pheno`)**:
-   - Genotype counts in Table 3 represent population samples not split by bioassay outcome.
-   - Pooled allele frequencies mentioned in text (85.38% in resistant vs 80.26% in susceptible) were not broken down by site or species in the main text (detailed only in Additional File 1, which is not provided). Therefore, per rule 7, no pooled phenotype-genotype rows were recorded in `geno_pheno`.
+   - WHO standard susceptibility tube tests (60 min exposure, 24 h post-exposure mortality) were conducted for deltamethrin (0.05%), permethrin (0.75%), and malathion (5%).
+   - Sample sizes `n_exposed` for pyrethroids were taken from Table 1, and 24 h mortality percentages were taken from Fig. 1 and text.
+   - Because exact counts of dead/alive were not explicitly printed, `dead_alive_printed` is set to `false` and `n_dead` / `n_alive` left `null` per rule 2.
+   - Malathion tests for Limbe and Buea are reported with 100% mortality with a combined sample size of n=228 across both sites; site-specific n_exposed is left `null`.

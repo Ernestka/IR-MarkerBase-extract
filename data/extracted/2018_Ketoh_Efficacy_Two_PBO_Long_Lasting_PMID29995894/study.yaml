@@ -1,0 +1,23 @@
+study_id: 2018_Ketoh_Efficacy_Two_PBO_Long_Lasting_PMID29995894
+title: Efficacy of two PBO long lasting insecticidal nets against natural populations
+  of Anopheles gambiae s.l. in experimental huts, Kolokopé, Togo
+first_author: Guillaume K. Ketoh
+doi: 10.1371/journal.pone.0192492
+pmid: '29995894'
+publication_year: 2018
+countries:
+- Togo
+data_source: journal_article
+provenance:
+  source_text: 'Citation: Ketoh GK, Ahadji-Dabla KM, Chabi J, Amoudji AD, Apetogbo
+    GY, Awokou F, et al. (2018) Efficacy of two PBO long lasting insecticidal nets
+    against natural populations of Anopheles gambiae s.l. in experimental huts, Kolokopé,
+    Togo. PLoS ONE 13(7): e0192492.'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

@@ -524,6 +524,14 @@
    "name": "Donga, Djougou, Donga, Bénin"
   }
  ],
+ "bj|Donga": [
+  {
+   "lat": 9.26798,
+   "level": "admin1",
+   "lon": 1.71707,
+   "name": "Donga, Bénin"
+  }
+ ],
  "bj|Gblo-Gblo": [],
  "bj|Gblo-Gblo, Ifangni, Plateau": [],
  "bj|Gblo-Gblo, Plateau": [],
@@ -1185,7 +1193,134 @@
  "bj|Zihan": [],
  "bj|Zihan, Ifangni, Plateau": [],
  "bj|Zihan, Plateau": [],
+ "ci|Abengourou, Indénié-Djuablin": [
+  {
+   "lat": 6.7269,
+   "level": "town",
+   "lon": -3.49684,
+   "name": "Abengourou, Indénié-Djuablin, Comoé, Côte d’Ivoire"
+  },
+  {
+   "lat": 6.66766,
+   "level": "admin2",
+   "lon": -3.51074,
+   "name": "Abengourou, Indénié-Djuablin, Comoé, Côte d’Ivoire"
+  }
+ ],
+ "ci|Bondoukou, Gontougo": [
+  {
+   "lat": 8.08434,
+   "level": "town",
+   "lon": -2.79926,
+   "name": "Bondoukou, Gontougo, Zanzan, Côte d’Ivoire"
+  },
+  {
+   "lat": 8.0398,
+   "level": "town",
+   "lon": -2.79843,
+   "name": "Bondoukou, Gontougo, Zanzan, Côte d’Ivoire"
+  }
+ ],
+ "ci|Gbêkê": [
+  {
+   "lat": 7.69918,
+   "level": "admin2",
+   "lon": -5.09652,
+   "name": "Gbêkê, Vallée du Bandama, Côte d’Ivoire"
+  }
+ ],
+ "ci|Grand-Bassam, Sud-Comoé": [
+  {
+   "lat": 5.21288,
+   "level": "town",
+   "lon": -3.74323,
+   "name": "Grand-Bassam, Commune de Grand-Bassam, Grand-Bassam, Sud-Comoé, Comoé, Côte d’Ivoire"
+  },
+  {
+   "lat": 5.4135,
+   "level": "admin2",
+   "lon": -3.51696,
+   "name": "Grand-Bassam, Sud-Comoé, Comoé, Côte d’Ivoire"
+  }
+ ],
+ "ci|Korhogo, Poro": [
+  {
+   "lat": 9.45807,
+   "level": "town",
+   "lon": -5.63163,
+   "name": "Korhogo, Poro, Savanes, Côte d’Ivoire"
+  }
+ ],
+ "ci|M'bé": [
+  {
+   "lat": 7.68376,
+   "level": "river",
+   "lon": -4.34762,
+   "name": "M'bé, Iffou, Lacs, Côte d’Ivoire"
+  },
+  {
+   "lat": 8.11145,
+   "level": "river",
+   "lon": -4.42384,
+   "name": "M'bé, Lagboro, Hambol, Vallée du Bandama, Côte d’Ivoire"
+  },
+  {
+   "lat": 7.8764,
+   "level": "river",
+   "lon": -4.31789,
+   "name": "M'bé, Hambol, Vallée du Bandama, Côte d’Ivoire"
+  }
+ ],
+ "ci|M'bé, Gbêkê": [],
+ "ci|Port-Bouet, Abidjan": [
+  {
+   "lat": 5.25688,
+   "level": "village",
+   "lon": -3.95863,
+   "name": "Port-Bouët, Abidjan, Côte d’Ivoire"
+  }
+ ],
  "ci|Toliak": [],
+ "ci|Yamoussoukro": [
+  {
+   "lat": 6.82001,
+   "level": "town",
+   "lon": -5.2776,
+   "name": "Yamoussoukro, Côte d’Ivoire"
+  },
+  {
+   "lat": 6.86914,
+   "level": "admin1",
+   "lon": -5.28233,
+   "name": "Yamoussoukro, Côte d’Ivoire"
+  }
+ ],
+ "ci|Yamoussoukro, Bélier": [
+  {
+   "lat": 6.84836,
+   "level": "farmyard",
+   "lon": -5.1559,
+   "name": "Ferme Écologique du Bélier, Yamoussoukro, Côte d’Ivoire"
+  },
+  {
+   "lat": 7.07142,
+   "level": "motorway",
+   "lon": -5.23637,
+   "name": "Autoroute Yamoussoukro-Bouaké, Tounzuebo, Lolobo, Bélier, Yamoussoukro, Côte d’Ivoire"
+  },
+  {
+   "lat": 7.19633,
+   "level": "motorway",
+   "lon": -5.17866,
+   "name": "Autoroute Yamoussoukro-Bouaké, Tiébissou, Bélier, Lacs, Côte d’Ivoire"
+  },
+  {
+   "lat": 7.12175,
+   "level": "motorway",
+   "lon": -5.22164,
+   "name": "Autoroute Yamoussoukro-Bouaké, Konde Yaokro, Bélier, Lacs, Côte d’Ivoire"
+  }
+ ],
  "ci|Yaokoffikro": [
   {
    "lat": 6.09765,
@@ -1828,6 +1963,28 @@
    "name": "Conakry, Guinée"
   }
  ],
+ "gn|Fandie": [],
+ "gn|Fandie, Forecariah": [],
+ "gn|Forecariah": [
+  {
+   "lat": 11.11896,
+   "level": "village",
+   "lon": -11.06109,
+   "name": "Forecariah, Dinguiraye, Faranah, Guinée"
+  },
+  {
+   "lat": 9.43246,
+   "level": "town",
+   "lon": -13.08072,
+   "name": "Forécariah, Préfecture de Forécariah, Kindia, Guinée"
+  },
+  {
+   "lat": 9.38521,
+   "level": "admin2",
+   "lon": -13.09046,
+   "name": "Préfecture de Forécariah, Kindia, Guinée"
+  }
+ ],
  "gn|Kaloum": [
   {
    "lat": 9.51496,
@@ -1845,6 +2002,16 @@
   }
  ],
  "gn|Koundara, Koraboh": [],
+ "gn|Madinagbe, Forecariah": [
+  {
+   "lat": 9.46774,
+   "level": "village",
+   "lon": -13.32725,
+   "name": "Madinagbé, Préfecture de Forécariah, Kindia, Guinée"
+  }
+ ],
+ "gn|Maferinyah Centre I": [],
+ "gn|Maferinyah Centre I, Forecariah": [],
  "gn|Matam": [
   {
    "lat": 9.54509,
@@ -1925,6 +2092,14 @@
    "name": "Matoto, Simbaya Gare, Simbaya École, Matoto, Conakry, Guinée"
   }
  ],
+ "gn|Moribayah, Forecariah": [
+  {
+   "lat": 9.59141,
+   "level": "village",
+   "lon": -13.33961,
+   "name": "Moribayah, Préfecture de Forécariah, Kindia, Guinée"
+  }
+ ],
  "gn|Ratoma": [
   {
    "lat": 9.63063,
@@ -1951,6 +2126,22 @@
    "level": "village",
    "lon": -13.65571,
    "name": "Ratoma, Ratoma Centre, Ratoma, Conakry, 625, Guinée"
+  }
+ ],
+ "gn|Senguelen, Forecariah": [
+  {
+   "lat": 9.42292,
+   "level": "village",
+   "lon": -13.36366,
+   "name": "Sénguélén, Préfecture de Forécariah, Kindia, Guinée"
+  }
+ ],
+ "gn|Yindi, Forecariah": [
+  {
+   "lat": 9.41243,
+   "level": "village",
+   "lon": -13.31832,
+   "name": "Yindi, Préfecture de Forécariah, Kindia, Guinée"
   }
  ],
  "gq|Arena Blanca": [],
@@ -2224,6 +2415,20 @@
   }
  ],
  "ke|Emutete": [],
+ "ke|Gazi": [
+  {
+   "lat": -4.42377,
+   "level": "residential",
+   "lon": 39.50556,
+   "name": "Gazi, Gasi, Kinondo ward, Msambweni, Kwale, Kenya"
+  },
+  {
+   "lat": -4.43449,
+   "level": "beach",
+   "lon": 39.50961,
+   "name": "Gazi beach, Gasi, Kinondo ward, Msambweni, Kwale, Kenya"
+  }
+ ],
  "ke|Homa Bay": [
   {
    "lat": -0.56396,
@@ -2323,6 +2528,7 @@
    "name": "Iguhu Dispensary, Iguhu Road, Makhokho, Idakho East ward, Ikolomani, Kakamega, Kenya"
   }
  ],
+ "ke|Kabernet": [],
  "ke|Kakamega": [
   {
    "lat": 0.49571,
@@ -2338,6 +2544,22 @@
   }
  ],
  "ke|Kakamega, Western Province": [],
+ "ke|Kamkuywa": [
+  {
+   "lat": 0.7671,
+   "level": "amenity",
+   "lon": 34.78838,
+   "name": "Kamkuywa primary, Kakamega-Kitale Road, Kamukuywa, Kamukuywa ward, Kimilili, Bungoma, Kenya"
+  }
+ ],
+ "ke|Kanyawegi": [
+  {
+   "lat": -0.10562,
+   "level": "village",
+   "lon": 34.65365,
+   "name": "Kanyawegi, Kisumu, City of Kisumu, Kisumu West, Kisumu, Kenya"
+  }
+ ],
  "ke|Kibuogi": [],
  "ke|Kibuogi, Nyanza": [],
  "ke|Kibuogi, Suba, Nyanza": [],
@@ -2541,6 +2763,40 @@
  ],
  "ke|Malaba, Busia, Western Province": [],
  "ke|Malaba, Western Province": [],
+ "ke|Malindi": [
+  {
+   "lat": -3.22959,
+   "level": "admin2",
+   "lon": 39.97509,
+   "name": "Malindi, Kilifi, 80200, Kenya"
+  },
+  {
+   "lat": -3.2166,
+   "level": "town",
+   "lon": 40.11659,
+   "name": "Malindi, Kilifi, 80200, Kenya"
+  },
+  {
+   "lat": -1.4333,
+   "level": "village",
+   "lon": 40.0333,
+   "name": "Malindi, Galole, Tana River, Kenya"
+  }
+ ],
+ "ke|Marigat": [
+  {
+   "lat": 0.43855,
+   "level": "admin2",
+   "lon": 36.03507,
+   "name": "Marigat, Baringo, 30403, Kenya"
+  },
+  {
+   "lat": 0.46898,
+   "level": "town",
+   "lon": 35.98024,
+   "name": "Marigat, Baringo, 30403, Kenya"
+  }
+ ],
  "ke|Marigiza and Kidomaya": [],
  "ke|Marigiza and Kidomaya, Coast": [],
  "ke|Marigiza and Kidomaya, Kwale": [],
@@ -2617,6 +2873,28 @@
  ],
  "ke|Mirunda, Nyanza": [],
  "ke|Mirunda, Suba, Nyanza": [],
+ "ke|Miwani": [
+  {
+   "lat": -0.07706,
+   "level": "town",
+   "lon": 34.98386,
+   "name": "Miwani, Miwani ward, Muhoroni, Kisumu, Kenya"
+  },
+  {
+   "lat": -0.06484,
+   "level": "town",
+   "lon": 34.9078,
+   "name": "Miwani ward, Muhoroni, Kisumu, Kenya"
+  }
+ ],
+ "ke|Mtwapa": [
+  {
+   "lat": -3.9474,
+   "level": "village",
+   "lon": 39.74236,
+   "name": "Mtwapa, Shimo La Tewa ward, Kilifi South, Kilifi, 80109, Kenya"
+  }
+ ],
  "ke|Ngodhe": [
   {
    "lat": -0.35366,
@@ -2655,6 +2933,38 @@
  ],
  "ke|Obambo, Nyanza": [],
  "ke|Obambo, Suba, Nyanza": [],
+ "ke|Port Victoria": [
+  {
+   "lat": 0.0858,
+   "level": "tertiary",
+   "lon": 33.99597,
+   "name": "Mau Mau- Bumadeya- Port Victoria Road, Budongi, Bunyala South ward, Bunyala, Busia, Kenya"
+  },
+  {
+   "lat": 0.09241,
+   "level": "tertiary",
+   "lon": 33.99218,
+   "name": "Mau Mau- Bumadeya- Port Victoria Road, Khusuna, Bunyala South ward, Bunyala, Busia, Kenya"
+  },
+  {
+   "lat": 0.09605,
+   "level": "building",
+   "lon": 33.97919,
+   "name": "Miracle Revival Fellowship Pentecostal Church-Port Victoria, Bumadeya PP03, Bugula A, Bunyala West ward, Bunyala, Busia, Kenya"
+  },
+  {
+   "lat": 0.09696,
+   "level": "amenity",
+   "lon": 33.97581,
+   "name": "Port Victoria hospital, Omena Beach Main Road, Bwaniha, Bunyala West ward, Bunyala, Busia, Kenya"
+  },
+  {
+   "lat": 0.09855,
+   "level": "amenity",
+   "lon": 33.97296,
+   "name": "Port Victoria mixed primary school, Omena Beach Main Road, Bwaniha, Bunyala West ward, Bunyala, Busia, Kenya"
+  }
+ ],
  "ke|Ragwe": [
   {
    "lat": -0.52188,
@@ -4482,6 +4792,8 @@
    "name": "الدمازين, النيل الأزرق Blue Nile, السودان"
   }
  ],
+ "sd|El Hoosh": [],
+ "sd|El Hoosh, Gezira": [],
  "sd|Galabat": [
   {
    "lat": 14.02354,
@@ -4528,6 +4840,48 @@
  ],
  "sd|Gezira State (Wad Medani, Elmanagil, Wad Elhadad, Rufaa)": [],
  "sd|Gezira State (Wad Medani, Elmanagil, Wad Elhadad, Rufaa), Gezira": [],
+ "sd|Hag Abdalla": [
+  {
+   "lat": 13.96142,
+   "level": "town",
+   "lon": 33.58581,
+   "name": "الحاج عبدالله, الجزيرة, السودان"
+  }
+ ],
+ "sd|Hag Abdalla, Gezira": [
+  {
+   "lat": 13.96142,
+   "level": "town",
+   "lon": 33.58581,
+   "name": "الحاج عبدالله, الجزيرة, السودان"
+  }
+ ],
+ "sd|Kassala": [
+  {
+   "lat": 15.4322,
+   "level": "town",
+   "lon": 36.41673,
+   "name": "Kassala, كسلا, السودان"
+  },
+  {
+   "lat": 16.0432,
+   "level": "admin1",
+   "lon": 36.01811,
+   "name": "كسلا, السودان"
+  },
+  {
+   "lat": 15.45201,
+   "level": "town",
+   "lon": 36.37707,
+   "name": "كسلا, السودان"
+  },
+  {
+   "lat": 15.39597,
+   "level": "town",
+   "lon": 36.42819,
+   "name": "كسلا, السودان"
+  }
+ ],
  "sd|Khartoum": [
   {
    "lat": 15.5636,
@@ -4562,6 +4916,21 @@
    "name": "White Nile, كوستي, النيل الأبيض White Nile, السودان"
   }
  ],
+ "sd|New Halfa": [
+  {
+   "lat": 15.32025,
+   "level": "town",
+   "lon": 35.60379,
+   "name": "حلفا الجديدة, نهر عطبرة, السودان"
+  },
+  {
+   "lat": 15.32064,
+   "level": "tertiary",
+   "lon": 35.60275,
+   "name": "حلفا الجديدة, نهر عطبرة, السودان"
+  }
+ ],
+ "sd|New Halfa, Kassala": [],
  "sd|Sennar": [
   {
    "lat": 12.92774,
@@ -4739,6 +5108,107 @@
    "name": "Région de Dakar, Sénégal"
   }
  ],
+ "sn|Dakar and suburbs": [],
+ "sn|Dakar and suburbs, Dakar": [],
+ "sn|Dakar centre": [
+  {
+   "lat": 12.56293,
+   "level": "building",
+   "lon": -16.27769,
+   "name": "Dakar Dem Dikk, Avenue Émile Badiane, Boucotte Nord, Ziguinchor, Département de Ziguinchor, Région de Ziguinchor, 27000, Sénégal"
+  },
+  {
+   "lat": 12.56308,
+   "level": "amenity",
+   "lon": -16.27788,
+   "name": "Dakar Dem Dikk, Avenue Émile Badiane, Boucotte Nord, Ziguinchor, Département de Ziguinchor, Région de Ziguinchor, 27000, Sénégal"
+  },
+  {
+   "lat": 12.56299,
+   "level": "shop",
+   "lon": -16.27772,
+   "name": "Dakar Dem Dikk, Avenue Émile Badiane, Boucotte Nord, Ziguinchor, Département de Ziguinchor, Région de Ziguinchor, 27000, Sénégal"
+  }
+ ],
+ "sn|Dakar centre, Dakar": [
+  {
+   "lat": 14.70598,
+   "level": "amenity",
+   "lon": -17.45399,
+   "name": "Centre de Santé de Grand-Dakar, Rue GD-44, Commune de Grand-Dakar, Arrondissement de Grand Dakar, Dakar, Région de Dakar, 13000, Sénégal"
+  },
+  {
+   "lat": 14.68489,
+   "level": "amenity",
+   "lon": -17.45713,
+   "name": "Centre verbo-tonal de Dakar, Route de Fann, Gueule Tapée, Commune de Gueule Tapée-Fass-Colobane, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 10500, Sénégal"
+  },
+  {
+   "lat": 14.69128,
+   "level": "building",
+   "lon": -17.46287,
+   "name": "Centre des Oeuvres Universitaires de Dakar, Avenue Cheikh Anta Diop, Point E, Commune de Fann-Point E-Amitié, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 10500, Sénégal"
+  },
+  {
+   "lat": 14.70596,
+   "level": "amenity",
+   "lon": -17.45395,
+   "name": "Centre de santé de Grand Dakar, Rue GD-29, Commune de Grand-Dakar, Arrondissement de Grand Dakar, Dakar, Région de Dakar, 13000, Sénégal"
+  },
+  {
+   "lat": 14.7043,
+   "level": "amenity",
+   "lon": -17.45364,
+   "name": "Centre Socio-Culturel de Grand-Dakar, Rue GD-21, Commune de Grand-Dakar, Arrondissement de Grand Dakar, Dakar, Région de Dakar, 13000, Sénégal"
+  }
+ ],
+ "sn|Darou Rahmane": [
+  {
+   "lat": 14.36726,
+   "level": "village",
+   "lon": -15.89903,
+   "name": "Darou Rahmane, Communauté rurale de Nguélou, Arrondissement de Nguélou, Département de Guinguinéo, Région de Kaolack, Sénégal"
+  },
+  {
+   "lat": 14.50551,
+   "level": "village",
+   "lon": -15.84472,
+   "name": "Darou Rahmane, Communauté rurale de Mbar, Arrondissement de Colobane, Département de Gossas, Région de Fatick, Sénégal"
+  },
+  {
+   "lat": 12.75097,
+   "level": "village",
+   "lon": -14.31903,
+   "name": "Darou Rahmane, Communauté rurale de Coumbacara, Arrondissement de Mampatim, Département de Kolda, Région de Kolda, Sénégal"
+  },
+  {
+   "lat": 14.99414,
+   "level": "office",
+   "lon": -15.99217,
+   "name": "Darou Rahmane, Route de Darou Mousty, Touba Pétégne, Sare Sare, Communauté rurale de Missirah, Arrondissement de Ndame, Département de Mbacké, Région de Diourbel, Sénégal"
+  }
+ ],
+ "sn|Darou Rahmane, Dakar": [
+  {
+   "lat": 14.77271,
+   "level": "amenity",
+   "lon": -17.30686,
+   "name": "Mosquée de Darou Rahmane 1, Rue Gouy Gui, Camille Basse, Keur Massar, Commune de Keur Massar Sud, Arrondissement de Jaxaay, Département de Keur Massar, Région de Dakar, 17000, Sénégal"
+  },
+  {
+   "lat": 14.73227,
+   "level": "office",
+   "lon": -17.25881,
+   "name": "Association des Jeunes de Darou Rahmane, Autoroute à péage, Commune de Rufisque Nord, Rufisque, Arrondissement de Diamniadio, Département de Rufisque, Région de Dakar, 20000, Sénégal"
+  },
+  {
+   "lat": 14.73104,
+   "level": "office",
+   "lon": -17.26046,
+   "name": "Amicale des eleves et etudiants de Darou Rahmane, Autoroute à péage, Commune de Rufisque Nord, Rufisque, Arrondissement de Diamniadio, Département de Rufisque, Région de Dakar, 20000, Sénégal"
+  }
+ ],
+ "sn|Darou Rahmane, Guediawaye, Dakar": [],
  "sn|Dialiko, Tambacounda": [
   {
    "lat": 13.36752,
@@ -4747,6 +5217,49 @@
    "name": "Tabadian Dialiko, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
   }
  ],
+ "sn|Diamaguene, Dakar": [
+  {
+   "lat": 14.75606,
+   "level": "town",
+   "lon": -17.35159,
+   "name": "Commune de Diamaguène-Sicap Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, Sénégal"
+  },
+  {
+   "lat": 14.75152,
+   "level": "cemetery",
+   "lon": -17.35608,
+   "name": "Cimetière musulman de Diamaguene, Commune de Diamaguène-Sicap Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Diamaguene, Mbao, Dakar": [
+  {
+   "lat": 14.75152,
+   "level": "cemetery",
+   "lon": -17.35608,
+   "name": "Cimetière musulman de Diamaguene, Commune de Diamaguène-Sicap Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, Sénégal"
+  },
+  {
+   "lat": 14.75209,
+   "level": "amenity",
+   "lon": -17.35441,
+   "name": "CEM Diamaguene SICAP Mbao, Rue DSM 678, Commune de Diamaguène-Sicap Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, 17000, Sénégal"
+  },
+  {
+   "lat": 14.74723,
+   "level": "amenity",
+   "lon": -17.36007,
+   "name": "Pharmacie diamaguene, N 1, Mbatal, Commune de Diamaguène-Sicap Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, 10000, Sénégal"
+  }
+ ],
+ "sn|Djida Thiaroye, Dakar": [
+  {
+   "lat": 14.76527,
+   "level": "village",
+   "lon": -17.383,
+   "name": "Commune de Djidah Thiaroye Kaw, Thiaroye, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Djida Thiaroye, Mbao, Dakar": [],
  "sn|Djnkore": [],
  "sn|Djnkore, Tambacounda": [],
  "sn|Gouloumbou, Tambacounda": [
@@ -4789,6 +5302,70 @@
    "name": "Gourel Ari Khara, Communauté rurale de Bélé, Arrondissement de Bélé, Département de Bakel, Région de Tambacounda, Sénégal"
   }
  ],
+ "sn|Guinaw Rails": [
+  {
+   "lat": 14.08494,
+   "level": "amenity",
+   "lon": -15.28914,
+   "name": "Mosquée de Guinaw Rails, N 1, Kipp, Sagna, Malem-Hodar, Arrondissement de Sagna, Département de Malem Hodar, Région de Kaffrine, Sénégal"
+  },
+  {
+   "lat": 14.74858,
+   "level": "amenity",
+   "lon": -17.38561,
+   "name": "Maison de la femme de guinaw rails Sud, A 1, Thiaroye, Commune de Guinaw Rail Sud, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, 10000, Sénégal"
+  },
+  {
+   "lat": 14.75055,
+   "level": "amenity",
+   "lon": -17.38349,
+   "name": "Radio Rails - Bi FM, Rue 4, Commune de Guinaw Rail Nord, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, 10000, Sénégal"
+  }
+ ],
+ "sn|Guinaw Rails, Dakar": [
+  {
+   "lat": 14.74858,
+   "level": "amenity",
+   "lon": -17.38561,
+   "name": "Maison de la femme de guinaw rails Sud, A 1, Thiaroye, Commune de Guinaw Rail Sud, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, 10000, Sénégal"
+  }
+ ],
+ "sn|Guinaw Rails, Pikine, Dakar": [
+  {
+   "lat": 14.74858,
+   "level": "amenity",
+   "lon": -17.38561,
+   "name": "Maison de la femme de guinaw rails Sud, A 1, Thiaroye, Commune de Guinaw Rail Sud, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, 10000, Sénégal"
+  }
+ ],
+ "sn|Keur Massar": [
+  {
+   "lat": 14.78226,
+   "level": "town",
+   "lon": -17.3112,
+   "name": "Keur Massar, Commune de Keur Massar Nord, Arrondissement de Malika, Département de Keur Massar, Région de Dakar, 17000, Sénégal"
+  },
+  {
+   "lat": 14.77218,
+   "level": "residential",
+   "lon": -17.29221,
+   "name": "Keur Massar, Plan Jaxaay 01, Commune de Jaxaay - Parcelles, Arrondissement de Jaxaay, Département de Keur Massar, Région de Dakar, 17000, Sénégal"
+  }
+ ],
+ "sn|Keur Massar, Dakar": [
+  {
+   "lat": 14.78226,
+   "level": "town",
+   "lon": -17.3112,
+   "name": "Keur Massar, Commune de Keur Massar Nord, Arrondissement de Malika, Département de Keur Massar, Région de Dakar, 17000, Sénégal"
+  },
+  {
+   "lat": 14.77218,
+   "level": "residential",
+   "lon": -17.29221,
+   "name": "Keur Massar, Plan Jaxaay 01, Commune de Jaxaay - Parcelles, Arrondissement de Jaxaay, Département de Keur Massar, Région de Dakar, 17000, Sénégal"
+  }
+ ],
  "sn|Koar, Tambacounda": [
   {
    "lat": 13.80098,
@@ -4805,6 +5382,77 @@
  ],
  "sn|Madina Dian": [],
  "sn|Madina Dian, Tambacounda": [],
+ "sn|Malika, Dakar": [
+  {
+   "lat": 14.80148,
+   "level": "town",
+   "lon": -17.3376,
+   "name": "Commune de Malika, Arrondissement de Malika, Département de Keur Massar, Région de Dakar, 20896, Sénégal"
+  },
+  {
+   "lat": 14.80072,
+   "level": "town",
+   "lon": -17.32384,
+   "name": "Arrondissement de Malika, Département de Keur Massar, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Malika, Keur Massar, Dakar": [
+  {
+   "lat": 14.79046,
+   "level": "secondary",
+   "lon": -17.32695,
+   "name": "Route de Malika, Keur Massar, Commune de Keur Massar Nord, Arrondissement de Malika, Département de Keur Massar, Région de Dakar, 20896, Sénégal"
+  },
+  {
+   "lat": 14.77659,
+   "level": "primary",
+   "lon": -17.3198,
+   "name": "Route de Malika, Camille Basse, Keur Massar, Commune de Keur Massar Nord, Arrondissement de Malika, Département de Keur Massar, Région de Dakar, 17000, Sénégal"
+  },
+  {
+   "lat": 14.78107,
+   "level": "secondary",
+   "lon": -17.32266,
+   "name": "Route de Malika, Keur Massar, Commune de Keur Massar Nord, Arrondissement de Malika, Département de Keur Massar, Région de Dakar, 17000, Sénégal"
+  },
+  {
+   "lat": 14.77844,
+   "level": "primary",
+   "lon": -17.32121,
+   "name": "Route de Malika, Keur Massar, Commune de Keur Massar Nord, Arrondissement de Malika, Département de Keur Massar, Région de Dakar, 17000, Sénégal"
+  }
+ ],
+ "sn|Mbao": [
+  {
+   "lat": 14.74154,
+   "level": "town",
+   "lon": -17.32615,
+   "name": "Commune de Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, Sénégal"
+  },
+  {
+   "lat": 14.73941,
+   "level": "village",
+   "lon": -17.31779,
+   "name": "Mbao, Commune de Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Mbao Baobab": [],
+ "sn|Mbao Baobab, Dakar": [],
+ "sn|Mbao Baobab, Mbao, Dakar": [],
+ "sn|Mbao, Dakar": [
+  {
+   "lat": 14.74154,
+   "level": "town",
+   "lon": -17.32615,
+   "name": "Commune de Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, Sénégal"
+  },
+  {
+   "lat": 14.73941,
+   "level": "village",
+   "lon": -17.31779,
+   "name": "Mbao, Commune de Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, Sénégal"
+  }
+ ],
  "sn|Middle Senegal River basin": [],
  "sn|Missirah, Tambacounda": [
   {
@@ -4834,6 +5482,28 @@
    "level": "village",
    "lon": -13.68134,
    "name": "Nguène, Communauté rurale de Missirah, Arrondissement de Missirah, Département de Tambacounda, Région de Tambacounda, Sénégal"
+  }
+ ],
+ "sn|Pikine": [
+  {
+   "lat": 14.75154,
+   "level": "town",
+   "lon": -17.39641,
+   "name": "Pikine, Commune de Pikine Ouest, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, Sénégal"
+  },
+  {
+   "lat": 14.74612,
+   "level": "department",
+   "lon": -17.36158,
+   "name": "Département de Pikine, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Pikine Est, Pikine, Dakar": [
+  {
+   "lat": 14.75728,
+   "level": "town",
+   "lon": -17.38759,
+   "name": "Commune de Pikine Est, Arrondissement de Pikine-Dagoudane, Département de Pikine, Région de Dakar, Sénégal"
   }
  ],
  "sn|Pikine, Dakar": [
@@ -4913,6 +5583,67 @@
  ],
  "sn|Tourema": [],
  "sn|Tourema, Tambacounda": [],
+ "sn|UCAD": [
+  {
+   "lat": 14.69324,
+   "level": "highway",
+   "lon": -17.46207,
+   "name": "UCAD, Avenue Cheikh Anta Diop, Point E, Commune de Fann-Point E-Amitié, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 10500, Sénégal"
+  },
+  {
+   "lat": 14.68725,
+   "level": "amenity",
+   "lon": -17.46445,
+   "name": "Université Cheikh Anta Diop, Rue FN-23 D, Fann Résidence, Commune de Fann-Point E-Amitié, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 10700, Sénégal"
+  },
+  {
+   "lat": 14.68432,
+   "level": "garden",
+   "lon": -17.46201,
+   "name": "Jardin Botanique de l'UCAD, Commune de Fann-Point E-Amitié, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|UCAD, Dakar": [
+  {
+   "lat": 14.69324,
+   "level": "highway",
+   "lon": -17.46207,
+   "name": "UCAD, Avenue Cheikh Anta Diop, Point E, Commune de Fann-Point E-Amitié, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 10500, Sénégal"
+  },
+  {
+   "lat": 14.68725,
+   "level": "amenity",
+   "lon": -17.46445,
+   "name": "Université Cheikh Anta Diop, Route de la Corniche Ouest, Fann Hock, Commune de Fann-Point E-Amitié, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, 10500, Sénégal"
+  },
+  {
+   "lat": 14.68432,
+   "level": "garden",
+   "lon": -17.46201,
+   "name": "Jardin Botanique de l'UCAD, Commune de Fann-Point E-Amitié, Arrondissement de Dakar-Plateau, Dakar, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|UCAD, Dakar centre, Dakar": [],
+ "sn|Wakhinane, Guediawaye, Dakar": [
+  {
+   "lat": 14.77919,
+   "level": "basin",
+   "lon": -17.36587,
+   "name": "Wakhinane, Commune de Wakhinane Nimzatt, Arrondissement de Wakhinane Nimzatt, Département de Guédiawaye, Région de Dakar, Sénégal"
+  },
+  {
+   "lat": 14.79161,
+   "level": "town",
+   "lon": -17.37788,
+   "name": "Arrondissement de Wakhinane Nimzatt, Département de Guédiawaye, Région de Dakar, 15000, Sénégal"
+  },
+  {
+   "lat": 14.79684,
+   "level": "commune",
+   "lon": -17.37466,
+   "name": "Commune de Wakhinane Nimzatt, Arrondissement de Wakhinane Nimzatt, Département de Guédiawaye, Région de Dakar, Sénégal"
+  }
+ ],
  "sn|Wassadou, Tambacounda": [
   {
    "lat": 13.34289,
@@ -4953,6 +5684,30 @@
    "level": "amenity",
    "lon": -17.43054,
    "name": "Pharmacie Hann Yarakh, Route de Rufisque, Hann Equip, Commune de Hann Bel-Air, Arrondissement de Grand Dakar, Dakar, Région de Dakar, 00221, Sénégal"
+  }
+ ],
+ "sn|Yeumbeul": [
+  {
+   "lat": 14.77577,
+   "level": "arrondissement",
+   "lon": -17.35709,
+   "name": "Arrondissement de Yeumbeul, Département de Keur Massar, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Yeumbeul, Dakar": [
+  {
+   "lat": 14.77577,
+   "level": "arrondissement",
+   "lon": -17.35709,
+   "name": "Arrondissement de Yeumbeul, Département de Keur Massar, Région de Dakar, Sénégal"
+  }
+ ],
+ "sn|Yeumbeul, Keur Massar, Dakar": [
+  {
+   "lat": 14.77577,
+   "level": "arrondissement",
+   "lon": -17.35709,
+   "name": "Arrondissement de Yeumbeul, Département de Keur Massar, Région de Dakar, Sénégal"
   }
  ],
  "td|Kome (Sites A and B pooled)": [],

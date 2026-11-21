@@ -1,0 +1,19 @@
+study_id: 2018_Hemming_Schroeder_Emerging_Pyrethroid_Resistance_Anopheles_Arabiensi_PMID29363447
+title: Emerging Pyrethroid Resistance among Anopheles arabiensis in Kenya
+first_author: Elizabeth Hemming-Schroeder
+doi: 10.4269/ajtmh.17-0445
+pmid: '29363447'
+publication_year: 2018
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: Am. J. Trop. Med. Hyg., 98(3), 2018, pp. 704–709, doi:10.4269/ajtmh.17-0445
+  page: '704'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

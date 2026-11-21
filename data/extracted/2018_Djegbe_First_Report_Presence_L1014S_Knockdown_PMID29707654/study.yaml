@@ -1,0 +1,21 @@
+study_id: 2018_Djegbe_First_Report_Presence_L1014S_Knockdown_PMID29707654
+title: First report of the presence of L1014S Knockdown-resistance mutation in Anopheles
+  gambiae s.s and Anopheles coluzzii from Togo, West Africa
+first_author: Innocent Djègbè
+doi: 10.12688/wellcomeopenres.13888.1
+pmid: '29707654'
+publication_year: 2018
+countries:
+- Togo
+data_source: journal_article
+provenance:
+  source_text: First report of the presence of L1014S Knockdown-resistance mutation
+    in Anopheles gambiae s.s and Anopheles coluzzii from Togo, West Africa
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

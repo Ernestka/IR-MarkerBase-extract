@@ -1,0 +1,21 @@
+study_id: 2018_Akogbeto_Blood_Feeding_Behaviour_Comparison_Contribution_PMID30134912
+title: Blood feeding behaviour comparison and contribution of Anopheles coluzzii and
+  Anopheles gambiae, two sibling species living in sympatry, to malaria transmission
+  in Alibori and Donga region, northern Benin, West Africa
+first_author: Martin C. Akogbéto
+doi: 10.1186/s12936-018-2452-9
+pmid: '30134912'
+publication_year: 2018
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Akogbéto et al. Malar J (2018) 17:307 https://doi.org/10.1186/s12936-018-2452-9
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.8-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

@@ -10,14 +10,12 @@ countries:
 - Benin
 data_source: journal_article
 provenance:
-  source_text: Small-scale field evaluation of the efficacy and residual effect of
-    Fludora® Fusion (mixture of clothianidin and deltamethrin) against susceptible
-    and resistant Anopheles gambiae populations from Benin, West Africa
+  source_text: Agossa et al. Malar J (2018) 17:484 https://doi.org/10.1186/s12936-018-2633-6
   page: '1'
   table: null
   figure: null
   supplement: null
 confidence: high
-model: gemini:gemini-3.5-flash
+model: gemini:gemini-3.8-flash
 extracted: '2026-11-21'
 pmid_source: Europe PMC (from DOI)

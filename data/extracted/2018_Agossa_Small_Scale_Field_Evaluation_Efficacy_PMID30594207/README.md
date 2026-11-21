@@ -1,19 +1,26 @@
 # Extraction record — 2018_Agossa_Small_Scale_Field_Evaluation_Efficacy_PMID30594207
 
 - Extracted: 2026-11-21
-- Model: gemini:gemini-3.5-flash
+- Model: gemini:gemini-3.8-flash
 - Confidence (model's own): high
 - Surveys: 1 · Genotype rows: 1 · Bioassays: 3 · Geno-pheno rows: 0
 
 ## Decisions
 
-### Data Extraction Decisions
+### Study & Survey Design
+- Wild Anopheles gambiae s.s. were collected monthly as larvae from Dangbo district, Benin, and reared to 2-5 day old adults for baseline WHO tube tests, wall cone bioassays, and resistance mechanism characterization.
+- No exact sampling start and end dates were reported; ethical clearance was issued in May/June 2015 and the manuscript was received in February 2018.
 
-1. **Survey**: One survey representing wild-reared *Anopheles gambiae* s.s. collected as larvae in Dangbo district, Benin.
-2. **Genotypes**: The paper reports the Leu-Phe *kdr* mutation (Vgsc L1014F) detected by PCR according to Martinez-Torres et al. (1998). The marker is assigned to gene `Vgsc` and marker `L1014F`. The text states: 'Molecular analysis of the wild Anopheles population from Dangbo showed very high frequency of kdr mutation (0.99) (49/50)'. `n_genotyped` = 50, `n_carriers` = 49, `reported_allele_freq` = 0.99. An inconsistency note records that 49/50 equals 0.98.
-3. **Bioassays**: Extracted standard WHO tube susceptibility test results reported in Figure 2 for deltamethrin 0.05%, bendiocarb 0.1%, and pirimiphos-methyl 0.25%. Monthly IRS wall cone bioassay evaluations on treated wall substrates were excluded as they represent substrate persistence tests rather than standard mosquito population susceptibility assays. Reference strain (Kisumu) assays were skipped as controls.
-4. **Geno-Pheno**: No genotype breakdowns split by bioassay survivor/dead outcome were presented in the study.
+### Genotypes
+- The paper reports the 'Leu-Phe kdr mutation' detected by PCR (Martinez-Torres et al. 1998), which corresponds to target marker Vgsc L995F (L1014F). The marker is recorded with gene 'Vgsc' and marker 'L995F' as specified in the target markers list.
+- The text states: 'Molecular analysis of the wild Anopheles population from Dangbo showed very high frequency of kdr mutation (0.99) (49/50)'. Per extraction instructions, n_carriers is set to 49, n_genotyped to 50, and reported_allele_freq to 0.99, with an inconsistency note explaining the potential interpretations.
+
+### Bioassays
+- Standard baseline WHO tube tests against wild An. gambiae s.s. are extracted from Figure 2 (deltamethrin 0.05%, bendiocarb 0.1%, pirimiphos-methyl 0.25%). Number exposed and reported mortality percentages are provided, but exact numbers of dead/alive are not printed, so dead_alive_printed is false and n_dead/n_alive are null.
+- Wall cone bioassays across multiple substrate formulations and months (Figures 4–9 and Additional files 1 and 2) are not extracted as numerical counts are only presented in graphs or supplementary tables not included in the main text.
+- Susceptible Kisumu control tests were excluded as laboratory controls.
+- No genotype-phenotype associations were reported.
 
 ## Validator warnings
 
-- genotype #1 (2018_Agossa_Small_Scale_Field_Evaluation_Efficacy_PMID30594207_dangbo, Vgsc L1014F): inconsistent in the paper (values kept as printed) — Text prints frequency 0.99 along with (49/50). Note that 49/50 = 0.98; the paper prints 0.99.
+- genotype #1 (2018_Agossa_Small_Scale_Field_Evaluation_Efficacy_PMID30594207_dangbo, Vgsc L995F): inconsistent in the paper (values kept as printed) — The paper states 'frequency of kdr mutation (0.99) (49/50)'. It is not explicitly stated whether 49/50 represents carriers (which would give a carrier frequency of 0.98) or if there were 49 RR homozygotes and 1 RS heterozygote ((49*2 + 1)/100 = 0.99 allele frequency).

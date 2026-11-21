@@ -1,0 +1,21 @@
+study_id: 2018_Ismail_Temporal_Spatial_Trends_Insecticide_Resistance_PMID29499751
+title: 'Temporal and spatial trends in insecticide resistance in Anopheles arabiensis
+  in Sudan: outcomes from an evaluation of implications of insecticide resistance
+  for malaria vector control'
+first_author: Bashir Adam Ismail
+doi: 10.1186/s13071-018-2732-9
+pmid: '29499751'
+publication_year: 2018
+countries:
+- Sudan
+data_source: pub_reader
+provenance:
+  source_text: Ismail et al. Parasites & Vectors (2018) 11:122 https://doi.org/10.1186/s13071-018-2732-9
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

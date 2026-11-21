@@ -1,0 +1,21 @@
+study_id: 2018_Doumbe_Belisse_High_Malaria_Transmission_Sustained_Anopheles_PMID30756096
+title: High malaria transmission sustained by Anopheles gambiae s.l. occurring both
+  indoors and outdoors in the city of Yaoundé, Cameroon
+first_author: Patricia Doumbe-Belisse
+doi: 10.12688/wellcomeopenres.14963.1
+pmid: '30756096'
+publication_year: 2018
+countries:
+- Cameroon
+data_source: primary_publication
+provenance:
+  source_text: High malaria transmission sustained by Anopheles gambiae s.l. occurring
+    both indoors and outdoors in the city of Yaoundé, Cameroon
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

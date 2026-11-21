@@ -1,0 +1,13 @@
+bioassay_id,survey_id,insecticide,insecticide_class,concentration,exposure_duration_min,assay_method,assay_type,synergist,dead_alive_printed,n_exposed,n_dead,n_alive,reported_mortality_pct,mortality_time_h,inconsistency_note,source_text,page,table,figure,supplement
+2018_Camara_Abengourou_sl_perm_075,2018_Camara_Abengourou_sl,permethrin,pyrethroid,0.75%,60.0,WHO tube test,susceptibility,,False,101,,,61.8,24.0,,Table 1 row Abengourou permethrin 0.75%,5,Table 1,,
+2018_Camara_Abengourou_sl_delta_005,2018_Camara_Abengourou_sl,deltamethrin,pyrethroid,0.05%,60.0,WHO tube test,susceptibility,,False,101,,,97.0,24.0,,Table 1 row Abengourou deltamethrin 0.05%,5,Table 1,,
+2018_Camara_Abengourou_sl_alpha_005,2018_Camara_Abengourou_sl,alphacypermethrin,pyrethroid,0.05%,60.0,WHO tube test,susceptibility,,False,105,,,82.9,24.0,,Table 1 row Abengourou alphacypermethrin 0.05%,5,Table 1,,
+2018_Camara_Abengourou_sl_ddt_4,2018_Camara_Abengourou_sl,DDT,organochlorine,4%,60.0,WHO tube test,susceptibility,,False,106,,,66.1,24.0,,Table 1 row Abengourou DDT 4%,5,Table 1,,
+2018_Camara_Abengourou_sl_carbosulfan_04,2018_Camara_Abengourou_sl,carbosulfan,carbamate,0.4%,60.0,WHO tube test,susceptibility,,False,101,,,14.3,24.0,,Table 2 row Abengourou carbosulfan 0.4%,7,Table 2,,
+2018_Camara_Abengourou_sl_pirimiphos_1,2018_Camara_Abengourou_sl,pyrimifos-methyl,organophosphate,1%,60.0,WHO tube test,susceptibility,,False,100,,,100.0,24.0,,Table 2 row Abengourou pyrimifos-methyl 1%,7,Table 2,,
+2018_Camara_Korhogo_sl_perm_075,2018_Camara_Korhogo_sl,permethrin,pyrethroid,0.75%,60.0,WHO tube test,susceptibility,,False,97,,,31.1,24.0,,Table 1 row Korhogo permethrin 0.75%,5,Table 1,,
+2018_Camara_Korhogo_sl_delta_005,2018_Camara_Korhogo_sl,deltamethrin,pyrethroid,0.05%,60.0,WHO tube test,susceptibility,,False,101,,,98.1,24.0,,Table 1 row Korhogo deltamethrin 0.05%,5,Table 1,,
+2018_Camara_Korhogo_sl_alpha_005,2018_Camara_Korhogo_sl,alphacypermethrin,pyrethroid,0.05%,60.0,WHO tube test,susceptibility,,False,100,,,70.0,24.0,,Table 1 row Korhogo alphacypermethrin 0.05%,5,Table 1,,
+2018_Camara_Korhogo_sl_ddt_4,2018_Camara_Korhogo_sl,DDT,organochlorine,4%,60.0,WHO tube test,susceptibility,,False,105,,,6.5,24.0,,Table 1 row Korhogo DDT 4%,5,Table 1,,
+2018_Camara_Korhogo_sl_carbosulfan_04,2018_Camara_Korhogo_sl,carbosulfan,carbamate,0.4%,60.0,WHO tube test,susceptibility,,False,97,,,14.8,24.0,,Table 2 row Korhogo carbosulfan 0.4%,7,Table 2,,
+2018_Camara_Korhogo_sl_pirimiphos_1,2018_Camara_Korhogo_sl,pyrimifos-methyl,organophosphate,1%,60.0,WHO tube test,susceptibility,,False,99,,,82.7,24.0,,Table 2 row Korhogo pyrimifos-methyl 1%,7,Table 2,,

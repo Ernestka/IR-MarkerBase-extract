@@ -1,0 +1,21 @@
+study_id: 2018_Fodjo_Insecticides_Resistance_Status_Gambiae_Areas_PMID30402467
+title: Insecticides Resistance Status of An. gambiae in Areas of Varying Agrochemical
+  Use in Côte D'Ivoire
+first_author: Behi K. Fodjo
+doi: 10.1155/2018/2874160
+pmid: '30402467'
+publication_year: 2018
+countries:
+- Côte d'Ivoire
+data_source: journal
+provenance:
+  source_text: Insecticides Resistance Status of An. gambiae in Areas of Varying Agrochemical
+    Use in Côte D'Ivoire. BioMed Research International, Volume 2018, Article ID 2874160
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,20 @@
+study_id: 2018_Collins_Investigating_Relationship_Insecticide_Resistance_DOI_10_1101_434688
+title: Investigating the relationship between insecticide resistance, underlying molecular
+  mechanisms and malaria prevalence in Anopheles gambiae s.l. from Guinea
+first_author: Emma Collins
+doi: 10.1101/434688
+pmid: null
+publication_year: 2018
+countries:
+- Guinea
+data_source: preprint
+provenance:
+  source_text: Investigating the relationship between insecticide resistance, underlying
+    molecular mechanisms and malaria prevalence in Anopheles gambiae s.l. from Guinea
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'

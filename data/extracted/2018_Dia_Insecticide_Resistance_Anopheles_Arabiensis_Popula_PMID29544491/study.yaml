@@ -1,0 +1,22 @@
+study_id: 2018_Dia_Insecticide_Resistance_Anopheles_Arabiensis_Popula_PMID29544491
+title: 'Insecticide resistance in Anopheles arabiensis populations from Dakar and
+  its suburbs: role of target site and metabolic resistance mechanisms'
+first_author: A. Kane Dia
+doi: 10.1186/s12936-018-2269-6
+pmid: '29544491'
+publication_year: 2018
+countries:
+- Senegal
+data_source: journal_article
+provenance:
+  source_text: 'Insecticide resistance in Anopheles arabiensis populations from Dakar
+    and its suburbs: role of target site and metabolic resistance mechanisms. Dia
+    et al. Malar J (2018) 17:116'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)
