@@ -1,0 +1,20 @@
+study_id: 2017_Sadia_Kacou_Presence_Susceptible_Wild_Strains_Anopheles_PMID28427450
+title: Presence of susceptible wild strains of Anopheles gambiae in a large industrial
+  palm farm located in Aboisso, South-Eastern of Côte d’Ivoire
+first_author: Cécile M. A. Sadia-Kacou
+doi: 10.1186/s12936-017-1804-1
+pmid: '28427450'
+publication_year: 2017
+countries:
+- Côte d'Ivoire
+data_source: journal_article
+provenance:
+  source_text: Sadia-Kacou et al. Malar J (2017) 16:157 DOI 10.1186/s12936-017-1804-1
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

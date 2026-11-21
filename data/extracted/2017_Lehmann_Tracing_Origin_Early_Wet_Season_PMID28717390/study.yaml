@@ -1,0 +1,19 @@
+study_id: 2017_Lehmann_Tracing_Origin_Early_Wet_Season_PMID28717390
+title: Tracing the origin of the early wet-season Anopheles coluzzii in the Sahel
+first_author: Tovi Lehmann
+doi: 10.1111/eva.12486
+pmid: '28717390'
+publication_year: 2017
+countries:
+- Mali
+data_source: pdf
+provenance:
+  source_text: Tracing the origin of the early wet-season Anopheles coluzzii in the
+    Sahel
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'

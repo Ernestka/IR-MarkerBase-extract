@@ -432,6 +432,20 @@
   }
  ],
  "bj|Cotonou (Ladji, Fifadji, Abomey Calavi)": [],
+ "bj|Covè, Zou": [
+  {
+   "lat": 7.29996,
+   "level": "admin2",
+   "lon": 2.29893,
+   "name": "Covè, Zou, Bénin"
+  },
+  {
+   "lat": 7.21954,
+   "level": "town",
+   "lon": 2.33996,
+   "name": "Covè, Zou, Bénin"
+  }
+ ],
  "bj|Daagbe, Ifangni, Plateau": [
   {
    "lat": 6.577,
@@ -1193,6 +1207,71 @@
    "name": "Communauté urbaine de Yaoundé, Mfoundi, Centre, Cameroun"
   }
  ],
+ "et|Abobo, Gambela": [
+  {
+   "lat": 7.89794,
+   "level": "town",
+   "lon": 34.54081,
+   "name": "Abobo/አቦቦ, Chubo-Kirr Kebele/ቺቦ ኪር, Agnuak, ጋምቤላ ሕዝቦች ክልል Gambela جامبلا, ኢትዮጵያ"
+  },
+  {
+   "lat": 7.85,
+   "level": "admin2",
+   "lon": 34.55,
+   "name": "Abobo Woreda, Agnuak, ጋምቤላ ሕዝቦች ክልል Gambela جامبلا, ኢትዮጵያ"
+  }
+ ],
+ "et|Alamata, Tigray": [
+  {
+   "lat": 12.4176,
+   "level": "town",
+   "lon": 39.56032,
+   "name": "ኣላማጣ / Alamata, Southern Tigray, ትግራይ تجراى, ኢትዮጵያ"
+  }
+ ],
+ "et|Amhara": [
+  {
+   "lat": 11.5,
+   "level": "admin1",
+   "lon": 38.5,
+   "name": "አማራ ክልል, ኢትዮጵያ"
+  }
+ ],
+ "et|Amibara, Afar": [
+  {
+   "lat": 9.33257,
+   "level": "village",
+   "lon": 40.18206,
+   "name": "Amibara, Zone 3, አፋር ክልል Afar عفر, ኢትዮጵያ"
+  },
+  {
+   "lat": 9.32519,
+   "level": "residential",
+   "lon": 40.18047,
+   "name": "Amibara, Zone 3, አፋር ክልል Afar عفر, ኢትዮጵያ"
+  },
+  {
+   "lat": 9.27943,
+   "level": "building",
+   "lon": 40.04637,
+   "name": "Amibara, Zone 3, አፋር ክልል Afar عفر, ኢትዮጵያ"
+  },
+  {
+   "lat": 9.27943,
+   "level": "railway",
+   "lon": 40.04636,
+   "name": "Amibara, Zone 3, አፋር ክልል Afar عفر, ኢትዮጵያ"
+  }
+ ],
+ "et|Arba Minch": [
+  {
+   "lat": 6.02151,
+   "level": "town",
+   "lon": 37.55398,
+   "name": "አርባ ምንጭ / Arba Minch, Gamo, ደቡብ ኢትዮጵያ ክልላዊ መንግስት South Ethiopia Regional State ولاية جنوب إثيوبيا الإقليمية, ኢትዮጵያ"
+  }
+ ],
+ "et|Arba Minch, SNNPR": [],
  "et|Asendabo, Oromia": [
   {
    "lat": 7.75666,
@@ -1213,6 +1292,40 @@
    "name": "Asendabo, Illubabor, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
   }
  ],
+ "et|Babile, Oromia": [
+  {
+   "lat": 10.74748,
+   "level": "village",
+   "lon": 39.83031,
+   "name": "Babile, Oromia, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 9.02452,
+   "level": "village",
+   "lon": 42.40102,
+   "name": "Babile, East Harerghe, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
+  },
+  {
+   "lat": 9.2,
+   "level": "village",
+   "lon": 41.0,
+   "name": "Babile, West Harerghe, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
+  }
+ ],
+ "et|Bahir Dar, Amhara": [
+  {
+   "lat": 11.59497,
+   "level": "town",
+   "lon": 37.38823,
+   "name": "Bahir Dar Special Zone, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 11.59137,
+   "level": "town",
+   "lon": 37.39,
+   "name": "Bahir Dar, አማራ ክልል, ኢትዮጵያ"
+  }
+ ],
  "et|Bako, Oromia": [
   {
    "lat": 9.12173,
@@ -1229,6 +1342,20 @@
  ],
  "et|Chewaka": [],
  "et|Chewaka, Oromia": [],
+ "et|Gambela": [
+  {
+   "lat": 7.81026,
+   "level": "admin1",
+   "lon": 34.18222,
+   "name": "ጋምቤላ ሕዝቦች ክልል Gambela جامبلا, ኢትዮጵያ"
+  },
+  {
+   "lat": 8.25037,
+   "level": "town",
+   "lon": 34.58773,
+   "name": "ጋምቤላ / Gambela, Agnuak, ጋምቤላ ሕዝቦች ክልል Gambela جامبلا, ኢትዮጵያ"
+  }
+ ],
  "et|Gilgel-Gibe dam area": [],
  "et|Gilgel-Gibe dam area ('high risk' villages)": [],
  "et|Gilgel-Gibe dam area ('high risk' villages), Jimma": [],
@@ -1270,6 +1397,23 @@
  ],
  "et|Guba Hora": [],
  "et|Guba Hora, Oromia": [],
+ "et|Halaba": [
+  {
+   "lat": 7.31303,
+   "level": "town",
+   "lon": 38.08788,
+   "name": "ሀላባ ቁሊቶ / Halaba Kulito, Alaba, ማዕከላዊ ኢትዮጵያ ክልላዊ መንግስት Central Ethiopia Regional State ولاية مركز إثيوبيا الإقليمية, ኢትዮጵያ"
+  }
+ ],
+ "et|Halaba, SNNPR": [],
+ "et|Humera, Tigray": [
+  {
+   "lat": 14.28769,
+   "level": "town",
+   "lon": 36.60884,
+   "name": "ሑሞራ / Humera, Western Tigray, ትግራይ تجراى, ኢትዮጵያ"
+  }
+ ],
  "et|Jimma": [
   {
    "lat": 7.67562,
@@ -1284,12 +1428,94 @@
    "name": "Jimma, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
   }
  ],
+ "et|Lare": [],
+ "et|Lare, Gambela": [],
  "et|Mankush, Benishangul-Gumuz": [
   {
    "lat": 11.26647,
    "level": "town",
    "lon": 35.29162,
    "name": "ጉባ / Guba, Metekel, ቤንሻንጉል ጉሙዝ ክልል Benishangul-Gumuz, ኢትዮጵያ"
+  }
+ ],
+ "et|Metema": [
+  {
+   "lat": 12.54601,
+   "level": "trunk",
+   "lon": 37.41114,
+   "name": "Gonder - Metema Road, አዘዞ, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 12.52973,
+   "level": "trunk",
+   "lon": 37.34367,
+   "name": "Gonder - Metema Road, ጎንደር, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 12.95636,
+   "level": "trunk",
+   "lon": 36.15353,
+   "name": "طريق قوندر - المتمة, መተማ / Metema, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 12.75433,
+   "level": "trunk",
+   "lon": 36.42946,
+   "name": "Gonder - Metema Road, Maganani, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 12.77517,
+   "level": "trunk",
+   "lon": 36.40884,
+   "name": "Gonder - Metema Road, Shahadi, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  }
+ ],
+ "et|Metema, Amhara": [
+  {
+   "lat": 12.54601,
+   "level": "trunk",
+   "lon": 37.41114,
+   "name": "Gonder - Metema Road, አዘዞ, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 12.52973,
+   "level": "trunk",
+   "lon": 37.34367,
+   "name": "Gonder - Metema Road, ጎንደር, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 12.79059,
+   "level": "trunk",
+   "lon": 36.39841,
+   "name": "Gonder - Metema Road, Shahadi, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 12.73001,
+   "level": "trunk",
+   "lon": 36.46284,
+   "name": "Gonder - Metema Road, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  },
+  {
+   "lat": 12.95636,
+   "level": "trunk",
+   "lon": 36.15353,
+   "name": "طريق قوندر - المتمة, መተማ / Metema, ሰሜን ጎንደር, አማራ ክልል, ኢትዮጵያ"
+  }
+ ],
+ "et|Nono": [
+  {
+   "lat": 8.48326,
+   "level": "admin2",
+   "lon": 37.44172,
+   "name": "Nono, West Shewa, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
+  }
+ ],
+ "et|Nono, Oromia": [
+  {
+   "lat": 8.48326,
+   "level": "admin2",
+   "lon": 37.44172,
+   "name": "Nono, West Shewa, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
   }
  ],
  "et|Oromia": [
@@ -1327,6 +1553,22 @@
  "et|Southern Nations, Nationalities, and People's Region": [],
  "et|Tolay": [],
  "et|Tolay, Oromia": [],
+ "et|Ziway-Dugda": [
+  {
+   "lat": 7.99439,
+   "level": "admin2",
+   "lon": 38.99314,
+   "name": "Ziway Dugda, Arsi, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
+  }
+ ],
+ "et|Ziway-Dugda, Oromia": [
+  {
+   "lat": 7.99439,
+   "level": "admin2",
+   "lon": 38.99314,
+   "name": "Ziway Dugda, Arsi, ኦሮሚያ ክልል Oromia أوروميا, ኢትዮጵያ"
+  }
+ ],
  "ga|Akébé-Poteau": [],
  "ga|Akébé-Poteau, Libreville": [],
  "ga|Alibandeng, Libreville": [
@@ -1828,6 +2070,8 @@
    "name": "Região de Cacheu, Província Norte, Guiné-Bissau"
   }
  ],
+ "gw|Central region (Cluster 1 / A. coluzzii)": [],
+ "gw|Eastern inland region (Cluster 2 / A. gambiae-inland)": [],
  "gw|Gabu, Gabú": [
   {
    "lat": 12.28195,
@@ -1844,6 +2088,7 @@
    "name": "Aeroporto de Bafatá, N1, Mafanco, Sector de Bafatá, Região de Bafatá, Província Leste, Guiné-Bissau"
   }
  ],
+ "gw|Western coastal region (Cluster 3 / A. gambiae-coast)": [],
  "ke|Ahero": [
   {
    "lat": -0.17246,
@@ -2576,6 +2821,159 @@
  "lr|Woman's centre / UNMIL camp / Garage (Site 5)": [],
  "lr|Woman's centre / UNMIL camp / Garage (Site 5), Bomi": [],
  "lr|Woman's centre / UNMIL camp / Garage (Site 5), Senjeh, Bomi": [],
+ "mg|Ambodifaho": [],
+ "mg|Ambodifaho, Atsinanana": [],
+ "mg|Ambodifaho, Brickaville, Atsinanana": [],
+ "mg|Ankafina Tsarafidy, Ambohimahasoa, Haute Matsiatra": [
+  {
+   "lat": -21.2236,
+   "level": "town",
+   "lon": 47.22698,
+   "name": "Ankafina-Tsarafidy, Ambohimahasoa, Matsiatra Ambony, Province de Fianarantsoa, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Bekily, Androy": [
+  {
+   "lat": -24.27037,
+   "level": "admin2",
+   "lon": 45.41793,
+   "name": "Bekily, Androy, Province de Toliara, 607, Madagasikara / Madagascar"
+  },
+  {
+   "lat": -24.22205,
+   "level": "town",
+   "lon": 45.31894,
+   "name": "Bekily, Morafeno Bekily, Bekily, Androy, Province de Toliara, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Brickaville, Atsinanana": [
+  {
+   "lat": -18.82086,
+   "level": "town",
+   "lon": 49.06944,
+   "name": "Brickaville, Atsinanana, Province de Tamatave, Madagasikara / Madagascar"
+  },
+  {
+   "lat": -18.66712,
+   "level": "admin2",
+   "lon": 48.8728,
+   "name": "Brickaville, Atsinanana, Province de Tamatave, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Imerina Imady, Ambositra, Amoron'i Mania": [
+  {
+   "lat": -20.52803,
+   "level": "village",
+   "lon": 47.32513,
+   "name": "Imerina-Imady, Ambositra, Amoron'i Mania, Province de Fianarantsoa, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Mahambo, Analanjirofo": [
+  {
+   "lat": -17.48965,
+   "level": "village",
+   "lon": 49.4504,
+   "name": "Mahambo, Fénérive-Est, Analanjirofo, Province de Tamatave, Madagasikara / Madagascar"
+  },
+  {
+   "lat": -17.48742,
+   "level": "amenity",
+   "lon": 49.45184,
+   "name": "Mahambo, N 5, Agnalambany, Mahambo, Fénérive-Est, Analanjirofo, Province de Tamatave, Madagasikara / Madagascar"
+  },
+  {
+   "lat": -17.48109,
+   "level": "village",
+   "lon": 49.46276,
+   "name": "Mahambo Doany, Mahambo, Fénérive-Est, Analanjirofo, Province de Tamatave, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Mahambo, Fenerive East, Analanjirofo": [],
+ "mg|Manambotra Sud, Farafangana, Atsimo Atsinanana": [
+  {
+   "lat": -22.92631,
+   "level": "village",
+   "lon": 47.80909,
+   "name": "Manambotra Sud, Farafangana, Atsimo-Atsinanana, Province de Fianarantsoa, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Milamaina, Fandriana, Amoron'i Mania": [
+  {
+   "lat": -20.26612,
+   "level": "village",
+   "lon": 47.39199,
+   "name": "Milamaina, Fandriana, Amoron'i Mania, Province de Fianarantsoa, 308, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Sahamatevina, Atsinanana": [
+  {
+   "lat": -19.27371,
+   "level": "village",
+   "lon": 48.91488,
+   "name": "Sahamatevina, Vatomandry, Atsinanana, Province de Tamatave, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Sahamatevina, Brickaville, Atsinanana": [],
+ "mg|Toamasina II, Atsinanana": [
+  {
+   "lat": -18.01361,
+   "level": "admin2",
+   "lon": 49.0539,
+   "name": "Toamasina II, Atsinanana, Province de Tamatave, 502, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Vavatenina, Analanjirofo": [
+  {
+   "lat": -17.4675,
+   "level": "town",
+   "lon": 49.19623,
+   "name": "Vavatenina, Analanjirofo, Province de Tamatave, Madagasikara / Madagascar"
+  },
+  {
+   "lat": -17.47204,
+   "level": "admin2",
+   "lon": 49.06872,
+   "name": "Vavatenina, Analanjirofo, Province de Tamatave, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Vohimarina, Fianarantsoa II, Haute Matsiatra": [],
+ "mg|Vohimarina, Haute Matsiatra": [
+  {
+   "lat": -21.62045,
+   "level": "town",
+   "lon": 46.90882,
+   "name": "Vohimarina, Vohibato, Matsiatra Ambony, Province de Fianarantsoa, Madagasikara / Madagascar"
+  },
+  {
+   "lat": -22.00656,
+   "level": "village",
+   "lon": 46.83881,
+   "name": "Vohimarina, Vohitsaoka, Ambalavao, Matsiatra Ambony, Province de Fianarantsoa, Madagasikara / Madagascar"
+  },
+  {
+   "lat": -21.88667,
+   "level": "village",
+   "lon": 46.92074,
+   "name": "Vohimarina, Ambohimandroso, Ambalavao, Matsiatra Ambony, Province de Fianarantsoa, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Vohitrambato": [
+  {
+   "lat": -18.78102,
+   "level": "residential",
+   "lon": 49.06447,
+   "name": "Vohitrambato, Ambodivoangy, Brickaville, Atsinanana, Province de Tamatave, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Vohitrambato, Atsinanana": [
+  {
+   "lat": -18.78102,
+   "level": "residential",
+   "lon": 49.06447,
+   "name": "Vohitrambato, Ambodivoangy, Brickaville, Atsinanana, Province de Tamatave, Madagasikara / Madagascar"
+  }
+ ],
+ "mg|Vohitrambato, Toamasina II, Atsinanana": [],
  "ml|Badiangara": [
   {
    "lat": 12.59489,
@@ -4082,6 +4480,42 @@
    "level": "village",
    "lon": 34.35986,
    "name": "الدمازين, النيل الأزرق Blue Nile, السودان"
+  }
+ ],
+ "sd|Galabat": [
+  {
+   "lat": 14.02354,
+   "level": "amenity",
+   "lon": 35.39536,
+   "name": "Bus to galabat, شارع الجبل, الفشقة, القضارف, السودان"
+  },
+  {
+   "lat": 12.96667,
+   "level": "village",
+   "lon": 36.15,
+   "name": "القلابات, القضارف, السودان"
+  }
+ ],
+ "sd|Galabat, Gedarif": [
+  {
+   "lat": 12.96667,
+   "level": "village",
+   "lon": 36.15,
+   "name": "القلابات, القضارف, السودان"
+  },
+  {
+   "lat": 14.02354,
+   "level": "amenity",
+   "lon": 35.39536,
+   "name": "Bus to galabat, شارع الجبل, الفشقة, القضارف, السودان"
+  }
+ ],
+ "sd|Gedarif": [
+  {
+   "lat": 13.97584,
+   "level": "admin1",
+   "lon": 35.08508,
+   "name": "القضارف, السودان"
   }
  ],
  "sd|Gezira": [

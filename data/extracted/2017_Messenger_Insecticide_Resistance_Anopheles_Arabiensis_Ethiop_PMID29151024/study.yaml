@@ -1,0 +1,20 @@
+study_id: 2017_Messenger_Insecticide_Resistance_Anopheles_Arabiensis_Ethiop_PMID29151024
+title: 'Insecticide resistance in Anopheles arabiensis from Ethiopia (2012–2016):
+  a nationwide study for insecticide resistance monitoring'
+first_author: Louisa A. Messenger
+doi: 10.1186/s12936-017-2115-2
+pmid: '29151024'
+publication_year: 2017
+countries:
+- Ethiopia
+data_source: peer_reviewed
+provenance:
+  source_text: Messenger et al. Malaria Journal (2017) 16:469
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

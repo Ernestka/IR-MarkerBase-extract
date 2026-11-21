@@ -1,0 +1,5 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2017_Sadia_Kacou_ehania_2013_gam,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,allele-specific PCR,False,13,12,1,0,13,25,0.961,,"An. gambiae kdr L1014F: SS=0, RS=1, RR=12, F(1014F)=0.961",5,Table 3,,
+2017_Sadia_Kacou_ehania_2013_gam,ace-1R,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,13,0,5,8,5,5,0.192,,"An. gambiae ace-1R G119S: SS=8, RS=5, RR=0, F(1014F)=0.192",5,Table 3,,
+2017_Sadia_Kacou_ehania_2013_col,kdr,L1014F,Vgsc,L995F,SNP,1,L1014F,,F,allele-specific PCR,False,33,27,6,0,33,60,0.909,,"An. coluzzii kdr L1014F: SS=0, RS=6, RR=27, F(1014F)=0.909",5,Table 3,,
+2017_Sadia_Kacou_ehania_2013_col,ace-1R,G119S,Ace-1,G280S,SNP,2,G119S,,S,PCR-RFLP,False,33,0,8,25,8,8,0.121,,"An. coluzzii ace-1R G119S: SS=25, RS=8, RR=0, F(1014F)=0.121",5,Table 3,,

@@ -1,0 +1,20 @@
+study_id: 2017_Nardini_Malaria_Vectors_Democratic_Republic_Congo_PMID29115954
+title: 'Malaria vectors in the Democratic Republic of the Congo: the mechanisms that
+  confer insecticide resistance in Anopheles gambiae and Anopheles funestus'
+first_author: Luisa Nardini
+doi: 10.1186/s12936-017-2099-y
+pmid: '29115954'
+publication_year: 2017
+countries:
+- Democratic Republic of the Congo
+data_source: journal_article
+provenance:
+  source_text: Nardini et al. Malaria Journal (2017) 16:448
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

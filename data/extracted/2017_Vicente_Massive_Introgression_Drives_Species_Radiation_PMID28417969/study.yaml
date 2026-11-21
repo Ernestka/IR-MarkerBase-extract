@@ -1,0 +1,21 @@
+study_id: 2017_Vicente_Massive_Introgression_Drives_Species_Radiation_PMID28417969
+title: Massive introgression drives species radiation at the range limit of Anopheles
+  gambiae
+first_author: José L. Vicente
+doi: 10.1038/srep46451
+pmid: '28417969'
+publication_year: 2017
+countries:
+- Guinea-Bissau
+data_source: journal_article
+provenance:
+  source_text: 'Massive introgression drives species radiation at the range limit
+    of Anopheles gambiae. Sci. Rep. 7, 46451; doi: 10.1038/srep46451 (2017).'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.6-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

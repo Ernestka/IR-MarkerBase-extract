@@ -1,0 +1,21 @@
+study_id: 2017_Kafy_Impact_Insecticide_Resistance_Anopheles_Arabiensis_PMID29229808
+title: Impact of insecticide resistance in Anopheles arabiensis on malaria incidence
+  and prevalence in Sudan and the costs of mitigation
+first_author: Hmooda Toto Kafy
+doi: 10.1073/pnas.1713814114
+pmid: '29229808'
+publication_year: 2017
+countries:
+- Sudan
+data_source: paper
+provenance:
+  source_text: Impact of insecticide resistance in Anopheles arabiensis on malaria
+    incidence and prevalence in Sudan and the costs of mitigation. PNAS 2017; 114(51):E11267-E11275.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

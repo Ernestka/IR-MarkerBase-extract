@@ -1,0 +1,3 @@
+survey_id,gene,marker,gene_std,variant_std,variant_type,tier,amino_acid_change,nucleotide_change,resistant_allele,genotyping_method,pooled,n_genotyped,rr,rs,ss,n_carriers,resistant_allele_count,reported_allele_freq,inconsistency_note,source_text,page,table,figure,supplement
+2017_Nardini_DRC_kibali_2012_gambiae,Vgsc,L1014S,Vgsc,L995S,SNP,1,L995S,,S,PCR-Sanger sequencing,False,50,29,16,5,,,,,"RS (east) = 3, RR (east) = 29, RR (west) = 5, ReRw = 13, and 5 specimens failed to amplify (i.e. no result was obtained)",8,,2b,
+2017_Nardini_DRC_kibali_2012_gambiae,Vgsc,L1014F,Vgsc,L995F,SNP,1,L995F,,F,PCR-Sanger sequencing,False,50,5,13,32,,,,,"RS (east) = 3, RR (east) = 29, RR (west) = 5, ReRw = 13, and 5 specimens failed to amplify (i.e. no result was obtained)",8,,2b,

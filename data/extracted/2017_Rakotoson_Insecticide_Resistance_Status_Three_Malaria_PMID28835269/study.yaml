@@ -1,0 +1,22 @@
+study_id: 2017_Rakotoson_Insecticide_Resistance_Status_Three_Malaria_PMID28835269
+title: Insecticide resistance status of three malaria vectors, Anopheles gambiae (s.l.),
+  An. funestus and An. mascarensis, from the south, central and east coasts of Madagascar
+first_author: Jean-Desire Rakotoson
+doi: 10.1186/s13071-017-2336-9
+pmid: '28835269'
+publication_year: 2017
+countries:
+- Madagascar
+data_source: journal_article
+provenance:
+  source_text: Insecticide resistance status of three malaria vectors, Anopheles gambiae
+    (s.l.), An. funestus and An. mascarensis, from the south, central and east coasts
+    of Madagascar. Parasites & Vectors (2017) 10:396.
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.7-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)

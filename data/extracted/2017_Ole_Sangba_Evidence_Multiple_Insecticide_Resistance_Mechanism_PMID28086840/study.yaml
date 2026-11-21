@@ -1,0 +1,20 @@
+study_id: 2017_Ole_Sangba_Evidence_Multiple_Insecticide_Resistance_Mechanism_PMID28086840
+title: Evidence of multiple insecticide resistance mechanisms in Anopheles gambiae
+  populations in Bangui, Central African Republic
+first_author: Marina Lidwine Olé Sangba
+doi: 10.1186/s13071-016-1965-8
+pmid: '28086840'
+publication_year: 2017
+countries:
+- Central African Republic
+data_source: journal_article
+provenance:
+  source_text: Olé Sangba et al. Parasites & Vectors (2017) 10:23 DOI 10.1186/s13071-016-1965-8
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-21'
+pmid_source: Europe PMC (from DOI)
