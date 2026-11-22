@@ -1,0 +1,24 @@
+study_id: 2018_Kudom_Relating_High_Insecticide_Residues_Larval_PMID29267961
+title: 'Relating High Insecticide Residues in Larval Breeding Habitats in Urban Residential
+  Areas to the Selection of Pyrethroid Resistance in Anopheles gambiae s.l. (Diptera:
+  Culicidae) in Akim Oda, Ghana'
+first_author: Andreas A. Kudom
+doi: 10.1093/jme/tjx223
+pmid: '29267961'
+publication_year: 2018
+countries:
+- Ghana
+data_source: journal_article
+provenance:
+  source_text: 'Relating High Insecticide Residues in Larval Breeding Habitats in
+    Urban Residential Areas to the Selection of Pyrethroid Resistance in Anopheles
+    gambiae s.l. (Diptera: Culicidae) in Akim Oda, Ghana. Journal of Medical Entomology,
+    55(2), 2018, 490-495'
+  page: '490'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-22'
+pmid_source: Europe PMC (from DOI)

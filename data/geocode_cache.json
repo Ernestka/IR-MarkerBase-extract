@@ -1786,6 +1786,37 @@
    "name": "Accra, Korle-Klottey Municipal District, Greater Accra Region, Ghana"
   }
  ],
+ "gh|Akim Oda (Site A)": [],
+ "gh|Akim Oda (Site A), Birim Central Municipal, Eastern Region": [],
+ "gh|Akim Oda (Site A), Eastern Region": [],
+ "gh|Akim Oda (Site H)": [],
+ "gh|Akim Oda (Site H), Birim Central Municipal, Eastern Region": [],
+ "gh|Akim Oda (Site H), Eastern Region": [],
+ "gh|Akim Oda (Sites B, C, D, E, F, G)": [],
+ "gh|Akim Oda (Sites B, C, D, E, F, G), Birim Central Municipal, Eastern Region": [],
+ "gh|Akim Oda (Sites B, C, D, E, F, G), Eastern Region": [],
+ "gh|Akim Oda, Birim Central Municipal, Eastern Region": [
+  {
+   "lat": 5.9191,
+   "level": "office",
+   "lon": -0.98853,
+   "name": "MTN Connect Store, Nana Attafuah I Street, Akim Oda, Birim Central Municipal District, Eastern Region, EB0005, Ghana"
+  },
+  {
+   "lat": 5.91526,
+   "level": "amenity",
+   "lon": -0.98691,
+   "name": "Akim Oda Post Office, Community Six Crescent, Akim Oda, Birim Central Municipal District, Eastern Region, EB0007, Ghana"
+  }
+ ],
+ "gh|Akim Oda, Eastern Region": [
+  {
+   "lat": 5.92044,
+   "level": "town",
+   "lon": -0.98543,
+   "name": "Akim Oda, Birim Central Municipal District, Eastern Region, Ghana"
+  }
+ ],
  "gh|Ashanti": [
   {
    "lat": 6.80033,
@@ -1799,6 +1830,14 @@
  "gh|Asokwa submetropolis, Kumasi": [],
  "gh|Asokwa submetropolis, Kumasi, Ashanti": [],
  "gh|Asokwa submetropolis, Kumasi, Kumasi Metropolis, Ashanti": [],
+ "gh|Birim Central Municipal, Eastern Region": [
+  {
+   "lat": 5.97392,
+   "level": "admin2",
+   "lon": -1.00481,
+   "name": "Birim Central Municipal District, Eastern Region, Ghana"
+  }
+ ],
  "gh|Irrigated area, Kassena-Nankana District": [],
  "gh|Irrigated area, Kassena-Nankana District, Kassena-Nankana, Upper East": [],
  "gh|Irrigated area, Kassena-Nankana District, Upper East": [],

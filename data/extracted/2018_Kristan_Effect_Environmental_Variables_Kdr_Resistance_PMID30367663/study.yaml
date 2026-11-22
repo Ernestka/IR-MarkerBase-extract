@@ -1,0 +1,21 @@
+study_id: 2018_Kristan_Effect_Environmental_Variables_Kdr_Resistance_PMID30367663
+title: Effect of environmental variables and kdr resistance genotype on survival probability
+  and infection rates in Anopheles gambiae (s.s.)
+first_author: Mojca Kristan
+doi: 10.1186/s13071-018-3150-8
+pmid: '30367663'
+publication_year: 2018
+countries:
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: Effect of environmental variables and kdr resistance genotype on survival
+    probability and infection rates in Anopheles gambiae (s.s.)
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-22'
+pmid_source: Europe PMC (from DOI)
