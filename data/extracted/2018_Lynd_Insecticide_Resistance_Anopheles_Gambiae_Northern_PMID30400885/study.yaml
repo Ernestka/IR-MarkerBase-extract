@@ -1,0 +1,23 @@
+study_id: 2018_Lynd_Insecticide_Resistance_Anopheles_Gambiae_Northern_PMID30400885
+title: Insecticide resistance in Anopheles gambiae from the northern Democratic Republic
+  of Congo, with extreme knockdown resistance (kdr) mutation frequencies revealed
+  by a new diagnostic assay
+first_author: Amy Lynd
+doi: 10.1186/s12936-018-2561-5
+pmid: '30400885'
+publication_year: 2018
+countries:
+- Democratic Republic of the Congo
+data_source: article
+provenance:
+  source_text: Insecticide resistance in Anopheles gambiae from the northern Democratic
+    Republic of Congo, with extreme knockdown resistance (kdr) mutation frequencies
+    revealed by a new diagnostic assay
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-22'
+pmid_source: Europe PMC (from DOI)

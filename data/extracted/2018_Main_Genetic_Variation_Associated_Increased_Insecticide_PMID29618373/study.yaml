@@ -1,0 +1,20 @@
+study_id: 2018_Main_Genetic_Variation_Associated_Increased_Insecticide_PMID29618373
+title: Genetic variation associated with increased insecticide resistance in the malaria
+  mosquito, Anopheles coluzzii
+first_author: Bradley J. Main
+doi: 10.1186/s13071-018-2817-5
+pmid: '29618373'
+publication_year: 2018
+countries:
+- Mali
+data_source: journal article
+provenance:
+  source_text: Main et al. Parasites & Vectors (2018) 11:225 https://doi.org/10.1186/s13071-018-2817-5
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-22'
+pmid_source: Europe PMC (from DOI)
