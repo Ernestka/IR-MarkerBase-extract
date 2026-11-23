@@ -1,0 +1,2 @@
+bioassay_id,survey_id,insecticide,insecticide_class,concentration,exposure_duration_min,assay_method,assay_type,synergist,dead_alive_printed,n_exposed,n_dead,n_alive,reported_mortality_pct,mortality_time_h,inconsistency_note,source_text,page,table,figure,supplement
+2018_Vontas_Bioko_Malabo_2011_delta,2018_Vontas_Bioko_Malabo_2011,deltamethrin,pyrethroid,0.05%,60.0,WHO susceptibility test,discriminating_dose,,False,,,,40.0,24.0,,deltamethrin mortality rate of 25.7% in 2015 vs. 40% in 2011,2,,,

@@ -1,0 +1,23 @@
+study_id: 2018_Thiaw_Investigating_Insecticide_Resistance_Knock_Down_PMID29566682
+title: Investigating insecticide resistance and knock-down resistance (kdr) mutation
+  in Dielmo, Senegal, an area under long lasting insecticidal-treated nets universal
+  coverage for 10 years
+first_author: Omar Thiaw
+doi: 10.1186/s12936-018-2276-7
+pmid: '29566682'
+publication_year: 2018
+countries:
+- Senegal
+data_source: journal_article
+provenance:
+  source_text: Investigating insecticide resistance and knock-down resistance (kdr)
+    mutation in Dielmo, Senegal, an area under long lasting insecticidal-treated nets
+    universal coverage for 10 years
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

@@ -7,7 +7,7 @@ pmid: '29618373'
 publication_year: 2018
 countries:
 - Mali
-data_source: journal article
+data_source: article
 provenance:
   source_text: Main et al. Parasites & Vectors (2018) 11:225 https://doi.org/10.1186/s13071-018-2817-5
   page: '1'
@@ -16,5 +16,5 @@ provenance:
   supplement: null
 confidence: high
 model: gemini:gemini-3.5-flash
-extracted: '2026-11-22'
+extracted: '2026-11-23'
 pmid_source: Europe PMC (from DOI)

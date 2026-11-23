@@ -1,0 +1,23 @@
+study_id: 2018_Tchouakui_Fitness_Costs_Glutathione_Transferase_Epsilon_PMID30572680
+title: Fitness Costs of the Glutathione S-Transferase Epsilon 2 (L119F-GSTe2) Mediated
+  Metabolic Resistance to Insecticides in the Major African Malaria Vector Anopheles
+  Funestus
+first_author: Magellan Tchouakui
+doi: 10.3390/genes9120645
+pmid: '30572680'
+publication_year: 2018
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Fitness Costs of the Glutathione S-Transferase Epsilon 2 (L119F-GSTe2)
+    Mediated Metabolic Resistance to Insecticides in the Major African Malaria Vector
+    Anopheles Funestus
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

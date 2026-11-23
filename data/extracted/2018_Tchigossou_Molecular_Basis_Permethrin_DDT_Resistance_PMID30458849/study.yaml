@@ -1,0 +1,21 @@
+study_id: 2018_Tchigossou_Molecular_Basis_Permethrin_DDT_Resistance_PMID30458849
+title: Molecular basis of permethrin and DDT resistance in an Anopheles funestus population
+  from Benin
+first_author: Genevieve Tchigossou
+doi: 10.1186/s13071-018-3115-y
+pmid: '30458849'
+publication_year: 2018
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Molecular basis of permethrin and DDT resistance in an Anopheles funestus
+    population from Benin
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

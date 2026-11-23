@@ -1,0 +1,25 @@
+study_id: 2018_Protopopoff_Effectiveness_Long_Lasting_Piperonyl_Butoxide_PMID29655496
+title: 'Effectiveness of a long-lasting piperonyl butoxide-treated insecticidal net
+  and indoor residual spray interventions, separately and together, against malaria
+  transmitted by pyrethroid-resistant mosquitoes: a cluster, randomised controlled,
+  two-by-two factorial design trial'
+first_author: Natacha Protopopoff
+doi: 10.1016/S0140-6736(18)30427-6
+pmid: '29655496'
+publication_year: 2018
+countries:
+- Tanzania
+data_source: article
+provenance:
+  source_text: 'Effectiveness of a long-lasting piperonyl butoxide-treated insecticidal
+    net and indoor residual spray interventions, separately and together, against
+    malaria transmitted by pyrethroid-resistant mosquitoes: a cluster, randomised
+    controlled, two-by-two factorial design trial'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

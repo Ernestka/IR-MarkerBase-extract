@@ -1,0 +1,20 @@
+study_id: 2018_Menze_Bionomics_Insecticides_Resistance_Profiling_Malari_PMID30165863
+title: Bionomics and insecticides resistance profiling of malaria vectors at a selected
+  site for experimental hut trials in central Cameroon
+first_author: Benjamin D. Menze
+doi: 10.1186/s12936-018-2467-2
+pmid: '30165863'
+publication_year: 2018
+countries:
+- Cameroon
+data_source: journal_article
+provenance:
+  source_text: Menze et al. Malar J (2018) 17:317 https://doi.org/10.1186/s12936-018-2467-2
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

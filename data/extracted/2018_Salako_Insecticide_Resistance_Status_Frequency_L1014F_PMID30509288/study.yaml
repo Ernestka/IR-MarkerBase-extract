@@ -1,0 +1,21 @@
+study_id: 2018_Salako_Insecticide_Resistance_Status_Frequency_L1014F_PMID30509288
+title: Insecticide resistance status, frequency of L1014F Kdr and G119S Ace-1 mutations,
+  and expression of detoxification enzymes in Anopheles gambiae (s.l.) in two regions
+  of northern Benin in preparation for indoor residual spraying
+first_author: Albert Sourou Salako
+doi: 10.1186/s13071-018-3180-2
+pmid: '30509288'
+publication_year: 2018
+countries:
+- Benin
+data_source: journal_article
+provenance:
+  source_text: Salako et al. Parasites & Vectors (2018) 11:618 https://doi.org/10.1186/s13071-018-3180-2
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

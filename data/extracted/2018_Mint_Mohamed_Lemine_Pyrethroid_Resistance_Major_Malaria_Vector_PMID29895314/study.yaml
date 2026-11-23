@@ -1,0 +1,21 @@
+study_id: 2018_Mint_Mohamed_Lemine_Pyrethroid_Resistance_Major_Malaria_Vector_PMID29895314
+title: Pyrethroid resistance in the major malaria vector Anopheles arabiensis in Nouakchott,
+  Mauritania
+first_author: Aichetou Mint Mohamed Lemine
+doi: 10.1186/s13071-018-2923-4
+pmid: '29895314'
+publication_year: 2018
+countries:
+- Mauritania
+data_source: journal_article
+provenance:
+  source_text: Pyrethroid resistance in the major malaria vector Anopheles arabiensis
+    in Nouakchott, Mauritania. Parasites & Vectors (2018) 11:344
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,23 @@
+study_id: 2018_Vontas_Rapid_Selection_Pyrethroid_Metabolic_Enzyme_PMID29674455
+title: Rapid selection of a pyrethroid metabolic enzyme CYP9K1 by operational malaria
+  control activities
+first_author: John Vontas
+doi: 10.1073/pnas.1719663115
+pmid: '29674455'
+publication_year: 2018
+countries:
+- Equatorial Guinea
+data_source: journal_article
+provenance:
+  source_text: Rapid selection of a pyrethroid metabolic enzyme CYP9K1 by operational
+    malaria control activities... John Vontas, Linda Grigoraki, John Morgan, Dimitra
+    Tsakireli, Godwin Fuseini, Luis Segura, Julie Niemczura de Carvalho, Raul Nguema,
+    David Weetman, Michel A. Slotman, and Janet Hemingway
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

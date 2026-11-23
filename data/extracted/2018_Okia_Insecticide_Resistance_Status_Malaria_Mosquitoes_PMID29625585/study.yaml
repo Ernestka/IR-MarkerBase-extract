@@ -1,0 +1,21 @@
+study_id: 2018_Okia_Insecticide_Resistance_Status_Malaria_Mosquitoes_PMID29625585
+title: 'Insecticide resistance status of the malaria mosquitoes: Anopheles gambiae
+  and Anopheles funestus in eastern and northern Uganda'
+first_author: Michael Okia
+doi: 10.1186/s12936-018-2293-6
+pmid: '29625585'
+publication_year: 2018
+countries:
+- Uganda
+data_source: journal_article
+provenance:
+  source_text: 'Insecticide resistance status of the malaria mosquitoes: Anopheles
+    gambiae and Anopheles funestus in eastern and northern Uganda'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

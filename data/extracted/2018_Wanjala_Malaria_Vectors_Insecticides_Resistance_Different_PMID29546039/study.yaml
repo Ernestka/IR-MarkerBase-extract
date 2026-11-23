@@ -1,0 +1,22 @@
+study_id: 2018_Wanjala_Malaria_Vectors_Insecticides_Resistance_Different_PMID29546039
+title: Malaria Vectors Insecticides Resistance in Different Agroecosystems in Western
+  Kenya
+first_author: Christine Ludwin Wanjala
+doi: 10.3389/fpubh.2018.00055
+pmid: '29546039'
+publication_year: 2018
+countries:
+- Kenya
+data_source: journal_article
+provenance:
+  source_text: 'Wanjala CL and Kweka EJ (2018) Malaria Vectors Insecticides Resistance
+    in Different Agroecosystems in Western Kenya. Front. Public Health 6:55. doi:
+    10.3389/fpubh.2018.00055'
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

@@ -1,0 +1,22 @@
+study_id: 2018_Ndo_Elevated_Plasmodium_Infection_Rates_High_PMID29519247
+title: Elevated Plasmodium infection rates and high pyrethroid resistance in major
+  malaria vectors in a forested area of Cameroon highlight challenges of malaria control
+first_author: Cyrille Ndo
+doi: 10.1186/s13071-018-2759-y
+pmid: '29519247'
+publication_year: 2018
+countries:
+- Cameroon
+data_source: primary_study
+provenance:
+  source_text: Elevated Plasmodium infection rates and high pyrethroid resistance
+    in major malaria vectors in a forested area of Cameroon highlight challenges of
+    malaria control
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

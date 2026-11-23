@@ -862,6 +862,22 @@
  "bj|Okéola, Ketou, Plateau": [],
  "bj|Okéola, Plateau": [],
  "bj|Ou'm'": [],
+ "bj|Ouake": [
+  {
+   "lat": 9.66425,
+   "level": "town",
+   "lon": 1.38593,
+   "name": "Ouaké, Donga, Bénin"
+  }
+ ],
+ "bj|Ouake, Donga": [
+  {
+   "lat": 9.66425,
+   "level": "town",
+   "lon": 1.38593,
+   "name": "Ouaké, Donga, Bénin"
+  }
+ ],
  "bj|Ouidah-Kpomasse-Tori": [],
  "bj|Ouidah-Kpomasse-Tori health district": [],
  "bj|Ouidah-Kpomasse-Tori health district, Atlantique": [],
@@ -1007,6 +1023,14 @@
    "level": "admin2",
    "lon": 2.67655,
    "name": "Sakété, Plateau, Bénin"
+  }
+ ],
+ "bj|Segbana, Alibori": [
+  {
+   "lat": 10.97624,
+   "level": "admin2",
+   "lon": 3.50534,
+   "name": "Segbana, Alibori, Bénin"
   }
  ],
  "bj|Seme": [
@@ -2217,6 +2241,14 @@
  ],
  "gq|Cacahual": [],
  "gq|Cacahual, Bioko Norte": [],
+ "gq|Malabo, Bioko Norte": [
+  {
+   "lat": 3.74188,
+   "level": "town",
+   "lon": 8.77407,
+   "name": "Malabo, Distrito de Malabo, Bioko Norte, Región Insular, Guinea Ecuatorial"
+  }
+ ],
  "gq|Mongola": [],
  "gq|Mongola, Bioko Norte": [],
  "gq|Riaba, Bioko Sur": [
@@ -3549,6 +3581,8 @@
    "name": "Cercle de Niono, Ségou, Mali"
   }
  ],
+ "ml|Pimperena": [],
+ "ml|Selenkenyi": [],
  "ml|Sokourani/Toumakoro": [],
  "ml|Sokourani/Toumakoro, Niono, Segou": [],
  "ml|Sokourani/Toumakoro, Segou": [],
@@ -5290,6 +5324,8 @@
    "name": "Pharmacie diamaguene, N 1, Mbatal, Commune de Diamaguène-Sicap Mbao, Arrondissement de Thiaroye, Département de Pikine, Région de Dakar, 10000, Sénégal"
   }
  ],
+ "sn|Dielmo": [],
+ "sn|Dielmo, Fatick": [],
  "sn|Djida Thiaroye, Dakar": [
   {
    "lat": 14.76527,
@@ -5301,6 +5337,20 @@
  "sn|Djida Thiaroye, Mbao, Dakar": [],
  "sn|Djnkore": [],
  "sn|Djnkore, Tambacounda": [],
+ "sn|Fatick": [
+  {
+   "lat": 13.9406,
+   "level": "admin1",
+   "lon": -16.4024,
+   "name": "Région de Fatick, Sénégal"
+  },
+  {
+   "lat": 14.33396,
+   "level": "town",
+   "lon": -16.40422,
+   "name": "Fatick, Département de Fatick, Région de Fatick, Sénégal"
+  }
+ ],
  "sn|Gouloumbou, Tambacounda": [
   {
    "lat": 13.4692,
@@ -6533,6 +6583,55 @@
    "name": "Kole, Uganda"
   }
  ],
+ "ug|Apac District": [
+  {
+   "lat": 1.98262,
+   "level": "amenity",
+   "lon": 32.5293,
+   "name": "DISTRICT MEDICAL STORE, Akokoro Road, Atopi Trc, Apac, Northern Region, Uganda"
+  },
+  {
+   "lat": 2.12971,
+   "level": "secondary",
+   "lon": 32.80229,
+   "name": "Apac Road, Te-Obia, Central, Olaya, Lira Municipality, Kole, Uganda"
+  }
+ ],
+ "ug|Apac District, Northern Region": [
+  {
+   "lat": 2.12971,
+   "level": "secondary",
+   "lon": 32.80229,
+   "name": "Apac Road, Angwetangwet, Te-Obia, Olaya, Lira Municipality, Kole, Northern Region, Uganda"
+  },
+  {
+   "lat": 2.23695,
+   "level": "secondary",
+   "lon": 32.89274,
+   "name": "Apac Road, Te-Obia, Lira City, Lira Municipality, Lira, Northern Region, Uganda"
+  },
+  {
+   "lat": 2.23569,
+   "level": "secondary",
+   "lon": 32.89182,
+   "name": "To Apac, Te-Obia, Lira City, Lira Municipality, Lira, Northern Region, Uganda"
+  }
+ ],
+ "ug|Apac, Apac District, Northern Region": [],
+ "ug|Apac, Northern Region": [
+  {
+   "lat": 1.93373,
+   "level": "admin1",
+   "lon": 32.5018,
+   "name": "Apac, Northern Region, Uganda"
+  },
+  {
+   "lat": 2.29882,
+   "level": "admin1",
+   "lon": 32.73595,
+   "name": "Kole, Northern Region, Uganda"
+  }
+ ],
  "ug|Arua": [
   {
    "lat": 2.83553,
@@ -6885,6 +6984,73 @@
    "name": "Soroti, Soroti City, Eastern Region, Uganda"
   }
  ],
+ "ug|Soroti District": [
+  {
+   "lat": 0.94161,
+   "level": "village",
+   "lon": 33.11955,
+   "name": "Soroti, Kamuli, Eastern Region, Uganda"
+  },
+  {
+   "lat": 1.71552,
+   "level": "office",
+   "lon": 33.61128,
+   "name": "Soroti Resident District Commisioner, A7, Soroti, Soroti City, Eastern Region, Uganda"
+  },
+  {
+   "lat": 1.70436,
+   "level": "office",
+   "lon": 33.6973,
+   "name": "Soroti District Local Government, Lira - Mbale Road, Cell F, Soroti, Eastern Region, Uganda"
+  },
+  {
+   "lat": 1.54688,
+   "level": "amenity",
+   "lon": 33.43831,
+   "name": "Serere District Farm Institute, igola-serere, Serere, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Soroti District, Eastern Region": [
+  {
+   "lat": 1.71552,
+   "level": "office",
+   "lon": 33.61128,
+   "name": "Soroti Resident District Commisioner, A7, Soroti, Soroti City, Eastern Region, Uganda"
+  },
+  {
+   "lat": 1.70436,
+   "level": "office",
+   "lon": 33.6973,
+   "name": "Soroti District Local Government, Lira - Mbale Road, Cell F, Soroti, Eastern Region, Uganda"
+  },
+  {
+   "lat": 0.94161,
+   "level": "village",
+   "lon": 33.11955,
+   "name": "Soroti, Kamuli, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Soroti, Eastern Region": [
+  {
+   "lat": 1.78791,
+   "level": "admin1",
+   "lon": 33.50073,
+   "name": "Soroti, Eastern Region, Uganda"
+  },
+  {
+   "lat": 1.4917,
+   "level": "admin1",
+   "lon": 33.35684,
+   "name": "Serere, Eastern Region, Uganda"
+  },
+  {
+   "lat": 1.71395,
+   "level": "town",
+   "lon": 33.61129,
+   "name": "Soroti, Soroti City, Eastern Region, Uganda"
+  }
+ ],
+ "ug|Soroti, Soroti District, Eastern Region": [],
  "ug|Tororo": [
   {
    "lat": 0.74076,

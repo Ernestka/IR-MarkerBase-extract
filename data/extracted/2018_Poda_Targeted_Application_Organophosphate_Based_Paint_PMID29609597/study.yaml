@@ -1,0 +1,21 @@
+study_id: 2018_Poda_Targeted_Application_Organophosphate_Based_Paint_PMID29609597
+title: Targeted application of an organophosphate-based paint applied on windows and
+  doors against Anopheles coluzzii resistant to pyrethroids under real life conditions
+  in Vallée du Kou, Burkina Faso (West Africa)
+first_author: Serge B. Poda
+doi: 10.1186/s12936-018-2273-x
+pmid: '29609597'
+publication_year: 2018
+countries:
+- Burkina Faso
+data_source: pub_article
+provenance:
+  source_text: Poda et al. Malaria Journal (2018) 17:136 https://doi.org/10.1186/s12936-018-2273-x
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)

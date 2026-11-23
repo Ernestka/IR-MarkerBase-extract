@@ -1,0 +1,22 @@
+study_id: 2018_Riveron_High_Plasmodium_Infection_Rate_Reduced_PMID29087484
+title: High Plasmodium Infection Rate and Reduced Bed Net Efficacy in Multiple Insecticide-Resistant
+  Malaria Vectors in Kinshasa, Democratic Republic of Congo
+first_author: Jacob M. Riveron
+doi: 10.1093/infdis/jix570
+pmid: '29087484'
+publication_year: 2018
+countries:
+- Democratic Republic of the Congo
+data_source: journal_article
+provenance:
+  source_text: High Plasmodium Infection Rate and Reduced Bed Net Efficacy in Multiple
+    Insecticide-Resistant Malaria Vectors in Kinshasa, Democratic Republic of Congo.
+    Riveron et al. J Infect Dis 2018;217:320-8
+  page: '1'
+  table: null
+  figure: null
+  supplement: null
+confidence: high
+model: gemini:gemini-3.5-flash
+extracted: '2026-11-23'
+pmid_source: Europe PMC (from DOI)
